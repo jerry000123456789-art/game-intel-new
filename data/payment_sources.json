@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T14:44:07+00:00",
+  "updated_at": "2026-11-07T14:46:00+00:00",
   "items": [
     {
       "game": "崩壞：星穹鐵道",
@@ -108,6 +108,51 @@
       "evidence": "官方優惠儲值頁（活動可能已結束）",
       "verification_status": "公開活動頁面列示會員扣點儲值，非即時支付實測",
       "first_seen_at": "2026-11-07T14:00:00+00:00"
+    },
+    {
+      "game": "原神",
+      "provider": "Codashop",
+      "source_url": "https://www.codashop.com/zh-tw/",
+      "title": "Codashop 台灣熱門儲值遊戲列出原神",
+      "evidence": "台灣商品目錄列出遊戲（實際品項依來源）",
+      "verification_status": "官方網站可查，未實測付款",
+      "first_seen_at": "2026-11-07T14:46:00+00:00"
+    },
+    {
+      "game": "怪物彈珠",
+      "provider": "GASH",
+      "source_url": "https://tw.gashpoint.com/games?lang=zh_TW",
+      "title": "GASH 台灣遊戲熱門排行列出怪物彈珠",
+      "evidence": "官方合作遊戲目錄（不等同所有 GASH 卡均適用）",
+      "verification_status": "官方目錄可查，付款請以遊戲商品頁為準",
+      "first_seen_at": "2026-11-07T14:46:00+00:00"
+    },
+    {
+      "game": "勝利女神：妮姬",
+      "provider": "Midasbuy",
+      "source_url": "https://www.midasbuy.com/midasbuy/us?lang=en",
+      "title": "Midasbuy 全球商品目錄列出 GODDESS OF VICTORY: NIKKE",
+      "evidence": "海外官方儲值目錄（請先核對遊戲及付款地區）",
+      "verification_status": "官方海外目錄可查，台灣可用性未驗證",
+      "first_seen_at": "2026-11-07T14:46:00+00:00"
+    },
+    {
+      "game": "鳴潮",
+      "provider": "Midasbuy",
+      "source_url": "https://www.midasbuy.com/midasbuy/us?lang=en",
+      "title": "Midasbuy 全球商品目錄列出 Wuthering Waves",
+      "evidence": "海外官方儲值目錄（請先核對遊戲及付款地區）",
+      "verification_status": "官方海外目錄可查，台灣可用性未驗證",
+      "first_seen_at": "2026-11-07T14:46:00+00:00"
+    },
+    {
+      "game": "原神",
+      "provider": "MyCard",
+      "source_url": "https://www.mycard520.com/web/zh-tw/MicroPayment",
+      "title": "MyCard 官方網站有原神儲值教學",
+      "evidence": "儲值教學入口（不能直接推定可使用 MyCard 點卡）",
+      "verification_status": "僅查到官方教學入口，未核實支付品項",
+      "first_seen_at": "2026-11-07T14:46:00+00:00"
     }
   ],
   "note": "官方商店與合作來源線索；不能由新聞提及推斷可以直接付款。"

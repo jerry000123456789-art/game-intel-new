@@ -1,7 +1,728 @@
 {
-  "updated_at": null,
-  "status": "not_run",
+  "updated_at": "2026-11-07T07:20:13+00:00",
+  "status": "ok",
   "errors": [],
-  "note": "尚未執行第一次自動蒐集。",
-  "items": []
+  "note": "RSS 標題線索，尚未驗證兌換碼、上市日期或活動細節。",
+  "items": [
+    {
+      "id": "8770cb5d0dffafb7a934",
+      "category": "兌換碼",
+      "title": "Ragdoll Boxing 3D Codes for November 2026 最新兌換碼一覽 - games.gg",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVEQ4Tm11Yzg0Z3N5b3hlaGJzVFNXdWRhRzEyZkg3SnNaM1MxeVBYbFR0ekRWSDNiM2g2WGp4ZzdmVmlzY3p3dk9DeVdHS204cEFySXRsdFl2bnppSlVrOEpsU0hLS0ZUSW5vM2F4dGxubkt4UnhfYmRqNWlZNmwxQjQxM0dQZEltY1liaWozbzEtTUEyUFVqRVJ0M3BEVTg4S21GaWRSM0w1RlFaRkpLTk5LUGVYVUp5TXhRY3ZDYjB5NExuZnRuTUd0QXhtbmpzeHp0bGJTTUZZLWpGN0E?oc=5",
+      "publisher": "games.gg",
+      "published_at": "2026-11-06T21:33:27+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "c02cb1754ca5bda767c2",
+      "category": "新遊戲資訊",
+      "title": "《拉捷特與克拉克》手遊多國測試反應不佳 宣布終止正式上市 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTUFVdWUtYS1CRzU0VEVpMTVFSkR5SzduSEt1Z1lOOTdlSkw0QmVYSHk5UGY5eG1lUmN0cFBaNExwYXhKYk5PT1pyT29VbVFkVktYaGlONlZfdUVJWF9JUVhrbFVYdnJjakVqMWxreVJDMExaZF9zMkc1Vy1WSlpHUGFneGgzbGFSN1A0RXQwOUxWOUFnb2pBZ2ZRa3FvT3FtRnQ2YkFOWQ?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-11-06T19:22:17+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "2b8198fdcbcbeecf0925",
+      "category": "兌換碼",
+      "title": "【格鬥天王：拳面出擊】兌換碼與禮包碼序號・11月6日更新 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50VVFReFJrV1RKRFc4RlFFTFlsQXE3NnpmdXZlSjFDX090WGJBU3JkcXM1dldfdzN2dV9sallRcTY0OU9KZlVNLVdfcDFnUjB4ajUyWjF3?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-11-06T09:40:02+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "fa04894a54b13d5f7956",
+      "category": "新遊戲資訊",
+      "title": "Nexon全新MMORPG《裝備仔：OVERGEARED》預定11/25正式上市 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeHVKUTJ3cWdPRkRZUXNBTmdGRkluVnV4ZnlLVXlWekFXcEhBazZCNEQ4a1FYZWRPTFdYREY0TTNYQ1gzRnhmNkZyeThRT2x5ZzM1SmJBczU5ZWJkXzV2X0lQaXFjVXROSG9ZbUV4ek9DWGl2RF9VTndMeEJZY20zd29yRFRSN0xBWjg3ZGh3SEczdlRLbXNrZA?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-11-06T07:41:36+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "74d7e023fd4fe58f9778",
+      "category": "兌換碼",
+      "title": "7-ELEVEN跨界《原神》11/10開跑，消費滿額就送原神兌換碼 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQb0VIa0cwRFdVeHdIdWdabnQ1djlNUW1BeXNmVUJmZ0dDZmVIdDB1UTJlUDFtTnRJMTVTM0pfNm1rY2JORTQ5cXZlaXpmcE9ISUt1c2cxRS1pMmJ1UFdlNXpTRVFLMDluQzRyZ0M0dllPclR1Z2s3d1I4Q1FvejJoVTdTNWxtM3JR?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-11-06T04:41:35+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "7f6c36107e9602446d37",
+      "category": "新遊戲資訊",
+      "title": "GTA 6 發布圖輯公開近 40 張全新遊戲畫面 - games.gg",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQOURLRnVidkJJQXN3Rzd0VkhjYnFBRW5nX0gxMHZGV1hqN1BvdUlrZEkxQkY3elNZaDhUVmN4aWZMVjVsZDZOMFJyVm5SSFdNanhVN0RZNFN6enI2TEZiZGFiR25vNm41LXRXVVpsSEZtbG5faENpOG9teXBzUXZydnNveFlGNjFsZmRmM2VRZUFTZUwwelNuOERnUEFmalJYZTRfTU1vRFY0SGhtVmpTXy15ZFdER19DakZRT2hRbXpidVYteGVKS0MyMkxfdnpjZS0tanlqeVp1NW93Sm1vbV9kbUpnVnNpZFhteG5wY2xUdENsZlRNb2hMcw?oc=5",
+      "publisher": "games.gg",
+      "published_at": "2026-11-05T17:07:10+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "804bf403b93c5244785e",
+      "category": "新遊戲資訊",
+      "title": "《崩壞：因緣精靈》宣布 2027 年春季展開公測新一輪「幸福測試」今日開啟招募《Honkai: Nexus Anima》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1pQm1IUW1Cb2dFSkdwZWRzWUpwdWQ3d0FVMW1YZUJ0MHVIa1RMRHBLbFBmblc3TWlub0JoUFlJbUk1akRwTmZzcmt0Qnowa1dUdUNnaDhwWGE?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-11-05T08:21:04+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "c9c3c13b3699cb712d70",
+      "category": "遊戲攻略",
+      "title": "《Disney Sparklink Stars》新手攻略！首抽方向、角色培育與三消玩法一次掌握 - SouNova 少女星",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9HNUhzM1pIbFJTbThYS1dBQWczU0F0cmFMZXFGTkRQOHZKc1VjdTJQSmhSN2JVUEY3a0NnaDRLdDljQlVNbTY4UW1ycklYQlF0ZV9UUzVMREh2VndGcVdJWmxhX3dRWnpIRGQ2Sms1d0k?oc=5",
+      "publisher": "SouNova 少女星",
+      "published_at": "2026-11-05T08:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "9676ea80567fcba4e26b",
+      "category": "新遊戲資訊",
+      "title": "台灣獨立團隊本格推理遊戲《異病偵探》Steam 正式上市13 名病能者捲入「殺人不被發現就能成神」的死亡遊戲 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9UbGpwMC05S0tKSWpZeFFkODgtRlNseTMtVlkwV2lpNHl5ME8tT2RBNE9JVHR0VkRPZHA2WERCTi1VRldJVDVTMTg2NHFzWnhmU3h1aWswV3dXTzQ?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-11-05T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "7266ee0dba12cc1cf199",
+      "category": "新遊戲資訊",
+      "title": "米哈遊新作《崩壞：因緣精靈》2027 年春季公測！全新「幸福測試」11 月 25 日開跑 - Paradaily",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9nQnVUMVNCUDVSZFBUamZLcGJMRk9lM05YaWdzb21rLTA2VlJWTWxfS2lSbVhjWFlsYU1TS3dSTnp0dlowT1VUb2NQbmU1bmtWSGRSRGhJdkdlWi1VcVJ6ZjlRZUY0VXlVbU00QVBNUmtxdzdXLWVR?oc=5",
+      "publisher": "Paradaily",
+      "published_at": "2026-11-05T06:03:56+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "99da03a821252440b871",
+      "category": "活動行事曆",
+      "title": "《亡途轉生》與動畫《迷宮飯》首次聯動合作開啟 萊歐斯、瑪露希爾、法琳、米斯倫以點陣動畫在遊戲中登場 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9aOVZIbVlYZmtlQ05BUWdOU3I2M2VYN0RTTkJzN0ZUd3YyelJZQlQzUnhzYXRmeWRiQjVuZkxTQWJuV1FaLWFTcTZxQ3JjbF9HcVR0dGx2RlY?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-11-04T09:13:44+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "d4cf9a2d0cf30c40c61a",
+      "category": "遊戲攻略",
+      "title": "《Disney Sparklink Stars》正式推出！15 名原創角色集結，結合三消益智、舞台競演與角色養成 - SouNova 少女星",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAxQmJrYkhNREozeVJaR1FaZ2FCdVFSYkd2eFUtS0l4aVZOS1NBVENOX0FBYUhRZllVcXhuMlNsUHdFMm5CYzYzMlZ6UEVUbFBNTHRJeXowaUpVX2lsZGx6dmVrR00?oc=5",
+      "publisher": "SouNova 少女星",
+      "published_at": "2026-11-04T06:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "4ddf7cb2b9eae9b0a7f2",
+      "category": "活動行事曆",
+      "title": "《鬥陣特攻》×《劍星》合作活動造型曝光 奪命女「伊芙」D.Va「百合」概念設計圖公開 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSlVlQ3JMYlpod1B2NnNlNFZpVi1CWVUwdXVPNWM0WkR3YUxjbnpDanYzaFBzZTU4RnhaSGFMQnJCV0hMekRIQlhkRmJWajROQVFCcDRxbWczNGpwRE1kWTk4Q0x2WWE2TzRPbEdzUEJzZDJJdG4zazdHZzNMQ2hvVER1N3IzYmtWNUxIdDhHSjhQTmI3VjdZZ2l2bDZxR0RwRi1NYmpaSVB4MGM?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-11-03T11:05:51+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "ec127fba1b5d8fe2b0f8",
+      "category": "活動行事曆",
+      "title": "《蛋仔派對》首度攜手《丸亀製麵》推出限量聯動周邊與專屬餐點《Eggy Party》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5OS1N2eFcwcnVVTEFSMms5R3NyTld1ZUcyTlpNZ0hxQnBSbXRqU2VoWDQ3NUFxNnc2NzZsQ1l1RklqdklOTkM1OWg4a1JqMTFSTlVZZVh6Qkk?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-11-03T06:58:10+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "0db3c036775cbc982393",
+      "category": "兌換碼",
+      "title": "【最強劍尊】兌換碼與禮包碼序號・11月3日更新 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9KMzhiSlZqSFFTdkUwTk1ucFlGRGs4X2EwYllady1WSUtHQndpek9hTDZkUjhpQXphLVZfS1RtakhDbDc4cy1SNEswRExlS09seHpjMWlQMA?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-11-03T04:25:10+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "e0aa03ab43de98a14fda",
+      "category": "活動行事曆",
+      "title": "《明日方舟》與『一風堂』推出聯動活動全新主線「相變臨界」同步開啟《Arknights》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE93Z25JUTNKWjh4cVE1NW9aanNRdHF0dlM5U0FRLUtOWjBNSGxfRmdpeXRKVXg5TDJCQjdBRElXYmVPd3hsUnY4U1dENlFwS2RIcXB0YWt3VGg?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-11-02T08:52:13+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "aabafe31ce7aa600565b",
+      "category": "新遊戲資訊",
+      "title": "偵探動作RPG《白銀之城》12/14全球公測 同步公開角色宣傳影片 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUWtLOEtJclVfM2JjaVZZcHZFZlpGQy13NDJOdHZWZnR5b0ZQRUxPdlB1U1dkeTBmRENVN3dwMF9nR0RrZ3hsMzRsZktFRmR5SjZBOVVwN0tERFZTaWk1dHZwdks5bEkzRG5RTndTa2pPUGNHUGVnY0h5Rld5V1dsVXJNZUJDQ2N5clA1M0gwWUg1THF2MHQ0?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-11-01T09:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "bb25acd438a473aff8f8",
+      "category": "遊戲攻略",
+      "title": "FF Resonance 角色養成指南：升級要訣 - games.gg",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPd2VGV2pKMFljRHpwR0tFWE5SM0R4Vk81Q1FBZDZ2b1lobWhqcm9heEpxUm1POXRadUxUbUtFUU1seXJWdGFRRnFDWlRWTjMxNUJtOUh1OWRrN1hLUGU0Y2dNQ2Z5Q2w2aldqck1ETkxWUlM0blZLc1hLWW9sSE1GRDlmYWxnd0ctaUl4S2syQzBiNVF5SHRqUHI2eDNpNEViMktjM1RSRVZwbVF6dU8tOWpHbXVWRFc1LUFNSjNfQ1dpWVVqTi1raWctM3lzV0hubHQtSE5mUGNrRHhFZmxGeV9HMWloSGJndnFadnpNSENEUQ?oc=5",
+      "publisher": "games.gg",
+      "published_at": "2026-10-30T15:19:39+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "8b32cfa58f1c97000101",
+      "category": "新遊戲資訊",
+      "title": "《我在三國當村長》公測開跑！三國女團形象 MV 曝光 劉備、張遼等新武將登場 - 上報Up Media",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0ySTJaWFRXTDhoQ1B4U1FORjF6MjRqZXpRdDBVTmUyek1BbG1sS2dnTWFXOXU3cHB1WVJmT1dGLTlzaGJkRjFobHpZYWt1Yk1NUlZScEc2Zms2WVRpVXc?oc=5",
+      "publisher": "上報Up Media",
+      "published_at": "2026-10-30T14:10:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "47f33f949a9427161187",
+      "category": "兌換碼",
+      "title": "《魔物獵人：旅人》兌換碼最新整理！免費露塔幣、銀幣與道具領取方式一次看 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMi9wNBVV95cUxNc3kxSjlHTHFncjdwZEhTc0hjMkIwMkR0RjVsVVk4bjd0Tmgtdm1OQWpveGhtZXJ5NFdUbUpiRi1uVFVSNF9OZFVjdDZ3WmRLckN4OFBtU2JGNEk4UmxHOXVEamZUYW45YmZFS3N6ZzExVjVmb2o1OHJINkxIWnZqT0daZzF4alFvUURTQmxVbm9RUmkyckJOM0wxUHd6OHQ5ZGxrOHoyRy04dnMyMlJtQmFrVmZ4cUptamota1lyNDE4RllpVk5TeXp1U25yQjl3dUQtbnhRdV91WkVrM2dXQXJFSXVmeXo0UHVNMWd3c2lJNHRQN3k5SjN6a3NrcHdFakJYekxEbGVkN0NfcWl2bF9DRGxXdG8xUGt1eE9PVFVfT0pIRWxmd2l5c0Y5MTY2UjRoT2xNR1dyeVE1eFVMSVBva1VqbUxKV3Q4Q3Vqd2UxTTZGTk1aakFsM1Jwa1VZZE8wUDE5dTVqQmdFdDlodFFfZ0tSelFyZ3FyeFppVTRFbWlIRkpxeFd0anpfOTRza1Rodk94NkV6cExOdkhRN3JWNW1VNFo2bW1tRmRHZHBqdTZXczd6OHNGbmMzVHl0dTc0N2I2MjBGMDVRWm9WQWRlMjBqLUR0QU5SbHNwU0k5eG85MVNvVTdaS3BsSWs5MWNtc0Zabw?oc=5",
+      "publisher": "Yahoo新聞",
+      "published_at": "2026-10-29T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "c69ba5f5d2cac4aef22d",
+      "category": "兌換碼",
+      "title": "【魔物獵人：旅人】兌換碼與禮包碼序號・10月30日更新 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE45b0FlaE52MERlMWVsSzlBSGhzclF3Q0w2TzcwaXZ6TFozcXk4X2huSEFBUGdJbW1WcFpLQ0gyYWUtbFdjMHVkbVNZMC1FZTBSMzZiQlhVYUYwMHdNcVlvTWtlR20zR01SdXYw?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-10-29T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "499c0be16fb3fca0dfbc",
+      "category": "遊戲攻略",
+      "title": "AI生成遊戲Wiki激增！亂寫攻略SEO洗版 衝擊獨立攻略站流量與成本 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeXFPb1FnUkp4MHR6RU4yOHJGejZGQVZ5YklhSzNyTG9vM0x1YnFKUElZZk90Zm1KdkhWLThPZzBjR1NERnB4S29aUTZldHluUnN6TnZVc3NIRjREa0V5Yk85aEYwUElHaEJiR3VVWHR1UGtJNVVQcnhfNll6eDZadWF1NDVuc3ZOcWl4Y2xsaml2Q1lZNVpXS2l3ZWozRG9iZ216M0xwTFpYRkFaUUdiRDY0eDdrQzQtTTU2Z0MzeU5HcTdL?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-10-28T06:35:49+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "0b6eb49f21682a65dc97",
+      "category": "兌換碼",
+      "title": "鳴潮桌寵《Wuwa Tappo》免費下載！玩法介紹＋兌換碼送「秧秧 · 經典」 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOelpKVGFaX2tUbU8wMWdRUzhTRFBWSlNTZDVMb2QxM01ELXZHM0p3V3phSnJBQVdNbk5LSmxtOWZzUzdncnFRSXZBMjdkMFRubGpDOENFSjZCazhINFd4amZid3ZwbEZQRkluOXF6cHoydFJ1Q0ZEaUg2SzFETXpRLXJrX1NVenJXUjV1U2Z1MUFwZmZm?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-10-27T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "4609cf504d34566d89a5",
+      "category": "兌換碼",
+      "title": "2026年10月最新 Bey Rivals 兌換碼 - games.gg",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMm1tZ04xWl9zQVAtS2RzUWJJc2JqbzQ0MkxhWGp4Nnl2MzRYZ3NxWTBScXFsQzRjMFJIWW1CZGt4RXZRdDh6UXEyU3FIblZiZzhaQk04ZW9kZWFsMFAzbGFsd3Boc1o4MWR6emFJYWdTdEtUcUozSXpkcXpXdjJLT2RrTG0wNlh5WURaY0VPaXQ4dnlVWkJtUWZPTWNfMHFzNWUtNTh0Yk9MRV9kLXZ6dzllX1g3SGtseVdqZUlR?oc=5",
+      "publisher": "games.gg",
+      "published_at": "2026-10-27T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "da1d8613a211f3e4248e",
+      "category": "活動行事曆",
+      "title": "《藥師少女》聯動《龍族拼圖》！貓貓、壬氏登場　限定轉蛋到11/4 - NOWnews今日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1GNkpubV95WmtjOFJVV0JiM3E0ZUhfVmh3WXpxd1hTbjg4dnJyZlNIQ2NBZmlvYU5qZ01fdUxpa0o1OHptUHMyRDBrdkLSAVJBVV95cUxQZUZDbkRtdUp2NWwybVpDRW4yNk1QMkcweGx0TmE0eU1fdTBDaXdlTW8zeHNKWnV4ZG5DXzRsZURFbVVjREphZ29pOWYwZ1dKSUNB?oc=5",
+      "publisher": "NOWnews今日新聞",
+      "published_at": "2026-10-27T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "1550590c94ecb1682644",
+      "category": "遊戲攻略",
+      "title": "《鳴潮》余心所向，九死未悔「鎖暝」全方位養成攻略：組隊、手法與抽取推薦 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sQnpNMGo1bW1oeHc3VkRxSDhJeGl3XzBCZGpCbzFrUy1icDMydkt3QzVvVUVDbjV5TUNtenhURUpUdDNNeTR0Zms4cUZfTGVLSU50ZWpRQ09jOHRCTnVndzZzWWpQaEpCQzNVc1doeGVnWS00QTcxWXN0d2hzbm8?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-10-22T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "6eca7fba7d3cc2313357",
+      "category": "活動行事曆",
+      "title": "《麻雀一番街》×《狂賭之淵××》聯動今日開跑四款限定造型與活動「麻雀之淵」登場《Riichi City》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE13RzY2VjlGQXpIbGZ2cEVJWE9JVmJycm9COEFCbi15eUp5UENGMC02cmMzZUxjVDdCOE1CZklGQzg3dmVfV1JqRGFQMHMzVDMtenBxSmRyZjM?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-10-22T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "be9715f29e27cbf818be",
+      "category": "活動行事曆",
+      "title": "《戀與深空》×《銀翼殺手 2049》聯動活動今日上線 聯動特別獎勵還原電影經典畫面 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1VaWdRdFUtQ1MtUktWSTZiZXdndlhYRTAtZlpHYzg1ZUExeG5GLVZWWVY0dk82ZzRnbWlDMVYzaE5YMVFISG54Q1dPMnNJQzdzQkQyQ0tlREw?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-10-19T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "dffb032fcd98769628e5",
+      "category": "新遊戲資訊",
+      "title": "跟著節奏指揮前進！《啦嗒噹》今日正式上市同步公開Version 1.0 更新內容《RATATAN》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB5Z0sycVBFN3JlcEU3T25SeVJSQ21CZDAwVTNZeU1ZV3FGZ2J4YkpnWTZqbnBrRHpETHdVaUFMSXdtNVFOMEdFLTZrUmNPMWt3N1VaSzhLZ0Y?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-10-15T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "04dea37e2f912dc7efc4",
+      "category": "兌換碼",
+      "title": "【蠟筆小新：GO！】兌換碼與禮包碼序號・11月4日更新 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9OTmtrelBtalg1UDJCeTFBejV1cUJtdmQwMDNMQ2sxamxrcVJpY1NXUmR3TjFldEFyXy1zcVNfNjNUTGJVRnFJd2MxV3VPTmE4MDMySENFVQ?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-10-15T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "0621c8f0c87b61ebb033",
+      "category": "活動行事曆",
+      "title": "《鳴潮》與海底撈台灣推出限時聯動活動限定套餐、角色周邊好禮登場《Wuthering Waves》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAwNVV6VnN2Nm1rcllRZnpvZWo0c0hFanRhQXJoenBaNjhkVEZ2TldnaGlhWXZRZjlHbE9NcUV0UjlvZ3phcHFITWlab2hKTlAwYzdaNGtxQmM?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-10-05T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "8293ec32ba6e5122d60e",
+      "category": "遊戲攻略",
+      "title": "《鳴潮》但願長圓如此夜「心」全方位養成攻略：組隊、手法與抽取推薦 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5pa1pIWG9DQUh6V1g5bm5NejFNUHZQcWtPM3ZieEc5TF9vWFpScGhVdXRnb1J0MVVNV2Q2aWdFWW1CMjluUjdqNC1TcjVUNGN4VGRFZGpDVGNueElYbmE1UzVlZUx5RnY2a0VGX0JvTVJYLW1Wb0VEUnNHTXA?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-09-30T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "32f04ec5e2065cb7860a",
+      "category": "兌換碼",
+      "title": "【嘎嘎特攻】兌換碼與禮包碼序號・10月26日更新 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11MXdya1gzZzl4SkdNUkxmWllGN01raDdoZ2FmT1ZDWjRhQ1BhTkFDZGRZTUNjNFhlWm9xLUpteE9PSnJ3ZGkzSkRYRzhkOWJwNTFjR0FB?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-09-26T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "292314911d2c384038e9",
+      "category": "兌換碼",
+      "title": "【箭神請息怒】兌換碼與禮包碼序號・10月10日更新 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWMGRISFpZMWRsNVNwMXJXZGVLQWpWVXc1REktdXRmbEpYMTlFUmJuNzlJX1pMTkJ4SGxpUTBrSlUzYmdGZXMzYXNCVkRYRkcyRTFXblNXQ1RRQ2VTTW9z?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-09-26T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "d0b8c27d116a4051032f",
+      "category": "活動行事曆",
+      "title": "要塞英雄迎「Kingdom Hearts」聯動經典角色現身限時活動- 科技新聞 - PChome Online 新聞",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxON0tzVVF6ZmN2OGpjcVNjajJvcllOZ1cwdFNXNjRQdUVaeC1VZEpuZm1DM1d4R1liVjBLV2Q4WU82ZGV5RW9EYWdrazZ3Zm1pTmJ0dkRGaFcxTV9oaVRQMnRoQkZEZVR1T3NZN3p5NHo2dXNVc1V0ajNTRk9nWkxlYm9EYy1HSWY3cnBGQw?oc=5",
+      "publisher": "PChome Online 新聞",
+      "published_at": "2026-09-18T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "61cf2bfa864d836dc7db",
+      "category": "兌換碼",
+      "title": "【星之救援者StarSavior】兌換碼與禮包碼序號・9月16日更新 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9QZlJ1dXpBNHJBZlBGVlUzdmtFMGVTenBVc3V3UU1SczJ0LWdHSzNpaXpNaHpzMWJsR25fZDk3Z3JMdzh0WW0zVWs2NzJzUWFaNDEzQzlBYw?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-09-16T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "8bdef4ea778a73764717",
+      "category": "活動行事曆",
+      "title": "11月大阪定了！時隔兩年磨一劍，《怪物獵人Now》嘉年華交出了遊戲IP與城市商圈聯動的答卷 - 日經中文網",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX3FILUtkaS1ycURQVGEzV1FXWFJIRlVfTzluSHVHRlhHOUhGUXd6RGVONFNkYXBGU1VVakNtRjNOTWRScDNYM2Zvd01xcVhWRGpaeGxpd1hvb3pkLW9NNkJ3aG95N3RLN0ROLUdFbl9LY3FEOGFjbEpLS3RvTE5BY1doZ24?oc=5",
+      "publisher": "日經中文網",
+      "published_at": "2026-09-16T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "7c67c2fda46013f0f990",
+      "category": "活動行事曆",
+      "title": "《棕色塵埃2》釋出《魔都精兵的奴隸2》聯動合作PV 活動將於9/10 開跑《Brown Dust2》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5zN3VqYlJrYU1DTXFyYnVITnRCdEZKS01wZW43UEN3b0o4OGpNRWt3UmNvTG40aE1nMjNZRXdrVGY4UXA0RVFXM1pnWmwyNTlvWHgtWGZUMXI?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-09-07T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "57b5ffe74a557e6c3ff3",
+      "category": "活動行事曆",
+      "title": "《棕色塵埃2》×《魔都精兵的奴隸2》聯動9/10登場 活動免費角為羽前京香 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZDZJN2FDM2wxRWVRTzZhQ281Z3NHM1JmOXpjSUxjVFBKSVQ1SEhBVXp2ZHhjTE9KZ3FjTWVISnNVTVRxMkJWNVJGa2VPYWg3MjJxeGpkNlJBUnJ1Z1BiWUo2WXFzenVLa0tIM25BMHFrV2hmQXNRcVdwS3hQSWxMUEFoVEFxcFR1QW1EOHJLZ2I?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-09-04T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "fef73f664b5b318dd46d",
+      "category": "遊戲攻略",
+      "title": "成人向 BL 遊戲 《諾提里森：於黎明之前》新手攻略｜花毒詛咒、角色養成與戰鬥入門一次看 - SouNova 少女星",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9TX0R4d1lhNnlQeUprNWl5WUZvdElyMUJOb2VPU25DTVFHQU4wNGZoM2IzYmM0WWZlOEVGLXNzNHMxMk9HSkhtQkU4dTc1V2M4a3JJaWpnNFFVZWVySXc?oc=5",
+      "publisher": "SouNova 少女星",
+      "published_at": "2026-09-02T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "4433e993f83c0d5daa6e",
+      "category": "兌換碼",
+      "title": "【鬥破蒼穹M：少年崛起】兌換碼與禮包碼序號・11月2日更新 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9KTVBqUkpmNVpEWktsYlFSMUhxb1M2eUFJeTlOM0dWTHp1OFRpN29ablIzUENpSmVhMkgxd2VQNmFiZjZZMWtzNFpkMkhuSDBfdmc?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-08-21T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "0acd8abe362e1968b09e",
+      "category": "遊戲攻略",
+      "title": "《女神：守護之約》 WIKI攻略基地上線 遊戲精華一次擁有！ - 蕃新聞",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE92d1FZUUZkTDhZX2NuNVBZbUFwdlJiRnczdVdGcUY2ajcwci15dU1OUzEzUVV2NGUxT05ITzgyQ2J4ZVZ6UWZKYWF1UG9UanMxdHc?oc=5",
+      "publisher": "蕃新聞",
+      "published_at": "2026-08-21T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "3680552cd4edd8e4c5d9",
+      "category": "新遊戲資訊",
+      "title": "Call of Duty: NEXT與《現代戰爭4》：情報搶先看、PC規格、預先下載等 - Call of Duty® | Best-Selling Video Game Franchise",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOTdxdnptaVBtTUlGekk2amJEaU80UVVzLUp1UnBTTEl3djAxR29fNTZadnZvdG8waGpzN284amVoZnVZTi1veWpGYkVQcTNzcEN0MEM3MVpiQ2VVekJqSjc5UVVwMzMxMTNpNUIwaFFnb1ZTLVVodGpOeFVaT1Ryc2xfeWp5Ynk2WWhiakVhdkZ0SVoyREVsMlMyU3Q0NEw4Mldr?oc=5",
+      "publisher": "Call of Duty® | Best-Selling Video Game Franchise",
+      "published_at": "2026-08-19T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "60ac7be9010383574d4a",
+      "category": "活動行事曆",
+      "title": "《明日方舟：終末地》× 7-ELEVEN 思樂冰聯動開跑限定杯身、虛寶、周邊一次收藏《Arknights: Endfield》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9KZEZZdlp1YWJUdGJROU9wUFZySmFTSVpoMm54T29rdGJGT2U0RVNJcklSemRJbF95Y0pEQkZCdmRnR2d6N0pWZnl2bWxGeDFXSzdkM3gyeGk?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-08-19T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "acef989a0c9da2c6f6f1",
+      "category": "兌換碼",
+      "title": "【三國群英傳：策定九州】兌換碼與禮包碼序號・11月2日更新 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9INkpJS0pqa0RMQjZIaGhtZm1yQVZRNnhldDdVS29tMnh1SzNTOFdrV29DX000UDk4R2EydWlwTGlWbjNWQUphVVktNnBtWV9i?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-08-15T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "ef6c5e4a459194e93c09",
+      "category": "新遊戲資訊",
+      "title": "《三國觀滄海》預約突破 20 萬 將於明日正式公測 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB3b1RLeHJvNVFwd1RkRFdDVEc2ZV80NWFxaFl0UkFTazc0WVVhbDJ2ejNQb2Qza0JndGtNcjJzbWtjUG5GeUtucEdSREJZM1F6Zm84cC1BT0o?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-08-12T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "c59c81f565d7e6bca561",
+      "category": "活動行事曆",
+      "title": "正義怪盜團參上《勝利女神：妮姬》×《女神異聞錄》聯動活動8/13正式上線 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNGFycUltY3FrVlctTHc4VDVNNU1aTWNXZVlkSHRmMmFWZmVxQXNpdFlHQjlEYkxUSFdrNXBxOHhRYkJ1RVNBNVRqZmo2aHhIUHlwU0JXcElfSjFfMjcwLTVVeFp6bjMweWdwcTY4RUx6anJ6ZlpaYm9QaEFldXFnSVk1bzBrSDZyaWd5SFdXSFc?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-08-10T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "7c4c4974df1d285fd19d",
+      "category": "活動行事曆",
+      "title": "傳奇網路擴大遊戲內容更新，IP 聯動帶動玩家回流 - TechNews 科技新報",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMGZ1Mkc4NVZ1YmtTbXJ5QTZVRl9NMWJNUHVfN0xUbjh0WkNhYjBsMHREVFEycHMxNGF6aGhwMkhYUDU1RzFwdHN1QnRMTWdLNHhKamxJVU9Ca2ZDdTMzWUNmY3BtOURYUVRkQUxiVUFsVWV4R2NfX21vTWs5SE5oQ2NpRUlDZU9Zb0c5TnQtaUtWUXNoaHdCQg?oc=5",
+      "publisher": "TechNews 科技新報",
+      "published_at": "2026-08-07T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "5a5f92678864af0bacaa",
+      "category": "活動行事曆",
+      "title": "《寒霜啟示錄》x《Kingshot》攜手推出「雙星同行」聯動寒霜領主、國王陛下跨越次元同台《Whiteout Survival》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE44ek52dkM0QjFpMWN0cndZTGNpQjhORjJrcWtMZS1oWGZ0ZVdtdTc3VFZ1ZFBlZy1TOGhQMGkxblZUamlDOVM2dXk5TjdUMkVITTNhWnI4bXg?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-08-04T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "4f61a5e71387ecacc8a4",
+      "category": "遊戲攻略",
+      "title": "《鳴潮》牽翎祈萬聲「秧秧·玄翎」全方位養成攻略：組隊、手法與抽取推薦 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeXpTYXE2Z25WeTdmLUZZUnFTTnowY0hDLXlzVHFwTHhlcExkeVA4WnI2ZV9uMkUxNlVLU1ZSeVhxQ3BuNTJ4N3dWOS1wSHg3X00wVFV1UnpBVTgzRzJranJpeFNDdnVHUzk4WjBGYV9YeGg0cmZVak9hS1dEMDI4RE5xVzA3SDdvZFNV?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-07-10T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "8c431d6e2c4e6b320e0b",
+      "category": "遊戲攻略",
+      "title": "《世界之外》新手攻略懶人包！開局養成、抽卡機制、資源分配與避坑技巧一次看 - SouNova 少女星",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4yYkRCczhKbVZ4dDI5cWJyLUYxQTNNN0lOeWtIVGZjZmhkOG05b0NuaFVLWmxnMFpfcl8tRzd6YXZVTTlfUl9vdDdVc20wMlgzNVVFdnNHQ3hkYWVsUFFQRnh1S0x6RHBaaGtxd2R0UQ?oc=5",
+      "publisher": "SouNova 少女星",
+      "published_at": "2026-07-08T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "e5b7118c83167e9b35b3",
+      "category": "活動行事曆",
+      "title": "《Apex英雄》聯動《電馭叛客》7/15登場 2077、邊緣行者造型與外卡活動限時推出 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSGpiOVVYem1Sc0UteFhtMDZ4SlViOGY2TFZsaDF5dXpkeDJnZ2E4Yi00UldFaHY0cVdkbEhTd2FacnpKTVpOWVI0a19TNVo2dlFwS1BoS2llemtCTVZpUENlNXFySVJUQlZ4Q1l5VndjTFRaMnJxRUwtMS1UMnl1UzNRSVFNdmZjUWNqR29qZWsyc21fUkJpbFI0Q3U0MHlq?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-07-07T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "1e2b5e80b25c0f26ea00",
+      "category": "新遊戲資訊",
+      "title": "解謎冒險遊戲《UNDERGROUNDED》Steam版今日正式上市！ - XFastest News",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNQVlHNjJ3S2V5X0o0Wkh2dTAzVWl1UjNuY0d0bnRyV0xYRWJvVTFKR1ZwMXNlSi02aFNLLU1oLUhNSmZfbFF4UU5GbzJ2WjlLZDVkelNiaVVYcmZWdFQ4R3NuWEpfcGk3WnFINFJUZzFQZG44SnZZSVZlWjVnRElQZFhOVWdNaWdoU2JPOE1BdUpDTndvNUVHaXR2UElyeHUzd3ZaY1dZNGRoeGtFeXNkNVd2U0RSUU03a3NaYi1QWkxRVHFibk9ySjkxVnlXeWlweUdoMVFMYTA3Tk0?oc=5",
+      "publisher": "XFastest News",
+      "published_at": "2026-07-03T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "d577f5b59f776045723c",
+      "category": "遊戲攻略",
+      "title": "《明鏡江湖行：朔風起》1.10 版本新增「後宮結局」 實裝沈聽嵐攻略路線《Tales of Justice Academy: Winds Arise》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB2ZHV5THJ5ZHJ5M3pUbS14VHAxVF82QXZlUjJxaDFKeE5VVjlpS3VHRGVEUjBxR3lLWFJRV3M5dmRaR2kxZ2xnajdhcHZnek1JSEZtVmlPU3U?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-06-29T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "9f02f9f69b7c6968c501",
+      "category": "新遊戲資訊",
+      "title": "放置養成遊戲《SPACE JK》展開公測 收集「平成辣妹」等主題像素貼紙 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5IOFJtNTIyWEpJN3doT0VEU05saHFnVF9NZ0gzd0dSc2RqdG1yVVpmeG1OTy05a2lYeTM3a0sxZGVBSVVlaDM2N2p6LVlCQllEc1pJZy1PaHI?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-06-22T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "add31c23024ea7eaee14",
+      "category": "新遊戲資訊",
+      "title": "黑暗動作撤離遊戲《霧影獵人》啟動全球公測公開新職業「凋零騎士」與新BOSS《Mistfall Hunter》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBvNWk1WWdKUXBFa3Vjc25xR1JjMGFGTWo0NEVvNjhxU2VoVHpJV1VSVlRyd1BYZmhvTFhJUnI3bXV5TzZlUFlITGR5TGsxQmpKUUU1MzFZU0w?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-06-16T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "52ac5c281b5b8524544d",
+      "category": "兌換碼",
+      "title": "【龍村3】兌換碼與禮包碼序號・6月9日更新 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5uQ05OV2F0SzdyS2lZeUN2aXNlQWdIdmVjQTRHZ3NsTmVQcTZLbEM4SzVKUWtuTllEbWIyV3pZWmt2bThLMVU1dEhRQjAyYmxjVkc2V3VKZ1ZWczg?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-06-09T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "8c1abd736a6269751a01",
+      "category": "遊戲攻略",
+      "title": "《鳴潮》x邊緣行者聯動登場！新手必抽五星「露西」養成攻略 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOTdYTUxOeFZxN1VOU3NISnA3c3Q1RGVmS1JzNTVUYVppMG9LQURWS1AxWXJrNlNjbFRrWk1HRU9CeWNNUkYzMmQ0bktiR2ZaNlRVeVByVGJ4LTUxUFFGaEZsUTVRc0lSR0M2cmdlbGIteTh6dnJST05DdGd0MTlGV1BGWEkybTE0V3Q0?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-06-08T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "ccf69c07de76edfba92e",
+      "category": "新遊戲資訊",
+      "title": "黑暗奇幻動作遊戲《霧影獵人》6/15 公測諸神鮮血化為瘋狂金霧、挑戰修復命運之網《Mistfall Hunter》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB1UWp3UVpVc1IzQWY5NTBZaDViYi0ya1FWZ1BHOFByR0RFUE0xcnRBWW5ORzhMVmRvZHZwMVlkYnpKTHhYSUVzX2h6eGd0SkdrWE5xYXhKVUg?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-05-28T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "24d96f34286d067de526",
+      "category": "兌換碼",
+      "title": "《異環》虛寶兌換碼、禮包碼總整理：抽卡環石免費領、序號輸入教學一次看 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMi6wNBVV95cUxPWXh6Skd6S3c0dDBFbjNGMmFxUVVmclpJMkdHclBnOEhuM192dEx1UlFTNXZXZGpZcURnYjIxWGJIM1FsNzh6QXpVSVM4bDhVWC1GaXNiejNBcGVxR1NTUDNTNzRWM3VvdHlqREV3dTgwRDZvNHFEVVNZd1V0Vm5McGZhWEkyRjRpcXBSNXV5N19Ua0ZHa0hlMXlZeEdZZmZNUXZscGN3dy1Ka01HUzY1TEFOWnIxQnZIOXhodFBHSDZRT2FHTndjZlJXZ0M1OVc1c1V6SW8wT1NiZ2NuQ3B0dXdsbVZacE9rdVhpMTk5NUVSLVNhbTFPUjdDV3JNNjE0NzA0dXMwS0hEU1ZRaHpIT2NXbGNjQndGenYzaG13ZmxQQjVSWWl6MUJZU00za1kwVnQtMHkxMGdfRTFrNlpjV2NTTzl2NHJMTVY4OUZMSzVOMVgyU0tvcHgxeUlQZ2dYTjNtQmp2RDdlQlpfeVA1Q2wxZUxYM3ZhUmoyM3pQUTgtbkY3dDR1NVJqTW5qbFBtZ2hZUHJXWHpkNWhlLURVeW9HVlNPbWtoVkdXaGhLeXpBVWlmRUhOcnlpNGY1Q2lZZ2Y0RnpOSW1tLWc2clBHNERSQWlEZTRoajRSMW4zRUU0RnZhYllmVzV4WQ?oc=5",
+      "publisher": "Yahoo新聞",
+      "published_at": "2026-05-24T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "9565505b6e111e88b9de",
+      "category": "兌換碼",
+      "title": "【權力遊戲：國王大道】兌換碼與禮包碼序號・5月23日更新 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxOeXptaXhmVm9DUGVoX2cxd0ZVdC0xbzFTcm1kWUFITXA4QTVZbm5pMjVVV3RBeC1EQUVwUmV3MVFjMWtjRlpvTDRtNVZybzNtMl9aejBfRWlubVRkQXBTS29kUkE3MGI0MW1wZ1Z6N2wxWU9KZ0NHeHJFSEFwQ0lwbDVteV95ckhfRDhNRkh6elNqWXVwcUpOa1lHOFktM241VHpkLVdyYlRKZVdycHl2cGUweC1MWU84QWhMSTh1R3VGeVdLNU05b2F4Q256d3Bzc2tSOEtDTUZfSC1xenoxSWs4TzY0bWFaVHFtanh6LVJOYmdpMFUxZUNDVnBfVGRsdVRreWo4enFrUXJuMWVMR3ItU1FMNFE2bnpFc2dETlFsZ0ZhdnFrTUViam1GLW85SnZoVHY1MmsweVMwRTQzdU5KSkFqY3B1RW9Z?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-05-23T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "b48f0b956862843fca46",
+      "category": "新遊戲資訊",
+      "title": "《異環》公測懶人包：上市時間、限定池角色、開服福利、聯名活動一次看 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMi3wNBVV95cUxPRDZfQVZYMFVkRC0zQ1ByZTNobGVqTVhIWjl3MWxuQ1lYSmlGOVRoRzROT0RONzRzd2h5ZmNXa0RjdVRHOEpKYmQ0T0JUT29mT1ZGUTZGSC1VZzJGcTVfVXNScUFIckFKRzl4VVNkQ21hak5DUkFTZVIwNmdqQUVNa0REWWdhRVZXdUx5cWR3WVY1QldjN3R1X2lxSnhZdkJCRG5xZGRlS1pNMmF4VTlhQ200ZWFCbkFQZHRMeTdaYUN5RWYwQ0ZGR1d4dEJWMjBiWVMzTzY3TnFOc0twN29oMFRFbUpRXzlDeEtCcXVKeWJ2dGQ3R3Z4Y2NzU2w0em9nU19SVUllZUI2YTZ6NENxS0hFYzBjZmtodmQxTmlsbDUxMldrck9EN3lnWUt1MU5BcGs5S3lyakRYQnBzaS0ya21PcmdrSGN5OWlKa1JtTnJwMEUydVI1bHBjZEFCVkZ1Q2ZOQWpMaUdrbW10OTRDRnlMdzZLOXl3RHpfSTdwV1ZodEhQMkIzR3UwX1NIcjdsWFN4cmdWeEg1Z05vQlAyb2d3ekxFRDFRc0Jpc1RSQWZkYnNvcEIxa3R5QkZhWEs3emNNX2x6aWk5MG5zLXVEVk9CN2FJRGlJRjd4ZFJpYw?oc=5",
+      "publisher": "Yahoo新聞",
+      "published_at": "2026-04-22T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "ff4dc9aebbdbef72e36b",
+      "category": "活動行事曆",
+      "title": "《明日方舟：終末地》×「吉豚屋」聯動開跑期間限定套餐與主題活動即日登場《Arknights: Endfield》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1vLTJ1REh1c01aY2t3Y1h3Z0c2WXl3VmE5eTRXYUFkNWJKUlB6bHhNQlg2MFVucERCYWdYRi1laEp4Wkx2c1o3MFF1RHBjenJlQm1iaHNwNTA?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-04-16T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "2a07f3ebbacfcc99f550",
+      "category": "兌換碼",
+      "title": "【同盟塔防戰：並肩作戰】兌換碼與禮包碼序號・4月15日更新 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPNmtEZ0lfbEJBZzhZRnVHcklfZ204c0pEWGVwVUppbV84TmIxUDY0S1NTcjgwOXppaW5DWVFGN3VvVi1pUmtyZ0FPbl9SSm9HdUxQTUFiNFlMWTI5Z1V3cjRKckh5MGUtdXgtU2tMQ0RpUEttcEdvQWw0b1cxRGtzTUc4cmxSWk9WX2ZINUFfWEZQcUxOOEFfVmlqdjZ4Q19Pa2E0YlYzNFE5Rk81SXpFOXE3VzE2Zk1yWWFhaUJURE9VM0VVS1pKZzdTeHNXb1ZPWVkwNUx3U0o4azRhRmphaHhhMEExNlhIQUdlODJKVlRicWRhMnQzUXRvTlMzejdrTE13bXhKT05scU4xRVk0aTMxQ1lST08yVXZmeWsybGlCaGJMZkNvZEtOdF9VTEIzeWh1TVpFV0FIWGNhNVd0ZGp6a01mQmZTNEE?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-04-15T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "39269e9ccb945175477a",
+      "category": "兌換碼",
+      "title": "【Another Eden：穿越時空的貓】兌換碼與禮包碼序號・4月14日更新 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNNkxVRHU0bHhBeXZJUmkwdG1ZMWp3TFFRVVRDQk9IR2Q3SnN4V0R3bHpLVUswOUtFV015aG1MMkpJa0JzbFFsYldGNUZTTjk0ZGViYTU4QVRmMC05NlFuQ19WUGktc3pULURrRE5Ha0lScWF2anlTN0hFTXhHdUxTOVg4eW95bk9LNVN4UlBnOXUyc3A0eldnYXdhaDVKRHF5YjduWU9VNUd5cEJkeC11T2VjYVQ0Q3NpZTJkR0NfQ3ZlLURDZy1iY3Rzck4xY1B2aTVLaDB3aEo5VXNyeTNQSjI4cVZQYzF0VUtDX0VsZGp1dWIxTVh1SlBSeWNfN29sTWpIU1RMLU1zalBwYVhENHBJLUs0YmQ2TENQLTNhUlNaYjBlaVoyR2VCWUhaNW5KUGVDYVk2MFItUlJUSHB4djZFWFk?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-04-14T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "3fb1e3180b1072fc110d",
+      "category": "兌換碼",
+      "title": "【變身傳奇】兌換碼與禮包碼序號・4月9日更新 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQZGhlNC0wZUdXR0VHcnJvaWJYb2pVYVFqdld0T3V5N0EzRGtsMHFuQjlCVzk3QV96elBaTDl3Z2RqdjRvZlpKT29WMEgwYkZnck5LeWN4VlhCM2I4Zzh6TWI2VmcxQlgxZDNwZlFnVkxhYWw1ZzRuczVHSmZEOXhuV3NsTXh4dm9TUFUydWRSQVlZWEpFdVI3cDBZemg1QmhkNEJBTmJ0RndibkdnUmU0eDZhdHNYbExJNlItWnVLS0thQmVVWmdJMndPN1FlamU2TC1ieWEtMVREZEhHcU1vZXRUMzBTUER3TVhlZGZZSzdoYnNHeDAwTDR5V1RpM05ZTkdnWC1HcWNDeEozb2hYUVFaS29IOTk2dzFVVmR2NmFsU3c1VFBtRkdGYi1jSm5PYmZJ?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-04-09T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "1b994086a41c65a672cb",
+      "category": "新遊戲資訊",
+      "title": "正式上市至今不到半年！撤離探險遊戲《地下城追隨者 Dungeon Stalkers》宣布 6 月 9 日停運 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9JVmoxRnJvM3RHSGFUb0M1SXFOY2FGWEZTTWVDcEVVSU9oVTdsRHRTcTJzRVVTa3dVbmxPMFRLTDZlRDhQdzNiSmVQUW9lSmNaS1JDdjVNQ3E?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-03-09T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "eef4f14e300dda886dbe",
+      "category": "活動行事曆",
+      "title": "《勝利女神：妮姬》×《Lycoris Recoil 莉可麗絲》聯動大型活動Lie cause Recoil 即將登場《Goddess of Victory:NIKKE》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1FOUREMk4yODEtc093WXBXandmMTI1cDkwU1c1LV9qQk9acVdoWG51bDlhR0pId3ZwNzctMmt3QlF3UEdvS1pIcExHRVByMmo2MWR3U09YcWU?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-02-10T08:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "ce1c7b960d5a5a8609e9",
+      "category": "新遊戲資訊",
+      "title": "手機遊戲《勇者逗逗龍》正式公測 釋出阿Ken、小映、斐棋代言主題曲MV - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYnJmQVZ4Qk83R1VEYkswUmJWNFlWRVdjdzJSdEVLVmJDbmlHVUd1T1RWcmlOeFJLTl9XQXBlUGFsZVN1WjU5bDE1bG5WXzR1QWhZNXNVSnJweGF0ZWU5RXRnckpZUjFwbUNLSkJWc0xmbUkycUdGR19VVk4zbG5faVB3OGx3cXZzdVJxZGw1Wl9QUm8?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-02-05T08:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "6f6f14eae60ad797d7bc",
+      "category": "新遊戲資訊",
+      "title": "《明日方舟：終末地》正式公測！免費 135 抽獲得管道、開服福利一覽 - 蘋果仁",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5vejlMNzAxN1pCMmVOVkFiZS02aUY1N2ZfVTRKbzBRRzc3OWwwcmpCd2gweFNvb1ZxaGpjZ2hnZnBjdHZzeTIzWHVfdk_SAVJBVV95cUxQWHZSTzJpWUltU1FJX01KMWxibUQ2bUluWXU1dDRocnYtdTBBbXA0cWZzNG10NHRrVGlyeG55Y1A2NWw0YXdYdDVDTDJNWGJwRVJR?oc=5",
+      "publisher": "蘋果仁",
+      "published_at": "2026-01-22T08:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "b23b407d4fbe1cef552c",
+      "category": "遊戲攻略",
+      "title": "《七大罪：Origin》攻略：戰鬥核心機制與角色養成系統詳解 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBkUTFhNlB4X1ZzLTVSVzdzQkZmbHFqTmNFcWVjWFJYVHpFVEp6RXNyUnN2c1ZQODQ0MTB5alVZMEpoeUhIc2Q2NnVGOG5MbDFPZ2RlcnlqR1g2cUk5V0RCVWFIdVNHai0xcnJFdUJRY2tiNlda?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-01-21T08:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "1b97bc9bc69b7d4317a8",
+      "category": "活動行事曆",
+      "title": "《Free Fire》x《咒術迴戰》聯動活動「咒術覺醒」即將開跑 經典場景「咒術高專」於遊戲中登場 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBIb3puNmFIX1l2cF9ldEwtOE0tSmNYT2VYRjBGcGRTYmNzNDRQYm0yMXNsZ0ZpLTV1bmEwUVR6RjhOSW9DZC1TNlFHWFRzUGdZYXBVQVZ1Vmc?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-01-12T08:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "402706193aca47b00b21",
+      "category": "新遊戲資訊",
+      "title": "《明日方舟：終末地》宣布1月22日開啟全面公測 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQd0o2MVl5OVo3M0RiNndVOHdHMURCblNSb2pPRFhHLU03Z1FqbWV6MktJek9rR2pNRTJmSm1wdFlMRFd5RUI1bnNXaWlVR3JMZllHYWZfV29UdWRQRzNJaUNtNFpDeTA1X2xEVlRTQ2hQWFdZaEVTdDE4R3BQNnk5ZXRQSDh2bWo1WHVmRGFkUGdyanM?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2025-12-12T08:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "26c8186cad9580ba72c5",
+      "category": "遊戲攻略",
+      "title": "《原神》杜林培育指南：組隊方式、武器、聖遺物與命座攻略 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9kQWVSZEVCX1hRc1Y0MTFNd1lvYTFXbmktSVBPTGw3MUhIMmlDd0hQQkVNRDE0dktNSlZDUUN4b0xxTW9ndTJsRHNvak84SXRHVS1mNGtjMkJ5TEgxWDd1TkNHUHo5bHdoenlVeHRDQ1VBQlk?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2025-12-07T08:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "61a9ccaa416b9b29b0e3",
+      "category": "遊戲攻略",
+      "title": "《卡厄斯夢境》新手開荒全攻略：從隊伍組成、角色培養到深淵挑戰 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBDUFV2NnZHZ1k5UHI3am1hZ0diY1A4eDdidm9MTWZJMDlkSkloMGRUT0ZIOWliYWZjdzBuU1VjaERfbDNGQkt3TXQ5ZUhJVEZ0OHBicEVBZWZvRmd2bHdtejhpMTJnNjFpQklmc3pBTlVaMzNHa01LMFFR?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2025-11-10T08:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "6a9053b6923dd7fb40f2",
+      "category": "遊戲攻略",
+      "title": "《卡厄思夢境》新手向組隊指南！角色強度榜！SS級T0霸主是誰？ - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5SWmJTOUhpemktb1ptem13UGpmc2JRNkxCMERpY1RVX3Q2S1hSSm9FMzZPU2NQUFU2XzFtUFVQelJydWNXN2Z1LTN1MzZBTjlYMjFNWWhpbE1uSFMtMnRlRVVB?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2025-11-06T08:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "a617a7736595eaa50317",
+      "category": "遊戲攻略",
+      "title": "《卡厄思夢境》：不想刷首抽的角色推薦、核心系統詳解 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeEg5ZFBmdDI0cS1lajdZV0VHNzFLWlhacERvbHdlVkIyaDRtbmY5Y3hmTnFoRmxNMnp5T1lETTljdm1wXzY3Znpmd2ZmYmRXczlZWHk1MVB2NXFDYTlKLWE3TjE2WnFGbmtqbGRiaUZ4cVlodDdVNF9iQ0dJRC1qMjU5bGlyekk?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2025-11-04T08:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "3973bd58618fed929cc9",
+      "category": "遊戲攻略",
+      "title": "《七騎士Re:BIRTH》新手開局攻略，無課也能爽拿六星角色| 遊戲基地 - LINE TODAY",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05Q1UxWFZfQnl3eEFQRFpKS1lWQkxEaW5wdDBXcUx6MC1OT01WMUI0SmtQQmd2OTlyM3NoQ21ILVFWOVNkaThlZGxROG9jS0ZBSFBweWJB?oc=5",
+      "publisher": "LINE TODAY",
+      "published_at": "2025-09-12T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "69a10df2e171822064ca",
+      "category": "遊戲攻略",
+      "title": "【鳴潮】維里奈🌼角色培養全攻略▸開服必練『威力奶』！主流隊伍實戰手法拆解！聲骸搭配、隊友選擇、武器推薦、共鳴鏈效果▹璐洛洛 - 電腦王阿達",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5rdmd1c3ktMFdSaUhDUGpucE5veUItZi1kM1lOZGZGTnNCN2lBYVh2akc3UWdHOHdrakluaVJkZDlkMGJlbVRsemJiTVVNanc1VkE?oc=5",
+      "publisher": "電腦王阿達",
+      "published_at": "2024-06-14T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "09182f27cd313e616761",
+      "category": "遊戲攻略",
+      "title": "攻略／新手入坑必看！《重返未來：1999》開服首抽角色推薦＆培養心得 - udn遊戲角落",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yZ0xVLTlKWEVjc1p0aTIzdGxEeW5XX2J2MGk0S3BrNXdmYWFHMEhjazRjYWJ4a0plX3AzOXhrS0hPcG1TZ3F6ZmhwUGY1SjFJTmcwR2pHZmtOQdIBX0FVX3lxTE45VTV4alo3SC1IbUpwZmtGNjVNc2JIeHp2OGd2Y1dRM01OdVBsQm03ODNBQVVHeDgxZmxGUVhPUEJOZmtmVWh2Ujh6dlBFRTZ3bVdrSFlRT1V6Z2ZwOUd3?oc=5",
+      "publisher": "udn遊戲角落",
+      "published_at": "2023-10-27T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T07:20:13+00:00"
+    }
+  ]
 }

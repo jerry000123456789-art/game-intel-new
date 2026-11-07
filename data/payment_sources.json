@@ -1,0 +1,51 @@
+{
+  "updated_at": "2026-11-07T14:00:00+00:00",
+  "items": [
+    {
+      "game": "Minecraft",
+      "provider": "Razer Gold",
+      "source_url": "https://gold.razer.com/tw/en/gold/catalog",
+      "title": "Razer Gold 台灣遊戲商品目錄列有 Minecraft",
+      "evidence": "遊戲商品目錄（非遊戲內直接儲值確認）",
+      "verification_status": "公開商品目錄；付款前請查看地區與商品",
+      "first_seen_at": "2026-11-07T14:00:00+00:00"
+    },
+    {
+      "game": "勝利女神：妮姬",
+      "provider": "Razer Gold",
+      "source_url": "https://gold.razer.com/tw/en",
+      "title": "Razer Gold 台灣熱門遊戲商品列有勝利女神：妮姬",
+      "evidence": "合作商品目錄（實際儲值方式須查看商品頁）",
+      "verification_status": "公開商品入口，未實測付款",
+      "first_seen_at": "2026-11-07T14:00:00+00:00"
+    },
+    {
+      "game": "RO仙境傳說：口袋戰記",
+      "provider": "MyCard",
+      "source_url": "https://app.mycard520.com.tw/news-%E3%80%8Aro%E4%BB%99%E5%A2%83%E5%82%B3%E8%AA%AA%EF%BC%9A%E5%8F%A3%E8%A2%8B%E6%88%B0%E8%A8%98%E3%80%8B%E6%AD%A3%E5%BC%8F%E9%96%8B%E6%94%BE%E5%85%A8%E5%B9%B3%E5%8F%B0%E4%BA%8B%E5%89%8D%E9%A0%90/",
+      "title": "MyCard 收錄《RO仙境傳說：口袋戰記》的遊戲情報",
+      "evidence": "MyCard 遊戲情報頁，尚無直接付款驗證",
+      "verification_status": "僅能證明網站有收錄該遊戲，未能確認 MyCard 可儲值",
+      "first_seen_at": "2026-11-07T14:00:00+00:00"
+    },
+    {
+      "game": "明日之後",
+      "provider": "MyCard",
+      "source_url": "https://app.mycard520.com.tw/lifeafter/?lang=zh-tw",
+      "title": "MyCard 明日之後儲值回饋與 MyCard 付費方式",
+      "evidence": "官方優惠儲值頁（活動可能已結束）",
+      "verification_status": "公開活動頁面列示會員扣點儲值，非即時支付實測",
+      "first_seen_at": "2026-11-07T14:00:00+00:00"
+    },
+    {
+      "game": "RO仙境傳說：愛如初見",
+      "provider": "MyCard",
+      "source_url": "https://app.mycard520.com.tw/roo/",
+      "title": "RO仙境傳說：愛如初見 MyCard 會員扣點儲值活動",
+      "evidence": "官方優惠儲值頁（活動可能已結束）",
+      "verification_status": "公開活動頁面列示會員扣點儲值，非即時支付實測",
+      "first_seen_at": "2026-11-07T14:00:00+00:00"
+    }
+  ],
+  "note": "來源證據分級：遊戲新聞只代表被報導，不等於可使用該付款方式。Razer Gold 商品頁也不等於遊戲內直接儲值。"
+}

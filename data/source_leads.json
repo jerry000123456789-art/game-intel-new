@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T14:40:40+00:00",
+  "updated_at": "2026-11-07T14:43:58+00:00",
   "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
@@ -432,6 +432,24 @@
         "status": "source_lead_only"
       },
       {
+        "game": "LINE 熊大農場",
+        "kind": "events",
+        "title": "粉紅就是棒！卡娜赫拉X《LINE 熊大農場》　送貼圖 - 三立新聞網SETN.com",
+        "source_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBPQVdNblFYQ3lzSl9IUUFmUEx4LWlkQThON2l1RzdraFhrMTlFSDRKQ3FCRUJPT1Noa2lKX2RjS3JFdTkyVldV0gFLQVVfeXFMT1ltel9Zb0tOUkx3LTBjVm9uS3paZDJIQkp6WnR5NUtoRDVMbVE1OURzNnVIT1VQWkdNNEJQNzViMGpjQmRXazV5OExj?oc=5",
+        "published_at": "2026-11-04T03:57:42+00:00",
+        "publisher": "三立新聞網SETN.com",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "LINE 熊大農場",
+        "kind": "events",
+        "title": "《LINE：熊大農場》慶登錄破30萬 送熊大農場貼圖！ - 三立新聞",
+        "source_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBhVzNZV2JqV0tqdml6TzQ5NDRNUXBEOElHVkF1Qlppb0VQTTN0TnBNVFJWZ2prT2Q5TlBYYmRLVEkySDFfSDdJ?oc=5",
+        "published_at": "2026-11-03T20:13:45+00:00",
+        "publisher": "三立新聞",
+        "status": "source_lead_only"
+      },
+      {
         "title": "《鬥陣特攻》×《劍星》合作活動造型曝光 奪命女「伊芙」D.Va「百合」概念設計圖公開 - 4Gamers",
         "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSlVlQ3JMYlpod1B2NnNlNFZpVi1CWVUwdXVPNWM0WkR3YUxjbnpDanYzaFBzZTU4RnhaSGFMQnJCV0hMekRIQlhkRmJWajROQVFCcDRxbWczNGpwRE1kWTk4Q0x2WWE2TzRPbEdzUEJzZDJJdG4zazdHZzNMQ2hvVER1N3IzYmtWNUxIdDhHSjhQTmI3VjdZZ2l2bDZxR0RwRi1NYmpaSVB4MGM?oc=5",
         "publisher": "4Gamers",
@@ -480,6 +498,14 @@
         "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnTU9qTUhIOHNrVUhRSklGME9zUEJ5ak04RWl4YWFRYW5EUEtUX29WUWo3OEdCUEhhdmJpZlRKWHZPNzBxY0F4QkFsclpaaE84VTRycjlCakQ1cm5UczJhSDRJc1VtU3M?oc=5",
         "published_at": "2026-10-28T15:44:46+00:00",
         "publisher": "Mobile01",
+        "status": "source_lead_only"
+      },
+      {
+        "title": "《原神》× 7-ELEVEN 限定聯動11 月 11 日開跑！可莉、布倫妮聯動美食限定周邊與主題門市登場 - SouNova 少女星",
+        "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBmYkhYQndyQ1N0ZnphU0VGQ212SjlrNW9MMlMyRkRHV1FRaWMycjdfY3lMbjlqQTVfUWdOdmFtQ05mRG5ZeWQ1c25tNkxiaXBidzJHZUlmWGxiSndwMWpMSFdKeG1GSTFnMFlEWElzMlNuTWM1bzF4Ti1R?oc=5",
+        "publisher": "SouNova 少女星",
+        "published_at": "2026-10-28T09:30:00+00:00",
+        "first_seen_at": "2026-11-07T14:43:49+00:00",
         "status": "source_lead_only"
       },
       {

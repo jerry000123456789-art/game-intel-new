@@ -1,16 +1,16 @@
 {
-  "checked_at": "2026-11-07T14:40:57.514985+00:00",
+  "checked_at": "2026-11-07T14:44:24.771250+00:00",
   "configured_content_pages": 2,
   "configured_youtube_channels": 4,
   "sections": {
     "latest": {
-      "count": 129
+      "count": 130
     },
     "channel_history": {
       "count": 90
     },
     "game_catalog": {
-      "count": 275
+      "count": 332
     },
     "codes": {
       "count": 15
@@ -24,32 +24,32 @@
   },
   "source_health": {
     "store_health": {
-      "updated_at": "2026-11-07T14:40:37+00:00",
+      "updated_at": "2026-11-07T14:43:54+00:00",
       "sources": {
         "Google Play 台灣": {
           "state": "success",
-          "last_checked_at": "2026-11-07T14:40:37+00:00",
-          "last_success_at": "2026-11-07T14:40:37+00:00",
-          "items_this_run": 59,
+          "last_checked_at": "2026-11-07T14:43:54+00:00",
+          "last_success_at": "2026-11-07T14:43:54+00:00",
+          "items_this_run": 72,
           "source_url": "https://play.google.com/store/games?hl=zh_TW&gl=TW"
         },
         "Google Play 國際": {
           "state": "success",
-          "last_checked_at": "2026-11-07T14:40:37+00:00",
-          "last_success_at": "2026-11-07T14:40:37+00:00",
-          "items_this_run": 106,
+          "last_checked_at": "2026-11-07T14:43:54+00:00",
+          "last_success_at": "2026-11-07T14:43:54+00:00",
+          "items_this_run": 103,
           "source_url": "https://play.google.com/store/games?hl=zh_TW&gl=US"
         },
         "App Store 台灣": {
           "state": "success",
-          "last_checked_at": "2026-11-07T14:40:37+00:00",
-          "last_success_at": "2026-11-07T14:40:37+00:00",
+          "last_checked_at": "2026-11-07T14:43:54+00:00",
+          "last_success_at": "2026-11-07T14:43:54+00:00",
           "items_this_run": 94,
           "source_url": "https://apps.apple.com/tw/iphone/games"
         },
         "Huawei AppGallery 國際": {
           "state": "error",
-          "last_checked_at": "2026-11-07T14:40:37+00:00",
+          "last_checked_at": "2026-11-07T14:43:54+00:00",
           "last_success_at": "",
           "items_this_run": 0,
           "error": "官網需 JavaScript 動態載入，目前無可核對清單（3012 bytes）",
@@ -58,7 +58,7 @@
       }
     },
     "extraction_status": {
-      "updated_at": "2026-11-07T14:40:55+00:00",
+      "updated_at": "2026-11-07T14:44:23+00:00",
       "sources_attempted": 3,
       "sources_succeeded": 3,
       "errors": [],
@@ -72,7 +72,7 @@
       }
     },
     "runtime_status": {
-      "checked_at": "2026-11-07T14:40:57.437883+00:00",
+      "checked_at": "2026-11-07T14:44:24.657669+00:00",
       "live_sources": {
         "YouTube/巴哈 RSS": true,
         "商店公開頁面": true,

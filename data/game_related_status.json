@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-07T14:40:40+00:00",
+  "checked_at": "2026-11-07T14:43:58+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
-    "codes": 2,
-    "guides": 4,
-    "events": 5
+    "codes": 0,
+    "guides": 0,
+    "events": 2
   },
   "total_leads": {
     "codes": 26,
     "guides": 23,
-    "events": 26
+    "events": 29
   },
   "per_game": {
-    "1945 Air Force: 街機飛機射擊": {
+    "Arrows – Puzzle Escape": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "2048方塊消除數字遊戲 - M2 Blocks": {
+    "Block Crush!": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "2 Player games : the Challenge": {
+    "Coin Master": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "3D Bubble Blast": {
+    "Colony Flow": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "8 Ball Pool": {
+    "Fish Sort Puzzle": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Among Us": {
+    "Fish Sort Puzzle: 三消益智遊戲": {
       "codes": 0,
-      "guides": 2,
+      "guides": 0,
+      "events": 0
+    },
+    "Free Fire: 風暴競技場": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Hole.io - Original Hole Game": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Hollywood Crush": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Jigsawcard Solitaire Puzzle": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "LINE 熊大農場": {
+      "codes": 0,
+      "guides": 0,
       "events": 2
     },
-    "Angry Birds 2": {
+    "Loop Sort": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Art Puzzle - 藝術拼圖遊戲": {
+    "Magic Tiles 3™ - 鋼琴遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Balatro": {
+    "Mob Control": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "BLEACH Mirrors High": {
-      "codes": 2,
-      "guides": 2,
-      "events": 3
-    },
-    "Block Blast!": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Block Craft 3D：Building Game": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Brewtopia: Grow Coffee Beans": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Call of Duty®: Mobile": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Candy Crush Saga": {
+    "Mobile Legends: Bang Bang": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -105,7 +105,22 @@
     "blockcraft3dbuildinggame": "2026-11-07T14:40:40+00:00",
     "brewtopiagrowcoffeebeans": "2026-11-07T14:40:40+00:00",
     "callofdutymobile": "2026-11-07T14:40:40+00:00",
-    "candycrushsaga": "2026-11-07T14:40:40+00:00"
+    "candycrushsaga": "2026-11-07T14:40:40+00:00",
+    "arrowspuzzleescape": "2026-11-07T14:43:58+00:00",
+    "blockcrush": "2026-11-07T14:43:58+00:00",
+    "coinmaster": "2026-11-07T14:43:58+00:00",
+    "colonyflow": "2026-11-07T14:43:58+00:00",
+    "fishsortpuzzle": "2026-11-07T14:43:58+00:00",
+    "fishsortpuzzle三消益智遊戲": "2026-11-07T14:43:58+00:00",
+    "freefire風暴競技場": "2026-11-07T14:43:58+00:00",
+    "holeiooriginalholegame": "2026-11-07T14:43:58+00:00",
+    "hollywoodcrush": "2026-11-07T14:43:58+00:00",
+    "jigsawcardsolitairepuzzle": "2026-11-07T14:43:58+00:00",
+    "line熊大農場": "2026-11-07T14:43:58+00:00",
+    "loopsort": "2026-11-07T14:43:58+00:00",
+    "magictiles3tm鋼琴遊戲": "2026-11-07T14:43:58+00:00",
+    "mobcontrol": "2026-11-07T14:43:58+00:00",
+    "mobilelegendsbangbang": "2026-11-07T14:43:58+00:00"
   },
   "errors": []
 }

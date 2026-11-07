@@ -1,6 +1,69 @@
 {
-  "updated_at": "2026-11-07T14:00:00+00:00",
+  "updated_at": "2026-11-07T14:44:07+00:00",
   "items": [
+    {
+      "game": "崩壞：星穹鐵道",
+      "provider": "MyCard",
+      "source_url": "https://www.mycard520.com/web/zh-tw/MicroPayment",
+      "title": "官方目錄列出 崩壞：星穹鐵道",
+      "evidence": "官方線上購點／教學目錄（不代表遊戲內直接扣點）",
+      "verification_status": "公開目錄比對；未登入測試付款、地區及商品有效性",
+      "first_seen_at": "2026-11-07T14:44:07+00:00"
+    },
+    {
+      "game": "Pokémon GO",
+      "provider": "MyCard",
+      "source_url": "https://www.mycard520.com/web/zh-tw/MicroPayment",
+      "title": "官方目錄列出 Pokémon GO",
+      "evidence": "官方線上購點／教學目錄（不代表遊戲內直接扣點）",
+      "verification_status": "公開目錄比對；未登入測試付款、地區及商品有效性",
+      "first_seen_at": "2026-11-07T14:44:07+00:00"
+    },
+    {
+      "game": "Mobile Legends: Bang Bang",
+      "provider": "Codashop",
+      "source_url": "https://www.codashop.com/zh-tw/",
+      "title": "官方目錄列出 Mobile Legends: Bang Bang",
+      "evidence": "台灣官方儲值商品目錄（須核對地區）",
+      "verification_status": "公開目錄比對；未登入測試付款、地區及商品有效性",
+      "first_seen_at": "2026-11-07T14:44:07+00:00"
+    },
+    {
+      "game": "絕區零",
+      "provider": "Codashop",
+      "source_url": "https://www.codashop.com/zh-tw/",
+      "title": "官方目錄列出 絕區零",
+      "evidence": "台灣官方儲值商品目錄（須核對地區）",
+      "verification_status": "公開目錄比對；未登入測試付款、地區及商品有效性",
+      "first_seen_at": "2026-11-07T14:44:07+00:00"
+    },
+    {
+      "game": "8 Ball Pool",
+      "provider": "Codashop",
+      "source_url": "https://www.codashop.com/zh-tw/",
+      "title": "官方目錄列出 8 Ball Pool",
+      "evidence": "台灣官方儲值商品目錄（須核對地區）",
+      "verification_status": "公開目錄比對；未登入測試付款、地區及商品有效性",
+      "first_seen_at": "2026-11-07T14:44:07+00:00"
+    },
+    {
+      "game": "Stumble Guys",
+      "provider": "Codashop",
+      "source_url": "https://www.codashop.com/zh-tw/",
+      "title": "官方目錄列出 Stumble Guys",
+      "evidence": "台灣官方儲值商品目錄（須核對地區）",
+      "verification_status": "公開目錄比對；未登入測試付款、地區及商品有效性",
+      "first_seen_at": "2026-11-07T14:44:07+00:00"
+    },
+    {
+      "game": "Minecraft",
+      "provider": "Codashop",
+      "source_url": "https://www.codashop.com/zh-tw/",
+      "title": "官方目錄列出 Minecraft",
+      "evidence": "台灣官方儲值商品目錄（須核對地區）",
+      "verification_status": "公開目錄比對；未登入測試付款、地區及商品有效性",
+      "first_seen_at": "2026-11-07T14:44:07+00:00"
+    },
     {
       "game": "Minecraft",
       "provider": "Razer Gold",
@@ -47,5 +110,5 @@
       "first_seen_at": "2026-11-07T14:00:00+00:00"
     }
   ],
-  "note": "來源證據分級：遊戲新聞只代表被報導，不等於可使用該付款方式。Razer Gold 商品頁也不等於遊戲內直接儲值。"
+  "note": "官方商店與合作來源線索；不能由新聞提及推斷可以直接付款。"
 }

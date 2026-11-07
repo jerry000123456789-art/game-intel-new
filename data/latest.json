@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T14:40:30+00:00",
+  "updated_at": "2026-11-07T14:43:49+00:00",
   "status": "ok",
   "errors": [],
   "fetched": 120,
@@ -220,6 +220,15 @@
       "publisher": "Ludens Media",
       "published_at": "2026-10-29T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "73128d6ca63987106e69",
+      "category": "活動行事曆",
+      "title": "《原神》× 7-ELEVEN 限定聯動11 月 11 日開跑！可莉、布倫妮聯動美食限定周邊與主題門市登場 - SouNova 少女星",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBmYkhYQndyQ1N0ZnphU0VGQ212SjlrNW9MMlMyRkRHV1FRaWMycjdfY3lMbjlqQTVfUWdOdmFtQ05mRG5ZeWQ1c25tNkxiaXBidzJHZUlmWGxiSndwMWpMSFdKeG1GSTFnMFlEWElzMlNuTWM1bzF4Ti1R?oc=5",
+      "publisher": "SouNova 少女星",
+      "published_at": "2026-10-28T09:30:00+00:00",
+      "first_seen_at": "2026-11-07T14:43:49+00:00"
     },
     {
       "id": "499c0be16fb3fca0dfbc",

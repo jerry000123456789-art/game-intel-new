@@ -1,10 +1,12 @@
 {
-  "updated_at": "2026-11-07T14:40:48+00:00",
+  "updated_at": "2026-11-07T14:44:07+00:00",
   "games_this_run": 8,
-  "searches_succeeded": 48,
-  "searches_failed": 0,
-  "new_evidence": 0,
-  "total_evidence": 5,
+  "searches_succeeded": 52,
+  "searches_failed": 1,
+  "new_evidence": 7,
+  "total_evidence": 12,
+  "directories_succeeded": 4,
+  "directories_failed": 1,
   "checked_games": {
     "1945airforce街機飛機射擊": "2026-11-07T14:40:48+00:00",
     "2048方塊消除數字遊戲m2blocks": "2026-11-07T14:40:48+00:00",
@@ -13,7 +15,21 @@
     "8ballpool": "2026-11-07T14:40:48+00:00",
     "amongus": "2026-11-07T14:40:48+00:00",
     "angrybirds2": "2026-11-07T14:40:48+00:00",
-    "artpuzzle藝術拼圖遊戲": "2026-11-07T14:40:48+00:00"
+    "artpuzzle藝術拼圖遊戲": "2026-11-07T14:40:48+00:00",
+    "arrowspuzzleescape": "2026-11-07T14:44:07+00:00",
+    "blockcrush": "2026-11-07T14:44:07+00:00",
+    "colonyflow": "2026-11-07T14:44:07+00:00",
+    "fishsortpuzzle": "2026-11-07T14:44:07+00:00",
+    "fishsortpuzzle三消益智遊戲": "2026-11-07T14:44:07+00:00",
+    "hollywoodcrush": "2026-11-07T14:44:07+00:00",
+    "jigsawcardsolitairepuzzle": "2026-11-07T14:44:07+00:00",
+    "line熊大農場": "2026-11-07T14:44:07+00:00"
   },
-  "errors": []
+  "errors": [
+    {
+      "provider": "GASH",
+      "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)>",
+      "url": "https://tw.gashpoint.com/games/list/game"
+    }
+  ]
 }

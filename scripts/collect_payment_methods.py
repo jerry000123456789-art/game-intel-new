@@ -69,8 +69,13 @@ def run(catalog_file=None,output_file=None,status_file=None,getter=fetch):
     existing=json.loads(output_file.read_text(encoding="utf-8")) if output_file.exists() else {"items":[]}
     old=json.loads(status_file.read_text(encoding="utf-8")) if status_file.exists() else {}
     checked=dict(old.get("checked_games",{}))
-    available={normalized(x.get("name","")):x.get("name","") for x in games if valid_name(x.get("name",""))}
-    picks=sorted(available,key=lambda x:(checked.get(x,""),x))[:LIMIT_GAMES]
+    available={normalized(x.get("name","")):(x.get("name",""),x.get("first_seen_at","")) for x in games if valid_name(x.get("name",""))}
+    def priority(k):
+        if k in checked:return (1,checked[k],k)
+        try:ts=dt.datetime.fromisoformat(available[k][1].replace("Z","+00:00")).timestamp()
+        except (ValueError,AttributeError):ts=0
+        return (0,-ts,k)
+    picks=sorted(available,key=priority)[:LIMIT_GAMES]
     combined={(normalized(x.get("game","")),x.get("provider",""),x.get("source_url","")):x
               for x in existing.get("items",[]) if x.get("source_url")}
     errors=[];ok=0;found=0
@@ -78,13 +83,13 @@ def run(catalog_file=None,output_file=None,status_file=None,getter=fetch):
         succeeded=False
         for provider,domain,term in PROVIDERS:
             try:
-                rows=discover(available[key],provider,domain,term,getter)
+                rows=discover(available[key][0],provider,domain,term,getter)
                 ok+=1;succeeded=True
                 for r in rows:
                     k=(normalized(r["game"]),r["provider"],r["source_url"])
                     if k not in combined:combined[k]=r;found+=1
             except Exception as e:
-                errors.append({"game":available[key],"provider":provider,"error":str(e)[:150]})
+                errors.append({"game":available[key][0],"provider":provider,"error":str(e)[:150]})
         if succeeded:checked[key]=NOW
     rows=sorted(combined.values(),key=lambda x:x.get("first_seen_at",""),reverse=True)[:400]
     if rows!=existing.get("items",[]) or not output_file.exists():

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T09:46:49+00:00",
+  "updated_at": "2026-11-07T11:00:37+00:00",
   "status": "ok",
   "errors": [],
   "note": "RSS 標題線索，尚未驗證兌換碼、上市日期或活動細節。",
@@ -768,6 +768,15 @@
       "publisher": "LINE TODAY",
       "published_at": "2025-09-12T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "afa0d80267cfc8318697",
+      "category": "遊戲攻略",
+      "title": "《崩壞：星穹鐵道》3.4版本鏡流、刃、銀狼以及卡芙卡加強後簡易培養攻略懶人包 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa2ppNjNDYzR5SWs5aUVZSUt0UTNJVi1VMnl2SkJUU0tPZGJNbGVUai1ib3JDNEwzOTNXSnk1bVdXNDFFZzB1RzAzbWNLRnJXWkpZdkR3alJ0X1FuSE1vdkJDNDdqYVlOdnlfMmg2TXBsdERZVDNjM0tBOTU5ZVJYenJqY1k2ZTBzcmN3?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2025-07-03T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T11:00:37+00:00"
     },
     {
       "id": "69a10df2e171822064ca",

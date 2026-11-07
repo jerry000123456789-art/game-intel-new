@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T09:46:50.838756+00:00",
+  "updated_at": "2026-11-07T11:00:38.541655+00:00",
   "items": [
     {
       "id": "steam-5e2229ad87fb6e65",
@@ -55,7 +55,7 @@
       ],
       "release_date": "",
       "developer": "",
-      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5259730/135be578d9f2405f8b982ea62284f20ce16ccb83/header.jpg?t=1794043125",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5259730/135be578d9f2405f8b982ea62284f20ce16ccb83/header.jpg?t=1794044558",
       "store_links": [
         {
           "name": "Steam",
@@ -112,28 +112,6 @@
       "verified_store_listing": true
     },
     {
-      "id": "steam-a74b36b649509391",
-      "name": "怪談寺",
-      "status": "即將上市",
-      "region": "美國",
-      "platforms": [
-        "Steam"
-      ],
-      "release_date": "",
-      "developer": "",
-      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5096660/b0764fb44ff097889bc26a763e0c05498e9e4f41/header.jpg?t=1793551111",
-      "store_links": [
-        {
-          "name": "Steam",
-          "url": "https://store.steampowered.com/app/5096660/",
-          "region": "美國"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://store.steampowered.com/app/5096660/",
-      "verified_store_listing": true
-    },
-    {
       "id": "steam-8dc3b128b37c07f7",
       "name": "Rubber Stamp Legend",
       "status": "即將上市",
@@ -153,6 +131,28 @@
       ],
       "payment_methods": [],
       "source_url": "https://store.steampowered.com/app/5471970/",
+      "verified_store_listing": true
+    },
+    {
+      "id": "steam-a74b36b649509391",
+      "name": "怪談寺",
+      "status": "即將上市",
+      "region": "美國",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5096660/b0764fb44ff097889bc26a763e0c05498e9e4f41/header.jpg?t=1793551111",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/5096660/",
+          "region": "美國"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/5096660/",
       "verified_store_listing": true
     },
     {
@@ -219,28 +219,6 @@
       ],
       "payment_methods": [],
       "source_url": "https://store.steampowered.com/app/4886710/",
-      "verified_store_listing": true
-    },
-    {
-      "id": "app-store-d89cdfc924cfde57",
-      "name": "星布谷地",
-      "status": "即將上市",
-      "region": "台灣",
-      "platforms": [
-        "App Store"
-      ],
-      "release_date": "2026-12-04",
-      "developer": "COGNOSPHERE PTE. LTD.",
-      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f6/77/9b/f6779b6f-4f37-9ab1-5843-72db9e7cc3b5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "store_links": [
-        {
-          "name": "App Store",
-          "url": "https://apps.apple.com/tw/app/%E6%98%9F%E5%B8%83%E8%B0%B7%E5%9C%B0/id6776621908?uo=4",
-          "region": "台灣"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://apps.apple.com/tw/app/%E6%98%9F%E5%B8%83%E8%B0%B7%E5%9C%B0/id6776621908?uo=4",
       "verified_store_listing": true
     },
     {

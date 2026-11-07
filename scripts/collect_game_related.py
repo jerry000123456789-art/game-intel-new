@@ -129,6 +129,15 @@ def run(catalog_path=None, leads_path=None, status_path=None, getter=None):
         if any(v is not None for v in per_game.values()):
             checked[key]=NOW.isoformat(timespec="seconds")
         counts[game]=per_game
+    # A literal code explicitly printed in an RSS title can be copied; a
+    # general news title saying "codes available" is only a source lead.
+    from extract_facts import extract_codes, update_records
+    confirmed_strings=[]
+    for row in found.get("codes",[]):
+        confirmed_strings.extend(extract_codes(row["game"],row["title"],row["source_url"],row.get("published_at","")))
+    if confirmed_strings:
+        added,total=update_records("codes",confirmed_strings,("game","code"))
+        print("Explicit codes from game-specific headlines:",added,"new,",total,"total")
     merged=add_leads(existing.get("items",{}),found)
     if merged!=existing.get("items",{}):
         existing["items"]=merged

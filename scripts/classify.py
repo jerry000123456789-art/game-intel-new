@@ -22,5 +22,5 @@ for item in data.get('items',[]):
         'first_seen_at':item.get('first_seen_at',''), 'date_mentions':list(dict.fromkeys(found)),
         'review_required':True})
 result={'updated_at':data.get('updated_at'),'note':'僅依標題比對遊戲與日期字樣；日期不代表活動起迄、上市日期；未擷取或驗證兌換碼。','items':records}
-(ROOT/'data/classified.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\\n',encoding='utf-8')
+(ROOT/'data/classified.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
 print('classified='+str(len(records))+' game_matches='+str(sum(bool(x['game_matches']) for x in records)))

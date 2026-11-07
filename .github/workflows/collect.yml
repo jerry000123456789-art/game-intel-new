@@ -34,6 +34,8 @@ jobs:
           python scripts/classify.py
           python scripts/launch_leads.py
           python scripts/discover_sources.py
+          python scripts/collect_game_related.py
+          python scripts/collect_payment_methods.py
           python scripts/extract_facts.py
           python scripts/ingest_verified.py
           python scripts/merge_history.py

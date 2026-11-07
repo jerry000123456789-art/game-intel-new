@@ -2,28 +2,28 @@
   "sources": [
     {
       "platform": "Google Play TW",
-      "url": "https://play.google.com/store/games?hl=zh_TW&gl=TW",
-      "status": "source-directory-only"
+      "url": "https://play.google.com/store/games?hl=zh_TW",
+      "status": "collector-enabled"
     },
     {
       "platform": "Google Play US",
       "url": "https://play.google.com/store/games?hl=zh_TW&gl=US",
-      "status": "source-directory-only"
+      "status": "collector-enabled"
     },
     {
       "platform": "Huawei AppGallery",
-      "url": "https://appgallery.huawei.com/",
-      "status": "source-directory-only"
+      "url": "https://appgallery.huawei.com/tab/automore%7Cdoublecolumncardwithstar%7C903189%7CA01000",
+      "status": "pending-public-machine-readable-source"
     },
     {
       "platform": "App Store",
-      "url": "https://apps.apple.com/tw/genre/ios-games/id6014",
-      "status": "source-directory-only"
+      "url": "https://apps.apple.com/tw/iphone/games",
+      "status": "collector-enabled"
     },
     {
       "platform": "Steam",
       "url": "https://store.steampowered.com/",
-      "status": "source-directory-only"
+      "status": "collector-enabled"
     },
     {
       "platform": "Epic Games Store",

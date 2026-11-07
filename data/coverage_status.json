@@ -1,12 +1,16 @@
 {
-  "checked_at": "2026-11-07T12:02:52.348813+00:00",
-  "verified_feeds": 0,
+  "checked_at": "2026-11-07T13:09:16.504632+00:00",
+  "configured_content_pages": 2,
+  "configured_youtube_channels": 4,
   "sections": {
     "latest": {
       "count": 87
     },
+    "channel_history": {
+      "count": 0
+    },
     "game_catalog": {
-      "count": 13
+      "count": 18
     },
     "codes": {
       "count": 15
@@ -15,10 +19,27 @@
       "count": 3
     },
     "events": {
-      "count": 1
+      "count": 18
+    }
+  },
+  "source_health": {
+    "store_health": {
+      "sources": {},
+      "note": "尚待第一次 GitHub Actions 線上爬取"
+    },
+    "extraction_status": {
+      "sources_attempted": 0,
+      "sources_succeeded": 0,
+      "errors": [],
+      "note": "尚待第一次 GitHub Actions 線上擷取"
+    },
+    "runtime_status": {
+      "at_least_one_live_source": false,
+      "live_sources": {},
+      "note": "尚待第一次 GitHub Actions 線上驗收"
     }
   },
   "warnings": [
-    "No configured verified automatic feeds for codes/guides/events"
+    "channel_history has no visible content"
   ]
 }

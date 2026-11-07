@@ -109,6 +109,76 @@
       "category": "官方活動紀錄",
       "topup_notes": "歷史資料保留；精確時分及活動資格請依官方原始公告為準",
       "source_url": "https://www.hoyolab.com/events"
+    },
+    {
+      "game": "崩壞：星穹鐵道",
+      "title": "繁育之蕾・花藏繁生雙倍掉落活動",
+      "start_at": "2026-10-30T04:00:00+08:00",
+      "end_at": "2026-11-11T03:59:00+08:00",
+      "region": "亞洲伺服器／UTC+8",
+      "category": "素材掉落活動",
+      "source_url": "https://www.hoyolab.com/article/47238004",
+      "topup_notes": "官方公告標示 UTC+8，雙倍獎勵次數有限"
+    },
+    {
+      "game": "絕區零",
+      "title": "Cyber Miracle Healer, on Duty!",
+      "start_at": "2026-10-28T10:00:00+08:00",
+      "end_at": "2026-11-16T03:59:00+08:00",
+      "region": "亞洲服（UTC+8 示意）",
+      "category": "限時活動",
+      "source_url": "https://zenless.hoyoverse.com/m/en-us/news/166963",
+      "topup_notes": "官方標示 server time；此筆以亞洲服 UTC+8 進行時間軸顯示，其他伺服器請以遊戲公告為準"
+    },
+    {
+      "game": "絕區零",
+      "title": "Advanced Bounty: Area Patrol",
+      "start_at": "2026-11-04T04:00:00+08:00",
+      "end_at": "2026-11-09T03:59:00+08:00",
+      "region": "亞洲服（UTC+8 示意）",
+      "category": "限時活動",
+      "source_url": "https://zenless.hoyoverse.com/m/en-us/news/166963",
+      "topup_notes": "官方標示 server time；此筆以亞洲服 UTC+8 進行時間軸顯示，其他伺服器請以遊戲公告為準"
+    },
+    {
+      "game": "絕區零",
+      "title": "En-Nah Into Your Lap",
+      "start_at": "2026-11-11T10:00:00+08:00",
+      "end_at": "2026-12-01T03:59:00+08:00",
+      "region": "亞洲服（UTC+8 示意）",
+      "category": "限時簽到",
+      "source_url": "https://zenless.hoyoverse.com/m/en-us/news/166963",
+      "topup_notes": "官方標示 server time；此筆以亞洲服 UTC+8 進行時間軸顯示，其他伺服器請以遊戲公告為準"
+    },
+    {
+      "game": "絕區零",
+      "title": "Trails of the Hobbling Crow",
+      "start_at": "2026-11-11T10:00:00+08:00",
+      "end_at": "2026-11-30T03:59:00+08:00",
+      "region": "亞洲服（UTC+8 示意）",
+      "category": "限時活動",
+      "source_url": "https://zenless.hoyoverse.com/m/en-us/news/166963",
+      "topup_notes": "官方標示 server time；此筆以亞洲服 UTC+8 進行時間軸顯示，其他伺服器請以遊戲公告為準"
+    },
+    {
+      "game": "絕區零",
+      "title": "Repair! Drifting Art",
+      "start_at": "2026-11-16T10:00:00+08:00",
+      "end_at": "2026-11-30T03:59:00+08:00",
+      "region": "亞洲服（UTC+8 示意）",
+      "category": "限時活動",
+      "source_url": "https://zenless.hoyoverse.com/m/en-us/news/166963",
+      "topup_notes": "官方標示 server time；此筆以亞洲服 UTC+8 進行時間軸顯示，其他伺服器請以遊戲公告為準"
+    },
+    {
+      "game": "明日方舟",
+      "title": "THE MASSES’ TRAVELS 復刻活動",
+      "start_at": "2026-11-05T08:00:00-07:00",
+      "end_at": "2026-11-19T03:59:00-07:00",
+      "region": "國際服／UTC−7",
+      "category": "限時復刻活動",
+      "source_url": "https://arknights.global/news/5045",
+      "topup_notes": "全球服官方公告使用 UTC−7，活動關卡結束日可能早於活動商店結束日"
     }
   ],
   "updated_at": "2026-11-07T12:05:36.400412+00:00"

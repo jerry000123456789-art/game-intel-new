@@ -1,0 +1,9 @@
+{
+  "lookback_days": 10,
+  "known_games": ["原神", "崩壞：星穹鐵道", "崩壞 星穹鐵道", "鳴潮", "絕區零", "明日方舟", "明日方舟：終末地", "楓之谷M", "楓之谷", "勝利女神：妮姬", "蔚藍檔案", "魔物獵人：旅人", "星布谷地"],
+  "code_pages": [
+    {"game": "原神", "url": "https://gachafeed.moe/genshin/codes/"},
+    {"game": "崩壞：星穹鐵道", "url": "https://www.icy-veins.com/honkai-star-rail/redemption-codes"}
+  ],
+  "news_domains": ["gnn.gamer.com.tw", "genshin.hoyoverse.com", "hsr.hoyoverse.com", "zenless.hoyoverse.com", "wutheringwaves.kurogames.com", "arknights.global", "www.icy-veins.com", "gachafeed.moe"]
+}

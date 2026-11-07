@@ -15,7 +15,28 @@
     {
       "category": "活動行事曆",
       "query": "遊戲 限定卡池 OR 儲值優惠 OR 聯動 活動"
+    },
+    {
+      "category": "官方遊戲公告",
+      "query": "site:zenless.hoyoverse.com/en-us/news OR site:zenless.hoyoverse.com/m/en-us/news 遊戲 活動 期間 2026"
+    },
+    {
+      "category": "官方遊戲公告",
+      "query": "site:arknights.global/news OR site:genshin.hoyoverse.com/zh-tw/news 更新 活動 2026"
+    },
+    {
+      "category": "官方遊戲公告",
+      "query": "site:hsr.hoyoverse.com OR site:wutheringwaves.kurogames.com 遊戲 活動 更新 2026"
     }
   ],
-  "max_per_query": 20
+  "max_per_query": 20,
+  "youtube_channels": [
+    "UCOCtiyIH-Dt00Ntv-WqPgfw",
+    "UCNH35X4JoxqnZHRyWGI04Vg",
+    "UC4c-wTOqEID-_vH4MhNs06w",
+    "UC-e2q_YhFnfsEggbJsTLPHg"
+  ],
+  "bahamut_feeds": [
+    "https://gnn.gamer.com.tw/rss.xml"
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T12:55:48+00:00",
+  "updated_at": "2026-11-07T09:46:49+00:00",
   "note": "僅依標題比對遊戲與日期字樣；日期不代表活動起迄、上市日期；未擷取或驗證兌換碼。",
   "items": [
     {
@@ -243,7 +243,7 @@
       "title": "《我在三國當村長》公測開跑！三國女團形象 MV 曝光 劉備、張遼等新武將登場 - 上報Up Media",
       "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0ySTJaWFRXTDhoQ1B4U1FORjF6MjRqZXpRdDBVTmUyek1BbG1sS2dnTWFXOXU3cHB1WVJmT1dGLTlzaGJkRjFobHpZYWt1Yk1NUlZScEc2Zms2WVRpVXc?oc=5",
       "publisher": "上報Up Media",
-      "published_at": "2026-10-30T07:00:00+00:00",
+      "published_at": "2026-10-30T14:10:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00",
       "date_mentions": [],
       "review_required": true
@@ -1061,20 +1061,6 @@
       "publisher": "LINE TODAY",
       "published_at": "2025-09-12T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00",
-      "date_mentions": [],
-      "review_required": true
-    },
-    {
-      "id": "afa0d80267cfc8318697",
-      "category": "遊戲攻略",
-      "game_matches": [
-        "崩壞：星穹鐵道"
-      ],
-      "title": "《崩壞：星穹鐵道》3.4版本鏡流、刃、銀狼以及卡芙卡加強後簡易培養攻略懶人包 - 4Gamers",
-      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa2ppNjNDYzR5SWs5aUVZSUt0UTNJVi1VMnl2SkJUU0tPZGJNbGVUai1ib3JDNEwzOTNXSnk1bVdXNDFFZzB1RzAzbWNLRnJXWkpZdkR3alJ0X1FuSE1vdkJDNDdqYVlOdnlfMmg2TXBsdERZVDNjM0tBOTU5ZVJYenJqY1k2ZTBzcmN3?oc=5",
-      "publisher": "4Gamers",
-      "published_at": "2025-07-03T07:00:00+00:00",
-      "first_seen_at": "2026-11-07T12:22:05+00:00",
       "date_mentions": [],
       "review_required": true
     },

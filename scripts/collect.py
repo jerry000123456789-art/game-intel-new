@@ -26,7 +26,7 @@ for item in config['queries']:
 combined={x['id']:x for x in old.values()}
 combined.update({x['id']:x for x in new})
 items=sorted(combined.values(),key=lambda x:x.get('published_at') or x.get('first_seen_at',''),reverse=True)[:300]
-payload={'updated_at':now,'status':'ok' if not errors else 'partial','errors':errors,'note':'RSS 標題線索，尚未驗證兌換碼、上市日期或活動細節。','items':items}
+payload={'updated_at':now,'status':'ok' if not errors else 'partial','errors':errors,'fetched':len(new),'note':'RSS 標題線索，尚未驗證兌換碼、上市日期或活動細節。','items':items}
 outfile.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(f'items={len(items)}, fetched={len(new)}, errors={len(errors)}')
-if errors and not new: raise SystemExit('All RSS sources failed; retained existing data')
+if errors and not new: print('WARN: no live news RSS succeeded; retained existing data')

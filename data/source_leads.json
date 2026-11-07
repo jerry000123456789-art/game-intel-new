@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T15:48:37+00:00",
+  "updated_at": "2026-11-07T15:50:44+00:00",
   "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
@@ -238,6 +238,15 @@
         "publisher": "SouNova 少女星",
         "published_at": "2026-11-05T08:00:00+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Monster Hunter Outlanders",
+        "kind": "guides",
+        "title": "魔物獵人旅人Monster Hunter Outlanders 首抽推薦｜刷首抽時間、啟程招募與特邀招募保底、首抽目標冒險者 - Ludens Media",
+        "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XbVQtNWxkWkluTVNwS2xadS1QbnYxMmlwS1UwSlBwcUViTDFmaXVWdmFISngxQk05RFM5N1FxYzhiNHE0N2psVnVBakRhRGpLX2hvWFQ3R2xIZFhXT0lMckt6dTFGSHZqMmNIa0xfcWpfNU0?oc=5",
+        "published_at": "2026-10-31T09:28:05+00:00",
+        "publisher": "Ludens Media",
         "status": "source_lead_only"
       },
       {

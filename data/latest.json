@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T15:48:27+00:00",
+  "updated_at": "2026-11-07T15:50:37+00:00",
   "status": "ok",
   "errors": [],
   "fetched": 120,
@@ -292,6 +292,15 @@
       "publisher": "GNN 新聞網",
       "published_at": "2026-10-19T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "c25a63f47766d05a9905",
+      "category": "官方遊戲公告",
+      "title": "親愛的旅行者，「綺星盛會」網頁活動更多內容現已上線，參與可得重現晶簇、「千星奇域」道具等獎勵！ - Genshin Impact",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IbW1WaFhZdHoxZlN6eDBwcktVeWlKVE5UUFRKTWtIU0lOYldMZkkwdEl2Nk9IWEsxZDkxeHlid3p5QTQ0N01ZQkpvYkZXaURkVE05eVE1dTdkOUhBLUJ6WmNMQ04?oc=5",
+      "publisher": "Genshin Impact",
+      "published_at": "2026-10-18T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T15:50:37+00:00"
     },
     {
       "id": "dffb032fcd98769628e5",

@@ -19,6 +19,19 @@ for item in items:
         seen.add(key)
         leads[kind].append({'title':title,'source_url':url,'publisher':item.get('publisher',''),'published_at':item.get('published_at',''),'first_seen_at':item.get('first_seen_at',''),'status':'source_lead_only'})
 now=datetime.datetime.now(datetime.timezone.utc).isoformat()
-out={'updated_at':now,'note':'These are source leads, not verified codes, full guides, or confirmed events.','items':leads}
-path=ROOT/'data/source_leads.json';path.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+path=ROOT/'data/source_leads.json'
+try:
+    previous=json.loads(path.read_text(encoding='utf-8')).get('items',{})
+except (OSError,ValueError,TypeError):
+    previous={}
+for kind in labels.values():
+    combined={}
+    for row in previous.get(kind,[])+leads[kind]:
+        url=row.get('source_url') or row.get('url')
+        if not url:continue
+        key=(str(row.get('game','')).casefold(),url)
+        if key not in combined:combined[key]=row
+    leads[kind]=sorted(combined.values(),key=lambda x:x.get('published_at',''),reverse=True)[:400]
+out={'updated_at':now,'note':'Historical source leads retained; not validated codes, full guides, or confirmed event dates.','items':leads}
+path.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('source_leads '+', '.join(f'{k}={len(v)}' for k,v in leads.items()))

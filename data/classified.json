@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T08:17:59+00:00",
+  "updated_at": "2026-11-07T09:32:52+00:00",
   "note": "僅依標題比對遊戲與日期字樣；日期不代表活動起迄、上市日期；未擷取或驗證兌換碼。",
   "items": [
     {
@@ -183,6 +183,18 @@
       "publisher": "Ludens Media",
       "published_at": "2026-11-03T04:25:10+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "788829b326cc9fa2a437",
+      "category": "兌換碼",
+      "game_matches": [],
+      "title": "【劍之川】兌換碼與禮包碼序號・11月3日更新 - Ludens Media",
+      "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40VXJBVWUwRE15cWRUaTRKQm5Va0s2ZjNBcWs3ZnY4aDk2N2o5Y2VuZWZfSlZxdXh3b3RHRGxja2JuRzVuOHZ5NFM2TFZYd05GNGJFSzV3?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-11-03T04:14:13+00:00",
+      "first_seen_at": "2026-11-07T09:32:52+00:00",
       "date_mentions": [],
       "review_required": true
     },
@@ -433,6 +445,18 @@
       "publisher": "PChome Online 新聞",
       "published_at": "2026-09-18T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "0d963ddf4750acecba35",
+      "category": "兌換碼",
+      "game_matches": [],
+      "title": "【締造者：放逐之境】兌換碼與禮包碼序號・9月24日更新 - Ludens Media",
+      "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1IRnFkbnVFTWFSZkM2M3h3ZHdHdUoyWDhicFNjWHJSbXZENUZSRmVMUXkwd0RlNFUxcUNtb1pQYnN1dmxFaXFzbkJZUFlSeURfRkp5bWZB?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-09-18T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T09:32:52+00:00",
       "date_mentions": [],
       "review_required": true
     },
@@ -850,6 +874,18 @@
       "review_required": true
     },
     {
+      "id": "cb9e831f9f2b382c8278",
+      "category": "遊戲攻略",
+      "game_matches": [],
+      "title": "《實況野球大冒險》成功模式培育全攻略：「パワフルアカデミー」通關小技巧 - Ludens Media",
+      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVjZ1eW4zUmVXd0h4QnhjWGZWdW1oczFaaXVYc2ZTcDNYTjk0ZGJQLXB5VTdKbnBLbzdKNEZXQ1hOS3FyZEJ6TVRQYVdONVdhM3pmbTZlVlpYOGhVSjhxUXZKZ2lQZHdwMFJENw?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-04-06T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T09:32:52+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
       "id": "1b994086a41c65a672cb",
       "category": "新遊戲資訊",
       "game_matches": [],
@@ -858,6 +894,18 @@
       "publisher": "GNN 新聞網",
       "published_at": "2026-03-09T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "11f111cb10d6c382b78e",
+      "category": "新遊戲資訊",
+      "game_matches": [],
+      "title": "《漫威金鋼狼》定檔9/15正式上市 新作場景橫跨加拿大與馬德里坡 - 科技島",
+      "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9jdlB4VXdLWE9fU3BDY3NKYW50NDFVTWd3RVdSVHJfU2Q3eVpXajNsOXlqaXlzQkFzRkZ1Z3RQa0JncjBkWHR6RjJscGVTX2ZDYU8wUlRRV3REcVpwcDd2TA?oc=5",
+      "publisher": "科技島",
+      "published_at": "2026-02-25T08:00:00+00:00",
+      "first_seen_at": "2026-11-07T09:32:52+00:00",
       "date_mentions": [],
       "review_required": true
     },

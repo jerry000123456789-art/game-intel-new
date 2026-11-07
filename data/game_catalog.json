@@ -1,5 +1,271 @@
 {
-  "updated_at": "",
-  "items": [],
-  "note": "等待首次執行自動蒐集；不使用虛構遊戲資料"
+  "updated_at": "2026-11-07T09:32:53.443594+00:00",
+  "items": [
+    {
+      "id": "steam-5e2229ad87fb6e65",
+      "name": "Desktop Oasis",
+      "status": "即將上市",
+      "region": "美國",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4688280/489694585408f94703cf4d0da73e6093c45083aa/header.jpg?t=1794016471",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4688280/",
+          "region": "美國"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/4688280/",
+      "verified_store_listing": true
+    },
+    {
+      "id": "steam-6c8087b1b3b8cf54",
+      "name": "Noir Total : Deadly Party",
+      "status": "即將上市",
+      "region": "美國",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3435580/2edc8b8626cca712545e001fd4b2e2945f28427d/header_alt_assets_1.jpg?t=1791192780",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/3435580/",
+          "region": "美國"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/3435580/",
+      "verified_store_listing": true
+    },
+    {
+      "id": "steam-79a230bdebe19d15",
+      "name": "Dub Party",
+      "status": "即將上市",
+      "region": "美國",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5259730/135be578d9f2405f8b982ea62284f20ce16ccb83/header.jpg?t=1794043125",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/5259730/",
+          "region": "美國"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/5259730/",
+      "verified_store_listing": true
+    },
+    {
+      "id": "steam-91ddf05f85b397e7",
+      "name": "The Light Switch",
+      "status": "即將上市",
+      "region": "美國",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681220/22a8cd92eac4c12825b5d5e76c8d975ea2fefe31/header.jpg?t=1793306837",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/3681220/",
+          "region": "美國"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/3681220/",
+      "verified_store_listing": true
+    },
+    {
+      "id": "steam-48c984c96e66a7ad",
+      "name": "Battle Runes of Metalaria",
+      "status": "即將上市",
+      "region": "美國",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3997770/3e9e86f3d5b4a22a12371442071650118dee0362/header.jpg?t=1788998835",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/3997770/",
+          "region": "美國"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/3997770/",
+      "verified_store_listing": true
+    },
+    {
+      "id": "steam-a74b36b649509391",
+      "name": "怪談寺",
+      "status": "即將上市",
+      "region": "美國",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5096660/b0764fb44ff097889bc26a763e0c05498e9e4f41/header.jpg?t=1793551111",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/5096660/",
+          "region": "美國"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/5096660/",
+      "verified_store_listing": true
+    },
+    {
+      "id": "steam-8dc3b128b37c07f7",
+      "name": "Rubber Stamp Legend",
+      "status": "即將上市",
+      "region": "美國",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5471970/d996f82b882d34539ba5a0011700a0ceeccf54d4/header.jpg?t=1793759268",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/5471970/",
+          "region": "美國"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/5471970/",
+      "verified_store_listing": true
+    },
+    {
+      "id": "steam-d128999396b9528b",
+      "name": "Onlympic Up!",
+      "status": "即將上市",
+      "region": "美國",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722820/8258eac084d015c67b83239d6ce4ee94b94ac426/header.jpg?t=1793209433",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/3722820/",
+          "region": "美國"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/3722820/",
+      "verified_store_listing": true
+    },
+    {
+      "id": "steam-75bc45ba778d6fdc",
+      "name": "DOPA-MATCH3: Cosmic Journey",
+      "status": "即將上市",
+      "region": "美國",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5206500/683ca9ff53c73b47958b6826966115f7e24bd7ba/header.jpg?t=1789980411",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/5206500/",
+          "region": "美國"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/5206500/",
+      "verified_store_listing": true
+    },
+    {
+      "id": "steam-0bf489d8f5bbc817",
+      "name": "Mushroom Must Go Up!",
+      "status": "即將上市",
+      "region": "美國",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4886710/53acdd1c4602038a5376dc929e508f65294a6f0f/header.jpg?t=1793246345",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4886710/",
+          "region": "美國"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/4886710/",
+      "verified_store_listing": true
+    },
+    {
+      "id": "app-store-1217d20fa06c32a8",
+      "name": "Enchanted Inn: Merge & Mystery",
+      "status": "已上市",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "2026-10-02",
+      "developer": "Tactile Games ApS",
+      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/d9/e3/34d9e3f6-b561-5316-d103-47558f2865c0/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/enchanted-inn-merge-mystery/id6749690403?uo=4",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/enchanted-inn-merge-mystery/id6749690403?uo=4",
+      "verified_store_listing": true
+    },
+    {
+      "id": "app-store-277cf0a8af612c7e",
+      "name": "萌爪配對碰",
+      "status": "即將上市",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "2027-02-27",
+      "developer": "Com2uS Holdings",
+      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/db/61/dc/db61dcd3-3d3b-ebe4-2a44-c588a081be8f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/%E8%90%8C%E7%88%AA%E9%85%8D%E5%B0%8D%E7%A2%B0/id6746398030?uo=4",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/%E8%90%8C%E7%88%AA%E9%85%8D%E5%B0%8D%E7%A2%B0/id6746398030?uo=4",
+      "verified_store_listing": true
+    }
+  ],
+  "errors": [],
+  "note": "僅收錄實際商店條目；商店付款能力不代表遊戲實際支援，未核實的支付方式不顯示。"
 }

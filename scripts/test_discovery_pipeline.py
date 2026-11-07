@@ -20,6 +20,11 @@ rss=f'''<?xml version="1.0"?><rss><channel><item>
 </channel></rss>'''.encode()
 items=related.rss_items("測試新遊戲","codes",lambda _:rss)
 assert len(items)==1 and items[0]["game"]=="測試新遊戲"
+assert not related.title_matches("guides","少女遭綁架透過 Among Us 求救成功")
+assert not related.title_matches("events","美國少女靠 Among Us 找到朋友")
+assert related.title_matches("guides","測試新遊戲 新手攻略與推薦陣容")
+assert related.title_matches("events","測試新遊戲 限時聯動活動")
+
 assert not related.valid_name("螢幕截圖圖片")
 assert not related.valid_name("檢視")
 merged=related.add_leads({"codes":items},{"codes":items})

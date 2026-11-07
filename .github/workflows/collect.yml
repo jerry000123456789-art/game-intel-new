@@ -1,6 +1,13 @@
 name: Collect and validate public game intelligence
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'config/**'
+      - 'index.html'
+      - '.github/workflows/collect.yml'
   schedule:
     - cron: '17 */3 * * *'
 permissions:
@@ -23,6 +30,9 @@ jobs:
         run: |
           python scripts/test_channel_pipeline.py
           python scripts/test_live_pipeline.py
+          python scripts/test_discovery_pipeline.py
+          python scripts/test_frontend_js.py
+          python -m py_compile scripts/collect_game_related.py scripts/collect_payment_methods.py scripts/discover_sources.py
       - name: Fetch public news, YouTube, Bahamut and store pages
         run: |
           python scripts/collect.py

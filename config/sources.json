@@ -1,0 +1,21 @@
+{
+  "queries": [
+    {
+      "category": "新遊戲資訊",
+      "query": "遊戲 開放預約 OR 正式上市 OR 公測"
+    },
+    {
+      "category": "兌換碼",
+      "query": "遊戲 兌換碼 OR 禮包碼"
+    },
+    {
+      "category": "遊戲攻略",
+      "query": "遊戲 攻略 角色 培養"
+    },
+    {
+      "category": "活動行事曆",
+      "query": "遊戲 限定卡池 OR 儲值優惠 OR 聯動 活動"
+    }
+  ],
+  "max_per_query": 20
+}

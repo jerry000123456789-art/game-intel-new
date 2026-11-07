@@ -2,6 +2,30 @@
   "updated_at": "2026-11-07T14:02:47+00:00",
   "items": [
     {
+      "id": "googleplay-rojourney-tw",
+      "name": "RO仙境傳說：口袋戰記",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "Nuverse Games",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.rojourney.and&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.rojourney.and&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:00:00+00:00",
+      "seed_method": "已查閱 Google Play 官方遊戲商店頁面；不推定正式上市日期"
+    },
+    {
       "id": "8e85798b27e2bbd0a8c8fe",
       "name": "星布谷地",
       "status": "即將上市",

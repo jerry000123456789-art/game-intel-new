@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-07T14:02:51.071917+00:00",
-  "note": "These are source leads, not verified codes, full guides, or confirmed events.",
+  "updated_at": "2026-11-07T14:40:40+00:00",
+  "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
       {
@@ -44,6 +44,15 @@
         "status": "source_lead_only"
       },
       {
+        "game": "BLEACH Mirrors High",
+        "kind": "codes",
+        "title": "死神BLEACH MIRRORS HIGH 官方認證T0最神陣容+史上最多禮包拿無限首抽+黑崎一護+藍染+露琪亞#BLEACHMIRRORSHIGH序號 #BLEACHMIRRORSHIGH兌換碼#BLEACHMIRRORSHIGH禮包碼#BLEACHMIRRORSHIGH排行榜#BLEACHMIRRORSHIGH - Mobile01",
+        "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5CZlRMajE3NVV2VHpwT1FZT002TnI0aG55M2RlaEJNT2VxRl9DVUh4MnF0dFh2aHBCWkphTGVOQVpVR1R5ZTdrdTZscHdoLXFIS0gwNXZ0TVVidG5uT2huUEtGai11Qmc?oc=5",
+        "published_at": "2026-10-29T16:06:00+00:00",
+        "publisher": "Mobile01",
+        "status": "source_lead_only"
+      },
+      {
         "title": "《魔物獵人：旅人》兌換碼最新整理！免費露塔幣、銀幣與道具領取方式一次看 - Yahoo新聞",
         "source_url": "https://news.google.com/rss/articles/CBMi9wNBVV95cUxNc3kxSjlHTHFncjdwZEhTc0hjMkIwMkR0RjVsVVk4bjd0Tmgtdm1OQWpveGhtZXJ5NFdUbUpiRi1uVFVSNF9OZFVjdDZ3WmRLckN4OFBtU2JGNEk4UmxHOXVEamZUYW45YmZFS3N6ZzExVjVmb2o1OHJINkxIWnZqT0daZzF4alFvUURTQmxVbm9RUmkyckJOM0wxUHd6OHQ5ZGxrOHoyRy04dnMyMlJtQmFrVmZ4cUptamota1lyNDE4RllpVk5TeXp1U25yQjl3dUQtbnhRdV91WkVrM2dXQXJFSXVmeXo0UHVNMWd3c2lJNHRQN3k5SjN6a3NrcHdFakJYekxEbGVkN0NfcWl2bF9DRGxXdG8xUGt1eE9PVFVfT0pIRWxmd2l5c0Y5MTY2UjRoT2xNR1dyeVE1eFVMSVBva1VqbUxKV3Q4Q3Vqd2UxTTZGTk1aakFsM1Jwa1VZZE8wUDE5dTVqQmdFdDlodFFfZ0tSelFyZ3FyeFppVTRFbWlIRkpxeFd0anpfOTRza1Rodk94NkV6cExOdkhRN3JWNW1VNFo2bW1tRmRHZHBqdTZXczd6OHNGbmMzVHl0dTc0N2I2MjBGMDVRWm9WQWRlMjBqLUR0QU5SbHNwU0k5eG85MVNvVTdaS3BsSWs5MWNtc0Zabw?oc=5",
         "publisher": "Yahoo新聞",
@@ -57,6 +66,15 @@
         "publisher": "Ludens Media",
         "published_at": "2026-10-29T07:00:00+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "BLEACH Mirrors High",
+        "kind": "codes",
+        "title": "死神BLEACH MIRRORS HIGH 官方認證T0最強首抽陣容+史上最多禮包拿無限抽+黑崎一護+藍染+露琪亞#BLEACHMIRRORSHIGH序號 #BLEACHMIRRORSHIGH兌換碼#BLEACHMIRRORSHIGH禮包碼#BLEACHMIRRORSHIGH首抽#BLEACHMIRRORSHIGH - Mobile01",
+        "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnTU9qTUhIOHNrVUhRSklGME9zUEJ5ak04RWl4YWFRYW5EUEtUX29WUWo3OEdCUEhhdmJpZlRKWHZPNzBxY0F4QkFsclpaaE84VTRycjlCakQ1cm5UczJhSDRJc1VtU3M?oc=5",
+        "published_at": "2026-10-28T15:44:46+00:00",
+        "publisher": "Mobile01",
         "status": "source_lead_only"
       },
       {
@@ -198,11 +216,47 @@
     ],
     "guides": [
       {
+        "game": "Among Us",
+        "kind": "guides",
+        "title": "少女被囚禁 500 多天，靠《Among Us》遊戲訊息求救成功脫身 - 電腦王阿達",
+        "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIdFpKS2o1XzBJUUVra0EzUWdTcnMxcEFaVXdRaWhicDYydmdYTmNGZmJZSzVwV2xuRTI2NGh1YVN6RHNNWDlrVGxXZXZpbV9OUFE?oc=5",
+        "published_at": "2026-11-07T13:34:18+00:00",
+        "publisher": "電腦王阿達",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Among Us",
+        "kind": "guides",
+        "title": "美國17歲少女遭禁錮逾500天 經網絡遊戲《Among Us》求援終獲救 - 香港01",
+        "source_url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxQckx1aDlUX1hWaS1DZW92U1VQS1FONU1CR1EzdE05dUhpbmdHS1NTNERHaV9lUTd1dFpDYmh1eWhCcUYxSUtNRi1LeUFqOGw4dk44Um5FNElHZGFNNzZ4WDg0UTJ3Y05EVkZCUS1HSklNNWlQR0tBSWgtWkJWWExyRUZpTEJ1anBHa2x2QktYM2lOMXByaFJJbkNMNDhLbkE3OE95OE11YVRtZk9ZV0VQcWNRQmlsT1RINS02WkRzX2NXYWxRaVBRRjR3R2FjanZhejl1WmhPRHk5bTZ2MVQ2OTFMWlprY29GREdfOVZUVkZsam5WZHItajhVTjAxQzgxbHcwXzAtOGdheUJQdGZjSEJFLWdJcUVvRzN0V0ZUM0NwWHJsUjBQM3ptdkQ5UE9uYUhXeXJicUFJdkc3OC1CTHdFUEFWVk1qaHFiZzJ5QnR0TnhCdGVSdEJmSHlqZU5qajdkemtaRjhaa2UxTFFnekVOVldLMG5NRm1j?oc=5",
+        "published_at": "2026-11-07T06:43:52+00:00",
+        "publisher": "香港01",
+        "status": "source_lead_only"
+      },
+      {
         "title": "《Disney Sparklink Stars》新手攻略！首抽方向、角色培育與三消玩法一次掌握 - SouNova 少女星",
         "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9HNUhzM1pIbFJTbThYS1dBQWczU0F0cmFMZXFGTkRQOHZKc1VjdTJQSmhSN2JVUEY3a0NnaDRLdDljQlVNbTY4UW1ycklYQlF0ZV9UUzVMREh2VndGcVdJWmxhX3dRWnpIRGQ2Sms1d0k?oc=5",
         "publisher": "SouNova 少女星",
         "published_at": "2026-11-05T08:00:00+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "BLEACH Mirrors High",
+        "kind": "guides",
+        "title": "死神BLEACH MIRRORS HIGH 官方認證T0最神陣容+史上最多禮包拿無限首抽+黑崎一護+藍染+露琪亞#BLEACHMIRRORSHIGH序號 #BLEACHMIRRORSHIGH兌換碼#BLEACHMIRRORSHIGH禮包碼#BLEACHMIRRORSHIGH排行榜#BLEACHMIRRORSHIGH - Mobile01",
+        "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5CZlRMajE3NVV2VHpwT1FZT002TnI0aG55M2RlaEJNT2VxRl9DVUh4MnF0dFh2aHBCWkphTGVOQVpVR1R5ZTdrdTZscHdoLXFIS0gwNXZ0TVVidG5uT2huUEtGai11Qmc?oc=5",
+        "published_at": "2026-10-29T16:06:00+00:00",
+        "publisher": "Mobile01",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "BLEACH Mirrors High",
+        "kind": "guides",
+        "title": "死神BLEACH MIRRORS HIGH 官方認證T0最強首抽陣容+史上最多禮包拿無限抽+黑崎一護+藍染+露琪亞#BLEACHMIRRORSHIGH序號 #BLEACHMIRRORSHIGH兌換碼#BLEACHMIRRORSHIGH禮包碼#BLEACHMIRRORSHIGH首抽#BLEACHMIRRORSHIGH - Mobile01",
+        "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnTU9qTUhIOHNrVUhRSklGME9zUEJ5ak04RWl4YWFRYW5EUEtUX29WUWo3OEdCUEhhdmJpZlRKWHZPNzBxY0F4QkFsclpaaE84VTRycjlCakQ1cm5UczJhSDRJc1VtU3M?oc=5",
+        "published_at": "2026-10-28T15:44:46+00:00",
+        "publisher": "Mobile01",
         "status": "source_lead_only"
       },
       {
@@ -352,6 +406,24 @@
     ],
     "events": [
       {
+        "game": "Among Us",
+        "kind": "events",
+        "title": "美國少女遭綁架521天！警方找了一年半都沒找到 最後竟靠《Among Us》獲救 - Yahoo新聞",
+        "source_url": "https://news.google.com/rss/articles/CBMiswNBVV95cUxPRXZqU2s0Q1A3N2ROdVZ6VTdGWTZtZDBiM3pWWV9aN29LTDdQMjMxSjZNU3pOZmJWSThkRExwZC04Vmg3WGFfdjBDNTR3blFNWjRfNG01M005bnpCU1cwdjB5YW5aYjIyNEFxYlZXZUpPNUdIaEtYc3d4RTUxcDl6RHpHZGJxZkF5U3pGYnpobWw2NmtLdkZOMEpuMFEwLXFfUktDTWNFcy1ndS1nQ0l3bDl3YXd1NzlEa0ZhQUJQaVU5dGlGVFdWTUVGZnZZc3JESjFVaDlvZEFTV1lfWVZpVHhoU00yOU85VnZKSUZHVnp2UVNkelZKMHppYllXZXlNQ3ZiM090WmRlSGJLTTlKRGVrR2pjZnQ0YUZlaG1XSmF4NURVeUZjTTNwZUJGZFo2ZU16RV9KMDMzcHotR2pPTVFYWWFfTTNGOTNvT0JfaFc4V19yODY3WWQ2dEdaVWZPdnJQa09MWmF6eGE1Y2QtaFE2aTV0TEN6VTJmbWJEZ3hVSDUtNlZHQ3pxa2RTR1pCU0dHbjhlU0VGYXpoY1dlMUc5OUo4eFUyTExJM3NqRnBPNTA?oc=5",
+        "published_at": "2026-11-07T08:44:15+00:00",
+        "publisher": "Yahoo新聞",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Among Us",
+        "kind": "events",
+        "title": "美國17歲少女遭禁錮逾500天 經網絡遊戲《Among Us》求援終獲救 - 香港01",
+        "source_url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxQckx1aDlUX1hWaS1DZW92U1VQS1FONU1CR1EzdE05dUhpbmdHS1NTNERHaV9lUTd1dFpDYmh1eWhCcUYxSUtNRi1LeUFqOGw4dk44Um5FNElHZGFNNzZ4WDg0UTJ3Y05EVkZCUS1HSklNNWlQR0tBSWgtWkJWWExyRUZpTEJ1anBHa2x2QktYM2lOMXByaFJJbkNMNDhLbkE3OE95OE11YVRtZk9ZV0VQcWNRQmlsT1RINS02WkRzX2NXYWxRaVBRRjR3R2FjanZhejl1WmhPRHk5bTZ2MVQ2OTFMWlprY29GREdfOVZUVkZsam5WZHItajhVTjAxQzgxbHcwXzAtOGdheUJQdGZjSEJFLWdJcUVvRzN0V0ZUM0NwWHJsUjBQM3ptdkQ5UE9uYUhXeXJicUFJdkc3OC1CTHdFUEFWVk1qaHFiZzJ5QnR0TnhCdGVSdEJmSHlqZU5qajdkemtaRjhaa2UxTFFnekVOVldLMG5NRm1j?oc=5",
+        "published_at": "2026-11-07T06:43:52+00:00",
+        "publisher": "香港01",
+        "status": "source_lead_only"
+      },
+      {
         "title": "《亡途轉生》與動畫《迷宮飯》首次聯動合作開啟 萊歐斯、瑪露希爾、法琳、米斯倫以點陣動畫在遊戲中登場 - GNN 新聞網",
         "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9aOVZIbVlYZmtlQ05BUWdOU3I2M2VYN0RTTkJzN0ZUd3YyelJZQlQzUnhzYXRmeWRiQjVuZkxTQWJuV1FaLWFTcTZxQ3JjbF9HcVR0dGx2RlY?oc=5",
         "publisher": "GNN 新聞網",
@@ -381,6 +453,33 @@
         "publisher": "GNN 新聞網",
         "published_at": "2026-11-02T08:52:13+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "BLEACH Mirrors High",
+        "kind": "events",
+        "title": "【電玩瘋】手機週報《魔物獵人：旅人》、《ONE PIECE 海洋盛宴》與《BLEACH Mirrors High》等遊戲 - GNN 新聞網",
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9wX0k2N3hrcVlQV0VjREZWNm5LTHFzTG1odWduc3BaSjE3WVNkQS1sczhGYlNmcVYtQ3dndkpCUFhaS1FaenpCVjdtVVJ3YjZDMXplNjhDRUI?oc=5",
+        "published_at": "2026-10-31T12:00:01+00:00",
+        "publisher": "GNN 新聞網",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "BLEACH Mirrors High",
+        "kind": "events",
+        "title": "死神BLEACH MIRRORS HIGH 官方認證T0最神陣容+史上最多禮包拿無限首抽+黑崎一護+藍染+露琪亞#BLEACHMIRRORSHIGH序號 #BLEACHMIRRORSHIGH兌換碼#BLEACHMIRRORSHIGH禮包碼#BLEACHMIRRORSHIGH排行榜#BLEACHMIRRORSHIGH - Mobile01",
+        "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5CZlRMajE3NVV2VHpwT1FZT002TnI0aG55M2RlaEJNT2VxRl9DVUh4MnF0dFh2aHBCWkphTGVOQVpVR1R5ZTdrdTZscHdoLXFIS0gwNXZ0TVVidG5uT2huUEtGai11Qmc?oc=5",
+        "published_at": "2026-10-29T16:06:00+00:00",
+        "publisher": "Mobile01",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "BLEACH Mirrors High",
+        "kind": "events",
+        "title": "死神BLEACH MIRRORS HIGH 官方認證T0最強首抽陣容+史上最多禮包拿無限抽+黑崎一護+藍染+露琪亞#BLEACHMIRRORSHIGH序號 #BLEACHMIRRORSHIGH兌換碼#BLEACHMIRRORSHIGH禮包碼#BLEACHMIRRORSHIGH首抽#BLEACHMIRRORSHIGH - Mobile01",
+        "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnTU9qTUhIOHNrVUhRSklGME9zUEJ5ak04RWl4YWFRYW5EUEtUX29WUWo3OEdCUEhhdmJpZlRKWHZPNzBxY0F4QkFsclpaaE84VTRycjlCakQ1cm5UczJhSDRJc1VtU3M?oc=5",
+        "published_at": "2026-10-28T15:44:46+00:00",
+        "publisher": "Mobile01",
         "status": "source_lead_only"
       },
       {

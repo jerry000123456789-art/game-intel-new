@@ -1,6 +1,4469 @@
 {
-  "updated_at": "2026-11-07T14:02:47+00:00",
+  "updated_at": "2026-11-07T14:40:37+00:00",
   "items": [
+    {
+      "id": "86e2401f5cf9674885ebfc",
+      "name": "Angry Birds 2",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.rovio.baba&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.rovio.baba&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "0e44f175b1583cab7e32dd",
+      "name": "細胞保衛戰",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=defense.roguelike.cell.shoot.survivor&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=defense.roguelike.cell.shoot.survivor&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "a02ff3d6635e9bb0a6828b",
+      "name": "魔物獵人：旅人",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.garena.game.mho&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.garena.game.mho&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "4cc16f97c24a4b46017530",
+      "name": "Roblox",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.roblox.client&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.roblox.client&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "441ccaf826fca734eee832",
+      "name": "糖果傳奇",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.king.candycrushsaga&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.king.candycrushsaga&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "13408ab44bd60e2e21f0c4",
+      "name": "Garena 傳說對決：十週年裂隙穿梭版本",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.garena.game.kgtw&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.garena.game.kgtw&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "a0af85cd43efc2f9029afe",
+      "name": "半夜別修仙 - 少年歌行聯動",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.legendwx.gp&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.legendwx.gp&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "92f296e82baaaed5a1368c",
+      "name": "Vita 麻將",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.vitastudio.mahjong&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.vitastudio.mahjong&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "258cc10687bf658f86ddae",
+      "name": "Block Blast!",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.block.juggle&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.block.juggle&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "64ed620e4f93bbb1abbea6",
+      "name": "Mahjong Blast（麻將消消樂益智遊戲）",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.nebula.mahjongtile&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.nebula.mahjongtile&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "b8802b4629226476d4b0e4",
+      "name": "Pokémon GO",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "c06d53a1753736b0389eaf",
+      "name": "瘋狂水世界",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.iyagames.flotshelter&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.iyagames.flotshelter&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "2dc43c002c6f9a8454cd02",
+      "name": "蠟筆小新：GO！",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.fivexgames.shin.tc&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.fivexgames.shin.tc&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "b55828b94a042650dacf04",
+      "name": "Garena® 三角洲行動",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.garena.game.df&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.garena.game.df&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "7713a48b1714830badab64",
+      "name": "噠噠戰機",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.survivor.ace&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.survivor.ace&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "56f1c48aa18dc9e4addc9d",
+      "name": "Pikmin Bloom",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.nianticlabs.pikmin&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.nianticlabs.pikmin&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "9e689ce03815f38f243b77",
+      "name": "方塊探險家 - 三消",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.oakever.tiletrip&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.oakever.tiletrip&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "8de34ab40417dd78dcef06",
+      "name": "荒野亂鬥",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.supercell.brawlstars&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.supercell.brawlstars&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "2872a7cbf2cabdf506d38d",
+      "name": "緋聞港口：合併&故事",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.mergegames.gossipharbor&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.mergegames.gossipharbor&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "8ebbd9d8ac35e082659204",
+      "name": "Royal Smash! - Physics Puzzle",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.cyphergames.royalsmash&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.cyphergames.royalsmash&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "7c0c6e5978a0f409e3fbcb",
+      "name": "槍手貓咪：放置射擊RPG",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.Chodun.CatGunner&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.Chodun.CatGunner&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "0c1ec0f13a0d282df812a5",
+      "name": "8 Ball Pool",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.miniclip.eightballpool&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.miniclip.eightballpool&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "66ff4d7425cc26963e92f0",
+      "name": "夢想小鎮",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.playrix.township&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.playrix.township&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "7d572ff07ebc2d97b00eda",
+      "name": "Runner Heroes",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.runninggame.subwayrunner.heroes&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.runninggame.subwayrunner.heroes&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "d3945b911f983d221af69a",
+      "name": "Subway Surfers",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "09d4e26208dc7db0bda0d3",
+      "name": "Jewel Coloring",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=color.number.paint.pixle.art.sort.jigsaw&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=color.number.paint.pixle.art.sort.jigsaw&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "6e8bfa71cfa79549b39dcb",
+      "name": "數獨 - 經典數獨謎題",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=easy.sudoku.puzzle.solver.free&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=easy.sudoku.puzzle.solver.free&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "4e91353afd62fea61631cf",
+      "name": "數獨 - 經典邏輯益智數獨遊戲，適合所有益智遊戲愛好者",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.easybrain.sudoku.android&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.easybrain.sudoku.android&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "a8216fa7a7b0fd09f398d4",
+      "name": "Melon Sandbox",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.studio27.MelonPlayground&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.studio27.MelonPlayground&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "85f3590e1460f70d69dd54",
+      "name": "寶石冒險消消樂",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.puzzlegame.match.jewels.adventure&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.puzzlegame.match.jewels.adventure&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "c6246ec4d177be0af99299",
+      "name": "1945 Air Force: 街機飛機射擊",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.os.airforce&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.os.airforce&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "fb427cc4cb0796ab226544",
+      "name": "Word Cookies! ®",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.bitmango.go.wordcookies&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.bitmango.go.wordcookies&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "62e60fb1656a123ee7bff4",
+      "name": "帝國興起：羅馬 Grow Empire: Rome",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.empire.grow.rome&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.empire.grow.rome&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "0f8e2ac56cb3404e06b9e1",
+      "name": "Matching Story - 益智消除",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.joycastle.mergematch&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.joycastle.mergematch&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "4cda90fd47f5f3bbf6beb2",
+      "name": "Stacky Bird: 超休閒小鳥飛行遊戲",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.kooapps.stackybirdandroid&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.kooapps.stackybirdandroid&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "b65fa4d16c800ad9492fca",
+      "name": "Toca Boca World",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.tocaboca.tocalifeworld&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.tocaboca.tocalifeworld&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "128f0abb32d1ed10ded67d",
+      "name": "Tile Park: 溫馨拼圖",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=funvent.tilepark&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=funvent.tilepark&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "29fbbd42a9af94c62a7b9c",
+      "name": "My Cat: 我的貓咪 - 電子寵物遊戲 我的虛擬寵物",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=cat.game.liftapp&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=cat.game.liftapp&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "33cd1501f5f25a3b0512be",
+      "name": "eFootball™",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=jp.konami.pesam&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=jp.konami.pesam&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "91f416a702807e53295f72",
+      "name": "寶寶超市",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.sinyee.babybus.shopping&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.sinyee.babybus.shopping&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "5ac559d374cf943a30ebad",
+      "name": "Cutie Sort: Cat Sort Game",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=sort.casual.color.cat.puzzle.match&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=sort.casual.color.cat.puzzle.match&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "42c587ffa04e009c4dcfe5",
+      "name": "夢幻茶樓",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.mhclyxpb.gatja&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.mhclyxpb.gatja&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "461ea994d8658a2b70afdd",
+      "name": "LINE Bubble 2－泡泡射擊益智遊戲",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.linecorp.LGBB2&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.linecorp.LGBB2&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "ed1fc9dcf05fca74d36c9f",
+      "name": "轉下螺絲任務",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.mobirix.ldfscrw&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.mobirix.ldfscrw&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "e2259324c205eb7169e2f5",
+      "name": "比賽益智旅行",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.mobirix.mbtm&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.mobirix.mbtm&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "ef4d431e7ddf9b00faf30d",
+      "name": "水流傳奇：水管遊戲",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.vladk.pipemasters&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.vladk.pipemasters&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "ed901690e6308fe7239bd8",
+      "name": "海底歡樂消 - Ocean Match",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=linkdesks.oceanmatch&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=linkdesks.oceanmatch&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "f18b6b98bb7f07e815920d",
+      "name": "2048方塊消除數字遊戲 - M2 Blocks",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=merge.blocks.drop.number.puzzle.games&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=merge.blocks.drop.number.puzzle.games&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "6fe83e85c72b190a62f257",
+      "name": "腦力測試 (Brain Test)：謎題急轉彎",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.unicostudio.braintest&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.unicostudio.braintest&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "635bc401efdaa86cb7d49f",
+      "name": "Happy Color® – 按數字編號上色的塗色書",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.pixel.art.coloring.color.number&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.pixel.art.coloring.color.number&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "bb42ea26b51f8ac3775dfd",
+      "name": "Tile Club - Match Puzzle Games",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.gamovation.tileclub&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.gamovation.tileclub&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "8c46fe6aa73a7d4188fbc8",
+      "name": "元氣騎士",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.ChillyRoom.DungeonShooter&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.ChillyRoom.DungeonShooter&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "ae228e2a1e88c9e568970a",
+      "name": "蛇衝突 (Snake Clash)",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=io.supercent.linkedcubic&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=io.supercent.linkedcubic&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "e9f8289c52f12f0038baa4",
+      "name": "Fishing Clash：釣魚競技模擬",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.tensquaregames.letsfish2&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.tensquaregames.letsfish2&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "3a38b99095edfde5c0dc6d",
+      "name": "Hello Kitty My Dream Store",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.actgames.HelloKittyMDS&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.actgames.HelloKittyMDS&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "0eb2a1698777fd2edf522b",
+      "name": "Find The Cat - Spot It!",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.ventogames.findthecat&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.ventogames.findthecat&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "bc3aaf52567d14992ef10f",
+      "name": "農場英雄傳奇",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.king.farmheroessaga&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.king.farmheroessaga&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "4dfabf59fcae8dcce14767",
+      "name": "魚吃魚：成長与進化！-Fish Eat Fish.io",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.FishEatFish.FeedGrow&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.FishEatFish.FeedGrow&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "e517081138c79d9915b66f",
+      "name": "Balatro",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.playstack.balatro.android&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.playstack.balatro.android&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "0a82410fe17c8bb67dc713",
+      "name": "Sky光·遇",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.tgc.sky.android&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.tgc.sky.android&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "36c0c872dddcb107269593",
+      "name": "打開上鎖的保險箱: 邏輯遊戲",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.peaksel.openthesafebox_3dsafebreaker_thevault&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.peaksel.openthesafebox_3dsafebreaker_thevault&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "f34afc58c59480ecc1d160",
+      "name": "The Battle of Polytopia",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=air.com.midjiwan.polytopia&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=air.com.midjiwan.polytopia&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "aa9b1b8dcc34dd01e68b58",
+      "name": "Flick Shot Rogues",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.noodlecake.flickshotrogues&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.noodlecake.flickshotrogues&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "38c82f97a06edec081761e",
+      "name": "Winter Burrow",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.noodlecake.wb&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.noodlecake.wb&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "513f4829cb05ef9a70fedf",
+      "name": "Superliminal",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.noodlecake.superliminal&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.noodlecake.superliminal&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "c67f5b1cbeeca8733dd466",
+      "name": "Discounty: Supermarket Manager",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.snapbreak.discounty&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.snapbreak.discounty&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "d08d354ea617ecdc71cb74",
+      "name": "Guncho",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.tinytouchtales.guncho&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.tinytouchtales.guncho&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "67f71d534c967858d80297",
+      "name": "Reigns",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.devolver.reigns&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.devolver.reigns&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "7012e5be9841d318f5533b",
+      "name": "The Room Three",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.FireproofStudios.TheRoom3&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.FireproofStudios.TheRoom3&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "1572cfa62b97f7efd170c8",
+      "name": "purple",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=air.com.bartbonte.purple&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=air.com.bartbonte.purple&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "51d4671b72bf43c6f0ecc2",
+      "name": "Underground Blossom",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=air.com.RustyLake.UndergroundBlossom&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=air.com.RustyLake.UndergroundBlossom&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "dff36a8e8af8e27bdb26c4",
+      "name": "The White Door",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=air.com.RustyLake.WhiteDoor&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=air.com.RustyLake.WhiteDoor&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "5ca9421b37587a3a00aaaf",
+      "name": "LEVELS II",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=app.flow.levelsII&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=app.flow.levelsII&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "3cb2b0e4ff34d209c9f0ed",
+      "name": "Brewtopia: Grow Coffee Beans",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=ca.lbcstudios.coffee&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=ca.lbcstudios.coffee&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "4a31b007031ce6003006ab",
+      "name": "quadline",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.IvanKovalov.quadline.android&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.IvanKovalov.quadline.android&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "6c93cb274a14881e511462",
+      "name": "The Past Within",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.RustyLake.ThePastWithin&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.RustyLake.ThePastWithin&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "c1a73cc7de30132da05496",
+      "name": "GUBBINS",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.StudioFolly.GUBBINS&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.StudioFolly.GUBBINS&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "f4a2a70c09fb862eaef477",
+      "name": "Please, Touch The Artwork",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.StudioWaterzooi.PleaseTouchTheArtwork&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.StudioWaterzooi.PleaseTouchTheArtwork&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "88b85efb1e42774a2e36f9",
+      "name": "泡泡射手：營救家族",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.bubbleshooter.rescue.story.family.pop.puzzle&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.bubbleshooter.rescue.story.family.pop.puzzle&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "691554a4bfcf88d3920dcf",
+      "name": "Don't Die: SurvivalAutoBattler",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.dontdie.survival.battler&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.dontdie.survival.battler&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "35278e510bd134b1cd6f7b",
+      "name": "Jewel Bloom：像素填色與色彩分類",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.ashita.jewel.bloom.color&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.ashita.jewel.bloom.color&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "cec11cf622ab53b0c60eba",
+      "name": "3D Bubble Blast",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.bubble.blast.puzzle.game&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.bubble.blast.puzzle.game&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "d4758f42157107c7bac4d3",
+      "name": "Home Story: Match-Up!",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.jc.matchgame.puzzle&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.jc.matchgame.puzzle&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "9222828392a0e00bfc982a",
+      "name": "方塊匹配冒險-三消配對",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.tilequest.match.puzzle.travel.game&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.tilequest.match.puzzle.travel.game&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "1716438180f79b4c792980",
+      "name": "Screw Spark: 螺絲分類謎題",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.sohi.screwspark.gp&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.sohi.screwspark.gp&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "934cfc8b33d33036cdf21a",
+      "name": "Mahjong 10：匹配合十",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.sofish.mahjong10.gp&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.sofish.mahjong10.gp&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "5d6efdcf4aeb1951e759d8",
+      "name": "Tile Calm: 方塊清除",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.sofish.tilecalm.gp&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.sofish.tilecalm.gp&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "793e710162b200b86c833b",
+      "name": "大家來找碴2：尋找與發現",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.gurupuzzle.differences.find.spot&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.gurupuzzle.differences.find.spot&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "18e03bab7f76097b1d039e",
+      "name": "Shelf Sort: Match 3 Puzzle",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.match.shelfsort.puzzle&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.match.shelfsort.puzzle&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "3413ec06c8e8e8d5eea8e2",
+      "name": "Zen Arrow：箭頭解謎",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.sohi.zenarrow.gp&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.sohi.zenarrow.gp&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "076838528e77aee9020ab7",
+      "name": "小鎮派對：合併&烹飪",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.quzizi.juicyjourney.google&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.quzizi.juicyjourney.google&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "c45f06376728de603f5e18",
+      "name": "Unloop Logic: Arrow Puzzle",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.unloop.games.logic.puzzle&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.unloop.games.logic.puzzle&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "d26bef357b8f704e92e51e",
+      "name": "MOVLO: Logic Puzzle",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.arrowflow.escape.puzzle.game&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.arrowflow.escape.puzzle.game&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "e65b8fc5bc3bbb770c5573",
+      "name": "Cooking Joy",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.cookingjoy.chef.kitchen.restaurant.game&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.cookingjoy.chef.kitchen.restaurant.game&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "a6552376af0a8c5a071d8c",
+      "name": "Ever Tile: 3D水果配對",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.sofish.evertile.gp&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.sofish.evertile.gp&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "0a05926f5b26ff3c8ec76d",
+      "name": "Wood Grid: 經典方塊",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.sohi.woodgrid.gp&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.sohi.woodgrid.gp&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "68dd0ed04f8fe891cf0235",
+      "name": "Sweet Match - Puzzle Games",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.sweetmagic.match3.puzzlegame&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.sweetmagic.match3.puzzlegame&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "aec4fded3d9563a26f91e4",
+      "name": "Wild West Digger",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.astrologicmedia.wildwestdigger&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.astrologicmedia.wildwestdigger&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "d11b004ca1b53f52fdcd69",
+      "name": "家居設計 改造王",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=in.loop.hdmakeover&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=in.loop.hdmakeover&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "bdfb6ad63cb1016c4cc7a0",
+      "name": "GT Rivals: Real Racing Sim",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.gt.rivals.car.racing.game&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.gt.rivals.car.racing.game&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "cb13252a6f9287d95eb1cd",
+      "name": "MONOPOLY GO! (大富翁 GO!)",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.scopely.monopolygo&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.scopely.monopolygo&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "aea14cea563f6c906270fb",
+      "name": "熊貓泡泡",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.sgn.pandapop.gp&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.sgn.pandapop.gp&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "54ae654732253e756ee147",
+      "name": "DRAGON BALL LEGENDS -七龍珠 激戰傳說-",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.bandainamcoent.dblegends_ww&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.bandainamcoent.dblegends_ww&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "c231fe4b1cb844c1edbf65",
+      "name": "貓咪和湯: 可愛貓咪療癒放置育成慢生活遊戲",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.hidea.cat&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.hidea.cat&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "5aa0873e94c93ecb540a14",
+      "name": "地球末日：生存之戰",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=zombie.survival.craft.z&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=zombie.survival.craft.z&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "4b773168ce96eff7c312b0",
+      "name": "8 Ball Pool",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.miniclip.eightballpool&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.miniclip.eightballpool&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "ce531e4a17bfcd524c3557",
+      "name": "Candy Crush Soda Saga",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.king.candycrushsodasaga&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.king.candycrushsodasaga&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "aba4f4678129fe89aab8ad",
+      "name": "Candy Crush Saga",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.king.candycrushsaga&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.king.candycrushsaga&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "1ed8b3b4a7b7f8c5eb885d",
+      "name": "Call of Duty®: Mobile",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "48af4ff59b973dbe5f671a",
+      "name": "Free Fire: 風暴競技場",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.dts.freefireth&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.dts.freefireth&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "62c66ca7a44fcece40356a",
+      "name": "Subway Surfers",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "c273e1335f9cb39b0ba104",
+      "name": "Among Us",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.innersloth.spacemafia&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.innersloth.spacemafia&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "874ad6c0c40dc87bab8ca6",
+      "name": "EA SPORTS FC™ 足球 Mobile 27",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.ea.gp.fifamobile&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.ea.gp.fifamobile&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "2be1a13960242aad191a83",
+      "name": "PUBG MOBILE",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.tencent.ig&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.tencent.ig&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "f1927a2ee10fef7004c8fb",
+      "name": "2 Player games : the Challenge",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.JindoBlu.TwoPlayerGamesChallenge&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.JindoBlu.TwoPlayerGamesChallenge&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "4053e88cd2b223868ff2c9",
+      "name": "部落衝突 (Clash of Clans)",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.supercell.clashofclans&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.supercell.clashofclans&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "88bf7acd9d2f38ed593844",
+      "name": "Art Puzzle - 藝術拼圖遊戲",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.easybrain.art.puzzle&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.easybrain.art.puzzle&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "4169ef2aa18e089871ecce",
+      "name": "Words With Friends Word Game",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.zynga.words3&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.zynga.words3&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "61d546d3155d2e9edadefa",
+      "name": "漫威：瞬戰超能",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.nvsgames.snap&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.nvsgames.snap&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "05dce8532cf1854c935673",
+      "name": "Punishing: Gray Raven",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.kurogame.gplay.punishing.grayraven.en&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.kurogame.gplay.punishing.grayraven.en&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "25090c096a885460da3608",
+      "name": "Stacky Bird: 超休閒小鳥飛行遊戲",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.kooapps.stackybirdandroid&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.kooapps.stackybirdandroid&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "a7dd9f016f6b4d3df7a79f",
+      "name": "Royal Smash! - Physics Puzzle",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.cyphergames.royalsmash&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.cyphergames.royalsmash&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "53167e98209ff0c5222c2e",
+      "name": "Vita 麻將",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.vitastudio.mahjong&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.vitastudio.mahjong&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "af9260b5fdef3e073a4d84",
+      "name": "Magic Sort!",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.grandgames.magicsort&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.grandgames.magicsort&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "effd040d0ba7e4394ebce5",
+      "name": "Gossip Harbor: Merge & Story",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.mergegames.gossipharbor&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.mergegames.gossipharbor&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "b2857adda54f82855dfe94",
+      "name": "Magic Tiles 3™ - 鋼琴遊戲",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.youmusic.magictiles&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.youmusic.magictiles&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "302f691f4e14a9ac05a459",
+      "name": "Block Craft 3D：Building Game",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.fungames.blockcraft&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.fungames.blockcraft&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "4e84718cd4bbcb319d7d3f",
+      "name": "Pokémon GO",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "03d37a0f02356ad7a2dc37",
+      "name": "Mahjong Blast",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.nebula.mahjongtile&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.nebula.mahjongtile&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "4d7f00ac0a69af3bf47ecf",
+      "name": "Melon Sandbox",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.studio27.MelonPlayground&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.studio27.MelonPlayground&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "d6d153117b4b35de9bae93",
+      "name": "Toca Boca World",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.tocaboca.tocalifeworld&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.tocaboca.tocalifeworld&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "88f49f4ed75b4878ae0b48",
+      "name": "Word Search Explorer",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=in.playsimple.wordsearch&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=in.playsimple.wordsearch&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "ca748543a7574d264fd3bd",
+      "name": "Stumble Guys",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.kitkagames.fallbuddies&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.kitkagames.fallbuddies&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "bf6becb717b047acee0c70",
+      "name": "Mob Control",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.vincentb.MobControl&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.vincentb.MobControl&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "d1182bc6dea361f69c53df",
+      "name": "Fortnite",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.epicgames.fortnite&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.epicgames.fortnite&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "9b2329a5d4a1bae4ca6e8a",
+      "name": "Chess - Play and Learn Online",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.chess&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.chess&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "cb3bcf7306e5830a9f70c9",
+      "name": "Coin Master",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.moonactive.coinmaster&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.moonactive.coinmaster&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "08b72159e2f2ca863d4f01",
+      "name": "蛇衝突 (Snake Clash)",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=io.supercent.linkedcubic&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=io.supercent.linkedcubic&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "1ffc013520fb046fcca33a",
+      "name": "Dice Dreams™️",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.dicedreams&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.superplaystudios.dicedreams&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "d23139762cab7789eaacb0",
+      "name": "Hole.io - Original Hole Game",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=io.voodoo.holeio&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=io.voodoo.holeio&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "23952ec69b674d31db5fc2",
+      "name": "Castle Busters",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.epicoro.castleclashers&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.epicoro.castleclashers&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "6db54a148e44be3fb57b91",
+      "name": "Farkle Dice Roll",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.funcraft.farkle&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.funcraft.farkle&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "a11e847b36856fc409c69b",
+      "name": "薑餅人王國",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.devsisters.ck&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.devsisters.ck&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "fafeefe25673b47b035ce5",
+      "name": "突襲：暗影傳說",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.plarium.raidlegends&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.plarium.raidlegends&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "f5ac89a9e7e6ffe54372a7",
+      "name": "糖果傳奇",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id553834731",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id553834731",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "d2ad11ffce535a31b232d4",
+      "name": "瑪奇 Mobile",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id6759030432",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id6759030432",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "62f47e4e1625b909ae7a5d",
+      "name": "格鬥天王：拳面出擊 - SNK正版授權",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id6791082427",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id6791082427",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "91465f564e2ebce31d0ac4",
+      "name": "七騎士 Re:BIRTH",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id6479595079",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id6479595079",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "aa508aa54d81f2194e0510",
+      "name": "PUBG MOBILE：絕地求生M",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id1453363650",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id1453363650",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "c140104781d9e5411a523b",
+      "name": "來種水果吧！",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id6806929534",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id6806929534",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "06989f8f7d99411c6ab3fa",
+      "name": "楓之谷：放置冒險記",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id6739616715",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id6739616715",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "df09628080ca2e6035c61b",
+      "name": "明日方舟",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id1490985322",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id1490985322",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "9ff5ba478ea3f1dfe0cbb6",
+      "name": "我獨自升級:Arise",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id1662742277",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id1662742277",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "519339cf204077f4ed0b5d",
+      "name": "魔物獵人：旅人",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id6763262759",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id6763262759",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "2cca9aae9b4536cc0a9816",
+      "name": "半夜別修仙 - 少年歌行聯動",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id6752377341",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id6752377341",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "20cd2d2ed0f0917ee2c758",
+      "name": "塔塔冒險隊",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id6741567125",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id6741567125",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "3468956a35d3d68df66fbf",
+      "name": "蠟筆小新：GO！",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id6761524901",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id6761524901",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "fb685f76a9d5fff55287b5",
+      "name": "Dark War:Survival",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id6670441558",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id6670441558",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "8e1d9896ddf2b902a27f42",
+      "name": "決勝時刻: Mobile - Garena",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id1465688043",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id1465688043",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "6385e059c638cc74b25704",
+      "name": "Garena 傳說對決：十週年裂隙穿梭版本",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id1089079153",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id1089079153",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "c625f8e39ea2555f4614c1",
+      "name": "Pikmin Bloom",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id1556357398",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id1556357398",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "02887d5e7cbba7e3d47ef6",
+      "name": "Pokémon GO",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id1094591345",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id1094591345",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "cffaab4b9448138d8b1bfb",
+      "name": "楓之谷M - 奇幻冒險MMORPG",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id1290086677",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id1290086677",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "05b848b05f8e5cb1992f69",
+      "name": "寒霜啟示錄",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id6443575749",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id6443575749",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "f0be0eb6ef276a73c359c4",
+      "name": "薑餅人放置大戰爭 - 餅乾養成RPG",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id6749251466",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id6749251466",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "3d67e0e01789efd2ffe6c2",
+      "name": "Roblox",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id431946152",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id431946152",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "e6d774edaa02dcdf6349fb",
+      "name": "EA SPORTS FC™ 足球 Mobile 27",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id1094930513",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id1094930513",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "1dd4378cb30b7c65189967",
+      "name": "Minecraft",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id479516143",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id479516143",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "bb68d10affd2532086d96b",
+      "name": "原神",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id1517783697",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id1517783697",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "44babc500377bf94be6eef",
+      "name": "RO仙境傳說：守護永恆的愛",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id1253796614",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id1253796614",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "1b12aecf2294f3805f8ede",
+      "name": "神魔之塔",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id583798880",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id583798880",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "2b567d7514bead17b9403b",
+      "name": "貓咪大戰爭",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id971601423",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id971601423",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "5f81c7fb340ef34174229f",
+      "name": "魔靈召喚: 天空之役",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id852912420",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id852912420",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "b248e473495f32ffa2f069",
+      "name": "BLEACH Mirrors High",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id6758332966",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id6758332966",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "63bda1c16881602eef2ded",
+      "name": "星球大破壞喵喵喵：合併生存者",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id6803396660",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id6803396660",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "cc3bb02f4d585d31c4b5c1",
+      "name": "RO仙境傳說：口袋戰記",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id6762712984",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id6762712984",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "f7439943928880dab95541",
+      "name": "噠噠戰機",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id6789467258",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id6789467258",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "6594c990cc11edb714e2c7",
+      "name": "Merge Cat Town : Mystery Merge",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id6759546053",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id6759546053",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "078cafed19ec0b899aaa72",
+      "name": "Preserve: Complete Edition",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id6775430354",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id6775430354",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "9e4e2940822deb0e4a7814",
+      "name": "布拉斯·庫巴斯的死後委託",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id1614001053",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id1614001053",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "6d9246a9b64c2dce7a31fe",
+      "name": "Winter Burrow",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id6757809616",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id6757809616",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:37+00:00"
+    },
+    {
+      "id": "app-store-277cf0a8af612c7e",
+      "name": "萌爪配對碰",
+      "status": "即將上市",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "2027-02-27",
+      "developer": "Com2uS Holdings",
+      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/db/61/dc/db61dcd3-3d3b-ebe4-2a44-c588a081be8f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/%E8%90%8C%E7%88%AA%E9%85%8D%E5%B0%8D%E7%A2%B0/id6746398030?uo=4",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/%E8%90%8C%E7%88%AA%E9%85%8D%E5%B0%8D%E7%A2%B0/id6746398030?uo=4",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:35.529481+00:00"
+    },
+    {
+      "id": "app-store-1217d20fa06c32a8",
+      "name": "Enchanted Inn: Merge & Mystery",
+      "status": "已上市",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "2026-10-02",
+      "developer": "Tactile Games ApS",
+      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/d9/e3/34d9e3f6-b561-5316-d103-47558f2865c0/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/enchanted-inn-merge-mystery/id6749690403?uo=4",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/enchanted-inn-merge-mystery/id6749690403?uo=4",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:35.529481+00:00"
+    },
+    {
+      "id": "steam-79a230bdebe19d15",
+      "name": "Dub Party",
+      "status": "即將上市",
+      "region": "國際",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5259730/135be578d9f2405f8b982ea62284f20ce16ccb83/header.jpg?t=1794061098",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/5259730/",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/5259730/",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:35.529481+00:00"
+    },
+    {
+      "id": "steam-91ddf05f85b397e7",
+      "name": "The Light Switch",
+      "status": "即將上市",
+      "region": "國際",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681220/22a8cd92eac4c12825b5d5e76c8d975ea2fefe31/header.jpg?t=1793306837",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/3681220/",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/3681220/",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:35.529481+00:00"
+    },
+    {
+      "id": "steam-48c984c96e66a7ad",
+      "name": "Battle Runes of Metalaria",
+      "status": "即將上市",
+      "region": "國際",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3997770/3e9e86f3d5b4a22a12371442071650118dee0362/header.jpg?t=1788998835",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/3997770/",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/3997770/",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:35.529481+00:00"
+    },
+    {
+      "id": "steam-a74b36b649509391",
+      "name": "怪談寺",
+      "status": "即將上市",
+      "region": "國際",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5096660/b0764fb44ff097889bc26a763e0c05498e9e4f41/header.jpg?t=1794060350",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/5096660/",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/5096660/",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:35.529481+00:00"
+    },
+    {
+      "id": "steam-8dc3b128b37c07f7",
+      "name": "Rubber Stamp Legend",
+      "status": "即將上市",
+      "region": "國際",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5471970/d996f82b882d34539ba5a0011700a0ceeccf54d4/header.jpg?t=1793759268",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/5471970/",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/5471970/",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:35.529481+00:00"
+    },
+    {
+      "id": "steam-d128999396b9528b",
+      "name": "Onlympic Up!",
+      "status": "即將上市",
+      "region": "國際",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722820/8258eac084d015c67b83239d6ce4ee94b94ac426/header.jpg?t=1793209433",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/3722820/",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/3722820/",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:35.529481+00:00"
+    },
+    {
+      "id": "steam-75bc45ba778d6fdc",
+      "name": "DOPA-MATCH3: Cosmic Journey",
+      "status": "即將上市",
+      "region": "國際",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5206500/683ca9ff53c73b47958b6826966115f7e24bd7ba/header.jpg?t=1789980411",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/5206500/",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/5206500/",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:35.529481+00:00"
+    },
+    {
+      "id": "steam-0bf489d8f5bbc817",
+      "name": "Mushroom Must Go Up!",
+      "status": "即將上市",
+      "region": "國際",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4886710/53acdd1c4602038a5376dc929e508f65294a6f0f/header.jpg?t=1793246345",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4886710/",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/4886710/",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:35.529481+00:00"
+    },
+    {
+      "id": "steam-1008b1382f85d8ff",
+      "name": "Prerolled",
+      "status": "即將上市",
+      "region": "國際",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4475970/a5d6955125613ed19dc4b6762597b79ef46fe4f6/header.jpg?t=1794031810",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4475970/",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/4475970/",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:35.529481+00:00"
+    },
+    {
+      "id": "steam-55e791acdcb73ac5",
+      "name": "The Cinder Throne",
+      "status": "即將上市",
+      "region": "國際",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4492500/39c32db8a3d108b4bce552953b5b4b74f2e7ec4c/header.jpg?t=1793377885",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4492500/",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/4492500/",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:40:35.529481+00:00"
+    },
+    {
+      "id": "app-store-d89cdfc924cfde57",
+      "name": "星布谷地",
+      "status": "即將上市",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "2026-12-04",
+      "developer": "COGNOSPHERE PTE. LTD.",
+      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f6/77/9b/f6779b6f-4f37-9ab1-5843-72db9e7cc3b5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id6776621908",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id6776621908",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T14:02:47+00:00",
+      "seed_method": ""
+    },
     {
       "id": "googleplay-rojourney-tw",
       "name": "RO仙境傳說：口袋戰記",
@@ -26,100 +4489,8 @@
       "seed_method": "已查閱 Google Play 官方遊戲商店頁面；不推定正式上市日期"
     },
     {
-      "id": "8e85798b27e2bbd0a8c8fe",
-      "name": "星布谷地",
-      "status": "即將上市",
-      "region": "台灣",
-      "platforms": [
-        "App Store"
-      ],
-      "release_date": "2026-12-04",
-      "developer": "COGNOSPHERE PTE. LTD.",
-      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f6/77/9b/f6779b6f-4f37-9ab1-5843-72db9e7cc3b5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "store_links": [
-        {
-          "name": "App Store",
-          "url": "https://apps.apple.com/tw/app/id6776621908",
-          "region": "台灣"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://apps.apple.com/tw/app/id6776621908",
-      "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:02:47+00:00"
-    },
-    {
-      "id": "4dfabf59fcae8dcce14767",
-      "name": "螢幕截圖圖片",
-      "status": "商店收錄",
-      "region": "台灣",
-      "platforms": [
-        "Google Play"
-      ],
-      "release_date": "",
-      "developer": "",
-      "cover_url": "",
-      "store_links": [
-        {
-          "name": "Google Play",
-          "url": "https://play.google.com/store/apps/details?id=com.FishEatFish.FeedGrow&hl=zh_TW&gl=TW",
-          "region": "台灣"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://play.google.com/store/apps/details?id=com.FishEatFish.FeedGrow&hl=zh_TW&gl=TW",
-      "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
-    },
-    {
-      "id": "5ac559d374cf943a30ebad",
-      "name": "縮圖圖片",
-      "status": "商店收錄",
-      "region": "台灣",
-      "platforms": [
-        "Google Play"
-      ],
-      "release_date": "",
-      "developer": "",
-      "cover_url": "",
-      "store_links": [
-        {
-          "name": "Google Play",
-          "url": "https://play.google.com/store/apps/details?id=sort.casual.color.cat.puzzle.match&hl=zh_TW&gl=TW",
-          "region": "台灣"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://play.google.com/store/apps/details?id=sort.casual.color.cat.puzzle.match&hl=zh_TW&gl=TW",
-      "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
-    },
-    {
-      "id": "54e31ec59cf3a6199f1452",
-      "name": "「Roblox」圖示圖片",
-      "status": "商店收錄",
-      "region": "國際",
-      "platforms": [
-        "Google Play"
-      ],
-      "release_date": "",
-      "developer": "",
-      "cover_url": "",
-      "store_links": [
-        {
-          "name": "Google Play",
-          "url": "https://play.google.com/store/apps/details?id=com.roblox.client&hl=zh_TW&gl=US",
-          "region": "國際"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://play.google.com/store/apps/details?id=com.roblox.client&hl=zh_TW&gl=US",
-      "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
-    },
-    {
       "id": "0876335cc871e25fd3a86e",
-      "name": "「Geometry Dash Lite」圖示圖片",
+      "name": "Geometry Dash Lite",
       "status": "商店收錄",
       "region": "國際",
       "platforms": [
@@ -138,11 +4509,12 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.robtopx.geometryjumplite&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "431b1d4bdae89ed0ecf966",
-      "name": "「月光嶺物語 ～Moonlight Peaks～」圖示圖片",
+      "name": "月光嶺物語 ～Moonlight Peaks～",
       "status": "商店收錄",
       "region": "國際",
       "platforms": [
@@ -161,11 +4533,12 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.xseed.moonlightpeaks&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "9bef49fb0889c1c8cd3b91",
-      "name": "「戰鎚40,000：爆矢槍 Boom」圖示圖片",
+      "name": "戰鎚40,000：爆矢槍 Boom",
       "status": "商店收錄",
       "region": "國際",
       "platforms": [
@@ -184,11 +4557,12 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.nitrogames.boltgunboom&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "bef3ce37fa22a63357a28d",
-      "name": "「萌龍進化論 (Merge Dragons!)」圖示圖片",
+      "name": "萌龍進化論 (Merge Dragons!)",
       "status": "商店收錄",
       "region": "國際",
       "platforms": [
@@ -207,11 +4581,12 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.gramgames.mergedragons&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "23ec4b075a046464c8e7a0",
-      "name": "「Star Wars™: KOTOR」圖示圖片",
+      "name": "Star Wars™: KOTOR",
       "status": "商店收錄",
       "region": "國際",
       "platforms": [
@@ -230,11 +4605,12 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.aspyr.swkotor&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "06a1d0758ee6abe7f48ebf",
-      "name": "「DOOM II」圖示圖片",
+      "name": "DOOM II",
       "status": "商店收錄",
       "region": "國際",
       "platforms": [
@@ -253,11 +4629,12 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.bethsoft.DOOMII&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "761a94a9253f57a025ef1c",
-      "name": "「DOOM」圖示圖片",
+      "name": "DOOM",
       "status": "商店收錄",
       "region": "國際",
       "platforms": [
@@ -276,11 +4653,12 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.bethsoft.DOOM&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "58d2691125bd628e65f4f3",
-      "name": "「STAR WARS™: KOTOR II」圖示圖片",
+      "name": "STAR WARS™: KOTOR II",
       "status": "商店收錄",
       "region": "國際",
       "platforms": [
@@ -299,11 +4677,12 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.aspyr.swkotorii&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "4d214375157c73bda6f3d6",
-      "name": "「How Many Dudes?」圖示圖片",
+      "name": "How Many Dudes?",
       "status": "商店收錄",
       "region": "國際",
       "platforms": [
@@ -322,11 +4701,12 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.bscotch.hmd&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "c497c6b96aee46579bfde0",
-      "name": "「口袋奇兵（Top War）-超休閒的策略遊戲」圖示圖片",
+      "name": "口袋奇兵（Top War）-超休閒的策略遊戲",
       "status": "商店收錄",
       "region": "國際",
       "platforms": [
@@ -345,11 +4725,12 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.topwar.gp&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "859c4c4233e9bd57858795",
-      "name": "「TMNT: Shredder's Revenge」圖示圖片",
+      "name": "TMNT: Shredder's Revenge",
       "status": "商店收錄",
       "region": "國際",
       "platforms": [
@@ -368,11 +4749,12 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.playdigious.tmnt&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "5bd96902b65af6ec7c5f55",
-      "name": "「寒霜啟示錄」圖示圖片",
+      "name": "寒霜啟示錄",
       "status": "商店收錄",
       "region": "國際",
       "platforms": [
@@ -391,11 +4773,12 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.gof.global&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "4103f1f441ae7e258e176b",
-      "name": "「Skul: The Hero Slayer」圖示圖片",
+      "name": "Skul: The Hero Slayer",
       "status": "商店收錄",
       "region": "國際",
       "platforms": [
@@ -414,11 +4797,12 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.playdigious.skul&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "394eaee65cf83113af3508",
-      "name": "「Royal Kingdom」圖示圖片",
+      "name": "Royal Kingdom",
       "status": "商店收錄",
       "region": "國際",
       "platforms": [
@@ -437,11 +4821,12 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.dreamgames.royalkingdom&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "80c9a47b2c5183c02d9fe6",
-      "name": "「Block Blast!」圖示圖片",
+      "name": "Block Blast!",
       "status": "商店收錄",
       "region": "國際",
       "platforms": [
@@ -460,11 +4845,12 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.block.juggle&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "a7e43ef7ebe9b6d70313c9",
-      "name": "「夢想小鎮」圖示圖片",
+      "name": "夢想小鎮",
       "status": "商店收錄",
       "region": "國際",
       "platforms": [
@@ -483,11 +4869,12 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.playrix.township&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "ee828f4c0fbc5d3e5fe60a",
-      "name": "「Happy Color® – 按數字編號上色的塗色書」圖示圖片",
+      "name": "Happy Color® – 按數字編號上色的塗色書",
       "status": "商店收錄",
       "region": "國際",
       "platforms": [
@@ -506,11 +4893,12 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.pixel.art.coloring.color.number&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "18ef50a612b1fd7628a34d",
-      "name": "「Clash Royale」圖示圖片",
+      "name": "Clash Royale",
       "status": "商店收錄",
       "region": "國際",
       "platforms": [
@@ -529,11 +4917,12 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.supercell.clashroyale&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "1762101b4e7f98ad18627a",
-      "name": "「Minecraft」圖示圖片",
+      "name": "Minecraft",
       "status": "商店收錄",
       "region": "國際",
       "platforms": [
@@ -552,122 +4941,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
-    },
-    {
-      "id": "bf6becb717b047acee0c70",
-      "name": "螢幕截圖圖片",
-      "status": "商店收錄",
-      "region": "國際",
-      "platforms": [
-        "Google Play"
-      ],
-      "release_date": "",
-      "developer": "",
-      "cover_url": "",
-      "store_links": [
-        {
-          "name": "Google Play",
-          "url": "https://play.google.com/store/apps/details?id=com.vincentb.MobControl&hl=zh_TW&gl=US",
-          "region": "國際"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://play.google.com/store/apps/details?id=com.vincentb.MobControl&hl=zh_TW&gl=US",
-      "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
-    },
-    {
-      "id": "5aa0873e94c93ecb540a14",
-      "name": "縮圖圖片",
-      "status": "商店收錄",
-      "region": "國際",
-      "platforms": [
-        "Google Play"
-      ],
-      "release_date": "",
-      "developer": "",
-      "cover_url": "",
-      "store_links": [
-        {
-          "name": "Google Play",
-          "url": "https://play.google.com/store/apps/details?id=zombie.survival.craft.z&hl=zh_TW&gl=US",
-          "region": "國際"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://play.google.com/store/apps/details?id=zombie.survival.craft.z&hl=zh_TW&gl=US",
-      "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
-    },
-    {
-      "id": "f5ac89a9e7e6ffe54372a7",
-      "name": "週一上午8:00, 糖果傳奇, 在新賽季蒐集全新角色徽章, 最原始的糖果消消樂！完成甜蜜有趣的拼圖，贏取豐富獎勵！",
-      "status": "商店收錄",
-      "region": "台灣",
-      "platforms": [
-        "App Store"
-      ],
-      "release_date": "",
-      "developer": "",
-      "cover_url": "",
-      "store_links": [
-        {
-          "name": "App Store",
-          "url": "https://apps.apple.com/tw/app/id553834731",
-          "region": "台灣"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://apps.apple.com/tw/app/id553834731",
-      "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
-    },
-    {
-      "id": "5ac86e9f7a7a3c9d6b8efe",
-      "name": "新遊戲, Absolum, 探索塔拉姆大陸，展開動作魔法歷險, 原創橫向捲軸 Rogue 體驗",
-      "status": "商店收錄",
-      "region": "台灣",
-      "platforms": [
-        "App Store"
-      ],
-      "release_date": "",
-      "developer": "",
-      "cover_url": "",
-      "store_links": [
-        {
-          "name": "App Store",
-          "url": "https://apps.apple.com/tw/app/id6762192063",
-          "region": "台灣"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://apps.apple.com/tw/app/id6762192063",
-      "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
-    },
-    {
-      "id": "6d9246a9b64c2dce7a31fe",
-      "name": "檢視",
-      "status": "商店收錄",
-      "region": "台灣",
-      "platforms": [
-        "App Store"
-      ],
-      "release_date": "",
-      "developer": "",
-      "cover_url": "",
-      "store_links": [
-        {
-          "name": "App Store",
-          "url": "https://apps.apple.com/tw/app/id6757809616",
-          "region": "台灣"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://apps.apple.com/tw/app/id6757809616",
-      "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "f7c1c341f154faa06e6c54",
@@ -690,7 +4965,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6780387121",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "0c59d98792f047160d477c",
@@ -713,7 +4989,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6761760135",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "f21e0bf1f87bd41f4ea623",
@@ -736,7 +5013,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6791394610",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "91f561852d4b885a995499",
@@ -759,11 +5037,12 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6812663231",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "748b0da1001e39c101de04",
-      "name": "2.4版本「飲馬渡秋水」",
+      "name": "2.4版本「飲馬渡秋水",
       "status": "商店收錄",
       "region": "台灣",
       "platforms": [
@@ -782,7 +5061,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6744796128",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "926123265bce7bf0f5b6d5",
@@ -805,7 +5085,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id1630883882",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "4afca688d08c4cbaa0262b",
@@ -828,7 +5109,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6755455500",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "3b0e51a62b9448bb1ec1c5",
@@ -851,7 +5133,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6823047296",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "a1bc79b0e20b25c88909c3",
@@ -874,7 +5157,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id850251209",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "380bb2823701af4039377c",
@@ -897,7 +5181,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id1053012308",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "689630f0ed6be39915d4e9",
@@ -920,7 +5205,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6475757306",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "3fb0c781196192807d699a",
@@ -943,7 +5229,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6443563379",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "f17da705b25b3ed21d7547",
@@ -966,7 +5253,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6751124234",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "debe4b798dd4be7e67c38b",
@@ -989,7 +5277,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id1603584945",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "d36ea962fedeaf6386290b",
@@ -1012,7 +5301,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id1630468596",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "e90a5cb6d89c173538a7cb",
@@ -1035,7 +5325,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6446302380",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "4fcbdc43ca7a2d04cea077",
@@ -1058,7 +5349,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id1524137086",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "60f4ebbc29b6e4b719775b",
@@ -1081,7 +5373,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id1492660284",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "1c69c86e949583c77d1254",
@@ -1104,7 +5397,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6651825685",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "7ca92c84bc893ed5458fee",
@@ -1127,7 +5421,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6475805032",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "4cd9bf124b75277c60f579",
@@ -1150,7 +5445,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6473402739",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "1b09e1cff06c3911f7d0f4",
@@ -1173,7 +5469,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id1564146071",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "0c535e8207f81f738d0c98",
@@ -1196,7 +5493,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6819182157",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "9c6cb50883d5cef6e217be",
@@ -1219,7 +5517,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6673894896",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "f8e9a83e2a513527e799a7",
@@ -1242,7 +5541,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6795829020",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "d6d56def5d061b19457bb1",
@@ -1265,7 +5565,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6801368462",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "c321e134f6b730133b55cf",
@@ -1288,7 +5589,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6812674614",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "d790b49d163dfc8ec575c0",
@@ -1311,7 +5613,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6670604287",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "87a0b3ded2d5e6b863e4c0",
@@ -1334,7 +5637,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id1229016807",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "3d104c2063059ff12cbd3b",
@@ -1357,7 +5661,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6817821959",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "4d7e402226cb3baf31934b",
@@ -1380,7 +5685,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6771652722",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "5404e9d1afa1cd5adc40af",
@@ -1403,7 +5709,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6812927976",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "8c32f207393df5dd6907e1",
@@ -1426,7 +5733,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6801980968",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "c818ec1ce41f7171f32d35",
@@ -1449,7 +5757,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id1435456830",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "dbeb2db42ae52a14fa34db",
@@ -1472,7 +5781,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id1453875289",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "24c6bf993b6e2f54d86a5d",
@@ -1495,7 +5805,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6450724928",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "d54f93361f99d9f06818e5",
@@ -1518,7 +5829,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id1477991646",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "973f6395e73ac7d8ef0cfc",
@@ -1541,7 +5853,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id1552864378",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "a5553f417ce5e1ffae3e12",
@@ -1564,7 +5877,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id1609390613",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "e7807908a95e32626d60e9",
@@ -1587,7 +5901,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id1668930992",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "52435c712deb17de4f4f9d",
@@ -1610,7 +5925,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id1668983788",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "bad1a0bd940f1b309e11fe",
@@ -1633,7 +5949,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6744029320",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "9f5aa7f59d35382dcd665a",
@@ -1656,7 +5973,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6469709725",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "79189b44b9233c228073f2",
@@ -1679,7 +5997,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6462360082",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "ed1ff28e19cd5568357295",
@@ -1702,7 +6021,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id543186831",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "b90020c1b00f9186991753",
@@ -1725,7 +6045,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id1432579280",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "bf9888a9dadeccb6058423",
@@ -1748,7 +6069,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6502453075",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "c684cbe3e3d91affae529e",
@@ -1771,7 +6093,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6742191553",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "6997c1270165ae62c2e0ea",
@@ -1794,7 +6117,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6814813688",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "e8345816f4db14cba9661b",
@@ -1817,7 +6141,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id1134895689",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "cf445f58ecfb64fc11b604",
@@ -1840,7 +6165,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6739130049",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "2ed4d072f96928a50a4e3c",
@@ -1863,7 +6189,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6670792878",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "6a00f23c088fd711724e46",
@@ -1886,7 +6213,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id698726956",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "23213d7e0ff06a86b9d3de",
@@ -1909,7 +6237,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6774355361",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "f96bcfd2f52ee5b9120266",
@@ -1932,55 +6261,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6790147739",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
-    },
-    {
-      "id": "755b472d32f43de8b22aa0",
-      "name": "Sky: Children of the Light",
-      "status": "商店收錄",
-      "region": "台灣",
-      "platforms": [
-        "Google Play"
-      ],
-      "release_date": "",
-      "developer": "thatgamecompany inc",
-      "cover_url": "",
-      "store_links": [
-        {
-          "name": "Google Play",
-          "url": "https://play.google.com/store/apps/details?id=com.tgc.sky.android&hl=zh_TW&gl=TW",
-          "region": "台灣"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://play.google.com/store/apps/details?id=com.tgc.sky.android&hl=zh_TW&gl=TW",
-      "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:09:15+00:00",
-      "seed_method": "人工核對官方商店條目；無上市日期推斷"
-    },
-    {
-      "id": "b3cbb9da8800b1625175cd",
-      "name": "Genshin Impact",
-      "status": "商店收錄",
-      "region": "台灣",
-      "platforms": [
-        "Google Play"
-      ],
-      "release_date": "",
-      "developer": "COGNOSPHERE PTE. LTD.",
-      "cover_url": "",
-      "store_links": [
-        {
-          "name": "Google Play",
-          "url": "https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact&hl=zh_TW&gl=TW",
-          "region": "台灣"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact&hl=zh_TW&gl=TW",
-      "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:09:15+00:00",
-      "seed_method": "人工核對官方商店條目；無上市日期推斷"
+      "first_seen_at": "2026-11-07T13:51:17+00:00",
+      "seed_method": ""
     },
     {
       "id": "54e31ec59cf3a6199f1452",
@@ -2007,6 +6289,30 @@
       "seed_method": "人工核對官方商店條目；無上市日期推斷"
     },
     {
+      "id": "755b472d32f43de8b22aa0",
+      "name": "Sky: Children of the Light",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "thatgamecompany inc",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.tgc.sky.android&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.tgc.sky.android&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T13:09:15+00:00",
+      "seed_method": "人工核對官方商店條目；無上市日期推斷"
+    },
+    {
       "id": "c91be7bb6479e71617900f",
       "name": "Absolum",
       "status": "商店收錄",
@@ -2020,279 +6326,15 @@
       "store_links": [
         {
           "name": "App Store",
-          "url": "https://apps.apple.com/tw/app/absolum/id6762192063",
+          "url": "https://apps.apple.com/tw/app/id6762192063",
           "region": "台灣"
         }
       ],
       "payment_methods": [],
-      "source_url": "https://apps.apple.com/tw/app/absolum/id6762192063",
+      "source_url": "https://apps.apple.com/tw/app/id6762192063",
       "verified_store_listing": true,
       "first_seen_at": "2026-11-07T13:09:15+00:00",
       "seed_method": "人工核對官方商店條目；無上市日期推斷"
-    },
-    {
-      "id": "app-store-277cf0a8af612c7e",
-      "name": "萌爪配對碰",
-      "status": "即將上市",
-      "region": "台灣",
-      "platforms": [
-        "App Store"
-      ],
-      "release_date": "2027-02-27",
-      "developer": "Com2uS Holdings",
-      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/db/61/dc/db61dcd3-3d3b-ebe4-2a44-c588a081be8f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "store_links": [
-        {
-          "name": "App Store",
-          "url": "https://apps.apple.com/tw/app/%E8%90%8C%E7%88%AA%E9%85%8D%E5%B0%8D%E7%A2%B0/id6746398030?uo=4",
-          "region": "台灣"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://apps.apple.com/tw/app/%E8%90%8C%E7%88%AA%E9%85%8D%E5%B0%8D%E7%A2%B0/id6746398030?uo=4",
-      "verified_store_listing": true
-    },
-    {
-      "id": "app-store-1217d20fa06c32a8",
-      "name": "Enchanted Inn: Merge & Mystery",
-      "status": "已上市",
-      "region": "台灣",
-      "platforms": [
-        "App Store"
-      ],
-      "release_date": "2026-10-02",
-      "developer": "Tactile Games ApS",
-      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/d9/e3/34d9e3f6-b561-5316-d103-47558f2865c0/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-      "store_links": [
-        {
-          "name": "App Store",
-          "url": "https://apps.apple.com/tw/app/enchanted-inn-merge-mystery/id6749690403?uo=4",
-          "region": "台灣"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://apps.apple.com/tw/app/enchanted-inn-merge-mystery/id6749690403?uo=4",
-      "verified_store_listing": true
-    },
-    {
-      "id": "steam-5e2229ad87fb6e65",
-      "name": "Desktop Oasis",
-      "status": "即將上市",
-      "region": "美國",
-      "platforms": [
-        "Steam"
-      ],
-      "release_date": "",
-      "developer": "",
-      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4688280/489694585408f94703cf4d0da73e6093c45083aa/header.jpg?t=1794016471",
-      "store_links": [
-        {
-          "name": "Steam",
-          "url": "https://store.steampowered.com/app/4688280/",
-          "region": "美國"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://store.steampowered.com/app/4688280/",
-      "verified_store_listing": true
-    },
-    {
-      "id": "steam-6c8087b1b3b8cf54",
-      "name": "Noir Total : Deadly Party",
-      "status": "即將上市",
-      "region": "美國",
-      "platforms": [
-        "Steam"
-      ],
-      "release_date": "",
-      "developer": "",
-      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3435580/2edc8b8626cca712545e001fd4b2e2945f28427d/header_alt_assets_1.jpg?t=1791192780",
-      "store_links": [
-        {
-          "name": "Steam",
-          "url": "https://store.steampowered.com/app/3435580/",
-          "region": "美國"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://store.steampowered.com/app/3435580/",
-      "verified_store_listing": true
-    },
-    {
-      "id": "steam-79a230bdebe19d15",
-      "name": "Dub Party",
-      "status": "即將上市",
-      "region": "美國",
-      "platforms": [
-        "Steam"
-      ],
-      "release_date": "",
-      "developer": "",
-      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5259730/135be578d9f2405f8b982ea62284f20ce16ccb83/header.jpg?t=1794053428",
-      "store_links": [
-        {
-          "name": "Steam",
-          "url": "https://store.steampowered.com/app/5259730/",
-          "region": "美國"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://store.steampowered.com/app/5259730/",
-      "verified_store_listing": true
-    },
-    {
-      "id": "steam-91ddf05f85b397e7",
-      "name": "The Light Switch",
-      "status": "即將上市",
-      "region": "美國",
-      "platforms": [
-        "Steam"
-      ],
-      "release_date": "",
-      "developer": "",
-      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3681220/22a8cd92eac4c12825b5d5e76c8d975ea2fefe31/header.jpg?t=1793306837",
-      "store_links": [
-        {
-          "name": "Steam",
-          "url": "https://store.steampowered.com/app/3681220/",
-          "region": "美國"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://store.steampowered.com/app/3681220/",
-      "verified_store_listing": true
-    },
-    {
-      "id": "steam-48c984c96e66a7ad",
-      "name": "Battle Runes of Metalaria",
-      "status": "即將上市",
-      "region": "美國",
-      "platforms": [
-        "Steam"
-      ],
-      "release_date": "",
-      "developer": "",
-      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3997770/3e9e86f3d5b4a22a12371442071650118dee0362/header.jpg?t=1788998835",
-      "store_links": [
-        {
-          "name": "Steam",
-          "url": "https://store.steampowered.com/app/3997770/",
-          "region": "美國"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://store.steampowered.com/app/3997770/",
-      "verified_store_listing": true
-    },
-    {
-      "id": "steam-a74b36b649509391",
-      "name": "怪談寺",
-      "status": "即將上市",
-      "region": "美國",
-      "platforms": [
-        "Steam"
-      ],
-      "release_date": "",
-      "developer": "",
-      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5096660/b0764fb44ff097889bc26a763e0c05498e9e4f41/header.jpg?t=1793551111",
-      "store_links": [
-        {
-          "name": "Steam",
-          "url": "https://store.steampowered.com/app/5096660/",
-          "region": "美國"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://store.steampowered.com/app/5096660/",
-      "verified_store_listing": true
-    },
-    {
-      "id": "steam-8dc3b128b37c07f7",
-      "name": "Rubber Stamp Legend",
-      "status": "即將上市",
-      "region": "美國",
-      "platforms": [
-        "Steam"
-      ],
-      "release_date": "",
-      "developer": "",
-      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5471970/d996f82b882d34539ba5a0011700a0ceeccf54d4/header.jpg?t=1793759268",
-      "store_links": [
-        {
-          "name": "Steam",
-          "url": "https://store.steampowered.com/app/5471970/",
-          "region": "美國"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://store.steampowered.com/app/5471970/",
-      "verified_store_listing": true
-    },
-    {
-      "id": "steam-d128999396b9528b",
-      "name": "Onlympic Up!",
-      "status": "即將上市",
-      "region": "美國",
-      "platforms": [
-        "Steam"
-      ],
-      "release_date": "",
-      "developer": "",
-      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3722820/8258eac084d015c67b83239d6ce4ee94b94ac426/header.jpg?t=1793209433",
-      "store_links": [
-        {
-          "name": "Steam",
-          "url": "https://store.steampowered.com/app/3722820/",
-          "region": "美國"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://store.steampowered.com/app/3722820/",
-      "verified_store_listing": true
-    },
-    {
-      "id": "steam-75bc45ba778d6fdc",
-      "name": "DOPA-MATCH3: Cosmic Journey",
-      "status": "即將上市",
-      "region": "美國",
-      "platforms": [
-        "Steam"
-      ],
-      "release_date": "",
-      "developer": "",
-      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5206500/683ca9ff53c73b47958b6826966115f7e24bd7ba/header.jpg?t=1789980411",
-      "store_links": [
-        {
-          "name": "Steam",
-          "url": "https://store.steampowered.com/app/5206500/",
-          "region": "美國"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://store.steampowered.com/app/5206500/",
-      "verified_store_listing": true
-    },
-    {
-      "id": "steam-0bf489d8f5bbc817",
-      "name": "Mushroom Must Go Up!",
-      "status": "即將上市",
-      "region": "美國",
-      "platforms": [
-        "Steam"
-      ],
-      "release_date": "",
-      "developer": "",
-      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4886710/53acdd1c4602038a5376dc929e508f65294a6f0f/header.jpg?t=1793246345",
-      "store_links": [
-        {
-          "name": "Steam",
-          "url": "https://store.steampowered.com/app/4886710/",
-          "region": "美國"
-        }
-      ],
-      "payment_methods": [],
-      "source_url": "https://store.steampowered.com/app/4886710/",
-      "verified_store_listing": true
     },
     {
       "id": "google-play-genshin-impact",
@@ -2317,50 +6359,50 @@
       "verified_store_listing": true
     },
     {
-      "id": "steam-1008b1382f85d8ff",
-      "name": "Prerolled",
+      "id": "steam-5e2229ad87fb6e65",
+      "name": "Desktop Oasis",
       "status": "即將上市",
-      "region": "美國",
+      "region": "國際",
       "platforms": [
         "Steam"
       ],
       "release_date": "",
       "developer": "",
-      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4475970/a5d6955125613ed19dc4b6762597b79ef46fe4f6/header.jpg?t=1794031810",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4688280/489694585408f94703cf4d0da73e6093c45083aa/header.jpg?t=1794016471",
       "store_links": [
         {
           "name": "Steam",
-          "url": "https://store.steampowered.com/app/4475970/",
-          "region": "美國"
+          "url": "https://store.steampowered.com/app/4688280/",
+          "region": "國際"
         }
       ],
       "payment_methods": [],
-      "source_url": "https://store.steampowered.com/app/4475970/",
+      "source_url": "https://store.steampowered.com/app/4688280/",
       "verified_store_listing": true
     },
     {
-      "id": "steam-55e791acdcb73ac5",
-      "name": "The Cinder Throne",
+      "id": "steam-6c8087b1b3b8cf54",
+      "name": "Noir Total : Deadly Party",
       "status": "即將上市",
-      "region": "美國",
+      "region": "國際",
       "platforms": [
         "Steam"
       ],
       "release_date": "",
       "developer": "",
-      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4492500/39c32db8a3d108b4bce552953b5b4b74f2e7ec4c/header.jpg?t=1793377885",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3435580/2edc8b8626cca712545e001fd4b2e2945f28427d/header_alt_assets_1.jpg?t=1791192780",
       "store_links": [
         {
           "name": "Steam",
-          "url": "https://store.steampowered.com/app/4492500/",
-          "region": "美國"
+          "url": "https://store.steampowered.com/app/3435580/",
+          "region": "國際"
         }
       ],
       "payment_methods": [],
-      "source_url": "https://store.steampowered.com/app/4492500/",
+      "source_url": "https://store.steampowered.com/app/3435580/",
       "verified_store_listing": true
     }
   ],
   "errors": [],
-  "note": "商店清單收錄日期與遊戲正式上市日期不同；未提供的上市日期保留空白。"
+  "note": "商店收錄日期不等於遊戲上市日期；遊戲名稱去除圖片文字並依商店 ID 去重。"
 }

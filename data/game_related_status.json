@@ -1,0 +1,111 @@
+{
+  "checked_at": "2026-11-07T14:40:40+00:00",
+  "games_this_run": 15,
+  "searches_succeeded": 45,
+  "searches_failed": 0,
+  "found_this_run": {
+    "codes": 2,
+    "guides": 4,
+    "events": 5
+  },
+  "total_leads": {
+    "codes": 26,
+    "guides": 23,
+    "events": 26
+  },
+  "per_game": {
+    "1945 Air Force: 街機飛機射擊": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "2048方塊消除數字遊戲 - M2 Blocks": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "2 Player games : the Challenge": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "3D Bubble Blast": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "8 Ball Pool": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Among Us": {
+      "codes": 0,
+      "guides": 2,
+      "events": 2
+    },
+    "Angry Birds 2": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Art Puzzle - 藝術拼圖遊戲": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Balatro": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "BLEACH Mirrors High": {
+      "codes": 2,
+      "guides": 2,
+      "events": 3
+    },
+    "Block Blast!": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Block Craft 3D：Building Game": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Brewtopia: Grow Coffee Beans": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Call of Duty®: Mobile": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Candy Crush Saga": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    }
+  },
+  "checked_games": {
+    "1945airforce街機飛機射擊": "2026-11-07T14:40:40+00:00",
+    "2048方塊消除數字遊戲m2blocks": "2026-11-07T14:40:40+00:00",
+    "2playergamesthechallenge": "2026-11-07T14:40:40+00:00",
+    "3dbubbleblast": "2026-11-07T14:40:40+00:00",
+    "8ballpool": "2026-11-07T14:40:40+00:00",
+    "amongus": "2026-11-07T14:40:40+00:00",
+    "angrybirds2": "2026-11-07T14:40:40+00:00",
+    "artpuzzle藝術拼圖遊戲": "2026-11-07T14:40:40+00:00",
+    "balatro": "2026-11-07T14:40:40+00:00",
+    "bleachmirrorshigh": "2026-11-07T14:40:40+00:00",
+    "blockblast": "2026-11-07T14:40:40+00:00",
+    "blockcraft3dbuildinggame": "2026-11-07T14:40:40+00:00",
+    "brewtopiagrowcoffeebeans": "2026-11-07T14:40:40+00:00",
+    "callofdutymobile": "2026-11-07T14:40:40+00:00",
+    "candycrushsaga": "2026-11-07T14:40:40+00:00"
+  },
+  "errors": []
+}

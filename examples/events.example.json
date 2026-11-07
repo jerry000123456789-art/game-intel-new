@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "game": "遊戲正式名稱",
+      "title": "活動名稱",
+      "start_at": "2026-11-07T10:00:00+08:00",
+      "end_at": "2026-11-10T23:59:00+08:00",
+      "region": "台灣",
+      "category": "儲值優惠",
+      "topup_notes": "僅填寫來源確認的儲值活動內容",
+      "source_url": "https://example.com/replace-with-real-source"
+    }
+  ]
+}

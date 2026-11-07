@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "game": "遊戲正式名稱",
+      "title": "攻略標題",
+      "category": "素材收集",
+      "content": "這是欄位格式範例，不是真實攻略。正式文章需要經過來源查核，寫成完整的繁體中文原創內容，至少八十字，並且不得把新聞標題當作攻略。",
+      "updated_at": "2026-11-07T10:00:00+08:00",
+      "source_url": "https://example.com/replace-with-real-source"
+    }
+  ]
+}

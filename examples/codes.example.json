@@ -1,0 +1,11 @@
+{
+  "items": [
+    {
+      "game": "遊戲正式名稱",
+      "code": "REPLACE_WITH_REAL_CODE",
+      "discovered_at": "2026-11-07T10:00:00+08:00",
+      "source_url": "https://example.com/replace-with-real-source",
+      "expired": false
+    }
+  ]
+}

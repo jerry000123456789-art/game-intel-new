@@ -1,0 +1,49 @@
+{
+  "sources": [
+    {
+      "platform": "Google Play TW",
+      "url": "https://play.google.com/store/games?hl=zh_TW&gl=TW",
+      "status": "source-directory-only"
+    },
+    {
+      "platform": "Google Play US",
+      "url": "https://play.google.com/store/games?hl=zh_TW&gl=US",
+      "status": "source-directory-only"
+    },
+    {
+      "platform": "Huawei AppGallery",
+      "url": "https://appgallery.huawei.com/",
+      "status": "source-directory-only"
+    },
+    {
+      "platform": "App Store",
+      "url": "https://apps.apple.com/tw/genre/ios-games/id6014",
+      "status": "source-directory-only"
+    },
+    {
+      "platform": "Steam",
+      "url": "https://store.steampowered.com/",
+      "status": "source-directory-only"
+    },
+    {
+      "platform": "Epic Games Store",
+      "url": "https://store.epicgames.com/",
+      "status": "source-directory-only"
+    },
+    {
+      "platform": "PlayStation Store",
+      "url": "https://store.playstation.com/",
+      "status": "source-directory-only"
+    },
+    {
+      "platform": "Xbox",
+      "url": "https://www.xbox.com/games",
+      "status": "source-directory-only"
+    },
+    {
+      "platform": "Nintendo",
+      "url": "https://www.nintendo.com/store/games/",
+      "status": "source-directory-only"
+    }
+  ]
+}

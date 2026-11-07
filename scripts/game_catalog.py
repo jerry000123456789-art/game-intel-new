@@ -39,6 +39,13 @@ for term in seeds:
     time.sleep(.15)
 # Store listing dedupe; avoid inserting news-title candidates as games.
 unique={}
+existing=ROOT/'data/game_catalog.json'
+if existing.exists():
+    try:
+        for x in json.loads(existing.read_text(encoding='utf-8')).get('items',[]):
+            if x.get('name') and x.get('platforms'):
+                unique[(x['name'].casefold(),x['platforms'][0],x.get('region',''))]=x
+    except (ValueError,KeyError,TypeError): pass
 for x in items:unique[(x['name'].casefold(),x['platforms'][0],x['region'])]=x
 if errors and not items:
     existing=ROOT/'data/game_catalog.json'

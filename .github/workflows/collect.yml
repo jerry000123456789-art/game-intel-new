@@ -19,9 +19,13 @@ jobs:
           python scripts/classify.py
           python scripts/launch_leads.py
           python scripts/game_catalog.py
+      - name: Import trusted structured sources
+        run: python scripts/ingest_verified.py
+      - name: Validate curated data
+        run: python scripts/validate_data.py
       - name: Commit updated data
         run: |
-          git add data/latest.json data/classified.json data/launch_leads.json data/game_catalog.json
+          git add data/latest.json data/classified.json data/launch_leads.json data/game_catalog.json data/codes.json data/guides.json data/events.json
           if ! git diff --cached --quiet; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'

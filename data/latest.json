@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T07:29:08+00:00",
+  "updated_at": "2026-11-07T08:17:59+00:00",
   "status": "ok",
   "errors": [],
   "note": "RSS 標題線索，尚未驗證兌換碼、上市日期或活動細節。",
@@ -509,6 +509,24 @@
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
+      "id": "bd3e8b1cffb7a4220cbd",
+      "category": "遊戲攻略",
+      "title": "《鳴潮》星炬校長「洛瑟菈」雙體系輔助養成攻略：組隊、手法與抽取推薦 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBITkh6VHhBaE5qZVkzWXRiNU1vMWxFSEpNWjFKVXZRekdNb2FxS25EdmpaaWQ1akJ6azNMR1NSOW1uUm1SdGQzWnpXaTVxWnh6bjNhTVl3R0gzVFZQY3BGWDJaSmNUazZnUE1kbklSR3hKdFBfU25oajNvbVNMb3M?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-06-13T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T08:17:59+00:00"
+    },
+    {
+      "id": "95be75b4614a548681d7",
+      "category": "活動行事曆",
+      "title": "《明日方舟》杜老爺夏日聯動4款限定冰品 雪山甜筒車巡迴台灣北中南 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQa1FiMWVFaXlhWG1IZDFidlZ6UzNmeGlDSWxKRXZZODVmSVBhSlBmdkNJOUdMVDlFODBjQTNzX0JXY3lKU0dLcVFSY0hkVU1FdjMyWHJvTmJSV2x6dkdFX0lCRzZ6NE83QmtMVnF4QXpMZmVlU0EyTVNiWUY1QU9pWFpFUElkTEtoWFJuN3pLQ2d6T3Baa1NQNmlpd05pOFIzREw3M052ajNBZXc?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-06-10T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T08:17:59+00:00"
+    },
+    {
       "id": "52ac5c281b5b8524544d",
       "category": "兌換碼",
       "title": "【龍村3】兌換碼與禮包碼序號・6月9日更新 - Ludens Media",
@@ -624,6 +642,15 @@
       "publisher": "4Gamers",
       "published_at": "2026-02-05T08:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "34eaea4e34ad7ee2282c",
+      "category": "兌換碼",
+      "title": "《明日方舟：終末地》禮包碼兌換碼序號一覽，虛寶內容與領取教學 - 蘋果仁",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFA5LWxFemNfMHBlWkFWNHJPSUlRVDItQVBLNzA0NFp0LVlsdjk1WUtObkMwLXd5UkdyYXdYcmxEVXBnM2JIQTVpMHU4U2jSAVJBVV95cUxOcUxPak14cW9jQjlrTTZMVXQ1a0FBYWFNLU1jY1NUdi12bFhIQzNUY1dnNlN4a2J5eVJsOGdWN21TS05qYVpPeE1aODFIYXFHTG9n?oc=5",
+      "publisher": "蘋果仁",
+      "published_at": "2026-01-24T08:00:00+00:00",
+      "first_seen_at": "2026-11-07T08:17:59+00:00"
     },
     {
       "id": "6f6f14eae60ad797d7bc",

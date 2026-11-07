@@ -26,16 +26,16 @@ merged=related.add_leads({"codes":items},{"codes":items})
 assert len(merged["codes"])==1
 assert len(related.games_to_check([{"name":"測試新遊戲"},{"name":"檢視"}],{},limit=5))==1
 
-provider_rss=b'''<?xml version="1.0"?><rss><channel>
-<item><title>測試新遊戲 \xe5\x84\xb2\xe5\x80\xbc\xe5\x95\x86\xe5\x93\x81</title>
+provider_rss='''<?xml version="1.0"?><rss><channel>
+<item><title>測試新遊戲 儲值商品</title>
 <link>https://app.mycard520.com.tw/games/testgame/</link>
-<description>\xe6\xb8\xac\xe8\xa9\xa6\xe6\x96\xb0\xe9\x81\x8a\xe6\x88\xb2 \xe5\x84\xb2\xe5\x80\xbc</description></item>
-<item><title>\xe6\xb8\xac\xe8\xa9\xa6\xe6\x96\xb0\xe9\x81\x8a\xe6\x88\xb2 \xe6\xb6\x88\xe6\x81\xaf</title>
+<description>測試新遊戲 儲值</description></item>
+<item><title>測試新遊戲 消息</title>
 <link>https://app.mycard520.com.tw/news-testgame</link>
-<description>\xe6\xb8\xac\xe8\xa9\xa6\xe6\x96\xb0\xe9\x81\x8a\xe6\x88\xb2</description></item>
-<item><title>\xe6\xb8\xac\xe8\xa9\xa6\xe6\x96\xb0\xe9\x81\x8a\xe6\x88\xb2 \xe5\x84\xb2\xe5\x80\xbc</title>
+<description>測試新遊戲</description></item>
+<item><title>測試新遊戲 儲值</title>
 <link>https://evil.example/</link></item>
-</channel></rss>'''
+</channel></rss>'''.encode("utf-8")
 rows=pay.discover("測試新遊戲","MyCard","app.mycard520.com.tw","儲值",lambda _:provider_rss)
 assert len(rows)==2,rows
 assert rows[0]["evidence"]=="商品／儲值頁"

@@ -7,6 +7,7 @@ on:
       - 'scripts/**'
       - 'config/**'
       - 'index.html'
+      - 'worker/**'
       - '.github/workflows/collect.yml'
   schedule:
     - cron: '17 */3 * * *'
@@ -32,6 +33,7 @@ jobs:
           python scripts/test_live_pipeline.py
           python scripts/test_discovery_pipeline.py
           python scripts/test_frontend_js.py
+          node scripts/test_live_lookup.mjs
           python -m py_compile scripts/collect_game_related.py scripts/collect_payment_methods.py scripts/discover_sources.py
       - name: Fetch public news, YouTube, Bahamut and store pages
         run: |

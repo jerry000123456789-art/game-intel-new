@@ -17,7 +17,7 @@ try:
         appid=x.get('id'); name=x.get('name')
         if not appid or not name: continue
         link=f'https://store.steampowered.com/app/{int(appid)}/'
-        items.append(record(name,'即將上市','美國','Steam','Steam',link,x.get('header_image') or f'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/{int(appid)}/header.jpg'))
+        items.append(record(name,'即將上市','國際','Steam','Steam',link,x.get('header_image') or f'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/{int(appid)}/header.jpg'))
 except Exception as e: errors.append('Steam: '+str(e)[:160])
 # Apple Search API: exact title matches only, games category only, actual store pages.
 seeds=['星布谷地','裝備仔','Petit Planet','OVERGEARED','Basketball Slam MyTEAM','Enchanted Inn: Merge & Mystery','巨獸重返','萌爪配對碰']
@@ -44,9 +44,23 @@ if existing.exists():
     try:
         for x in json.loads(existing.read_text(encoding='utf-8')).get('items',[]):
             if x.get('name') and x.get('platforms'):
+                if x.get('region')=='美國':
+                    x['region']='國際'
+                    for store in x.get('store_links',[]):
+                        if store.get('region')=='美國':store['region']='國際'
                 unique[(x['name'].casefold(),x['platforms'][0],x.get('region',''))]=x
     except (ValueError,KeyError,TypeError): pass
-for x in items:unique[(x['name'].casefold(),x['platforms'][0],x['region'])]=x
+for x in items:
+    k=(x['name'].casefold(),x['platforms'][0],x['region'])
+    if k in unique:
+        prev=unique[k]
+        x['first_seen_at']=prev.get('first_seen_at') or NOW.isoformat()
+        x['payment_methods']=prev.get('payment_methods',[])
+        x['release_date']=x.get('release_date') or prev.get('release_date','')
+        x['cover_url']=x.get('cover_url') or prev.get('cover_url','')
+        x['developer']=x.get('developer') or prev.get('developer','')
+    else:x['first_seen_at']=NOW.isoformat()
+    unique[k]=x
 if errors and not items:
     existing=ROOT/'data/game_catalog.json'
     if existing.exists():

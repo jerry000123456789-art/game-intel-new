@@ -87,7 +87,7 @@ def run(catalog_file=None,output_file=None,status_file=None,getter=fetch):
                 errors.append({"game":available[key],"provider":provider,"error":str(e)[:150]})
         if succeeded:checked[key]=NOW
     rows=sorted(combined.values(),key=lambda x:x.get("first_seen_at",""),reverse=True)[:400]
-    if rows!=existing.get("items",[]):
+    if rows!=existing.get("items",[]) or not output_file.exists():
         output_file.write_text(json.dumps({"updated_at":NOW,"items":rows,"note":"官方商店與合作來源線索；不能由新聞提及推斷可以直接付款。"},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     state={"updated_at":NOW,"games_this_run":len(picks),"searches_succeeded":ok,
            "searches_failed":len(errors),"new_evidence":found,"total_evidence":len(rows),

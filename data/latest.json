@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T08:17:59+00:00",
+  "updated_at": "2026-11-07T08:32:56+00:00",
   "status": "ok",
   "errors": [],
   "note": "RSS 標題線索，尚未驗證兌換碼、上市日期或活動細節。",
@@ -615,6 +615,15 @@
       "publisher": "Ludens Media",
       "published_at": "2026-04-09T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "cb9e831f9f2b382c8278",
+      "category": "遊戲攻略",
+      "title": "《實況野球大冒險》成功模式培育全攻略：「パワフルアカデミー」通關小技巧 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVjZ1eW4zUmVXd0h4QnhjWGZWdW1oczFaaXVYc2ZTcDNYTjk0ZGJQLXB5VTdKbnBLbzdKNEZXQ1hOS3FyZEJ6TVRQYVdONVdhM3pmbTZlVlpYOGhVSjhxUXZKZ2lQZHdwMFJENw?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-04-06T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T08:32:56+00:00"
     },
     {
       "id": "1b994086a41c65a672cb",

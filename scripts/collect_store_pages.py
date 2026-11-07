@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""Read public store listings and append grounded catalog entries.
-
-A listing's FIRST-SEEN date is NOT a release date. Treat blocked/dynamic pages as
-source errors and retain previous records. Never manufacture game names.
-"""
+"""Collect publicly listed games; preserve history, dedupe by store app ID."""
 import datetime as dt
 import hashlib
 from html.parser import HTMLParser
@@ -13,428 +9,173 @@ import re
 import urllib.parse
 import urllib.request
 
-ROOT = Path(__file__).resolve().parents[1]
-NOW = dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')
-OUTPUT = ROOT/'data/game_catalog.json'
-HEALTH = ROOT/'data/store_health.json'
-SOURCES = [
-    ('Google Play','台灣','https://play.google.com/store/games?hl=zh_TW&gl=TW'),
-    ('Google Play','國際','https://play.google.com/store/games?hl=zh_TW&gl=US'),
-    ('App Store','台灣','https://apps.apple.com/tw/iphone/games'),
-    ('Huawei AppGallery','國際','https://appgallery.huawei.com/tab/automore%7Cdoublecolumncardwithstar%7C903189%7CA01000'),
+ROOT=Path(__file__).resolve().parents[1]
+NOW=dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+OUTPUT=ROOT/"data/game_catalog.json"
+HEALTH=ROOT/"data/store_health.json"
+SOURCES=[
+    ("Google Play","台灣","https://play.google.com/store/games?hl=zh_TW&gl=TW"),
+    ("Google Play","國際","https://play.google.com/store/games?hl=zh_TW&gl=US"),
+    ("App Store","台灣","https://apps.apple.com/tw/iphone/games"),
+    ("Huawei AppGallery","國際","https://appgallery.huawei.com/tab/automore%7Cdoublecolumncardwithstar%7C903189%7CA01000"),
 ]
-MAX_HTML = 5_000_000
+MAX_HTML=5_000_000
 
 class StoreLinks(HTMLParser):
-    def __init__(self, platform):
+    def __init__(self,platform):
         super().__init__(convert_charrefs=True)
         self.platform=platform
         self.current=None
         self.links=[]
-    def handle_starttag(self, tag, attrs):
+    def handle_starttag(self,tag,attrs):
         a=dict(attrs)
-        if tag=='a':
-            href=urllib.parse.unquote(a.get('href',''))
-            is_play=self.platform=='Google Play' and '/store/apps/details' in href and 'id=' in href
-            is_apple=self.platform=='App Store' and bool(re.search(r'/app/[^/?#]+/id\d+',href))
-            self.current={'href':href, 'parts':[a.get('aria-label',''),a.get('title','')], 'depth':1} if (is_play or is_apple) else self.current
-            if self.current and self.current['href']!=href:self.current['depth']+=1
-        elif self.current and tag=='img':
-            self.current['parts'].append(a.get('alt',''))
-    def handle_data(self, data):
-        if self.current:self.current['parts'].append(data)
-    def handle_endtag(self, tag):
-        if tag=='a' and self.current:
-            c=self.current
-            c['depth']-=1
-            if c['depth']<=0:
-                self.links.append(c)
-                self.current=None
+        if tag=="a" and self.current is None:
+            href=a.get("href","")
+            if (self.platform=="Google Play" and "/store/apps/details" in href and "id=" in href) or (
+                self.platform=="App Store" and bool(re.search(r"/app/[^/?#]+/id\d+",href))):
+                self.current={"href":href,"parts":[a.get("aria-label",""),a.get("title","")]}
+        elif self.current and tag=="img":
+            self.current["parts"].append(a.get("alt",""))
+    def handle_data(self,data):
+        if self.current:self.current["parts"].append(data)
+    def handle_endtag(self,tag):
+        if tag=="a" and self.current is not None:
+            self.links.append(self.current)
+            self.current=None
 
-
-def normalized_link(platform, href, region):
-    base='https://play.google.com' if platform=='Google Play' else 'https://apps.apple.com'
-    u=urllib.parse.urljoin(base,href)
-    p=urllib.parse.urlparse(u)
-    if platform=='Google Play':
-        if p.hostname!='play.google.com':return ''
-        appid=urllib.parse.parse_qs(p.query).get('id',[''])[0]
-        if not re.fullmatch(r'[A-Za-z][\w.]{3,180}',appid):return ''
-        return 'https://play.google.com/store/apps/details?'+urllib.parse.urlencode({'id':appid,'hl':'zh_TW','gl':'TW' if region=='台灣' else 'US'})
-    if p.hostname!='apps.apple.com':return ''
-    m=re.search(r'/id(\d+)',p.path)
-    return ('https://apps.apple.com/tw/app/id'+m.group(1)) if m else ''
-
+def normalized_link(platform,href,region):
+    base="https://play.google.com" if platform=="Google Play" else "https://apps.apple.com"
+    url=urllib.parse.urljoin(base,href)
+    p=urllib.parse.urlparse(url)
+    if platform=="Google Play":
+        if p.hostname!="play.google.com":return ""
+        appid=urllib.parse.parse_qs(p.query).get("id",[""])[0]
+        if not re.fullmatch(r"[A-Za-z][\w.]{3,180}",appid):return ""
+        return "https://play.google.com/store/apps/details?"+urllib.parse.urlencode({"id":appid,"hl":"zh_TW","gl":"TW" if region=="台灣" else "US"})
+    if p.hostname!="apps.apple.com":return ""
+    found=re.search(r"/id(\d+)",p.path)
+    return "https://apps.apple.com/tw/app/id"+found.group(1) if found else ""
 
 def clean_title(raw):
-    """Reject generic image alt text; retain named icon metadata."""
-    t=' '.join(str(raw or '').split())
-    t=re.sub(r'\s*(?:[0-5](?:\.\d)?\s*star|\d+(?:\.\d)?\s*顆星).*
-
-def parse_store(html,platform,region):
-    parser=StoreLinks(platform)
-    parser.feed(html)
-    found={}
-    for x in parser.links:
-        link=normalized_link(platform,x['href'],region)
-        title=title_for(platform,x['parts'])
-        if not link or not title:continue
-        key=link
-        if key not in found:
-            found[key]={
-                'id':hashlib.sha256((platform+'|'+region+'|'+link).encode()).hexdigest()[:22],
-                'name':title,'status':'商店收錄','region':region,
-                'platforms':[platform],'release_date':'','developer':'','cover_url':'',
-                'store_links':[{'name':platform,'url':link,'region':region}],
-                'payment_methods':[],'source_url':link,
-                'verified_store_listing':True,
-                'first_seen_at':NOW,
-            }
-    return list(found.values())
-
-
-def fetch(url):
-    req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; GameIntelPublicListing/1.0)','Accept':'text/html,application/xhtml+xml'})
-    with urllib.request.urlopen(req,timeout=22) as resp:
-        if resp.status!=200:raise RuntimeError('HTTP '+str(resp.status))
-        data=resp.read(MAX_HTML+1)
-        if len(data)>MAX_HTML:raise RuntimeError('response exceeds 5 MB')
-        return data.decode('utf-8','replace')
-
-
-def run():
-    existing=json.loads(OUTPUT.read_text(encoding='utf-8')) if OUTPUT.exists() else {'items':[]}
-    old=existing.get('items',[])
-    merged={}
-    for row in old:
-        clean=clean_title(row.get('name',''))
-        if not clean:continue
-        x=dict(row)
-        x['name']=clean
-        k=catalog_key(x)
-        if k not in merged or catalog_quality(x)>catalog_quality(merged[k]):merged[k]=x
-    previous=json.loads(HEALTH.read_text(encoding='utf-8')) if HEALTH.exists() else {'sources':{}}
-    health=previous.get('sources',{})
-    fresh=0
-    for platform,region,url in SOURCES:
-        name=platform+' '+region
-        s=health.get(name,{})
-        try:
-            if platform=='Huawei AppGallery':
-                # Evaluate public HTML rather than pretending JS-rendered listings were scraped.
-                html=fetch(url)
-                raise RuntimeError('官網為動態渲染，無可核對的遊戲清單擷取規則（'+str(len(html))+' bytes）')
-            data=parse_store(fetch(url),platform,region)
-            if not data:raise RuntimeError('頁面未解析出可核對的遊戲連結')
-            for x in data:
-                k=catalog_key(x)
-                if k in merged:
-                    prior=merged[k]
-                    x['first_seen_at']=prior.get('first_seen_at') or prior.get('discovered_at') or NOW
-                    x['id']=prior.get('id') or x['id']
-                    # Keep verified metadata over generic store link text.
-                    for field in ('release_date','developer','cover_url'):
-                        x[field]=prior.get(field) or x[field]
-                    if prior.get('status') not in ('商店收錄','已上市',''):
-                        x['status']=prior['status']
-                    if catalog_quality(prior)>catalog_quality(x):
-                        x['name']=prior['name']
-                else:fresh+=1
-                merged[k]=x
-            s={'state':'success','last_checked_at':NOW,'last_success_at':NOW,'items_this_run':len(data),'source_url':url}
-        except Exception as exc:
-            s={'state':'error','last_checked_at':NOW,'last_success_at':s.get('last_success_at',''),'items_this_run':0,'error':str(exc)[:220],'source_url':url}
-        health[name]=s
-        print(f'{name}: {s["state"]}, items={s["items_this_run"]}'+ (' ERROR '+s.get('error','') if s['state']=='error' else ''))
-    records=list(merged.values())
-    records.sort(key=lambda x:(x.get('first_seen_at',''),x.get('release_date','')),reverse=True)
-    # Only rewrite catalog when new/changed records actually found; source state separately tracks failures.
-    if records!=old:
-        existing['items']=records
-        existing['updated_at']=NOW
-        existing['note']='商店清單收錄日期與遊戲正式上市日期不同；未提供的上市日期保留空白。'
-        OUTPUT.write_text(json.dumps(existing,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    HEALTH.write_text(json.dumps({'updated_at':NOW,'sources':health},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    print('Store catalog: total='+str(len(records))+' newly_added='+str(fresh))
-    return fresh
-
-if __name__=='__main__':run()
-, '', t,flags=re.I).strip()
-    t=re.sub(r'(?:的)?(?:應用程式)?(?:圖示|縮圖|螢幕截圖)圖片
-
-def parse_store(html,platform,region):
-    parser=StoreLinks(platform)
-    parser.feed(html)
-    found={}
-    for x in parser.links:
-        link=normalized_link(platform,x['href'],region)
-        title=title_for(platform,x['parts'])
-        if not link or not title:continue
-        key=link
-        if key not in found:
-            found[key]={
-                'id':hashlib.sha256((platform+'|'+region+'|'+link).encode()).hexdigest()[:22],
-                'name':title,'status':'商店收錄','region':region,
-                'platforms':[platform],'release_date':'','developer':'','cover_url':'',
-                'store_links':[{'name':platform,'url':link,'region':region}],
-                'payment_methods':[],'source_url':link,
-                'verified_store_listing':True,
-                'first_seen_at':NOW,
-            }
-    return list(found.values())
-
-
-def fetch(url):
-    req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; GameIntelPublicListing/1.0)','Accept':'text/html,application/xhtml+xml'})
-    with urllib.request.urlopen(req,timeout=22) as resp:
-        if resp.status!=200:raise RuntimeError('HTTP '+str(resp.status))
-        data=resp.read(MAX_HTML+1)
-        if len(data)>MAX_HTML:raise RuntimeError('response exceeds 5 MB')
-        return data.decode('utf-8','replace')
-
-
-def run():
-    existing=json.loads(OUTPUT.read_text(encoding='utf-8')) if OUTPUT.exists() else {'items':[]}
-    old=existing.get('items',[])
-    key=lambda x:(x.get('name','').strip().casefold(),tuple(x.get('platforms',[])),x.get('region',''))
-    merged={key(x):x for x in old if x.get('name')}
-    previous=json.loads(HEALTH.read_text(encoding='utf-8')) if HEALTH.exists() else {'sources':{}}
-    health=previous.get('sources',{})
-    fresh=0
-    for platform,region,url in SOURCES:
-        name=platform+' '+region
-        s=health.get(name,{})
-        try:
-            if platform=='Huawei AppGallery':
-                # Evaluate public HTML rather than pretending JS-rendered listings were scraped.
-                html=fetch(url)
-                raise RuntimeError('官網為動態渲染，無可核對的遊戲清單擷取規則（'+str(len(html))+' bytes）')
-            data=parse_store(fetch(url),platform,region)
-            if not data:raise RuntimeError('頁面未解析出可核對的遊戲連結')
-            for x in data:
-                k=key(x)
-                if k in merged:
-                    prior=merged[k]
-                    x['first_seen_at']=prior.get('first_seen_at') or prior.get('discovered_at') or NOW
-                    # Preserve confirmed details over the generic store-listing snapshot.
-                    for field in ('release_date','developer','cover_url'):
-                        x[field]=prior.get(field) or x[field]
-                    if prior.get('status') not in ('商店收錄','已上市',''):
-                        x['status']=prior['status']
-                else:fresh+=1
-                merged[k]=x
-            s={'state':'success','last_checked_at':NOW,'last_success_at':NOW,'items_this_run':len(data),'source_url':url}
-        except Exception as exc:
-            s={'state':'error','last_checked_at':NOW,'last_success_at':s.get('last_success_at',''),'items_this_run':0,'error':str(exc)[:220],'source_url':url}
-        health[name]=s
-        print(f'{name}: {s["state"]}, items={s["items_this_run"]}'+ (' ERROR '+s.get('error','') if s['state']=='error' else ''))
-    records=list(merged.values())
-    records.sort(key=lambda x:(x.get('first_seen_at',''),x.get('release_date','')),reverse=True)
-    # Only rewrite catalog when new/changed records actually found; source state separately tracks failures.
-    if records!=old:
-        existing['items']=records
-        existing['updated_at']=NOW
-        existing['note']='商店清單收錄日期與遊戲正式上市日期不同；未提供的上市日期保留空白。'
-        OUTPUT.write_text(json.dumps(existing,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    HEALTH.write_text(json.dumps({'updated_at':NOW,'sources':health},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    print('Store catalog: total='+str(len(records))+' newly_added='+str(fresh))
-    return fresh
-
-if __name__=='__main__':run()
-, '', t).strip()
-    t=t.strip('「」『』“”" ')
-    if t in ('圖片','圖示','縮圖','螢幕截圖','照片','遊戲','icon','image','screenshot'):return ''
-    if re.search(r'(?:圖片|縮圖|螢幕截圖|圖示)
-
-def parse_store(html,platform,region):
-    parser=StoreLinks(platform)
-    parser.feed(html)
-    found={}
-    for x in parser.links:
-        link=normalized_link(platform,x['href'],region)
-        title=title_for(platform,x['parts'])
-        if not link or not title:continue
-        key=link
-        if key not in found:
-            found[key]={
-                'id':hashlib.sha256((platform+'|'+region+'|'+link).encode()).hexdigest()[:22],
-                'name':title,'status':'商店收錄','region':region,
-                'platforms':[platform],'release_date':'','developer':'','cover_url':'',
-                'store_links':[{'name':platform,'url':link,'region':region}],
-                'payment_methods':[],'source_url':link,
-                'verified_store_listing':True,
-                'first_seen_at':NOW,
-            }
-    return list(found.values())
-
-
-def fetch(url):
-    req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; GameIntelPublicListing/1.0)','Accept':'text/html,application/xhtml+xml'})
-    with urllib.request.urlopen(req,timeout=22) as resp:
-        if resp.status!=200:raise RuntimeError('HTTP '+str(resp.status))
-        data=resp.read(MAX_HTML+1)
-        if len(data)>MAX_HTML:raise RuntimeError('response exceeds 5 MB')
-        return data.decode('utf-8','replace')
-
-
-def run():
-    existing=json.loads(OUTPUT.read_text(encoding='utf-8')) if OUTPUT.exists() else {'items':[]}
-    old=existing.get('items',[])
-    key=lambda x:(x.get('name','').strip().casefold(),tuple(x.get('platforms',[])),x.get('region',''))
-    merged={key(x):x for x in old if x.get('name')}
-    previous=json.loads(HEALTH.read_text(encoding='utf-8')) if HEALTH.exists() else {'sources':{}}
-    health=previous.get('sources',{})
-    fresh=0
-    for platform,region,url in SOURCES:
-        name=platform+' '+region
-        s=health.get(name,{})
-        try:
-            if platform=='Huawei AppGallery':
-                # Evaluate public HTML rather than pretending JS-rendered listings were scraped.
-                html=fetch(url)
-                raise RuntimeError('官網為動態渲染，無可核對的遊戲清單擷取規則（'+str(len(html))+' bytes）')
-            data=parse_store(fetch(url),platform,region)
-            if not data:raise RuntimeError('頁面未解析出可核對的遊戲連結')
-            for x in data:
-                k=key(x)
-                if k in merged:
-                    prior=merged[k]
-                    x['first_seen_at']=prior.get('first_seen_at') or prior.get('discovered_at') or NOW
-                    # Preserve confirmed details over the generic store-listing snapshot.
-                    for field in ('release_date','developer','cover_url'):
-                        x[field]=prior.get(field) or x[field]
-                    if prior.get('status') not in ('商店收錄','已上市',''):
-                        x['status']=prior['status']
-                else:fresh+=1
-                merged[k]=x
-            s={'state':'success','last_checked_at':NOW,'last_success_at':NOW,'items_this_run':len(data),'source_url':url}
-        except Exception as exc:
-            s={'state':'error','last_checked_at':NOW,'last_success_at':s.get('last_success_at',''),'items_this_run':0,'error':str(exc)[:220],'source_url':url}
-        health[name]=s
-        print(f'{name}: {s["state"]}, items={s["items_this_run"]}'+ (' ERROR '+s.get('error','') if s['state']=='error' else ''))
-    records=list(merged.values())
-    records.sort(key=lambda x:(x.get('first_seen_at',''),x.get('release_date','')),reverse=True)
-    # Only rewrite catalog when new/changed records actually found; source state separately tracks failures.
-    if records!=old:
-        existing['items']=records
-        existing['updated_at']=NOW
-        existing['note']='商店清單收錄日期與遊戲正式上市日期不同；未提供的上市日期保留空白。'
-        OUTPUT.write_text(json.dumps(existing,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    HEALTH.write_text(json.dumps({'updated_at':NOW,'sources':health},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    print('Store catalog: total='+str(len(records))+' newly_added='+str(fresh))
-    return fresh
-
-if __name__=='__main__':run()
-,t) and len(t)<10:return ''
-    if not (2<=len(t)<=95) or re.fullmatch(r'\d+[,.]?\d*',t) or t.startswith('https://'):return ''
+    t=" ".join(str(raw or "").split()).strip("「」『』“”\" ")
+    t=re.sub(r"\s*(?:[0-5](?:\.\d)?\s*star|\d+(?:\.\d)?\s*顆星).*$","",t,flags=re.I).strip()
+    t=re.sub(r"(?:的)?(?:應用程式)?(?:圖示|縮圖|螢幕截圖)圖片$","",t).strip("「」『』“”\" ")
+    if t.casefold() in ("圖片","圖示","縮圖","螢幕截圖","照片","遊戲","檢視","icon","image","screenshot"):return ""
+    if len(t)<2 or len(t)>95 or t.count(",")>=3:return ""
+    if t.startswith("https://") or re.fullmatch(r"\d+[\d,.]*",t):return ""
     return t
 
-def title_for(platform, candidates):
+def title_for(platform,candidates):
     for raw in candidates:
-        t=clean_title(raw)
-        if t:return t
-    return ''
-
-def catalog_key(x):
-    """Stable identity is the official store ID, not mutable display names."""
-    platform=next(iter(x.get('platforms',[])),'')
-    region=x.get('region','')
-    url=x.get('source_url','') or (x.get('store_links') or [{}])[0].get('url','')
-    p=urllib.parse.urlparse(url)
-    if p.hostname=='play.google.com':
-        appid=urllib.parse.parse_qs(p.query).get('id',[''])[0]
-        if appid:return (platform,region,'google:'+appid.casefold())
-    if p.hostname=='apps.apple.com':
-        m=re.search(r'/id(\d+)',p.path)
-        if m:return (platform,region,'apple:'+m.group(1))
-    if p.hostname=='store.steampowered.com':
-        m=re.search(r'/app/(\d+)',p.path)
-        if m:return (platform,region,'steam:'+m.group(1))
-    return (platform,region,'name:'+clean_title(x.get('name','')).casefold())
-
-def catalog_quality(x):
-    return (int(bool(x.get('developer')))+int(bool(x.get('cover_url')))
-            +int(bool(x.get('release_date')))
-            +int(x.get('status') in ('已上市','即將上市'))*2
-            +int(bool(x.get('seed_method'))))
-
+        title=clean_title(raw)
+        if title:return title
+    return ""
 
 def parse_store(html,platform,region):
-    parser=StoreLinks(platform)
-    parser.feed(html)
-    found={}
-    for x in parser.links:
-        link=normalized_link(platform,x['href'],region)
-        title=title_for(platform,x['parts'])
+    p=StoreLinks(platform)
+    p.feed(html)
+    result={}
+    for row in p.links:
+        link=normalized_link(platform,row["href"],region)
+        title=title_for(platform,row["parts"])
         if not link or not title:continue
-        key=link
-        if key not in found:
-            found[key]={
-                'id':hashlib.sha256((platform+'|'+region+'|'+link).encode()).hexdigest()[:22],
-                'name':title,'status':'商店收錄','region':region,
-                'platforms':[platform],'release_date':'','developer':'','cover_url':'',
-                'store_links':[{'name':platform,'url':link,'region':region}],
-                'payment_methods':[],'source_url':link,
-                'verified_store_listing':True,
-                'first_seen_at':NOW,
+        if link not in result:
+            result[link]={
+                "id":hashlib.sha256((platform+"|"+region+"|"+link).encode()).hexdigest()[:22],
+                "name":title,"status":"商店收錄","region":region,"platforms":[platform],
+                "release_date":"","developer":"","cover_url":"",
+                "store_links":[{"name":platform,"url":link,"region":region}],
+                "payment_methods":[],"source_url":link,"verified_store_listing":True,
+                "first_seen_at":NOW,
             }
-    return list(found.values())
+    return list(result.values())
 
+def catalog_key(row):
+    platform=(row.get("platforms") or [""])[0]
+    region="國際" if row.get("region")=="美國" else row.get("region","")
+    link=row.get("source_url","") or (row.get("store_links") or [{}])[0].get("url","")
+    p=urllib.parse.urlparse(link)
+    if p.hostname=="play.google.com":
+        appid=urllib.parse.parse_qs(p.query).get("id",[""])[0]
+        if appid:return (platform,region,"play:"+appid.casefold())
+    if p.hostname=="apps.apple.com":
+        m=re.search(r"/id(\d+)",p.path)
+        if m:return (platform,region,"apple:"+m.group(1))
+    if p.hostname=="store.steampowered.com":
+        m=re.search(r"/app/(\d+)",p.path)
+        if m:return (platform,region,"steam:"+m.group(1))
+    return (platform,region,"name:"+clean_title(row.get("name","")).casefold())
+
+def catalog_quality(row):
+    return sum(bool(row.get(k)) for k in ("developer","cover_url","release_date","seed_method")) + 2*int(row.get("status") in ("即將上市","已上市","預先註冊"))
 
 def fetch(url):
-    req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; GameIntelPublicListing/1.0)','Accept':'text/html,application/xhtml+xml'})
+    req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; GameIntelPublicListing/1.0)","Accept":"text/html,application/xhtml+xml"})
     with urllib.request.urlopen(req,timeout=22) as resp:
-        if resp.status!=200:raise RuntimeError('HTTP '+str(resp.status))
-        data=resp.read(MAX_HTML+1)
-        if len(data)>MAX_HTML:raise RuntimeError('response exceeds 5 MB')
-        return data.decode('utf-8','replace')
-
+        if resp.status!=200:raise RuntimeError("HTTP "+str(resp.status))
+        raw=resp.read(MAX_HTML+1)
+        if len(raw)>MAX_HTML:raise RuntimeError("response exceeds 5 MB")
+        return raw.decode("utf-8","replace")
 
 def run():
-    existing=json.loads(OUTPUT.read_text(encoding='utf-8')) if OUTPUT.exists() else {'items':[]}
-    old=existing.get('items',[])
-    key=lambda x:(x.get('name','').strip().casefold(),tuple(x.get('platforms',[])),x.get('region',''))
-    merged={key(x):x for x in old if x.get('name')}
-    previous=json.loads(HEALTH.read_text(encoding='utf-8')) if HEALTH.exists() else {'sources':{}}
-    health=previous.get('sources',{})
+    data=json.loads(OUTPUT.read_text(encoding="utf-8")) if OUTPUT.exists() else {"items":[]}
+    old=data.get("items",[])
+    merged={}
+    for row in old:
+        name=clean_title(row.get("name",""))
+        if not name:continue
+        x=dict(row)
+        x["name"]=name
+        if x.get("region")=="美國":
+            x["region"]="國際"
+            for st in x.get("store_links",[]):
+                if st.get("region")=="美國":st["region"]="國際"
+        key=catalog_key(x)
+        if key not in merged or catalog_quality(x)>catalog_quality(merged[key]):merged[key]=x
+    previous=json.loads(HEALTH.read_text(encoding="utf-8")) if HEALTH.exists() else {"sources":{}}
+    health=previous.get("sources",{})
     fresh=0
     for platform,region,url in SOURCES:
-        name=platform+' '+region
-        s=health.get(name,{})
+        source_name=platform+" "+region
+        state=health.get(source_name,{})
         try:
-            if platform=='Huawei AppGallery':
-                # Evaluate public HTML rather than pretending JS-rendered listings were scraped.
-                html=fetch(url)
-                raise RuntimeError('官網為動態渲染，無可核對的遊戲清單擷取規則（'+str(len(html))+' bytes）')
-            data=parse_store(fetch(url),platform,region)
-            if not data:raise RuntimeError('頁面未解析出可核對的遊戲連結')
-            for x in data:
-                k=key(x)
-                if k in merged:
-                    prior=merged[k]
-                    x['first_seen_at']=prior.get('first_seen_at') or prior.get('discovered_at') or NOW
-                    # Preserve confirmed details over the generic store-listing snapshot.
-                    for field in ('release_date','developer','cover_url'):
-                        x[field]=prior.get(field) or x[field]
-                    if prior.get('status') not in ('商店收錄','已上市',''):
-                        x['status']=prior['status']
-                else:fresh+=1
-                merged[k]=x
-            s={'state':'success','last_checked_at':NOW,'last_success_at':NOW,'items_this_run':len(data),'source_url':url}
-        except Exception as exc:
-            s={'state':'error','last_checked_at':NOW,'last_success_at':s.get('last_success_at',''),'items_this_run':0,'error':str(exc)[:220],'source_url':url}
-        health[name]=s
-        print(f'{name}: {s["state"]}, items={s["items_this_run"]}'+ (' ERROR '+s.get('error','') if s['state']=='error' else ''))
+            if platform=="Huawei AppGallery":
+                page=fetch(url)
+                raise RuntimeError("官網需 JavaScript 動態載入，目前無可核對清單（"+str(len(page))+" bytes）")
+            listings=parse_store(fetch(url),platform,region)
+            if not listings:raise RuntimeError("頁面未取得有效遊戲連結")
+            for x in listings:
+                key=catalog_key(x)
+                if key in merged:
+                    prior=merged[key]
+                    x["id"]=prior.get("id") or x["id"]
+                    x["first_seen_at"]=prior.get("first_seen_at") or prior.get("discovered_at") or NOW
+                    for field in ("release_date","developer","cover_url","payment_methods","seed_method"):
+                        x[field]=prior.get(field) or x.get(field) or ([] if field=="payment_methods" else "")
+                    if prior.get("status") not in ("商店收錄","已上市",""):
+                        x["status"]=prior["status"]
+                    if catalog_quality(prior)>=catalog_quality(x):
+                        x["name"]=prior["name"]
+                else:
+                    fresh+=1
+                merged[key]=x
+            state={"state":"success","last_checked_at":NOW,"last_success_at":NOW,
+                   "items_this_run":len(listings),"source_url":url}
+        except Exception as error:
+            state={"state":"error","last_checked_at":NOW,
+                   "last_success_at":state.get("last_success_at",""),
+                   "items_this_run":0,"error":str(error)[:220],"source_url":url}
+        health[source_name]=state
+        print(source_name+": "+state["state"]+", items="+str(state["items_this_run"])+(" ERROR "+state.get("error","") if state["state"]=="error" else ""))
     records=list(merged.values())
-    records.sort(key=lambda x:(x.get('first_seen_at',''),x.get('release_date','')),reverse=True)
-    # Only rewrite catalog when new/changed records actually found; source state separately tracks failures.
+    records.sort(key=lambda x:(x.get("first_seen_at",""),x.get("release_date","")),reverse=True)
     if records!=old:
-        existing['items']=records
-        existing['updated_at']=NOW
-        existing['note']='商店清單收錄日期與遊戲正式上市日期不同；未提供的上市日期保留空白。'
-        OUTPUT.write_text(json.dumps(existing,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    HEALTH.write_text(json.dumps({'updated_at':NOW,'sources':health},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    print('Store catalog: total='+str(len(records))+' newly_added='+str(fresh))
+        data["items"]=records
+        data["updated_at"]=NOW
+        data["note"]="商店收錄日期不等於遊戲上市日期；遊戲名稱去除圖片文字並依商店 ID 去重。"
+        OUTPUT.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    HEALTH.write_text(json.dumps({"updated_at":NOW,"sources":health},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    print("Store catalog: total="+str(len(records))+" newly_added="+str(fresh))
     return fresh
 
-if __name__=='__main__':run()
+if __name__=="__main__":run()

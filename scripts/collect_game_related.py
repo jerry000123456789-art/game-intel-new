@@ -45,11 +45,17 @@ def games_to_check(catalog, previous, limit=LIMIT):
         name = row.get("name", "").strip()
         if not valid_name(name): continue
         k = normalized(name)
-        if k and k not in unique: unique[k] = name
+        if k and k not in unique: unique[k] = (name, row.get("first_seen_at",""))
     checked = previous.get("checked_games", {})
-    # Unchecked games first; previously checked games rotate oldest-to-newest.
-    keys = sorted(unique, key=lambda k:(checked.get(k, ""), k))
-    return [(k, unique[k]) for k in keys[:limit]]
+    def priority(k):
+        if k in checked:return (1, checked[k], k)
+        try:
+            ts=dt.datetime.fromisoformat(unique[k][1].replace("Z","+00:00")).timestamp()
+        except (ValueError,AttributeError):ts=0
+        return (0,-ts,k)
+    # Recently discovered unsearched games first, then the least-recently checked.
+    keys = sorted(unique, key=priority)
+    return [(k, unique[k][0]) for k in keys[:limit]]
 
 def rss_items(game, kind, getter=None):
     q = '"' + game.replace('"', "") + '" ' + KINDS[kind]

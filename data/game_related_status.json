@@ -1,92 +1,92 @@
 {
-  "checked_at": "2026-11-07T15:50:44+00:00",
+  "checked_at": "2026-11-07T18:50:47+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
-    "guides": 1,
-    "events": 0
+    "guides": 0,
+    "events": 3
   },
   "total_leads": {
-    "codes": 28,
+    "codes": 29,
     "guides": 23,
-    "events": 26
+    "events": 30
   },
   "per_game": {
-    "3D Magic Pop：奇趣方塊分類": {
+    "3D狙擊刺客：槍戰遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Absolum": {
+    "Bowmasters": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Booster Pack Heroes": {
+    "Disney Solitaire": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Butter PoP: ASMR解謎": {
+    "Epic Plane Evolution": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Diner Merge: 美食合併餐廳": {
+    "Free Fire MAX: 風暴競技場": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "《Dispatch》": {
+    "Hole Stars: 謎題挑戰": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Dora：探索与玩耍": {
+    "Kick the Buddy：有趣的動作遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "DuneCrawl": {
+    "Kingdom Rush Battles: TD 遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Garena 極速領域：莊園別墅": {
+    "Last Extract": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Goods Factory Sorting - Match": {
+    "MLB：9局職棒26": {
+      "codes": 0,
+      "guides": 0,
+      "events": 3
+    },
+    "Plants vs. Zombies™": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Granado Espada M - Sword2": {
+    "Snake.io - 有趣的 貪吃蛇.io 遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "GT Rivals: Real Racing Sim": {
+    "Spider Fighter 3: Action Game": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Guidus One": {
+    "Tower War - Tactical Conquest": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Loot Hunters: Idle RPG Quest": {
+    "兵器王者：鍛造放置RPG": {
       "codes": 0,
       "guides": 0,
-      "events": 0
-    },
-    "Monster Hunter Outlanders": {
-      "codes": 0,
-      "guides": 1,
       "events": 0
     }
   },
@@ -180,7 +180,22 @@
     "gtrivalsrealracingsim": "2026-11-07T15:50:44+00:00",
     "guidusone": "2026-11-07T15:50:44+00:00",
     "loothuntersidlerpgquest": "2026-11-07T15:50:44+00:00",
-    "monsterhunteroutlanders": "2026-11-07T15:50:44+00:00"
+    "monsterhunteroutlanders": "2026-11-07T15:50:44+00:00",
+    "3d狙擊刺客槍戰遊戲": "2026-11-07T18:50:47+00:00",
+    "bowmasters": "2026-11-07T18:50:47+00:00",
+    "disneysolitaire": "2026-11-07T18:50:47+00:00",
+    "epicplaneevolution": "2026-11-07T18:50:47+00:00",
+    "freefiremax風暴競技場": "2026-11-07T18:50:47+00:00",
+    "holestars謎題挑戰": "2026-11-07T18:50:47+00:00",
+    "kickthebuddy有趣的動作遊戲": "2026-11-07T18:50:47+00:00",
+    "kingdomrushbattlestd遊戲": "2026-11-07T18:50:47+00:00",
+    "lastextract": "2026-11-07T18:50:47+00:00",
+    "mlb9局職棒26": "2026-11-07T18:50:47+00:00",
+    "plantsvszombiestm": "2026-11-07T18:50:47+00:00",
+    "snakeio有趣的貪吃蛇io遊戲": "2026-11-07T18:50:47+00:00",
+    "spiderfighter3actiongame": "2026-11-07T18:50:47+00:00",
+    "towerwartacticalconquest": "2026-11-07T18:50:47+00:00",
+    "兵器王者鍛造放置rpg": "2026-11-07T18:50:47+00:00"
   },
   "errors": []
 }

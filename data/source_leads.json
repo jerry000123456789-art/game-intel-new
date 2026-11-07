@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T15:50:44+00:00",
+  "updated_at": "2026-11-07T18:50:47+00:00",
   "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
@@ -17,6 +17,14 @@
         "publisher": "Ludens Media",
         "published_at": "2026-11-06T09:40:02+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "title": "格鬥天王：拳面出擊 推出！齊收集All Star格鬥家卡牌｜附禮包碼 - 香港01",
+        "source_url": "https://news.google.com/rss/articles/CBMijgNBVV95cUxPM0FHQncxWHZNU2ZxY0M0MWpsajJMUDl4Q2t2QWNLVzUwQjhfLTF3S3RKUHVjN0JOalhPWnRDZ19PNDRSbllKTW1aVjM1WDVXNnB0Wllxa29HR2NRQlQ5NTZ4Qm5vQlBpNEhCbmx5TzlKT1VIUFFpQU5QZkxrZmN0U2lmZ0FVdkgwZVMxMm0xY3lsZXdOc3JpRzZpcndGckNjNVpMSFJKN2FpNEV3RTZFSXpncC16TjRtckJ3cDBJNG1nV2RfVzUwbExBbHprSlpqWWM4OHNuOVE3djk0QUxBX21QWUJBQ29ockVDNS00THpGeGR3VUg1d3R4WGlGWUhCS01GaTVGcWoybkgtMnRMbGFtX1k3OWJaYjA2XzRQRzhIRjYyeXRRdGNoTGh4OUZHNGpnU1B0WVhQSFRtMlVMMEF5RnIyVFNBMDB2ZVlzT1RTSG1nRzFEVlNKNzBURmluelRrMV9VazBQY0xIM29XUEpxNmJtNVZyTDFhd0dpckVkN3Y1YXBTcjVtQzluUQ?oc=5",
+        "publisher": "香港01",
+        "published_at": "2026-11-06T08:18:57+00:00",
+        "first_seen_at": "2026-11-07T18:50:37+00:00",
         "status": "source_lead_only"
       },
       {
@@ -473,6 +481,33 @@
         "status": "source_lead_only"
       },
       {
+        "game": "MLB：9局職棒26",
+        "kind": "events",
+        "title": "《MLB 9 局職棒26》全球上線10 週年紀念活動開跑- 股市爆料同學會 - CMoney",
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ZWm9mYjJPdlM2T3BqWGVpWXNwLTJxYmVJdlZyRnRnNkh5WkcyWm5OSWhkdzQ2THFhOHkxRmthTHdfdk5pc0x5SWZvb04xNjVHVUFwQlFVZjM?oc=5",
+        "published_at": "2026-10-30T07:51:06+00:00",
+        "publisher": "CMoney",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "MLB：9局職棒26",
+        "kind": "events",
+        "title": "《MLB 9 局職棒26》全球上線10 週年紀念活動開跑- 遊戲新聞 - PChome Online 新聞",
+        "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMTA2VmJnWEFDOVk1OWYwbGI0aXRiMzA4cVlGYnpEaXZCSzBCTWxqdXF6V25MMG5hMlVwOVAxOUdaenc3dzdYcldqNGYzXzBZOTlUbHBEQXVDQzNDeXBfSXlzR2dHdlhBcFhhOWJjemtvREVaaklfdlp1cmtuOVV0TlFtNnM?oc=5",
+        "published_at": "2026-10-30T07:29:19+00:00",
+        "publisher": "PChome Online 新聞",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "MLB：9局職棒26",
+        "kind": "events",
+        "title": "Com2uS《MLB 9局職棒 26》全球上線 10 週年紀念活動開跑 - 蕃新聞",
+        "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9mY2lCUUpROEJ3QTBvUVNLdUpWRDQ3c0x2NktlYW5xZ3dLUkZobmN6NTRYWUItN05jV0YwWUZ5TzM0UXlZaDBGZTRwX2FDRFhyUlE?oc=5",
+        "published_at": "2026-10-30T07:00:00+00:00",
+        "publisher": "蕃新聞",
+        "status": "source_lead_only"
+      },
+      {
         "game": "燕雲十六聲",
         "kind": "events",
         "title": "燕雲十六聲文津館怎麼加入｜Where Winds Meet 文津館（Inkbound Order）蒙學考試、訪學弟子、門規與獎勵 - Ludens Media",
@@ -496,6 +531,14 @@
         "publisher": "SouNova 少女星",
         "published_at": "2026-10-28T09:30:00+00:00",
         "first_seen_at": "2026-11-07T14:43:49+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "title": "《瑪奇 Mobile》日版 ×《【我推的孩子】》將於 11/4 展開聯動 公開聯動特設網站與宣傳影片 - GNN 新聞網",
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE44Z3dlUnBQa0dMaFNQVkh3azZ4UWIycG9OSEVjbVV6eXRLODFlZWVTV0k5ZWFWUEQ1WWJWMzE3NUNzdEpETExVTU5WS1l6aFZ3MEExamxPS2U?oc=5",
+        "publisher": "GNN 新聞網",
+        "published_at": "2026-10-28T07:00:00+00:00",
+        "first_seen_at": "2026-11-07T18:50:37+00:00",
         "status": "source_lead_only"
       },
       {

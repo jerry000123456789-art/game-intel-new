@@ -1,6 +1,811 @@
 {
-  "updated_at": "2026-11-07T15:50:42+00:00",
+  "updated_at": "2026-11-07T18:50:43+00:00",
   "items": [
+    {
+      "id": "aa4f0d2d5e900586c92bd4",
+      "name": "劍之川",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.neptune.dawnsedge&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.neptune.dawnsedge&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "58b0c41d673c4271029b65",
+      "name": "兵器王者：鍛造放置RPG",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.mobibrain.championforge&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.mobibrain.championforge&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "8c504c8e1ce0e8595b6f5f",
+      "name": "屍控防線 - Zomline Survival",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.wgame.codeball&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.wgame.codeball&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "93873df6e3f7d0fdf2a3ca",
+      "name": "塔塔冒險隊",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.farlightgames.pgame.gp&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.farlightgames.pgame.gp&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "5d43b8263ad076573fb4e6",
+      "name": "蛋仔派對",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.netease.eggypartyhmt&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.netease.eggypartyhmt&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "3d570ae9bf81204741c489",
+      "name": "黎明再現(Doomsday: Last Survivors)",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.igg.android.doomsdaylastsurvivors&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.igg.android.doomsdaylastsurvivors&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "6e7f384e7b487621a77cdb",
+      "name": "第五人格",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.netease.idv_tw.googleplay&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.netease.idv_tw.googleplay&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "c209194dc9fbbcbba1371e",
+      "name": "MLB：9局職棒26",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.com2us.ninepb3d.normal.freefull.google.global.android.common&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.com2us.ninepb3d.normal.freefull.google.global.android.common&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "65d59a71b93b75a1cc1bcb",
+      "name": "孔明與阿斗",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.pzsg.ssgd&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.pzsg.ssgd&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "c926c0ef98c2e29ef63f57",
+      "name": "隨機塔防",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.feelingtouch.rtd&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.feelingtouch.rtd&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "5c5e03c59e98bdd0d9f726",
+      "name": "子彈英雄：塔防 × 戰棋策略 RPG",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.goosebump.bulletheroes&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.goosebump.bulletheroes&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "34205473b9222b34f7d0a3",
+      "name": "Kingdom Rush Battles: TD 遊戲",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.ironhidegames.kingdomrush.mp&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.ironhidegames.kingdomrush.mp&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "1dc872246fc4f8ec2ca341",
+      "name": "Kingshot",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.run.tower.defense&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.run.tower.defense&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "177b151871efa97f94f385",
+      "name": "《英雄聯盟：激鬥峽谷》",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.riotgames.league.wildrifttw&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.riotgames.league.wildrifttw&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "0b6a2acdff3ccba0a2574a",
+      "name": "醫起救世界：鼠裡逃生",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.phstw.global&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.phstw.global&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "a66e1dcf53d03e164e4a5e",
+      "name": "隨機骰子2",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.percent.aos.randomdice2&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.percent.aos.randomdice2&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "e9c36bf8398bd342160e84",
+      "name": "王國紀元 (Lords Mobile)：全面戰爭",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.igg.android.lordsmobile&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.igg.android.lordsmobile&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "2f32fbff965f1f67d5845b",
+      "name": "Tower War - Tactical Conquest",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=games.vaveda.militaryoverturn&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=games.vaveda.militaryoverturn&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "cc78a1612a40f5c0ffe221",
+      "name": "果燃很派",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.nvsgames.pt&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.nvsgames.pt&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "a3fc94f98c2def8d7920e6",
+      "name": "機甲突襲：Titan Rush",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.ratinghope.gplay&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.ratinghope.gplay&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "889eb7427a724bc713fcbe",
+      "name": "Plants vs. Zombies™",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.ea.game.pvzfree_row&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.ea.game.pvzfree_row&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "00ce40f540649360190442",
+      "name": "Block Crush!",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.wood.block.sudoku.puzzle.bm&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.wood.block.sudoku.puzzle.bm&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "f2b73d3674992e1e45b1c5",
+      "name": "食光旅行",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.fatmerge.global&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.fatmerge.global&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "e4f6583d196c024a09005e",
+      "name": "Disney Solitaire",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.superplaystudios.disneysolitairedreams&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.superplaystudios.disneysolitairedreams&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "43bb94a378704d4f6db6fc",
+      "name": "Hole Stars: 謎題挑戰",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.moonactive.holestars&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.moonactive.holestars&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "bd7aaaea9423cff02d8722",
+      "name": "Bowmasters",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.playgendary.bowmasters&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.playgendary.bowmasters&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "088e063507de660a8027ff",
+      "name": "Kick the Buddy：有趣的動作遊戲",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.playgendary.kickthebuddy&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.playgendary.kickthebuddy&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "8c4d6c523a0b999bc85e71",
+      "name": "Free Fire MAX: 風暴競技場",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.dts.freefiremax&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.dts.freefiremax&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "48226cc657bb612b52a429",
+      "name": "至尊決鬥火柴人(Supreme Duelist)",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.Neurononfire.SupremeDuelist&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.Neurononfire.SupremeDuelist&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "2e60b0d640090757c15a6d",
+      "name": "Snake.io - 有趣的 貪吃蛇.io 遊戲",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.amelosinteractive.snake&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.amelosinteractive.snake&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "a3eafc8cdf317f5bdc2aa0",
+      "name": "Spider Fighter 3: Action Game",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.starplay.spider.fighter.openworld&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.starplay.spider.fighter.openworld&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "29c7f3645a7b43ec385e42",
+      "name": "3D狙擊刺客：槍戰遊戲",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.fungames.sniper3d&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.fungames.sniper3d&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "5bbd3458223ff654a0a7d1",
+      "name": "Last Extract",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.xiaomo.lastextract&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.xiaomo.lastextract&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "ac94a75be8d1be34eeaaa9",
+      "name": "Epic Plane Evolution",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.WalkTalk.FlightMaster&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.WalkTalk.FlightMaster&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:43+00:00"
+    },
+    {
+      "id": "steam-7657b3f88ab2e50a",
+      "name": "Veltarum",
+      "status": "即將上市",
+      "region": "國際",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5463460/0f9a8373a41651d2812a17ad2fce4593302ad235/header.jpg?t=1792890567",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/5463460/",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/5463460/",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T18:50:41.088965+00:00"
+    },
     {
       "id": "e20f0ffac52db85c078b6c",
       "name": "小小二手鋪",
@@ -413,7 +1218,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.garena.game.fctw&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "89efc3958f8f6c49a2c2c8",
@@ -482,7 +1288,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=jp.pokemon.pokemonunite&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "2c9b4edc4861b359a6c29d",
@@ -1057,7 +1864,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.smilerlee.klondike&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:48:33+00:00"
+      "first_seen_at": "2026-11-07T15:48:33+00:00",
+      "seed_method": ""
     },
     {
       "id": "ce0ae0824e1df08429b540",
@@ -1126,7 +1934,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.online.huntingsniper&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:48:33+00:00"
+      "first_seen_at": "2026-11-07T15:48:33+00:00",
+      "seed_method": ""
     },
     {
       "id": "e046f4a955fee44807c3e5",
@@ -2954,7 +3763,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.Garawell.LoopSort&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:43:54+00:00"
+      "first_seen_at": "2026-11-07T14:43:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "4b23509fef7337b544c652",
@@ -2977,7 +3787,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.combo.yarnflow&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:43:54+00:00"
+      "first_seen_at": "2026-11-07T14:43:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "dfea9f75260a5cd69f60b4",

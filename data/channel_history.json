@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-11-07T15:50:39+00:00",
+  "updated_at": "2026-11-07T18:50:40+00:00",
   "status": "ok",
   "fetched": 90,
   "errors": [],
   "items": [
+    {
+      "id": "7704ed07357319dfaafa058b",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《RO 仙境傳說》2026 ROS 世界總決賽落幕！台灣「幻影旅團」獲得亞軍、泰國 MORNING STAR 衛冕冠軍",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314656",
+      "publisher": "",
+      "published_at": "2026-11-08T00:09:05+08:00",
+      "first_seen_at": "2026-11-07T18:50:40+00:00"
+    },
     {
       "id": "d4b645e6b41c31588613ba6e",
       "category": "巴哈姆特情報",
@@ -12,6 +22,16 @@
       "url": "https://gnn.gamer.com.tw/detail.php?sn=314655",
       "publisher": "",
       "published_at": "2026-11-07T20:00:00+08:00",
+      "first_seen_at": "2026-11-07T13:51:13+00:00"
+    },
+    {
+      "id": "124703ec48970fd7c7a4848f",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《SD鋼彈 G世代 永恆》｜世代之塔「SOUTH TOWER 開打｜小帳15樓｜主帳10-15樓",
+      "url": "https://www.youtube.com/watch?v=rP8Th6E-gPA",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-07T18:16:33+00:00",
       "first_seen_at": "2026-11-07T13:51:13+00:00"
     },
     {
@@ -32,16 +52,6 @@
       "url": "https://gnn.gamer.com.tw/detail.php?sn=314653",
       "publisher": "",
       "published_at": "2026-11-07T13:05:37+08:00",
-      "first_seen_at": "2026-11-07T13:51:13+00:00"
-    },
-    {
-      "id": "124703ec48970fd7c7a4848f",
-      "category": "影片情報",
-      "origin": "YouTube",
-      "title": "《SD鋼彈 G世代 永恆》｜世代之塔「SOUTH TOWER 開打｜小帳15樓｜主帳10-15樓",
-      "url": "https://www.youtube.com/watch?v=rP8Th6E-gPA",
-      "publisher": "【索爾遊戲】",
-      "published_at": "2026-11-07T12:40:53+00:00",
       "first_seen_at": "2026-11-07T13:51:13+00:00"
     },
     {

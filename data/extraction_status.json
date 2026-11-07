@@ -1,1 +1,14 @@
-{"sources_attempted":0,"sources_succeeded":0,"errors":[],"note":"尚待第一次 GitHub Actions 線上擷取"}
+{
+  "updated_at": "2026-11-07T13:51:20+00:00",
+  "sources_attempted": 3,
+  "sources_succeeded": 3,
+  "errors": [],
+  "codes": {
+    "new": 0,
+    "total": 15
+  },
+  "events": {
+    "new": 0,
+    "total": 18
+  }
+}

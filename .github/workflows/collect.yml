@@ -1,34 +1,65 @@
-name: Collect public game headlines
+name: Collect and validate public game intelligence
 on:
   workflow_dispatch:
   schedule:
     - cron: '17 */3 * * *'
 permissions:
   contents: write
+concurrency:
+  group: game-intelligence-update
+  cancel-in-progress: false
 jobs:
   collect:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Collect RSS and organize leads
+      - name: Test extraction, history and dedup locally
+        run: |
+          python scripts/test_channel_pipeline.py
+          python scripts/test_live_pipeline.py
+      - name: Fetch public news, YouTube, Bahamut and store pages
         run: |
           python scripts/collect.py
+          python scripts/collect_channels.py
+          python scripts/game_catalog.py
+          python scripts/collect_store_pages.py
+      - name: Classify, extract codes/events, and merge history
+        run: |
           python scripts/classify.py
           python scripts/launch_leads.py
-          python scripts/game_catalog.py
-      - name: Import trusted structured sources
-        run: python scripts/ingest_verified.py
-      - name: Validate curated data
-        run: python scripts/validate_data.py
-      - name: Commit updated data
+          python scripts/discover_sources.py
+          python scripts/extract_facts.py
+          python scripts/ingest_verified.py
+          python scripts/merge_history.py
+      - name: Check live source outcomes
+        id: live
+        continue-on-error: true
+        run: python scripts/verify_live_sources.py
+      - name: Validate output and site build
         run: |
-          git add data/latest.json data/classified.json data/launch_leads.json data/game_catalog.json data/codes.json data/guides.json data/events.json
+          python scripts/validate_data.py
+          python scripts/validate_site.py
+          python scripts/audit_coverage.py
+          python scripts/build_private.py
+      - name: Save data and status to GitHub
+        run: |
+          git add data/*.json
           if ! git diff --cached --quiet; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git commit -m 'Update game intelligence data'
+            git commit -m 'Auto-refresh game intelligence and source status'
             git push
+          else
+            echo 'No changed records; no redeploy required.'
           fi
+      - name: Fail workflow if no source responded this run
+        if: steps.live.outcome == 'failure'
+        run: |
+          echo 'No live source succeeded; see committed runtime_status.json for details.'
+          exit 1

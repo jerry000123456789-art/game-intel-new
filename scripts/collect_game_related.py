@@ -28,6 +28,15 @@ KINDS = {
 }
 INVALID = re.compile(r"^(?:圖片|縮圖|螢幕截圖|檢視|新遊戲|圖示|icon|image)$", re.I)
 
+KIND_TERMS = {
+    "codes": re.compile(r"兌換碼|禮包碼|福利碼|序號|redeem|promo.?code|gift.?code",re.I),
+    "guides": re.compile(r"攻略|新手|配隊|培養|技能|陣容|排行榜|首抽|懶人包|教學|guide|build|tier.?list|walkthrough|tips",re.I),
+    "events": re.compile(r"活動|聯動|開服|更新|改版|期間|限時|週年|周年|慶典|登入獎勵|獎勵|公測|預約|event|collab|festival|season",re.I),
+}
+def title_matches(kind,title):
+    return bool(KIND_TERMS[kind].search(title or ""))
+
+
 def normalized(value):
     s = unicodedata.normalize("NFKC", str(value or "")).casefold()
     return re.sub(r"[\W_]+", "", s)
@@ -73,7 +82,7 @@ def rss_items(game, kind, getter=None):
     for e in root.findall("./channel/item")[:20]:
         title = (e.findtext("title") or "").strip()
         link = (e.findtext("link") or "").strip()
-        if not title or not link or not normalized(game) in normalized(title):continue
+        if not title or not link or normalized(game) not in normalized(title) or not title_matches(kind,title):continue
         p = urllib.parse.urlparse(link)
         if p.scheme != "https" or not p.netloc: continue
         try:
@@ -98,6 +107,7 @@ def add_leads(existing, found):
         combined={}
         for row in (existing.get(kind, []) + found.get(kind, [])):
             if not isinstance(row, dict):continue
+            if row.get("game") and not title_matches(kind,row.get("title","")):continue
             link=row.get("source_url") or row.get("url")
             if not link:continue
             key=(normalized(row.get("game","")),link)

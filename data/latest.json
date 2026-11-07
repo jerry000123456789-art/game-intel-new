@@ -1,7 +1,8 @@
 {
-  "updated_at": "2026-11-07T09:46:49+00:00",
+  "updated_at": "2026-11-07T13:34:22+00:00",
   "status": "ok",
   "errors": [],
+  "fetched": 120,
   "note": "RSS 標題線索，尚未驗證兌換碼、上市日期或活動細節。",
   "items": [
     {
@@ -113,6 +114,15 @@
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
+      "id": "d9baa3522d0fa521e3e0",
+      "category": "官方遊戲公告",
+      "title": "「壞滅肇始之時」7.2版本更新說明 - Genshin Impact",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4xSlVWNEwtbE5LUGpYOVd3Z3Y1NXY0YkxBelZSY19GQVBQellrMTZLNm1GOFpvNDFoSUFZMXNwaGotNVJMZzVCYkp2dXVVZjB2UWljS0kxVmlMeGxwMjBpbENsNGc?oc=5",
+      "publisher": "Genshin Impact",
+      "published_at": "2026-11-03T23:53:50+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
       "id": "4ddf7cb2b9eae9b0a7f2",
       "category": "活動行事曆",
       "title": "《鬥陣特攻》×《劍星》合作活動造型曝光 奪命女「伊芙」D.Va「百合」概念設計圖公開 - 4Gamers",
@@ -158,6 +168,15 @@
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
+      "id": "7a58a6164154672f3872",
+      "category": "官方遊戲公告",
+      "title": "7.2版本活動祈願公告第一期 - Genshin Impact",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8xZVBpdzVwNXJ6Q2NPSDFuLUpjeFdSZm56UTN1SmxOTXJ1X2VERDlIRjBzdkhIb2xLVFBidjg4MGx6MlNJalFPZFIwU3JsM3JfMWhzNEZjQ0FiOVNIWjUxTGdNRlI?oc=5",
+      "publisher": "Genshin Impact",
+      "published_at": "2026-11-02T07:44:29+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
       "id": "aabafe31ce7aa600565b",
       "category": "新遊戲資訊",
       "title": "偵探動作RPG《白銀之城》12/14全球公測 同步公開角色宣傳影片 - 4Gamers",
@@ -181,7 +200,7 @@
       "title": "《我在三國當村長》公測開跑！三國女團形象 MV 曝光 劉備、張遼等新武將登場 - 上報Up Media",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0ySTJaWFRXTDhoQ1B4U1FORjF6MjRqZXpRdDBVTmUyek1BbG1sS2dnTWFXOXU3cHB1WVJmT1dGLTlzaGJkRjFobHpZYWt1Yk1NUlZScEc2Zms2WVRpVXc?oc=5",
       "publisher": "上報Up Media",
-      "published_at": "2026-10-30T14:10:00+00:00",
+      "published_at": "2026-10-30T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
@@ -302,6 +321,24 @@
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
+      "id": "618dd5fe923060ea6142",
+      "category": "官方遊戲公告",
+      "title": "【3.7版本】[角色/武器活動喚取・第一期] -鳴潮官方網站 - Wuthering Waves",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1NQ3FfSHltRW1lU3BKOEZsY0FmVDZzc0I1Qm9Oa3VNZE4yQklYR1lFaEdxSEpKTlc1UU5ncUF5QXJ0SjV6bXBYUVVZYUUzNEF5OGRINEswQWdBS0kxUHB3OUFfemZuMjZGVmVhdmxLZ1NKdw?oc=5",
+      "publisher": "Wuthering Waves",
+      "published_at": "2026-09-29T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "26b20e13c2aae305d10c",
+      "category": "官方遊戲公告",
+      "title": "4.6版本「月升之前，與獸共舞」版本更新說明| 《崩壞：星穹鐵道》官方網站——願此行，終抵群星 - Honkai: Star Rail",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xUFowZnVJY0MtX2c3Y3ZIRTU5d3hQNjRYWUpYYkZPYVJqRS1XalhTV1NxT3lTa1ZPOVJFek9mWDFRNEZPWGpGRXM2VmFENU41WE9MQlNn?oc=5",
+      "publisher": "Honkai: Star Rail",
+      "published_at": "2026-09-28T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
       "id": "32f04ec5e2065cb7860a",
       "category": "兌換碼",
       "title": "【嘎嘎特攻】兌換碼與禮包碼序號・10月26日更新 - Ludens Media",
@@ -318,6 +355,24 @@
       "publisher": "Ludens Media",
       "published_at": "2026-09-26T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "52a5be538fea32062c02",
+      "category": "官方遊戲公告",
+      "title": "《鳴潮》3.7版本更新維護預告-鳴潮官方網站 - Wuthering Waves",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE83VG9WNERVbENySDNfSGF2NXZtTnVWM01VcVVFNDJzNE9ZOG1SeUdGQVFYLVZiMW8zVDVUYlN4TnloQnA3cTZlQ2lnZkdaeWJEVUFub29nbGV3RFNjVmViZmRHcWctN21MdGlLQ3BSZjFtdw?oc=5",
+      "publisher": "Wuthering Waves",
+      "published_at": "2026-09-23T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "4d8531f64d419ee3c30f",
+      "category": "官方遊戲公告",
+      "title": "7.1版本活動祈願公告第一期 - Genshin Impact",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91b2RVaDQ5WVhsZDZ0Zy1uRXVmYWxRR2VYbG40dEdoNGRHamNEb1QyZGxRN1lWMERkNEd4MHRaT21vaS1yczFlZzlpQXhmczYwN1hmQU5PTTF6d0dNVWhKVXRSQ1g?oc=5",
+      "publisher": "Genshin Impact",
+      "published_at": "2026-09-21T04:55:10+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
     },
     {
       "id": "d0b8c27d116a4051032f",
@@ -383,6 +438,15 @@
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
+      "id": "b57a28dd882970245670",
+      "category": "官方遊戲公告",
+      "title": "4.5版本「揮擲千星的籌碼」版本更新說明| 《崩壞：星穹鐵道》官方網站——願此行，終抵群星 - Honkai: Star Rail",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBUQkNOZzYxLXA5NE5pckZ1d0RRZnJsZ3MxZFVBLWluT1A1cDZtWkxRcGo4djN1MGtuaE8zVnkwSktwZ0VBeEt6SnFweVdxU2dBUFVvd0ZB?oc=5",
+      "publisher": "Honkai: Star Rail",
+      "published_at": "2026-08-26T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
       "id": "4433e993f83c0d5daa6e",
       "category": "兌換碼",
       "title": "【鬥破蒼穹M：少年崛起】兌換碼與禮包碼序號・11月2日更新 - Ludens Media",
@@ -419,6 +483,15 @@
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
+      "id": "e11c3a01229ee4a6e3fb",
+      "category": "官方遊戲公告",
+      "title": "「無神憐愛的雪國」7.0版本更新說明 - Genshin Impact",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42WmNFb0FDVUctaEZUZFdfeVNTcWl1ZU5PT3RFT2xsNWxhSmN3ZnpMbjZJVm5vdmVLMURsZWdKWGh0UmpuWTBRLW9zVG9RcEFOc0dERG1KZTVDanZ1b1ZjZ1RfVGk?oc=5",
+      "publisher": "Genshin Impact",
+      "published_at": "2026-08-17T21:13:50+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
       "id": "acef989a0c9da2c6f6f1",
       "category": "兌換碼",
       "title": "【三國群英傳：策定九州】兌換碼與禮包碼序號・11月2日更新 - Ludens Media",
@@ -428,6 +501,15 @@
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
+      "id": "da4743fb59d68a98cf06",
+      "category": "官方遊戲公告",
+      "title": "「至冬漫遊手冊」網頁活動限時開啟 - Genshin Impact",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zM2xKMXQxbVVJOFBnbjJBdTFqYVlRUUVQNXZ0b19iSDRMb0l6aHd5M1V6ZjRINXZ3U1BEYkNtZ1UzREF2Z3hjZ2JYTjlnMWZENDlUUnh0NDFqcEFBeVhRa2VOZUw?oc=5",
+      "publisher": "Genshin Impact",
+      "published_at": "2026-08-13T22:29:44+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
       "id": "ef6c5e4a459194e93c09",
       "category": "新遊戲資訊",
       "title": "《三國觀滄海》預約突破 20 萬 將於明日正式公測 - GNN 新聞網",
@@ -435,6 +517,15 @@
       "publisher": "GNN 新聞網",
       "published_at": "2026-08-12T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "f088d42966ded279e1aa",
+      "category": "官方遊戲公告",
+      "title": "7.0版本活動祈願公告第一期 - Genshin Impact",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBQZWJRZ3g2X0dyTHBxQnViX0lINUtVdGx5VWhNY0pwTkNRWHFTM0ZXazRtY3hrdTlWeTdGbVBHRmlhUDJZTDJwSHd2bWc4anVGVnI1WGQ1TTZhazBfcWU1LTgzOEE?oc=5",
+      "publisher": "Genshin Impact",
+      "published_at": "2026-08-10T12:33:38+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
     },
     {
       "id": "c59c81f565d7e6bca561",
@@ -462,6 +553,24 @@
       "publisher": "GNN 新聞網",
       "published_at": "2026-08-04T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "e4132a73ee2d2cca9e53",
+      "category": "官方遊戲公告",
+      "title": "「來奇域，快樂一夏！」網頁活動限時開啟！ - Genshin Impact",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE12Vk5NMTFwSUJDOUFvS0o4VV93Yk94YUlHc3FEd3RqOFBUSk8wUnk4clB2STY5QmJET1h6MFEzQ2RLT3N6UEZrdWFTM05XQmZRTll3UGRRMDhGUm1EdnRoUklFY3I?oc=5",
+      "publisher": "Genshin Impact",
+      "published_at": "2026-07-15T23:58:44+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "ab6991daba16ad2ab32f",
+      "category": "官方遊戲公告",
+      "title": "4.4版本「鳴笛於歸寂之時」版本更新說明| 《崩壞：星穹鐵道》官方網站——願此行，終抵群星 - Honkai: Star Rail",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5CU2lWNXF3TUNGMnZpTERweUNJZFF5bVJnN28yN0E3MzBrd1FueHU2VHRkNXhBRDRUeTJoSjVOamJfQ2I1MXBwLXZkbkZQWEdYeUVfN09B?oc=5",
+      "publisher": "Honkai: Star Rail",
+      "published_at": "2026-07-15T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
     },
     {
       "id": "4f61a5e71387ecacc8a4",
@@ -498,6 +607,33 @@
       "publisher": "XFastest News",
       "published_at": "2026-07-03T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "ef110c5ff2bd9eacd393",
+      "category": "官方遊戲公告",
+      "title": "《鳴潮》3.5版本更新維護預告-鳴潮官方網站 - Wuthering Waves",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9maDNENXVHLVY2MW5zS0hZYU5wQV9EQnVFcnNLOGJhMGZadzdvbkJrSU9UQndoVzBUWDdaMVpIY19yR0lHdkF6UW1BOGJiclhVSWtPUFZBWFUtd3llcEZXLTVyVmNMdWRDOHhsQmFGY04zUQ?oc=5",
+      "publisher": "Wuthering Waves",
+      "published_at": "2026-07-03T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "5dbb2d33c8c7e32b8309",
+      "category": "官方遊戲公告",
+      "title": "「『空月之歌·諧謔』映夏！歸鄉？千靈節！」「月之八」版本更新說明 - Genshin Impact",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwalVDQ192YzJCSVF2WUtHVjcxd3o5bWdFTnlOMk1CRlVnS2VYTmgyd21ub1NBa3dJblUwMlRhYUdqR1FsMzlneVExbEVKLV9WS0QxamRtNl9LZmxucER2cUJWTWY?oc=5",
+      "publisher": "Genshin Impact",
+      "published_at": "2026-07-01T06:59:35+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "fc6230c9c1aed0b7f341",
+      "category": "官方遊戲公告",
+      "title": "「月之八」版本活動祈願公告第一期 - Genshin Impact",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5XbE5tRkdWeWtZdXNZTnZkbF91V3JMVUNBRExZNXNVUEMxYVFKT0VIM3dPSzRkWmZzckxoZlowOVEyaFBtb3FhZk9RMGZDbFprR01pbHFxRXNoYzEwQVljcHRJX3Q?oc=5",
+      "publisher": "Genshin Impact",
+      "published_at": "2026-06-30T08:48:55+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
     },
     {
       "id": "d577f5b59f776045723c",
@@ -554,6 +690,15 @@
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
+      "id": "979b60f6e55c24c4e548",
+      "category": "官方遊戲公告",
+      "title": "「月之七」版本活動祈願公告第一期 - Genshin Impact",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9laFdleWZRdEtHXzZ1bndnLXMtemxUZGo4MlQ4TllsVU9TaUF4ZEhlT3hUeXNhMWt4X0h5eENJLWZJTEFDZEdVSDJBQjgycF9WYkpiZ0hDd1FSU2IxVWdKSUlPamY?oc=5",
+      "publisher": "Genshin Impact",
+      "published_at": "2026-06-09T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
       "id": "8c1abd736a6269751a01",
       "category": "遊戲攻略",
       "title": "《鳴潮》x邊緣行者聯動登場！新手必抽五星「露西」養成攻略 - 4Gamers",
@@ -561,6 +706,33 @@
       "publisher": "4Gamers",
       "published_at": "2026-06-08T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "fc7704f219ff8b2f8f36",
+      "category": "官方遊戲公告",
+      "title": "「未選擇的夢」3.4版本內容說明-鳴潮官方網站 - Wuthering Waves",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE12S3p0eml5YW8xb3Y2OElRZjNWR1YtemJaengtM0wtUm5QcDgwcUNBYnp6clJCNS1adlV0akQwaENNUWVUOVVsMGJfRndoUlFvcnFZdUFtUUR3ZHVOOTEtdlZyT0FyaW0zN255QjBKNThKZw?oc=5",
+      "publisher": "Wuthering Waves",
+      "published_at": "2026-06-08T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "35c79df3247ee7e779c9",
+      "category": "官方遊戲公告",
+      "title": "4.3版本「沉於生者的忘川」版本更新說明| 《崩壞：星穹鐵道》官方網站——願此行，終抵群星 - Honkai: Star Rail",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BNmJZWTZ2VWlyT29hZ0dPRUlBSEx2SklOZy1ySHQ1U2lLVk9FSEpCUVE1UmVtSnN1VGdHUE9lSXdYdTM1LTM4aVJwMGhRU0FsRlAzSDRR?oc=5",
+      "publisher": "Honkai: Star Rail",
+      "published_at": "2026-06-01T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "b27f33730a853f6c57cd",
+      "category": "官方遊戲公告",
+      "title": "《鳴潮》3.4版本更新維護預告-鳴潮官方網站 - Wuthering Waves",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAtZGpITnM5aUV5SWlLRThOMXMtbno2ODQtYUhlWHlsR1l3NUhla001SGZ5MG5qNmh4cUl0YkY4c1BxLWFhc1JWWmVNNGkzMzF2QlhpX0FQMlZzUl9WUFAwODJJeUczckFDN2JBbW5IZkZHQQ?oc=5",
+      "publisher": "Wuthering Waves",
+      "published_at": "2026-06-01T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
     },
     {
       "id": "ccf69c07de76edfba92e",
@@ -590,6 +762,24 @@
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
+      "id": "e67f915e3ee7b03f4a48",
+      "category": "官方遊戲公告",
+      "title": "【3.3版本】[角色/武器活動喚取・第一期] -鳴潮官方網站 - Wuthering Waves",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFByWVRxcWJVdjI0TXdxWGs1cHQ2bXppM1FnVFR5bFVzbC1hUFFIUGM0c3hGcjlyNlZ5XzJkdzFMRnVqMWpZSUotT1NhV1R1b296cmNKbW43SDg5bERXQklzZFpDSmdKalBSTmFHSlBfbk1nQQ?oc=5",
+      "publisher": "Wuthering Waves",
+      "published_at": "2026-04-29T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "85fefde63d225523ed07",
+      "category": "兌換碼",
+      "title": "【點點英雄：骰子傳說】兌換碼與禮包碼序號・4月23日更新 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNYTdNRnctZkp0NEs1cmE1YW52eVZVY192TGRlMnNxSWhaRXl1b1NEdkxKRlpTaHRHeHBNcTV6elRNWDVCWTUzVmFLQmlnY2YzRWVUZkRZV2VtVFRseE1SRXdVOTliSFRHRjc3SzVVTm95V0F5MlgweUZwU3R3WG96RmRnY1NadGUwZFNhVXhic19FdjY1S0FyU29jR281dHVrQ0g5LXAwdlB4RVdLQXBuR0R5SHJlWktIdUV2dU9tazhPRkZJaUN6amRjc2lIdnhFamlCeVoyTzV0SU5IN1llWFBtUEtUVnJ4V3JvdkxzSDlNVzdJLXRuMmhadDdWdTRmN3lQcS0xNFpZQ1ZPN1QtQmd1LVg0MUhpOG5IN3V2VkQzTERkSVFENjdZekZ3WEFuRkUtQkxfV3hoUEV1YkQ0X1dUaUJDeEZralQ0?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-04-23T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
       "id": "b48f0b956862843fca46",
       "category": "新遊戲資訊",
       "title": "《異環》公測懶人包：上市時間、限定池角色、開服福利、聯名活動一次看 - Yahoo新聞",
@@ -597,6 +787,15 @@
       "publisher": "Yahoo新聞",
       "published_at": "2026-04-22T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "9a49c441ffe030c8810b",
+      "category": "官方遊戲公告",
+      "title": "4.2版本「如是，眾生歡笑不已」版本更新說明| 《崩壞：星穹鐵道》官方網站——願此行，終抵群星 - Honkai: Star Rail",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zems2c1JUVnlENjM0TFZTWk9Hekd4dkNUaDlUclhOSVhPSzdFYzJTTTlua01tOF9sb3ZoMzcyRnRDNnlWVmZkUTNTcTRfbHg0Y3ZpMU1R?oc=5",
+      "publisher": "Honkai: Star Rail",
+      "published_at": "2026-04-22T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
     },
     {
       "id": "ff4dc9aebbdbef72e36b",
@@ -635,6 +834,24 @@
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
+      "id": "50d20c09d56e7e44d898",
+      "category": "官方遊戲公告",
+      "title": "「履跡尋路」網頁活動上線，快來「月之六」版本新區域繼續冒險吧~ - Genshin Impact",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4wLUN1ekdSXzBZQUdPY1QxWGZkYUlnbkdfdHpSS0wwejBTenAwcWQta0w5bEE4bmkxT1RIOXJkREEzVkd6YmRMWWtSdXFuY3UxeGVCQ0lNYjcxeEI2dWlLdnJCNU4?oc=5",
+      "publisher": "Genshin Impact",
+      "published_at": "2026-04-08T10:25:25+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "5953a130cab894bc0641",
+      "category": "官方遊戲公告",
+      "title": "「『空月之歌·旋舞』逢歸的讖羽」「月之六」版本更新說明 - Genshin Impact",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtY200SXZRV2IxZXhyWnpIblktem1JQlNZZFBjQWJZeHZGUTRtUjc1UWI5OElhdW1wQXRWNFVFU1BDY3o2NFFwdHJzbUpKZkd6QklQeHFYTUszNEJ2aFpVZWpZZXQ?oc=5",
+      "publisher": "Genshin Impact",
+      "published_at": "2026-04-08T02:27:09+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
       "id": "cb9e831f9f2b382c8278",
       "category": "遊戲攻略",
       "title": "《實況野球大冒險》成功模式培育全攻略：「パワフルアカデミー」通關小技巧 - Ludens Media",
@@ -642,6 +859,42 @@
       "publisher": "Ludens Media",
       "published_at": "2026-04-06T07:00:00+00:00",
       "first_seen_at": "2026-11-07T09:46:49+00:00"
+    },
+    {
+      "id": "d3b00c43b125730db076",
+      "category": "官方遊戲公告",
+      "title": "「月之六」版本活動祈願公告第一期 - Genshin Impact",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE80dFEtaFk3MFpvYS1wckp4TDB6QWRJWmk4WExaZ0M1V0FYZ29uTjZQMTh5b1NKMFhVYjBIYmk0QkI0Q1BVRTZQeGUxeWJVT3VUdWViUkxFelRyOS1INjRXcXNYdlk?oc=5",
+      "publisher": "Genshin Impact",
+      "published_at": "2026-04-06T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "4e9402b22d1106945a84",
+      "category": "官方遊戲公告",
+      "title": "4.1版本「獻給破曉的失控」版本更新說明| 《崩壞：星穹鐵道》官方網站——願此行，終抵群星 - Honkai: Star Rail",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5UUi1zNTdQOUF0VUd0MUxDV2NRUFFKNXJva21VU0M3UUJoQldQdFNjaHh2X001QUhuQXdYbWs2Zzlsb25RVk4xUzNWSlY2RmlfcEtHalJ3?oc=5",
+      "publisher": "Honkai: Star Rail",
+      "published_at": "2026-03-25T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "62f144e8e0e9958d7364",
+      "category": "官方遊戲公告",
+      "title": "「於影中啟明的決心」3.2版本內容說明-鳴潮官方網站 - Wuthering Waves",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1nRHRDVDliRHlDT1BsWkpXWFU0WE1sWjhlbm5kNVVHbVNKRklqaFpGcHpHMFJRYV9HQ0xEcWJyemptckE2MVFXbUxXSEJGeG9IWDViM0pvZXNON1d0SE5ZSTh4MzJ4bldlVXE4VGtZZUtpQQ?oc=5",
+      "publisher": "Wuthering Waves",
+      "published_at": "2026-03-19T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "69449c7f8af43b6faf3f",
+      "category": "官方遊戲公告",
+      "title": "《鳴潮》3.2版本更新維護預告-鳴潮官方網站 - Wuthering Waves",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE01SzdUUjRCUlF2czA2Q2JseXlhTnpyblNrcmFUcWJLcElHNjAzM3dmWHl1LUNsV0cwRVBNOVdiRmstSHdXOE1EbXB1d1puMWRFQkd6bzREY091ZEVHVUhVWUlHZHF6NFkyek5HYm9ITXcwQQ?oc=5",
+      "publisher": "Wuthering Waves",
+      "published_at": "2026-03-14T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
     },
     {
       "id": "1b994086a41c65a672cb",
@@ -653,6 +906,15 @@
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
+      "id": "e65d27a0039a7662e52c",
+      "category": "官方遊戲公告",
+      "title": "「『空月之歌·變奏』捕風的歸客」「月之五」版本更新說明 - Genshin Impact",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4ydXktVjNyaE9EVTFoSmlSbm5wYlFDVDV6VGoxME40d0xvV0ZRVWdVemwzMjF5Tm9HaV9lbWxNb1B3M051NS02VnBiMEw3Z05OcWR2OWlXa05FbFYxRzVKSnh1ZHQ?oc=5",
+      "publisher": "Genshin Impact",
+      "published_at": "2026-02-25T12:14:16+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
       "id": "11f111cb10d6c382b78e",
       "category": "新遊戲資訊",
       "title": "《漫威金鋼狼》定檔9/15正式上市 新作場景橫跨加拿大與馬德里坡 - 科技島",
@@ -660,6 +922,33 @@
       "publisher": "科技島",
       "published_at": "2026-02-25T08:00:00+00:00",
       "first_seen_at": "2026-11-07T09:46:49+00:00"
+    },
+    {
+      "id": "36034124b995f52403dc",
+      "category": "官方遊戲公告",
+      "title": "挑戰法爾伽——來接受大團長的考驗吧！！⚔️ - Genshin Impact",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zYlJBWFJwOWZhd0s2cU5kYzZfdmxWWXBocmRzWUNRWTBYZkJBbzlRN1ROS0w1OHJpRjhnVEc0bFF2YlBTVTJHX1BrSmw3WElmZDd6Y0pOMDVpTG10eVJxaWhNWTk?oc=5",
+      "publisher": "Genshin Impact",
+      "published_at": "2026-02-25T05:32:26+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "d17ca19c0138fc83331e",
+      "category": "官方遊戲公告",
+      "title": "「月之五」版本活動祈願公告第一期 - Genshin Impact",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBFM2tiejk5Tm43dmFTOHBtT3JfYjI5Z2JBdGtnTk12ZFU4cGhFTDBIbW5UeFpfc1RWY09wd29QdmxSdmQzU1BtUzhQOTZIUTVFenM5T1Q4N1lTSDJfV2ptVW5Iemw?oc=5",
+      "publisher": "Genshin Impact",
+      "published_at": "2026-02-23T08:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "04311bd80713907f60c7",
+      "category": "官方遊戲公告",
+      "title": "4.0版本「滿月是神不在的時間」版本更新說明| 《崩壞：星穹鐵道》官方網站——願此行，終抵群星 - Honkai: Star Rail",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XNnctLVZIU2RsZU1YVE54ZUhzRHBDMkVZUEJVZ3FWOGtsdnB5SW9CWXpOc2ZhMzB3SzVodUlBQ0o2QVlpUG1Ia2FsMjhrODRZaFpUQUJB?oc=5",
+      "publisher": "Honkai: Star Rail",
+      "published_at": "2026-02-13T08:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
     },
     {
       "id": "eef4f14e300dda886dbe",
@@ -678,6 +967,15 @@
       "publisher": "4Gamers",
       "published_at": "2026-02-05T08:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "c701c5fb69bca33ac851",
+      "category": "官方遊戲公告",
+      "title": "「贈予雪中的你」3.1版本內容說明-鳴潮官方網站 - Wuthering Waves",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1WdDZKc3Z1T1FfU2xmOG9QeFVFY3A2eHFDNjl5M1FQMlRlQmg4a0sxdWpOSTA2M2tvbWl0QXFzS0JWMWY5OTQxMFF2b0FTZDFoN2xzeXNPUzc1ZlJaejFGcFJmVmhQZ1J0X0pCQjV5dkYyUQ?oc=5",
+      "publisher": "Wuthering Waves",
+      "published_at": "2026-02-05T08:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
     },
     {
       "id": "34eaea4e34ad7ee2282c",
@@ -707,6 +1005,33 @@
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
+      "id": "d9dd56806b7ebd65a5cc",
+      "category": "官方遊戲公告",
+      "title": "「去月的歸處」網頁活動限時開啟。 - Genshin Impact",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9FWTZDWXdaT0hyNDdLWWhXNGxnVnlSZHh6eWFXSmFVS3FBZ05CREc0d0lCTzBHRk5PWkJuVlpHTkJJYzFHUEQ0bF9vSV9hUmlnU3UxQ21iWDlrX0IzVkRLaWpIaDI?oc=5",
+      "publisher": "Genshin Impact",
+      "published_at": "2026-01-14T08:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "4970a73e0ced31c09710",
+      "category": "官方遊戲公告",
+      "title": "「『空月之歌·終曲』如果在冬夜，一個旅人」「月之四」版本更新說明 - Genshin Impact",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5iZmk0VjhhS082czk0OWNXV2RNdWNRWVYyd2dXZktuZkpqWmVKMXNNaEhkeUZzYVdpM2JFV2I1T2NqSXQtU3FUaGdMX3FJcTduMVpNbFpiUW1yS1NzV0dHRHhLcmQ?oc=5",
+      "publisher": "Genshin Impact",
+      "published_at": "2026-01-14T08:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "24db41250cfc885d9d6a",
+      "category": "官方遊戲公告",
+      "title": "「月之四」版本活動祈願公告第一期 - Genshin Impact",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA2aS1XY0tVVDY3RUQ2YWFCbU1nNndWc1FLM2pXUERVMEJNTmcxYUgzZ3lzT0pmMlNBNzVwUnl1WnVrWDlnQ2lBdngtY1NoWXRaTk9UeFJBWVVTNjJLZUxxcWhaajI?oc=5",
+      "publisher": "Genshin Impact",
+      "published_at": "2026-01-12T21:29:16+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
       "id": "1b97bc9bc69b7d4317a8",
       "category": "活動行事曆",
       "title": "《Free Fire》x《咒術迴戰》聯動活動「咒術覺醒」即將開跑 經典場景「咒術高專」於遊戲中登場 - GNN 新聞網",
@@ -714,6 +1039,15 @@
       "publisher": "GNN 新聞網",
       "published_at": "2026-01-12T08:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "252b69853f58e4ee9f14",
+      "category": "官方遊戲公告",
+      "title": "3.8版本「記憶是夢的開場白」版本更新說明| 《崩壞：星穹鐵道》官方網站——願此行，終抵群星 - Honkai: Star Rail",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NSnZ3QmlRblM2QVlueE5Eb0wtaUFQeXhTRTdBWkF5VHk2eG56TUlabUV5VzMzeUFyWXVYUENVR1k0eGs5aE5HVlhWQWl5dTNDTGJyODJn?oc=5",
+      "publisher": "Honkai: Star Rail",
+      "published_at": "2025-12-17T08:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
     },
     {
       "id": "402706193aca47b00b21",
@@ -770,6 +1104,15 @@
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
+      "id": "afa0d80267cfc8318697",
+      "category": "遊戲攻略",
+      "title": "《崩壞：星穹鐵道》3.4版本鏡流、刃、銀狼以及卡芙卡加強後簡易培養攻略懶人包 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa2ppNjNDYzR5SWs5aUVZSUt0UTNJVi1VMnl2SkJUU0tPZGJNbGVUai1ib3JDNEwzOTNXSnk1bVdXNDFFZzB1RzAzbWNLRnJXWkpZdkR3alJ0X1FuSE1vdkJDNDdqYVlOdnlfMmg2TXBsdERZVDNjM0tBOTU5ZVJYenJqY1k2ZTBzcmN3?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2025-07-03T07:00:00+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
       "id": "69a10df2e171822064ca",
       "category": "遊戲攻略",
       "title": "【鳴潮】維里奈🌼角色培養全攻略▸開服必練『威力奶』！主流隊伍實戰手法拆解！聲骸搭配、隊友選擇、武器推薦、共鳴鏈效果▹璐洛洛 - 電腦王阿達",
@@ -779,6 +1122,24 @@
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
+      "id": "7bbecfdaac48bb005dfa",
+      "category": "官方遊戲公告",
+      "title": "鳴潮官方網站 - Wuthering Waves",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PVmlhemFVdkpXV1Q0OFhKT1ZkUGlBZi11NVAwa3pFUkZkV3dYeGo0X2RCN0RWUHVUdnBoNzRYZjh0RkVzYkc1a0Y0NVppSkZBbk8zYkRXc3VNUDQ?oc=5",
+      "publisher": "Wuthering Waves",
+      "published_at": "2024-03-29T17:43:14+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "f1c53f286b82af7f58d8",
+      "category": "官方遊戲公告",
+      "title": "鳴潮官方網站- Wuthering Waves - 库洛游戏",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB2alN5WGQxdjUxZXNJQ1JaZ2picGU3emMzWkpYRi10SVFhZHl5SFdyNllOWTBkRXQ4dEJLZ3lkbWR1d0kxM1JMelFfMTRiOC1XeFVkMg?oc=5",
+      "publisher": "库洛游戏",
+      "published_at": "2024-03-29T14:41:30+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
       "id": "09182f27cd313e616761",
       "category": "遊戲攻略",
       "title": "攻略／新手入坑必看！《重返未來：1999》開服首抽角色推薦＆培養心得 - udn遊戲角落",
@@ -786,6 +1147,24 @@
       "publisher": "udn遊戲角落",
       "published_at": "2023-10-27T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "98efd5aec15e67caa79f",
+      "category": "官方遊戲公告",
+      "title": "首頁 | 《崩壞：星穹鐵道》官方網站——願此行，終抵群星 - Honkai: Star Rail",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE53bV9ESXQzT2R3X2ZPLVdhekNaTHBCSXdEUDAzRTNQaE9VZ3JzNXlNX25zb1NLdDNudU90SmJNU24xNEVfazdaaVE4Y18?oc=5",
+      "publisher": "Honkai: Star Rail",
+      "published_at": "2023-01-24T02:48:51+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "e2d96f6edf0a4c86d78a",
+      "category": "官方遊戲公告",
+      "title": "角色展示-「瓦列里：執序之理」｜原神 - Genshin Impact",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBwZWJvVGdjSzdhSEIxaWd6MEpsSDZGY0YyOUlyZjBqS2J2M0Y4UFJLd1VEVzVRMnFDSmpqX2k3T1h4VE9mTV9sYjBGNDRRUHVpMlVxRU1Gdw?oc=5",
+      "publisher": "Genshin Impact",
+      "published_at": "2023-01-11T10:31:32+00:00",
+      "first_seen_at": "2026-11-07T13:34:22+00:00"
     }
   ]
 }

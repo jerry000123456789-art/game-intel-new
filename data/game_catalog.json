@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T09:46:50.838756+00:00",
+  "updated_at": "2026-11-07T13:34:25.570767+00:00",
   "items": [
     {
       "id": "steam-5e2229ad87fb6e65",
@@ -55,7 +55,7 @@
       ],
       "release_date": "",
       "developer": "",
-      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5259730/135be578d9f2405f8b982ea62284f20ce16ccb83/header.jpg?t=1794043125",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5259730/135be578d9f2405f8b982ea62284f20ce16ccb83/header.jpg?t=1794053428",
       "store_links": [
         {
           "name": "Steam",
@@ -404,6 +404,50 @@
       "verified_store_listing": true,
       "first_seen_at": "2026-11-07T13:09:15+00:00",
       "seed_method": "人工核對官方商店條目；無上市日期推斷"
+    },
+    {
+      "id": "steam-1008b1382f85d8ff",
+      "name": "Prerolled",
+      "status": "即將上市",
+      "region": "美國",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4475970/a5d6955125613ed19dc4b6762597b79ef46fe4f6/header.jpg?t=1794031810",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4475970/",
+          "region": "美國"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/4475970/",
+      "verified_store_listing": true
+    },
+    {
+      "id": "steam-55e791acdcb73ac5",
+      "name": "The Cinder Throne",
+      "status": "即將上市",
+      "region": "美國",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4492500/39c32db8a3d108b4bce552953b5b4b74f2e7ec4c/header.jpg?t=1793377885",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4492500/",
+          "region": "美國"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/4492500/",
+      "verified_store_listing": true
     }
   ],
   "errors": [],

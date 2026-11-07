@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T15:44:56+00:00",
+  "updated_at": "2026-11-07T15:48:37+00:00",
   "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
@@ -25,6 +25,15 @@
         "publisher": "4Gamers",
         "published_at": "2026-11-06T04:41:35+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "卡厄思夢境",
+        "kind": "codes",
+        "title": "【卡厄思夢境】兌換碼與禮包碼序號・11月4日更新 - Ludens Media",
+        "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1xWklNZWdYclQ3aF9XVzFYZVBqQk94dU5yT1lyRDJIbDc0MUNqS3k1cllaS3hkZHFpaXB5TFdlMkJpNVFBRVB2a0w1V1AzM296d3ZzZ0VseWdhcHZ0eG5YTERR?oc=5",
+        "published_at": "2026-11-04T10:30:52+00:00",
+        "publisher": "Ludens Media",
         "status": "source_lead_only"
       },
       {
@@ -411,6 +420,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5idzFDeTUtUzdzR0JJYi11YTdMcWsxZUVMbXphNmdFenNwaEE1SVpGMFlpRC1PVGF0U2F3?oc=5",
         "published_at": "2026-11-07T12:02:22+00:00",
         "publisher": "Howl.Link",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "卡厄思夢境",
+        "kind": "events",
+        "title": "【卡厄思夢境】兌換碼與禮包碼序號・11月4日更新 - Ludens Media",
+        "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1xWklNZWdYclQ3aF9XVzFYZVBqQk94dU5yT1lyRDJIbDc0MUNqS3k1cllaS3hkZHFpaXB5TFdlMkJpNVFBRVB2a0w1V1AzM296d3ZzZ0VseWdhcHZ0eG5YTERR?oc=5",
+        "published_at": "2026-11-04T10:30:52+00:00",
+        "publisher": "Ludens Media",
         "status": "source_lead_only"
       },
       {

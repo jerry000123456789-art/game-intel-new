@@ -1,6 +1,213 @@
 {
-  "updated_at": "2026-11-07T15:44:53+00:00",
+  "updated_at": "2026-11-07T15:48:33+00:00",
   "items": [
+    {
+      "id": "31fa6b3a4636f397ab8c9b",
+      "name": "Solitaire",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.smilerlee.klondike&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.smilerlee.klondike&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T15:48:33+00:00"
+    },
+    {
+      "id": "ce0ae0824e1df08429b540",
+      "name": "Solar Smash",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.paradyme.solarsmash&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.paradyme.solarsmash&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T15:48:33+00:00"
+    },
+    {
+      "id": "a0461693e98924d7698585",
+      "name": "Kingshot",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.run.tower.defense&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.run.tower.defense&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T15:48:33+00:00"
+    },
+    {
+      "id": "7d399fc7dac9abf3ce505d",
+      "name": "Hunting Sniper",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.online.huntingsniper&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.online.huntingsniper&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T15:48:33+00:00"
+    },
+    {
+      "id": "e046f4a955fee44807c3e5",
+      "name": "Animals & Coins Adventure Game",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.innplaylabs.animalkingdomraid&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.innplaylabs.animalkingdomraid&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T15:48:33+00:00"
+    },
+    {
+      "id": "b5f2cb0e7c92d0f8b783f9",
+      "name": "Pokémon TCG Pocket",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=jp.pokemon.pokemontcgp&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=jp.pokemon.pokemontcgp&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T15:48:33+00:00"
+    },
+    {
+      "id": "25bd3dd8ef9d7121f42e29",
+      "name": "Madden NFL 27 Mobile Football",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.ea.gp.maddennfl21mobile&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.ea.gp.maddennfl21mobile&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T15:48:33+00:00"
+    },
+    {
+      "id": "dbaea3f32bd6dc46549cbe",
+      "name": "Meta Horizon",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.oculus.twilight&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.oculus.twilight&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T15:48:33+00:00"
+    },
+    {
+      "id": "84383eee9cad8fd99869fd",
+      "name": "Total Battle: War Strategy",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.totalbattle&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.totalbattle&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T15:48:33+00:00"
+    },
     {
       "id": "807ecd588df8cff7436c3e",
       "name": "Chess Clash: 線上遊玩",
@@ -482,7 +689,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=easy.sudoku.puzzle.solver.free&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:49:00+00:00"
+      "first_seen_at": "2026-11-07T14:49:00+00:00",
+      "seed_method": ""
     },
     {
       "id": "9efae05d26e36af916e70d",
@@ -528,7 +736,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.supercell.brawlstars&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:49:00+00:00"
+      "first_seen_at": "2026-11-07T14:49:00+00:00",
+      "seed_method": ""
     },
     {
       "id": "a4541a1ea2386773ba68a1",
@@ -621,7 +830,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.wood.block.sudoku.puzzle.bm&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:43:54+00:00"
+      "first_seen_at": "2026-11-07T14:43:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "b009261107452db1b37875",
@@ -692,7 +902,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.supercell.clashofclans&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:43:54+00:00"
+      "first_seen_at": "2026-11-07T14:43:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "e4a3d0012acaa5b561d147",
@@ -715,7 +926,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.neowizgames.game.browndust2&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:43:54+00:00"
+      "first_seen_at": "2026-11-07T14:43:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "05a2af5f693498f2835c99",
@@ -762,7 +974,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.gamespark.topking.gp&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:43:54+00:00"
+      "first_seen_at": "2026-11-07T14:43:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "da17978ac4018d35f6e2f5",
@@ -905,7 +1118,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.youmusic.magictiles&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:43:54+00:00"
+      "first_seen_at": "2026-11-07T14:43:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "12b23d7aeec2cf32c5a1fb",
@@ -1024,7 +1238,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.dreamgames.royalmatch&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:43:54+00:00"
+      "first_seen_at": "2026-11-07T14:43:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "e2985452aa7ceee9c28410",
@@ -1119,7 +1334,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.oakever.jigsawcard&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:43:54+00:00"
+      "first_seen_at": "2026-11-07T14:43:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "977129df50d4e8993a3f56",
@@ -1142,7 +1358,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.dreamgames.royalkingdom&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:43:54+00:00"
+      "first_seen_at": "2026-11-07T14:43:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "cca58f95dd8e7bbf9deea5",
@@ -1165,7 +1382,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=triple.sorting.bubble.fish.match&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:43:54+00:00"
+      "first_seen_at": "2026-11-07T14:43:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "f55cf5589c140bc2793324",
@@ -1188,7 +1406,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.vincentb.MobControl&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:43:54+00:00"
+      "first_seen_at": "2026-11-07T14:43:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "61851aa22d1f59d58a6077",
@@ -1211,7 +1430,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.playrix.gardenscapes&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:43:54+00:00"
+      "first_seen_at": "2026-11-07T14:43:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "99996f3744c3ef59117cad",
@@ -1234,7 +1454,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.abi.colony.flow&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:43:54+00:00"
+      "first_seen_at": "2026-11-07T14:43:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "e7a07fbccde8c7817d6765",
@@ -1257,7 +1478,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.egsl.zhy.gp1&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:43:54+00:00"
+      "first_seen_at": "2026-11-07T14:43:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "24fff08be31ae025e95c84",
@@ -1304,7 +1526,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.huanle.kof.sea&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:43:54+00:00"
+      "first_seen_at": "2026-11-07T14:43:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "7d593c679cd54c1a571e37",
@@ -1327,7 +1550,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.wemadeconnect.aos.makedrama.google&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:43:54+00:00"
+      "first_seen_at": "2026-11-07T14:43:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "fc5de4a2dc5d6e743b8188",
@@ -1350,7 +1574,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.mistcottage.lsgl&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:43:54+00:00"
+      "first_seen_at": "2026-11-07T14:43:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "485f13034842e49dd89293",
@@ -1373,7 +1598,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.fox.jstwgp&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:43:54+00:00"
+      "first_seen_at": "2026-11-07T14:43:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "01bb8a199c668088998364",
@@ -1444,7 +1670,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=jp.co.mixi.monsterstrikeTW&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:43:54+00:00"
+      "first_seen_at": "2026-11-07T14:43:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "1a84357a64462260892195",
@@ -1515,7 +1742,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.ran.projectr&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:43:54+00:00"
+      "first_seen_at": "2026-11-07T14:43:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "e5c4eb1b45356201e3c4b6",

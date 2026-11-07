@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-07T15:44:56+00:00",
+  "checked_at": "2026-11-07T15:48:37+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
-    "codes": 0,
-    "guides": 1,
-    "events": 3
+    "codes": 1,
+    "guides": 0,
+    "events": 1
   },
   "total_leads": {
-    "codes": 27,
+    "codes": 28,
     "guides": 22,
-    "events": 25
+    "events": 26
   },
   "per_game": {
-    "Baby Panda's Town: 商場": {
+    "Animals & Coins Adventure Game": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Chess Clash: 線上遊玩": {
+    "Hunting Sniper": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "新熱血江湖：世界": {
+    "Kingshot": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "明日方舟：終末地": {
-      "codes": 0,
-      "guides": 0,
-      "events": 2
-    },
-    "烹飪日記：餐廳遊戲": {
+    "Madden NFL 27 Mobile Football": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "燕雲十六聲": {
+    "Meta Horizon": {
       "codes": 0,
-      "guides": 1,
+      "guides": 0,
+      "events": 0
+    },
+    "Pokémon TCG Pocket": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Solar Smash": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Solitaire": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Total Battle: War Strategy": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Screw Out 3D": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Woodoku Blast": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Yarn Loop": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "卡厄思夢境": {
+      "codes": 1,
+      "guides": 0,
       "events": 1
     },
-    "神魔之塔": {
+    "同盟塔防戰：並肩作戰": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "薑餅人王國": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "靠裝勇者：背包合成RPG": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Number Match - 數字益智遊戲": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Pixel Flow!": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "RAN - Royal Academy Nations": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Royal Kingdom": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Royal Match": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Sand Blocks: Drop Puzzle": {
+    "噠噠特攻": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -150,7 +150,22 @@
     "ranroyalacademynations": "2026-11-07T15:44:56+00:00",
     "royalkingdom": "2026-11-07T15:44:56+00:00",
     "royalmatch": "2026-11-07T15:44:56+00:00",
-    "sandblocksdroppuzzle": "2026-11-07T15:44:56+00:00"
+    "sandblocksdroppuzzle": "2026-11-07T15:44:56+00:00",
+    "animalscoinsadventuregame": "2026-11-07T15:48:37+00:00",
+    "huntingsniper": "2026-11-07T15:48:37+00:00",
+    "kingshot": "2026-11-07T15:48:37+00:00",
+    "maddennfl27mobilefootball": "2026-11-07T15:48:37+00:00",
+    "metahorizon": "2026-11-07T15:48:37+00:00",
+    "pokémontcgpocket": "2026-11-07T15:48:37+00:00",
+    "solarsmash": "2026-11-07T15:48:37+00:00",
+    "solitaire": "2026-11-07T15:48:37+00:00",
+    "totalbattlewarstrategy": "2026-11-07T15:48:37+00:00",
+    "screwout3d": "2026-11-07T15:48:37+00:00",
+    "woodokublast": "2026-11-07T15:48:37+00:00",
+    "yarnloop": "2026-11-07T15:48:37+00:00",
+    "卡厄思夢境": "2026-11-07T15:48:37+00:00",
+    "同盟塔防戰並肩作戰": "2026-11-07T15:48:37+00:00",
+    "噠噠特攻": "2026-11-07T15:48:37+00:00"
   },
   "errors": []
 }

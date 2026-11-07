@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T13:51:17+00:00",
+  "updated_at": "2026-11-07T14:02:47+00:00",
   "items": [
     {
       "id": "8e85798b27e2bbd0a8c8fe",
@@ -22,10 +22,10 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6776621908",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T13:51:17+00:00"
+      "first_seen_at": "2026-11-07T14:02:47+00:00"
     },
     {
-      "id": "4e91353afd62fea61631cf",
+      "id": "4dfabf59fcae8dcce14767",
       "name": "螢幕截圖圖片",
       "status": "商店收錄",
       "region": "台灣",
@@ -38,12 +38,12 @@
       "store_links": [
         {
           "name": "Google Play",
-          "url": "https://play.google.com/store/apps/details?id=com.easybrain.sudoku.android&hl=zh_TW&gl=TW",
+          "url": "https://play.google.com/store/apps/details?id=com.FishEatFish.FeedGrow&hl=zh_TW&gl=TW",
           "region": "台灣"
         }
       ],
       "payment_methods": [],
-      "source_url": "https://play.google.com/store/apps/details?id=com.easybrain.sudoku.android&hl=zh_TW&gl=TW",
+      "source_url": "https://play.google.com/store/apps/details?id=com.FishEatFish.FeedGrow&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
       "first_seen_at": "2026-11-07T13:51:17+00:00"
     },

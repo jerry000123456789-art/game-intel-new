@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-07T13:51:22.323200+00:00",
+  "checked_at": "2026-11-07T14:02:52.631667+00:00",
   "configured_content_pages": 2,
   "configured_youtube_channels": 4,
   "sections": {
@@ -24,32 +24,32 @@
   },
   "source_health": {
     "store_health": {
-      "updated_at": "2026-11-07T13:51:17+00:00",
+      "updated_at": "2026-11-07T14:02:47+00:00",
       "sources": {
         "Google Play 台灣": {
           "state": "success",
-          "last_checked_at": "2026-11-07T13:51:17+00:00",
-          "last_success_at": "2026-11-07T13:51:17+00:00",
-          "items_this_run": 60,
+          "last_checked_at": "2026-11-07T14:02:47+00:00",
+          "last_success_at": "2026-11-07T14:02:47+00:00",
+          "items_this_run": 61,
           "source_url": "https://play.google.com/store/games?hl=zh_TW&gl=TW"
         },
         "Google Play 國際": {
           "state": "success",
-          "last_checked_at": "2026-11-07T13:51:17+00:00",
-          "last_success_at": "2026-11-07T13:51:17+00:00",
-          "items_this_run": 106,
+          "last_checked_at": "2026-11-07T14:02:47+00:00",
+          "last_success_at": "2026-11-07T14:02:47+00:00",
+          "items_this_run": 107,
           "source_url": "https://play.google.com/store/games?hl=zh_TW&gl=US"
         },
         "App Store 台灣": {
           "state": "success",
-          "last_checked_at": "2026-11-07T13:51:17+00:00",
-          "last_success_at": "2026-11-07T13:51:17+00:00",
+          "last_checked_at": "2026-11-07T14:02:47+00:00",
+          "last_success_at": "2026-11-07T14:02:47+00:00",
           "items_this_run": 94,
           "source_url": "https://apps.apple.com/tw/iphone/games"
         },
         "Huawei AppGallery 國際": {
           "state": "error",
-          "last_checked_at": "2026-11-07T13:51:17+00:00",
+          "last_checked_at": "2026-11-07T14:02:47+00:00",
           "last_success_at": "",
           "items_this_run": 0,
           "error": "官網為動態渲染，無可核對的遊戲清單擷取規則（3012 bytes）",
@@ -58,7 +58,7 @@
       }
     },
     "extraction_status": {
-      "updated_at": "2026-11-07T13:51:20+00:00",
+      "updated_at": "2026-11-07T14:02:51+00:00",
       "sources_attempted": 3,
       "sources_succeeded": 3,
       "errors": [],
@@ -72,7 +72,7 @@
       }
     },
     "runtime_status": {
-      "checked_at": "2026-11-07T13:51:22.231574+00:00",
+      "checked_at": "2026-11-07T14:02:52.541921+00:00",
       "live_sources": {
         "YouTube/巴哈 RSS": true,
         "商店公開頁面": true,

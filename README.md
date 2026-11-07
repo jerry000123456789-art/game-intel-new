@@ -1,22 +1,11 @@
-# 全球遊戲情報中心 — 第二階段
+# 全球遊戲情報中心：第三階段
 
-## 安裝（全新 game-intel-new 專案）
+延續第二階段，不需建立新 Repository。`scripts/collect.py` 取得 RSS 標題，`scripts/classify.py` 對標題做保守分類並寫入 `data/classified.json`。網站讀取兩份 JSON。
 
-將本 ZIP 解壓縮後，**連同隱藏的 `.github` 資料夾**上傳至新專案根目錄，覆蓋既有 `index.html`、`README.md`。保留資料夾階層：
+## 安裝
+將 ZIP 解壓縮後的 `index.html`、`README.md`、`scripts/classify.py`、`.github/workflows/collect.yml`、`data/classified.json` 上傳到原本的 `game-intel-new` 對應路徑；其餘檔案無需刪除。**注意** GitHub 上 `.github/workflows/collect.yml` 必須是資料夾路徑，不是含反斜線的檔名。
 
-- `index.html`
-- `config/sources.json`
-- `scripts/collect.py`
-- `data/latest.json`
-- `.github/workflows/collect.yml`
-- `README.md`
+Actions → Collect public game headlines → Run workflow。檢查 `Collect RSS` 日誌應出現 `classified=...`。工作流程每三小時嘗試更新，實際時間受 GitHub 排程限制。
 
-GitHub Pages 仍使用 `main / (root)`。到 **Actions → Collect public game headlines → Run workflow** 手動跑第一次；之後每 3 小時排程（GitHub 可能延遲或停用閒置排程）。若工作流程無法寫回，至 **Settings → Actions → General → Workflow permissions** 開啟 **Read and write permissions**。
-
-## 資料品質與限制
-
-- 只擷取 Google News RSS 公開標題、連結、來源及時間，沒有 AI 自動驗證。
-- 所有情報在「最新蒐集情報」獨立區塊，標示為**未驗證線索**；不會把新聞標題當成可用兌換碼、已確認活動或支付方式。
-- 四大專區原有內容仍是 DEMO。後續才會加入官方來源驗證、資料結構化、真正的遊戲卡片和攻略。
-- GitHub Actions 和 Pages 有免費額度及政策限制；排程不保證準時。
-- RSS 抓取失敗時保留舊資料，工作流程回報失敗，避免清空網站。
+## 誠實限制
+目前只分析 RSS 標題，遊戲名稱為關鍵字比對，標題日期並不等於正式活動或上市日期。**不會**把文章標題當作可兌換代碼、不會推斷付款方式，也不會把日期直接放入正式行事曆。四大原始區塊仍為示範資料。下一步需加入可靠來源的內文擷取、欄位驗證與人工核對。

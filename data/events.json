@@ -1,4 +1,115 @@
 {
-  "items": [],
-  "note": "沒有已核實資料時保持空白，不使用示範資料"
+  "items": [
+    {
+      "game": "原神",
+      "title": "「跟上米提亞！」社群參與活動",
+      "start_at": "2026-11-04T12:00:00+08:00",
+      "end_at": "2026-11-15T23:59:00+08:00",
+      "region": "繁體中文官方活動",
+      "category": "官方社群活動",
+      "topup_notes": "活動獎勵及參與方式以官方公告為準；非儲值優惠",
+      "source_url": "https://genshin.hoyoverse.com/zh-tw/news/detail/167189"
+    },
+    {
+      "game": "原神",
+      "title": "7.2版本妙論派徵稿活動",
+      "start_at": "2026-11-04T00:00:00+08:00",
+      "end_at": "2026-12-15T23:59:00+08:00",
+      "region": "HoYoLAB 公開活動",
+      "category": "官方活動紀錄",
+      "topup_notes": "歷史資料保留；精確時分及活動資格請依官方原始公告為準",
+      "source_url": "https://www.hoyolab.com/events"
+    },
+    {
+      "game": "原神",
+      "title": "丘丘人的機械工坊網頁活動",
+      "start_at": "2026-11-04T00:00:00+08:00",
+      "end_at": "2026-12-13T23:59:00+08:00",
+      "region": "HoYoLAB 公開活動",
+      "category": "官方活動紀錄",
+      "topup_notes": "歷史資料保留；精確時分及活動資格請依官方原始公告為準",
+      "source_url": "https://www.hoyolab.com/events"
+    },
+    {
+      "game": "原神",
+      "title": "7.2版本儲值中心分享活動第一期",
+      "start_at": "2026-11-04T00:00:00+08:00",
+      "end_at": "2026-11-23T23:59:00+08:00",
+      "region": "HoYoLAB 公開活動",
+      "category": "官方活動紀錄",
+      "topup_notes": "歷史資料保留；精確時分及活動資格請依官方原始公告為準",
+      "source_url": "https://www.hoyolab.com/events"
+    },
+    {
+      "game": "原神",
+      "title": "米提亞與芙寧娜話題討論活動",
+      "start_at": "2026-11-04T00:00:00+08:00",
+      "end_at": "2026-11-15T23:59:00+08:00",
+      "region": "HoYoLAB 公開活動",
+      "category": "官方活動紀錄",
+      "topup_notes": "歷史資料保留；精確時分及活動資格請依官方原始公告為準",
+      "source_url": "https://www.hoyolab.com/events"
+    },
+    {
+      "game": "原神",
+      "title": "千星奇域創作者競賽",
+      "start_at": "2026-09-23T00:00:00+08:00",
+      "end_at": "2026-12-12T23:59:00+08:00",
+      "region": "HoYoLAB 公開活動",
+      "category": "官方活動紀錄",
+      "topup_notes": "歷史資料保留；精確時分及活動資格請依官方原始公告為準",
+      "source_url": "https://www.hoyolab.com/events"
+    },
+    {
+      "game": "原神",
+      "title": "7.1版本妙論派徵稿活動",
+      "start_at": "2026-09-23T00:00:00+08:00",
+      "end_at": "2026-11-03T23:59:00+08:00",
+      "region": "HoYoLAB 公開活動",
+      "category": "官方活動紀錄",
+      "topup_notes": "歷史資料保留；精確時分及活動資格請依官方原始公告為準",
+      "source_url": "https://www.hoyolab.com/events"
+    },
+    {
+      "game": "原神",
+      "title": "週年回憶畫冊網頁活動",
+      "start_at": "2026-09-28T00:00:00+08:00",
+      "end_at": "2026-10-18T23:59:00+08:00",
+      "region": "HoYoLAB 公開活動",
+      "category": "官方活動紀錄",
+      "topup_notes": "歷史資料保留；精確時分及活動資格請依官方原始公告為準",
+      "source_url": "https://www.hoyolab.com/events"
+    },
+    {
+      "game": "原神",
+      "title": "六週年論壇留言活動",
+      "start_at": "2026-09-28T00:00:00+08:00",
+      "end_at": "2026-10-11T23:59:00+08:00",
+      "region": "HoYoLAB 公開活動",
+      "category": "官方活動紀錄",
+      "topup_notes": "歷史資料保留；精確時分及活動資格請依官方原始公告為準",
+      "source_url": "https://www.hoyolab.com/events"
+    },
+    {
+      "game": "原神",
+      "title": "7.1版本儲值中心分享活動第一期",
+      "start_at": "2026-09-23T00:00:00+08:00",
+      "end_at": "2026-10-12T23:59:00+08:00",
+      "region": "HoYoLAB 公開活動",
+      "category": "官方活動紀錄",
+      "topup_notes": "歷史資料保留；精確時分及活動資格請依官方原始公告為準",
+      "source_url": "https://www.hoyolab.com/events"
+    },
+    {
+      "game": "原神",
+      "title": "7.1版本儲值中心分享活動第二期",
+      "start_at": "2026-10-13T00:00:00+08:00",
+      "end_at": "2026-11-03T23:59:00+08:00",
+      "region": "HoYoLAB 公開活動",
+      "category": "官方活動紀錄",
+      "topup_notes": "歷史資料保留；精確時分及活動資格請依官方原始公告為準",
+      "source_url": "https://www.hoyolab.com/events"
+    }
+  ],
+  "updated_at": "2026-11-07T12:05:36.400412+00:00"
 }

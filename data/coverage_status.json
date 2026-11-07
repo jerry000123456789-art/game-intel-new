@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-07T12:02:52.348813+00:00",
+  "verified_feeds": 0,
+  "sections": {
+    "latest": {
+      "count": 87
+    },
+    "game_catalog": {
+      "count": 13
+    },
+    "codes": {
+      "count": 15
+    },
+    "guides": {
+      "count": 3
+    },
+    "events": {
+      "count": 1
+    }
+  },
+  "warnings": [
+    "No configured verified automatic feeds for codes/guides/events"
+  ]
+}

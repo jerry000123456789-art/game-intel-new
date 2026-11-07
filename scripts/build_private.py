@@ -10,4 +10,4 @@ shutil.copy2(ROOT/'index.html',out/'index.html')
 for src in (ROOT/'data').glob('*.json'):
     shutil.copy2(src,out/'data'/src.name)
 (out/'robots.txt').write_text('User-agent: *\nDisallow: /\n',encoding='utf-8')
-print('Built protected site assets:',len(list(out.rglob('*'))),'files')
+print('Built public site assets:',len(list(out.rglob('*'))),'files')

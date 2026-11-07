@@ -1,4 +1,4 @@
-name = "private-game-intel"
+name = "game-intel-new"
 main = "worker/index.js"
 compatibility_date = "2025-09-01"
 

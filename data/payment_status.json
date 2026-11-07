@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-07T14:44:07+00:00",
+  "updated_at": "2026-11-07T14:49:14+00:00",
   "games_this_run": 8,
   "searches_succeeded": 52,
   "searches_failed": 1,
-  "new_evidence": 7,
-  "total_evidence": 12,
+  "new_evidence": 0,
+  "total_evidence": 17,
   "directories_succeeded": 4,
   "directories_failed": 1,
   "checked_games": {
@@ -23,7 +23,15 @@
     "fishsortpuzzle三消益智遊戲": "2026-11-07T14:44:07+00:00",
     "hollywoodcrush": "2026-11-07T14:44:07+00:00",
     "jigsawcardsolitairepuzzle": "2026-11-07T14:44:07+00:00",
-    "line熊大農場": "2026-11-07T14:44:07+00:00"
+    "line熊大農場": "2026-11-07T14:44:07+00:00",
+    "agario": "2026-11-07T14:49:14+00:00",
+    "botworldadventure": "2026-11-07T14:49:14+00:00",
+    "brawlstars": "2026-11-07T14:49:14+00:00",
+    "cubelandpuzzlegame": "2026-11-07T14:49:14+00:00",
+    "findhiddenobjectsspotit": "2026-11-07T14:49:14+00:00",
+    "jetpackjoyride瘋狂噴氣機": "2026-11-07T14:49:14+00:00",
+    "matchfactory": "2026-11-07T14:49:14+00:00",
+    "monsterhunternow": "2026-11-07T14:49:14+00:00"
   },
   "errors": [
     {

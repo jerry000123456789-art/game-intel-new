@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-07T14:43:58+00:00",
+  "checked_at": "2026-11-07T14:49:04+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
     "guides": 0,
-    "events": 2
+    "events": 0
   },
   "total_leads": {
     "codes": 26,
-    "guides": 23,
-    "events": 29
+    "guides": 21,
+    "events": 22
   },
   "per_game": {
-    "Arrows – Puzzle Escape": {
+    "Agar.io": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Block Crush!": {
+    "Botworld Adventure": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Coin Master": {
+    "Brawl Stars": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Colony Flow": {
+    "Cube Land Puzzle Game": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Fish Sort Puzzle": {
+    "Find Hidden Objects - Spot It!": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Fish Sort Puzzle: 三消益智遊戲": {
+    "Jetpack Joyride - 瘋狂噴氣機": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Free Fire: 風暴競技場": {
+    "Match Factory!": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Hole.io - Original Hole Game": {
+    "Monster Hunter Now": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Hollywood Crush": {
+    "Shadow Knight Premium: 生死冒險RPG": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Jigsawcard Solitaire Puzzle": {
+    "Toon Blast": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "LINE 熊大農場": {
-      "codes": 0,
-      "guides": 0,
-      "events": 2
-    },
-    "Loop Sort": {
+    "Word Cookies! ®": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Magic Tiles 3™ - 鋼琴遊戲": {
+    "我的湯姆貓2": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Mob Control": {
+    "戰雙帕彌什：末世科幻3D動作遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Mobile Legends: Bang Bang": {
+    "數獨 - 經典數獨謎題": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "數獨 - 經典邏輯益智數獨遊戲，適合所有益智遊戲愛好者": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -120,7 +120,22 @@
     "loopsort": "2026-11-07T14:43:58+00:00",
     "magictiles3tm鋼琴遊戲": "2026-11-07T14:43:58+00:00",
     "mobcontrol": "2026-11-07T14:43:58+00:00",
-    "mobilelegendsbangbang": "2026-11-07T14:43:58+00:00"
+    "mobilelegendsbangbang": "2026-11-07T14:43:58+00:00",
+    "agario": "2026-11-07T14:49:04+00:00",
+    "botworldadventure": "2026-11-07T14:49:04+00:00",
+    "brawlstars": "2026-11-07T14:49:04+00:00",
+    "cubelandpuzzlegame": "2026-11-07T14:49:04+00:00",
+    "findhiddenobjectsspotit": "2026-11-07T14:49:04+00:00",
+    "jetpackjoyride瘋狂噴氣機": "2026-11-07T14:49:04+00:00",
+    "matchfactory": "2026-11-07T14:49:04+00:00",
+    "monsterhunternow": "2026-11-07T14:49:04+00:00",
+    "shadowknightpremium生死冒險rpg": "2026-11-07T14:49:04+00:00",
+    "toonblast": "2026-11-07T14:49:04+00:00",
+    "wordcookies": "2026-11-07T14:49:04+00:00",
+    "我的湯姆貓2": "2026-11-07T14:49:04+00:00",
+    "戰雙帕彌什末世科幻3d動作遊戲": "2026-11-07T14:49:04+00:00",
+    "數獨經典數獨謎題": "2026-11-07T14:49:04+00:00",
+    "數獨經典邏輯益智數獨遊戲適合所有益智遊戲愛好者": "2026-11-07T14:49:04+00:00"
   },
   "errors": []
 }

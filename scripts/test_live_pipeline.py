@@ -15,6 +15,10 @@ a=store.parse_store(google,'Google Play','台灣');b=store.parse_store(google,'G
 assert len(a)==2,a
 assert len(b)==2,b
 assert len(c)==1,c
+assert store.clean_title('螢幕截圖圖片')==''
+assert store.clean_title('縮圖圖片')==''
+assert store.clean_title('「Roblox」圖示圖片')=='Roblox'
+assert store.catalog_key({'name':'「Roblox」圖示圖片','platforms':['Google Play'],'region':'國際','source_url':'https://play.google.com/store/apps/details?id=com.roblox.client&gl=US'})==store.catalog_key({'name':'Roblox','platforms':['Google Play'],'region':'國際','source_url':'https://play.google.com/store/apps/details?id=com.roblox.client&gl=US'})
 assert all(not x['release_date'] and x['status']=='商店收錄' for x in a+b+c)
 assert all('gl=TW' in x['source_url'] for x in a)
 assert all('gl=US' in x['source_url'] for x in b)

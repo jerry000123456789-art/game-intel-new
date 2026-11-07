@@ -1,0 +1,11 @@
+{
+  "feeds": [],
+  "instructions": "每個來源須提供 HTTPS JSON URL、kind(codes/guides/events)；只接受具有明確來源與必要欄位的結構化資料，不會從新聞標題猜測內容。",
+  "example": {
+    "kind": "codes",
+    "url": "https://YOUR-DOMAIN.example/official-codes.json",
+    "allowed_hosts": [
+      "YOUR-DOMAIN.example"
+    ]
+  }
+}

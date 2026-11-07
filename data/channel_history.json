@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-11-07T18:50:40+00:00",
+  "updated_at": "2026-11-07T21:42:51+00:00",
   "status": "ok",
   "fetched": 90,
   "errors": [],
   "items": [
+    {
+      "id": "6361c1f857c15388ec38bcb6",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "告別數十 GB 下載與容量焦慮！GRAVITY 公開新 H5 平台「AIWAN」集結《RO》、《格鬥天王》、《魔力寶貝》等作品",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314658",
+      "publisher": "",
+      "published_at": "2026-11-08T05:27:58+08:00",
+      "first_seen_at": "2026-11-07T21:42:51+00:00"
+    },
+    {
+      "id": "5bbce306ff058e88f16164a8",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《RO 仙境傳說》明年迎接 25 週年　GRAVITY 預告 11 款《仙境傳說》遊戲新作同步籌備中",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314657",
+      "publisher": "",
+      "published_at": "2026-11-08T04:33:24+08:00",
+      "first_seen_at": "2026-11-07T21:42:51+00:00"
+    },
     {
       "id": "7704ed07357319dfaafa058b",
       "category": "巴哈姆特情報",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T18:50:37+00:00",
+  "updated_at": "2026-11-07T21:42:48+00:00",
   "status": "ok",
   "errors": [],
   "fetched": 120,
@@ -951,6 +951,15 @@
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
+      "id": "239a10c071810f0fddb0",
+      "category": "新遊戲資訊",
+      "title": "《異環》懶人包：公測上市時間、封測心得、實用內容與攻略一次看 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSzNMekw2dGRyeC1NVm1LVUdSZERRWGJwUHh6TUNSMWtfMmhUMUpKMW5JTkhzbTk3LXpvSGxTazVORTZ2WU5Sd3k0Y2I1WFppYi0wVm1CalQweE53WWtIc2pwQkRZX2FUb0xTMnZfUXh3U2k3a0dUMGEyRjVDQUtpWGp2RQ?oc=5",
+      "publisher": "Yahoo新聞",
+      "published_at": "2026-02-26T08:00:00+00:00",
+      "first_seen_at": "2026-11-07T21:42:48+00:00"
+    },
+    {
       "id": "e65d27a0039a7662e52c",
       "category": "官方遊戲公告",
       "title": "「『空月之歌·變奏』捕風的歸客」「月之五」版本更新說明 - Genshin Impact",
@@ -1219,6 +1228,15 @@
       "publisher": "Genshin Impact",
       "published_at": "2023-01-11T10:31:32+00:00",
       "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "7fcead312fa2c9a037f9",
+      "category": "遊戲攻略",
+      "title": "《新世界狂歡》新手入坑必讀！首抽推薦＆角色養成建議 - udn遊戲角落",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5rV1VFWU5fb3FFQ1RzWklFNlNZN3dfS0g1T0F3R3FuelNEVlNFOG1ZOU9pZ2xtREtmV3ZOcENIODNodHNBVWFIQUFxYWVvS0ExYmhRenBoeUc5QdIBX0FVX3lxTE1IcWxMa3NmNTF0S19uSVVmT0VxWVQ1dzNYdU1YX2VXeXVDZWlSZVQ3cFc2RXBSdnQzOTlXdk9VODVucm5NQzZhM3Z3Vml1V09KUDN5eEFBcTVTS05SYzRN?oc=5",
+      "publisher": "udn遊戲角落",
+      "published_at": "2022-03-02T08:00:00+00:00",
+      "first_seen_at": "2026-11-07T21:42:48+00:00"
     }
   ]
 }

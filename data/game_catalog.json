@@ -1,6 +1,52 @@
 {
-  "updated_at": "2026-11-07T14:49:00+00:00",
+  "updated_at": "2026-11-07T15:44:53+00:00",
   "items": [
+    {
+      "id": "807ecd588df8cff7436c3e",
+      "name": "Chess Clash: 線上遊玩",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.miniclip.chess&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.miniclip.chess&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T15:44:53+00:00"
+    },
+    {
+      "id": "1a7d1442af72b5dd458970",
+      "name": "Baby Panda's Town: 商場",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.sinyee.babybus.marketII&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.sinyee.babybus.marketII&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-07T15:44:53+00:00"
+    },
     {
       "id": "1eef285a01794f93a17dc6",
       "name": "明日方舟：終末地",
@@ -1936,7 +1982,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=defense.roguelike.cell.shoot.survivor&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "a02ff3d6635e9bb0a6828b",
@@ -2463,7 +2510,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.runninggame.subwayrunner.heroes&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "d3945b911f983d221af69a",
@@ -2582,7 +2630,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.studio27.MelonPlayground&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "85f3590e1460f70d69dd54",
@@ -2605,7 +2654,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.puzzlegame.match.jewels.adventure&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "c6246ec4d177be0af99299",
@@ -2628,7 +2678,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.os.airforce&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "fb427cc4cb0796ab226544",
@@ -2651,7 +2702,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.bitmango.go.wordcookies&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "62e60fb1656a123ee7bff4",
@@ -2674,7 +2726,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.empire.grow.rome&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "0f8e2ac56cb3404e06b9e1",
@@ -2697,7 +2750,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.joycastle.mergematch&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "4cda90fd47f5f3bbf6beb2",
@@ -2720,7 +2774,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.kooapps.stackybirdandroid&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "b65fa4d16c800ad9492fca",
@@ -2887,7 +2942,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.mhclyxpb.gatja&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "461ea994d8658a2b70afdd",
@@ -2910,7 +2966,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.linecorp.LGBB2&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "ed1fc9dcf05fca74d36c9f",
@@ -2933,7 +2990,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.mobirix.ldfscrw&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "e2259324c205eb7169e2f5",
@@ -2956,7 +3014,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.mobirix.mbtm&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "ef4d431e7ddf9b00faf30d",
@@ -2979,7 +3038,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.vladk.pipemasters&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "ed901690e6308fe7239bd8",
@@ -3002,7 +3062,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=linkdesks.oceanmatch&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "f18b6b98bb7f07e815920d",
@@ -3025,7 +3086,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=merge.blocks.drop.number.puzzle.games&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "6fe83e85c72b190a62f257",
@@ -3048,7 +3110,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.unicostudio.braintest&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "635bc401efdaa86cb7d49f",
@@ -3071,7 +3134,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.pixel.art.coloring.color.number&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "bb42ea26b51f8ac3775dfd",
@@ -3141,7 +3205,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=io.supercent.linkedcubic&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "e9f8289c52f12f0038baa4",
@@ -3164,7 +3229,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.tensquaregames.letsfish2&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "3a38b99095edfde5c0dc6d",
@@ -3187,7 +3253,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.actgames.HelloKittyMDS&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "0eb2a1698777fd2edf522b",
@@ -3210,7 +3277,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.ventogames.findthecat&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "bc3aaf52567d14992ef10f",
@@ -3233,7 +3301,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.king.farmheroessaga&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "4dfabf59fcae8dcce14767",
@@ -3256,7 +3325,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.FishEatFish.FeedGrow&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "e517081138c79d9915b66f",
@@ -4719,7 +4789,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.nvsgames.snap&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "05dce8532cf1854c935673",
@@ -4742,7 +4813,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.kurogame.gplay.punishing.grayraven.en&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "25090c096a885460da3608",
@@ -4765,7 +4837,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.kooapps.stackybirdandroid&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "a7dd9f016f6b4d3df7a79f",
@@ -5052,7 +5125,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.kitkagames.fallbuddies&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "bf6becb717b047acee0c70",
@@ -5123,7 +5197,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.chess&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "cb3bcf7306e5830a9f70c9",
@@ -5146,7 +5221,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.moonactive.coinmaster&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "08b72159e2f2ca863d4f01",
@@ -5169,7 +5245,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=io.supercent.linkedcubic&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "1ffc013520fb046fcca33a",
@@ -5192,7 +5269,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.superplaystudios.dicedreams&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "d23139762cab7789eaacb0",
@@ -5215,7 +5293,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=io.voodoo.holeio&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "23952ec69b674d31db5fc2",
@@ -5238,7 +5317,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.epicoro.castleclashers&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "6db54a148e44be3fb57b91",
@@ -5261,7 +5341,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.funcraft.farkle&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "a11e847b36856fc409c69b",
@@ -5284,7 +5365,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.devsisters.ck&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "fafeefe25673b47b035ce5",
@@ -5307,7 +5389,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.plarium.raidlegends&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:40:37+00:00"
+      "first_seen_at": "2026-11-07T14:40:37+00:00",
+      "seed_method": ""
     },
     {
       "id": "f5ac89a9e7e6ffe54372a7",

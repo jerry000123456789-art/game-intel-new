@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T14:49:04+00:00",
+  "updated_at": "2026-11-07T15:44:56+00:00",
   "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
@@ -212,6 +212,14 @@
         "published_at": "2026-01-24T08:00:00+00:00",
         "first_seen_at": "2026-11-07T08:17:59+00:00",
         "status": "source_lead_only"
+      },
+      {
+        "title": "Steam４人恐怖爬塔《Vision Quench》為了荒謬兌換碼展開「死掉就變成手辦」友情破壞新作發表 - 4Gamers",
+        "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMlozRUFvbnpQZ2hxVlV1d3V0YVlfdUVGVzQ1bHdtelVveFBPbkctUTZ3U2ZaQlRZUGNGWFlwQ0c2Q2lrekJ4Zmttb3pnOENtLVhBVzFqa0RSTjBmSXp3V1hZM2M0RXJvaXljYUxJTlVFNVB2VnJzeW9VaUNKY3BxQTM2Sng?oc=5",
+        "publisher": "4Gamers",
+        "published_at": "2025-11-24T08:00:00+00:00",
+        "first_seen_at": "2026-11-07T15:44:48+00:00",
+        "status": "source_lead_only"
       }
     ],
     "guides": [
@@ -221,6 +229,15 @@
         "publisher": "SouNova 少女星",
         "published_at": "2026-11-05T08:00:00+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "燕雲十六聲",
+        "kind": "guides",
+        "title": "燕雲十六聲不見山、天陘探索攻略｜Where Winds Meet 不見山進入條件、凌雲軌、五種蹊蹺、野外首領與登雲梯 - Ludens Media",
+        "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUnVwNi1IN1ZIRUg5MkNKUEtKYUhDck82RnNfTjNPY3dRSDF5TEI0RmgxcC1vT0hsdFJKcjk3ZUR0MmZwb0dNTHJ5YVE5bkFPaDZmazc4Yl9tS0lMZko2MEZwdHMwMGZoUU1NX0NURFRQNGdCRzNMVE12ZzdjZjBKaVNIWFNvMGhZdDJR?oc=5",
+        "published_at": "2026-10-30T01:54:33+00:00",
+        "publisher": "Ludens Media",
         "status": "source_lead_only"
       },
       {
@@ -388,6 +405,15 @@
     ],
     "events": [
       {
+        "game": "明日方舟：終末地",
+        "kind": "events",
+        "title": "【明日方舟：終末地】明河敘事活動上線！還有危機合約第二期開放啦！！！- 龍兒 / 竜児 - Howl.Link",
+        "source_url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5idzFDeTUtUzdzR0JJYi11YTdMcWsxZUVMbXphNmdFenNwaEE1SVpGMFlpRC1PVGF0U2F3?oc=5",
+        "published_at": "2026-11-07T12:02:22+00:00",
+        "publisher": "Howl.Link",
+        "status": "source_lead_only"
+      },
+      {
         "title": "《亡途轉生》與動畫《迷宮飯》首次聯動合作開啟 萊歐斯、瑪露希爾、法琳、米斯倫以點陣動畫在遊戲中登場 - GNN 新聞網",
         "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9aOVZIbVlYZmtlQ05BUWdOU3I2M2VYN0RTTkJzN0ZUd3YyelJZQlQzUnhzYXRmeWRiQjVuZkxTQWJuV1FaLWFTcTZxQ3JjbF9HcVR0dGx2RlY?oc=5",
         "publisher": "GNN 新聞網",
@@ -417,6 +443,24 @@
         "publisher": "GNN 新聞網",
         "published_at": "2026-11-02T08:52:13+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "燕雲十六聲",
+        "kind": "events",
+        "title": "燕雲十六聲文津館怎麼加入｜Where Winds Meet 文津館（Inkbound Order）蒙學考試、訪學弟子、門規與獎勵 - Ludens Media",
+        "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE13OVVCOUJ4SmlmcG1EeHpRNHc1c0RENUFYNlUwUUVkM2lfUmJtZ1N1MHh0ZTJlWUpSY3lmWi05ZGNPcnJZZm9keV81QjRvTGdsSzI4dVI0UWMyZENSZ3ZaMkNEMHV4c1c2NzRaQWh4dzRVZw?oc=5",
+        "published_at": "2026-10-30T01:54:30+00:00",
+        "publisher": "Ludens Media",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "明日方舟：終末地",
+        "kind": "events",
+        "title": "明日方舟：終末地 × ROUND1 聯動活動將於 11 月 10 日至 2 月 10 日舉行 - www.haveagood-holiday.com",
+        "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUURRejdFa09hSS0yLUFEV3loNHFxdlZKNWxLbFNLOUxJZWMxUl9kWVVfSmhTOFpBQ3VhZ3NiWlB2dFRzZV8yaWJWTHJFRkNoelFwbVdvQTQ0aGtYdnFGbFNseHp2d0h2d1dsZlF0VHE1NjV2RnhMQ2dqR1U2R0FGS2Y4WWk1WmpVRFk2ZEJwSzRmUGpxcU9yTGVod3piaExPZzc2Qg?oc=5",
+        "published_at": "2026-10-28T17:57:21+00:00",
+        "publisher": "www.haveagood-holiday.com",
         "status": "source_lead_only"
       },
       {

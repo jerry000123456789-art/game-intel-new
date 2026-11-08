@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-08T16:19:29+00:00",
+  "checked_at": "2026-11-08T18:53:11+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
     "guides": 0,
-    "events": 6
+    "events": 1
   },
   "total_leads": {
     "codes": 35,
     "guides": 37,
-    "events": 57
+    "events": 58
   },
   "per_game": {
-    "天天玩樂園 (Play Together)": {
+    "Bubbu學校 – 我可愛的動物": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "崩壞：星穹鐵道": {
+    "Disney冰雪奇緣: 冰紛樂": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Match Masters": {
       "codes": 0,
       "guides": 0,
       "events": 1
     },
-    "幻海神域：詭道": {
+    "Park Town:Match 3 with a story": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "怪物彈珠 - RPG手機遊戲": {
+    "Soccer Stars: Football Games": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "惡鬼狩獵：終夜": {
+    "合並龍傳說": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "方塊探險家 - 三消": {
+    "童話融合記": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "最強領主": {
+    "跑跑薑餅人：烤箱大逃亡": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "格鬥天王：拳面出擊 - SNK正版授權": {
+    "部落衝突:皇室戰爭「Clash Royale": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "棕色塵埃2- 冒汗心跳的RPG": {
+    "閃耀吧！嚕咪": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "楓之谷：放置冒險記": {
-      "codes": 0,
-      "guides": 0,
-      "events": 2
-    },
-    "極樂事件簿": {
+    "青丘世界：緣起": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "決勝時刻®: Mobile - Garena": {
+    "麥琪頓莊園": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "瑪奇 Mobile": {
+    "Candy Crush Soda Saga": {
       "codes": 0,
       "guides": 0,
-      "events": 2
+      "events": 0
     },
-    "絕區零": {
+    "Cooking Joy": {
       "codes": 0,
       "guides": 0,
-      "events": 1
+      "events": 0
     },
-    "致命甜心：復仇&合併": {
+    "Dark War:Survival": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -525,7 +525,22 @@
     "決勝時刻mobilegarena": "2026-11-08T16:19:29+00:00",
     "瑪奇mobile": "2026-11-08T16:19:29+00:00",
     "絕區零": "2026-11-08T16:19:29+00:00",
-    "致命甜心復仇合併": "2026-11-08T16:19:29+00:00"
+    "致命甜心復仇合併": "2026-11-08T16:19:29+00:00",
+    "bubbu學校我可愛的動物": "2026-11-08T18:53:11+00:00",
+    "disney冰雪奇緣冰紛樂": "2026-11-08T18:53:11+00:00",
+    "matchmasters": "2026-11-08T18:53:11+00:00",
+    "parktownmatch3withastory": "2026-11-08T18:53:11+00:00",
+    "soccerstarsfootballgames": "2026-11-08T18:53:11+00:00",
+    "合並龍傳說": "2026-11-08T18:53:11+00:00",
+    "童話融合記": "2026-11-08T18:53:11+00:00",
+    "跑跑薑餅人烤箱大逃亡": "2026-11-08T18:53:11+00:00",
+    "部落衝突皇室戰爭clashroyale": "2026-11-08T18:53:11+00:00",
+    "閃耀吧嚕咪": "2026-11-08T18:53:11+00:00",
+    "青丘世界緣起": "2026-11-08T18:53:11+00:00",
+    "麥琪頓莊園": "2026-11-08T18:53:11+00:00",
+    "candycrushsodasaga": "2026-11-08T18:53:11+00:00",
+    "cookingjoy": "2026-11-08T18:53:11+00:00",
+    "darkwarsurvival": "2026-11-08T18:53:11+00:00"
   },
   "errors": []
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T16:19:29+00:00",
+  "updated_at": "2026-11-08T18:53:11+00:00",
   "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
@@ -694,6 +694,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxON285OWM0SFhrNVE1dE5iTkJaR0lDTDF4VmxpXzNaSUtWWmdobmE5eTdja1h1cmppSHA1RTdiaFpDRFFZLUY4SWhsRUNLTVE3UWNNdTR6MXpkaVZBQ1RqcFdIZGIyc1JsOUlyRURTdzVQN3NSZnlhU3RCQVNZeTBBdEs3MFI?oc=5",
         "published_at": "2026-11-05T04:46:50+00:00",
         "publisher": "PChome Online 新聞",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Match Masters",
+        "kind": "events",
+        "title": "Perfect heist plunder pirates 850 premium event solo challenge match masters - YouTube",
+        "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBWUHR5ekxGTnFBbGItZHVTams3Tk9JaXdZV3pnOF9BMHY3MGxHdnpkd3NyWU9zVUZ5dVEybzdmVGY0U3FVN1RTVzRJVjBUcVN2amZ0WDZpbGliY0ZZ?oc=5",
+        "published_at": "2026-11-04T13:09:48+00:00",
+        "publisher": "YouTube",
         "status": "source_lead_only"
       },
       {

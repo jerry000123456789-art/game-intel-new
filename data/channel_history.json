@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T16:18:55+00:00",
+  "updated_at": "2026-11-08T18:50:30+00:00",
   "status": "ok",
   "fetched": 105,
   "errors": [],
@@ -8,7 +8,7 @@
       "id": "1a3c7572ea98ba7016797da0",
       "category": "巴哈姆特情報",
       "origin": "巴哈姆特",
-      "title": "《寶可夢》30th CELEBRATION 卡牌美術展全紀錄 巨幅皮卡丘插畫大集合",
+      "title": "寶可夢 30th Celebration 卡牌美術展全紀錄 巨幅皮卡丘插畫大集合",
       "url": "https://gnn.gamer.com.tw/detail.php?sn=314667",
       "publisher": "",
       "published_at": "2026-11-08T23:56:38+08:00",
@@ -18,7 +18,7 @@
       "id": "8bb900840265d40c6682b624",
       "category": "巴哈姆特情報",
       "origin": "巴哈姆特",
-      "title": "「寶可夢亞錦賽」臺灣紀念球聯盟賽落幕！VGC、TCG 四強選手挺進世界賽",
+      "title": "「寶可夢亞錦賽」臺灣紀念球聯盟賽結果出爐！VGC、TCG 四強選手挺進世界賽",
       "url": "https://gnn.gamer.com.tw/detail.php?sn=314666",
       "publisher": "",
       "published_at": "2026-11-08T23:53:06+08:00",
@@ -33,6 +33,16 @@
       "publisher": "",
       "published_at": "2026-11-08T19:37:53+08:00",
       "first_seen_at": "2026-11-08T12:25:29+00:00"
+    },
+    {
+      "id": "e687924e125dd82630ee2c90",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《SD鋼彈 G世代 永恆》｜世代之塔「SOUTH TOWER 開打｜ULT 開發中",
+      "url": "https://www.youtube.com/watch?v=m-Zhf8MJIyE",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-08T17:52:21+00:00",
+      "first_seen_at": "2026-11-08T12:34:08+00:00"
     },
     {
       "id": "2e0f65cbeae584fe36c7bfbb",
@@ -63,16 +73,6 @@
       "publisher": "CD喜德",
       "published_at": "2026-11-08T13:00:01+00:00",
       "first_seen_at": "2026-11-08T16:01:52+00:00"
-    },
-    {
-      "id": "e687924e125dd82630ee2c90",
-      "category": "影片情報",
-      "origin": "YouTube",
-      "title": "《SD鋼彈 G世代 永恆》｜世代之塔「SOUTH TOWER 開打｜ULT 開發中",
-      "url": "https://www.youtube.com/watch?v=m-Zhf8MJIyE",
-      "publisher": "【索爾遊戲】",
-      "published_at": "2026-11-08T12:22:35+00:00",
-      "first_seen_at": "2026-11-08T12:34:08+00:00"
     },
     {
       "id": "57ad033c985ec6b1dd5e5dc1",

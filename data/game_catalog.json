@@ -1,6 +1,98 @@
 {
-  "updated_at": "2026-11-08T01:10:21+00:00",
+  "updated_at": "2026-11-08T03:57:29+00:00",
   "items": [
+    {
+      "id": "c17fb48ff89e0c5183cab6",
+      "name": "Old School RuneScape",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.jagex.oldscape.android&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.jagex.oldscape.android&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T03:57:29+00:00"
+    },
+    {
+      "id": "6ba7a63dfc52bc13cbf861",
+      "name": "Sonic Dash Run",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.sega.sonicdash&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.sega.sonicdash&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T03:57:29+00:00"
+    },
+    {
+      "id": "6f598c669ddcc4116fa88b",
+      "name": "Sniper Battle: 3D War Shooter",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.hypgames.sniperbattle&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.hypgames.sniperbattle&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T03:57:29+00:00"
+    },
+    {
+      "id": "86aa169376926adf51dbec",
+      "name": "Blood Strike - FPS for all",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.netease.newspike&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.netease.newspike&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T03:57:29+00:00"
+    },
     {
       "id": "b65591a3645ae115ea136f",
       "name": "PUBG MOBILE：絕地求生M",
@@ -137,7 +229,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.vng.g6.a.zombie&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-08T01:10:21+00:00"
+      "first_seen_at": "2026-11-08T01:10:21+00:00",
+      "seed_method": ""
     },
     {
       "id": "be96d8503ca0d83d97c8ec",
@@ -758,7 +851,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id529479190",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-08T01:10:21+00:00"
+      "first_seen_at": "2026-11-08T01:10:21+00:00",
+      "seed_method": ""
     },
     {
       "id": "29ec9347710a1e8d9fac3b",
@@ -781,7 +875,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6742812903",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-08T01:10:21+00:00"
+      "first_seen_at": "2026-11-08T01:10:21+00:00",
+      "seed_method": ""
     },
     {
       "id": "steam-7531f92790d17e5b",
@@ -1242,7 +1337,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.neptune.dawnsedge&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T18:50:43+00:00"
+      "first_seen_at": "2026-11-07T18:50:43+00:00",
+      "seed_method": ""
     },
     {
       "id": "58b0c41d673c4271029b65",
@@ -1265,7 +1361,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.mobibrain.championforge&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T18:50:43+00:00"
+      "first_seen_at": "2026-11-07T18:50:43+00:00",
+      "seed_method": ""
     },
     {
       "id": "8c504c8e1ce0e8595b6f5f",
@@ -1803,7 +1900,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.moonactive.holestars&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T18:50:43+00:00"
+      "first_seen_at": "2026-11-07T18:50:43+00:00",
+      "seed_method": ""
     },
     {
       "id": "bd7aaaea9423cff02d8722",
@@ -1826,7 +1924,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.playgendary.bowmasters&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T18:50:43+00:00"
+      "first_seen_at": "2026-11-07T18:50:43+00:00",
+      "seed_method": ""
     },
     {
       "id": "088e063507de660a8027ff",
@@ -1849,7 +1948,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.playgendary.kickthebuddy&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T18:50:43+00:00"
+      "first_seen_at": "2026-11-07T18:50:43+00:00",
+      "seed_method": ""
     },
     {
       "id": "8c4d6c523a0b999bc85e71",
@@ -1872,7 +1972,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.dts.freefiremax&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T18:50:43+00:00"
+      "first_seen_at": "2026-11-07T18:50:43+00:00",
+      "seed_method": ""
     },
     {
       "id": "48226cc657bb612b52a429",
@@ -1895,7 +1996,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.Neurononfire.SupremeDuelist&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T18:50:43+00:00"
+      "first_seen_at": "2026-11-07T18:50:43+00:00",
+      "seed_method": ""
     },
     {
       "id": "2e60b0d640090757c15a6d",
@@ -1918,7 +2020,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.amelosinteractive.snake&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T18:50:43+00:00"
+      "first_seen_at": "2026-11-07T18:50:43+00:00",
+      "seed_method": ""
     },
     {
       "id": "a3eafc8cdf317f5bdc2aa0",
@@ -1941,7 +2044,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.starplay.spider.fighter.openworld&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T18:50:43+00:00"
+      "first_seen_at": "2026-11-07T18:50:43+00:00",
+      "seed_method": ""
     },
     {
       "id": "29c7f3645a7b43ec385e42",
@@ -1964,7 +2068,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.fungames.sniper3d&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T18:50:43+00:00"
+      "first_seen_at": "2026-11-07T18:50:43+00:00",
+      "seed_method": ""
     },
     {
       "id": "5bbd3458223ff654a0a7d1",
@@ -1987,7 +2092,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.xiaomo.lastextract&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T18:50:43+00:00"
+      "first_seen_at": "2026-11-07T18:50:43+00:00",
+      "seed_method": ""
     },
     {
       "id": "ac94a75be8d1be34eeaaa9",
@@ -2010,7 +2116,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.WalkTalk.FlightMaster&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T18:50:43+00:00"
+      "first_seen_at": "2026-11-07T18:50:43+00:00",
+      "seed_method": ""
     },
     {
       "id": "steam-7657b3f88ab2e50a",
@@ -2471,7 +2578,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.bandainamcoent.gget_WW&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "46ff28c19c815a75735a5f",
@@ -2494,7 +2602,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.studiobside.starMain&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "bfc9e2910a19fd14c429a5",
@@ -2541,7 +2650,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.netmarble.tskgb&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "b427367ed99b90e7eb0aa6",
@@ -2564,7 +2674,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=tw.txwy.and.arknights&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "c886c4038cda0a8edf3458",
@@ -2587,7 +2698,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.nexon.bluearchive&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "facaa8180c139b620d3cfd",
@@ -2610,7 +2722,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.bandainamcoent.opbrww&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "a86e84a76e205a9596a81d",
@@ -2633,7 +2746,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.daerisoft.thespikerm&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "74b9c5662e6ed89f9a86e8",
@@ -3466,7 +3580,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.fiveminlab.overgeared.hero.backpack.merge&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:49:00+00:00"
+      "first_seen_at": "2026-11-07T14:49:00+00:00",
+      "seed_method": ""
     },
     {
       "id": "ac652f5810e5ea7be4f62c",
@@ -3537,7 +3652,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.devsisters.ck&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:49:00+00:00"
+      "first_seen_at": "2026-11-07T14:49:00+00:00",
+      "seed_method": ""
     },
     {
       "id": "2f9416fa960cf03b252fa3",
@@ -3560,7 +3676,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.mover.twrxjhw&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T14:49:00+00:00"
+      "first_seen_at": "2026-11-07T14:49:00+00:00",
+      "seed_method": ""
     },
     {
       "id": "46f4c790c9df374b1d1ebf",

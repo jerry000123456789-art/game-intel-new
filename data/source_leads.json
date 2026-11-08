@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T01:10:24.894647+00:00",
-  "note": "Historical source leads retained; not validated codes, full guides, or confirmed event dates.",
+  "updated_at": "2026-11-08T03:57:32+00:00",
+  "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
       {
@@ -254,6 +254,15 @@
         "publisher": "SouNova 少女星",
         "published_at": "2026-11-05T08:00:00+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Old School RuneScape",
+        "kind": "guides",
+        "title": "這真的是在玩遊戲嗎？《Old School RuneScape》玩家重複跑障礙3,475小時，只為練滿一項技能 - SuperDope.Games",
+        "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tc2xkWWNITEFoRGxvSEdDV281R0wzTVUzSFg5Y1V6eEx3QjI0Vy1CYmFaQnlHb0R6c253c1JsRUpiZzJTYV9hMExPQXByX3EwUnNCTA?oc=5",
+        "published_at": "2026-11-04T14:22:01+00:00",
+        "publisher": "SuperDope.Games",
         "status": "source_lead_only"
       },
       {

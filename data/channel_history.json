@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T01:10:18+00:00",
+  "updated_at": "2026-11-08T03:57:25+00:00",
   "status": "partial",
   "fetched": 30,
   "errors": [
@@ -21,6 +21,36 @@
     }
   ],
   "items": [
+    {
+      "id": "89f87d07a536d92cf9a939c3",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《RO》系列策略 RPG 新作《RO 仙境傳說 城堡》首度曝光 預定 2027 第二季全球上市",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314663",
+      "publisher": "",
+      "published_at": "2026-11-08T11:05:00+08:00",
+      "first_seen_at": "2026-11-08T03:57:25+00:00"
+    },
+    {
+      "id": "f75684a59b996c16811f2d4a",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "GLAY 睽違 9 年重返台灣開唱 2027 年 3 月 6、7 日北流登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314662",
+      "publisher": "",
+      "published_at": "2026-11-08T10:21:36+08:00",
+      "first_seen_at": "2026-11-08T03:57:25+00:00"
+    },
+    {
+      "id": "2cd70b322a3006a8b7df77fc",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "2D 像素放置新作《RO 仙境傳說：GO》導入戰前流派策略　預告將推大規模 GvG 公會戰",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314661",
+      "publisher": "",
+      "published_at": "2026-11-08T09:48:02+08:00",
+      "first_seen_at": "2026-11-08T03:57:25+00:00"
+    },
     {
       "id": "1b5fbd5c0d3877ed004c7b9e",
       "category": "巴哈姆特情報",

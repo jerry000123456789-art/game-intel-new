@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-08T01:10:24+00:00",
+  "checked_at": "2026-11-08T03:57:32+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
-    "guides": 0,
+    "guides": 1,
     "events": 0
   },
   "total_leads": {
     "codes": 30,
-    "guides": 24,
+    "guides": 25,
     "events": 30
   },
   "per_game": {
-    "Best Fiends - Match 3 Puzzles": {
+    "Blood Strike - FPS for all": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Bubble Shooter - Classic Pop": {
+    "Old School RuneScape": {
+      "codes": 0,
+      "guides": 1,
+      "events": 0
+    },
+    "Sniper Battle: 3D War Shooter": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Bubbu 2 - 我的寵物王國": {
+    "Sonic Dash Run": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Castle Busters": {
+    "Pure Sniper 真正的狙擊手 - 火力全開滅敵人": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Crossword Master - 縱橫填字遊戲": {
+    "Reckless Getaway 2": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Daily Themed Crossword Puzzles": {
+    "Royal Cooking - Cooking Game": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Dead Target: 離線遊戲3D": {
+    "Scrabble® GO – Fun with Words!": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Dice Words - Fun Word Game": {
+    "Wordscapes": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Everyday Puzzles: Mini Games": {
+    "Wordscapes Search: Word Games": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Foodie Pop!": {
+    "Wordscapes Solitaire": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Grill Sort - 燒烤時光 物品分類遊戲": {
+    "Words of Wonders: Search": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Magic Sort!": {
+    "Word Solitaire Now!": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "MWT: Tank Battles・坦克戰鬥．現代戰爭": {
+    "Zombie Sniper War 3 - Fire FPS": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "NYT Games: Wordle & Crossword": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "PUBG MOBILE：絕地求生M": {
+    "像素射擊 3D (Pixel Gun 3D)": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -225,7 +225,22 @@
     "magicsort": "2026-11-08T01:10:24+00:00",
     "mwttankbattles坦克戰鬥現代戰爭": "2026-11-08T01:10:24+00:00",
     "nytgameswordlecrossword": "2026-11-08T01:10:24+00:00",
-    "pubgmobile絕地求生m": "2026-11-08T01:10:24+00:00"
+    "pubgmobile絕地求生m": "2026-11-08T01:10:24+00:00",
+    "bloodstrikefpsforall": "2026-11-08T03:57:32+00:00",
+    "oldschoolrunescape": "2026-11-08T03:57:32+00:00",
+    "sniperbattle3dwarshooter": "2026-11-08T03:57:32+00:00",
+    "sonicdashrun": "2026-11-08T03:57:32+00:00",
+    "puresniper真正的狙擊手火力全開滅敵人": "2026-11-08T03:57:32+00:00",
+    "recklessgetaway2": "2026-11-08T03:57:32+00:00",
+    "royalcookingcookinggame": "2026-11-08T03:57:32+00:00",
+    "scrabblegofunwithwords": "2026-11-08T03:57:32+00:00",
+    "wordscapes": "2026-11-08T03:57:32+00:00",
+    "wordscapessearchwordgames": "2026-11-08T03:57:32+00:00",
+    "wordscapessolitaire": "2026-11-08T03:57:32+00:00",
+    "wordsofwonderssearch": "2026-11-08T03:57:32+00:00",
+    "wordsolitairenow": "2026-11-08T03:57:32+00:00",
+    "zombiesniperwar3firefps": "2026-11-08T03:57:32+00:00",
+    "像素射擊3dpixelgun3d": "2026-11-08T03:57:32+00:00"
   },
   "errors": []
 }

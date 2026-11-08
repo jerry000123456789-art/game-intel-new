@@ -35,12 +35,15 @@ jobs:
           python scripts/test_live_pipeline.py
           python scripts/test_release_matrix.py
           python scripts/test_mobile_store.py
+          python scripts/test_tracked_events.py
           python scripts/test_discovery_pipeline.py
           python scripts/test_frontend_js.py
           node scripts/test_live_lookup.mjs
           node tests/test_code_list.mjs
           node tests/test_release_ui.mjs
-          python -m py_compile scripts/collect_game_related.py scripts/collect_payment_methods.py scripts/discover_sources.py scripts/collect_release_matrix.py scripts/enrich_mobile_store.py
+          node tests/test_business_ui.mjs
+          node --check business.js
+          python -m py_compile scripts/collect_game_related.py scripts/collect_payment_methods.py scripts/discover_sources.py scripts/collect_release_matrix.py scripts/enrich_mobile_store.py scripts/collect_tracked_events.py scripts/add_tracked_from_issue.py scripts/enrich_featured_launches.py
       - name: Fetch public news, YouTube, Bahamut and store pages
         run: |
           python scripts/collect.py
@@ -49,6 +52,7 @@ jobs:
           python scripts/collect_store_pages.py
           python scripts/collect_release_matrix.py
           python scripts/enrich_mobile_store.py
+          python scripts/enrich_featured_launches.py
       - name: Classify, extract codes/events, and merge history
         run: |
           python scripts/classify.py
@@ -59,6 +63,7 @@ jobs:
           python scripts/extract_facts.py
           python scripts/ingest_verified.py
           python scripts/merge_history.py
+          python scripts/collect_tracked_events.py
       - name: Check live source outcomes
         id: live
         continue-on-error: true

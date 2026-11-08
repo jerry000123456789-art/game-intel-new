@@ -122,7 +122,7 @@ function filteredGames(){
     if(ui.window!==st.type)continue;
     out.push({game,rows,status:st});
   }
-  const byDate=x=>x.status.date||'0000-00-00';
+  const byDate=x=>x.status.date||(ui.window==='upcoming'?'9999-12-31':'0000-00-00');
   const reverse=$('game-order').value==='old';
   out.sort((a,b)=>{
     const aDate=byDate(a),bDate=byDate(b);

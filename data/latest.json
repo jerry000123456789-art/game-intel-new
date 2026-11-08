@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T05:47:37+00:00",
+  "updated_at": "2026-11-08T05:49:01+00:00",
   "status": "ok",
   "errors": [],
   "fetched": 120,
@@ -517,6 +517,15 @@
       "publisher": "蕃新聞",
       "published_at": "2026-08-21T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "75522f59f7651366be3f",
+      "category": "新遊戲資訊",
+      "title": "NEXT與《現代戰爭4》搶先體驗公測：第一個週末初步情報 - Call of Duty® | Best-Selling Video Game Franchise",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMGJoanNucUtPbU5NdjVnS21GQ0E1RjhsZUtOYTZFekJsdXFxZU1wYkVhZmNYekFfQnNDN1J6ZVY4dHJXU2xuVVVCOW1sNE1wRTJiQUpPMVBaY1Y4UUd1UUJUUGk1YTh1N2xPNi04V3YwTmJ0Um9BMjQ0ZDYyR2JITnh1WmtBMERxeGZMUUZOdHlqUHVFTzhPU3liTXRrblFic2EtWlVCSEhmOHU0UW40?oc=5",
+      "publisher": "Call of Duty® | Best-Selling Video Game Franchise",
+      "published_at": "2026-08-20T07:00:00+00:00",
+      "first_seen_at": "2026-11-08T05:49:01+00:00"
     },
     {
       "id": "3680552cd4edd8e4c5d9",

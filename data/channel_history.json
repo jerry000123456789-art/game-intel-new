@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T05:47:40+00:00",
+  "updated_at": "2026-11-08T05:49:03+00:00",
   "status": "partial",
   "fetched": 30,
   "errors": [
@@ -13,7 +13,7 @@
     },
     {
       "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4c-wTOqEID-_vH4MhNs06w",
-      "error": "HTTP Error 500: Internal Server Error"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC-e2q_YhFnfsEggbJsTLPHg",

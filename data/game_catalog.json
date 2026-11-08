@@ -1,6 +1,259 @@
 {
-  "updated_at": "2026-11-08T05:47:43+00:00",
+  "updated_at": "2026-11-08T05:49:06+00:00",
   "items": [
+    {
+      "id": "33c48bea9b0624f6b151a1",
+      "name": "Piggy Escape: Pig Jam Farm",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=piggy.escape.jam.farm.puzzle.game&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=piggy.escape.jam.farm.puzzle.game&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T05:49:06+00:00"
+    },
+    {
+      "id": "4393cda73982fb604c38b5",
+      "name": "Delicious B&B: 裝飾與三消",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.gamehouse.deliciousmatch3&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.gamehouse.deliciousmatch3&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T05:49:06+00:00"
+    },
+    {
+      "id": "f889fde8c63ae7fefeee16",
+      "name": "Tiletopia：三消方塊配對",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.starfish.mergevia.tile.match.an&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.starfish.mergevia.tile.match.an&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T05:49:06+00:00"
+    },
+    {
+      "id": "ffd73069aeada702407d1b",
+      "name": "Matching Tiles:城市景觀",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.matchingtiles.puzzle.triple.game&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.matchingtiles.puzzle.triple.game&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T05:49:06+00:00"
+    },
+    {
+      "id": "5793a4b7c63f6214e80c0c",
+      "name": "深海水族館-點點可培養的水族館",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.idleif.abyssrium&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.idleif.abyssrium&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T05:49:06+00:00"
+    },
+    {
+      "id": "16272f8f15b7b5a9e819af",
+      "name": "腦力測試 (Brain Test)：謎題急轉彎",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.unicostudio.braintest&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.unicostudio.braintest&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T05:49:06+00:00"
+    },
+    {
+      "id": "8784d3729d41a6189920a8",
+      "name": "物品分類：連連看3消除遊戲",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.fc.goods.sort.matching.puzzle.triplemaster&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.fc.goods.sort.matching.puzzle.triplemaster&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T05:49:06+00:00"
+    },
+    {
+      "id": "94801be67b38886df8b561",
+      "name": "Jewel Coloring",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=color.number.paint.pixle.art.sort.jigsaw&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=color.number.paint.pixle.art.sort.jigsaw&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T05:49:06+00:00"
+    },
+    {
+      "id": "453dcd76475109fa85346e",
+      "name": "尋寶遊戲：尋找隱藏物品",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=find.out.hidden.objects.seek.puzzle.games.free&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=find.out.hidden.objects.seek.puzzle.games.free&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T05:49:06+00:00"
+    },
+    {
+      "id": "db1e4408cb065327e83e01",
+      "name": "Jigsaw Puzzle - 經典拼圖遊戲",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.easybrain.jigsaw.puzzles&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.easybrain.jigsaw.puzzles&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T05:49:06+00:00"
+    },
+    {
+      "id": "4aa8b36a5edf6d608e9389",
+      "name": "Mahjong Voyage: Tile Matching",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.playvalve.mahjong&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.playvalve.mahjong&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T05:49:06+00:00"
+    },
     {
       "id": "e0fe1229c2e6952bc0e695",
       "name": "大黑幫",
@@ -487,7 +740,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.grandgames.magicsort&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-08T01:10:21+00:00"
+      "first_seen_at": "2026-11-08T01:10:21+00:00",
+      "seed_method": ""
     },
     {
       "id": "9a34e9b26ddbac85add5d2",
@@ -510,7 +764,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.fatmerge.global&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-08T01:10:21+00:00"
+      "first_seen_at": "2026-11-08T01:10:21+00:00",
+      "seed_method": ""
     },
     {
       "id": "f785ba7fee264a45f7e6e4",
@@ -533,7 +788,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.abi.foodpop&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-08T01:10:21+00:00"
+      "first_seen_at": "2026-11-08T01:10:21+00:00",
+      "seed_method": ""
     },
     {
       "id": "5bc77ebf23d8f8e4fbdfd1",
@@ -556,7 +812,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.hollywood.merge&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-08T01:10:21+00:00"
+      "first_seen_at": "2026-11-08T01:10:21+00:00",
+      "seed_method": ""
     },
     {
       "id": "78456d85365de68e6825a7",
@@ -1695,7 +1952,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.riotgames.league.wildrifttw&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T18:50:43+00:00"
+      "first_seen_at": "2026-11-07T18:50:43+00:00",
+      "seed_method": ""
     },
     {
       "id": "0b6a2acdff3ccba0a2574a",

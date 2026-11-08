@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-11-08T05:47:47+00:00",
+  "checked_at": "2026-11-08T05:49:10+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
-    "codes": 2,
-    "guides": 1,
-    "events": 1
+    "codes": 0,
+    "guides": 0,
+    "events": 0
   },
   "total_leads": {
     "codes": 32,
@@ -14,77 +14,77 @@
     "events": 31
   },
   "per_game": {
-    "大黑幫": {
+    "Delicious B&B: 裝飾與三消": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "GymPup": {
+    "Jewel Coloring": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "奇蹟之詞：用於連接詞彙的填字遊戲": {
+    "Jigsaw Puzzle - 經典拼圖遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "好萊塢合成：星夢逆襲": {
+    "Mahjong Voyage: Tile Matching": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "字謎遊戲 Wordle！": {
+    "Matching Tiles:城市景觀": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "親愛的農場": {
+    "Piggy Escape: Pig Jam Farm": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "部落衝突 (Clash of Clans)": {
+    "Tiletopia：三消方塊配對": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "食光旅行": {
+    "尋寶遊戲：尋找隱藏物品": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "The 9th Haunted Corridor": {
+    "深海水族館-點點可培養的水族館": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "每日麻將配對": {
+    "物品分類：連連看3消除遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "箭術堡壘：城堡戰爭": {
+    "腦力測試 (Brain Test)：謎題急轉彎": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "劍之川": {
-      "codes": 2,
-      "guides": 1,
-      "events": 1
-    },
-    "塔塔冒險隊": {
+    "屍控防線 - Zomline Survival": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "子彈英雄：塔防 × 戰棋策略 RPG": {
+    "果燃很派": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "孔明與阿斗": {
+    "機甲突襲：Titan Rush": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "王國紀元 (Lords Mobile)：全面戰爭": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -255,7 +255,22 @@
     "劍之川": "2026-11-08T05:47:47+00:00",
     "塔塔冒險隊": "2026-11-08T05:47:47+00:00",
     "子彈英雄塔防戰棋策略rpg": "2026-11-08T05:47:47+00:00",
-    "孔明與阿斗": "2026-11-08T05:47:47+00:00"
+    "孔明與阿斗": "2026-11-08T05:47:47+00:00",
+    "deliciousbb裝飾與三消": "2026-11-08T05:49:10+00:00",
+    "jewelcoloring": "2026-11-08T05:49:10+00:00",
+    "jigsawpuzzle經典拼圖遊戲": "2026-11-08T05:49:10+00:00",
+    "mahjongvoyagetilematching": "2026-11-08T05:49:10+00:00",
+    "matchingtiles城市景觀": "2026-11-08T05:49:10+00:00",
+    "piggyescapepigjamfarm": "2026-11-08T05:49:10+00:00",
+    "tiletopia三消方塊配對": "2026-11-08T05:49:10+00:00",
+    "尋寶遊戲尋找隱藏物品": "2026-11-08T05:49:10+00:00",
+    "深海水族館點點可培養的水族館": "2026-11-08T05:49:10+00:00",
+    "物品分類連連看3消除遊戲": "2026-11-08T05:49:10+00:00",
+    "腦力測試braintest謎題急轉彎": "2026-11-08T05:49:10+00:00",
+    "屍控防線zomlinesurvival": "2026-11-08T05:49:10+00:00",
+    "果燃很派": "2026-11-08T05:49:10+00:00",
+    "機甲突襲titanrush": "2026-11-08T05:49:10+00:00",
+    "王國紀元lordsmobile全面戰爭": "2026-11-08T05:49:10+00:00"
   },
   "errors": []
 }

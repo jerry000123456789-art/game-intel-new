@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-08T10:26:36+00:00",
+  "checked_at": "2026-11-08T10:37:51+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
-    "guides": 0,
-    "events": 0
+    "guides": 2,
+    "events": 3
   },
   "total_leads": {
     "codes": 34,
-    "guides": 29,
-    "events": 43
+    "guides": 31,
+    "events": 46
   },
   "per_game": {
-    "6·25 한국전쟁": {
+    "Block Puzzle - 益智遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "and Roger": {
+    "Jewel Loop - Coloring Sort": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Art of Fauna: Cozy Puzzles+": {
+    "Jolly Days：時間管理農場模擬遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "A Slight Chance of Sawblades+": {
+    "Mafioso: Mafia PvP online": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "A Space for the Unbound": {
+    "Mushroom Wars 2: 多人游戏 战略 & 塔防": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Beholder": {
+    "Nonogram.com - 邏輯數字遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Beholder: Conductor": {
+    "Offline Games - No Wifi Games": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Block Out! - Color Sort Puzzle": {
+    "SEVENTEEN配配樂": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Bloomtown: A Different Story": {
+    "Stunt Car Extreme": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Bloons TD 6": {
+    "View": {
+      "codes": 0,
+      "guides": 2,
+      "events": 3
+    },
+    "彈射器任務": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Bus Fever Party: バスゲーム渋滞脱出パズル": {
+    "漫遊小鎮®：合併&故事": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Chess.com - Play and Learn": {
+    "火辣餐廳：合併&烹飪": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Clash of Clans": {
+    "策略：單機塔防遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Color Puzzle Jam - Bus Fever": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Cutie Sort - かわいい色分けゲーム": {
+    "Evoland 2": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -330,7 +330,22 @@
     "chesscomplayandlearn": "2026-11-08T10:26:36+00:00",
     "clashofclans": "2026-11-08T10:26:36+00:00",
     "colorpuzzlejambusfever": "2026-11-08T10:26:36+00:00",
-    "cutiesortかわいい色分けゲーム": "2026-11-08T10:26:36+00:00"
+    "cutiesortかわいい色分けゲーム": "2026-11-08T10:26:36+00:00",
+    "blockpuzzle益智遊戲": "2026-11-08T10:37:51+00:00",
+    "jewelloopcoloringsort": "2026-11-08T10:37:51+00:00",
+    "jollydays時間管理農場模擬遊戲": "2026-11-08T10:37:51+00:00",
+    "mafiosomafiapvponline": "2026-11-08T10:37:51+00:00",
+    "mushroomwars2多人游戏战略塔防": "2026-11-08T10:37:51+00:00",
+    "nonogramcom邏輯數字遊戲": "2026-11-08T10:37:51+00:00",
+    "offlinegamesnowifigames": "2026-11-08T10:37:51+00:00",
+    "seventeen配配樂": "2026-11-08T10:37:51+00:00",
+    "stuntcarextreme": "2026-11-08T10:37:51+00:00",
+    "view": "2026-11-08T10:37:51+00:00",
+    "彈射器任務": "2026-11-08T10:37:51+00:00",
+    "漫遊小鎮合併故事": "2026-11-08T10:37:51+00:00",
+    "火辣餐廳合併烹飪": "2026-11-08T10:37:51+00:00",
+    "策略單機塔防遊戲": "2026-11-08T10:37:51+00:00",
+    "evoland2": "2026-11-08T10:37:51+00:00"
   },
   "errors": []
 }

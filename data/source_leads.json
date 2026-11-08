@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T10:26:36.143876+00:00",
-  "note": "Historical source leads retained; not validated codes, full guides, or confirmed event dates.",
+  "updated_at": "2026-11-08T10:37:51+00:00",
+  "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
       {
@@ -285,6 +285,15 @@
     ],
     "guides": [
       {
+        "game": "View",
+        "kind": "guides",
+        "title": "Wuhan Guide Infrared Co. Ltd. Class A的Price to book forward – SZSE:002414 - TradingView",
+        "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZW9pdF8wd2daWlRLWU0xaFlrLVJWR00wNEFjUExvV3pneEh3MGVVYllXc1VSZnV2TTBNamJYdmJJUV91OW5VYldXV3ZRLTBGYlVUbFBTSXZ3QmZKbXVyT3poTFRSV09NZE4yVjUtLVFnNEJMWVQ0VDM4WGFFaGMtMWlyVGZtbEtkQUdnbU0waHVHcEIxYTZjODRiYw?oc=5",
+        "published_at": "2026-11-06T05:16:58+00:00",
+        "publisher": "TradingView",
+        "status": "source_lead_only"
+      },
+      {
         "title": "《Disney Sparklink Stars》新手攻略！首抽方向、角色培育與三消玩法一次掌握 - SouNova 少女星",
         "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9HNUhzM1pIbFJTbThYS1dBQWczU0F0cmFMZXFGTkRQOHZKc1VjdTJQSmhSN2JVUEY3a0NnaDRLdDljQlVNbTY4UW1ycklYQlF0ZV9UUzVMREh2VndGcVdJWmxhX3dRWnpIRGQ2Sms1d0k?oc=5",
         "publisher": "SouNova 少女星",
@@ -308,6 +317,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE92T0JrbXhnTEhEMDFNalRNbU1ETnFqRXpRdXVHMjhWazZSNF9qOEVJb3o2OVhmdHllb3JFcjZCRUNUUFlEaXJDM2k5S25ZWElHc3B1cnpLVkNaTU1ZUXAtQldQS2xBaG8?oc=5",
         "published_at": "2026-11-03T12:24:03+00:00",
         "publisher": "Mobile01",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "View",
+        "kind": "guides",
+        "title": "Sandro Piancone and Jorge Olson Release Wholesale MBA, the Insider's Guide to Selling Consumer Goods Through Distributors, Retailers, and Direct-to-Consumer Channels - TradingView",
+        "source_url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOSG1tVm5IUnFWYUtWNDBwem5STDFmdUp5TXQ1T2xPMlFvTkFCQzlqa0c0THdEa092V1hYX3FzcFZrakk3enp6bG5qN09BR0ctVHBPNmVPOS1UaHdVRFpWYWptRnBidlpXbWZJd0gwREVGSDd5QkItX0VEZTNOLXJ6cTZvc1g5a192STRNTFd0bjdIYmV3eVRhZl9oUXBuMG43YWVlNzNZYURweWh1QzdnRGdNVklsNnQ0MWtZOFJsOTNGTFRtVG1wZ1dfaXY0NXVFbWtla0g0eDY0aXhIM2p5Qy1EQXpQX2NhM1NrWTFUYi1kWkM3M1Q3SXlwWk5QVS1mZmJSRkY3S29lU3dFaW9aRW5uWEREUzItZ084UGtMRl9CS3JoZ3hBZEl0aGdyS1ZoZWhGcFhZZ0R1NWF3VmhzUmJQdw?oc=5",
+        "published_at": "2026-11-03T11:00:00+00:00",
+        "publisher": "TradingView",
         "status": "source_lead_only"
       },
       {
@@ -542,6 +560,33 @@
         "source_url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5idzFDeTUtUzdzR0JJYi11YTdMcWsxZUVMbXphNmdFenNwaEE1SVpGMFlpRC1PVGF0U2F3?oc=5",
         "published_at": "2026-11-07T12:02:22+00:00",
         "publisher": "Howl.Link",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "View",
+        "kind": "events",
+        "title": "微軟數據中心遭抗議者闖入 歐洲多國擬聯動示威 - TradingView",
+        "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05b2V5MVJKVU5WYXFuRVFCdjJVT0NaR3pmSUpIM1ZzMnlmbUN4LTFHN3BxaklfdVpZT0JlSXkyaTlHeVBLenNhMFp3eEJyb29PeTR2c2h0MEZFOVZTcVhRckNTOUtRRG0zQkE?oc=5",
+        "published_at": "2026-11-06T14:15:23+00:00",
+        "publisher": "TradingView",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "View",
+        "kind": "events",
+        "title": "隨著抗議活動在歐洲蔓延，活動人士闖入微軟數據中心施工現場 - TradingView",
+        "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53WXRZdkwyODY1UV9tSllzUTk5MnhWSHlfaHNld3ZBRUVxV2RlSGhRY2xNYTB3UGw3S05sanQyWFd0Qi1pTzJyamszcG9MWGZ3LUxuMDlhMGFsM3Nmc1V1MW5KNVhfR0tFcEpUdkxVT1VsUVV0YlI0?oc=5",
+        "published_at": "2026-11-06T13:13:23+00:00",
+        "publisher": "TradingView",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "View",
+        "kind": "events",
+        "title": "隨著抗議活動在歐洲蔓延，活動人士闖入微軟數據中心施工現場 - TradingView",
+        "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9EZVlmVXhYU2huSkZpT1FSanV6XzJLSUtBUmhsVUowRFRQZ3RkajJzSjV0NFB4S0h4ZFp0N09WY0dQMGhiSWl6T0VpbkhrdVFpMzJwN1p4MHBxZ2cxRTVqVjdZbGhGaWN0UG96VFZlaVRCTmRHanVr?oc=5",
+        "published_at": "2026-11-06T13:13:23+00:00",
+        "publisher": "TradingView",
         "status": "source_lead_only"
       },
       {

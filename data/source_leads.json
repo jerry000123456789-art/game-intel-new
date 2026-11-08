@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T19:34:45.928146+00:00",
-  "note": "Historical source leads retained; not validated codes, full guides, or confirmed event dates.",
+  "updated_at": "2026-11-08T21:45:48+00:00",
+  "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
       {
@@ -409,6 +409,15 @@
         "status": "source_lead_only"
       },
       {
+        "game": "貓咪大戰爭",
+        "kind": "guides",
+        "title": "貓咪大戰爭12/5、6高雄登場！巨型氣球、數字13換好禮與夢時代周邊攻略 - 輕旅行",
+        "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5UQnl1VzBqSERoRklFc2VYWjU3ZVhJLVBWaEE3dHNiSUJabEVrQWZGeWhlcFpaSHhpeS1fVnFYWkdmeDVRWkhFR3NnVkxzUQ?oc=5",
+        "published_at": "2026-11-03T08:00:00+00:00",
+        "publisher": "輕旅行",
+        "status": "source_lead_only"
+      },
+      {
         "game": "Pikmin Bloom",
         "kind": "guides",
         "title": "CoCo聯手皮克敏《Pikmin Bloom》！金盆拿法攻略　全台門市一次看 - NOWnews今日新聞",
@@ -814,6 +823,15 @@
         "status": "source_lead_only"
       },
       {
+        "game": "貓咪大戰爭",
+        "kind": "events",
+        "title": "【貓飛狗跳】『貓咪大戰爭』十四周年大慶越獄物語全新主題關卡震撼來襲 - https://www.webook.com.tw/",
+        "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1YLTVUWmZFYjBoNmV5WG85WVVWQTZPSFduaGh1S0dGMXFQSlpRZ3RpV3B4N2g0MXdhWm13cDVhUUZPVm9YempCZ0YtWHMza1h3VDl3UER4OVJWeTFHb1VVeGhicktlOUl2Y1JUSV9tOUVoQWM?oc=5",
+        "published_at": "2026-11-06T09:01:37+00:00",
+        "publisher": "https://www.webook.com.tw/",
+        "status": "source_lead_only"
+      },
+      {
         "game": "Fortnite",
         "kind": "events",
         "title": "《Fortnite》×《Overwatch》要聯動了？粉絲卻反應兩極：以後打 game 還要算時機湊熱點是嗎？ - SuperDope.Games",
@@ -1033,6 +1051,24 @@
         "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaThVY2pJVFNjaEdqRkVEbXlHdHY2bGV1UzhLZWktRmZuSGQwdVhpVjNBdFhPZUtjdTc3ZHlkY0FnWF9aOWE4NXZwTmR3R0lxaE5PZ0ZqR2k4QzlHWmlHV3RETW91ZWMtVUdPeF9NYkVFSFUtTmFid09YZXg1aFFaWVFPRlBxTEtlaGUwdFBpRHpiY05tVmkwdkNsMlA5azYtOVZxZU9oMUFaTmFjeHhTbl9RN1otQQ?oc=5",
         "published_at": "2026-11-02T20:12:42+00:00",
         "publisher": "quasa.io",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "貓咪大戰爭",
+        "kind": "events",
+        "title": "《貓咪大戰爭》×《熱血硬派國夫君》期間限定合作活動登場- 股市爆料同學會 - CMoney",
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EeWNCcjJrdklQcFRPUllvSVZrYnQyNElRZC1uVXVROWV3c3BRLWlYQXNUOElMblNmOWQ0X0F5aDlaU0swX1Z2SHN2QXJjWEY2aC1KYWRaSVU?oc=5",
+        "published_at": "2026-11-02T10:42:55+00:00",
+        "publisher": "CMoney",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "貓咪大戰爭",
+        "kind": "events",
+        "title": "《貓咪大戰爭》×《熱血硬派國夫君》期間限定合作活動登場《The Battle Cats》 - GNN 新聞網",
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBxOWJJWGdtZmwydmtSUksyYUpyLVlkTWIzeGZydmZBQU9LOEpFcWVMS0JTRGpHZE9zMXd0UGhkS2pncFBpSE9GNy1DVVZvN0s1NWMtcHFSakc?oc=5",
+        "published_at": "2026-11-02T10:30:43+00:00",
+        "publisher": "GNN 新聞網",
         "status": "source_lead_only"
       },
       {

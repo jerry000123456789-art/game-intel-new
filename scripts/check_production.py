@@ -36,10 +36,25 @@ def check():
         test_key="97b4b4acbe0b4915bb6ee85e91269377"
         def watched(method="GET",record=None):
             payload=json.dumps(record,ensure_ascii=False).encode("utf-8") if record else None
-            req=Request(BASE+"/api/watchlist",data=payload,method=method,headers={
-              "X-Watch-Key":test_key,"Accept":"application/json",
-              "Origin":BASE,"Content-Type":"application/json"})
-            with urlopen(req,timeout=20) as response:return response.status,json.loads(response.read(200000))
+            headers={"X-Watch-Key":test_key,"Accept":"application/json"}
+            if method!="GET":headers.update({"Origin":BASE,"Content-Type":"application/json"})
+            req=Request(BASE+"/api/watchlist",data=payload,method=method,headers=headers)
+            try:
+                with urlopen(req,timeout=20) as response:return response.status,json.loads(response.read(200000))
+            except Exception as exc:
+                if hasattr(exc,"read"):
+                    body=exc.read(1200).decode("utf8","replace")
+                    print("WATCHLIST HTTP ERROR:",method,getattr(exc,"code",0),"BODY",body[:800],flush=True)
+                raise
+        # A live Worker route returns JSON 400 for an absent key; static assets do not.
+        try:
+            req=Request(BASE+"/api/watchlist",headers={"Accept":"application/json"})
+            with urlopen(req,timeout=10) as resp:
+                print("WATCHLIST ROUTE PROBE:",resp.status,resp.read(300),flush=True)
+        except Exception as probe_err:
+            if hasattr(probe_err,"read"):
+                print("WATCHLIST ROUTE PROBE:",getattr(probe_err,"code",0),probe_err.read(380).decode("utf8","replace"),flush=True)
+            else:print("WATCHLIST ROUTE PROBE ERROR:",str(probe_err)[:200],flush=True)
         code,existing=watched()
         print("WATCHLIST API: GET",code,existing.get("source_mode"),flush=True)
         if code!=200 or existing.get("status")!="ok":problems.append("Cloud persistent watchlist unavailable")

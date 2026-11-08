@@ -127,7 +127,7 @@ async function lookup(request,env){
  * Google News RSS is fetched only for bounded plain-text game names.
  */
 const WATCH_INTERVAL=3*60*60*1000;
-const WATCH_DATE_RE=/20\d{2}[-/.年](?:0?[1-9]|1[0-2])[-/.月](?:0?[1-9]|[12]\d|3[01])/g;
+const WATCH_DATE_RE=/20\d{2}[-/.年](?:1[0-2]|0?[1-9])[-/.月](?:3[01]|[12]\d|0?[1-9])(?!\d)/g;
 const WATCH_PERIOD_RE=/活動期間|活動時間|舉辦期間|event period|event dates?/i;
 const WATCH_EVENT_RE=/活動|聯動|限時|慶典|週年|周年|賽季|event|collab|festival/i;
 const WATCH_MAX_GAMES=25;

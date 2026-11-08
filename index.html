@@ -149,13 +149,17 @@ async function lookupGame(kind){
     finally{clearTimeout(timeout);}
     const result=await response.json();
     let entries=Array.isArray(result.entries)?result.entries:[];
-    let html='<h3>即時搜尋：最近 10 天的'+(kind==='events'?'活動公告':'攻略來源')+'</h3>';
+    let scheduled=result.source_mode==='scheduled_cache';
+    let html='<h3>'+(scheduled?'定時收集的資料':'即時搜尋')+'：最近 10 天的'+(kind==='events'?'活動公告':'攻略來源')+'</h3>';
     if(!response.ok||result.status!=='ok'){
-      html+='<div class="empty">即時搜尋來源目前無法讀取，已保留上方已收錄資料。'+safe(result.error||'')+'</div>';
-    }else if(!entries.length){
-      html+='<div class="empty">本次沒有搜尋到符合名稱的公開公告。不代表遊戲一定沒有活動或攻略。</div>';
+      html+='<div class="empty">即時搜尋與資料庫暫時無法讀取，已保留上方已收錄資料。'+safe(result.error||'')+'</div>';
     }else{
-      html+='<div class="muted">來源檢查：'+fmt(result.checked_at)+'。下列刊登日期不是活動起訖日期。</div>'+lookupRows(entries);
+      if(scheduled)html+='<p class="muted">即時來源目前無法連線，以下改用每 3 小時收集的資料庫，最近更新：'+fmt(result.updated_at)+'。</p>';
+      if(!entries.length){
+        html+='<div class="empty">目前資料來源沒有找到最近 10 天符合名稱的公告，不代表該遊戲沒有活動或攻略。</div>';
+      }else{
+        html+='<div class="muted">查詢時間：'+fmt(result.checked_at)+'。新聞刊登日期不是活動開始日期。</div>'+lookupRows(entries);
+      }
     }
     target.innerHTML=cached+html;
   }catch(err){

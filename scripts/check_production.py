@@ -21,10 +21,17 @@ def check():
         html=data.decode("utf-8","replace")
         marks=["全球遊戲情報中心","國際全部國家","平台 × 國家 上市日期",
                "最近 30 天攻略原文","最近 30 天活動公告","僅顯示有實際兌換碼的遊戲"]
+        marks.extend(["id=\"businessApp\"","data-version=\"commercial-dashboard-v1\"","/business.js","/business.css","新增追蹤遊戲","多平台文案工作台"])
         missing=[x for x in marks if x not in html]
         print("FRONTEND:",status,"bytes",len(data),"missing",missing,flush=True)
         if status!=200 or "html" not in ctype or missing:problems.append("Production frontend not updated")
     except Exception as e:problems.append("HTML unavailable: "+str(e))
+    for asset,mark in (("/business.js","function gameStatus(rows)"),("/business.css",".gx-app"),("/data/featured_launches.json","WellDiver"),("/data/tracked_events.json","items")):
+        try:
+            asset_status,asset_type,asset_data=get(asset+"?release_check=1")
+            print("BUSINESS ASSET:",asset,"HTTP",asset_status,"bytes",len(asset_data),flush=True)
+            if asset_status!=200 or mark not in asset_data.decode("utf-8","replace"):problems.append(asset+" not deployed")
+        except Exception as e:problems.append(asset+" unavailable: "+str(e))
     try:
         status,ctype,data=get("/data/coverage_status.json?release_check=1")
         server=json.loads(data);local=json.loads((ROOT/"data/coverage_status.json").read_text(encoding="utf8"))

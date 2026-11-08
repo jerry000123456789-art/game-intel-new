@@ -34,6 +34,7 @@ jobs:
           python scripts/test_discovery_pipeline.py
           python scripts/test_frontend_js.py
           node scripts/test_live_lookup.mjs
+          node tests/test_code_list.mjs
           python -m py_compile scripts/collect_game_related.py scripts/collect_payment_methods.py scripts/discover_sources.py
       - name: Fetch public news, YouTube, Bahamut and store pages
         run: |

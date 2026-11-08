@@ -52,6 +52,14 @@ function uniqueGames(){
     if(!g.first_seen_at||x.first_seen_at<g.first_seen_at)g.first_seen_at=x.first_seen_at;
     if(g.status==='商店收錄'&&x.status!=='商店收錄')g.status=x.status;
   }
+  for(let game of m.values()){
+    const observed=releaseFor(game).filter(x=>x.availability==='商店有收錄'||x.availability==='商店目錄已收錄');
+    for(const x of observed){
+      if(!game.countries.includes(x.country))game.countries.push(x.country);
+      const region=x.country==='TW'?'台灣':'國際';
+      if(!game.regions.includes(region))game.regions.push(region);
+    }
+  }
   return [...m.values()];
 }
 function gameAppIds(g){
@@ -89,7 +97,7 @@ function releaseDateRows(g){
       +(x.source_url?'<div>'+link(x.source_url,'商店／資料來源')+'</div>':'')
       +'</div>').join('');
 }
-const STORE_SOURCES=['Google Play 台灣','Google Play 國際','App Store 台灣','App Store 美國','App Store 日本','App Store 韓國','Huawei AppGallery','Steam'];$('storeSources').innerHTML='<span class="muted">站內收錄來源：'+STORE_SOURCES.join(' · ')+'。使用上方「平台／地區」直接篩選，不會跳出網站。</span>';
+const STORE_SOURCES=['Google Play 台灣','Google Play 美國／日本／韓國','App Store 台灣／美國／日本／韓國','Huawei AppGallery','Steam'];$('storeSources').innerHTML='<span class="muted">站內收錄來源：'+STORE_SOURCES.join(' · ')+'。使用上方「平台／地區」直接篩選，不會跳出網站。</span>';
 function detail(title,html){$('detailTitle').textContent=title;$('detailBody').innerHTML=html;$('detail').showModal()}
 function gameKey(name){return String(name||'').toLocaleLowerCase().replace(/[ \u3000:：·\-—「」『』()（）!！,，.。]/g,'').replace('genshinimpact','原神')}
 function relatedFor(game,kind){let k=gameKey(game);return (db.leads[kind]||[]).filter(x=>x.game&&gameKey(x.game)===k)}

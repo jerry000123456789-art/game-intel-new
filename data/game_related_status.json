@@ -1,93 +1,93 @@
 {
-  "checked_at": "2026-11-08T19:18:04+00:00",
+  "checked_at": "2026-11-08T19:21:28+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
-    "guides": 0,
-    "events": 0
+    "guides": 10,
+    "events": 9
   },
   "total_leads": {
     "codes": 35,
-    "guides": 37,
-    "events": 58
+    "guides": 47,
+    "events": 67
   },
   "per_game": {
-    "Bouncemasters: Penguin Games": {
+    "Phase 10: Casual Card Game": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Klondike Adventures": {
+    "迷霧小鎮: 合成遊戲 (Mystery Town)": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "My Little Pony: Magic Princess": {
+    "Mahjong 10：匹配合十": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Pixel Art - 數字填色": {
+    "Mahjong Blast": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Solitaire Grand Harvest": {
+    "Mahjong Blast（麻將消消樂益智遊戲）": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Wolf Tales - Wild Animal Sim": {
+    "Matching Story - 益智消除": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "兒童遊戲為了幼兒: 學習和玩, 顏色、數學、數字、拼圖": {
+    "Melon Sandbox": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "GUBBINS": {
+    "Merge Cat Town : Mystery Merge": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Guncho": {
+    "Minecraft": {
+      "codes": 0,
+      "guides": 1,
+      "events": 0
+    },
+    "MONOPOLY GO! (大富翁 GO!)": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Happy Color® – 按數字編號上色的塗色書": {
+    "MOVLO: Logic Puzzle": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Hello Kitty My Dream Store": {
+    "My Cat: 我的貓咪 - 電子寵物遊戲 我的虛擬寵物": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Home Story: Match-Up!": {
+    "Pikmin Bloom": {
+      "codes": 0,
+      "guides": 3,
+      "events": 3
+    },
+    "Please, Touch The Artwork": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Jewel Bloom：像素填色與色彩分類": {
+    "Pokémon GO": {
       "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "LEVELS II": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "LINE Bubble 2－泡泡射擊益智遊戲": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
+      "guides": 6,
+      "events": 6
     }
   },
   "checked_games": {
@@ -570,7 +570,22 @@
     "homestorymatchup": "2026-11-08T19:18:04+00:00",
     "jewelbloom像素填色與色彩分類": "2026-11-08T19:18:04+00:00",
     "levelsii": "2026-11-08T19:18:04+00:00",
-    "linebubble2泡泡射擊益智遊戲": "2026-11-08T19:18:04+00:00"
+    "linebubble2泡泡射擊益智遊戲": "2026-11-08T19:18:04+00:00",
+    "phase10casualcardgame": "2026-11-08T19:21:28+00:00",
+    "迷霧小鎮合成遊戲mysterytown": "2026-11-08T19:21:28+00:00",
+    "mahjong10匹配合十": "2026-11-08T19:21:28+00:00",
+    "mahjongblast": "2026-11-08T19:21:28+00:00",
+    "mahjongblast麻將消消樂益智遊戲": "2026-11-08T19:21:28+00:00",
+    "matchingstory益智消除": "2026-11-08T19:21:28+00:00",
+    "melonsandbox": "2026-11-08T19:21:28+00:00",
+    "mergecattownmysterymerge": "2026-11-08T19:21:28+00:00",
+    "minecraft": "2026-11-08T19:21:28+00:00",
+    "monopolygo大富翁go": "2026-11-08T19:21:28+00:00",
+    "movlologicpuzzle": "2026-11-08T19:21:28+00:00",
+    "mycat我的貓咪電子寵物遊戲我的虛擬寵物": "2026-11-08T19:21:28+00:00",
+    "pikminbloom": "2026-11-08T19:21:28+00:00",
+    "pleasetouchtheartwork": "2026-11-08T19:21:28+00:00",
+    "pokémongo": "2026-11-08T19:21:28+00:00"
   },
   "errors": []
 }

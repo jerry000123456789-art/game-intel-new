@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T19:18:04.466026+00:00",
-  "note": "Historical source leads retained; not validated codes, full guides, or confirmed event dates.",
+  "updated_at": "2026-11-08T19:21:28+00:00",
+  "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
       {
@@ -328,12 +328,39 @@
         "status": "source_lead_only"
       },
       {
+        "game": "Pokémon GO",
+        "kind": "guides",
+        "title": "Pokémon GO 超極巨化鋁鋼龍攻略：最佳打手、剋星、隊伍配置與招式 - Pokemon Hubs",
+        "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9NM05MMlZselRfREg1OGNyal9iLTljUnlzdHNVdUNUVXRhY0hPSW5IMllQVVZNbDVrU0Z3N2ZzaDBrd2YxVzVmS1dDaTIwQmc5MVE?oc=5",
+        "published_at": "2026-11-05T00:08:06+00:00",
+        "publisher": "Pokemon Hubs",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Pokémon GO",
+        "kind": "guides",
+        "title": "Pokémon GO 萬聖節熊寶寶聚焦時刻（2026年11月）：最後一刻攻略 - Pokemon Hubs",
+        "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB1cGJ4dWR5d3lyOTVOZnItSjhBWXVRR3k4QmhzQ05kYmFpaklNaEhHR3R6UGlhQVllWGhIRk1zbGpPbGZ1ZUpNX29aZENUcUNYWlE?oc=5",
+        "published_at": "2026-11-04T15:01:24+00:00",
+        "publisher": "Pokemon Hubs",
+        "status": "source_lead_only"
+      },
+      {
         "game": "Old School RuneScape",
         "kind": "guides",
         "title": "這真的是在玩遊戲嗎？《Old School RuneScape》玩家重複跑障礙3,475小時，只為練滿一項技能 - SuperDope.Games",
         "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tc2xkWWNITEFoRGxvSEdDV281R0wzTVUzSFg5Y1V6eEx3QjI0Vy1CYmFaQnlHb0R6c253c1JsRUpiZzJTYV9hMExPQXByX3EwUnNCTA?oc=5",
         "published_at": "2026-11-04T14:22:01+00:00",
         "publisher": "SuperDope.Games",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Pokémon GO",
+        "kind": "guides",
+        "title": "Pokémon GO 暗影龍捲雲（化身形態）團體戰攻略：最佳剋星、CP、弱點與色違 - Pokemon Hubs",
+        "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB6SlNpcjNveTNtQTNNSUFRUzRZS3Y1cGplTHJZNVBOY3c2ajFyUWlPWEZqOFlJc2hKMEVzNjBUcFZYNVpKSVpsMzBrS19NWmFzcVE?oc=5",
+        "published_at": "2026-11-04T00:26:31+00:00",
+        "publisher": "Pokemon Hubs",
         "status": "source_lead_only"
       },
       {
@@ -352,6 +379,24 @@
         "source_url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOSG1tVm5IUnFWYUtWNDBwem5STDFmdUp5TXQ1T2xPMlFvTkFCQzlqa0c0THdEa092V1hYX3FzcFZrakk3enp6bG5qN09BR0ctVHBPNmVPOS1UaHdVRFpWYWptRnBidlpXbWZJd0gwREVGSDd5QkItX0VEZTNOLXJ6cTZvc1g5a192STRNTFd0bjdIYmV3eVRhZl9oUXBuMG43YWVlNzNZYURweWh1QzdnRGdNVklsNnQ0MWtZOFJsOTNGTFRtVG1wZ1dfaXY0NXVFbWtla0g0eDY0aXhIM2p5Qy1EQXpQX2NhM1NrWTFUYi1kWkM3M1Q3SXlwWk5QVS1mZmJSRkY3S29lU3dFaW9aRW5uWEREUzItZ084UGtMRl9CS3JoZ3hBZEl0aGdyS1ZoZWhGcFhZZ0R1NWF3VmhzUmJQdw?oc=5",
         "published_at": "2026-11-03T11:00:00+00:00",
         "publisher": "TradingView",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Pikmin Bloom",
+        "kind": "guides",
+        "title": "CoCo聯手皮克敏《Pikmin Bloom》！金盆拿法攻略　全台門市一次看 - NOWnews今日新聞",
+        "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5wNzljWDh6TWtSUzBTd1VHakdYTllnSFFSUElUU1dZS0VNZjhRbGR3QTlnS0F1MHRadGs3RDE4V3V3TEFHRDFRaXBTTGXSAVJBVV95cUxOUlQtY3M3TTZpb2hLM3pBX18zejJLZTdURjZxRFhESUs5ZnRyM251UFN1REZQOWZkSV96S1ZCeTBQQXk4enl0N2dqZHdmRzI4M2tR?oc=5",
+        "published_at": "2026-11-03T03:59:32+00:00",
+        "publisher": "NOWnews今日新聞",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Pikmin Bloom",
+        "kind": "guides",
+        "title": "皮克敏 4 Switch 2 體驗版 11/2 開放！免費下載、玩法與 Pikmin Bloom 獎勵攻略 - 蘋果仁",
+        "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE96NXpjQ3dUekxHQkxsNDlQeERBc0JncXRER1lNVXh5RV9vaVF3UTVscWx3ckJpMnF6aGFVclhaYjg5WFNZSlJBcTJNMmI?oc=5",
+        "published_at": "2026-11-03T01:01:51+00:00",
+        "publisher": "蘋果仁",
         "status": "source_lead_only"
       },
       {
@@ -382,12 +427,30 @@
         "status": "source_lead_only"
       },
       {
+        "game": "Pokémon GO",
+        "kind": "guides",
+        "title": "Pokémon GO 極巨化腕力 極巨星期一攻略 (2026年11月)：最佳打手、弱點與獎勵 - Pokemon Hubs",
+        "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WSDJPSGhFa0h1S2tQd3dfcWdTdTdEaTRrRmQ2VHRDclVqaFAxcllGNTJMd1JrRVBhWHVKeGZRRlluRDN0TEN3M1dKSEZFVnUwNlE?oc=5",
+        "published_at": "2026-11-01T17:24:50+00:00",
+        "publisher": "Pokemon Hubs",
+        "status": "source_lead_only"
+      },
+      {
         "game": "米卡：地城背包客",
         "kind": "guides",
         "title": "米卡地城背包客官方認證T0最強首抽陣容+史上最多禮包碼+近10組最新序號拿最神技能+T0武器+最暴力秒殺#米卡地城背包客序號#米卡地城背包客兌換碼#米卡地城背包客禮包碼#米卡地城背包客首抽#米卡地城背包客攻略#米卡地城背包客巴哈#米卡地城背包客組 - Mobile01",
         "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1weGU3bS0teGJQMkRucm1WcWRXMjJab3NLR3lsZHNkTXNqdWFzWUZTYmdiZmp5bWpqTnJFVmZnekYtWFluUWZ5UmdYSUdYWWFUUjZCX0tlaF9sQnFGR0s0b2hrcWM5bDQ?oc=5",
         "published_at": "2026-11-01T10:40:53+00:00",
         "publisher": "Mobile01",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Pokémon GO",
+        "kind": "guides",
+        "title": "Pokémon GO 萬聖節2026 Part 2：異色墓仔狗首次登場！活動攻略 - Pokemon Hubs",
+        "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9yWUd5SlFKTkhadklWRHhXQUNJM3dTa2JwQVJwWFJ5OVlyaWF4SDJJS1R0QnB3a3NCTWNpd2h2c1h5ZDhzVjdFQl9sT0ZZMFB5X2c?oc=5",
+        "published_at": "2026-11-01T07:00:00+00:00",
+        "publisher": "Pokemon Hubs",
         "status": "source_lead_only"
       },
       {
@@ -400,6 +463,15 @@
         "status": "source_lead_only"
       },
       {
+        "game": "Minecraft",
+        "kind": "guides",
+        "title": "新手礦石 - Minecraft",
+        "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNX0FBc1c1MUpYeElIUWtSV05Oa0RhdThjTGZHTjhnc2gyenNfbk5yNllVS2RUY3hjbUprWW1LUkw2TlIzakdnV2tWNE5fYXFremYxRmctUnRlQ2l3ZmlnR09WYmVSZ3FReXlZYlhiZzlUNHlFdHl4Z0ZqVW1GN1k1bHJPdGFBZnpGdGRXZWdGLU9PRHJiSVJYZTlLNGxlY0dwUGZTelZQbVY0LVNSejlnXw?oc=5",
+        "published_at": "2026-11-01T00:27:20+00:00",
+        "publisher": "Minecraft",
+        "status": "source_lead_only"
+      },
+      {
         "game": "Monster Hunter Outlanders",
         "kind": "guides",
         "title": "魔物獵人旅人Monster Hunter Outlanders 首抽推薦｜刷首抽時間、啟程招募與特邀招募保底、首抽目標冒險者 - Ludens Media",
@@ -409,12 +481,30 @@
         "status": "source_lead_only"
       },
       {
+        "game": "Pokémon GO",
+        "kind": "guides",
+        "title": "Pokémon GO 極緻超級水晶燈火靈團體戰日：色違、獎勵、剋星攻略 - Pokemon Hubs",
+        "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5KdU0tWktYZmJmNmFqc1hDOFZvYTkzOGl5WHhVSktORUdzbEpwMEgzVlZFTUIxYnlMNG8wOTJneVVqX3VvWG55LUp5Mk5fdTBVSXc?oc=5",
+        "published_at": "2026-10-31T07:00:00+00:00",
+        "publisher": "Pokemon Hubs",
+        "status": "source_lead_only"
+      },
+      {
         "game": "Fortnite",
         "kind": "guides",
         "title": "Fortnite Guide：所有 Treasure Hunters Battle Pass 造型一覽 - games.gg",
         "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQk05cllTaW9zTDhzZVRjQ0w5WXV3M2ROdzhxNlExRTRWalI0VDc4aElrRG1Fd3JCWkg0bFhRWFBKWmNpRlBiQjB5YXh5dWNnd09pTEVBSTVwcGI3R3lvMUYxcnY3b1JpX2VZYlI0bFJjV2M1Y2kxejhqNWdnUzE3T1BGekg0cWFESWtzeXZlU1JCVWFtenY4U1F4NA?oc=5",
         "published_at": "2026-10-30T07:00:00+00:00",
         "publisher": "games.gg",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Pikmin Bloom",
+        "kind": "guides",
+        "title": "Pikmin Bloom迎接5週年！皮克敏11月主花與活動攻略一次看| 手機王 - LINE TODAY",
+        "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2bF9LRWw0RTBLS0pXRDFxdV9WV21OQW1mRXdtaGZpQ1Vyd2o2LTgzc3E4elY4TnlIbzFtRlBseU51bDJaOHhyQi1NUlktb1JkdmZPZ1V3?oc=5",
+        "published_at": "2026-10-30T07:00:00+00:00",
+        "publisher": "LINE TODAY",
         "status": "source_lead_only"
       },
       {
@@ -607,6 +697,15 @@
     ],
     "events": [
       {
+        "game": "Pokémon GO",
+        "kind": "events",
+        "title": "Pokémon GO 2026本週活動整理（11/9～11/15）：GO 曠野地帶、極巨帝牙盧卡、帕路奇亞 - Pokemon Hubs",
+        "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aSmRzQTNIamRPRlpYc3RoYS03QTUwQ0RyOGcxRFh2UHlXZnRhWWJfeEloYmw3SUtRM3N4VFdUMEpYd0dRRWhZMk9GTUVMTnlNUGc?oc=5",
+        "published_at": "2026-11-08T17:48:38+00:00",
+        "publisher": "Pokemon Hubs",
+        "status": "source_lead_only"
+      },
+      {
         "game": "崩壞：星穹鐵道",
         "kind": "events",
         "title": "《絕區零》公開《崩壞：星穹鐵道》聯動角色戰鬥影片 知更鳥與卡芙卡 Ver. 3.4 登場 - Ludens Media",
@@ -732,6 +831,15 @@
         "status": "source_lead_only"
       },
       {
+        "game": "Pikmin Bloom",
+        "kind": "events",
+        "title": "皮克敏9個角色全解析！《Pikmin Bloom》五週年活動、冬季「神秘洞窟」新玩法預告 - 迷誠品",
+        "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5xQXRlRW85bktKNHZQSzJrUGFWM0lycVAtRy1sVVgxREZwYXYwVVc2cTZLNWdkRlZxNDRYZlFRVU9ZU0dVUkNrUkVsVE1YT3FfVnk3V1l5a2p0UEthbzN3?oc=5",
+        "published_at": "2026-11-04T08:00:00+00:00",
+        "publisher": "迷誠品",
+        "status": "source_lead_only"
+      },
+      {
         "game": "瑪奇 Mobile",
         "kind": "events",
         "title": "《瑪奇Mobile》日版×《【我推的孩子】》聯名合作現已展開推出一系列活動- 股市爆料同學會 - CMoney",
@@ -756,6 +864,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9DWDFkakxGb0RHRjM2d0lVbFlJdWxmNkp2WU1LbjFpODNBVlpfYk9MUHJNT09vUlZpdzVpaUlmNkZkaWl4djhVX3JhaTR3WWNTNmJ5cnA1T0ZCTERvdjBVcGZrQ3NQSFRDWVVKRUZXRWV3Zw?oc=5",
         "published_at": "2026-11-04T04:59:00+00:00",
         "publisher": "Ludens Media",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Pokémon GO",
+        "kind": "events",
+        "title": "【Pokémon GO】11月活動怎麼排？曠野週、全球活動與社群日準備清單 - Mobile01",
+        "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE05T0gydWVWNDI0UjdROEtsRVYzMzdndnMwX1VHWG5BQy1TcnNiRXlqV0U0WTRMTEJqLVBuYWwzZ0ozbV9YcXhiakFYaXg0WUwzbi1UT0xxS0d0bFFXM1ljdFBOMGVkWlE?oc=5",
+        "published_at": "2026-11-04T01:55:42+00:00",
+        "publisher": "Mobile01",
         "status": "source_lead_only"
       },
       {
@@ -803,6 +920,24 @@
         "status": "source_lead_only"
       },
       {
+        "game": "Pokémon GO",
+        "kind": "events",
+        "title": "「Pokémon GO 曠野地帶 2026」公布全新換裝道具、個人檔案上顯示的各種背卡與活動內容 - GNN 新聞網",
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03NDdKTDdWbmxQMHBoWTltMnFCV3ZGUjRuQ2FxSkhwLWkxaGlvZnJZN3lCTFJid05iaVRwQ2I5a3JVNkdoRWJrSWZSN2s4b19HeG5qVzF0TTI?oc=5",
+        "published_at": "2026-11-03T09:23:15+00:00",
+        "publisher": "GNN 新聞網",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Pokémon GO",
+        "kind": "events",
+        "title": "Pokémon GO 2026年11月 GO Pass 獎勵一覽！免費400寶可幣、固拉多與豪華版內容 - Pokemon Hubs",
+        "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1pMWhUcjRLbzM5dloyNXNVdGRRcE1OT1hqY3VMYm5HNHpUa2ttbjNtNDkzVTdPeWNmWWN4WGlmTTlVYjJoMmVVR2lsbkQ3cl9yVlE?oc=5",
+        "published_at": "2026-11-03T08:00:00+00:00",
+        "publisher": "Pokemon Hubs",
+        "status": "source_lead_only"
+      },
+      {
         "title": "《蛋仔派對》首度攜手《丸亀製麵》推出限量聯動周邊與專屬餐點《Eggy Party》 - GNN 新聞網",
         "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5OS1N2eFcwcnVVTEFSMms5R3NyTld1ZUcyTlpNZ0hxQnBSbXRqU2VoWDQ3NUFxNnc2NzZsQ1l1RklqdklOTkM1OWg4a1JqMTFSTlVZZVh6Qkk?oc=5",
         "publisher": "GNN 新聞網",
@@ -826,6 +961,24 @@
         "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40VXJBVWUwRE15cWRUaTRKQm5Va0s2ZjNBcWs3ZnY4aDk2N2o5Y2VuZWZfSlZxdXh3b3RHRGxja2JuRzVuOHZ5NFM2TFZYd05GNGJFSzV3?oc=5",
         "published_at": "2026-11-03T04:14:13+00:00",
         "publisher": "Ludens Media",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Pikmin Bloom",
+        "kind": "events",
+        "title": "《Pikmin Bloom》皮克敏預告追加全新玩法！台灣專屬活動也即將登場 - 自由電子報3C科技",
+        "source_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5DanBmY3pZbHB2elh1R2xGQ2RpZFhoY3dmMzVmR09aLUVkSUl1RTdiSVpud3NXcGtvR1BOMXg4S3BXeEtBNzlr0gFMQVVfeXFMTnBxMGNLWkwzT1prLUZrS19udmloaVk2Qlo2bXFJaTZCZjhvZFpkaWxsWkRMMmdQVWFnZm1tRU5PME54SUhYS1FWV3ZYTw?oc=5",
+        "published_at": "2026-11-03T00:40:00+00:00",
+        "publisher": "自由電子報3C科技",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Pokémon GO",
+        "kind": "events",
+        "title": "「Pokémon GO 曠野地帶2026」全新換裝道具、個人檔案上顯示的各種背卡與精彩活動內容公布！ - Pokémon GO",
+        "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBWVU5uUFFIOXhlZ3RxUURoQzJ4VlJ3Z2lON0ZlX3N5SGVidEZ3eVYzRGg3WHpBMGxtcnd3eUYzU0ZXSnpqRi0zUDJ1RGNpY2xNR0FJWWhPNXJYam5GbUE2Ry0yQ0lJU3JqM3pDX05sMGhXQQ?oc=5",
+        "published_at": "2026-11-03T00:05:17+00:00",
+        "publisher": "Pokémon GO",
         "status": "source_lead_only"
       },
       {
@@ -882,6 +1035,15 @@
         "status": "source_lead_only"
       },
       {
+        "game": "Pokémon GO",
+        "kind": "events",
+        "title": "Pokémon GO 極緻超級水晶燈火靈團體戰日：色違、獎勵、剋星攻略 - Pokemon Hubs",
+        "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5KdU0tWktYZmJmNmFqc1hDOFZvYTkzOGl5WHhVSktORUdzbEpwMEgzVlZFTUIxYnlMNG8wOTJneVVqX3VvWG55LUp5Mk5fdTBVSXc?oc=5",
+        "published_at": "2026-10-31T07:00:00+00:00",
+        "publisher": "Pokemon Hubs",
+        "status": "source_lead_only"
+      },
+      {
         "game": "MLB：9局職棒26",
         "kind": "events",
         "title": "《MLB 9 局職棒26》全球上線10 週年紀念活動開跑- 股市爆料同學會 - CMoney",
@@ -915,6 +1077,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNek5QVDZ3eUkxb0czVkNCOW1FTlpxRU1XRmI4WFlaU0VkOGZkRlJfbjNoSmZTcDEyQUZVUE9NRVB5THdSNV9LYUtmZERCTlJvS2d5bkhoYndsSHJDODNfSF9JQ3BwTVBlaWZqeUw4YnRLZUtEVXJVd0ZZYVRlR0otMk1QUlNEZmcxUWV5dmRaWW5WODRybElFY09fX3lpX1E4RVZ4TXNvZw?oc=5",
         "published_at": "2026-10-30T07:00:00+00:00",
         "publisher": "コラボカフェ",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Pikmin Bloom",
+        "kind": "events",
+        "title": "Pikmin Bloom迎接5週年！皮克敏11月主花與活動攻略一次看| 手機王 - LINE TODAY",
+        "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2bF9LRWw0RTBLS0pXRDFxdV9WV21OQW1mRXdtaGZpQ1Vyd2o2LTgzc3E4elY4TnlIbzFtRlBseU51bDJaOHhyQi1NUlktb1JkdmZPZ1V3?oc=5",
+        "published_at": "2026-10-30T07:00:00+00:00",
+        "publisher": "LINE TODAY",
         "status": "source_lead_only"
       },
       {

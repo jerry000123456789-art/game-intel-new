@@ -49,7 +49,7 @@
       <div class="gx-filters">
         <input type="search" id="gx-game-q" placeholder="搜尋遊戲名稱，例如 WellDiver" aria-label="搜尋遊戲">
         <select id="gx-game-market" aria-label="市場"><option value="all">全部市場</option><option value="TW">台灣</option><option value="US">美國／國際</option><option value="HW">華為 AppGallery</option></select>
-        <select id="gx-game-store" aria-label="商店"><option value="all">Google Play ＋ App Store</option><option value="Google Play">Google Play</option><option value="App Store">App Store</option><option value="AppGallery">華為 AppGallery</option></select>
+        <select id="gx-game-store" aria-label="商店"><option value="all">所有</option><option value="Google Play">Google Play</option><option value="App Store">App Store</option><option value="AppGallery">華為 AppGallery</option></select>
         <select id="gx-game-order" aria-label="日期排序"><option value="new">由新到舊</option><option value="old">由舊到新</option></select>
       </div>
       <p id="gx-game-count" class="gx-count">正在核對上市紀錄…</p>
@@ -76,15 +76,16 @@
     <section id="gx-calendar" class="gx-page">
       <p class="gx-lead">只追你指定的遊戲；有明確活動日期才放上月曆，日期未公布的公告留在待確認區。</p>
       <div class="gx-panel">
-        <div class="gx-panel-head"><h2>新增追蹤遊戲</h2><small>雲端監控需要 GitHub 帳號提交</small></div>
+        <div class="gx-panel-head"><h2>新增追蹤遊戲</h2><small id="gx-watch-service">正在連接雲端儲存…</small></div>
         <div class="gx-actions" style="margin-bottom:13px"><button class="gx-btn small" type="button" id="gx-watch-alerts">開啟新活動提醒</button><span class="gx-muted">僅在此網站開啟且瀏覽器允許通知時提醒；雲端資料約每三小時收集。</span></div>
         <form id="gx-watch-form" class="gx-form">
           <div class="gx-two">
             <label>遊戲名稱<input id="gx-watch-name" maxlength="65" minlength="2" placeholder="例如 原神、鳴潮" required></label>
             <label>官方網站或商店網址（選填）<input id="gx-watch-url" type="url" placeholder="https://..."></label>
           </div>
-          <div class="gx-actions"><button class="gx-btn primary" type="submit">加入並提交雲端追蹤</button><span class="gx-muted">會開啟你自己的 GitHub Issue 送出，防止陌生訪客修改追蹤清單。</span></div>
+          <div class="gx-actions"><button class="gx-btn primary" type="submit" id="gx-watch-submit">新增追蹤</button><span class="gx-muted">填寫名稱並送出，系統自動儲存及定時檢查活動。</span></div>
         </form>
+        <div id="gx-watch-result" class="gx-muted" role="status" aria-live="polite" style="margin-top:12px"></div>
         <div class="gx-stack" id="gx-watch-list"></div>
       </div>
       <div class="gx-panel">

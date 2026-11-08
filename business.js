@@ -79,8 +79,18 @@ function gameRecords(){
     if(featured){game.name=name;game.featured=true}
     if(!game.cover&&art)game.cover=art;
     if(!game.developer&&developer)game.developer=developer;
-    const id=p.platform+'|'+p.country+'|'+(p.source||'');
-    if(!game.platforms.some(x=>x.platform+'|'+x.country+'|'+(x.source||'')===id))game.platforms.push(p);
+    const id=p.platform+'|'+p.country;
+    const current=game.platforms.find(x=>x.platform+'|'+x.country===id);
+    if(!current)game.platforms.push(p);
+    else{
+      // A single country+store can be listed by many sources. Merge evidence.
+      if(!current.date&&p.date)Object.assign(current,p);
+      else{
+        if(!current.source&&p.source)current.source=p.source;
+        if(!current.proof&&p.proof)current.proof=p.proof;
+        if(p.preOrder)current.preOrder=true;
+      }
+    }
   }
   for(const r of data.games){
     const pr=platformRow(r,lookup);
@@ -135,8 +145,18 @@ function gameCard(rec,index){
   const g=rec.game,st=rec.status;
   const picture=g.cover?'<img loading="lazy" src="'+esc(goodUrl(g.cover))+'" alt="'+esc(g.name)+'" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'block\'"><span class="gx-image-fallback" style="display:none">官方圖片暫時無法載入</span>':
     '<div class="gx-image-fallback">🎮<br>官方圖片擷取中</div>';
-  const labels=rec.rows.map(x=>'<span class="gx-pill">'+esc(x.platform==='App Store'?'iOS':x.platform==='Google Play'?'Android':x.platform)+' · '+esc(x.country==='TW'?'台灣':x.country==='US'?'美國':x.country==='JP'?'日本':x.country==='KR'?'韓國':x.country)+'</span>').join('');
-  const evidence=rec.rows.filter(x=>x.date).slice(0,4).map(x=>'<div class="gx-card-description">'+esc(x.platform==='App Store'?'iOS':x.platform==='Google Play'?'Android':x.platform)+' '+esc(x.date)+' · '+esc(x.dateScope)+'</div>').join('');
+  // Compact card: each operating system appears once. Country detail is inside the source view.
+  const platforms=[...new Set(rec.rows.map(x=>x.platform==='App Store'?'iOS':x.platform==='Google Play'?'Android':x.platform))];
+  const labels=platforms.map(x=>'<span class="gx-pill">'+esc(x)+'</span>').join('');
+  const evidence=platforms.map(label=>{
+    const system=label==='iOS'?'App Store':label==='Android'?'Google Play':label;
+    const candidates=rec.rows.filter(x=>x.platform===system&&x.date);
+    if(!candidates.length)return '<div class="gx-card-description">'+esc(label)+'：首次發布日期待確認</div>';
+    // Preserve distinct market dates in the detail view, not dozens of badges.
+    candidates.sort((a,b)=>a.date.localeCompare(b.date));
+    const pick=candidates.find(x=>x.country==='TW')||candidates[0];
+    return '<div class="gx-card-description">'+esc(label)+'：'+esc(pick.date)+' <span class="gx-muted">('+esc(pick.country==='TW'?'台灣商店':'商店產品日期')+')</span></div>';
+  }).join('');
   return '<article class="gx-card"><div class="gx-art">'+picture+'</div><div class="gx-card-body"><h3 class="gx-card-name">'+esc(g.name)+'</h3>'
      +'<div class="gx-pills"><span class="gx-pill '+(st.type==='recent'?'green':st.type==='upcoming'?'amber':'')+'">'+esc(st.label)+'</span>'+labels+'</div>'
      +(evidence||'<p class="gx-card-description">首次上市日期待確認</p>')
@@ -158,7 +178,12 @@ function renderGames(){
   }));
   $('game-list').querySelectorAll('[data-gx-game-detail]').forEach(x=>x.addEventListener('click',()=>{
     const item=ui.gameRows[Number(x.dataset.gxGameDetail)];
-    const lines=item.rows.map(y=>y.platform+' / '+y.country+' / '+dateLabel(y)+'\n'+(y.proof||y.source||'')).join('\n\n');
+    const seen=new Set();
+    const lines=item.rows.filter(y=>{
+      const key=y.platform+'|'+y.country;
+      if(seen.has(key))return false;
+      seen.add(key);return true;
+    }).map(y=>y.platform+' / '+y.country+' / '+dateLabel(y)+'\n'+(y.proof||y.source||'')).join('\n\n');
     let message=lines||'尚無商店來源';
     window.alert(item.game.name+'\n\n'+message);
   }));

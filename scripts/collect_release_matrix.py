@@ -75,7 +75,8 @@ def catalog_ids(items):
         urls=[row.get("source_url","")]+[x.get("url","") for x in row.get("store_links",[])]
         app_id=next((v for u in urls if (v:=apple_id_from_link(u))),"")
         if not app_id:continue
-        if app_id not in ids:ids[app_id]=row.get("name","")
+        if app_id not in ids or (row.get("first_seen_at") or "")>(ids[app_id].get("first_seen_at") or ""):
+            ids[app_id]={"name":row.get("name",""),"first_seen_at":row.get("first_seen_at","")}
     return ids
 
 def android_rows(catalog,old_rows):
@@ -109,7 +110,13 @@ def generate(catalog,old=None,fetch=fetch_apple,limit=MAX_IOS_IDS,sleep=time.sle
         merged[(x["platform"],x["app_id"],x["country"])]=x
     ids=catalog_ids(catalog)
     checked=dict(old.get("checked_ids",{}))
-    selected=sorted(ids, key=lambda app_id:(checked.get(app_id,""),app_id))[:limit]
+    # Fresh or never-checked apps first; rotate older apps after every cycle.
+    selected=sorted(ids, key=lambda app_id:(1,checked[app_id],app_id) if app_id in checked
+             else (0,"",app_id))[:limit]
+    unseen=[id for id in ids if id not in checked]
+    if unseen:
+        newest=sorted(unseen,key=lambda id:ids[id].get("first_seen_at",""),reverse=True)[:limit]
+        selected=newest
     succeeded=0; failed=0; failures=[]
     for index,app_id in enumerate(selected):
         complete=True

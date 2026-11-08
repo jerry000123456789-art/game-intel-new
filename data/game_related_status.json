@@ -1,11 +1,11 @@
 {
-  "checked_at": "2026-11-08T19:24:53+00:00",
+  "checked_at": "2026-11-08T19:28:12+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
-    "codes": 1,
-    "guides": 2,
+    "codes": 0,
+    "guides": 0,
     "events": 0
   },
   "total_leads": {
@@ -14,77 +14,77 @@
     "events": 67
   },
   "per_game": {
-    "Preserve: Complete Edition": {
+    "Stumble Guys": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "PUBG MOBILE": {
+    "Subway Surfers": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Punishing: Gray Raven": {
+    "Superliminal": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "purple": {
+    "Sweet Match - Puzzle Games": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "quadline": {
+    "The Battle of Polytopia": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Reigns": {
+    "The Past Within": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Roblox": {
-      "codes": 1,
-      "guides": 0,
-      "events": 0
-    },
-    "Royal Smash! - Physics Puzzle": {
+    "The Room Three": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "RO仙境傳說：口袋戰記": {
-      "codes": 0,
-      "guides": 2,
-      "events": 0
-    },
-    "RO仙境傳說：守護永恆的愛": {
+    "The White Door": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Runner Heroes": {
+    "Tile Calm: 方塊清除": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Screw Spark: 螺絲分類謎題": {
+    "Tile Club - Match Puzzle Games": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Shelf Sort: Match 3 Puzzle": {
+    "Tile Park: 溫馨拼圖": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Sky光·遇": {
+    "Toca Boca World": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Stacky Bird: 超休閒小鳥飛行遊戲": {
+    "Underground Blossom": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Unloop Logic: Arrow Puzzle": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Vita 麻將": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -600,7 +600,22 @@
     "screwspark螺絲分類謎題": "2026-11-08T19:24:53+00:00",
     "shelfsortmatch3puzzle": "2026-11-08T19:24:53+00:00",
     "sky光遇": "2026-11-08T19:24:53+00:00",
-    "stackybird超休閒小鳥飛行遊戲": "2026-11-08T19:24:53+00:00"
+    "stackybird超休閒小鳥飛行遊戲": "2026-11-08T19:24:53+00:00",
+    "stumbleguys": "2026-11-08T19:28:12+00:00",
+    "subwaysurfers": "2026-11-08T19:28:12+00:00",
+    "superliminal": "2026-11-08T19:28:12+00:00",
+    "sweetmatchpuzzlegames": "2026-11-08T19:28:12+00:00",
+    "thebattleofpolytopia": "2026-11-08T19:28:12+00:00",
+    "thepastwithin": "2026-11-08T19:28:12+00:00",
+    "theroomthree": "2026-11-08T19:28:12+00:00",
+    "thewhitedoor": "2026-11-08T19:28:12+00:00",
+    "tilecalm方塊清除": "2026-11-08T19:28:12+00:00",
+    "tileclubmatchpuzzlegames": "2026-11-08T19:28:12+00:00",
+    "tilepark溫馨拼圖": "2026-11-08T19:28:12+00:00",
+    "tocabocaworld": "2026-11-08T19:28:12+00:00",
+    "undergroundblossom": "2026-11-08T19:28:12+00:00",
+    "unlooplogicarrowpuzzle": "2026-11-08T19:28:12+00:00",
+    "vita麻將": "2026-11-08T19:28:12+00:00"
   },
   "errors": []
 }

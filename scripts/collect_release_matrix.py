@@ -19,8 +19,9 @@ OUTPUT=ROOT/"data/release_matrix.json"
 STATUS=ROOT/"data/release_matrix_status.json"
 NOW=dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
 COUNTRIES={"TW":"台灣","US":"美國","JP":"日本","KR":"韓國","HK":"香港","SG":"新加坡"}
-MAX_IOS_IDS=12    # 12 app ids x 6 storefront countries, rotate every run
-MIN_APPLE_INTERVAL=3.1
+MAX_IOS_IDS=240   # backfill all discovered mobile Apple IDs in country batches
+MIN_APPLE_INTERVAL=2.8
+APPLE_BATCH_SIZE=35
 
 def apple_id_from_link(url):
     match=re.search(r"/id(\d+)",urllib.parse.urlparse(url).path)
@@ -44,6 +45,16 @@ def fetch_apple(app_id,country):
          headers={"User-Agent":"GameIntelReleaseMatrix/1.0","Accept":"application/json"})
     with urllib.request.urlopen(req,timeout=14) as response:
         if response.status!=200:raise RuntimeError("Apple HTTP "+str(response.status))
+        return json.load(response)
+
+def fetch_apple_batch(ids,country):
+    """Official Apple Lookup API accepts comma-separated track IDs."""
+    if not ids:return {"results":[]}
+    query=urllib.parse.urlencode({"id":",".join(ids),"country":country.lower(),"entity":"software","limit":200})
+    req=urllib.request.Request("https://itunes.apple.com/lookup?"+query,
+        headers={"User-Agent":"GameIntelReleaseMatrix/1.1","Accept":"application/json"})
+    with urllib.request.urlopen(req,timeout=18) as response:
+        if response.status!=200:raise RuntimeError("Apple batch HTTP "+str(response.status))
         return json.load(response)
 
 def apple_row(app_id,country,data,previous=None):
@@ -120,20 +131,45 @@ def generate(catalog,old=None,fetch=fetch_apple,limit=MAX_IOS_IDS,sleep=time.sle
     if unseen:
         newest=sorted(unseen,key=lambda id:ids[id].get("first_seen_at",""),reverse=True)[:limit]
         selected=newest
-    succeeded=0; failed=0; failures=[]
-    for index,app_id in enumerate(selected):
-        complete=True
+    succeeded=0;failed=0;failures=[]
+    if fetch is fetch_apple:
+        # Fetch 35 product IDs in one request per country instead of 6 HTTP
+        # requests per game. Keep country-specific availability and metadata.
+        complete={id:True for id in selected}
         for country in COUNTRIES:
-            try:
-                data=fetch(app_id,country)
-                key=("iOS",app_id,country)
-                merged[key]=apple_row(app_id,country,data,merged.get(key))
-                succeeded+=1
-            except Exception as error:
-                failed+=1;complete=False
-                failures.append({"app_id":app_id,"country":country,"message":str(error)[:170]})
-            if fetch is fetch_apple:sleep(MIN_APPLE_INTERVAL)
-        if complete:checked[app_id]=NOW
+            for start in range(0,len(selected),APPLE_BATCH_SIZE):
+                batch=selected[start:start+APPLE_BATCH_SIZE]
+                try:
+                    data=fetch_apple_batch(batch,country)
+                    results={str(x.get("trackId")):x for x in data.get("results",[])
+                             if x.get("kind")=="software" and x.get("trackId")}
+                    for app_id in batch:
+                        key=("iOS",app_id,country)
+                        rows={"results":[results[app_id]] if app_id in results else []}
+                        merged[key]=apple_row(app_id,country,rows,merged.get(key))
+                        succeeded+=1
+                except Exception as error:
+                    failed+=len(batch)
+                    for app_id in batch:
+                        complete[app_id]=False
+                    failures.append({"batch_size":len(batch),"country":country,"message":str(error)[:180]})
+                sleep(MIN_APPLE_INTERVAL)
+        for app_id in selected:
+            if complete[app_id]:checked[app_id]=NOW
+    else:
+        # Preserve injectable single-record path for deterministic unit tests.
+        for index,app_id in enumerate(selected):
+            complete=True
+            for country in COUNTRIES:
+                try:
+                    data=fetch(app_id,country)
+                    key=("iOS",app_id,country)
+                    merged[key]=apple_row(app_id,country,data,merged.get(key))
+                    succeeded+=1
+                except Exception as error:
+                    failed+=1;complete=False
+                    failures.append({"app_id":app_id,"country":country,"message":str(error)[:170]})
+            if complete:checked[app_id]=NOW
     records=sorted(merged.values(),key=lambda x:(x.get("name",""),x.get("platform",""),x.get("country","")))
     result={"updated_at":NOW,"items":records,"checked_ids":checked,
             "note":"Android/iOS 與國家分開。首次在該國觀察到≠該國上架日；Apple releaseDate≠該國首發日；currentVersionReleaseDate 是版本更新日。"}

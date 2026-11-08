@@ -1,6 +1,811 @@
 {
-  "updated_at": "2026-11-07T21:42:54+00:00",
+  "updated_at": "2026-11-08T01:10:21+00:00",
   "items": [
+    {
+      "id": "b65591a3645ae115ea136f",
+      "name": "PUBG MOBILE：絕地求生M",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.rekoo.pubgm&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.rekoo.pubgm&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "7d6e383ba2e932d22578c9",
+      "name": "Zombie Sniper War 3 - Fire FPS",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.JESoftware.LastHopeSniper3&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.JESoftware.LastHopeSniper3&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "2c36d5d95b8e181557205c",
+      "name": "MWT: Tank Battles・坦克戰鬥．現代戰爭",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.Shooter.ModernWarfront&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.Shooter.ModernWarfront&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "4f8f0338cfdc20e2e05f1d",
+      "name": "像素射擊 3D (Pixel Gun 3D)",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.pixel.gun3d&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.pixel.gun3d&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "b2630da356d568119644ff",
+      "name": "Reckless Getaway 2",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.pixelbite.ga2&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.pixelbite.ga2&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "18b4b4282e06f99d7a14ee",
+      "name": "Dead Target: 離線遊戲3D",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.vng.g6.a.zombie&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.vng.g6.a.zombie&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "be96d8503ca0d83d97c8ec",
+      "name": "Hole Stars: 謎題挑戰",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.moonactive.holestars&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.moonactive.holestars&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "93d40eb783d44faddd8aae",
+      "name": "Last Extract",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.xiaomo.lastextract&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.xiaomo.lastextract&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "6b2ce2772c44de0f830439",
+      "name": "Castle Busters",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.epicoro.castleclashers&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.epicoro.castleclashers&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "f0efd4a754ddd0785f37d0",
+      "name": "Pure Sniper 真正的狙擊手 - 火力全開滅敵人",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.miniclip.realsniper&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.miniclip.realsniper&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "4ac5212c91e57a671418df",
+      "name": "Bubble Shooter - Classic Pop",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=bubbleshooter.orig&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=bubbleshooter.orig&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "10e46199923466746f8b25",
+      "name": "親愛的農場",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.HyperBeardGames.MyDearFarm&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.HyperBeardGames.MyDearFarm&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "de257488b7b263dd73c7ec",
+      "name": "Best Fiends - Match 3 Puzzles",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.Seriously.BestFiends&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.Seriously.BestFiends&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "6d315f03a1d1dbfa720e81",
+      "name": "Bubbu 2 - 我的寵物王國",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.bubadu.bubbu2&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.bubadu.bubbu2&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "8b9398459af44fb865705f",
+      "name": "Magic Sort!",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.grandgames.magicsort&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.grandgames.magicsort&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "9a34e9b26ddbac85add5d2",
+      "name": "食光旅行",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.fatmerge.global&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.fatmerge.global&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "f785ba7fee264a45f7e6e4",
+      "name": "Foodie Pop!",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.abi.foodpop&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.abi.foodpop&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "5bc77ebf23d8f8e4fbdfd1",
+      "name": "好萊塢合成：星夢逆襲",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.hollywood.merge&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.hollywood.merge&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "78456d85365de68e6825a7",
+      "name": "Wordscapes",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordcross&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordcross&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "8666af77e3981977941a22",
+      "name": "Royal Cooking - Cooking Game",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.matryoshka.royal.cooking.kitchen.madness&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.matryoshka.royal.cooking.kitchen.madness&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "dee3b26df6802c2b1732df",
+      "name": "Wordscapes Search: Word Games",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordsearch&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordsearch&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "4c4f8c4c4a4f2f850e6ab2",
+      "name": "奇蹟之詞：用於連接詞彙的填字遊戲",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.fugo.wow&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.fugo.wow&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "82da6827b53e2ff3edefc9",
+      "name": "Everyday Puzzles: Mini Games",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.fanatee.keep&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.fanatee.keep&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "e8fdac174d90acc86298db",
+      "name": "字謎遊戲 Wordle！",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.vottzapps.wordle&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.vottzapps.wordle&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "42ddbe224e1cd57e611871",
+      "name": "NYT Games: Wordle & Crossword",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.nytimes.crossword&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.nytimes.crossword&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "6ad651ab6d666f4cd2205f",
+      "name": "Daily Themed Crossword Puzzles",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=in.crossy.daily_crossword&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=in.crossy.daily_crossword&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "5c873de6645b24ba76c1bb",
+      "name": "Wordscapes Solitaire",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordsolitaire&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordsolitaire&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "c806dccbb0313ef4bc53d1",
+      "name": "Crossword Master - 縱橫填字遊戲",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.easybrain.crossword.puzzles&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.easybrain.crossword.puzzles&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "6841b12c848f7d73d3aa11",
+      "name": "Scrabble® GO – Fun with Words!",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.pieyel.scrabble&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.pieyel.scrabble&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "c6235995bc41f7dd9308ba",
+      "name": "Dice Words - Fun Word Game",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.funcraft.dicewords&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.funcraft.dicewords&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "e2ae91063b54a8df022a93",
+      "name": "Words of Wonders: Search",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.fugo.wowsearch&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.fugo.wowsearch&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "bfa0d60a762b5ee1575785",
+      "name": "Word Solitaire Now!",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.losttemplegames.wordsolitaire&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.losttemplegames.wordsolitaire&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "e5512e99dd1684d9382a43",
+      "name": "部落衝突 (Clash of Clans)",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id529479190",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id529479190",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "29ec9347710a1e8d9fac3b",
+      "name": "Grill Sort - 燒烤時光 物品分類遊戲",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id6742812903",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id6742812903",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:21+00:00"
+    },
+    {
+      "id": "steam-7531f92790d17e5b",
+      "name": "The 9th Haunted Corridor",
+      "status": "即將上市",
+      "region": "國際",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4646360/fd0df44b020fa3d4bbd789dc52362a7aba634ed3/header.jpg?t=1792457145",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4646360/",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/4646360/",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T01:10:19.094686+00:00"
+    },
     {
       "id": "95e9249b627f2b3abfba85",
       "name": "Cow Evolution: Idle Merge Game",
@@ -413,7 +1218,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6766557247",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T21:42:54+00:00"
+      "first_seen_at": "2026-11-07T21:42:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "aa4f0d2d5e900586c92bd4",
@@ -926,7 +1732,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.wood.block.sudoku.puzzle.bm&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T18:50:43+00:00"
+      "first_seen_at": "2026-11-07T18:50:43+00:00",
+      "seed_method": ""
     },
     {
       "id": "f2b73d3674992e1e45b1c5",
@@ -8991,7 +9798,7 @@
       ],
       "release_date": "",
       "developer": "",
-      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5206500/683ca9ff53c73b47958b6826966115f7e24bd7ba/header.jpg?t=1789980411",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5206500/683ca9ff53c73b47958b6826966115f7e24bd7ba/header.jpg?t=1794095121",
       "store_links": [
         {
           "name": "Steam",

@@ -1,14 +1,51 @@
 {
-  "updated_at": "2026-11-07T21:42:51+00:00",
-  "status": "ok",
-  "fetched": 90,
-  "errors": [],
+  "updated_at": "2026-11-08T01:10:18+00:00",
+  "status": "partial",
+  "fetched": 30,
+  "errors": [
+    {
+      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOCtiyIH-Dt00Ntv-WqPgfw",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNH35X4JoxqnZHRyWGI04Vg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4c-wTOqEID-_vH4MhNs06w",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC-e2q_YhFnfsEggbJsTLPHg",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
   "items": [
+    {
+      "id": "1b5fbd5c0d3877ed004c7b9e",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《英雄聯盟》2026 世界大賽四強賽首戰 GEN 大勝 IG 踏上決賽舞台 明日 T1 對決 BLG",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314660",
+      "publisher": "",
+      "published_at": "2026-11-08T09:05:27+08:00",
+      "first_seen_at": "2026-11-08T01:10:18+00:00"
+    },
+    {
+      "id": "4d2ca8e843bfb1869cdb73b7",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《RO 仙境傳說》UGC 平台「RAGLAND」首度曝光！上千款官方素材任你蓋城鎮、打造屬於自己的米德加爾特",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314659",
+      "publisher": "",
+      "published_at": "2026-11-08T06:50:53+08:00",
+      "first_seen_at": "2026-11-08T01:10:18+00:00"
+    },
     {
       "id": "6361c1f857c15388ec38bcb6",
       "category": "巴哈姆特情報",
       "origin": "巴哈姆特",
-      "title": "告別數十 GB 下載與容量焦慮！GRAVITY 公開新 H5 平台「AIWAN」集結《RO》、《格鬥天王》、《魔力寶貝》等作品",
+      "title": "集結《RO》、《格鬥天王》、《魔力寶貝》等作品！GRAVITY 公開新 H5 平台「AIWAN」",
       "url": "https://gnn.gamer.com.tw/detail.php?sn=314658",
       "publisher": "",
       "published_at": "2026-11-08T05:27:58+08:00",

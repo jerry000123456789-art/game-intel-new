@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T21:42:58.125242+00:00",
+  "updated_at": "2026-11-08T01:10:24.894647+00:00",
   "note": "Historical source leads retained; not validated codes, full guides, or confirmed event dates.",
   "items": {
     "codes": [
@@ -83,6 +83,14 @@
         "publisher": "Ludens Media",
         "published_at": "2026-10-29T07:00:00+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "title": "Race for Eggs Codes for October 2026 最新兌換碼彙整 - games.gg",
+        "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOd2J0RzZSTUZPNjlGQU1JVEpPb0xwM1ZxVmMzLXRsT2tNc3phQTVZUURIQzZVY1dYTEc1ejdNMmNCRk1CUS1pRjN3QmFJbWc3Um9xR0RmN3B6d1RtTEE5blZIUUtMMWRDVzVjSlR1aV8yOUVkWHBlNm1vZzdFeG1CVnB3ckJxNUoyajNaYzBwLTQxSkg4N1p4NmNGM2N0NVhPWTRJMlJlTzFWWXQ5R2JzNFpaXzBiaTJJR05EVi0wUnRJQk5fSDF0NzlHLWdEdGZSSldHZ3pTdw?oc=5",
+        "publisher": "games.gg",
+        "published_at": "2026-10-29T07:00:00+00:00",
+        "first_seen_at": "2026-11-08T01:10:15+00:00",
         "status": "source_lead_only"
       },
       {
@@ -426,6 +434,14 @@
         "publisher": "udn遊戲角落",
         "published_at": "2023-10-27T07:00:00+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "title": "鬼滅之刃電子雞的遊戲攻略!角色太久沒理會會死亡？！內含隱藏劇情介紹| 部落客頻道 - Niusnews妞新聞",
+        "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE04b1d3VG1GLVgyRUlRQUVKcXZwT3l1czU3MUtQTUlZTDM4aEcza1cwMjR1Z2xXVmhDZTNiUGZIUVl6bHFxdG1VQU9lVQ?oc=5",
+        "publisher": "Niusnews妞新聞",
+        "published_at": "2020-12-25T08:00:00+00:00",
+        "first_seen_at": "2026-11-08T01:10:15+00:00",
         "status": "source_lead_only"
       }
     ],

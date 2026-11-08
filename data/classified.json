@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T21:42:48+00:00",
+  "updated_at": "2026-11-08T01:10:15+00:00",
   "note": "僅依標題比對遊戲與日期字樣；日期不代表活動起迄、上市日期；未擷取或驗證兌換碼。",
   "items": [
     {
@@ -317,6 +317,18 @@
       "publisher": "Ludens Media",
       "published_at": "2026-10-29T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "403b10ecad1759418d69",
+      "category": "兌換碼",
+      "game_matches": [],
+      "title": "Race for Eggs Codes for October 2026 最新兌換碼彙整 - games.gg",
+      "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOd2J0RzZSTUZPNjlGQU1JVEpPb0xwM1ZxVmMzLXRsT2tNc3phQTVZUURIQzZVY1dYTEc1ejdNMmNCRk1CUS1pRjN3QmFJbWc3Um9xR0RmN3B6d1RtTEE5blZIUUtMMWRDVzVjSlR1aV8yOUVkWHBlNm1vZzdFeG1CVnB3ckJxNUoyajNaYzBwLTQxSkg4N1p4NmNGM2N0NVhPWTRJMlJlTzFWWXQ5R2JzNFpaXzBiaTJJR05EVi0wUnRJQk5fSDF0NzlHLWdEdGZSSldHZ3pTdw?oc=5",
+      "publisher": "games.gg",
+      "published_at": "2026-10-29T07:00:00+00:00",
+      "first_seen_at": "2026-11-08T01:10:15+00:00",
       "date_mentions": [],
       "review_required": true
     },
@@ -1134,6 +1146,18 @@
       "review_required": true
     },
     {
+      "id": "dd604c860baa1855ac81",
+      "category": "新遊戲資訊",
+      "game_matches": [],
+      "title": "《異環》公測新手攻略總整理：首抽自選推薦、抽卡機制、都市大亨賺錢與養成教學一次看 - Yahoo新聞",
+      "source_url": "https://news.google.com/rss/articles/CBMiswRBVV95cUxNWC1WbnZfbHBrNlBLOWs0TUlhS2dYdHNrS1IzbVRuZ0hRSjRGa3ZaQmdZQnFTaXAxWDl3bi1KU0dmVzItaVlEc3NUbkgyU0ZKNUtFblNoaWMycVVGdzlZOUZwdjZsT0lUaGd6bjhoRmlfVUtoMUdOUTM4Z2pxT2tsaWU2MlU4RS01RlZ2R2luTWlENXc3QWRURXozWEpCWjRQa0x6ZW5zT3prbEZHQkFXbTBuZUpfd3AtWEJZOG9ZR0tFdllxcEl3cHZNWE9xbnVlZ2ROWVlnNml0YWx3WUtScGtvMF9Sb1NhUHJWNzJuY09OaFhQSEc2TFlVaFlMdzVGU1dFVzg2SzM0eFN5T0pOZ211UzZmOXFkcEdydk4wYW1YV3lmN1hxNi05SHhQanlIT09xSmRSNE1vWVd2VkphY2puYkhNd2JRMEVpWXV2bUp0XzhkSmJ5TU4xclVsYm1EMEIwUms4dVR2YVJXUENSMzIzMk9jWDI5REkyLTlKdmdBWko4eHc5MS02SUhlOVBhdG91ZE9yYXZ5c19JREJGUlQ0RmZUWlhQQUYwUnd2aEY2S21QYnBTOWxQUENzTDFTNzZ4cnlOLVhqUGo0NUxwTmp4TGFxUG43dENiZUg2WjZmN0QyYU83dUZ2S0tlcEZYXzBzTWpPVlpDcDFKR1VsTEZNU0dOSEUzR1YzYzM4aGJFMUhaRDlXZDlWNGFNVFp3LXlmOTd5bS1TMFhkSDRHZDlfVQ?oc=5",
+      "publisher": "Yahoo新聞",
+      "published_at": "2026-04-26T07:00:00+00:00",
+      "first_seen_at": "2026-11-08T01:10:15+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
       "id": "85fefde63d225523ed07",
       "category": "兌換碼",
       "game_matches": [],
@@ -1733,6 +1757,18 @@
       "publisher": "udn遊戲角落",
       "published_at": "2022-03-02T08:00:00+00:00",
       "first_seen_at": "2026-11-07T21:42:48+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "4f17b8973a8943f7b7c3",
+      "category": "遊戲攻略",
+      "game_matches": [],
+      "title": "鬼滅之刃電子雞的遊戲攻略!角色太久沒理會會死亡？！內含隱藏劇情介紹| 部落客頻道 - Niusnews妞新聞",
+      "source_url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE04b1d3VG1GLVgyRUlRQUVKcXZwT3l1czU3MUtQTUlZTDM4aEcza1cwMjR1Z2xXVmhDZTNiUGZIUVl6bHFxdG1VQU9lVQ?oc=5",
+      "publisher": "Niusnews妞新聞",
+      "published_at": "2020-12-25T08:00:00+00:00",
+      "first_seen_at": "2026-11-08T01:10:15+00:00",
       "date_mentions": [],
       "review_required": true
     }

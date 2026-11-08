@@ -36,7 +36,7 @@ def check():
         test_key="97b4b4acbe0b4915bb6ee85e91269377"
         def watched(method="GET",record=None):
             payload=json.dumps(record,ensure_ascii=False).encode("utf-8") if record else None
-            headers={"X-Watch-Key":test_key,"Accept":"application/json"}
+            headers={"X-Watch-Key":test_key,"Accept":"application/json","User-Agent":"GameIntel-Production-Check/2.0"}
             if method!="GET":headers.update({"Origin":BASE,"Content-Type":"application/json"})
             req=Request(BASE+"/api/watchlist",data=payload,method=method,headers=headers)
             try:
@@ -48,7 +48,7 @@ def check():
                 raise
         # A live Worker route returns JSON 400 for an absent key; static assets do not.
         try:
-            req=Request(BASE+"/api/watchlist",headers={"Accept":"application/json"})
+            req=Request(BASE+"/api/watchlist",headers={"Accept":"application/json","User-Agent":"GameIntel-Production-Check/2.0"})
             with urlopen(req,timeout=10) as resp:
                 print("WATCHLIST ROUTE PROBE:",resp.status,resp.read(300),flush=True)
         except Exception as probe_err:

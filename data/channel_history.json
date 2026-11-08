@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-11-08T10:35:46+00:00",
+  "updated_at": "2026-11-08T12:25:29+00:00",
   "status": "ok",
   "fetched": 90,
   "errors": [],
   "items": [
+    {
+      "id": "b392c4311bb2a7fdd03fddbd",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《寶可夢》臺灣紀念球聯盟賽於南港舉行 快閃店等 30 週年紀念活動同場亮相",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314665",
+      "publisher": "",
+      "published_at": "2026-11-08T19:37:53+08:00",
+      "first_seen_at": "2026-11-08T12:25:29+00:00"
+    },
     {
       "id": "2e0f65cbeae584fe36c7bfbb",
       "category": "巴哈姆特情報",

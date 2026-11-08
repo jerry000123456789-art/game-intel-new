@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T10:37:51+00:00",
-  "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
+  "updated_at": "2026-11-08T12:29:46.109384+00:00",
+  "note": "Historical source leads retained; not validated codes, full guides, or confirmed event dates.",
   "items": {
     "codes": [
       {
@@ -192,6 +192,14 @@
         "publisher": "Ludens Media",
         "published_at": "2026-09-16T07:00:00+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "title": "【三國神將錄】兌換碼與禮包碼序號・11月2日更新 - Ludens Media",
+        "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5jTmxWTF9hWUpwUlVseDlpZjVNV25rS1liT19Sc1J6T21hblllMXd4X05DazQ3cFV2RW1jdlVEZkE1azVFc0JYdzNmMjlfNDhWb2ZCSQ?oc=5",
+        "publisher": "Ludens Media",
+        "published_at": "2026-09-14T07:00:00+00:00",
+        "first_seen_at": "2026-11-08T12:25:27+00:00",
         "status": "source_lead_only"
       },
       {

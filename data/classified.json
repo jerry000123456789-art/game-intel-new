@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T10:35:44+00:00",
+  "updated_at": "2026-11-08T12:25:27+00:00",
   "note": "僅依標題比對遊戲與日期字樣；日期不代表活動起迄、上市日期；未擷取或驗證兌換碼。",
   "items": [
     {
@@ -633,6 +633,18 @@
       "publisher": "日經中文網",
       "published_at": "2026-09-16T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "a7af995a10b33abae5a7",
+      "category": "兌換碼",
+      "game_matches": [],
+      "title": "【三國神將錄】兌換碼與禮包碼序號・11月2日更新 - Ludens Media",
+      "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5jTmxWTF9hWUpwUlVseDlpZjVNV25rS1liT19Sc1J6T21hblllMXd4X05DazQ3cFV2RW1jdlVEZkE1azVFc0JYdzNmMjlfNDhWb2ZCSQ?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-09-14T07:00:00+00:00",
+      "first_seen_at": "2026-11-08T12:25:27+00:00",
       "date_mentions": [],
       "review_required": true
     },

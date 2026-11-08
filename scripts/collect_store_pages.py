@@ -38,9 +38,15 @@ class StoreLinks(HTMLParser):
             href=a.get("href","")
             if (self.platform=="Google Play" and "/store/apps/details" in href and "id=" in href) or (
                 self.platform=="App Store" and bool(re.search(r"/app/[^/?#]+/id\d+",href))):
-                self.current={"href":href,"parts":[a.get("aria-label",""),a.get("title","")]}
-        elif self.current and tag=="img":
-            self.current["parts"].append(a.get("alt",""))
+                self.current={"href":href,"parts":[a.get("aria-label",""),a.get("title","")],"images":[]}
+        elif self.current and tag in ("img","source"):
+            if tag=="img":self.current["parts"].append(a.get("alt",""))
+            raw=a.get("src","") or a.get("data-src","")
+            if not raw and a.get("srcset"):
+                raw=a["srcset"].split(",")[0].strip().split(" ")[0]
+            if not raw and a.get("data-srcset"):
+                raw=a["data-srcset"].split(",")[0].strip().split(" ")[0]
+            if raw:self.current["images"].append(raw)
     def handle_data(self,data):
         if self.current:self.current["parts"].append(data)
     def handle_endtag(self,tag):
@@ -85,6 +91,18 @@ def title_for(platform,candidates):
         if title:return title
     return ""
 
+def verified_cover(raw,platform):
+    raw=str(raw or '').replace('&amp;','&').strip()
+    if raw.startswith('//'):raw='https:'+raw
+    parsed=urllib.parse.urlparse(raw)
+    if parsed.scheme!='https':return ''
+    host=(parsed.hostname or '').lower()
+    if platform=='Google Play' and (host=='play-lh.googleusercontent.com' or host=='lh3.googleusercontent.com'):
+        return raw[:1200]
+    if platform=='App Store' and (re.fullmatch(r'is[0-9]+-ssl.mzstatic.com',host) or re.fullmatch(r'is[0-9]+.mzstatic.com',host) or host=='is1-ssl.mzstatic.com'):
+        return raw[:1200]
+    return ''
+
 def parse_store(html,platform,region,country=""):
     p=StoreLinks(platform)
     p.feed(html)
@@ -95,10 +113,11 @@ def parse_store(html,platform,region,country=""):
         if not link or not title:continue
         if link not in result:
             country=country_from_link(platform,link,region)
+            artwork=next((v for raw in row.get("images",[]) if (v:=verified_cover(raw,platform))),"")
             result[link]={
                 "id":hashlib.sha256((platform+"|"+region+"|"+link).encode()).hexdigest()[:22],
                 "name":title,"status":"商店收錄","region":region,"country":country,"platforms":[platform],
-                "release_date":"","developer":"","cover_url":"",
+                "release_date":"","developer":"","cover_url":artwork,
                 "store_links":[{"name":platform,"url":link,"region":region}],
                 "payment_methods":[],"source_url":link,"verified_store_listing":True,
                 "first_seen_at":NOW,
@@ -137,6 +156,7 @@ def run():
     old=data.get("items",[])
     merged={}
     for row in old:
+        if not any(p in ("App Store","Google Play") for p in row.get("platforms",[])):continue
         name=clean_title(row.get("name",""))
         if not name:continue
         x=dict(row)

@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-11-08T12:40:07+00:00",
+  "checked_at": "2026-11-08T12:57:23+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
-    "guides": 6,
-    "events": 3
+    "guides": 0,
+    "events": 0
   },
   "total_leads": {
     "codes": 35,
@@ -14,77 +14,77 @@
     "events": 49
   },
   "per_game": {
-    "쿵푸 할매: 서바이버 아이콘 이미지": {
+    "Riot Mobile": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "후더덕 서바이벌-777뽑기 증정 아이콘 이미지": {
+    "Solitaire - Classic Card Game": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Fortnite": {
-      "codes": 0,
-      "guides": 6,
-      "events": 3
-    },
-    "FPS Strike Ops : Modern Arena": {
+    "Thronefall": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Geometry Dash": {
+    "Unsolved: 隱藏物品": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Heads Up!": {
+    "Word Search - Word Puzzle Game": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Hollywood Merge": {
+    "Zen Word® - Relax Puzzle Game": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Humbug 2": {
+    "二戰硝煙": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "KaruQ": {
+    "明日之後": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "lumen.": {
+    "經典紙牌接龍遊戲 - Solitaire": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Meowdoku!": {
+    "點消 Wood (Click Wood)": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Minecraft: クラフト、建築、サバイバル": {
+    "NEW GAME": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Minecraft 온라인으로 친구들과 함께 플레이하세요": {
+    "NEW UPDATE": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Minishoot' Adventures": {
+    "Outhold": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Mutazione": {
+    "Papers, Please": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Phoenix 2": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -390,7 +390,22 @@
     "minecraftクラフト建築サバイバル": "2026-11-08T12:40:07+00:00",
     "minecraft온라인으로친구들과함께플레이하세요": "2026-11-08T12:40:07+00:00",
     "minishootadventures": "2026-11-08T12:40:07+00:00",
-    "mutazione": "2026-11-08T12:40:07+00:00"
+    "mutazione": "2026-11-08T12:40:07+00:00",
+    "riotmobile": "2026-11-08T12:57:23+00:00",
+    "solitaireclassiccardgame": "2026-11-08T12:57:23+00:00",
+    "thronefall": "2026-11-08T12:57:23+00:00",
+    "unsolved隱藏物品": "2026-11-08T12:57:23+00:00",
+    "wordsearchwordpuzzlegame": "2026-11-08T12:57:23+00:00",
+    "zenwordrelaxpuzzlegame": "2026-11-08T12:57:23+00:00",
+    "二戰硝煙": "2026-11-08T12:57:23+00:00",
+    "明日之後": "2026-11-08T12:57:23+00:00",
+    "經典紙牌接龍遊戲solitaire": "2026-11-08T12:57:23+00:00",
+    "點消woodclickwood": "2026-11-08T12:57:23+00:00",
+    "newgame": "2026-11-08T12:57:23+00:00",
+    "newupdate": "2026-11-08T12:57:23+00:00",
+    "outhold": "2026-11-08T12:57:23+00:00",
+    "papersplease": "2026-11-08T12:57:23+00:00",
+    "phoenix2": "2026-11-08T12:57:23+00:00"
   },
   "errors": []
 }

@@ -8,7 +8,19 @@ def fetch(url):
     req=urllib.request.Request(url,headers=HEADERS)
     with urllib.request.urlopen(req,timeout=18) as r: return json.load(r)
 def record(name, status, region, platform, store, link, image='', date='', developer='', source=''):
-    return {'id':platform.lower().replace(' ','-')+'-'+hashlib.sha256(link.encode()).hexdigest()[:16], 'name':name,'status':status,'region':region,'platforms':[platform], 'release_date':date,'developer':developer,'cover_url':image,'store_links':[{'name':store,'url':link,'region':region}], 'payment_methods':[], 'source_url':source or link,'verified_store_listing':True}
+    return {'id':platform.lower().replace(' ','-')+'-'+hashlib.sha256(link.encode()).hexdigest()[:16], 'name':name,'status':status,'region':region,'platforms':[platform], 'release_date':date,'developer':developer,'cover_url':image,'store_links':[{'name':store,'url':link,'region':region}], 'payment_methods':[], 'source_url':source or link,'verified_store_listing':True, 'date_label':'Apple 產品發行日期（非該國首次上架）' if platform=='App Store' else ''}
+def country_for(x):
+    country=str(x.get('country','')).upper()
+    if country in ('TW','US','JP','KR','HK','SG'):return country
+    u=urllib.parse.urlparse(x.get('source_url','') or (x.get('store_links') or [{}])[0].get('url',''))
+    if u.hostname=='play.google.com':
+        gl=urllib.parse.parse_qs(u.query).get('gl',[''])[0].upper()
+        if gl:return gl
+    if u.hostname=='apps.apple.com':
+        part=u.path.split('/')[1:2]
+        if part and part[0].upper() in ('TW','US','JP','KR','HK','SG'):return part[0].upper()
+    return 'TW' if x.get('region')=='台灣' else 'US'
+
 items=[];errors=[]
 # Steam explicitly labels the upcoming category. Dates are left blank unless independently provided.
 try:
@@ -48,10 +60,12 @@ if existing.exists():
                     x['region']='國際'
                     for store in x.get('store_links',[]):
                         if store.get('region')=='美國':store['region']='國際'
-                unique[(x['name'].casefold(),x['platforms'][0],x.get('region',''))]=x
+                x['country']=country_for(x)
+                unique[(x['name'].casefold(),x['platforms'][0],x.get('region',''),x['country'])]=x
     except (ValueError,KeyError,TypeError): pass
 for x in items:
-    k=(x['name'].casefold(),x['platforms'][0],x['region'])
+    x['country']=country_for(x)
+    k=(x['name'].casefold(),x['platforms'][0],x['region'],x['country'])
     if k in unique:
         prev=unique[k]
         x['first_seen_at']=prev.get('first_seen_at') or NOW.isoformat()

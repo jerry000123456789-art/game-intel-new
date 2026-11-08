@@ -362,6 +362,24 @@ async function load(name){
     return await response.json();
   }catch(e){console.warn('Data unavailable',name,e);return {}}
 }
+async function checkNewActivity(){
+  const response=await load('tracked_events');
+  const incoming=response.items||[];
+  const names=new Set(data.cloudGames.map(x=>gameKey(x.name)));
+  const relevant=incoming.filter(x=>names.has(gameKey(x.game)));
+  let seen=[];
+  try{seen=JSON.parse(localStorage.getItem('game-intel-activity-seen')||'[]')}catch{}
+  const previously=new Set(seen),newOnes=relevant.filter(x=>x.id&&!previously.has(x.id));
+  try{localStorage.setItem('game-intel-activity-seen',JSON.stringify(relevant.map(x=>x.id).filter(Boolean).slice(0,600)))}catch{}
+  if(data.announcements.length||incoming.length){data.announcements=incoming;renderCalendar()}
+  if(!seen.length||!newOnes.length)return;
+  try{
+    const enabled=localStorage.getItem('game-intel-activity-alerts')==='yes';
+    if(!enabled||!('Notification' in window)||Notification.permission!=='granted')return;
+    const item=newOnes[0];
+    new Notification('新增遊戲活動：'+item.game,{body:item.title,tag:'game-intel-'+item.id});
+  }catch{}
+}
 async function main(){
   const files=['game_catalog','release_matrix','featured_launches','codes','channel_history','latest','source_leads',
     'events','tracked_events','tracked_games','coverage_status'];
@@ -383,6 +401,9 @@ async function main(){
   $('sync-date').textContent=data.updated?'更新：'+dateTW(data.updated):'同步資訊待確認';
   $('studio-brand').value=ui.brand;
   renderHome();renderGames();renderCodes();renderContent();renderCalendar();
+  checkNewActivity();
+  setInterval(checkNewActivity,15*60*1000);
+  try{if(localStorage.getItem('game-intel-activity-alerts')==='yes'&&window.Notification?.permission==='granted')$('watch-alerts').textContent='活動提醒已開啟'}catch{}
 }
 document.querySelectorAll('[data-gx-page]').forEach(button=>button.addEventListener('click',()=>show(button.dataset.gxPage)));
 document.querySelectorAll('[data-gx-jump]').forEach(button=>button.addEventListener('click',()=>{
@@ -407,6 +428,17 @@ $('watch-form').addEventListener('submit',event=>{
   persistPending();renderCalendar();
   window.open(watchIssueLink({name,url}),'_blank','noopener,noreferrer');
   $('watch-name').value='';$('watch-url').value='';
+});
+$('watch-alerts').addEventListener('click',async()=>{
+  if(!('Notification' in window)){window.alert('此瀏覽器不支援網站通知。');return}
+  try{
+    const permission=await Notification.requestPermission();
+    if(permission==='granted'){
+      try{localStorage.setItem('game-intel-activity-alerts','yes')}catch{}
+      $('watch-alerts').textContent='活動提醒已開啟';
+      window.alert('已啟用：此網站開啟期間，發現追蹤遊戲的新公告會通知。關閉網站後不會推播。');
+    }else{window.alert('瀏覽器未授權通知，你仍可在行事曆查看公告。')}
+  }catch{window.alert('無法啟用瀏覽器通知。')}
 });
 $('prev-month').addEventListener('click',()=>{ui.month.setMonth(ui.month.getMonth()-1);renderCalendar()});
 $('next-month').addEventListener('click',()=>{ui.month.setMonth(ui.month.getMonth()+1);renderCalendar()});

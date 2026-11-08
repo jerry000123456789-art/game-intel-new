@@ -28,5 +28,21 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Identify Cloudflare HTML or access redirect
+        run: |
+          python - <<'PY'
+          import re,urllib.request
+          base='https://game-intel-new.jerry000123456789.workers.dev'
+          paths=['/','/data/coverage_status.json','/api/lookup?game=%E5%8E%9F%E7%A5%9E&kind=events']
+          for path in paths:
+              try:
+                  with urllib.request.urlopen(urllib.request.Request(base+path,headers={'User-Agent':'Mozilla/5.0'}),timeout=15) as resp:
+                      b=resp.read(120000).decode('utf-8','replace')
+                      title=re.search(r'<title[^>]*>(.*?)</title>',b,re.I|re.S)
+                      print('PROBE',path,'status',resp.status,'type',resp.headers.get('Content-Type'),'final_url',resp.url,'title',(title.group(1).strip()[:150] if title else 'no title'),'cf-mitigated',resp.headers.get('cf-mitigated'),'server',resp.headers.get('server'),'body_head',b[:100].replace(chr(10),' '))
+              except Exception as ex:print('PROBE',path,'ERROR',str(ex)[:250])
+          PY
       - name: Verify deployed HTML, JSON data, and live event/guide searches
+        env:
+          ATTEMPTS: '1'
         run: python scripts/check_production.py

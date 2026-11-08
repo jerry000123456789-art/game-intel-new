@@ -26,10 +26,38 @@ try {
   assert.equal((await worker.fetch(new Request('https://example.com/api/lookup?game=A&kind=events'),{})).status,400);
   assert.equal((await worker.fetch(new Request('https://example.com/api/lookup?game=%E5%8E%9F%E7%A5%9E&kind=invalid'),{})).status,400);
   globalThis.fetch=async()=>new Response('temporarily unavailable',{status:503});
+  const stamp=new Date().toISOString(),url='https://gnn.gamer.com.tw/detail.php?sn=999900';
+  const assets={
+    fetch:async request=>{
+      const path=new URL(request.url).pathname;
+      const records={
+        '/data/source_leads.json':{updated_at:stamp,items:{
+          events:[{title:'原神 新版本活動即將登場',source_url:url,published_at:stamp,publisher:'巴哈姆特'}],
+          guides:[{title:'原神 新手配隊攻略',source_url:url,published_at:stamp,publisher:'巴哈姆特'}]
+        }},
+        '/data/latest.json':{updated_at:stamp,items:[]},
+        '/data/channel_history.json':{updated_at:stamp,items:[]}
+      };
+      return path in records?new Response(JSON.stringify(records[path]),{status:200}):new Response('missing',{status:404});
+    }
+  };
+  let cached=await worker.fetch(new Request('https://example.com/api/lookup?game=%E5%8E%9F%E7%A5%9E&kind=events'),{ASSETS:assets});
+  assert.equal(cached.status,200);
+  let snapshot=await cached.json();
+  assert.equal(snapshot.status,'ok');
+  assert.equal(snapshot.source_mode,'scheduled_cache');
+  assert.equal(snapshot.entries.length,1);
+  assert.equal(snapshot.entries[0].start_at,undefined);
+  let cachedGuide=await worker.fetch(new Request('https://example.com/api/lookup?game=%E5%8E%9F%E7%A5%9E&kind=guides'),{ASSETS:assets});
+  assert.equal(cachedGuide.status,200);
+  assert.equal((await cachedGuide.json()).entries.length,1);
+  let unknown=await worker.fetch(new Request('https://example.com/api/lookup?game=%E5%B9%BB%E6%83%B3%E9%81%8A%E6%88%B2&kind=events'),{ASSETS:assets});
+  assert.equal(unknown.status,200);
+  assert.equal((await unknown.json()).entries.length,0);
   let unavailable=await worker.fetch(new Request('https://example.com/api/lookup?game=%E5%8E%9F%E7%A5%9E&kind=events'),{});
   assert.equal(unavailable.status,503);
   assert.equal((await unavailable.json()).status,'unavailable');
-  console.log('PASS: live per-game lookup, event/guide classification, no inferred event start date, validation and network fallback');
+  console.log('PASS: Worker lookup online, scheduled-cache fallback, empty matches and missing-cache errors');
 } finally {
   globalThis.fetch=originalFetch;
 }

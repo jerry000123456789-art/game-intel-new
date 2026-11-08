@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-08T19:14:57+00:00",
+  "checked_at": "2026-11-08T19:18:04+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
@@ -14,77 +14,77 @@
     "events": 58
   },
   "per_game": {
-    "A Dance of Fire and Ice": {
+    "Bouncemasters: Penguin Games": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Supermarket chaos to order": {
+    "Klondike Adventures": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Dice Dreams™️": {
+    "My Little Pony: Magic Princess": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Discounty: Supermarket Manager": {
+    "Pixel Art - 數字填色": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Don't Die: SurvivalAutoBattler": {
+    "Solitaire Grand Harvest": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "DRAGON BALL LEGENDS -七龍珠 激戰傳說-": {
+    "Wolf Tales - Wild Animal Sim": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "EA SPORTS FC™ 足球 Mobile 27": {
+    "兒童遊戲為了幼兒: 學習和玩, 顏色、數學、數字、拼圖": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Ever Tile: 3D水果配對": {
+    "GUBBINS": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Farkle Dice Roll": {
+    "Guncho": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Find The Cat - Spot It!": {
+    "Happy Color® – 按數字編號上色的塗色書": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Fishing Clash：釣魚競技模擬": {
+    "Hello Kitty My Dream Store": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Flick Shot Rogues": {
+    "Home Story: Match-Up!": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Garena® 三角洲行動": {
+    "Jewel Bloom：像素填色與色彩分類": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Garena 傳說對決：十週年裂隙穿梭版本": {
+    "LEVELS II": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Gossip Harbor: Merge & Story": {
+    "LINE Bubble 2－泡泡射擊益智遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -555,7 +555,22 @@
     "flickshotrogues": "2026-11-08T19:14:57+00:00",
     "garena三角洲行動": "2026-11-08T19:14:57+00:00",
     "garena傳說對決十週年裂隙穿梭版本": "2026-11-08T19:14:57+00:00",
-    "gossipharbormergestory": "2026-11-08T19:14:57+00:00"
+    "gossipharbormergestory": "2026-11-08T19:14:57+00:00",
+    "bouncemasterspenguingames": "2026-11-08T19:18:04+00:00",
+    "klondikeadventures": "2026-11-08T19:18:04+00:00",
+    "mylittleponymagicprincess": "2026-11-08T19:18:04+00:00",
+    "pixelart數字填色": "2026-11-08T19:18:04+00:00",
+    "solitairegrandharvest": "2026-11-08T19:18:04+00:00",
+    "wolftaleswildanimalsim": "2026-11-08T19:18:04+00:00",
+    "兒童遊戲為了幼兒學習和玩顏色數學數字拼圖": "2026-11-08T19:18:04+00:00",
+    "gubbins": "2026-11-08T19:18:04+00:00",
+    "guncho": "2026-11-08T19:18:04+00:00",
+    "happycolor按數字編號上色的塗色書": "2026-11-08T19:18:04+00:00",
+    "hellokittymydreamstore": "2026-11-08T19:18:04+00:00",
+    "homestorymatchup": "2026-11-08T19:18:04+00:00",
+    "jewelbloom像素填色與色彩分類": "2026-11-08T19:18:04+00:00",
+    "levelsii": "2026-11-08T19:18:04+00:00",
+    "linebubble2泡泡射擊益智遊戲": "2026-11-08T19:18:04+00:00"
   },
   "errors": []
 }

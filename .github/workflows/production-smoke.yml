@@ -44,5 +44,5 @@ jobs:
           PY
       - name: Verify deployed country releases and historical search
         env:
-          ATTEMPTS: '5'
+          ATTEMPTS: '1'
         run: python scripts/check_production.py

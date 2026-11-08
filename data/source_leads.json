@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T19:28:12.051463+00:00",
-  "note": "Historical source leads retained; not validated codes, full guides, or confirmed event dates.",
+  "updated_at": "2026-11-08T19:31:31+00:00",
+  "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
       {
@@ -51,6 +51,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1xWklNZWdYclQ3aF9XVzFYZVBqQk94dU5yT1lyRDJIbDc0MUNqS3k1cllaS3hkZHFpaXB5TFdlMkJpNVFBRVB2a0w1V1AzM296d3ZzZ0VseWdhcHZ0eG5YTERR?oc=5",
         "published_at": "2026-11-04T10:30:52+00:00",
         "publisher": "Ludens Media",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "噠噠戰機",
+        "kind": "codes",
+        "title": "噠噠戰機最完美開局攻略+史上最多禮包碼+11月最新序號拿最強首抽+最暴力技能+全套T0神裝#噠噠戰機序號#噠噠戰機兌換碼#噠噠戰機禮包碼#噠噠戰機首抽#噠噠戰機技能#噠噠戰機巴哈#噠噠戰機攻略#噠噠戰機組隊#噠噠戰機陣容#噠噠戰機排行榜#噠噠戰機FB - Mobile01",
+        "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvUnptMWdVTlBxSTBENmJZNVBkR3FFWEdyZWVFcVAtNy1FUS1GekszMkJNSHpha1NKdV9pWF9aNXVYVm5jdXlQQ0pWOEN6NTJTczJZQTAtbXFBYUlhZEllMmFrbDN3Rm8?oc=5",
+        "published_at": "2026-11-04T08:19:51+00:00",
+        "publisher": "Mobile01",
         "status": "source_lead_only"
       },
       {
@@ -361,6 +370,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tc2xkWWNITEFoRGxvSEdDV281R0wzTVUzSFg5Y1V6eEx3QjI0Vy1CYmFaQnlHb0R6c253c1JsRUpiZzJTYV9hMExPQXByX3EwUnNCTA?oc=5",
         "published_at": "2026-11-04T14:22:01+00:00",
         "publisher": "SuperDope.Games",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "噠噠戰機",
+        "kind": "guides",
+        "title": "噠噠戰機最完美開局攻略+史上最多禮包碼+11月最新序號拿最強首抽+最暴力技能+全套T0神裝#噠噠戰機序號#噠噠戰機兌換碼#噠噠戰機禮包碼#噠噠戰機首抽#噠噠戰機技能#噠噠戰機巴哈#噠噠戰機攻略#噠噠戰機組隊#噠噠戰機陣容#噠噠戰機排行榜#噠噠戰機FB - Mobile01",
+        "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvUnptMWdVTlBxSTBENmJZNVBkR3FFWEdyZWVFcVAtNy1FUS1GekszMkJNSHpha1NKdV9pWF9aNXVYVm5jdXlQQ0pWOEN6NTJTczJZQTAtbXFBYUlhZEllMmFrbDN3Rm8?oc=5",
+        "published_at": "2026-11-04T08:19:51+00:00",
+        "publisher": "Mobile01",
         "status": "source_lead_only"
       },
       {

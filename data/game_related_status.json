@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-08T19:28:12+00:00",
+  "checked_at": "2026-11-08T19:31:31+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
-    "codes": 0,
-    "guides": 0,
+    "codes": 1,
+    "guides": 1,
     "events": 0
   },
   "total_leads": {
-    "codes": 36,
-    "guides": 49,
+    "codes": 37,
+    "guides": 50,
     "events": 67
   },
   "per_game": {
-    "Stumble Guys": {
+    "Wild West Digger": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Subway Surfers": {
+    "Winter Burrow": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Superliminal": {
+    "Wood Grid: 經典方塊": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Sweet Match - Puzzle Games": {
+    "Word Search Explorer": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "The Battle of Polytopia": {
+    "Words With Friends Word Game": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "The Past Within": {
+    "Zen Arrow：箭頭解謎": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "The Room Three": {
+    "來種水果吧！": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "The White Door": {
+    "元氣騎士": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Tile Calm: 方塊清除": {
+    "半夜別修仙 - 少年歌行聯動": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Tile Club - Match Puzzle Games": {
+    "噠噠戰機": {
+      "codes": 1,
+      "guides": 1,
+      "events": 0
+    },
+    "地球末日：生存之戰": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Tile Park: 溫馨拼圖": {
+    "夢幻茶樓": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Toca Boca World": {
+    "夢想小鎮": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Underground Blossom": {
+    "大家來找碴2：尋找與發現": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Unloop Logic: Arrow Puzzle": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Vita 麻將": {
+    "家居設計 改造王": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -615,7 +615,22 @@
     "tocabocaworld": "2026-11-08T19:28:12+00:00",
     "undergroundblossom": "2026-11-08T19:28:12+00:00",
     "unlooplogicarrowpuzzle": "2026-11-08T19:28:12+00:00",
-    "vita麻將": "2026-11-08T19:28:12+00:00"
+    "vita麻將": "2026-11-08T19:28:12+00:00",
+    "wildwestdigger": "2026-11-08T19:31:31+00:00",
+    "winterburrow": "2026-11-08T19:31:31+00:00",
+    "woodgrid經典方塊": "2026-11-08T19:31:31+00:00",
+    "wordsearchexplorer": "2026-11-08T19:31:31+00:00",
+    "wordswithfriendswordgame": "2026-11-08T19:31:31+00:00",
+    "zenarrow箭頭解謎": "2026-11-08T19:31:31+00:00",
+    "來種水果吧": "2026-11-08T19:31:31+00:00",
+    "元氣騎士": "2026-11-08T19:31:31+00:00",
+    "半夜別修仙少年歌行聯動": "2026-11-08T19:31:31+00:00",
+    "噠噠戰機": "2026-11-08T19:31:31+00:00",
+    "地球末日生存之戰": "2026-11-08T19:31:31+00:00",
+    "夢幻茶樓": "2026-11-08T19:31:31+00:00",
+    "夢想小鎮": "2026-11-08T19:31:31+00:00",
+    "大家來找碴2尋找與發現": "2026-11-08T19:31:31+00:00",
+    "家居設計改造王": "2026-11-08T19:31:31+00:00"
   },
   "errors": []
 }

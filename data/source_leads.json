@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T05:49:10.357738+00:00",
-  "note": "Historical source leads retained; not validated codes, full guides, or confirmed event dates.",
+  "updated_at": "2026-11-08T07:05:34+00:00",
+  "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
       {
@@ -525,6 +525,15 @@
         "status": "source_lead_only"
       },
       {
+        "game": "蛋仔派對",
+        "kind": "events",
+        "title": "《蛋仔派對》首度攜手《丸亀製麵》推出限量聯動周邊與專屬餐點《Eggy Party》 - GNN 新聞網",
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5OS1N2eFcwcnVVTEFSMms5R3NyTld1ZUcyTlpNZ0hxQnBSbXRqU2VoWDQ3NUFxNnc2NzZsQ1l1RklqdklOTkM1OWg4a1JqMTFSTlVZZVh6Qkk?oc=5",
+        "published_at": "2026-11-03T06:58:10+00:00",
+        "publisher": "GNN 新聞網",
+        "status": "source_lead_only"
+      },
+      {
         "game": "劍之川",
         "kind": "events",
         "title": "【劍之川】兌換碼與禮包碼序號・11月3日更新 - Ludens Media",
@@ -566,6 +575,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9mY2lCUUpROEJ3QTBvUVNLdUpWRDQ3c0x2NktlYW5xZ3dLUkZobmN6NTRYWUItN05jV0YwWUZ5TzM0UXlZaDBGZTRwX2FDRFhyUlE?oc=5",
         "published_at": "2026-10-30T07:00:00+00:00",
         "publisher": "蕃新聞",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "第五人格",
+        "kind": "events",
+        "title": "《第五人格》主題咖啡廳將於名古屋、大阪、池袋於11月14日起登場! – Collabo Cafe - コラボカフェ",
+        "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNek5QVDZ3eUkxb0czVkNCOW1FTlpxRU1XRmI4WFlaU0VkOGZkRlJfbjNoSmZTcDEyQUZVUE9NRVB5THdSNV9LYUtmZERCTlJvS2d5bkhoYndsSHJDODNfSF9JQ3BwTVBlaWZqeUw4YnRLZUtEVXJVd0ZZYVRlR0otMk1QUlNEZmcxUWV5dmRaWW5WODRybElFY09fX3lpX1E4RVZ4TXNvZw?oc=5",
+        "published_at": "2026-10-30T07:00:00+00:00",
+        "publisher": "コラボカフェ",
         "status": "source_lead_only"
       },
       {

@@ -1,6 +1,75 @@
 {
-  "updated_at": "2026-11-08T05:49:06+00:00",
+  "updated_at": "2026-11-08T07:05:32+00:00",
   "items": [
+    {
+      "id": "408602931cb0ca7450299c",
+      "name": "UNO!™",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.matteljv.uno&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.matteljv.uno&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T07:05:32+00:00"
+    },
+    {
+      "id": "6a7d29ca0ae710dc48fa60",
+      "name": "我的安妮",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.neowiz.game.anne&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.neowiz.game.anne&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T07:05:32+00:00"
+    },
+    {
+      "id": "0001ab3f3dc288049af2ed",
+      "name": "Castle Busters",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "App Store"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "App Store",
+          "url": "https://apps.apple.com/tw/app/id6746328263",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://apps.apple.com/tw/app/id6746328263",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T07:05:32+00:00"
+    },
     {
       "id": "33c48bea9b0624f6b151a1",
       "name": "Piggy Escape: Pig Jam Farm",
@@ -137,7 +206,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.unicostudio.braintest&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-08T05:49:06+00:00"
+      "first_seen_at": "2026-11-08T05:49:06+00:00",
+      "seed_method": ""
     },
     {
       "id": "8784d3729d41a6189920a8",
@@ -160,7 +230,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.fc.goods.sort.matching.puzzle.triplemaster&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-08T05:49:06+00:00"
+      "first_seen_at": "2026-11-08T05:49:06+00:00",
+      "seed_method": ""
     },
     {
       "id": "94801be67b38886df8b561",
@@ -183,7 +254,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=color.number.paint.pixle.art.sort.jigsaw&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-08T05:49:06+00:00"
+      "first_seen_at": "2026-11-08T05:49:06+00:00",
+      "seed_method": ""
     },
     {
       "id": "453dcd76475109fa85346e",
@@ -229,7 +301,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.easybrain.jigsaw.puzzles&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-08T05:49:06+00:00"
+      "first_seen_at": "2026-11-08T05:49:06+00:00",
+      "seed_method": ""
     },
     {
       "id": "4aa8b36a5edf6d608e9389",
@@ -275,7 +348,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.yottagames.gameofmafia&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-08T05:47:43+00:00"
+      "first_seen_at": "2026-11-08T05:47:43+00:00",
+      "seed_method": ""
     },
     {
       "id": "steam-9cd3129542e7abdb",

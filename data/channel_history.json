@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T05:49:03+00:00",
+  "updated_at": "2026-11-08T07:05:28+00:00",
   "status": "partial",
   "fetched": 30,
   "errors": [
@@ -21,6 +21,16 @@
     }
   ],
   "items": [
+    {
+      "id": "2e0f65cbeae584fe36c7bfbb",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《南家三姊妹 從今以後》宣布 2027 年 4 月開播 前導視覺圖與宣傳影片同步公開",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314664",
+      "publisher": "",
+      "published_at": "2026-11-08T14:53:01+08:00",
+      "first_seen_at": "2026-11-08T07:05:28+00:00"
+    },
     {
       "id": "89f87d07a536d92cf9a939c3",
       "category": "巴哈姆特情報",

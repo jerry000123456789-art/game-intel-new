@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T12:57:23.343028+00:00",
-  "note": "Historical source leads retained; not validated codes, full guides, or confirmed event dates.",
+  "updated_at": "2026-11-08T13:31:35+00:00",
+  "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
       {
@@ -696,6 +696,15 @@
         "status": "source_lead_only"
       },
       {
+        "game": "Stardew Valley",
+        "kind": "events",
+        "title": "Stardew Valley 1.7：Barone 暗示將迎來史上規模最大更新 - games.gg",
+        "source_url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQc3d4eERwaXdyX2pnbUdnVEN2Qzk3M01jY2YxU1ZWczdLUkZvbFZiWXpvWHhhZllLM1JCaUJSWW1aQkVaTFJKaXdqVERZTWtQS29yUzVaaFNXR3ZkTlBQTnZFNHpSSXZEblBkUlMxT1dqWnR0cmNNMEwtUWtkMV85S3MtaEt4RWNYZGFjNlRPSzIxX3VpUGRnNzhnS3hPRFI5bUZ2LWRnemYyalZBUUlRNXRSWXhSZThnMXMtU240RU1iczdFUHlhTktGQS1nbWhrZ0pMdnl6T3htb1ExZDlsTHN5amxHQVpQMGxwbWQ0Ukp0YU0zdk9yeDlVTExMMjBVcXc?oc=5",
+        "published_at": "2026-11-03T14:19:46+00:00",
+        "publisher": "games.gg",
+        "status": "source_lead_only"
+      },
+      {
         "title": "《鬥陣特攻》×《劍星》合作活動造型曝光 奪命女「伊芙」D.Va「百合」概念設計圖公開 - 4Gamers",
         "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSlVlQ3JMYlpod1B2NnNlNFZpVi1CWVUwdXVPNWM0WkR3YUxjbnpDanYzaFBzZTU4RnhaSGFMQnJCV0hMekRIQlhkRmJWajROQVFCcDRxbWczNGpwRE1kWTk4Q0x2WWE2TzRPbEdzUEJzZDJJdG4zazdHZzNMQ2hvVER1N3IzYmtWNUxIdDhHSjhQTmI3VjdZZ2l2bDZxR0RwRi1NYmpaSVB4MGM?oc=5",
         "publisher": "4Gamers",
@@ -754,6 +763,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40VXJBVWUwRE15cWRUaTRKQm5Va0s2ZjNBcWs3ZnY4aDk2N2o5Y2VuZWZfSlZxdXh3b3RHRGxja2JuRzVuOHZ5NFM2TFZYd05GNGJFSzV3?oc=5",
         "published_at": "2026-11-03T04:14:13+00:00",
         "publisher": "Ludens Media",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Stardew Valley",
+        "kind": "events",
+        "title": "Stardew Valley 1.7：本月即將推出更新的療癒農場模擬遊戲 - quasa.io",
+        "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaThVY2pJVFNjaEdqRkVEbXlHdHY2bGV1UzhLZWktRmZuSGQwdVhpVjNBdFhPZUtjdTc3ZHlkY0FnWF9aOWE4NXZwTmR3R0lxaE5PZ0ZqR2k4QzlHWmlHV3RETW91ZWMtVUdPeF9NYkVFSFUtTmFid09YZXg1aFFaWVFPRlBxTEtlaGUwdFBpRHpiY05tVmkwdkNsMlA5azYtOVZxZU9oMUFaTmFjeHhTbl9RN1otQQ?oc=5",
+        "published_at": "2026-11-02T20:12:42+00:00",
+        "publisher": "quasa.io",
         "status": "source_lead_only"
       },
       {

@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-08T12:57:23+00:00",
+  "checked_at": "2026-11-08T13:31:35+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
     "guides": 0,
-    "events": 0
+    "events": 2
   },
   "total_leads": {
     "codes": 35,
     "guides": 37,
-    "events": 49
+    "events": 51
   },
   "per_game": {
-    "Riot Mobile": {
+    "My Talking Tom Friends": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Solitaire - Classic Card Game": {
+    "離線遊戲: 無網單機好玩的桌遊 Offline FunOn": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Thronefall": {
+    "Plague Inc.": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Unsolved: 隱藏物品": {
+    "Planet of Lana": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Word Search - Word Puzzle Game": {
+    "POINPY": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Zen Word® - Relax Puzzle Game": {
+    "Scritchy Scratchy": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "二戰硝煙": {
+    "Sea of Stars": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "明日之後": {
+    "Slender Threads": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "經典紙牌接龍遊戲 - Solitaire": {
+    "Sneaky Sasquatch": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "點消 Wood (Click Wood)": {
+    "Spilled!": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "NEW GAME": {
+    "Spooky Express": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "NEW UPDATE": {
+    "Stardew Valley": {
+      "codes": 0,
+      "guides": 0,
+      "events": 2
+    },
+    "Stardew Valley 「スターデューバレー": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Outhold": {
+    "Train Conductor World": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Papers, Please": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Phoenix 2": {
+    "UnGodly アンゴッドリー": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -405,7 +405,22 @@
     "newupdate": "2026-11-08T12:57:23+00:00",
     "outhold": "2026-11-08T12:57:23+00:00",
     "papersplease": "2026-11-08T12:57:23+00:00",
-    "phoenix2": "2026-11-08T12:57:23+00:00"
+    "phoenix2": "2026-11-08T12:57:23+00:00",
+    "mytalkingtomfriends": "2026-11-08T13:31:35+00:00",
+    "離線遊戲無網單機好玩的桌遊offlinefunon": "2026-11-08T13:31:35+00:00",
+    "plagueinc": "2026-11-08T13:31:35+00:00",
+    "planetoflana": "2026-11-08T13:31:35+00:00",
+    "poinpy": "2026-11-08T13:31:35+00:00",
+    "scritchyscratchy": "2026-11-08T13:31:35+00:00",
+    "seaofstars": "2026-11-08T13:31:35+00:00",
+    "slenderthreads": "2026-11-08T13:31:35+00:00",
+    "sneakysasquatch": "2026-11-08T13:31:35+00:00",
+    "spilled": "2026-11-08T13:31:35+00:00",
+    "spookyexpress": "2026-11-08T13:31:35+00:00",
+    "stardewvalley": "2026-11-08T13:31:35+00:00",
+    "stardewvalleyスターデューバレー": "2026-11-08T13:31:35+00:00",
+    "trainconductorworld": "2026-11-08T13:31:35+00:00",
+    "ungodlyアンゴッドリー": "2026-11-08T13:31:35+00:00"
   },
   "errors": []
 }

@@ -13,7 +13,14 @@ const storage={
   async setAlarm(at){alarmAt=at}
 };
 const ctx={storage};
-const object=new GameWatchlist(ctx,{});
+const assetFeed={fetch:async request=>{
+  const name=new URL(request.url).pathname.split('/').pop();
+  const lead={title:'薑餅人放置大戰爭 新活動公開',source_url:'https://example.org/snapshot',
+    published_at:new Date().toISOString()};
+  const payload=name==='source_leads.json'?{items:{events:[lead]}}:{items:[]};
+  return new Response(JSON.stringify(payload),{status:200});
+}};
+const object=new GameWatchlist(ctx,{ASSETS:assetFeed});
 const watchKey='0123456789abcdef0123456789abcdef';
 const base='https://game-intel.example/api/watchlist';
 const env={WATCHLIST:{getByName(key){assert.equal(key,watchKey);return object}},ASSETS:{fetch:()=>new Response('site')}};
@@ -41,6 +48,14 @@ assert.equal(doc.games.length,1);
 assert.equal(doc.items[0]?.game,'薑餅人放置大戰爭');
 assert.equal(doc.items[0]?.start_date,'2026-11-10');
 assert.equal(doc.items[0]?.end_date,'2026-11-25');
+// Google and Bing may block Cloudflare. Scheduled snapshots still keep monitoring usable.
+globalThis.fetch=async()=>new Response('blocked',{status:503});
+try{await object.alarm()}finally{globalThis.fetch=original}
+r=await worker.fetch(req('GET'),env);
+const fall=await r.json();
+assert.equal(fall.errors.length,0);
+assert.equal(fall.source_status[0].mode,'scheduled_snapshot');
+assert(fall.items.some(x=>x.source_url==='https://example.org/snapshot'));
 r=await worker.fetch(req('DELETE',{name:'薑餅人放置大戰爭'}),env);
 assert.equal((await r.json()).games.length,0);
 assert.equal(alarmAt,null);

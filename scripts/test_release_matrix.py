@@ -35,4 +35,14 @@ assert ios_us["availability"]=="商店有收錄"
 assert next(x for x in two["items"] if x["platform"]=="iOS" and x["country"]=="US")["availability"]=="未確認"
 assert m.apple_id_from_link(apple)=="123456789"
 assert m.play_id_from_link(google)=="com.example.test"
+from unittest.mock import patch
+batch_calls=[]
+def fake_batch(appids,country):
+    batch_calls.append((tuple(appids),country))
+    return info if country in ("TW","US") else {"resultCount":0,"results":[]}
+with patch.object(m,"fetch_apple_batch",side_effect=fake_batch):
+    product,status=m.generate(catalog,fetch=m.fetch_apple,limit=1,sleep=lambda value:None)
+assert len(batch_calls)==len(m.COUNTRIES),batch_calls
+assert status["ios_countries_checked"]==len(m.COUNTRIES)
+assert next(x for x in product["items"] if x["platform"]=="iOS" and x["country"]=="US")["store_release_date"]=="2026-10-31"
 print("PASS: per-country iOS lookup, Android separate, first seen preserved, version date != original launch")

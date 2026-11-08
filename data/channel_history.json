@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-11-08T15:43:10+00:00",
+  "updated_at": "2026-11-08T16:01:52+00:00",
   "status": "ok",
-  "fetched": 90,
+  "fetched": 105,
   "errors": [],
   "items": [
+    {
+      "id": "1a3c7572ea98ba7016797da0",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《寶可夢》30th CELEBRATION 卡牌美術展全紀錄 巨幅皮卡丘插畫大集合",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314667",
+      "publisher": "",
+      "published_at": "2026-11-08T23:56:38+08:00",
+      "first_seen_at": "2026-11-08T16:01:52+00:00"
+    },
+    {
+      "id": "8bb900840265d40c6682b624",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "「寶可夢亞錦賽」臺灣紀念球聯盟賽落幕！VGC、TCG 四強選手挺進世界賽",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314666",
+      "publisher": "",
+      "published_at": "2026-11-08T23:53:06+08:00",
+      "first_seen_at": "2026-11-08T16:01:52+00:00"
+    },
     {
       "id": "b392c4311bb2a7fdd03fddbd",
       "category": "巴哈姆特情報",
@@ -25,6 +45,26 @@
       "first_seen_at": "2026-11-08T07:05:28+00:00"
     },
     {
+      "id": "afa01874db72088c419b4aba",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《RO仙境傳說：口袋戰記》結婚也要攻城！週日21:00 公會領地戰｜CD喜德直播 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=zuVwOSjKtgk",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-08T14:18:41+00:00",
+      "first_seen_at": "2026-11-08T16:01:52+00:00"
+    },
+    {
+      "id": "c2033359db0fe81e3f8cd883",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《RO仙境傳說：世界之旅》34000鑽賭九尾狐能不能三階？觀眾直接開盤 all in｜直播精華 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=WenC9XFEMRo",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-08T13:00:01+00:00",
+      "first_seen_at": "2026-11-08T16:01:52+00:00"
+    },
+    {
       "id": "e687924e125dd82630ee2c90",
       "category": "影片情報",
       "origin": "YouTube",
@@ -33,6 +73,16 @@
       "publisher": "【索爾遊戲】",
       "published_at": "2026-11-08T12:22:35+00:00",
       "first_seen_at": "2026-11-08T12:34:08+00:00"
+    },
+    {
+      "id": "57ad033c985ec6b1dd5e5dc1",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》彌多律很難？新手教學別照做，3步驟就打出高傷害 #CD喜德",
+      "url": "https://www.youtube.com/shorts/fZSnNK7sSmY",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-08T12:00:24+00:00",
+      "first_seen_at": "2026-11-08T16:01:52+00:00"
     },
     {
       "id": "89f87d07a536d92cf9a939c3",
@@ -63,6 +113,26 @@
       "publisher": "【索爾遊戲】",
       "published_at": "2026-11-08T10:11:22+00:00",
       "first_seen_at": "2026-11-08T10:26:26+00:00"
+    },
+    {
+      "id": "7e061ac13906f27d7cf2347c",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》繪影現在洗詞條等於白洗？先衝繪影集等級 #CD喜德",
+      "url": "https://www.youtube.com/shorts/CRFkWTW4dx0",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-08T10:00:35+00:00",
+      "first_seen_at": "2026-11-08T16:01:52+00:00"
+    },
+    {
+      "id": "7c4049a209749a2106a205c0",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》後悔之前一定要做的15件事！繪影前期別練、自選SSR別太早選、限定保底不帶到下一期 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=6EVETr00E84",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-08T10:00:30+00:00",
+      "first_seen_at": "2026-11-08T16:01:52+00:00"
     },
     {
       "id": "2cd70b322a3006a8b7df77fc",
@@ -125,6 +195,26 @@
       "first_seen_at": "2026-11-07T21:42:51+00:00"
     },
     {
+      "id": "cba84c674e5b01b7154bd3cc",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》明天要結婚了，今晚照樣開打！開荒第10天繼續狩獵｜CD喜德直播 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=6joEROQ335g",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-08T05:09:26+00:00",
+      "first_seen_at": "2026-11-08T16:01:52+00:00"
+    },
+    {
+      "id": "f3ebfc359ea8ded81b85c710",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《瑪奇 Mobile》誰最會跳閃身步？精髓是回到原位，這個冰法有懂 #CD喜德",
+      "url": "https://www.youtube.com/shorts/uxIyEDzorKw",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-08T05:00:09+00:00",
+      "first_seen_at": "2026-11-08T16:01:52+00:00"
+    },
+    {
       "id": "5bbce306ff058e88f16164a8",
       "category": "巴哈姆特情報",
       "origin": "巴哈姆特",
@@ -173,6 +263,16 @@
       "publisher": "最終の哈姆",
       "published_at": "2026-11-08T01:21:44+00:00",
       "first_seen_at": "2026-11-08T09:52:37+00:00"
+    },
+    {
+      "id": "2b8ee99cc7c0e94bfcece423",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》光稜龍繪影我第一張就中雙屬性！防具胸甲最強、主宰武器一次看 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=xKD1W84Eh_A",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-08T01:00:13+00:00",
+      "first_seen_at": "2026-11-08T16:01:52+00:00"
     },
     {
       "id": "f3e49de7014a873d423e1e2f",
@@ -255,6 +355,26 @@
       "first_seen_at": "2026-11-07T13:51:13+00:00"
     },
     {
+      "id": "ac3472ee9c71633402d6ce3b",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》只要我不貪刀，結果光稜龍翻車11次｜直播精華 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=nzjS2nnzb3U",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-07T13:00:18+00:00",
+      "first_seen_at": "2026-11-08T16:01:52+00:00"
+    },
+    {
+      "id": "8461749528af0ccb1be5eafe",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》火隊到底幫彌多律加多少？龍之介22.5%＋20%＋15%＝57.5% #CD喜德",
+      "url": "https://www.youtube.com/shorts/wy_fSdUe_C0",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-07T12:00:36+00:00",
+      "first_seen_at": "2026-11-08T16:01:52+00:00"
+    },
+    {
       "id": "7b42176a52b3c743102e90ba",
       "category": "影片情報",
       "origin": "YouTube",
@@ -283,6 +403,26 @@
       "publisher": "【索爾遊戲】",
       "published_at": "2026-11-07T10:51:12+00:00",
       "first_seen_at": "2026-11-07T13:51:13+00:00"
+    },
+    {
+      "id": "4661836e10e7e4bd28607af5",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》繪影詞條洗到爛！第一次重繪就白洗 #CD喜德",
+      "url": "https://www.youtube.com/shorts/9j0OE1NE0Us",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-07T10:00:13+00:00",
+      "first_seen_at": "2026-11-08T16:01:52+00:00"
+    },
+    {
+      "id": "83fec67c5301367dca480ea9",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》40等前必做11件！光稜龍騎槍無視防禦，吃兩下就倒 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=omdbD-C3NOM",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-07T10:00:09+00:00",
+      "first_seen_at": "2026-11-08T16:01:52+00:00"
     },
     {
       "id": "44950df086ffc181f2e0d5de",
@@ -345,6 +485,16 @@
       "first_seen_at": "2026-11-07T13:51:13+00:00"
     },
     {
+      "id": "da3955f8cef9262102404199",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《瑪奇 Mobile》閃身步全套35招，誰一個人就跳了4招？ #CD喜德",
+      "url": "https://www.youtube.com/shorts/QU1Ks-O3bSg",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-07T05:00:18+00:00",
+      "first_seen_at": "2026-11-08T16:01:52+00:00"
+    },
+    {
       "id": "d205f02e59fb7c6de8b770d5",
       "category": "影片情報",
       "origin": "YouTube",
@@ -353,6 +503,16 @@
       "publisher": "怪玩客",
       "published_at": "2026-11-07T05:00:12+00:00",
       "first_seen_at": "2026-11-07T13:51:13+00:00"
+    },
+    {
+      "id": "0550119a7635b937e62b025f",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》開荒第9天！冒險團「星痕旅人」收人，天天上線就好，一起來打獵！｜CD喜德直播 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=D0DQIvAiYHE",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-07T04:44:28+00:00",
+      "first_seen_at": "2026-11-08T16:01:52+00:00"
     },
     {
       "id": "f78bc0348d4ba76042f20b1f",
@@ -413,6 +573,16 @@
       "publisher": "最終の哈姆",
       "published_at": "2026-11-07T01:01:27+00:00",
       "first_seen_at": "2026-11-07T13:51:13+00:00"
+    },
+    {
+      "id": "d595b8007fa87f49d520c738",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》免費4隻冒險者先養誰？第1名被低估了，光稜龍一飛就能打下來｜遊戲心得 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=O-FV0B6bFdk",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-07T01:00:20+00:00",
+      "first_seen_at": "2026-11-08T16:01:52+00:00"
     },
     {
       "id": "eda36b82eed6c535465b8e55",

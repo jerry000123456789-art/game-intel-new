@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T19:21:28+00:00",
+  "updated_at": "2026-11-08T19:24:53+00:00",
   "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
@@ -33,6 +33,15 @@
         "publisher": "4Gamers",
         "published_at": "2026-11-06T04:41:35+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Roblox",
+        "kind": "codes",
+        "title": "2026年11月 Roblox Shibuya Codes 兌換碼彙整 - games.gg",
+        "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZUtWNlk5MlZjd1FxUG5VbW9LWEJLMkV2REFOUUtmNVVXX0p4dmxwdVI3VWl6WGota1c5MEluSTBhQXZBdzhlREttQ19HakhlaE9xMDlKSUN4QVBrV2RvOWljNm1ZYTkzZlpLVEN1SldlcGpMM0FhUWt2U3JuSjFrMFhqY1BCY1E5eTFfUUhwUms5ZmRvaVA2SVFPZ0VSZDg0SWhtRmpTeW1xYXJ3VEt0QTV5bklaZWtHZ2JmTXBpczhpYXRwWUNpN2U4NA?oc=5",
+        "published_at": "2026-11-05T21:30:23+00:00",
+        "publisher": "games.gg",
         "status": "source_lead_only"
       },
       {
@@ -505,6 +514,24 @@
         "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2bF9LRWw0RTBLS0pXRDFxdV9WV21OQW1mRXdtaGZpQ1Vyd2o2LTgzc3E4elY4TnlIbzFtRlBseU51bDJaOHhyQi1NUlktb1JkdmZPZ1V3?oc=5",
         "published_at": "2026-10-30T07:00:00+00:00",
         "publisher": "LINE TODAY",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "RO仙境傳說：口袋戰記",
+        "kind": "guides",
+        "title": "《RO仙境傳說：口袋戰記》轉職條件與轉職試煉攻略，學新職業要準備的武器、勳章與轉職憑證 - Ludens Media",
+        "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBnNGxHdXRWX19CMkxydXIyRTg2X3R1ZVNNUUktQWkyUHFMWjVWZmp3OHY4UTJ6V2xoMFNfVUdTUktxblR0N21zRlp0Q2prc0xFc3N3Y0pmbENRTnlZZDNqNDZKMkRYd3c1c0lkVVZPQ1BHdVU?oc=5",
+        "published_at": "2026-10-30T07:00:00+00:00",
+        "publisher": "Ludens Media",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "RO仙境傳說：口袋戰記",
+        "kind": "guides",
+        "title": "《RO仙境傳說：口袋戰記》寵物編隊與扭蛋攻略，出戰位、輔戰位、助戰位與分解重置整理 - Ludens Media",
+        "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBncnlDdnhXclA0WjJsaVJFQ3hmQUFGZmdZemxHNVBvVGFlaDZ1VXM1dWwxQmI1LXhDbnNnOENsZ0cxTHYxREFHU1Q2RjdBeDUzMmlnQTVhRFMyXzktR1QzUlppS2tGRVk?oc=5",
+        "published_at": "2026-10-30T07:00:00+00:00",
+        "publisher": "Ludens Media",
         "status": "source_lead_only"
       },
       {

@@ -1,93 +1,93 @@
 {
-  "checked_at": "2026-11-08T19:21:28+00:00",
+  "checked_at": "2026-11-08T19:24:53+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
-    "codes": 0,
-    "guides": 10,
-    "events": 9
+    "codes": 1,
+    "guides": 2,
+    "events": 0
   },
   "total_leads": {
-    "codes": 35,
-    "guides": 47,
+    "codes": 36,
+    "guides": 49,
     "events": 67
   },
   "per_game": {
-    "Phase 10: Casual Card Game": {
+    "Preserve: Complete Edition": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "迷霧小鎮: 合成遊戲 (Mystery Town)": {
+    "PUBG MOBILE": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Mahjong 10：匹配合十": {
+    "Punishing: Gray Raven": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Mahjong Blast": {
+    "purple": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Mahjong Blast（麻將消消樂益智遊戲）": {
+    "quadline": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Matching Story - 益智消除": {
+    "Reigns": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Melon Sandbox": {
+    "Roblox": {
+      "codes": 1,
+      "guides": 0,
+      "events": 0
+    },
+    "Royal Smash! - Physics Puzzle": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Merge Cat Town : Mystery Merge": {
+    "RO仙境傳說：口袋戰記": {
+      "codes": 0,
+      "guides": 2,
+      "events": 0
+    },
+    "RO仙境傳說：守護永恆的愛": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Minecraft": {
-      "codes": 0,
-      "guides": 1,
-      "events": 0
-    },
-    "MONOPOLY GO! (大富翁 GO!)": {
+    "Runner Heroes": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "MOVLO: Logic Puzzle": {
+    "Screw Spark: 螺絲分類謎題": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "My Cat: 我的貓咪 - 電子寵物遊戲 我的虛擬寵物": {
+    "Shelf Sort: Match 3 Puzzle": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Pikmin Bloom": {
-      "codes": 0,
-      "guides": 3,
-      "events": 3
-    },
-    "Please, Touch The Artwork": {
+    "Sky光·遇": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Pokémon GO": {
+    "Stacky Bird: 超休閒小鳥飛行遊戲": {
       "codes": 0,
-      "guides": 6,
-      "events": 6
+      "guides": 0,
+      "events": 0
     }
   },
   "checked_games": {
@@ -585,7 +585,22 @@
     "mycat我的貓咪電子寵物遊戲我的虛擬寵物": "2026-11-08T19:21:28+00:00",
     "pikminbloom": "2026-11-08T19:21:28+00:00",
     "pleasetouchtheartwork": "2026-11-08T19:21:28+00:00",
-    "pokémongo": "2026-11-08T19:21:28+00:00"
+    "pokémongo": "2026-11-08T19:21:28+00:00",
+    "preservecompleteedition": "2026-11-08T19:24:53+00:00",
+    "pubgmobile": "2026-11-08T19:24:53+00:00",
+    "punishinggrayraven": "2026-11-08T19:24:53+00:00",
+    "purple": "2026-11-08T19:24:53+00:00",
+    "quadline": "2026-11-08T19:24:53+00:00",
+    "reigns": "2026-11-08T19:24:53+00:00",
+    "roblox": "2026-11-08T19:24:53+00:00",
+    "royalsmashphysicspuzzle": "2026-11-08T19:24:53+00:00",
+    "ro仙境傳說口袋戰記": "2026-11-08T19:24:53+00:00",
+    "ro仙境傳說守護永恆的愛": "2026-11-08T19:24:53+00:00",
+    "runnerheroes": "2026-11-08T19:24:53+00:00",
+    "screwspark螺絲分類謎題": "2026-11-08T19:24:53+00:00",
+    "shelfsortmatch3puzzle": "2026-11-08T19:24:53+00:00",
+    "sky光遇": "2026-11-08T19:24:53+00:00",
+    "stackybird超休閒小鳥飛行遊戲": "2026-11-08T19:24:53+00:00"
   },
   "errors": []
 }

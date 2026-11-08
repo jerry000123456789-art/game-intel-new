@@ -42,10 +42,12 @@ const values={'studio-game':'WellDiver','studio-topic':'公開活動',
   'studio-brand':'測試品牌','studio-platform':'Facebook','studio-angle':'timely'};
 const draft=new Function('$','goodUrl',src.slice(ds,de)+'return draftText;')(
   key=>({value:values[key]}),url=>url.startsWith('https://')?url:'');
-assert(draft.includes('WellDiver'));
-assert(draft.includes('https://example.org/source'));
-assert(!draft.includes('免費代儲')); // no fabricated promotions
+const facebook=draft();
+assert(facebook.includes('WellDiver'));
+assert(facebook.includes('https://example.org/source'));
+assert(!facebook.includes('免費代儲')); // no fabricated promotions
 values['studio-platform']='Dcard';
-assert(draftTextIncludesDisclosure());
-function draftTextIncludesDisclosure(){return draft.includes('公開活動')&&draft.includes('原始資料')}
+const dcard=draft();
+assert(dcard.includes('公開活動')&&dcard.includes('原始資料'));
+assert(dcard.includes('商業資訊整理'));
 console.log('PASS: full business dashboard, release-window criteria, verified source URLs, platform-specific drafts and safe tracking UI');

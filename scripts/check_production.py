@@ -66,6 +66,16 @@ def check():
             code,saved=watched()
             if not any(x.get("name")=="自動驗收測試遊戲" for x in saved.get("games",[])):
                 problems.append("Cloud persistent GET after save failed")
+            # Confirm Cloudflare Durable Object actually wakes and performs its first scan.
+            scanned=False
+            for poll in range(8):
+                if saved.get("last_scan_at") and saved.get("last_scan_at")!=existing.get("last_scan_at"):
+                    scanned=True
+                    break
+                time.sleep(5)
+                code,saved=watched()
+            print("WATCHLIST ALARM:",("ran" if scanned else "not observed"),"checked",saved.get("last_scan_at"),"source errors",saved.get("errors"),flush=True)
+            if not scanned:problems.append("Cloud watchlist background crawler alarm did not run")
             code,deleted=watched("DELETE",{"name":"自動驗收測試遊戲"})
             if code!=200 or any(x.get("name")=="自動驗收測試遊戲" for x in deleted.get("games",[])):
                 problems.append("Cloud persistent delete failed")

@@ -17,6 +17,9 @@ SOURCES=[
     ("Google Play","台灣","https://play.google.com/store/games?hl=zh_TW&gl=TW"),
     ("Google Play","國際","https://play.google.com/store/games?hl=zh_TW&gl=US"),
     ("App Store","台灣","https://apps.apple.com/tw/iphone/games"),
+    ("App Store","國際","https://apps.apple.com/us/iphone/games"),
+    ("App Store","國際","https://apps.apple.com/jp/iphone/games"),
+    ("App Store","國際","https://apps.apple.com/kr/iphone/games"),
     ("Huawei AppGallery","國際","https://appgallery.huawei.com/tab/automore%7Cdoublecolumncardwithstar%7C903189%7CA01000"),
 ]
 MAX_HTML=5_000_000
@@ -43,6 +46,14 @@ class StoreLinks(HTMLParser):
             self.links.append(self.current)
             self.current=None
 
+def country_from_link(platform, href, region):
+    if platform=="Google Play":
+        parsed=urllib.parse.urlparse(href)
+        gl=urllib.parse.parse_qs(parsed.query).get("gl",[""])[0].upper()
+        return gl if gl in ("TW","US","JP","KR","HK","SG") else ("TW" if region=="台灣" else "US")
+    match=re.search(r"/(tw|us|jp|kr|hk|sg)/",urllib.parse.urlparse(href).path,re.I)
+    return match.group(1).upper() if match else ("TW" if region=="台灣" else "US")
+
 def normalized_link(platform,href,region):
     base="https://play.google.com" if platform=="Google Play" else "https://apps.apple.com"
     url=urllib.parse.urljoin(base,href)
@@ -54,7 +65,8 @@ def normalized_link(platform,href,region):
         return "https://play.google.com/store/apps/details?"+urllib.parse.urlencode({"id":appid,"hl":"zh_TW","gl":"TW" if region=="台灣" else "US"})
     if p.hostname!="apps.apple.com":return ""
     found=re.search(r"/id(\d+)",p.path)
-    return "https://apps.apple.com/tw/app/id"+found.group(1) if found else ""
+    country=country_from_link(platform,url,region)
+    return "https://apps.apple.com/"+country.lower()+"/app/id"+found.group(1) if found else ""
 
 def clean_title(raw):
     t=" ".join(str(raw or "").split()).strip("「」『』“”\" ")
@@ -80,9 +92,10 @@ def parse_store(html,platform,region):
         title=title_for(platform,row["parts"])
         if not link or not title:continue
         if link not in result:
+            country=country_from_link(platform,link,region)
             result[link]={
                 "id":hashlib.sha256((platform+"|"+region+"|"+link).encode()).hexdigest()[:22],
-                "name":title,"status":"商店收錄","region":region,"platforms":[platform],
+                "name":title,"status":"商店收錄","region":region,"country":country,"platforms":[platform],
                 "release_date":"","developer":"","cover_url":"",
                 "store_links":[{"name":platform,"url":link,"region":region}],
                 "payment_methods":[],"source_url":link,"verified_store_listing":True,
@@ -97,14 +110,14 @@ def catalog_key(row):
     p=urllib.parse.urlparse(link)
     if p.hostname=="play.google.com":
         appid=urllib.parse.parse_qs(p.query).get("id",[""])[0]
-        if appid:return (platform,region,"play:"+appid.casefold())
+        if appid:return (platform,country_from_link(platform,link,region),"play:"+appid.casefold())
     if p.hostname=="apps.apple.com":
         m=re.search(r"/id(\d+)",p.path)
-        if m:return (platform,region,"apple:"+m.group(1))
+        if m:return (platform,country_from_link(platform,link,region),"apple:"+m.group(1))
     if p.hostname=="store.steampowered.com":
         m=re.search(r"/app/(\d+)",p.path)
         if m:return (platform,region,"steam:"+m.group(1))
-    return (platform,region,"name:"+clean_title(row.get("name","")).casefold())
+    return (platform,row.get("country") or region,"name:"+clean_title(row.get("name","")).casefold())
 
 def catalog_quality(row):
     return sum(bool(row.get(k)) for k in ("developer","cover_url","release_date","seed_method")) + 2*int(row.get("status") in ("即將上市","已上市","預先註冊"))
@@ -130,13 +143,15 @@ def run():
             x["region"]="國際"
             for st in x.get("store_links",[]):
                 if st.get("region")=="美國":st["region"]="國際"
+        x["country"]=x.get("country") or country_from_link((x.get("platforms") or [""])[0],x.get("source_url",""),x.get("region",""))
         key=catalog_key(x)
         if key not in merged or catalog_quality(x)>catalog_quality(merged[key]):merged[key]=x
     previous=json.loads(HEALTH.read_text(encoding="utf-8")) if HEALTH.exists() else {"sources":{}}
     health=previous.get("sources",{})
     fresh=0
     for platform,region,url in SOURCES:
-        source_name=platform+" "+region
+        country=country_from_link(platform,url,region)
+        source_name=platform+" "+country
         state=health.get(source_name,{})
         try:
             if platform=="Huawei AppGallery":

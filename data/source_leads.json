@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T03:57:32+00:00",
+  "updated_at": "2026-11-08T05:47:47+00:00",
   "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
@@ -58,6 +58,24 @@
         "publisher": "Ludens Media",
         "published_at": "2026-11-03T04:14:13+00:00",
         "first_seen_at": "2026-11-07T09:46:49+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "劍之川",
+        "kind": "codes",
+        "title": "【劍之川】兌換碼與禮包碼序號・11月3日更新 - Ludens Media",
+        "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40VXJBVWUwRE15cWRUaTRKQm5Va0s2ZjNBcWs3ZnY4aDk2N2o5Y2VuZWZfSlZxdXh3b3RHRGxja2JuRzVuOHZ5NFM2TFZYd05GNGJFSzV3?oc=5",
+        "published_at": "2026-11-03T04:14:13+00:00",
+        "publisher": "Ludens Media",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "劍之川",
+        "kind": "codes",
+        "title": "劍之川最強隱藏版神角免費拿+史上最多禮包碼+2026最新序號拿多隻T0首抽+神功+張月+淩雪#劍之川序號#劍之川兌換碼#劍之川禮包碼#劍之川首抽#劍之川巴哈#劍之川排行榜#劍之川攻略#劍之川組隊#劍之川陣容#劍之川FB #劍之川DC #劍之川T0 - Mobile01",
+        "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9fTWMwT25CQXlHc1BTcFhkWGZsMEJ4ZzNHMlJQbzdxTC1SczkxS19md2ZuNk12eV9UYldvTWlzRXF6eXdteVNTQ1dxbFF0XzNzaWtldXVLajctSkpGZ0kyNi1oYkZvX1U?oc=5",
+        "published_at": "2026-11-01T04:25:08+00:00",
+        "publisher": "Mobile01",
         "status": "source_lead_only"
       },
       {
@@ -263,6 +281,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tc2xkWWNITEFoRGxvSEdDV281R0wzTVUzSFg5Y1V6eEx3QjI0Vy1CYmFaQnlHb0R6c253c1JsRUpiZzJTYV9hMExPQXByX3EwUnNCTA?oc=5",
         "published_at": "2026-11-04T14:22:01+00:00",
         "publisher": "SuperDope.Games",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "劍之川",
+        "kind": "guides",
+        "title": "劍之川最強隱藏版神角免費拿+史上最多禮包碼+2026最新序號拿多隻T0首抽+神功+張月+淩雪#劍之川序號#劍之川兌換碼#劍之川禮包碼#劍之川首抽#劍之川巴哈#劍之川排行榜#劍之川攻略#劍之川組隊#劍之川陣容#劍之川FB #劍之川DC #劍之川T0 - Mobile01",
+        "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9fTWMwT25CQXlHc1BTcFhkWGZsMEJ4ZzNHMlJQbzdxTC1SczkxS19md2ZuNk12eV9UYldvTWlzRXF6eXdteVNTQ1dxbFF0XzNzaWtldXVLajctSkpGZ0kyNi1oYkZvX1U?oc=5",
+        "published_at": "2026-11-01T04:25:08+00:00",
+        "publisher": "Mobile01",
         "status": "source_lead_only"
       },
       {
@@ -495,6 +522,15 @@
         "publisher": "GNN 新聞網",
         "published_at": "2026-11-03T06:58:10+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "劍之川",
+        "kind": "events",
+        "title": "【劍之川】兌換碼與禮包碼序號・11月3日更新 - Ludens Media",
+        "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40VXJBVWUwRE15cWRUaTRKQm5Va0s2ZjNBcWs3ZnY4aDk2N2o5Y2VuZWZfSlZxdXh3b3RHRGxja2JuRzVuOHZ5NFM2TFZYd05GNGJFSzV3?oc=5",
+        "published_at": "2026-11-03T04:14:13+00:00",
+        "publisher": "Ludens Media",
         "status": "source_lead_only"
       },
       {

@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-08T03:57:32+00:00",
+  "checked_at": "2026-11-08T05:47:47+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
-    "codes": 0,
+    "codes": 2,
     "guides": 1,
-    "events": 0
+    "events": 1
   },
   "total_leads": {
-    "codes": 30,
-    "guides": 25,
-    "events": 30
+    "codes": 32,
+    "guides": 26,
+    "events": 31
   },
   "per_game": {
-    "Blood Strike - FPS for all": {
+    "大黑幫": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Old School RuneScape": {
+    "GymPup": {
       "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "奇蹟之詞：用於連接詞彙的填字遊戲": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "好萊塢合成：星夢逆襲": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "字謎遊戲 Wordle！": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "親愛的農場": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "部落衝突 (Clash of Clans)": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "食光旅行": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "The 9th Haunted Corridor": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "每日麻將配對": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "箭術堡壘：城堡戰爭": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "劍之川": {
+      "codes": 2,
       "guides": 1,
-      "events": 0
+      "events": 1
     },
-    "Sniper Battle: 3D War Shooter": {
+    "塔塔冒險隊": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Sonic Dash Run": {
+    "子彈英雄：塔防 × 戰棋策略 RPG": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Pure Sniper 真正的狙擊手 - 火力全開滅敵人": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Reckless Getaway 2": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Royal Cooking - Cooking Game": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Scrabble® GO – Fun with Words!": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Wordscapes": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Wordscapes Search: Word Games": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Wordscapes Solitaire": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Words of Wonders: Search": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Word Solitaire Now!": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Zombie Sniper War 3 - Fire FPS": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "像素射擊 3D (Pixel Gun 3D)": {
+    "孔明與阿斗": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -240,7 +240,22 @@
     "wordsofwonderssearch": "2026-11-08T03:57:32+00:00",
     "wordsolitairenow": "2026-11-08T03:57:32+00:00",
     "zombiesniperwar3firefps": "2026-11-08T03:57:32+00:00",
-    "像素射擊3dpixelgun3d": "2026-11-08T03:57:32+00:00"
+    "像素射擊3dpixelgun3d": "2026-11-08T03:57:32+00:00",
+    "大黑幫": "2026-11-08T05:47:47+00:00",
+    "gympup": "2026-11-08T05:47:47+00:00",
+    "奇蹟之詞用於連接詞彙的填字遊戲": "2026-11-08T05:47:47+00:00",
+    "好萊塢合成星夢逆襲": "2026-11-08T05:47:47+00:00",
+    "字謎遊戲wordle": "2026-11-08T05:47:47+00:00",
+    "親愛的農場": "2026-11-08T05:47:47+00:00",
+    "部落衝突clashofclans": "2026-11-08T05:47:47+00:00",
+    "食光旅行": "2026-11-08T05:47:47+00:00",
+    "the9thhauntedcorridor": "2026-11-08T05:47:47+00:00",
+    "每日麻將配對": "2026-11-08T05:47:47+00:00",
+    "箭術堡壘城堡戰爭": "2026-11-08T05:47:47+00:00",
+    "劍之川": "2026-11-08T05:47:47+00:00",
+    "塔塔冒險隊": "2026-11-08T05:47:47+00:00",
+    "子彈英雄塔防戰棋策略rpg": "2026-11-08T05:47:47+00:00",
+    "孔明與阿斗": "2026-11-08T05:47:47+00:00"
   },
   "errors": []
 }

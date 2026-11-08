@@ -1,6 +1,52 @@
 {
-  "updated_at": "2026-11-08T03:57:29+00:00",
+  "updated_at": "2026-11-08T05:47:43+00:00",
   "items": [
+    {
+      "id": "e0fe1229c2e6952bc0e695",
+      "name": "大黑幫",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.yottagames.gameofmafia&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.yottagames.gameofmafia&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T05:47:43+00:00"
+    },
+    {
+      "id": "steam-9cd3129542e7abdb",
+      "name": "GymPup",
+      "status": "即將上市",
+      "region": "國際",
+      "platforms": [
+        "Steam"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4774370/a144d1cac640eae98aac6b6cf83cd170dc4bd8d2/header.jpg?t=1792546545",
+      "store_links": [
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/4774370/",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://store.steampowered.com/app/4774370/",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T05:47:41.219502+00:00"
+    },
     {
       "id": "c17fb48ff89e0c5183cab6",
       "name": "Old School RuneScape",
@@ -22,7 +68,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.jagex.oldscape.android&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-08T03:57:29+00:00"
+      "first_seen_at": "2026-11-08T03:57:29+00:00",
+      "seed_method": ""
     },
     {
       "id": "6ba7a63dfc52bc13cbf861",
@@ -45,7 +92,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.sega.sonicdash&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-08T03:57:29+00:00"
+      "first_seen_at": "2026-11-08T03:57:29+00:00",
+      "seed_method": ""
     },
     {
       "id": "6f598c669ddcc4116fa88b",
@@ -68,7 +116,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.hypgames.sniperbattle&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-08T03:57:29+00:00"
+      "first_seen_at": "2026-11-08T03:57:29+00:00",
+      "seed_method": ""
     },
     {
       "id": "86aa169376926adf51dbec",
@@ -91,7 +140,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.netease.newspike&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-08T03:57:29+00:00"
+      "first_seen_at": "2026-11-08T03:57:29+00:00",
+      "seed_method": ""
     },
     {
       "id": "b65591a3645ae115ea136f",
@@ -2770,7 +2820,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.onepunchman.ggplay.tw&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "2d0f6e4ca6939fc5dfbcc4",

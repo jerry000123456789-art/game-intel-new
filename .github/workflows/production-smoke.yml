@@ -1,0 +1,32 @@
+name: Verify Cloudflare production site
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/production-smoke.yml'
+      - 'scripts/check_production.py'
+  workflow_run:
+    workflows: ['Collect and validate public game intelligence']
+    types: [completed]
+  schedule:
+    - cron: '47 */3 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: cloudflare-production-smoke
+  cancel-in-progress: false
+jobs:
+  external-smoke:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify deployed HTML, JSON data, and live event/guide searches
+        run: python scripts/check_production.py

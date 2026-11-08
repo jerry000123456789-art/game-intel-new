@@ -33,6 +33,30 @@ def check():
             if asset_status!=200 or mark not in asset_data.decode("utf-8","replace"):problems.append(asset+" not deployed")
         except Exception as e:problems.append(asset+" unavailable: "+str(e))
     try:
+        test_key="97b4b4acbe0b4915bb6ee85e91269377"
+        def watched(method="GET",record=None):
+            payload=json.dumps(record,ensure_ascii=False).encode("utf-8") if record else None
+            req=Request(BASE+"/api/watchlist",data=payload,method=method,headers={
+              "X-Watch-Key":test_key,"Accept":"application/json",
+              "Origin":BASE,"Content-Type":"application/json"})
+            with urlopen(req,timeout=20) as response:return response.status,json.loads(response.read(200000))
+        code,existing=watched()
+        print("WATCHLIST API: GET",code,existing.get("source_mode"),flush=True)
+        if code!=200 or existing.get("status")!="ok":problems.append("Cloud persistent watchlist unavailable")
+        else:
+            code,added=watched("POST",{"name":"自動驗收測試遊戲","source_url":"https://example.org/game"})
+            print("WATCHLIST API: POST",code,added.get("status"),flush=True)
+            if code not in (200,201) or added.get("status") not in ("saved","already_tracking"):
+                problems.append("Cloud persistent save failed")
+            code,saved=watched()
+            if not any(x.get("name")=="自動驗收測試遊戲" for x in saved.get("games",[])):
+                problems.append("Cloud persistent GET after save failed")
+            code,deleted=watched("DELETE",{"name":"自動驗收測試遊戲"})
+            if code!=200 or any(x.get("name")=="自動驗收測試遊戲" for x in deleted.get("games",[])):
+                problems.append("Cloud persistent delete failed")
+            else:print("WATCHLIST API: GET/POST/DELETE PASSED",flush=True)
+    except Exception as e:problems.append("Watchlist backend not ready: "+str(e))
+    try:
         status,ctype,data=get("/data/coverage_status.json?release_check=1")
         server=json.loads(data);local=json.loads((ROOT/"data/coverage_status.json").read_text(encoding="utf8"))
         live_count=server.get("sections",{}).get("game_catalog",{}).get("count",0)

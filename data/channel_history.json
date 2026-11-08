@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T12:25:29+00:00",
+  "updated_at": "2026-11-08T12:34:08+00:00",
   "status": "ok",
   "fetched": 90,
   "errors": [],
@@ -23,6 +23,16 @@
       "publisher": "",
       "published_at": "2026-11-08T14:53:01+08:00",
       "first_seen_at": "2026-11-08T07:05:28+00:00"
+    },
+    {
+      "id": "e687924e125dd82630ee2c90",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《SD鋼彈 G世代 永恆》｜世代之塔「SOUTH TOWER 開打｜ULT 開發中",
+      "url": "https://www.youtube.com/watch?v=m-Zhf8MJIyE",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-08T12:22:35+00:00",
+      "first_seen_at": "2026-11-08T12:34:08+00:00"
     },
     {
       "id": "89f87d07a536d92cf9a939c3",

@@ -21,7 +21,7 @@ MATRIX=ROOT/"data/release_matrix.json"
 STATUS=ROOT/"data/mobile_enrichment_status.json"
 NOW=dt.datetime.now(dt.timezone.utc)
 TODAY=NOW.date()
-MAX_ANDROID=180
+MAX_ANDROID=1200
 CONCURRENT=10
 
 class PageFacts(HTMLParser):
@@ -201,6 +201,10 @@ def enrich(catalog,matrix,lookup=None,max_android=MAX_ANDROID):
         if k in checked:continue
         checked.add(k)
         obs=by_key.get(k,{})
+        last=obs.get("metadata_checked_at","")
+        try:age=(NOW-dt.datetime.fromisoformat(last.replace("Z","+00:00"))).days
+        except (ValueError,TypeError):age=999
+        if age<7:continue  # a confirmed app is rechecked weekly, not every 3 hours
         priority=(0 if not x.get("cover_url") else 1,
                   obs.get("metadata_checked_at",""),x.get("first_seen_at",""))
         candidates.append((priority,k,x))

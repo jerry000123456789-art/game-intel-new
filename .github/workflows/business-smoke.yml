@@ -23,6 +23,7 @@ jobs:
           node --check business.js
           node tests/test_business_ui.mjs
           node tests/test_business_runtime.mjs
+          node tests/test_watchlist_api.mjs
           python scripts/test_tracked_events.py
           python scripts/validate_site.py
           python scripts/test_frontend_js.py

@@ -176,16 +176,70 @@ function watchNews(xml,game,now=Date.now()){
   }
   return results;
 }
-async function fetchWatchRSS(game){
-  const url=new URL('https://news.google.com/rss/search');
+async function watchSnapshot(game,env){
+  if(!env?.ASSETS)throw Error('Cloudflare static snapshots unavailable');
+  const host='https://game-intel-new.jerry000123456789.workers.dev/data/';
+  const names=['latest','channel_history','source_leads','tracked_events'];
+  const responses=await Promise.all(names.map(name=>env.ASSETS.fetch(new Request(host+name+'.json'))));
+  const sources=[];
+  let available=0;
+  for(let i=0;i<responses.length;i++){
+    if(!responses[i].ok)continue;
+    let json;
+    try{json=await responses[i].json()}catch{continue}
+    available++;
+    if(names[i]==='source_leads')sources.push(...(json.items?.events||[]));
+    else sources.push(...(json.items||[]));
+  }
+  if(!available)throw Error('No readable cached source snapshot');
+  const out=[],seen=new Set(),cutoff=Date.now()-32*86400000;
+  for(const item of sources){
+    const title=String(item.title||''),url=item.source_url||item.url||'',
+      posted=Date.parse(item.published_at||'');
+    if(!title||!title.normalize('NFKC').toLowerCase().includes(game.normalize('NFKC').toLowerCase())||
+       !WATCH_EVENT_RE.test(title)||!Number.isFinite(posted)||posted<cutoff||posted>Date.now()+86400000)continue;
+    let parsed;
+    try{parsed=new URL(url);if(parsed.protocol!=='https:')continue}catch{continue}
+    if(seen.has(parsed.href))continue;
+    seen.add(parsed.href);
+    const dates=item.start_date&&item.end_date?[item.start_date,item.end_date]:calendarDates(title+' '+(item.summary||''));
+    out.push({id:game+'|'+parsed.href,game,title:title.slice(0,200),source_url:parsed.href,
+       published_at:new Date(posted).toISOString(),start_date:dates[0]||'',
+       end_date:dates[1]||'',date_status:dates[0]?'來源日期，請核對':'日期待公布'});
+    if(out.length>=50)break;
+  }
+  return out;
+}
+async function fetchWatchRSS(game,env){
   const q='"'+game+'" (遊戲活動 OR 限時活動 OR 聯動 OR 慶典) when:30d';
-  for(const [k,v] of Object.entries({q,hl:'zh-TW',gl:'TW',ceid:'TW:zh-Hant'}))url.searchParams.set(k,v);
-  const r=await fetch(url.toString(),{headers:{'User-Agent':'GameIntelWatchlist/2.0','Accept':'application/rss+xml,text/xml'},
-    signal:AbortSignal.timeout(11000)});
-  if(!r.ok)throw Error('RSS HTTP '+r.status);
-  const body=await r.text();
-  if(body.length>1300000)throw Error('RSS too large');
-  return watchNews(body,game);
+  const google=new URL('https://news.google.com/rss/search');
+  for(const [k,v] of Object.entries({q,hl:'zh-TW',gl:'TW',ceid:'TW:zh-Hant'}))google.searchParams.set(k,v);
+  const bing=new URL('https://www.bing.com/news/search');
+  for(const [k,v] of Object.entries({q:'"'+game+'" 活動 遊戲',format:'rss',mkt:'zh-TW'}))bing.searchParams.set(k,v);
+  const entries=new Map(),failures=[];
+  let liveSuccess=false;
+  for(const source of [google,bing]){
+    try{
+      const response=await fetch(source.toString(),{
+        headers:{'User-Agent':'GameIntelActivityMonitor/2.1','Accept':'application/rss+xml,text/xml'},
+        signal:AbortSignal.timeout(8500)});
+      if(!response.ok)throw Error(source.hostname+' HTTP '+response.status);
+      const body=await response.text();
+      if(body.length>1300000||!/<rss\b|<channel\b/i.test(body))throw Error(source.hostname+' returned no RSS');
+      liveSuccess=true;
+      for(const item of watchNews(body,game))entries.set(item.id,item);
+    }catch(e){failures.push(String(e).slice(0,150))}
+  }
+  // These snapshots are collected by scheduled GitHub Actions using real public
+  // RSS, and keep useful game announcements when Cloudflare fetches get 503.
+  try{
+    for(const item of await watchSnapshot(game,env))if(!entries.has(item.id))entries.set(item.id,item);
+    return {items:[...entries.values()],source_mode:liveSuccess?'rss_and_snapshot':'scheduled_snapshot',
+       warnings:failures};
+  }catch(e){
+    if(liveSuccess)return {items:[...entries.values()],source_mode:'live_rss',warnings:failures};
+    throw Error(failures.join('; ')+'; snapshot '+String(e).slice(0,120));
+  }
 }
 export class GameWatchlist{
   constructor(state,env){this.ctx=state;this.env=env}
@@ -197,7 +251,8 @@ export class GameWatchlist{
         games,items:await storage.get('events')||[],
         updated_at:await storage.get('updated_at')||'',
         last_scan_at:await storage.get('last_scan_at')||'',
-        errors:await storage.get('errors')||[]});
+        errors:await storage.get('errors')||[],
+        source_status:await storage.get('source_status')||[]});
     }
     if(method!=='POST'&&method!=='DELETE')return watchJSON({error:'Unsupported method'},405);
     let raw;
@@ -238,16 +293,18 @@ export class GameWatchlist{
       if(!games.length)return;
       const prior=await storage.get('events')||[];
       const byId=new Map(prior.map(x=>[x.id,x]));
-      const errors=[];
+      const errors=[],sourceStatus=[];
       for(let i=0;i<games.length;i+=3){
-        const batch=await Promise.allSettled(games.slice(i,i+3).map(x=>fetchWatchRSS(x.name)));
+        const batch=await Promise.allSettled(games.slice(i,i+3).map(x=>fetchWatchRSS(x.name,this.env)));
         batch.forEach((result,j)=>{
+          const game=games[i+j].name;
           if(result.status==='fulfilled'){
-            for(const event of result.value){
+            sourceStatus.push({game,mode:result.value.source_mode,warnings:result.value.warnings});
+            for(const event of result.value.items){
               const previous=byId.get(event.id);
               byId.set(event.id,{...event,first_seen_at:previous?.first_seen_at||new Date().toISOString()});
             }
-          }else errors.push({game:games[i+j].name,error:String(result.reason||'').slice(0,140)});
+          }else errors.push({game,error:String(result.reason||'').slice(0,200)});
         });
       }
       const cutoff=Date.now()-120*86400000;
@@ -256,6 +313,7 @@ export class GameWatchlist{
         &&Date.parse(x.published_at)>=cutoff).sort((a,b)=>b.published_at.localeCompare(a.published_at)).slice(0,500);
       await storage.put('events',rows);
       await storage.put('errors',errors);
+      await storage.put('source_status',sourceStatus);
       await storage.put('last_scan_at',new Date().toISOString());
       await storage.put('updated_at',new Date().toISOString());
     }finally{

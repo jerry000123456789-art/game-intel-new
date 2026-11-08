@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T10:00:05+00:00",
+  "updated_at": "2026-11-08T10:26:26+00:00",
   "status": "ok",
   "fetched": 90,
   "errors": [],
@@ -33,6 +33,16 @@
       "publisher": "",
       "published_at": "2026-11-08T10:21:36+08:00",
       "first_seen_at": "2026-11-08T03:57:25+00:00"
+    },
+    {
+      "id": "379ef6684c175c5fdf8cd094",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《SD鋼彈 G世代 永恆》【國際版 #589】【世代之塔 SOUTH TOWER】世代之塔 第11層 【11F】【四機通關】",
+      "url": "https://www.youtube.com/watch?v=CL6B4a9aXLo",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-08T10:11:22+00:00",
+      "first_seen_at": "2026-11-08T10:26:26+00:00"
     },
     {
       "id": "2cd70b322a3006a8b7df77fc",

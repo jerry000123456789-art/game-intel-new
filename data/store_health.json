@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T10:00:09+00:00",
+  "updated_at": "2026-11-08T10:26:29+00:00",
   "sources": {
     "Google Play 台灣": {
       "state": "success",
@@ -25,6 +25,56 @@
     "Huawei AppGallery 國際": {
       "state": "error",
       "last_checked_at": "2026-11-08T10:00:09+00:00",
+      "last_success_at": "",
+      "items_this_run": 0,
+      "error": "官網需 JavaScript 動態載入，目前無可核對清單（3012 bytes）",
+      "source_url": "https://appgallery.huawei.com/tab/automore%7Cdoublecolumncardwithstar%7C903189%7CA01000"
+    },
+    "Google Play TW": {
+      "state": "success",
+      "last_checked_at": "2026-11-08T10:26:29+00:00",
+      "last_success_at": "2026-11-08T10:26:29+00:00",
+      "items_this_run": 54,
+      "source_url": "https://play.google.com/store/games?hl=zh_TW&gl=TW"
+    },
+    "Google Play US": {
+      "state": "success",
+      "last_checked_at": "2026-11-08T10:26:29+00:00",
+      "last_success_at": "2026-11-08T10:26:29+00:00",
+      "items_this_run": 95,
+      "source_url": "https://play.google.com/store/games?hl=zh_TW&gl=US"
+    },
+    "App Store TW": {
+      "state": "success",
+      "last_checked_at": "2026-11-08T10:26:29+00:00",
+      "last_success_at": "2026-11-08T10:26:29+00:00",
+      "items_this_run": 95,
+      "source_url": "https://apps.apple.com/tw/iphone/games"
+    },
+    "App Store US": {
+      "state": "success",
+      "last_checked_at": "2026-11-08T10:26:29+00:00",
+      "last_success_at": "2026-11-08T10:26:29+00:00",
+      "items_this_run": 194,
+      "source_url": "https://apps.apple.com/us/iphone/games"
+    },
+    "App Store JP": {
+      "state": "success",
+      "last_checked_at": "2026-11-08T10:26:29+00:00",
+      "last_success_at": "2026-11-08T10:26:29+00:00",
+      "items_this_run": 213,
+      "source_url": "https://apps.apple.com/jp/iphone/games"
+    },
+    "App Store KR": {
+      "state": "success",
+      "last_checked_at": "2026-11-08T10:26:29+00:00",
+      "last_success_at": "2026-11-08T10:26:29+00:00",
+      "items_this_run": 159,
+      "source_url": "https://apps.apple.com/kr/iphone/games"
+    },
+    "Huawei AppGallery US": {
+      "state": "error",
+      "last_checked_at": "2026-11-08T10:26:29+00:00",
       "last_success_at": "",
       "items_this_run": 0,
       "error": "官網需 JavaScript 動態載入，目前無可核對清單（3012 bytes）",

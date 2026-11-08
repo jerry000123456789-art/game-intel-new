@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T10:00:03+00:00",
+  "updated_at": "2026-11-08T10:26:24+00:00",
   "note": "僅依標題比對遊戲與日期字樣；日期不代表活動起迄、上市日期；未擷取或驗證兌換碼。",
   "items": [
     {
@@ -1088,6 +1088,20 @@
       "publisher": "Wuthering Waves",
       "published_at": "2026-06-08T07:00:00+00:00",
       "first_seen_at": "2026-11-07T13:34:22+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "2d739eb6208954ba5d8c",
+      "category": "遊戲攻略",
+      "game_matches": [
+        "鳴潮"
+      ],
+      "title": "《鳴潮》聯動免費送「蕾貝卡」養成攻略：新手組隊、輸出手法推薦 - 4Gamers",
+      "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeUZlOFQyVUZhaFBmaXlraUhmOFcwazNheXJPX0k0YzlEdDdyb2Vlc0xKMm9Fa08ycnVCbGdOUHoyQUctZnpHcGp0TzJ2ODM5Z2VYUFl2bFQwRzNXS1JRU1BYSGZ3VGlxRzItMTdhaVM5dXVKQUZiQ3RQSkJDMXBHNDFKNndJMEo3cS00UlZmVQ?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-06-08T07:00:00+00:00",
+      "first_seen_at": "2026-11-08T10:26:24+00:00",
       "date_mentions": [],
       "review_required": true
     },

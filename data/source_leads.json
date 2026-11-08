@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T10:00:13+00:00",
-  "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
+  "updated_at": "2026-11-08T10:26:36.143876+00:00",
+  "note": "Historical source leads retained; not validated codes, full guides, or confirmed event dates.",
   "items": {
     "codes": [
       {
@@ -442,6 +442,14 @@
         "publisher": "4Gamers",
         "published_at": "2026-06-08T07:00:00+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "title": "《鳴潮》聯動免費送「蕾貝卡」養成攻略：新手組隊、輸出手法推薦 - 4Gamers",
+        "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeUZlOFQyVUZhaFBmaXlraUhmOFcwazNheXJPX0k0YzlEdDdyb2Vlc0xKMm9Fa08ycnVCbGdOUHoyQUctZnpHcGp0TzJ2ODM5Z2VYUFl2bFQwRzNXS1JRU1BYSGZ3VGlxRzItMTdhaVM5dXVKQUZiQ3RQSkJDMXBHNDFKNndJMEo3cS00UlZmVQ?oc=5",
+        "publisher": "4Gamers",
+        "published_at": "2026-06-08T07:00:00+00:00",
+        "first_seen_at": "2026-11-08T10:26:24+00:00",
         "status": "source_lead_only"
       },
       {

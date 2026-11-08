@@ -1,93 +1,93 @@
 {
-  "checked_at": "2026-11-08T10:00:13+00:00",
+  "checked_at": "2026-11-08T10:26:36+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
-    "codes": 2,
-    "guides": 2,
-    "events": 7
+    "codes": 0,
+    "guides": 0,
+    "events": 0
   },
   "total_leads": {
     "codes": 34,
-    "guides": 28,
+    "guides": 29,
     "events": 43
   },
   "per_game": {
-    "Arrow Quest：閒置防禦 RPG": {
+    "6·25 한국전쟁": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Double Tile!": {
+    "and Roger": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Iron Marines 離線 RTS 遊戲": {
+    "Art of Fauna: Cozy Puzzles+": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Throne: Kingdom at War": {
+    "A Slight Chance of Sawblades+": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "七騎士 Re:BIRTH": {
-      "codes": 0,
-      "guides": 0,
-      "events": 1
-    },
-    "九王 9 Kings": {
+    "A Space for the Unbound": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "克隆機器人角斗場": {
+    "Beholder": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "全民修煉：重製版": {
+    "Beholder: Conductor": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "小小二手鋪": {
+    "Block Out! - Color Sort Puzzle": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "小貓咪大城市": {
+    "Bloomtown: A Different Story": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "明日方舟": {
-      "codes": 0,
-      "guides": 0,
-      "events": 3
-    },
-    "星之救援者": {
+    "Bloons TD 6": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "殭屍戰鬥：FPS放置": {
+    "Bus Fever Party: バスゲーム渋滞脱出パズル": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "米卡：地城背包客": {
-      "codes": 2,
-      "guides": 2,
-      "events": 0
-    },
-    "蔚藍檔案": {
+    "Chess.com - Play and Learn": {
       "codes": 0,
       "guides": 0,
-      "events": 3
+      "events": 0
+    },
+    "Clash of Clans": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Color Puzzle Jam - Bus Fever": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Cutie Sort - かわいい色分けゲーム": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
     }
   },
   "checked_games": {
@@ -315,7 +315,22 @@
     "星之救援者": "2026-11-08T10:00:13+00:00",
     "殭屍戰鬥fps放置": "2026-11-08T10:00:13+00:00",
     "米卡地城背包客": "2026-11-08T10:00:13+00:00",
-    "蔚藍檔案": "2026-11-08T10:00:13+00:00"
+    "蔚藍檔案": "2026-11-08T10:00:13+00:00",
+    "625한국전쟁": "2026-11-08T10:26:36+00:00",
+    "androger": "2026-11-08T10:26:36+00:00",
+    "artoffaunacozypuzzles": "2026-11-08T10:26:36+00:00",
+    "aslightchanceofsawblades": "2026-11-08T10:26:36+00:00",
+    "aspacefortheunbound": "2026-11-08T10:26:36+00:00",
+    "beholder": "2026-11-08T10:26:36+00:00",
+    "beholderconductor": "2026-11-08T10:26:36+00:00",
+    "blockoutcolorsortpuzzle": "2026-11-08T10:26:36+00:00",
+    "bloomtownadifferentstory": "2026-11-08T10:26:36+00:00",
+    "bloonstd6": "2026-11-08T10:26:36+00:00",
+    "busfeverpartyバスゲーム渋滞脱出パズル": "2026-11-08T10:26:36+00:00",
+    "chesscomplayandlearn": "2026-11-08T10:26:36+00:00",
+    "clashofclans": "2026-11-08T10:26:36+00:00",
+    "colorpuzzlejambusfever": "2026-11-08T10:26:36+00:00",
+    "cutiesortかわいい色分けゲーム": "2026-11-08T10:26:36+00:00"
   },
   "errors": []
 }

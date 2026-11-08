@@ -22,15 +22,6 @@ def country_for(x):
     return 'TW' if x.get('region')=='台灣' else 'US'
 
 items=[];errors=[]
-# Steam explicitly labels the upcoming category. Dates are left blank unless independently provided.
-try:
-    data=fetch('https://store.steampowered.com/api/featuredcategories/?cc=us&l=english')
-    for x in data.get('coming_soon',{}).get('items',[])[:40]:
-        appid=x.get('id'); name=x.get('name')
-        if not appid or not name: continue
-        link=f'https://store.steampowered.com/app/{int(appid)}/'
-        items.append(record(name,'即將上市','國際','Steam','Steam',link,x.get('header_image') or f'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/{int(appid)}/header.jpg'))
-except Exception as e: errors.append('Steam: '+str(e)[:160])
 # Apple Search API: exact title matches only, games category only, actual store pages.
 seeds=['星布谷地','裝備仔','Petit Planet','OVERGEARED','Basketball Slam MyTEAM','Enchanted Inn: Merge & Mystery','巨獸重返','萌爪配對碰']
 for term in seeds:
@@ -61,6 +52,7 @@ if existing.exists():
                     for store in x.get('store_links',[]):
                         if store.get('region')=='美國':store['region']='國際'
                 x['country']=country_for(x)
+                if x['platforms'][0] not in ('Google Play','App Store'):continue
                 unique[(x['name'].casefold(),x['platforms'][0],x.get('region',''),x['country'])]=x
     except (ValueError,KeyError,TypeError): pass
 for x in items:

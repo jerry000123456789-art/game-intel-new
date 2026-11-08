@@ -12,7 +12,7 @@ const dateTW=value=>value?new Date(value).toLocaleDateString('zh-TW',{timeZone:'
 const nowDay=()=>new Date().toLocaleDateString('sv-SE',{timeZone:'Asia/Taipei'});
 const dayDelta=value=>value?(Date.parse(toDate(value)+'T00:00:00Z')-Date.parse(nowDay()+'T00:00:00Z'))/86400000:null;
 const gameKey=name=>String(name||'').normalize('NFKC').toLowerCase().replace(/潛水小漁夫|潜水小渔夫/gi,'').replace(/[\s\u3000:：·\-—「」『』()（）!！,，.。]/g,'');
-const data={games:[],matrix:[],curated:[],codes:[],content:[],events:[],announcements:[],cloudGames:[],updated:'',channels:[],status:{}};
+const data={games:[],matrix:[],curated:[],codes:[],content:[],events:[],announcements:[],cloudGames:[],legacyGames:[],watchAvailable:false,updated:'',channels:[],status:{}};
 const ui={page:'home',window:'recent',month:new Date(),gameRows:[],codeRows:[],contentRows:[],brand:'',pending:[]};
 ui.month.setDate(1);
 try{ui.brand=localStorage.getItem('game-intel-brand')||'';ui.pending=JSON.parse(localStorage.getItem('game-intel-pending')||'[]')}catch{}
@@ -254,23 +254,74 @@ function renderContent(){
     i===data.channels.length-1?'新增指定頻道':'已追蹤頻道 '+(i+1))).join(' · ')||'尚未設定頻道';
 }
 function trackedNames(){
-  const names=new Set(data.cloudGames.map(x=>gameKey(x.name)));
-  return data.cloudGames.concat(ui.pending.filter(x=>!names.has(gameKey(x.name))));
+  const out=new Map();
+  for(const g of [...data.legacyGames,...data.cloudGames]){
+    const k=gameKey(g.name);
+    if(k&&!out.has(k))out.set(k,g);
+  }
+  return [...out.values()];
 }
-function persistPending(){try{localStorage.setItem('game-intel-pending',JSON.stringify(ui.pending.slice(-30)))}catch{}}
+function watchKey(){
+  let key='';
+  try{key=localStorage.getItem('game-intel-watch-key')||''}catch{}
+  if(/^[a-f0-9]{32}$/i.test(key))return key;
+  if(typeof crypto==='undefined'||!crypto.getRandomValues)return '';
+  const bytes=new Uint8Array(16);crypto.getRandomValues(bytes);
+  key=[...bytes].map(x=>x.toString(16).padStart(2,'0')).join('');
+  try{localStorage.setItem('game-intel-watch-key',key)}catch{return ''}
+  return key;
+}
+async function watchRequest(method='GET',body=null){
+  const key=watchKey();
+  if(!key)throw Error('瀏覽器無法安全產生追蹤識別碼，請檢查隱私模式或儲存權限。');
+  const options={method,headers:{'X-Watch-Key':key,'Accept':'application/json'}};
+  if(method!=='GET'){
+    options.headers['Content-Type']='application/json';
+    options.body=JSON.stringify(body);
+  }
+  const response=await fetch('/api/watchlist',options);
+  let result;
+  try{result=await response.json()}catch{throw Error('雲端服務沒有回傳正確結果。')}
+  if(!response.ok||result.status==='unavailable')throw Error(result.error||'無法儲存雲端追蹤');
+  return result;
+}
+async function connectWatchlist(){
+  try{
+    const result=await watchRequest();
+    data.cloudGames=result.games||[];
+    data.personalEvents=result.items||[];
+    data.watchAvailable=true;
+    $('watch-service').textContent='雲端監控已連線';
+    $('watch-result').textContent=result.last_scan_at?'上次檢查：'+dateTW(result.last_scan_at):'送出新遊戲後會自動安排第一次活動檢查。';
+    renderCalendar();
+  }catch(error){
+    data.watchAvailable=false;
+    $('watch-service').textContent='雲端連線尚未成功';
+    $('watch-result').textContent='雲端儲存目前不可用：'+String(error.message||error)+'；送出不會假裝成功。';
+    renderCalendar();
+  }
+}
 function renderWatchList(){
   const cloud=new Set(data.cloudGames.map(g=>gameKey(g.name)));
-  ui.pending=ui.pending.filter(x=>!cloud.has(gameKey(x.name)));persistPending();
   const all=trackedNames();
-  $('watch-list').innerHTML=all.length?'<div class="gx-muted" style="margin-top:14px">目前追蹤清單</div>'+
-    all.map(x=>'<div class="gx-watch-item"><div><strong>'+esc(x.name)+'</strong><div class="gx-muted">'+(cloud.has(gameKey(x.name))?'已加入雲端自動追蹤':'尚未確認 GitHub 提交')+'</div></div>'
-      +(!cloud.has(gameKey(x.name))?'<a class="gx-btn small" target="_blank" rel="noopener noreferrer" href="'+esc(watchIssueLink(x))+'">送出追蹤</a>':'<span class="gx-pill green">監控中</span>')+'</div>').join('')
-    :'<p class="gx-muted" style="margin-top:18px">尚未新增追蹤遊戲。新增後，雲端爬蟲才會掃描該遊戲的活動公告。</p>';
-}
-function watchIssueLink(x){
-  const title='[追蹤遊戲] '+x.name;
-  const body='遊戲名稱：'+x.name+'\n來源：'+(x.url||'')+'\n\n請確認後提交 Issue，雲端會在工作流程執行後開始追蹤。';
-  return repo+'/issues/new?title='+encodeURIComponent(title)+'&body='+encodeURIComponent(body);
+  $('watch-list').innerHTML=all.length?'<div class="gx-muted" style="margin-top:14px">目前追蹤的遊戲</div>'+
+    all.map(g=>'<div class="gx-watch-item"><div><strong>'+esc(g.name)+'</strong><div class="gx-muted">'
+       +(cloud.has(gameKey(g.name))?'雲端自動追蹤中':'既有 GitHub 排程追蹤中')+'</div></div>'
+       +(cloud.has(gameKey(g.name))?'<button class="gx-btn small" type="button" data-gx-remove-watch="'+esc(g.name)+'">停止追蹤</button>':
+         '<span class="gx-pill green">監控中</span>')+'</div>').join('')
+    :'<p class="gx-muted" style="margin-top:18px">尚未追蹤遊戲。輸入遊戲名稱、按新增追蹤，就會開始排程收集。</p>';
+  $('watch-list').querySelectorAll('[data-gx-remove-watch]').forEach(button=>button.addEventListener('click',async()=>{
+    const name=button.dataset.gxRemoveWatch;
+    if(!window.confirm('確定停止追蹤「'+name+'」嗎？'))return;
+    button.disabled=true;
+    try{
+      const result=await watchRequest('DELETE',{name});
+      data.cloudGames=result.games||[];
+      data.personalEvents=(data.personalEvents||[]).filter(x=>gameKey(x.game)!==gameKey(name));
+      $('watch-result').textContent='已停止追蹤：'+name;
+      renderCalendar();
+    }catch(error){$('watch-result').textContent='停止追蹤失敗：'+(error.message||error);button.disabled=false}
+  }));
 }
 function calendarItems(){
   const watched=new Set(trackedNames().map(x=>gameKey(x.name)));
@@ -280,7 +331,7 @@ function calendarItems(){
     if(!x.start_at||!x.end_at)continue;
     result.push({game:x.game,title:x.title,start:toDate(x.start_at),end:toDate(x.end_at),url:x.source_url});
   }
-  for(const x of data.announcements){
+  for(const x of [...data.announcements,...(data.personalEvents||[])]){
     if(!watched.has(gameKey(x.game))||!x.start_date||!x.end_date)continue;
     result.push({game:x.game,title:x.title,start:x.start_date,end:x.end_date,url:x.source_url});
   }
@@ -307,7 +358,7 @@ function renderCalendar(){
       '<div class="gx-feed-item"><div class="gx-grow"><strong>'+esc(x.game)+' · '+esc(x.title)+'</strong><div class="gx-meta">'+esc(x.start)+' 至 '+esc(x.end)+'</div>'
       +href(x.url,'查看公告')+'</div></div>').join('')+'</div>':empty('本月沒有已核對日期的追蹤遊戲活動。'));
   const watched=new Set(trackedNames().map(x=>gameKey(x.name)));
-  const news=data.announcements.filter(x=>watched.has(gameKey(x.game))&&!x.start_date).slice(0,35);
+  const news=[...data.announcements,...(data.personalEvents||[])].filter(x=>watched.has(gameKey(x.game))&&!x.start_date).slice(0,35);
   $('calendar-undated').innerHTML=news.length?news.map(x=>
     '<div class="gx-feed-item"><div class="gx-feed-icon">📣</div><div><h3>'+esc(x.game+' · '+x.title)+'</h3><div class="gx-meta">'+esc(dateTW(x.published_at))+' · 日期尚未公布</div>'
       +href(x.source_url,'查看公告')+'</div></div>').join(''):empty('目前沒有待確認的活動預告，或尚未加入追蹤遊戲。');
@@ -324,7 +375,7 @@ function renderHome(){
   $('kpi-new').textContent=games.length;
   $('kpi-soon').textContent=upcoming.length;
   $('kpi-code').textContent=sortedCodes().length;
-  $('kpi-watch').textContent=data.cloudGames.length;
+  $('kpi-watch').textContent=trackedNames().length;
   $('overview-games').innerHTML=games.length?games.slice(0,6).map(x=>teaser({title:x.game.name,sub:x.status.date+' · '+x.status.label,
     url:x.rows.find(y=>y.date===x.status.date)?.source||x.rows[0]?.source})).join(''):empty('最近 30 天沒有可確認日期的新遊戲。');
   $('overview-codes').innerHTML=sortedCodes().slice(0,5).map(x=>teaser({title:x.game+' · '+x.code,
@@ -389,14 +440,22 @@ async function load(name){
 }
 async function checkNewActivity(){
   const response=await load('tracked_events');
-  const incoming=response.items||[];
-  const names=new Set(data.cloudGames.map(x=>gameKey(x.name)));
+  let incoming=response.items||[];
+  if(data.watchAvailable){
+    try{
+      const cloud=await watchRequest();
+      data.cloudGames=cloud.games||[];
+      data.personalEvents=cloud.items||[];
+      incoming=incoming.concat(data.personalEvents);
+    }catch(error){console.warn('Cloud watchlist refresh failed',error)}
+  }
+  const names=new Set(trackedNames().map(x=>gameKey(x.name)));
   const relevant=incoming.filter(x=>names.has(gameKey(x.game)));
   let seen=[];
   try{seen=JSON.parse(localStorage.getItem('game-intel-activity-seen')||'[]')}catch{}
   const previously=new Set(seen),newOnes=relevant.filter(x=>x.id&&!previously.has(x.id));
   try{localStorage.setItem('game-intel-activity-seen',JSON.stringify(relevant.map(x=>x.id).filter(Boolean).slice(0,600)))}catch{}
-  if(data.announcements.length||incoming.length){data.announcements=incoming;renderCalendar()}
+  if(response.items||incoming.length){data.announcements=response.items||[];renderCalendar();renderHome()}
   if(!seen.length||!newOnes.length)return;
   try{
     const enabled=localStorage.getItem('game-intel-activity-alerts')==='yes';
@@ -417,7 +476,9 @@ async function main(){
   data.content=[...(maps.channel_history.items||[]),...(maps.latest.items||[]),...(maps.source_leads.items?.guides||[])];
   data.events=maps.events.items||[];
   data.announcements=maps.tracked_events.items||[];
-  data.cloudGames=maps.tracked_games.games||[];
+  data.legacyGames=maps.tracked_games.games||[];
+  data.cloudGames=[];
+  data.personalEvents=[];
   data.updated=maps.game_catalog.updated_at||'';
   data.status=maps.coverage_status||{};
   data.channels=['UCOCtiyIH-Dt00Ntv-WqPgfw','UCNH35X4JoxqnZHRyWGI04Vg',
@@ -426,6 +487,8 @@ async function main(){
   $('sync-date').textContent=data.updated?'更新：'+dateTW(data.updated):'同步資訊待確認';
   $('studio-brand').value=ui.brand;
   renderHome();renderGames();renderCodes();renderContent();renderCalendar();
+  await connectWatchlist();
+  renderHome();
   checkNewActivity();
   setInterval(checkNewActivity,15*60*1000);
   try{if(localStorage.getItem('game-intel-activity-alerts')==='yes'&&window.Notification?.permission==='granted')$('watch-alerts').textContent='活動提醒已開啟'}catch{}
@@ -443,16 +506,26 @@ document.querySelectorAll('[data-gx-window]').forEach(button=>button.addEventLis
 ['game-q','game-market','game-store','game-order'].forEach(id=>$(id).addEventListener('input',renderGames));
 ['code-q','code-order'].forEach(id=>$(id).addEventListener('input',renderCodes));
 ['content-q','content-kind','content-order'].forEach(id=>$(id).addEventListener('input',renderContent));
-$('watch-form').addEventListener('submit',event=>{
+$('watch-form').addEventListener('submit',async event=>{
   event.preventDefault();
   const name=$('watch-name').value.trim(),url=$('watch-url').value.trim();
   if(name.length<2||name.length>65)return;
-  if(url&&!goodUrl(url)){window.alert('官方網址必須是 https:// 連結。');return}
-  if(!ui.pending.some(x=>gameKey(x.name)===gameKey(name))
-    &&!data.cloudGames.some(x=>gameKey(x.name)===gameKey(name)))ui.pending.push({name,url});
-  persistPending();renderCalendar();
-  window.open(watchIssueLink({name,url}),'_blank','noopener,noreferrer');
-  $('watch-name').value='';$('watch-url').value='';
+  if(url&&!goodUrl(url)){ $('watch-result').textContent='請輸入正確的 https 官方網址。'; return }
+  const button=$('watch-submit');
+  button.disabled=true;button.textContent='儲存中…';
+  $('watch-result').textContent='正在寫入雲端追蹤清單…';
+  try{
+    const result=await watchRequest('POST',{name,source_url:url});
+    data.cloudGames=result.games||[];
+    data.watchAvailable=true;
+    $('watch-service').textContent='雲端監控已連線';
+    $('watch-result').textContent=result.status==='already_tracking'?'這款遊戲已在追蹤清單中。':
+      '已成功加入「'+name+'」；雲端已安排活動掃描。';
+    $('watch-name').value='';$('watch-url').value='';
+    renderCalendar();renderHome();
+  }catch(error){
+    $('watch-result').textContent='未能新增追蹤：'+String(error.message||error)+'。請重試；資料尚未寫入。';
+  }finally{button.disabled=false;button.textContent='新增追蹤'}
 });
 $('watch-alerts').addEventListener('click',async()=>{
   if(!('Notification' in window)){window.alert('此瀏覽器不支援網站通知。');return}

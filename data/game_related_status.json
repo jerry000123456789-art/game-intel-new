@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-08T16:15:00+00:00",
+  "checked_at": "2026-11-08T16:18:20+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
@@ -14,77 +14,77 @@
     "events": 51
   },
   "per_game": {
-    "Bike Rider": {
+    "Business Empire: RichMan": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Flex City RP: Car Game Online": {
+    "Cutie Sort: Cat Sort Game": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Geometry Dash Lite": {
+    "eFootball™": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Kpopsies - Hatch Baby Unicorns": {
+    "Football League 2025": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Paradise Island 2: Hotel Game": {
+    "Golf Rival": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "世界計畫 繽紛舞台！feat. 初音未來": {
+    "Plague Inc. -伝染病株式会社-": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "糖果女巫": {
+    "Yahtzee® With Buddies": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "超自然行動組": {
+    "隱藏物品遊戲：尋寶冒險，發現隱藏物品": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "鬥靈對決": {
+    "로블록스(Roblox)": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "앵그리버드 드림 블라스트": {
+    "탑과 용병단": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "워라인: 스나이퍼": {
+    "탕탕에이스": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "지금 경험하세요": {
+    "한정 5성 캐릭터 「푸리나」 이벤트 기원 오픈!": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "추억의 고전 게임": {
+    "할리우드 머지": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "클래시 로얄 (Clash Royale)": {
+    "햄도쿠: 햄스터 스도쿠 두뇌 퍼즐": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "클래시 오브 클랜": {
+    "夢幻花園 (Gardenscapes)": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -495,7 +495,22 @@
     "지금경험하세요": "2026-11-08T16:15:00+00:00",
     "추억의고전게임": "2026-11-08T16:15:00+00:00",
     "클래시로얄clashroyale": "2026-11-08T16:15:00+00:00",
-    "클래시오브클랜": "2026-11-08T16:15:00+00:00"
+    "클래시오브클랜": "2026-11-08T16:15:00+00:00",
+    "businessempirerichman": "2026-11-08T16:18:20+00:00",
+    "cutiesortcatsortgame": "2026-11-08T16:18:20+00:00",
+    "efootballtm": "2026-11-08T16:18:20+00:00",
+    "footballleague2025": "2026-11-08T16:18:20+00:00",
+    "golfrival": "2026-11-08T16:18:20+00:00",
+    "plagueinc伝染病株式会社": "2026-11-08T16:18:20+00:00",
+    "yahtzeewithbuddies": "2026-11-08T16:18:20+00:00",
+    "隱藏物品遊戲尋寶冒險發現隱藏物品": "2026-11-08T16:18:20+00:00",
+    "로블록스roblox": "2026-11-08T16:18:20+00:00",
+    "탑과용병단": "2026-11-08T16:18:20+00:00",
+    "탕탕에이스": "2026-11-08T16:18:20+00:00",
+    "한정5성캐릭터푸리나이벤트기원오픈": "2026-11-08T16:18:20+00:00",
+    "할리우드머지": "2026-11-08T16:18:20+00:00",
+    "햄도쿠햄스터스도쿠두뇌퍼즐": "2026-11-08T16:18:20+00:00",
+    "夢幻花園gardenscapes": "2026-11-08T16:18:20+00:00"
   },
   "errors": []
 }

@@ -1,25 +1,8 @@
 {
-  "updated_at": "2026-11-08T07:05:28+00:00",
-  "status": "partial",
-  "fetched": 30,
-  "errors": [
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOCtiyIH-Dt00Ntv-WqPgfw",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNH35X4JoxqnZHRyWGI04Vg",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4c-wTOqEID-_vH4MhNs06w",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC-e2q_YhFnfsEggbJsTLPHg",
-      "error": "HTTP Error 404: Not Found"
-    }
-  ],
+  "updated_at": "2026-11-08T09:52:37+00:00",
+  "status": "ok",
+  "fetched": 90,
+  "errors": [],
   "items": [
     {
       "id": "2e0f65cbeae584fe36c7bfbb",
@@ -72,6 +55,16 @@
       "first_seen_at": "2026-11-08T01:10:18+00:00"
     },
     {
+      "id": "523f6c5e48c8fa1c286a4132",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《SD鋼彈 G世代 永恆》【國際版 #589】【世代之塔 SOUTH TOWER】世代之塔 第10層 【10F】【三機通關】",
+      "url": "https://www.youtube.com/watch?v=ZE_qPGUdAk4",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-08T07:33:33+00:00",
+      "first_seen_at": "2026-11-08T09:52:37+00:00"
+    },
+    {
       "id": "4d2ca8e843bfb1869cdb73b7",
       "category": "巴哈姆特情報",
       "origin": "巴哈姆特",
@@ -80,6 +73,16 @@
       "publisher": "",
       "published_at": "2026-11-08T06:50:53+08:00",
       "first_seen_at": "2026-11-08T01:10:18+00:00"
+    },
+    {
+      "id": "c87788ba8eda0639e74772f4",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《SD鋼彈 G世代 永恆》【國際版 #590】【機動戰士鋼彈UC系列】奧黛莉‧伯恩 實測【最強免費女主角】",
+      "url": "https://www.youtube.com/watch?v=Rs6h1EmENjU",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-08T05:55:37+00:00",
+      "first_seen_at": "2026-11-08T09:52:37+00:00"
     },
     {
       "id": "6361c1f857c15388ec38bcb6",
@@ -100,6 +103,76 @@
       "publisher": "",
       "published_at": "2026-11-08T04:33:24+08:00",
       "first_seen_at": "2026-11-07T21:42:51+00:00"
+    },
+    {
+      "id": "59fd6ee5a26f974d9329321f",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《聖鬥士星矢EX》# 733 時空亂鬥 記得要歡樂助威 | 徽章系統 培養畢業 | 遠古戰場 收尾 | 80抽！冥界陣營招募 | 40抽！自選招募 拉達曼迪斯 | 6星天猛星 有吸血好棒棒",
+      "url": "https://www.youtube.com/watch?v=J85v26ajB8o",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-08T04:31:10+00:00",
+      "first_seen_at": "2026-11-08T09:52:37+00:00"
+    },
+    {
+      "id": "fbe87240cf324dbe26e5d626",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "【20261108】手機電玩新聞報 新GAME資訊 EP373",
+      "url": "https://www.youtube.com/watch?v=D6h-jOsDyRE",
+      "publisher": "怪玩客",
+      "published_at": "2026-11-08T04:00:01+00:00",
+      "first_seen_at": "2026-11-08T09:52:37+00:00"
+    },
+    {
+      "id": "d6a43bd7ac88873d7b13ffd0",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《SD鋼彈 G世代 永恆》【國際版 #589】【世代之塔 SOUTH TOWER】世代之塔 第13層 【13F】【二機通關】電光石火打法",
+      "url": "https://www.youtube.com/watch?v=EDbQViRiEAE",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-08T03:28:17+00:00",
+      "first_seen_at": "2026-11-08T09:52:37+00:00"
+    },
+    {
+      "id": "076b6757c30e41610e0c6e57",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《時空之鏡》11月5日 開啟測試 重返日系經典 JRPG 的感動 集結冒險小隊 刺穿謊言、重塑時空 | 高精度像素畫風 打造充滿劍與魔法的奇幻冒險世界 踏上洛斯特蘭德大陸 探索尋寶、家園經營等豐富玩法",
+      "url": "https://www.youtube.com/watch?v=VW2ES_0TB7k",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-08T01:21:44+00:00",
+      "first_seen_at": "2026-11-08T09:52:37+00:00"
+    },
+    {
+      "id": "f3e49de7014a873d423e1e2f",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《奇遇西行》11月5日 正式上線 西遊、封神、山海經、聊齋 東方神話放置卡牌手遊 | 踏上奇幻西行之路 收集神將、召喚神獸 修煉成為三界強者 無損置換神將 自由轉換流派 開啟你的神話修仙冒險",
+      "url": "https://www.youtube.com/watch?v=o6Qj6vCafDk",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-08T00:59:35+00:00",
+      "first_seen_at": "2026-11-08T09:52:37+00:00"
+    },
+    {
+      "id": "7b9c61b1c3bedcc03a195277",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《挖完才能下班：貓咪合併挖礦》11月7日更新 成為礦山社長 帶領一群可愛貓咪礦工展開挖礦大業 | 禮包碼、兌換碼、虛寶碼 | 礦石合併升級、委託交貨 招募貓咪夥伴 探索神祕地城 策略戰鬥與放置收益",
+      "url": "https://www.youtube.com/watch?v=1x5nSjrdcoY",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-08T00:45:14+00:00",
+      "first_seen_at": "2026-11-08T09:52:37+00:00"
+    },
+    {
+      "id": "1bcca999893a31364ca03422",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《逃課三國》11月5日 正式上線 經典三國名將變身校園同學 呂布、諸葛亮、曹操通通加入你的叛逆班底 | 禮包碼、兌換碼 | 開局豪送1000抽 十連必出SSR 輕鬆收集百位名將 打造最強三國班級",
+      "url": "https://www.youtube.com/watch?v=058KW_tCEYY",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-08T00:31:59+00:00",
+      "first_seen_at": "2026-11-08T09:52:37+00:00"
     },
     {
       "id": "7704ed07357319dfaafa058b",

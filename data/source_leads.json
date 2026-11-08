@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T07:05:34+00:00",
+  "updated_at": "2026-11-08T09:52:47+00:00",
   "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
@@ -548,6 +548,24 @@
         "publisher": "GNN 新聞網",
         "published_at": "2026-11-02T08:52:13+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "SD鋼彈 G世代 永恆",
+        "kind": "events",
+        "title": "《SD 鋼彈G 世代永恆》舉辦「機動戰士鋼彈EIGHT」聯動活動強敵來襲同步登場- 股市爆料同學會 - CMoney",
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5IckRGck5aVWlVN1BOanN4N0tvOUdieWlGa1RiVFZ0ZDdoZ2ZTQ2JHVjZhckNxRk1ETHdxWVBSRURhazZmaFhjWGFXUDdXZ09zM3U4V0w3WlE?oc=5",
+        "published_at": "2026-11-02T07:07:37+00:00",
+        "publisher": "CMoney",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "SD鋼彈 G世代 永恆",
+        "kind": "events",
+        "title": "《SD 鋼彈G 世代永恆》舉辦「機動戰士鋼彈EIGHT」聯動活動強敵來襲同步登場《SDガンダムジージェネレーションエターナル》 - GNN 新聞網",
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA5eVh6aXZkS0tPWXdTMU5MRTg5V0JCOTlZU1lUWWdhYjdaOEdhTnQ2cW0zdzduYXl1Z0NEYkFlWnN2c0VRSkhucnE5TUJDWmMwWWMwTXN3cVk?oc=5",
+        "published_at": "2026-11-02T06:39:34+00:00",
+        "publisher": "GNN 新聞網",
         "status": "source_lead_only"
       },
       {

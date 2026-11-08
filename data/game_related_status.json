@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-08T07:05:34+00:00",
+  "checked_at": "2026-11-08T09:52:47+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
@@ -11,80 +11,80 @@
   "total_leads": {
     "codes": 32,
     "guides": 26,
-    "events": 33
+    "events": 35
   },
   "per_game": {
-    "UNO!™": {
+    "Fluvsies - Cute Virtual Pets": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "我的安妮": {
+    "WWE SuperCard Card Battler": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "第五人格": {
-      "codes": 0,
-      "guides": 0,
-      "events": 1
-    },
-    "至尊決鬥火柴人(Supreme Duelist)": {
+    "面具之墓: Tomb of the Mask": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "《英雄聯盟：激鬥峽谷》": {
+    "Plague Tower: Spell Defense": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "蛋仔派對": {
-      "codes": 0,
-      "guides": 0,
-      "events": 1
-    },
-    "醫起救世界：鼠裡逃生": {
+    "Pokémon UNITE": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "隨機塔防": {
+    "SD鋼彈 G世代 永恆": {
+      "codes": 0,
+      "guides": 0,
+      "events": 2
+    },
+    "Sushi Cat Match: 貓咪壽司店": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "隨機骰子2": {
+    "The Roottrees are Dead": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "黎明再現(Doomsday: Last Survivors)": {
+    "The Spike Cross - Volleyball": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Veltarum": {
+    "The Spotter: Dig or Die": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Moonlit Town: Merge & Story": {
+    "Traffic Flow: Idle Tycoon Game": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Mortal to Immortal: Idle RPG": {
+    "Truckful / 鄉野奇運": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "ONE PIECE Bounty Rush": {
+    "Warhammer Survivors": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "ONE PIECE 海洋盛宴": {
+    "Yes, Your Grace 2: Snowfall": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "一拳超人：最強之男—特別篇": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -285,7 +285,22 @@
     "moonlittownmergestory": "2026-11-08T07:05:34+00:00",
     "mortaltoimmortalidlerpg": "2026-11-08T07:05:34+00:00",
     "onepiecebountyrush": "2026-11-08T07:05:34+00:00",
-    "onepiece海洋盛宴": "2026-11-08T07:05:34+00:00"
+    "onepiece海洋盛宴": "2026-11-08T07:05:34+00:00",
+    "fluvsiescutevirtualpets": "2026-11-08T09:52:47+00:00",
+    "wwesupercardcardbattler": "2026-11-08T09:52:47+00:00",
+    "面具之墓tombofthemask": "2026-11-08T09:52:47+00:00",
+    "plaguetowerspelldefense": "2026-11-08T09:52:47+00:00",
+    "pokémonunite": "2026-11-08T09:52:47+00:00",
+    "sd鋼彈g世代永恆": "2026-11-08T09:52:47+00:00",
+    "sushicatmatch貓咪壽司店": "2026-11-08T09:52:47+00:00",
+    "theroottreesaredead": "2026-11-08T09:52:47+00:00",
+    "thespikecrossvolleyball": "2026-11-08T09:52:47+00:00",
+    "thespotterdigordie": "2026-11-08T09:52:47+00:00",
+    "trafficflowidletycoongame": "2026-11-08T09:52:47+00:00",
+    "truckful鄉野奇運": "2026-11-08T09:52:47+00:00",
+    "warhammersurvivors": "2026-11-08T09:52:47+00:00",
+    "yesyourgrace2snowfall": "2026-11-08T09:52:47+00:00",
+    "一拳超人最強之男特別篇": "2026-11-08T09:52:47+00:00"
   },
   "errors": []
 }

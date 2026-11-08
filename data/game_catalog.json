@@ -1,6 +1,75 @@
 {
-  "updated_at": "2026-11-08T07:05:32+00:00",
+  "updated_at": "2026-11-08T09:52:43+00:00",
   "items": [
+    {
+      "id": "92c7969346201c0d91f1d8",
+      "name": "Fluvsies - Cute Virtual Pets",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.tutotoons.app.fluvsies.free&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.tutotoons.app.fluvsies.free&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T09:52:43+00:00"
+    },
+    {
+      "id": "11e7f905959e56dc7b063c",
+      "name": "WWE SuperCard Card Battler",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.catdaddy.cat22&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.catdaddy.cat22&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T09:52:43+00:00"
+    },
+    {
+      "id": "03dab09ad2b2b4d7d824a6",
+      "name": "面具之墓: Tomb of the Mask",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.playgendary.tom&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.playgendary.tom&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T09:52:43+00:00"
+    },
     {
       "id": "408602931cb0ca7450299c",
       "name": "UNO!™",
@@ -68,7 +137,8 @@
       "payment_methods": [],
       "source_url": "https://apps.apple.com/tw/app/id6746328263",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-08T07:05:32+00:00"
+      "first_seen_at": "2026-11-08T07:05:32+00:00",
+      "seed_method": ""
     },
     {
       "id": "33c48bea9b0624f6b151a1",
@@ -1671,7 +1741,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.rovio.baba&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T21:42:54+00:00"
+      "first_seen_at": "2026-11-07T21:42:54+00:00",
+      "seed_method": ""
     },
     {
       "id": "5e1f2ce4aab84916820e38",
@@ -3638,7 +3709,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.run.tower.defense&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:48:33+00:00"
+      "first_seen_at": "2026-11-07T15:48:33+00:00",
+      "seed_method": ""
     },
     {
       "id": "7d399fc7dac9abf3ce505d",

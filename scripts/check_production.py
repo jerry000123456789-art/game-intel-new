@@ -74,8 +74,10 @@ def check():
                     break
                 time.sleep(5)
                 code,saved=watched()
-            print("WATCHLIST ALARM:",("ran" if scanned else "not observed"),"checked",saved.get("last_scan_at"),"source errors",saved.get("errors"),flush=True)
+            print("WATCHLIST ALARM:",("ran" if scanned else "not observed"),"checked",saved.get("last_scan_at"),"source errors",saved.get("errors"),"modes",saved.get("source_status"),flush=True)
             if not scanned:problems.append("Cloud watchlist background crawler alarm did not run")
+            if scanned and saved.get("errors"):problems.append("Cloud watchlist has no working RSS or scheduled source fallback")
+            if scanned and not saved.get("source_status"):problems.append("Cloud watchlist source monitoring was not recorded")
             code,deleted=watched("DELETE",{"name":"自動驗收測試遊戲"})
             if code!=200 or any(x.get("name")=="自動驗收測試遊戲" for x in deleted.get("games",[])):
                 problems.append("Cloud persistent delete failed")

@@ -1,0 +1,36 @@
+{
+  "updated_at": "2026-11-08T14:00:00+00:00",
+  "items": [
+    {
+      "name": "WellDiver 潛水小漁夫",
+      "aliases": [
+        "WellDiver",
+        "Welldiver",
+        "潛水小漁夫"
+      ],
+      "developer": "LoadComplete",
+      "cover_url": "",
+      "platforms": [
+        {
+          "platform": "Google Play",
+          "country": "TW",
+          "date": "2026-08-03",
+          "date_scope": "Google Play 首次發現紀錄，非台灣獨立首發日",
+          "store_url": "https://play.google.com/store/apps/details?id=com.loadcomplete.welldiver&gl=TW",
+          "evidence_url": "https://appinsider.io/android/developer/loadcomplete/7286743576877731641",
+          "evidence_type": "第三方商店歷史"
+        },
+        {
+          "platform": "App Store",
+          "country": "TW",
+          "date": "2026-10-28",
+          "date_scope": "iOS 產品首次發布紀錄，非台灣獨立首發日",
+          "store_url": "https://apps.apple.com/tw/app/welldiver/id6782862607",
+          "evidence_url": "https://apptopia.com/ios/app/6782862607/about",
+          "evidence_type": "第三方商店歷史"
+        }
+      ]
+    }
+  ],
+  "note": "人工交叉核對的參考案例，保留來源；各國獨立首發日期不推定。"
+}

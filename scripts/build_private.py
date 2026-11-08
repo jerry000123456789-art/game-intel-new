@@ -7,6 +7,8 @@ out=ROOT/'public'
 if out.exists(): shutil.rmtree(out)
 (out/'data').mkdir(parents=True)
 shutil.copy2(ROOT/'index.html',out/'index.html')
+for name in ('business.js','business.css'):
+    shutil.copy2(ROOT/name,out/name)
 for src in (ROOT/'data').glob('*.json'):
     shutil.copy2(src,out/'data'/src.name)
 (out/'robots.txt').write_text('User-agent: *\nDisallow: /\n',encoding='utf-8')

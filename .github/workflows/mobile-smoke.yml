@@ -19,6 +19,7 @@ jobs:
       - name: Check mobile-only status and official artwork
         run: |
           python scripts/test_mobile_store.py
+          python scripts/test_release_matrix.py
           python scripts/test_live_pipeline.py
           python scripts/test_frontend_js.py
           node tests/test_release_ui.mjs

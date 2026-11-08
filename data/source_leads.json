@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T16:18:20.466536+00:00",
-  "note": "Historical source leads retained; not validated codes, full guides, or confirmed event dates.",
+  "updated_at": "2026-11-08T16:19:29+00:00",
+  "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
       {
@@ -607,6 +607,24 @@
     ],
     "events": [
       {
+        "game": "崩壞：星穹鐵道",
+        "kind": "events",
+        "title": "《絕區零》公開《崩壞：星穹鐵道》聯動角色戰鬥影片 知更鳥與卡芙卡 Ver. 3.4 登場 - Ludens Media",
+        "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tbm5iM2Z5WnhtaGRWYUlkRVVvOXVTYjY5aGlMUGhCRklYeU1iWFMyOF8xLUdRbDZqZ2dOaXBBaW81VzZ2ZVIzR19CTWMtVVBhZFd4MmxuZDJfOUs1WnV5aTBETi1CeE5BcXZZZkxoWlg5MGdwREtadllZVQ?oc=5",
+        "published_at": "2026-11-07T15:35:00+00:00",
+        "publisher": "Ludens Media",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "絕區零",
+        "kind": "events",
+        "title": "《絕區零》公開《崩壞：星穹鐵道》聯動角色戰鬥影片 知更鳥與卡芙卡 Ver. 3.4 登場 - Ludens Media",
+        "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tbm5iM2Z5WnhtaGRWYUlkRVVvOXVTYjY5aGlMUGhCRklYeU1iWFMyOF8xLUdRbDZqZ2dOaXBBaW81VzZ2ZVIzR19CTWMtVVBhZFd4MmxuZDJfOUs1WnV5aTBETi1CeE5BcXZZZkxoWlg5MGdwREtadllZVQ?oc=5",
+        "published_at": "2026-11-07T15:35:00+00:00",
+        "publisher": "Ludens Media",
+        "status": "source_lead_only"
+      },
+      {
         "game": "明日方舟：終末地",
         "kind": "events",
         "title": "【明日方舟：終末地】明河敘事活動上線！還有危機合約第二期開放啦！！！- 龍兒 / 竜児 - Howl.Link",
@@ -661,6 +679,24 @@
         "status": "source_lead_only"
       },
       {
+        "game": "楓之谷：放置冒險記",
+        "kind": "events",
+        "title": "《楓之谷：放置冒險記》推出「1 週年慶典」大型活動同時新增「聖魂劍士」與「烈焰巫師」《MapleStory: Idle RPG》 - GNN 新聞網",
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBILXB2cm5Xc2RiZFRlenJqM0hsYzJ4Ty1hQ3p1cGVEMTJGaWRfRWpCVkM1eTVNWDNkUzd2c29hbjNmQ1hZd0lYU3J1N0JKVGt3M1dtRDBIN2U?oc=5",
+        "published_at": "2026-11-05T06:33:46+00:00",
+        "publisher": "GNN 新聞網",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "瑪奇 Mobile",
+        "kind": "events",
+        "title": "《瑪奇Mobile》日版×《【我推的孩子】》聯名合作現已展開推出一系列活動- 遊戲新聞 - PChome Online 新聞",
+        "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxON285OWM0SFhrNVE1dE5iTkJaR0lDTDF4VmxpXzNaSUtWWmdobmE5eTdja1h1cmppSHA1RTdiaFpDRFFZLUY4SWhsRUNLTVE3UWNNdTR6MXpkaVZBQ1RqcFdIZGIyc1JsOUlyRURTdzVQN3NSZnlhU3RCQVNZeTBBdEs3MFI?oc=5",
+        "published_at": "2026-11-05T04:46:50+00:00",
+        "publisher": "PChome Online 新聞",
+        "status": "source_lead_only"
+      },
+      {
         "game": "卡厄思夢境",
         "kind": "events",
         "title": "【卡厄思夢境】兌換碼與禮包碼序號・11月4日更新 - Ludens Media",
@@ -684,6 +720,24 @@
         "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQenhtNkZYT2V6MHdROUd5UmNzZjFlV0lUSlJjTFotNUJ0MlFjRzJVYXZpNlRxVzlpckxMZHhjdFJWSUx0V2tHMVo4VTJkUDhGLVBvODZWUHpEMml6Mm9IWVkzb0pRZy1XZWRKMXBWOWpVZFFCazVMVzJfR01aMVBubnVVOVU2RzI2TDJZejgwTl9uOC02a2UzdnF1c0JDQjZmOHB6bA?oc=5",
         "published_at": "2026-11-04T08:33:31+00:00",
         "publisher": "Hypebeast",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "瑪奇 Mobile",
+        "kind": "events",
+        "title": "《瑪奇Mobile》日版×《【我推的孩子】》聯名合作現已展開推出一系列活動- 股市爆料同學會 - CMoney",
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1fTGNDZUxaM1IyeVowSjBocGoxUFVVYndUakw1REppU2hwQ1JsbzlTTWV5R3REeXBKT3kyUExMWnZjbXpCaGRJd3NCUktHOTIwemRyOXM5cGg?oc=5",
+        "published_at": "2026-11-04T07:42:31+00:00",
+        "publisher": "CMoney",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "楓之谷：放置冒險記",
+        "kind": "events",
+        "title": "《楓之谷：放置冒險記》推出「1 週年慶典」大型活動 同時新增「聖魂劍士」與「烈焰巫師」 - CMoney",
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8wQ2xHYXhxU2lTajc2dU51X0JPdldqdVA0ZUEwVW1WRG0zSHQ1RWJ4d2daTzR0UnNWc2ZON3VoaHMzTFhmTkdyUUNOTEM1U0hRY3NjSGh4d3Q?oc=5",
+        "published_at": "2026-11-04T07:42:07+00:00",
+        "publisher": "CMoney",
         "status": "source_lead_only"
       },
       {

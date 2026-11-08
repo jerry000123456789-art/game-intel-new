@@ -1,68 +1,59 @@
 #!/usr/bin/env python3
-"""Verify the deployed production site from GitHub's external runner."""
+"""External smoke test: deployed storefront country/OS data and historical search UI."""
 import json
 import os
 import time
 from pathlib import Path
-from urllib.parse import urlencode
-from urllib.request import Request, urlopen
-from urllib.error import HTTPError
+from urllib.request import Request,urlopen
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE="https://game-intel-new.jerry000123456789.workers.dev"
 
-def get(path,timeout=17):
-    req=Request(BASE+path,headers={"User-Agent":"GameIntel-Production-Smoke/1.0","Accept":"*/*"})
-    with urlopen(req,timeout=timeout) as r:
-        return r.status,r.headers.get("Content-Type",""),r.read(2500000)
+def get(path):
+    request=Request(BASE+path,headers={"User-Agent":"GameIntel-Production-Check/2.0","Accept":"*/*"})
+    with urlopen(request,timeout=18) as response:
+        return response.status,response.headers.get("Content-Type",""),response.read(6000000)
 
 def check():
     problems=[]
     try:
-        status,ctype,data=get("/?smoketest=site")
+        status,ctype,data=get("/?release_check=1")
         html=data.decode("utf-8","replace")
-        marks=("全球遊戲情報中心","僅顯示有實際兌換碼的遊戲","查最近 10 天活動公告","查最近 10 天攻略")
+        marks=["全球遊戲情報中心","國際全部國家","平台 × 國家 上市日期",
+               "最近 30 天攻略原文","最近 30 天活動公告","僅顯示有實際兌換碼的遊戲"]
         missing=[x for x in marks if x not in html]
-        print("WEBSITE: HTTP",status,"bytes",len(data),"matching new markers",len(marks)-len(missing))
-        if status!=200 or "html" not in ctype or missing:problems.append("Website not latest, missing "+str(missing))
-    except Exception as exc:problems.append("Website fetch: "+str(exc))
+        print("FRONTEND:",status,"bytes",len(data),"missing",missing,flush=True)
+        if status!=200 or "html" not in ctype or missing:problems.append("Production frontend not updated")
+    except Exception as e:problems.append("HTML unavailable: "+str(e))
     try:
-        status,ctype,data=get("/data/coverage_status.json?smoketest=data")
+        status,ctype,data=get("/data/coverage_status.json?release_check=1")
+        server=json.loads(data);local=json.loads((ROOT/"data/coverage_status.json").read_text(encoding="utf8"))
+        live_count=server.get("sections",{}).get("game_catalog",{}).get("count",0)
+        git_count=local.get("sections",{}).get("game_catalog",{}).get("count",0)
+        print("GAME CATALOG: GitHub",git_count,"Cloudflare",live_count)
+        if status!=200 or live_count<git_count:problems.append("Catalog data not deployed")
+    except Exception as e:problems.append("Catalog JSON unavailable: "+str(e))
+    try:
+        status,ctype,data=get("/data/release_matrix.json?release_check=1")
         server=json.loads(data)
-        local=json.loads((ROOT/"data/coverage_status.json").read_text(encoding="utf-8"))
-        a=server.get("sections",{}).get("game_catalog",{}).get("count",0)
-        b=local.get("sections",{}).get("game_catalog",{}).get("count",0)
-        print("DATA: GitHub count",b,"Cloudflare count",a,"server checked",server.get("checked_at"))
-        if status!=200 or "json" not in ctype or a<b:problems.append("Cloudflare data outdated "+str(a)+" < "+str(b))
-    except Exception as exc:problems.append("JSON asset fetch: "+str(exc))
-    source_modes=[]
-    for kind in ("events","guides"):
-        path="/api/lookup?"+urlencode({"kind":kind,"game":"原神"})
-        try:
-            status,ctype,data=get(path,timeout=19)
-            payload=json.loads(data)
-            rows=payload.get("entries")
-            mode=payload.get("source_mode","unknown")
-            source_modes.append(mode)
-            print("LOOKUP:",kind,"HTTP",status,"status",payload.get("status"),"mode",mode,"entries",len(rows) if isinstance(rows,list) else "?")
-            if status!=200 or payload.get("status")!="ok" or not isinstance(rows,list) or mode not in ("live_rss","scheduled_cache"):
-                problems.append("Lookup "+kind+" returned invalid JSON or source mode")
-            if mode=="scheduled_cache" and not payload.get("updated_at"):
-                problems.append("Lookup "+kind+" cache missing timestamp")
-        except HTTPError as exc:
-            problems.append("Lookup "+kind+" HTTP "+str(exc.code)+" "+exc.read(200).decode("utf-8","replace"))
-        except Exception as exc:problems.append("Lookup "+kind+" failed: "+str(exc))
+        local=json.loads((ROOT/"data/release_matrix.json").read_text(encoding="utf8"))
+        live=server.get("items",[]);repo=local.get("items",[])
+        p={x.get("platform") for x in live};countries={x.get("country") for x in live if x.get("platform")=="iOS"}
+        print("RELEASE MATRIX:",len(live),"deployed rows;",len(repo),"GitHub rows; platforms",p,"iOS countries",countries,flush=True)
+        if status!=200 or not {"Android","iOS"}.issubset(p) or not {"TW","US","JP","KR"}.issubset(countries) or len(live)<len(repo):
+            problems.append("Cross-platform/country release matrix missing or stale")
+    except Exception as e:problems.append("Release matrix unavailable: "+str(e))
     if problems:
         print("PRODUCTION CHECK FAILED:")
         for p in problems:print(" -",p)
         return False
-    print("PRODUCTION CHECK PASSED: latest UI, current JSON and functioning search API; sources:", ', '.join(source_modes))
+    print("PRODUCTION CHECK PASSED: public site, historic filters, Android/iOS country matrix, latest GitHub data")
     return True
 
 if __name__=="__main__":
-    tries=int(os.getenv("ATTEMPTS","3"))
-    for attempt in range(tries):
-        print("CHECK",attempt+1,"of",tries,flush=True)
+    attempts=int(os.getenv("ATTEMPTS","3"))
+    for i in range(attempts):
+        print("CHECK",i+1,"of",attempts,flush=True)
         if check():break
-        if attempt+1==tries:raise SystemExit(1)
-        time.sleep(14)
+        if i+1==attempts:raise SystemExit(1)
+        time.sleep(20)

@@ -1,4 +1,11 @@
 {
-  "updated_at": "2026-11-08T18:53:36.736563+00:00",
-  "games": []
+  "updated_at": "2026-11-08T19:15:26.007151+00:00",
+  "games": [
+    {
+      "name": "薑餅人放置大戰爭",
+      "source_url": "https://apps.apple.com/tw/app/%E8%96%91%E9%A4%85%E4%BA%BA%E6%94%BE%E7%BD%AE%E5%A4%A7%E6%88%B0%E7%88%AD-%E9%A4%85%E4%B9%BE%E9%A4%8A%E6%88%90rpg/id6749251466",
+      "added_at": "2026-11-08T19:06:32.617190+00:00",
+      "source_issue": "https://github.com/jerry000123456789-art/game-intel-new/issues/1"
+    }
+  ]
 }

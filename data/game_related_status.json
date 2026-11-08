@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-11-08T18:53:11+00:00",
+  "checked_at": "2026-11-08T19:14:57+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
     "guides": 0,
-    "events": 1
+    "events": 0
   },
   "total_leads": {
     "codes": 35,
@@ -14,77 +14,77 @@
     "events": 58
   },
   "per_game": {
-    "Bubbu學校 – 我可愛的動物": {
+    "A Dance of Fire and Ice": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Disney冰雪奇緣: 冰紛樂": {
+    "Supermarket chaos to order": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Match Masters": {
-      "codes": 0,
-      "guides": 0,
-      "events": 1
-    },
-    "Park Town:Match 3 with a story": {
+    "Dice Dreams™️": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Soccer Stars: Football Games": {
+    "Discounty: Supermarket Manager": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "合並龍傳說": {
+    "Don't Die: SurvivalAutoBattler": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "童話融合記": {
+    "DRAGON BALL LEGENDS -七龍珠 激戰傳說-": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "跑跑薑餅人：烤箱大逃亡": {
+    "EA SPORTS FC™ 足球 Mobile 27": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "部落衝突:皇室戰爭「Clash Royale": {
+    "Ever Tile: 3D水果配對": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "閃耀吧！嚕咪": {
+    "Farkle Dice Roll": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "青丘世界：緣起": {
+    "Find The Cat - Spot It!": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "麥琪頓莊園": {
+    "Fishing Clash：釣魚競技模擬": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Candy Crush Soda Saga": {
+    "Flick Shot Rogues": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Cooking Joy": {
+    "Garena® 三角洲行動": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Dark War:Survival": {
+    "Garena 傳說對決：十週年裂隙穿梭版本": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Gossip Harbor: Merge & Story": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -540,7 +540,22 @@
     "麥琪頓莊園": "2026-11-08T18:53:11+00:00",
     "candycrushsodasaga": "2026-11-08T18:53:11+00:00",
     "cookingjoy": "2026-11-08T18:53:11+00:00",
-    "darkwarsurvival": "2026-11-08T18:53:11+00:00"
+    "darkwarsurvival": "2026-11-08T18:53:11+00:00",
+    "adanceoffireandice": "2026-11-08T19:14:57+00:00",
+    "supermarketchaostoorder": "2026-11-08T19:14:57+00:00",
+    "dicedreamstm": "2026-11-08T19:14:57+00:00",
+    "discountysupermarketmanager": "2026-11-08T19:14:57+00:00",
+    "dontdiesurvivalautobattler": "2026-11-08T19:14:57+00:00",
+    "dragonballlegends七龍珠激戰傳說": "2026-11-08T19:14:57+00:00",
+    "easportsfctm足球mobile27": "2026-11-08T19:14:57+00:00",
+    "evertile3d水果配對": "2026-11-08T19:14:57+00:00",
+    "farklediceroll": "2026-11-08T19:14:57+00:00",
+    "findthecatspotit": "2026-11-08T19:14:57+00:00",
+    "fishingclash釣魚競技模擬": "2026-11-08T19:14:57+00:00",
+    "flickshotrogues": "2026-11-08T19:14:57+00:00",
+    "garena三角洲行動": "2026-11-08T19:14:57+00:00",
+    "garena傳說對決十週年裂隙穿梭版本": "2026-11-08T19:14:57+00:00",
+    "gossipharbormergestory": "2026-11-08T19:14:57+00:00"
   },
   "errors": []
 }

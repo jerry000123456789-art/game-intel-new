@@ -35,15 +35,20 @@ def check():
         print("DATA: GitHub count",b,"Cloudflare count",a,"server checked",server.get("checked_at"))
         if status!=200 or "json" not in ctype or a<b:problems.append("Cloudflare data outdated "+str(a)+" < "+str(b))
     except Exception as exc:problems.append("JSON asset fetch: "+str(exc))
+    source_modes=[]
     for kind in ("events","guides"):
         path="/api/lookup?"+urlencode({"kind":kind,"game":"原神"})
         try:
             status,ctype,data=get(path,timeout=19)
             payload=json.loads(data)
             rows=payload.get("entries")
-            print("LOOKUP:",kind,"HTTP",status,"status",payload.get("status"),"entries",len(rows) if isinstance(rows,list) else "?")
-            if status!=200 or payload.get("status")!="ok" or not isinstance(rows,list):
-                problems.append("Lookup "+kind+" returned invalid JSON")
+            mode=payload.get("source_mode","unknown")
+            source_modes.append(mode)
+            print("LOOKUP:",kind,"HTTP",status,"status",payload.get("status"),"mode",mode,"entries",len(rows) if isinstance(rows,list) else "?")
+            if status!=200 or payload.get("status")!="ok" or not isinstance(rows,list) or mode not in ("live_rss","scheduled_cache"):
+                problems.append("Lookup "+kind+" returned invalid JSON or source mode")
+            if mode=="scheduled_cache" and not payload.get("updated_at"):
+                problems.append("Lookup "+kind+" cache missing timestamp")
         except HTTPError as exc:
             problems.append("Lookup "+kind+" HTTP "+str(exc.code)+" "+exc.read(200).decode("utf-8","replace"))
         except Exception as exc:problems.append("Lookup "+kind+" failed: "+str(exc))
@@ -51,7 +56,7 @@ def check():
         print("PRODUCTION CHECK FAILED:")
         for p in problems:print(" -",p)
         return False
-    print("PRODUCTION CHECK PASSED: latest UI, current JSON and live search")
+    print("PRODUCTION CHECK PASSED: latest UI, current JSON and functioning search API; sources:", ', '.join(source_modes))
     return True
 
 if __name__=="__main__":

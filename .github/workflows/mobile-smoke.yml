@@ -23,3 +23,20 @@ jobs:
           python scripts/test_frontend_js.py
           node tests/test_release_ui.mjs
           node tests/test_code_list.mjs
+      - name: Sample real Google Play artwork and status (read only)
+        run: |
+          python - <<'PY'
+          import importlib.util,urllib.request
+          from pathlib import Path
+          p=Path('scripts/enrich_mobile_store.py')
+          spec=importlib.util.spec_from_file_location('enrich',p)
+          module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+          for app_id in ['com.supercell.clashofclans','com.easybrain.nonogram','com.ironhidegames.android.ironmarines']:
+              try:
+                  req=urllib.request.Request('https://play.google.com/store/apps/details?id='+app_id+'&hl=en_US&gl=US',headers={'User-Agent':'Mozilla/5.0'})
+                  with urllib.request.urlopen(req,timeout=12) as response:html=response.read(1600000).decode('utf-8','replace')
+                  a=module.metadata_from_html(html)
+                  print('OFFICIAL PAGE',app_id,'cover',bool(a['cover_url']),'release',a['store_release_date'],'preorder',a['preorder_confirmed'],'installable',a['officially_installed'],'status',module.status_for(a['store_release_date'],a['preorder_confirmed'],a['officially_installed']))
+              except Exception as e:
+                  print('OFFICIAL PAGE',app_id,'ERROR',str(e)[:180])
+          PY

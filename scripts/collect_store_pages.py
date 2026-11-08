@@ -16,6 +16,8 @@ HEALTH=ROOT/"data/store_health.json"
 SOURCES=[
     ("Google Play","台灣","https://play.google.com/store/games?hl=zh_TW&gl=TW"),
     ("Google Play","國際","https://play.google.com/store/games?hl=zh_TW&gl=US"),
+    ("Google Play","國際","https://play.google.com/store/games?hl=ja&gl=JP"),
+    ("Google Play","國際","https://play.google.com/store/games?hl=ko&gl=KR"),
     ("App Store","台灣","https://apps.apple.com/tw/iphone/games"),
     ("App Store","國際","https://apps.apple.com/us/iphone/games"),
     ("App Store","國際","https://apps.apple.com/jp/iphone/games"),
@@ -54,7 +56,7 @@ def country_from_link(platform, href, region):
     match=re.search(r"/(tw|us|jp|kr|hk|sg)/",urllib.parse.urlparse(href).path,re.I)
     return match.group(1).upper() if match else ("TW" if region=="台灣" else "US")
 
-def normalized_link(platform,href,region):
+def normalized_link(platform,href,region,country=""):
     base="https://play.google.com" if platform=="Google Play" else "https://apps.apple.com"
     url=urllib.parse.urljoin(base,href)
     p=urllib.parse.urlparse(url)
@@ -62,7 +64,7 @@ def normalized_link(platform,href,region):
         if p.hostname!="play.google.com":return ""
         appid=urllib.parse.parse_qs(p.query).get("id",[""])[0]
         if not re.fullmatch(r"[A-Za-z][\w.]{3,180}",appid):return ""
-        return "https://play.google.com/store/apps/details?"+urllib.parse.urlencode({"id":appid,"hl":"zh_TW","gl":"TW" if region=="台灣" else "US"})
+        return "https://play.google.com/store/apps/details?"+urllib.parse.urlencode({"id":appid,"hl":"zh_TW","gl":country or ("TW" if region=="台灣" else "US")})
     if p.hostname!="apps.apple.com":return ""
     found=re.search(r"/id(\d+)",p.path)
     country=country_from_link(platform,url,region)
@@ -83,12 +85,12 @@ def title_for(platform,candidates):
         if title:return title
     return ""
 
-def parse_store(html,platform,region):
+def parse_store(html,platform,region,country=""):
     p=StoreLinks(platform)
     p.feed(html)
     result={}
     for row in p.links:
-        link=normalized_link(platform,row["href"],region)
+        link=normalized_link(platform,row["href"],region,country)
         title=title_for(platform,row["parts"])
         if not link or not title:continue
         if link not in result:
@@ -157,7 +159,7 @@ def run():
             if platform=="Huawei AppGallery":
                 page=fetch(url)
                 raise RuntimeError("官網需 JavaScript 動態載入，目前無可核對清單（"+str(len(page))+" bytes）")
-            listings=parse_store(fetch(url),platform,region)
+            listings=parse_store(fetch(url),platform,region,country)
             if not listings:raise RuntimeError("頁面未取得有效遊戲連結")
             for x in listings:
                 key=catalog_key(x)

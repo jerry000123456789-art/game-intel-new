@@ -1,6 +1,98 @@
 {
-  "updated_at": "2026-11-08T09:52:43+00:00",
+  "updated_at": "2026-11-08T10:00:09+00:00",
   "items": [
+    {
+      "id": "e7d2bc7165fd07192a7200",
+      "name": "Arrow Quest：閒置防禦 RPG",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.Wispwood.ArrowQuest&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.Wispwood.ArrowQuest&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T10:00:09+00:00"
+    },
+    {
+      "id": "51fb8c43c3c2acc2076b39",
+      "name": "Iron Marines 離線 RTS 遊戲",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.ironhidegames.android.ironmarines&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.ironhidegames.android.ironmarines&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T10:00:09+00:00"
+    },
+    {
+      "id": "c6cc55a19e5d78b57105b3",
+      "name": "Throne: Kingdom at War",
+      "status": "商店收錄",
+      "region": "台灣",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.plarium.throne&hl=zh_TW&gl=TW",
+          "region": "台灣"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.plarium.throne&hl=zh_TW&gl=TW",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T10:00:09+00:00"
+    },
+    {
+      "id": "bae33e9b495a9e43f7f9fe",
+      "name": "Double Tile!",
+      "status": "商店收錄",
+      "region": "國際",
+      "platforms": [
+        "Google Play"
+      ],
+      "release_date": "",
+      "developer": "",
+      "cover_url": "",
+      "store_links": [
+        {
+          "name": "Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.hungrystudio.mahjong&hl=zh_TW&gl=US",
+          "region": "國際"
+        }
+      ],
+      "payment_methods": [],
+      "source_url": "https://play.google.com/store/apps/details?id=com.hungrystudio.mahjong&hl=zh_TW&gl=US",
+      "verified_store_listing": true,
+      "first_seen_at": "2026-11-08T10:00:09+00:00"
+    },
     {
       "id": "92c7969346201c0d91f1d8",
       "name": "Fluvsies - Cute Virtual Pets",
@@ -2616,7 +2708,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.spellgarden.thriftybusiness&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "f321b0957e54d06a5bc68e",
@@ -2639,7 +2732,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.AurochDigital.WarhammerSurvivors&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "81fc7abbbb44f1486c748f",
@@ -2662,7 +2756,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.fundaygames.boosterpack&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "3d6e38c98f99d37b1102ea",
@@ -2685,7 +2780,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.Doborog.CloneDroneInTheDangerPhone&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "b11253c681fd5a04dbaa37",
@@ -2708,7 +2804,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.adhoc.dispatch&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "b0d16da833f6d46f41d107",
@@ -2731,7 +2828,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.fruitsghost.butterpop&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "1f87bc21e90f7a4af6d2c0",
@@ -2754,7 +2852,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.mobirix.extfzombie&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "ea4c7ec351899060ef96e2",
@@ -2777,7 +2876,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.playdigious.absolum&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "32550305629b9083b7e8ee",
@@ -2800,7 +2900,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.theroottrees.android&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "8c657224d9bc998c089776",
@@ -2823,7 +2924,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.v2r.SushiMaster&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "7aff7ea872feb448414c77",
@@ -2846,7 +2948,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.bandainamcoent.op_restaurant&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "2a0f958bf0957be1a9cc9a",
@@ -2869,7 +2972,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.coolcatsgames.idletransport&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "7b1e72afa8d13f9b17b204",
@@ -2892,7 +2996,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.daerigame.scarecrow&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "0b97e774f8af5aee51bd5f",
@@ -2915,7 +3020,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.davestudio.mika&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "bdc3c41ada2e758817a782",
@@ -2938,7 +3044,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.dinermerge.dish.dash&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "1db226316c6c917c2d5b9d",
@@ -2961,7 +3068,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.doghowlgames.spotter&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "4430cc0ef7ea82047db5ff",
@@ -2984,7 +3092,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.gt.rivals.car.racing.game&hl=zh_TW&gl=TW",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "f42ee0d6e217e92975cfc9",
@@ -3247,7 +3356,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.tencent.mhadv&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "d99c8432fd8f432c327202",
@@ -3270,7 +3380,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.bandainamcoent.op_restaurant&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "11cdb0503b0323832a15fe",
@@ -3293,7 +3404,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.DoubleDaggerStudio.LittleKittyBigCity&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "0dc04d33ff13ebec263eab",
@@ -3316,7 +3428,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.coolcatsgames.idletransport&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "a8f522e62bc8c267dbfc9d",
@@ -3339,7 +3452,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.playdigious.ninekings&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "266b17bbcf3e387db33b1e",
@@ -3362,7 +3476,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.funtoygame.gio.android&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "da457580cccbaa85be032d",
@@ -3385,7 +3500,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.Alientrap.DuneCrawl&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "70c5a54092a192d03da7a4",
@@ -3408,7 +3524,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.noodlecake.yesyourgrace2snowfall&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "4a189fef7f4e21b829af5b",
@@ -3431,7 +3548,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.sort.cube3d.magic.match.tap.puzzle&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "ab42b9056367b15737e4d4",
@@ -3454,7 +3572,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.davestudio.mika&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "bfa261e09358b4727ed874",
@@ -3477,7 +3596,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.acingame.wgllworld.google&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "ff8d03adf3e08009c918b4",
@@ -3500,7 +3620,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.hanbitsoft.gemgl.google&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "a3bc72609256bdacfb3aa8",
@@ -3523,7 +3644,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.mythicowl.truckful&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "8c79deea719fe4557e8b2d",
@@ -3546,7 +3668,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.aurecas.loothunters&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "5a03e6d70ea5161dae943f",
@@ -3569,7 +3692,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.match.goodsfactory.sort&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "6fa0b3e123081eab158d38",
@@ -3592,7 +3716,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.budgestudios.googleplay.DoraDXP&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "683b178b7d2990b8ab1a07",
@@ -3615,7 +3740,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.ultimagames.plague.tower.defence.game&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "5c446f5434f2f8aecfe27d",
@@ -3638,7 +3764,8 @@
       "payment_methods": [],
       "source_url": "https://play.google.com/store/apps/details?id=com.izzle.go&hl=zh_TW&gl=US",
       "verified_store_listing": true,
-      "first_seen_at": "2026-11-07T15:50:42+00:00"
+      "first_seen_at": "2026-11-07T15:50:42+00:00",
+      "seed_method": ""
     },
     {
       "id": "31fa6b3a4636f397ab8c9b",

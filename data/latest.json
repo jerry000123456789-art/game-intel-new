@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T09:52:35+00:00",
+  "updated_at": "2026-11-08T10:00:03+00:00",
   "status": "ok",
   "errors": [],
   "fetched": 120,
@@ -634,6 +634,15 @@
       "publisher": "Honkai: Star Rail",
       "published_at": "2026-07-15T07:00:00+00:00",
       "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "305d3c2546f4bd4e2b9b",
+      "category": "活動行事曆",
+      "title": "《明星3缺1》跨界hololive船長博士螺鈿聯動 2026漫博抽限量聯名周邊 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdFZ3WGUwWW9NYWhXN2dIb2laWE9rYUh1Q3RIeU00UE5SMlNrZVNpNzJ0c3lSbmJTZU9Xc25CNzBxZ2Flbm96Q1NNUHhSMzZMenFDb0l5MlR4dFNzRVpfcEZLQTNPVGJwRTltQko4NjlnNS05c0JFRUNCZGlQYWUxclZXcnFxbjVXNVEtQ2tBSzB4RHRvWTA0SjgyVjQ?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-07-13T07:00:00+00:00",
+      "first_seen_at": "2026-11-08T10:00:03+00:00"
     },
     {
       "id": "4f61a5e71387ecacc8a4",

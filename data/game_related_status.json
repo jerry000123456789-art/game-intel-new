@@ -1,93 +1,93 @@
 {
-  "checked_at": "2026-11-08T09:52:47+00:00",
+  "checked_at": "2026-11-08T10:00:13+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
-    "codes": 0,
-    "guides": 0,
-    "events": 2
+    "codes": 2,
+    "guides": 2,
+    "events": 7
   },
   "total_leads": {
-    "codes": 32,
-    "guides": 26,
-    "events": 35
+    "codes": 34,
+    "guides": 28,
+    "events": 43
   },
   "per_game": {
-    "Fluvsies - Cute Virtual Pets": {
+    "Arrow Quest：閒置防禦 RPG": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "WWE SuperCard Card Battler": {
+    "Double Tile!": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "面具之墓: Tomb of the Mask": {
+    "Iron Marines 離線 RTS 遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Plague Tower: Spell Defense": {
+    "Throne: Kingdom at War": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Pokémon UNITE": {
+    "七騎士 Re:BIRTH": {
+      "codes": 0,
+      "guides": 0,
+      "events": 1
+    },
+    "九王 9 Kings": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "SD鋼彈 G世代 永恆": {
-      "codes": 0,
-      "guides": 0,
-      "events": 2
-    },
-    "Sushi Cat Match: 貓咪壽司店": {
+    "克隆機器人角斗場": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "The Roottrees are Dead": {
+    "全民修煉：重製版": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "The Spike Cross - Volleyball": {
+    "小小二手鋪": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "The Spotter: Dig or Die": {
+    "小貓咪大城市": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Traffic Flow: Idle Tycoon Game": {
+    "明日方舟": {
+      "codes": 0,
+      "guides": 0,
+      "events": 3
+    },
+    "星之救援者": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Truckful / 鄉野奇運": {
+    "殭屍戰鬥：FPS放置": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Warhammer Survivors": {
-      "codes": 0,
-      "guides": 0,
+    "米卡：地城背包客": {
+      "codes": 2,
+      "guides": 2,
       "events": 0
     },
-    "Yes, Your Grace 2: Snowfall": {
+    "蔚藍檔案": {
       "codes": 0,
       "guides": 0,
-      "events": 0
-    },
-    "一拳超人：最強之男—特別篇": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
+      "events": 3
     }
   },
   "checked_games": {
@@ -300,7 +300,22 @@
     "truckful鄉野奇運": "2026-11-08T09:52:47+00:00",
     "warhammersurvivors": "2026-11-08T09:52:47+00:00",
     "yesyourgrace2snowfall": "2026-11-08T09:52:47+00:00",
-    "一拳超人最強之男特別篇": "2026-11-08T09:52:47+00:00"
+    "一拳超人最強之男特別篇": "2026-11-08T09:52:47+00:00",
+    "arrowquest閒置防禦rpg": "2026-11-08T10:00:13+00:00",
+    "doubletile": "2026-11-08T10:00:13+00:00",
+    "ironmarines離線rts遊戲": "2026-11-08T10:00:13+00:00",
+    "thronekingdomatwar": "2026-11-08T10:00:13+00:00",
+    "七騎士rebirth": "2026-11-08T10:00:13+00:00",
+    "九王9kings": "2026-11-08T10:00:13+00:00",
+    "克隆機器人角斗場": "2026-11-08T10:00:13+00:00",
+    "全民修煉重製版": "2026-11-08T10:00:13+00:00",
+    "小小二手鋪": "2026-11-08T10:00:13+00:00",
+    "小貓咪大城市": "2026-11-08T10:00:13+00:00",
+    "明日方舟": "2026-11-08T10:00:13+00:00",
+    "星之救援者": "2026-11-08T10:00:13+00:00",
+    "殭屍戰鬥fps放置": "2026-11-08T10:00:13+00:00",
+    "米卡地城背包客": "2026-11-08T10:00:13+00:00",
+    "蔚藍檔案": "2026-11-08T10:00:13+00:00"
   },
   "errors": []
 }

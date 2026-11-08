@@ -19,7 +19,7 @@ OUTPUT=ROOT/"data/release_matrix.json"
 STATUS=ROOT/"data/release_matrix_status.json"
 NOW=dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
 COUNTRIES={"TW":"台灣","US":"美國","JP":"日本","KR":"韓國","HK":"香港","SG":"新加坡"}
-MAX_IOS_IDS=6    # 6 app ids x 6 storefront countries per run, rotated
+MAX_IOS_IDS=12    # 12 app ids x 6 storefront countries, rotate every run
 MIN_APPLE_INTERVAL=3.1
 
 def apple_id_from_link(url):
@@ -64,6 +64,9 @@ def apple_row(app_id,country,data,previous=None):
         "country_launch_date":previous.get("country_launch_date",""),
         "country_launch_source":previous.get("country_launch_source",""),
         "version_release_date":date_only(app.get("currentVersionReleaseDate")),
+        "cover_url":app.get("artworkUrl512") or app.get("artworkUrl100") or previous.get("cover_url",""),
+        "developer":app.get("artistName") or previous.get("developer",""),
+        "preorder_confirmed":app.get("isPreOrder") is True or app.get("isPreorder") is True,
         "source_url":app.get("trackViewUrl") or "https://apps.apple.com/"+country.lower()+"/app/id"+app_id,
         "checked_at":NOW,
         "note":"商店可見≠各國正式上市日；版本日期不作上市日"}

@@ -97,7 +97,7 @@ function releaseDateRows(g){
       +(x.source_url?'<div>'+link(x.source_url,'商店／資料來源')+'</div>':'')
       +'</div>').join('');
 }
-const STORE_SOURCES=['Google Play 台灣','Google Play 美國／日本／韓國','App Store 台灣／美國／日本／韓國','Huawei AppGallery','Steam'];$('storeSources').innerHTML='<span class="muted">站內收錄來源：'+STORE_SOURCES.join(' · ')+'。使用上方「平台／地區」直接篩選，不會跳出網站。</span>';
+const STORE_SOURCES=['Google Play 台灣','Google Play 美國／日本／韓國','App Store 台灣／美國／日本／韓國','Huawei AppGallery'];$('storeSources').innerHTML='<span class="muted">站內收錄來源：'+STORE_SOURCES.join(' · ')+'。使用上方「平台／地區」直接篩選，不會跳出網站。</span>';
 function detail(title,html){$('detailTitle').textContent=title;$('detailBody').innerHTML=html;$('detail').showModal()}
 function gameKey(name){return String(name||'').toLocaleLowerCase().replace(/[ \u3000:：·\-—「」『』()（）!！,，.。]/g,'').replace('genshinimpact','原神')}
 function relatedFor(game,kind){let k=gameKey(game);return (db.leads[kind]||[]).filter(x=>x.game&&gameKey(x.game)===k)}

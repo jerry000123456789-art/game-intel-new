@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-08T16:11:32+00:00",
+  "checked_at": "2026-11-08T16:15:00+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
@@ -14,77 +14,77 @@
     "events": 51
   },
   "per_game": {
-    "Chess - Play and Learn Online": {
+    "Bike Rider": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Match Smash 3D - Triple Puzzle": {
+    "Flex City RP: Car Game Online": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "MLB 制勝時刻 26": {
+    "Geometry Dash Lite": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "《NBA 2K Mobile》籃球遊戲": {
+    "Kpopsies - Hatch Baby Unicorns": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Packingdom - 打包和放鬆": {
+    "Paradise Island 2: Hotel Game": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Virtual Regatta": {
+    "世界計畫 繽紛舞台！feat. 初音未來": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "找不同遊戲 - 線上找茬PK賽，46K+高清圖片等你來挑戰": {
+    "糖果女巫": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "拼圖遊戲": {
+    "超自然行動組": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "接龍總集": {
+    "鬥靈對決": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "歡樂釣王傳奇：體感拋竿釣魚": {
+    "앵그리버드 드림 블라스트": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "狩獵對決：狙擊對戰": {
+    "워라인: 스나이퍼": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "糖果蘇打傳奇": {
+    "지금 경험하세요": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "승리의 여신: 니케": {
+    "추억의 고전 게임": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "신규 불멸 로켓츄 등장": {
+    "클래시 로얄 (Clash Royale)": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "아쿠아랜드: 크레이지 서바이벌": {
+    "클래시 오브 클랜": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -480,7 +480,22 @@
     "糖果蘇打傳奇": "2026-11-08T16:11:32+00:00",
     "승리의여신니케": "2026-11-08T16:11:32+00:00",
     "신규불멸로켓츄등장": "2026-11-08T16:11:32+00:00",
-    "아쿠아랜드크레이지서바이벌": "2026-11-08T16:11:32+00:00"
+    "아쿠아랜드크레이지서바이벌": "2026-11-08T16:11:32+00:00",
+    "bikerider": "2026-11-08T16:15:00+00:00",
+    "flexcityrpcargameonline": "2026-11-08T16:15:00+00:00",
+    "geometrydashlite": "2026-11-08T16:15:00+00:00",
+    "kpopsieshatchbabyunicorns": "2026-11-08T16:15:00+00:00",
+    "paradiseisland2hotelgame": "2026-11-08T16:15:00+00:00",
+    "世界計畫繽紛舞台feat初音未來": "2026-11-08T16:15:00+00:00",
+    "糖果女巫": "2026-11-08T16:15:00+00:00",
+    "超自然行動組": "2026-11-08T16:15:00+00:00",
+    "鬥靈對決": "2026-11-08T16:15:00+00:00",
+    "앵그리버드드림블라스트": "2026-11-08T16:15:00+00:00",
+    "워라인스나이퍼": "2026-11-08T16:15:00+00:00",
+    "지금경험하세요": "2026-11-08T16:15:00+00:00",
+    "추억의고전게임": "2026-11-08T16:15:00+00:00",
+    "클래시로얄clashroyale": "2026-11-08T16:15:00+00:00",
+    "클래시오브클랜": "2026-11-08T16:15:00+00:00"
   },
   "errors": []
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T14:00:00+00:00",
+  "updated_at": "2026-11-08T16:14:59.951745+00:00",
   "items": [
     {
       "name": "WellDiver 潛水小漁夫",
@@ -9,7 +9,7 @@
         "潛水小漁夫"
       ],
       "developer": "LoadComplete",
-      "cover_url": "",
+      "cover_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/93/fd/0393fddd-ba3c-1ca7-205f-340f0db18a92/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "platforms": [
         {
           "platform": "Google Play",
@@ -29,7 +29,10 @@
           "evidence_url": "https://apptopia.com/ios/app/6782862607/about",
           "evidence_type": "第三方商店歷史"
         }
-      ]
+      ],
+      "apple_product_date": "2026-10-28",
+      "apple_product_date_source": "https://apps.apple.com/tw/app/id6782862607",
+      "official_store_visible": true
     }
   ],
   "note": "人工交叉核對的參考案例，保留來源；各國獨立首發日期不推定。"

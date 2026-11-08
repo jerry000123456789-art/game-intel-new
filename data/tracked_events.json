@@ -1,5 +1,7 @@
 {
-  "updated_at": "2026-11-08T14:00:00+00:00",
+  "updated_at": "2026-11-08T16:15:25.590425+00:00",
   "items": [],
-  "note": "Only explicit event date ranges go on calendar; undated announcements are listed separately."
+  "successful_checks": 0,
+  "errors": [],
+  "note": "刊登時間不等於活動時間；未定日期公告不進日曆"
 }

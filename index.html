@@ -209,7 +209,48 @@ function renderCodes(){
     if(wrapper)wrapper.hidden=true;
   }
 }
-let selectedGuide='';function renderGuides(){let gs=[...new Set([...db.guides.map(x=>x.game),...(db.leads.guides||[]).map(x=>x.game)].filter(Boolean))],q=$('guideQ').value.toLowerCase();$('guideGames').innerHTML=gs.filter(x=>x.toLowerCase().includes(q)).map(x=>`<button data-g="${safe(x)}" class="${x===selectedGuide?'active':''}">${safe(x)}</button>`).join('')||'<div class="muted">選擇下方最新攻略來源</div>';$('guideGames').querySelectorAll('[data-g]').forEach(b=>b.onclick=()=>{selectedGuide=b.dataset.g;renderGuides()});if(!selectedGuide&&gs.length)selectedGuide=gs[0];let articleQ=$('guideArticleQ').value.toLowerCase();let arr=db.guides.filter(x=>x.game===selectedGuide&&(!articleQ||`${x.title} ${x.content} ${x.category}`.toLowerCase().includes(articleQ))).sort((a,b)=>($('guideSort').value==='new'?-1:1)*(a.updated_at||'').localeCompare(b.updated_at||'')),cats=[...new Set(arr.map(x=>x.category||'攻略'))];$('guideTitle').textContent=selectedGuide||'遊戲攻略';$('guideCategories').innerHTML=cats.map(c=>`<span class="tag">${safe(c)}</span>`).join('');$('guideArticles').innerHTML=arr.map((x,i)=>`<div class="item"><button data-article="${i}">${safe(x.title)}</button><div class="muted">${fmt(x.updated_at)} ${link(x.source_url,'原始來源')}</div></div>`).join('')||'<div class="empty">目前沒有符合條件的整理攻略；請查看下方攻略來源：</div>'+db.news.filter(x=>x.category==='遊戲攻略').slice(0,25).map(x=>`<div class="item">${link(x.url,x.title)}<div class="muted">${safe(x.publisher||'')} · ${fmt(x.published_at)}</div></div>`).join('');let cutoff=Date.now()-30*86400000;let guideSources=(db.leads.guides||[]).filter(x=>new Date(x.published_at||'').getTime()>=cutoff&&(!selectedGuide||(!x.game||gameKey(x.game)===gameKey(selectedGuide))&&`${x.title||''} ${x.game||''}`.toLowerCase().includes(q)||!q&&(!x.game||gameKey(x.game)===gameKey(selectedGuide)))&&(!articleQ||`${x.title||''} ${x.publisher||''}`.toLowerCase().includes(articleQ)));guideSources.sort((a,b)=>(b.published_at||'').localeCompare(a.published_at||''));if($('guideSort').value==='old')guideSources.reverse();$('guideLeads').innerHTML=renderLeadSection('更多遊戲攻略原文（可直接閱讀）',guideSources);$('guideArticles').querySelectorAll('[data-article]').forEach(b=>b.onclick=()=>{let x=arr[+b.dataset.article];$('guideArticle').textContent=x.content||x.summary||'';let t=`【${x.game}】${x.title}\n${(x.summary||x.content||'').slice(0,600)}\n來源：${x.source_url||''}`;$('shareText').textContent=t});}
+let selectedGuide='';
+function renderGuides(){
+  let q=$('guideQ').value.trim().toLocaleLowerCase();
+  let articleQ=$('guideArticleQ').value.trim().toLocaleLowerCase();
+  let cutoff=Date.now()-30*86400000;
+  let gs=[...new Set([...db.guides.map(x=>x.game),...(db.leads.guides||[]).map(x=>x.game)].filter(Boolean))];
+  let shown=gs.filter(x=>!q||x.toLocaleLowerCase().includes(q));
+  if(!selectedGuide||q&&!shown.includes(selectedGuide))selectedGuide=shown[0]||'';
+  if(!q&&!selectedGuide&&shown.length)selectedGuide=shown[0];
+  $('guideGames').innerHTML=shown.map(name=>'<button data-g="'+safe(name)+'" class="'+(name===selectedGuide?'active':'')+'">'+safe(name)+'</button>').join('')
+    ||'<div class="muted">目前沒有符合名稱的已收錄攻略；可查看近期來源。</div>';
+  $('guideGames').querySelectorAll('[data-g]').forEach(b=>b.onclick=()=>{selectedGuide=b.dataset.g;renderGuides()});
+  let arr=db.guides.filter(x=>(!selectedGuide||gameKey(x.game)===gameKey(selectedGuide))
+    &&(!q||(String(x.game||'')+' '+String(x.title||'')).toLocaleLowerCase().includes(q))
+    &&(!articleQ||(String(x.title||'')+' '+String(x.content||'')+' '+String(x.category||'')).toLocaleLowerCase().includes(articleQ)));
+  arr.sort((a,b)=>($('guideSort').value==='new'?-1:1)*(a.updated_at||'').localeCompare(b.updated_at||''));
+  $('guideTitle').textContent=selectedGuide||'遊戲攻略';
+  $('guideCategories').innerHTML=[...new Set(arr.map(x=>x.category||'攻略'))].map(x=>'<span class="tag">'+safe(x)+'</span>').join('');
+  $('guideArticles').innerHTML=arr.map((x,i)=>'<div class="item"><button data-article="'+i+'">'+safe(x.title)+'</button>'
+     +'<div class="muted">'+fmt(x.updated_at)+' '+link(x.source_url,'原始來源')+'</div></div>').join('')
+     ||'<div class="empty">這款遊戲尚無已整理的完整攻略；可查看下方最近 30 天的原文。</div>';
+  let leadMap=new Map();
+  let pool=[...(db.leads.guides||[]),...db.news.filter(x=>x.category==='遊戲攻略')];
+  for(let x of pool){
+    let url=x.source_url||x.url;
+    if(!url||new Date(x.published_at||'').getTime()<cutoff)continue;
+    if(q&&!(String(x.game||'')+' '+String(x.title||'')).toLocaleLowerCase().includes(q))continue;
+    if(!q&&selectedGuide&&!x.game&&gameKey(x.title).indexOf(gameKey(selectedGuide))===-1)continue;
+    if(!q&&selectedGuide&&x.game&&gameKey(x.game)!==gameKey(selectedGuide))continue;
+    if(articleQ&&!(String(x.title||'')+' '+String(x.publisher||'')).toLocaleLowerCase().includes(articleQ))continue;
+    leadMap.set(url,x);
+  }
+  let recent=[...leadMap.values()].sort((a,b)=>(b.published_at||'').localeCompare(a.published_at||''));
+  if($('guideSort').value==='old')recent.reverse();
+  $('guideLeads').innerHTML=renderLeadSection('最近 30 天攻略原文',recent)
+    ||'<div class="empty">最近 30 天沒有收錄符合條件的攻略來源。</div>';
+  $('guideArticles').querySelectorAll('[data-article]').forEach(b=>b.onclick=()=>{
+    let x=arr[+b.dataset.article];
+    $('guideArticle').textContent=x.content||x.summary||'';
+    $('shareText').textContent='【'+x.game+'】'+x.title+'\n'+(x.summary||x.content||'').slice(0,600)+'\n來源：'+(x.source_url||'');
+  });
+}
 let month=new Date();month.setDate(1);function renderCalendar(){let yy=month.getFullYear(),mm=month.getMonth(),days=new Date(yy,mm+1,0).getDate();$('monthLabel').textContent=`${yy} 年 ${mm+1} 月`;let q=$('eventQ').value.toLowerCase(),r=$('eventRegion').value,from=new Date(yy,mm,1),to=new Date(yy,mm+1,1);let arr=db.events.filter(e=>e.start_at&&e.end_at&&new Date(e.start_at)<to&&new Date(e.end_at)>=from&&(!q||`${e.game} ${e.title}`.toLowerCase().includes(q))&&(!r||e.region===r));if(!arr.length){$('calendarLegend').innerHTML='';$('calendarView').innerHTML='<div class="empty">本月暫無已核實起迄日期的活動。</div>';$('eventLeads').innerHTML=renderLeadSection('最近 30 天活動公告',(db.leads.events||[]).filter(x=>new Date(x.published_at||'').getTime()>=Date.now()-30*86400000&&(!q||`${x.game||''} ${x.title||''}`.toLowerCase().includes(q))));return}let games=[...new Set(arr.map(x=>x.game))].sort((a,b)=>a.localeCompare(b,'zh-Hant'));let colorMap=new Map(games.map((g,i)=>[g,`hsl(${Math.round(i*360/games.length)} 64% 40%)`]));$('calendarLegend').innerHTML=games.map(g=>`<span class="legend-item"><i class="legend-dot" style="background:${colorMap.get(g)}"></i>${safe(g)}</span>`).join('');let html=`<div class="calendar-chart" style="--days:${days}"><div class="calendar-head"><b>遊戲／活動</b>${Array.from({length:days},(_,i)=>`<span>${i+1}</span>`).join('')}</div>`;for(let e of arr.sort((a,b)=>a.game.localeCompare(b.game,'zh-Hant')||a.start_at.localeCompare(b.start_at))){let start=new Date(e.start_at),end=new Date(e.end_at),startDay=Math.max(1,Math.floor((Date.UTC(start.getFullYear(),start.getMonth(),start.getDate())-Date.UTC(yy,mm,1))/86400000)+1),endDay=Math.min(days,Math.floor((Date.UTC(end.getFullYear(),end.getMonth(),end.getDate())-Date.UTC(yy,mm,1))/86400000)+1),left=(startDay-1)/days*100,width=(endDay-startDay+1)/days*100;html+=`<div class="calendar-row"><button class="calendar-name event-detail" data-event="${db.events.indexOf(e)}" title="${safe(e.game+'：'+e.title)}"><b>${safe(e.game)}</b> · ${safe(e.title)}</button><div class="calendar-track"><button class="calendar-bar event-detail" data-event="${db.events.indexOf(e)}" title="${safe(e.title)}" style="left:${left}%;width:${width}%;background:${colorMap.get(e.game)};border:0"></button></div></div>`}html+='</div>';$('calendarView').innerHTML=html;$('eventLeads').innerHTML=renderLeadSection('最近 30 天其他活動公告',(db.leads.events||[]).filter(x=>new Date(x.published_at||'').getTime()>=Date.now()-30*86400000&&(!q||`${x.game||''} ${x.title||''}`.toLowerCase().includes(q))));document.querySelectorAll('.event-detail').forEach(b=>b.onclick=()=>{let e=db.events[+b.dataset.event];detail(e.title,`<p><b>遊戲：</b>${safe(e.game)}</p><p><b>地區：</b>${safe(e.region||'')}</p><p><b>活動時間：</b>${safe(e.start_at)} ～ ${safe(e.end_at)}</p><p><b>活動類型：</b>${safe(e.category||'')}</p><p>${safe(e.topup_notes||'')}</p>${link(e.source_url,'官方或原始來源')}`)})}
 
 function renderLeadSection(title,rows){if(!rows.length)return '';return `<details class="lead-section"><summary>${safe(title)} · ${rows.length} 筆</summary><div class="muted">這些是新聞或網站線索，不代表代碼有效、攻略完整或活動日期已確認。</div>${rows.slice(0,35).map(x=>`<div class="item">${x.game?`<span class="tag">${safe(x.game)}</span> `:''}${link(x.source_url||x.url,x.title||'查看原始來源')}<div class="muted">${safe(x.publisher||'')} ${fmt(x.published_at)}</div></div>`).join('')}</details>`}

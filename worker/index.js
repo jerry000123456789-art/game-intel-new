@@ -47,7 +47,50 @@ function reply(obj,status=200){
     'X-Content-Type-Options':'nosniff',
   }});
 }
-async function lookup(request){
+
+async function getStored(env,request,filename){
+  if(!env?.ASSETS)throw new Error('no ASSETS binding');
+  const location=new URL('/data/'+filename+'.json',request.url);
+  const response=await env.ASSETS.fetch(new Request(location.toString(),{method:'GET'}));
+  if(!response.ok)throw new Error('stored '+filename+' HTTP '+response.status);
+  return response.json();
+}
+function savedMatches(game,kind,sources,latest,channels,now=Date.now()){
+  const period=now-10*86400000;
+  const all=[...(sources?.items?.[kind]||[])];
+  const category=kind==='events'?'活動行事曆':'遊戲攻略';
+  for(const record of [...(latest?.items||[]),...(channels?.items||[])]){
+    if(record.category===category || KEYWORDS[kind].test(record.title||''))all.push(record);
+  }
+  const seen=new Set(),result=[];
+  for(const record of all){
+    const title=String(record.title||'').trim(),source=record.source_url||record.url||'';
+    const when=Date.parse(record.published_at||'');
+    if(!title||!matchesGame(title,game)||!KEYWORDS[kind].test(title))continue;
+    if(!Number.isFinite(when)||when<period)continue;
+    try{if(new URL(source).protocol!=='https:')continue;}catch{continue;}
+    if(seen.has(source))continue;
+    seen.add(source);
+    result.push({title:title.slice(0,280),url:source,published_at:new Date(when).toISOString(),
+      publisher:String(record.publisher||'').slice(0,90),
+      date_status:'資料庫來源刊登日期；活動起訖請核對原文'});
+  }
+  return result.sort((a,b)=>b.published_at.localeCompare(a.published_at)).slice(0,25);
+}
+async function snapshotLookup(request,env,game,kind){
+  const [sources,latest,channels]=await Promise.all([
+    getStored(env,request,'source_leads'),
+    getStored(env,request,'latest'),
+    getStored(env,request,'channel_history'),
+  ]);
+  const entries=savedMatches(game,kind,sources,latest,channels);
+  return reply({game,kind,checked_at:new Date().toISOString(),status:'ok',
+    source_mode:'scheduled_cache',updated_at:latest?.updated_at||sources?.updated_at||'',
+    note:'即時 RSS 暫不可用，已使用 GitHub Actions 定時收集的最近10天公開資訊。無資料不代表沒有活動；刊登日期不是活動起迄時間。',
+    entries});
+}
+
+async function lookup(request,env){
   const url=new URL(request.url);
   const game=(url.searchParams.get('game')||'').trim();
   const kind=url.searchParams.get('kind');
@@ -67,20 +110,24 @@ async function lookup(request){
     if(raw.length>1200000)throw new Error('來源資料超出大小限制');
     const entries=parseRSS(raw,game,kind);
     return reply({game,kind,checked_at:new Date().toISOString(),status:'ok',
-      note:'這些是最近10天的公開原文線索；刊登日期不是活動開始日期。僅有已核實的活動起訖時間才應顯示為確定日期。',
+      source_mode:'live_rss',note:'這些是最近10天的公開原文線索；刊登日期不是活動開始日期。僅有已核實的活動起訖時間才應顯示為確定日期。',
       entries});
   }catch(e){
-    return reply({game,kind,checked_at:new Date().toISOString(),status:'unavailable',
-      error:'即時來源暫時無法取得，請查看網站已收錄的公告與原始網址。',entries:[]},503);
+    try{
+      return await snapshotLookup(request,env,game,kind);
+    }catch(snapshotError){
+      return reply({game,kind,checked_at:new Date().toISOString(),status:'unavailable',
+        source_mode:'unavailable',error:'即時新聞來源及定時資料快照皆暫時無法讀取。',entries:[]},503);
+    }
   }
 }
-export {parseRSS,decoded,matchesGame};
+export {parseRSS,decoded,matchesGame,savedMatches};
 export default{
   async fetch(request,env){
     const url=new URL(request.url);
     if(url.pathname==='/api/lookup'){
       if(request.method!=='GET')return reply({error:'僅接受 GET'},405);
-      return lookup(request);
+      return lookup(request,env);
     }
     const response=await env.ASSETS.fetch(request);
     const headers=new Headers(response.headers);

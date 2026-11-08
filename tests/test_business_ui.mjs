@@ -50,4 +50,21 @@ values['studio-platform']='Dcard';
 const dcard=draft();
 assert(dcard.includes('公開活動')&&dcard.includes('原始資料'));
 assert(dcard.includes('商業資訊整理'));
+const cardSource=src.slice(src.indexOf('function gameCard(rec,index){'),src.indexOf('function renderGames(){'));
+assert(cardSource.includes('new Set(rec.rows.map('),'OS badges must be deduplicated');
+const makeCard=new Function('esc','goodUrl',cardSource+'return gameCard;')(
+  x=>String(x??''),x=>String(x??''));
+const many=[
+  ...Array.from({length:17},()=>({platform:'App Store',country:'US',date:'2026-11-08',dateScope:'Apple 日期'})),
+  ...Array.from({length:8},()=>({platform:'App Store',country:'JP',date:'2026-11-08',dateScope:'Apple 日期'})),
+  ...Array.from({length:3},()=>({platform:'Google Play',country:'TW',date:'2026-11-08',dateScope:'官方日期'}))
+];
+const card=makeCard({game:{name:'測試遊戲',cover:'',platforms:many},rows:many,status:{type:'recent',label:'新上市'}},0);
+assert.equal(card.match(/class="gx-pill">iOS<\/span>/g)?.length,1,'iOS tag once');
+assert.equal(card.match(/class="gx-pill">Android<\/span>/g)?.length,1,'Android tag once');
+assert(!card.includes('iOS · 美國'),'No repeated country badges');
+assert(index.includes('<option value="all">所有</option>'),'All platforms labeled 所有');
+assert(index.includes('id="gx-watch-result"'),'True cloud save status shown');
+assert(!index.includes('會開啟你自己的 GitHub Issue'),'No GitHub issue workflow in form');
+
 console.log('PASS: full business dashboard, release-window criteria, verified source URLs, platform-specific drafts and safe tracking UI');

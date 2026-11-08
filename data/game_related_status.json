@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-08T12:36:53+00:00",
+  "checked_at": "2026-11-08T12:40:07+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
-    "guides": 0,
-    "events": 0
+    "guides": 6,
+    "events": 3
   },
   "total_leads": {
     "codes": 35,
-    "guides": 31,
-    "events": 46
+    "guides": 37,
+    "events": 49
   },
   "per_game": {
-    "Beach Buggy Racing 2": {
+    "쿵푸 할매: 서바이버 아이콘 이미지": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Chaos Road: Combat Car Racing": {
+    "후더덕 서바이벌-777뽑기 증정 아이콘 이미지": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Zombeast: FPS殭屍射擊": {
+    "Fortnite": {
+      "codes": 0,
+      "guides": 6,
+      "events": 3
+    },
+    "FPS Strike Ops : Modern Arena": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "坦克大作战 - 多人实时在线对战": {
+    "Geometry Dash": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "殭屍火力": {
+    "Heads Up!": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "黃金比例鮮奶油：甜點大師": {
+    "Hollywood Merge": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "스크린샷 이미지": {
+    "Humbug 2": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "썸네일 이미지": {
+    "KaruQ": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "수련충 리마스터 아이콘 이미지": {
+    "lumen.": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "씰M2 아이콘 이미지": {
+    "Meowdoku!": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "아가타 키우기-신규 서버 오픈! 아이콘 이미지": {
+    "Minecraft: クラフト、建築、サバイバル": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "에버나이트: 리버스 아이콘 이미지": {
+    "Minecraft 온라인으로 친구들과 함께 플레이하세요": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "열혈강호: 넥스트 아이콘 이미지": {
+    "Minishoot' Adventures": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "워라인: 스나이퍼 아이콘 이미지": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "원피스 그랜드 레스토랑 아이콘 이미지": {
+    "Mutazione": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -375,7 +375,22 @@
     "에버나이트리버스아이콘이미지": "2026-11-08T12:36:53+00:00",
     "열혈강호넥스트아이콘이미지": "2026-11-08T12:36:53+00:00",
     "워라인스나이퍼아이콘이미지": "2026-11-08T12:36:53+00:00",
-    "원피스그랜드레스토랑아이콘이미지": "2026-11-08T12:36:53+00:00"
+    "원피스그랜드레스토랑아이콘이미지": "2026-11-08T12:36:53+00:00",
+    "쿵푸할매서바이버아이콘이미지": "2026-11-08T12:40:07+00:00",
+    "후더덕서바이벌777뽑기증정아이콘이미지": "2026-11-08T12:40:07+00:00",
+    "fortnite": "2026-11-08T12:40:07+00:00",
+    "fpsstrikeopsmodernarena": "2026-11-08T12:40:07+00:00",
+    "geometrydash": "2026-11-08T12:40:07+00:00",
+    "headsup": "2026-11-08T12:40:07+00:00",
+    "hollywoodmerge": "2026-11-08T12:40:07+00:00",
+    "humbug2": "2026-11-08T12:40:07+00:00",
+    "karuq": "2026-11-08T12:40:07+00:00",
+    "lumen": "2026-11-08T12:40:07+00:00",
+    "meowdoku": "2026-11-08T12:40:07+00:00",
+    "minecraftクラフト建築サバイバル": "2026-11-08T12:40:07+00:00",
+    "minecraft온라인으로친구들과함께플레이하세요": "2026-11-08T12:40:07+00:00",
+    "minishootadventures": "2026-11-08T12:40:07+00:00",
+    "mutazione": "2026-11-08T12:40:07+00:00"
   },
   "errors": []
 }

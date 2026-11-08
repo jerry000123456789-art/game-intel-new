@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T12:34:11+00:00",
+  "updated_at": "2026-11-08T12:37:32+00:00",
   "sources": {
     "Google Play 台灣": {
       "state": "success",
@@ -32,49 +32,49 @@
     },
     "Google Play TW": {
       "state": "success",
-      "last_checked_at": "2026-11-08T12:34:11+00:00",
-      "last_success_at": "2026-11-08T12:34:11+00:00",
-      "items_this_run": 69,
+      "last_checked_at": "2026-11-08T12:37:32+00:00",
+      "last_success_at": "2026-11-08T12:37:32+00:00",
+      "items_this_run": 70,
       "source_url": "https://play.google.com/store/games?hl=zh_TW&gl=TW"
     },
     "Google Play US": {
       "state": "success",
-      "last_checked_at": "2026-11-08T12:34:11+00:00",
-      "last_success_at": "2026-11-08T12:34:11+00:00",
-      "items_this_run": 110,
+      "last_checked_at": "2026-11-08T12:37:32+00:00",
+      "last_success_at": "2026-11-08T12:37:32+00:00",
+      "items_this_run": 112,
       "source_url": "https://play.google.com/store/games?hl=zh_TW&gl=US"
     },
     "App Store TW": {
       "state": "success",
-      "last_checked_at": "2026-11-08T12:34:11+00:00",
-      "last_success_at": "2026-11-08T12:34:11+00:00",
+      "last_checked_at": "2026-11-08T12:37:32+00:00",
+      "last_success_at": "2026-11-08T12:37:32+00:00",
       "items_this_run": 95,
       "source_url": "https://apps.apple.com/tw/iphone/games"
     },
     "App Store US": {
       "state": "success",
-      "last_checked_at": "2026-11-08T12:34:11+00:00",
-      "last_success_at": "2026-11-08T12:34:11+00:00",
+      "last_checked_at": "2026-11-08T12:37:32+00:00",
+      "last_success_at": "2026-11-08T12:37:32+00:00",
       "items_this_run": 194,
       "source_url": "https://apps.apple.com/us/iphone/games"
     },
     "App Store JP": {
       "state": "success",
-      "last_checked_at": "2026-11-08T12:34:11+00:00",
-      "last_success_at": "2026-11-08T12:34:11+00:00",
+      "last_checked_at": "2026-11-08T12:37:32+00:00",
+      "last_success_at": "2026-11-08T12:37:32+00:00",
       "items_this_run": 213,
       "source_url": "https://apps.apple.com/jp/iphone/games"
     },
     "App Store KR": {
       "state": "success",
-      "last_checked_at": "2026-11-08T12:34:11+00:00",
-      "last_success_at": "2026-11-08T12:34:11+00:00",
+      "last_checked_at": "2026-11-08T12:37:32+00:00",
+      "last_success_at": "2026-11-08T12:37:32+00:00",
       "items_this_run": 159,
       "source_url": "https://apps.apple.com/kr/iphone/games"
     },
     "Huawei AppGallery US": {
       "state": "error",
-      "last_checked_at": "2026-11-08T12:34:11+00:00",
+      "last_checked_at": "2026-11-08T12:37:32+00:00",
       "last_success_at": "",
       "items_this_run": 0,
       "error": "官網需 JavaScript 動態載入，目前無可核對清單（3012 bytes）",
@@ -82,16 +82,16 @@
     },
     "Google Play JP": {
       "state": "success",
-      "last_checked_at": "2026-11-08T12:34:11+00:00",
-      "last_success_at": "2026-11-08T12:34:11+00:00",
-      "items_this_run": 82,
+      "last_checked_at": "2026-11-08T12:37:32+00:00",
+      "last_success_at": "2026-11-08T12:37:32+00:00",
+      "items_this_run": 84,
       "source_url": "https://play.google.com/store/games?hl=ja&gl=JP"
     },
     "Google Play KR": {
       "state": "success",
-      "last_checked_at": "2026-11-08T12:34:11+00:00",
-      "last_success_at": "2026-11-08T12:34:11+00:00",
-      "items_this_run": 79,
+      "last_checked_at": "2026-11-08T12:37:32+00:00",
+      "last_success_at": "2026-11-08T12:37:32+00:00",
+      "items_this_run": 81,
       "source_url": "https://play.google.com/store/games?hl=ko&gl=KR"
     }
   }

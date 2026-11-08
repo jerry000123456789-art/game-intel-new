@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T12:36:53.411357+00:00",
-  "note": "Historical source leads retained; not validated codes, full guides, or confirmed event dates.",
+  "updated_at": "2026-11-08T12:40:07+00:00",
+  "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
       {
@@ -293,6 +293,24 @@
     ],
     "guides": [
       {
+        "game": "Fortnite",
+        "kind": "guides",
+        "title": "Fortnite Guide: Best Sprite to Use in Treasure Hunters 推薦指南 - games.gg",
+        "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNHYzcUdhZ09GTWtwM1BzUEthTVZIR2h3X1lrbGtoYjJ6dlp4X2diUm5hT2ctcUJQS09pLTN0MFZkN2VhVGh3ZDNPTExuSTdpdE40Y09mQW1vWUhRV25vZUpCLWQ1eHhSNkVQOTRIZlA3SUpUVExPSzdQYWhycmU3UEEtOGNBeEFBa0JvbExxaEhzTmZTRUhkRHVxdm42cldXdHlEcFVxTnFpdkFydnkwSTBoeTUxNjdzRkp5aldwdno5eVVMTGp1ck1yWkM?oc=5",
+        "published_at": "2026-11-07T21:47:19+00:00",
+        "publisher": "games.gg",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Fortnite",
+        "kind": "guides",
+        "title": "Fortnite 指南：獲取 Pirate Shop Access Token 的最佳攻略 - games.gg",
+        "source_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQcTN5VGZWT2JITWswQ1hMNmJuNkJBcFRwdXpiNmk0a2NFZ1dPMzUtbzJtcEctN2UzU1RfQms3RnV0Wk50YkNhSGt6MUp5Xy10M2U1MkstNU9GMlNUVUlwUXloU3l6RmcyZjZhaDFmTDA5d3Baa2ptOVJ4S2pxc3pNSnZLQkpzZ2E3REtmNVVwaWdVbXdmTm4tNW1RYmtWTW9iX19ZQWo4eXhzVS1hdUg1OFExaDhVZmh1R1NaMHFiUmxPaHZJVFFvVXlZZ1FPZWhnWXFqZWlWN0FsMlBIM0g4TG1vaDBITnZIaFdXT1JTSQ?oc=5",
+        "published_at": "2026-11-07T21:25:18+00:00",
+        "publisher": "games.gg",
+        "status": "source_lead_only"
+      },
+      {
         "game": "View",
         "kind": "guides",
         "title": "Wuhan Guide Infrared Co. Ltd. Class A的Price to book forward – SZSE:002414 - TradingView",
@@ -337,6 +355,33 @@
         "status": "source_lead_only"
       },
       {
+        "game": "Fortnite",
+        "kind": "guides",
+        "title": "Fortnite Guide: All Treasure Hunters Quests & Rewards 任務與獎勵總覽 - games.gg",
+        "source_url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWTZndEx0NFRIR1VHN0FhdkRtZ0UzdWlmS3JLdU5iZWhLWHo4TnlLaWNnSjNlV2lyZG55eUR6X2hBV01oaUhoX184OTg3dXRsdjZBcmlIYXVTbU9DQ0NUUEtTT2hpd2VreXFUeHRSblBGR1lIeTBKbWkzOURrTUNqSExhVlpjSVVScktpT1pPZURZdk5uOFFsT1ZwOV84X3REM1phdk1yNGVLOHd3MUNwM3Jqdm9iX1BQemhpbDE5eGo1eDhCLVZPaVg2ZElwbXJVdEtlcnE0UXl5eWxsZF9qVWR3UVRFX1lJVjRjLQ?oc=5",
+        "published_at": "2026-11-01T22:53:16+00:00",
+        "publisher": "games.gg",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Fortnite",
+        "kind": "guides",
+        "title": "Fortnite One Piece攻略：如何獲得Flame Flame Fruit - games.gg",
+        "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNXdrR1Z6N25aUTJQWmhUVG9zX1BMZTJsRXh3cWduVDkwVkotRXRjZ3VkNHp5S203NzFnN2JqZTR6SmQtWHF3NkFmRVVXUkQ4bWsxZWdTam9odmVnZGVRZ2JYdUtabVNtQ3lPdkR0cFVwVnVveEVJRXVFb2hJbWpRYkpYNHd0c3A2TGsxdm9zUUxWUmRUZ0tlNVRpWFBxYUJf?oc=5",
+        "published_at": "2026-11-01T22:30:10+00:00",
+        "publisher": "games.gg",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Fortnite",
+        "kind": "guides",
+        "title": "Fortnite 指南：所有 One Piece 任務與完成攻略 - games.gg",
+        "source_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPbTlqNE82UHN5S01LZEpTTWtHZXgtc1FTaDJSbXRBWWQ5QVl1YzFuTU8yQzZuazNuLXBqbzNmY1ZtblZRVVJEVE9LVTZ0V09kNUVySERSR3ZfNG8xRHhxb0w5cVk3RDZuMFphX0JPaFN0WFdDaUQwYnE2eFlhVWEwNDdOd0ZCNFpCWlJRTEFZeV9VQUl3VWlkMWVSalRHZlZqLVp4cUxHN1ZxZ28yMnBSbDVwRWFnN1dvbXVSZ0hRZEhLRHBEVU9majJSWU5xMl9aWEIwalF2REZQbl9aQTduTGFxTjk0NVZTMTZZVm1ZLWc3d00?oc=5",
+        "published_at": "2026-11-01T21:21:20+00:00",
+        "publisher": "games.gg",
+        "status": "source_lead_only"
+      },
+      {
         "game": "米卡：地城背包客",
         "kind": "guides",
         "title": "米卡地城背包客官方認證T0最強首抽陣容+史上最多禮包碼+近10組最新序號拿最神技能+T0武器+最暴力秒殺#米卡地城背包客序號#米卡地城背包客兌換碼#米卡地城背包客禮包碼#米卡地城背包客首抽#米卡地城背包客攻略#米卡地城背包客巴哈#米卡地城背包客組 - Mobile01",
@@ -361,6 +406,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XbVQtNWxkWkluTVNwS2xadS1QbnYxMmlwS1UwSlBwcUViTDFmaXVWdmFISngxQk05RFM5N1FxYzhiNHE0N2psVnVBakRhRGpLX2hvWFQ3R2xIZFhXT0lMckt6dTFGSHZqMmNIa0xfcWpfNU0?oc=5",
         "published_at": "2026-10-31T09:28:05+00:00",
         "publisher": "Ludens Media",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Fortnite",
+        "kind": "guides",
+        "title": "Fortnite Guide：所有 Treasure Hunters Battle Pass 造型一覽 - games.gg",
+        "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQk05cllTaW9zTDhzZVRjQ0w5WXV3M2ROdzhxNlExRTRWalI0VDc4aElrRG1Fd3JCWkg0bFhRWFBKWmNpRlBiQjB5YXh5dWNnd09pTEVBSTVwcGI3R3lvMUYxcnY3b1JpX2VZYlI0bFJjV2M1Y2kxejhqNWdnUzE3T1BGekg0cWFESWtzeXZlU1JCVWFtenY4U1F4NA?oc=5",
+        "published_at": "2026-10-30T07:00:00+00:00",
+        "publisher": "games.gg",
         "status": "source_lead_only"
       },
       {
@@ -598,6 +652,15 @@
         "status": "source_lead_only"
       },
       {
+        "game": "Fortnite",
+        "kind": "events",
+        "title": "《Fortnite》×《Overwatch》要聯動了？粉絲卻反應兩極：以後打 game 還要算時機湊熱點是嗎？ - SuperDope.Games",
+        "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE50UmE3ZF81cjJwZ2pjWlZIZk83bkQ0YURCREdNWTBzS3pJOTJrXzlDSXlQdFFucWNBV3E2azJzdl9mT2VmLWI0cmdqeHoyaE80TnBxeQ?oc=5",
+        "published_at": "2026-11-05T13:02:32+00:00",
+        "publisher": "SuperDope.Games",
+        "status": "source_lead_only"
+      },
+      {
         "game": "卡厄思夢境",
         "kind": "events",
         "title": "【卡厄思夢境】兌換碼與禮包碼序號・11月4日更新 - Ludens Media",
@@ -612,6 +675,15 @@
         "publisher": "GNN 新聞網",
         "published_at": "2026-11-04T09:13:44+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Fortnite",
+        "kind": "events",
+        "title": "Epic Games 於 Tokyo 推出真實世界《Fortnite》x《ONE PIECE》尋寶活動 - Hypebeast",
+        "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQenhtNkZYT2V6MHdROUd5UmNzZjFlV0lUSlJjTFotNUJ0MlFjRzJVYXZpNlRxVzlpckxMZHhjdFJWSUx0V2tHMVo4VTJkUDhGLVBvODZWUHpEMml6Mm9IWVkzb0pRZy1XZWRKMXBWOWpVZFFCazVMVzJfR01aMVBubnVVOVU2RzI2TDJZejgwTl9uOC02a2UzdnF1c0JDQjZmOHB6bA?oc=5",
+        "published_at": "2026-11-04T08:33:31+00:00",
+        "publisher": "Hypebeast",
         "status": "source_lead_only"
       },
       {
@@ -699,6 +771,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE93Z25JUTNKWjh4cVE1NW9aanNRdHF0dlM5U0FRLUtOWjBNSGxfRmdpeXRKVXg5TDJCQjdBRElXYmVPd3hsUnY4U1dENlFwS2RIcXB0YWt3VGg?oc=5",
         "published_at": "2026-11-02T08:52:13+00:00",
         "publisher": "GNN 新聞網",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Fortnite",
+        "kind": "events",
+        "title": "遊戲更新丟一邊，先看這個！《Fortnite》新角色一登場，玩家眼睛全跑偏了！ - SuperDope.Games",
+        "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5pdXdpckljams1LWEtV3RDUy1VaXVTTUhqX0Z0NS1SUVFsWVYxY1VkMUZJbFNrSWduNVhvQng5RlF4XzBvNFJyUlA1WjJwdDF3YTkzZA?oc=5",
+        "published_at": "2026-11-02T08:35:34+00:00",
+        "publisher": "SuperDope.Games",
         "status": "source_lead_only"
       },
       {

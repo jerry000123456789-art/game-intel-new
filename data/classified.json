@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T21:43:06+00:00",
+  "updated_at": "2026-11-09T01:14:03+00:00",
   "note": "僅依標題比對遊戲與日期字樣；日期不代表活動起迄、上市日期；未擷取或驗證兌換碼。",
   "items": [
     {
@@ -147,6 +147,18 @@
       "publisher": "上報Up Media",
       "published_at": "2026-11-05T04:00:00+00:00",
       "first_seen_at": "2026-11-07T18:50:37+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "26d26ccb2f77d2ca0dd2",
+      "category": "兌換碼",
+      "game_matches": [],
+      "title": "【卡厄思夢境】兌換碼與禮包碼序號・11月4日更新 - Ludens Media",
+      "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1xWklNZWdYclQ3aF9XVzFYZVBqQk94dU5yT1lyRDJIbDc0MUNqS3k1cllaS3hkZHFpaXB5TFdlMkJpNVFBRVB2a0w1V1AzM296d3ZzZ0VseWdhcHZ0eG5YTERR?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-11-04T10:30:52+00:00",
+      "first_seen_at": "2026-11-09T01:14:03+00:00",
       "date_mentions": [],
       "review_required": true
     },

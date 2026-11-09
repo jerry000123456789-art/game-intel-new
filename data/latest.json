@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T21:43:06+00:00",
+  "updated_at": "2026-11-09T01:14:03+00:00",
   "status": "ok",
   "errors": [],
   "fetched": 120,
@@ -112,6 +112,15 @@
       "publisher": "上報Up Media",
       "published_at": "2026-11-05T04:00:00+00:00",
       "first_seen_at": "2026-11-07T18:50:37+00:00"
+    },
+    {
+      "id": "26d26ccb2f77d2ca0dd2",
+      "category": "兌換碼",
+      "title": "【卡厄思夢境】兌換碼與禮包碼序號・11月4日更新 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1xWklNZWdYclQ3aF9XVzFYZVBqQk94dU5yT1lyRDJIbDc0MUNqS3k1cllaS3hkZHFpaXB5TFdlMkJpNVFBRVB2a0w1V1AzM296d3ZzZ0VseWdhcHZ0eG5YTERR?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-11-04T10:30:52+00:00",
+      "first_seen_at": "2026-11-09T01:14:03+00:00"
     },
     {
       "id": "99da03a821252440b871",

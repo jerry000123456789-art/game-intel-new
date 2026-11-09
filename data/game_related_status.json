@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-08T21:45:48+00:00",
+  "checked_at": "2026-11-09T01:14:34+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
-    "codes": 0,
-    "guides": 1,
-    "events": 3
+    "codes": 3,
+    "guides": 5,
+    "events": 0
   },
   "total_leads": {
-    "codes": 37,
-    "guides": 51,
+    "codes": 41,
+    "guides": 56,
     "events": 70
   },
   "per_game": {
-    "Manor Cafe：三消遊戲": {
+    "Blush Blush - Idle Otome Game": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "熊貓泡泡": {
+    "Farm Heroes Saga": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "瘋狂水世界": {
+    "Paper.io 2": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "突襲：暗影傳說": {
+    "PK XD: Fun, friends & games": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "糖果傳奇": {
+    "Pocket Rumble: 몬스터 군단 RPG": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "細胞保衛戰": {
+    "クラッシュ・オブ・クラン (Clash of Clans)": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "緋聞港口：合併&故事": {
+    "回合制策略遊戲中的英雄、咒術與魔法: Magic World": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "荒野亂鬥": {
+    "森林小島 : 療癒放置型動物遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "薑餅人放置大戰爭 - 餅乾養成RPG": {
+    "迪士尼Emoji消消樂": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "蛇衝突 (Snake Clash)": {
+    "魔法戰爭傳奇": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "蠟筆小新：GO！": {
+    "魔物獵人：旅人": {
+      "codes": 3,
+      "guides": 5,
+      "events": 0
+    },
+    "魔靈召喚: 天空之役": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "貓咪和湯: 可愛貓咪療癒放置育成慢生活遊戲": {
+    "魚吃魚：成長与進化！-Fish Eat Fish.io": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "貓咪大戰爭": {
-      "codes": 0,
-      "guides": 1,
-      "events": 3
-    },
-    "轉下螺絲任務": {
+    "Enchanted Inn: Merge & Mystery": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "農場英雄傳奇": {
+    "萌爪配對碰": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -660,7 +660,22 @@
     "貓咪和湯可愛貓咪療癒放置育成慢生活遊戲": "2026-11-08T21:45:48+00:00",
     "貓咪大戰爭": "2026-11-08T21:45:48+00:00",
     "轉下螺絲任務": "2026-11-08T21:45:48+00:00",
-    "農場英雄傳奇": "2026-11-08T21:45:48+00:00"
+    "農場英雄傳奇": "2026-11-08T21:45:48+00:00",
+    "blushblushidleotomegame": "2026-11-09T01:14:34+00:00",
+    "farmheroessaga": "2026-11-09T01:14:34+00:00",
+    "paperio2": "2026-11-09T01:14:34+00:00",
+    "pkxdfunfriendsgames": "2026-11-09T01:14:34+00:00",
+    "pocketrumble몬스터군단rpg": "2026-11-09T01:14:34+00:00",
+    "クラッシュオブクランclashofclans": "2026-11-09T01:14:34+00:00",
+    "回合制策略遊戲中的英雄咒術與魔法magicworld": "2026-11-09T01:14:34+00:00",
+    "森林小島療癒放置型動物遊戲": "2026-11-09T01:14:34+00:00",
+    "迪士尼emoji消消樂": "2026-11-09T01:14:34+00:00",
+    "魔法戰爭傳奇": "2026-11-09T01:14:34+00:00",
+    "魔物獵人旅人": "2026-11-09T01:14:34+00:00",
+    "魔靈召喚天空之役": "2026-11-09T01:14:34+00:00",
+    "魚吃魚成長与進化fisheatfishio": "2026-11-09T01:14:34+00:00",
+    "enchantedinnmergemystery": "2026-11-09T01:14:34+00:00",
+    "萌爪配對碰": "2026-11-09T01:14:34+00:00"
   },
   "errors": []
 }

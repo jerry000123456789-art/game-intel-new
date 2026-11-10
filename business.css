@@ -71,3 +71,41 @@ body{margin:0;background:var(--gx-pale);color:var(--gx-ink)}
 @media(max-width:1120px){.gx-stats{grid-template-columns:repeat(2,1fr)}.gx-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.gx-side{width:205px}.gx-app{grid-template-columns:205px minmax(0,1fr)}}
 @media(max-width:780px){.gx-app{display:block}.gx-side{position:static;height:auto;min-height:0;padding:12px}.gx-brand{border:0;padding:3px 7px 8px;margin:0;display:flex;gap:10px;align-items:center}.gx-brand-badge{margin:0;width:38px;height:38px}.gx-brand-meta{display:none}.gx-nav-label,.gx-side-foot{display:none}.gx-nav{display:flex;overflow-x:auto;gap:5px}.gx-nav button{min-width:max-content;width:auto;padding:10px;font-size:12px}.gx-top{padding:18px 20px}.gx-main{padding:20px 14px 40px}.gx-two{grid-template-columns:1fr}.gx-grid{grid-template-columns:1fr}.gx-calendar-grid{gap:3px}.gx-day{min-height:66px;padding:4px}.gx-day .event-chip{font-size:9px}.gx-top h1{font-size:21px}}
 @media(max-width:480px){.gx-stats{gap:9px}.gx-stat{padding:14px}.gx-stat strong{font-size:27px}.gx-panel{padding:16px}.gx-filters>*{width:100%;max-width:100%!important}.gx-cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.gx-card-body{padding:10px}.gx-art{height:110px}.gx-card-name{font-size:13px}.gx-card-description{font-size:11px}.gx-card-actions .gx-btn{width:100%;padding:7px}.gx-calendar-grid{grid-template-columns:repeat(7,minmax(0,1fr))}.gx-day{min-height:52px}.gx-day .event-chip{font-size:9px}}
+
+/* 2026-11-11 · Restore the user-approved comfortable dashboard palette.
+   Primary surface #EAEAEF, primary text #2D3142, deep blue/green accents. */
+:root{
+  --gx-navy:#253F68;
+  --gx-ink:#2D3142;
+  --gx-blue:#253F68;
+  --gx-teal:#276657;
+  --gx-pale:#EAEAEF;
+  --gx-muted:#5D6879;
+  --gx-line:#D5D9E2;
+  --gx-shadow:0 7px 22px rgba(45,49,66,.055);
+}
+body{background:#EAEAEF;color:#2D3142}
+.gx-app{line-height:1.5;color:#2D3142}
+.gx-side{background:#253F68;color:#EDF2F5}
+.gx-brand-badge{background:#346A70}
+.gx-brand-meta,.gx-nav-label,.gx-side-foot{color:#D1DEE5}
+.gx-nav button.active{background:#E5F0ED;color:#20594C}
+.gx-top{background:#fff;border-color:var(--gx-line)}
+.gx-top h1,.gx-h2,.gx-panel-head h2,.gx-feed-item h3,.gx-card-name,.gx-stat strong,.gx-code{color:#2D3142}
+.gx-title-overline,.gx-stat span{color:#276657}
+.gx-lead,.gx-sync,.gx-count,.gx-muted,.gx-card-description,.gx-feed-item .gx-meta,.gx-stat small,.gx-panel-head small,.gx-form label{color:#5D6879}
+.gx-tabs{background:#E2E6EC}
+.gx-tabs button{color:#475568}
+.gx-tabs button.active{color:#253F68}
+.gx-filters input,.gx-filters select,.gx-form input,.gx-form textarea,.gx-form select{color:#2D3142;border-color:#D5D9E2}
+.gx-btn{color:#253F68;border-color:#CDD5DE}
+.gx-btn:hover{border-color:#276657;background:#EDF5F2}
+.gx-btn.primary{background:#253F68;border-color:#253F68;color:#fff}
+.gx-btn.primary:hover{background:#1D3457}
+.gx-feed-item a,.gx-link{color:#253F68}
+.gx-pill{background:#E8EDF3;color:#253F68}
+.gx-pill.green{background:#E4F1EA;color:#276657}
+.gx-art{background:linear-gradient(120deg,#E4E8EE,#F0F2F5)}
+.gx-empty,.gx-day.outside{background:#F2F3F6;color:#5D6879}
+.gx-notice{background:#E9F2ED;color:#276657}
+.gx-nav button:focus-visible,.gx-btn:focus-visible{outline:3px solid #276657;outline-offset:2px}

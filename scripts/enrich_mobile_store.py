@@ -174,8 +174,10 @@ def enrich(catalog,matrix,lookup=None,max_android=MAX_ANDROID):
                 by_key[k]=obs
             if not x.get("cover_url") and obs.get("cover_url"):x["cover_url"]=obs["cover_url"]
             if obs.get("store_release_date"):x["release_date"]=obs["store_release_date"]
+            collection_current=x.get("pre_registration_collection_seen_at","")[:10]==TODAY.isoformat()
             x["status"]=status_for(obs.get("store_release_date") or x.get("release_date",""),
-                obs.get("preorder_confirmed",False),obs.get("officially_installed",False))
+                (obs.get("preorder_confirmed",False) or collection_current) and not obs.get("officially_installed",False),
+                obs.get("officially_installed",False))
         elif p=="App Store":
             import re
             link=x.get("source_url","")
@@ -246,8 +248,10 @@ def enrich(catalog,matrix,lookup=None,max_android=MAX_ANDROID):
         obs=by_key.get(("Android",android_id(x),c),{})
         if not x.get("cover_url") and obs.get("cover_url"):x["cover_url"]=valid_cover_for_row(obs["cover_url"])
         if obs.get("store_release_date"):x["release_date"]=obs["store_release_date"]
+        collection_current=x.get("pre_registration_collection_seen_at","")[:10]==TODAY.isoformat()
         x["status"]=status_for(obs.get("store_release_date") or x.get("release_date",""),
-            obs.get("preorder_confirmed",False),obs.get("officially_installed",False))
+            (obs.get("preorder_confirmed",False) or collection_current) and not obs.get("officially_installed",False),
+            obs.get("officially_installed",False))
     matrix["items"]=sorted(by_key.values(),key=lambda a:(a.get("name",""),a.get("platform",""),a.get("country","")))
     catalog["items"]=rows
     counts={}

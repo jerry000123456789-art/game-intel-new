@@ -36,6 +36,23 @@ with tempfile.TemporaryDirectory() as tmp:
  assert len(one)==len(two)==5,(one,two)
  assert [x['id'] for x in one]==[x['id'] for x in two]
  assert [x['first_seen_at'] for x in one]==[x['first_seen_at'] for x in two]
+# Google's curated pre-registration page is captured as pre-registration,
+# retaining the original collection URL, without fabricating release dates.
+with tempfile.TemporaryDirectory() as tmp:
+ p=pathlib.Path(tmp);(p/'data').mkdir()
+ (p/'data/game_catalog.json').write_text(json.dumps({'items':[]}),encoding='utf8')
+ store.ROOT=p;store.OUTPUT=p/'data/game_catalog.json';store.HEALTH=p/'data/store_health.json'
+ source='https://play.google.com/store/apps/collection/promotion_3000000d51_pre_registration_games?hl=zh_TW&gl=TW'
+ store.SOURCES=[('Google Play','台灣',source)]
+ with patch.object(store,'fetch',return_value=google):
+  store.run()
+  first=json.loads(store.OUTPUT.read_text())['items']
+  store.run()
+  second=json.loads(store.OUTPUT.read_text())['items']
+ assert len(first)==len(second)==2
+ assert all(x['status']=='預先註冊' and not x['release_date'] and
+     x['pre_registration_collection_url']==source for x in second)
+ assert [x['id'] for x in first]==[x['id'] for x in second]
 # Only an explicit code with an attached source becomes a copyable code.
 source='https://game.example/news'
 code_list=facts.extract_codes('原神','活動公告 兌換碼：ABCDE12345。其他報導 兌換碼: ZYX987A2',source)

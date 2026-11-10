@@ -18,6 +18,8 @@ SOURCES=[
     ("Google Play","國際","https://play.google.com/store/games?hl=zh_TW&gl=US"),
     ("Google Play","國際","https://play.google.com/store/games?hl=ja&gl=JP"),
     ("Google Play","國際","https://play.google.com/store/games?hl=ko&gl=KR"),
+    ("Google Play","台灣","https://play.google.com/store/apps/collection/promotion_3000000d51_pre_registration_games?hl=zh_TW&gl=TW"),
+    ("Google Play","國際","https://play.google.com/store/apps/collection/promotion_3000000d51_pre_registration_games?hl=zh_TW&gl=US"),
     ("App Store","台灣","https://apps.apple.com/tw/iphone/games"),
     ("App Store","國際","https://apps.apple.com/us/iphone/games"),
     ("App Store","國際","https://apps.apple.com/jp/iphone/games"),
@@ -173,7 +175,8 @@ def run():
     fresh=0
     for platform,region,url in SOURCES:
         country=country_from_link(platform,url,region)
-        source_name=platform+" "+country
+        is_pre_registration="promotion_3000000d51_pre_registration_games" in url
+        source_name=platform+(" 預先註冊 " if is_pre_registration else " ")+country
         state=health.get(source_name,{})
         try:
             if platform=="Huawei AppGallery":
@@ -182,6 +185,11 @@ def run():
             listings=parse_store(fetch(url),platform,region,country)
             if not listings:raise RuntimeError("頁面未取得有效遊戲連結")
             for x in listings:
+                if is_pre_registration:
+                    # This curated list signals pre-registration, not a confirmed launch date.
+                    x["status"]="預先註冊"
+                    x["pre_registration_collection_url"]=url
+                    x["pre_registration_collection_seen_at"]=NOW
                 key=catalog_key(x)
                 if key in merged:
                     prior=merged[key]
@@ -189,8 +197,10 @@ def run():
                     x["first_seen_at"]=prior.get("first_seen_at") or prior.get("discovered_at") or NOW
                     for field in ("release_date","developer","cover_url","payment_methods","seed_method"):
                         x[field]=prior.get(field) or x.get(field) or ([] if field=="payment_methods" else "")
-                    if prior.get("status") not in ("商店收錄","已上市",""):
+                    if prior.get("status") not in ("商店收錄","已上市","") and not is_pre_registration:
                         x["status"]=prior["status"]
+                    x["pre_registration_collection_seen_at"]=x.get("pre_registration_collection_seen_at") or prior.get("pre_registration_collection_seen_at","")
+                    x["pre_registration_collection_url"]=x.get("pre_registration_collection_url") or prior.get("pre_registration_collection_url","")
                     if catalog_quality(prior)>=catalog_quality(x):
                         x["name"]=prior["name"]
                 else:

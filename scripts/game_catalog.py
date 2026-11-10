@@ -40,6 +40,27 @@ for term in seeds:
             items.append(record(name,status,'台灣','App Store','App Store',link,x.get('artworkUrl512') or x.get('artworkUrl100',''),rd,x.get('artistName','')))
     except Exception as e:errors.append('App Store '+term+': '+str(e)[:100])
     time.sleep(.15)
+# User-supplied App Store example: verify the exact US product via Apple's
+# official API, rather than assuming a release date from the pasted URL.
+for app_id,country in [('6763063611','us')]:
+    try:
+        query=urllib.parse.urlencode({'id':app_id,'country':country})
+        data=fetch('https://itunes.apple.com/lookup?'+query)
+        for app in data.get('results',[]):
+            if str(app.get('trackId',''))!=app_id or app.get('kind')!='software':continue
+            if app.get('primaryGenreName')!='Games' and '6014' not in [str(z) for z in app.get('genreIds',[])]:continue
+            title=app.get('trackName','').strip()
+            link=app.get('trackViewUrl') or f'https://apps.apple.com/{country}/app/id{app_id}'
+            if not title:continue
+            date=app.get('releaseDate','')[:10]
+            try: future=dt.date.fromisoformat(date)>NOW.date()
+            except ValueError: future=False
+            status='即將上市' if future else '已上市' if date else '商店收錄'
+            items.append(record(title,status,'國際','App Store','App Store',link,
+                app.get('artworkUrl512') or app.get('artworkUrl100',''),date,app.get('artistName','')))
+    except Exception as e:
+        errors.append('App Store app '+app_id+': '+str(e)[:100])
+
 # Store listing dedupe; avoid inserting news-title candidates as games.
 unique={}
 existing=ROOT/'data/game_catalog.json'

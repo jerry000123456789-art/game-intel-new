@@ -11,6 +11,16 @@
       "status": "collector-enabled"
     },
     {
+      "platform": "Google Play TW - 預先註冊",
+      "url": "https://play.google.com/store/apps/collection/promotion_3000000d51_pre_registration_games?hl=zh_TW&gl=TW",
+      "status": "collector-enabled"
+    },
+    {
+      "platform": "Google Play US - 預先註冊",
+      "url": "https://play.google.com/store/apps/collection/promotion_3000000d51_pre_registration_games?hl=zh_TW&gl=US",
+      "status": "collector-enabled"
+    },
+    {
       "platform": "Huawei AppGallery",
       "url": "https://appgallery.huawei.com/tab/automore%7Cdoublecolumncardwithstar%7C903189%7CA01000",
       "status": "pending-public-machine-readable-source"
@@ -44,6 +54,11 @@
       "platform": "Nintendo",
       "url": "https://www.nintendo.com/store/games/",
       "status": "source-directory-only"
+    },
+    {
+      "platform": "App Store US - Bills Must Be Paid",
+      "url": "https://apps.apple.com/us/app/bills-must-be-paid/id6763063611?l=zh-Hant-TW",
+      "status": "official-single-game-reference"
     }
   ]
 }

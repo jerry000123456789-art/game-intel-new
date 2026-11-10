@@ -53,4 +53,18 @@ r=store.parse_store(tile,"Google Play","台灣","TW")
 assert r[0]["cover_url"]==official_icon,r
 assert not store.verified_cover("https://evil.example/fake.png","Google Play")
 assert not m.official_art("https://evil.example/fake.png")
+# Same-day official collection evidence retains pre-registration unless the
+# individual listing explicitly confirms installable status.
+sample={"name":"預約測試遊戲","platforms":["Google Play"],"region":"台灣",
+    "country":"TW","source_url":play_url,"status":"預先註冊",
+    "pre_registration_collection_seen_at":m.NOW.isoformat(timespec="seconds"),
+    "release_date":"","cover_url":""}
+pre_out,_,_=m.enrich({"items":[sample]},{"items":[]},lookup=lambda x:{
+    "checked_at":m.NOW.isoformat(timespec="seconds"),
+    "preorder_confirmed":False,"officially_installed":False},max_android=1)
+assert pre_out["items"][0]["status"]=="預先註冊",pre_out
+installed_out,_,_=m.enrich({"items":[sample]},{"items":[{
+    "platform":"Android","app_id":"com.test.mobilegame",
+    "country":"TW","officially_installed":True}]},max_android=0)
+assert installed_out["items"][0]["status"]=="已上市",installed_out
 print("PASS: official covers, per-platform new/upcoming/preregister/old status, no Steam, no update-date-as-launch")

@@ -1,7 +1,55 @@
 {
-  "updated_at": "2026-11-09T01:14:03+00:00",
+  "updated_at": "2026-11-10T18:59:54+00:00",
   "note": "僅依標題比對遊戲與日期字樣；日期不代表活動起迄、上市日期；未擷取或驗證兌換碼。",
   "items": [
+    {
+      "id": "dd8de04097b4b6b4356e",
+      "category": "新遊戲資訊",
+      "game_matches": [],
+      "title": "《王國 W：血盟之誓》宣布 11/17 正式公測 野外 PK、公會玩法搶先看 - GNN 新聞網",
+      "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oTDgtZHV1Mk9VamdKVC1JcHQ0NFo2R2tGTVNiVkwtNGowblFjb3pqRTh3ancycFAzWThCWWNDVi1HRzdQbTlaUUoxZk9QZjlEa01scURHSnc?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-11-10T09:27:06+00:00",
+      "first_seen_at": "2026-11-10T18:59:54+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "f076cf44b149faa0c2c4",
+      "category": "兌換碼",
+      "game_matches": [],
+      "title": "Make Soaps Codes 兌換碼彙整（2026年11月） - games.gg",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWFlqNlBHQzhjaUhYaVlBZU9xZlVmUW1WRE16aXUzdnQ1QVNIQkliT2s1S1dGdE5zelhGbW0zdDM3Qy11SlJ0d29YWWt3b0p1TmhFRktwY2hTZTBWX3B1ZE9hRHpkcEVhaHBPYXJFaktzNldjUzdxMGx6OXBiNUVxQ01DTWUtSnZaeWo5LTdpSXlOamVqZXpGeE1mcnhmRHhhNzE4MjIyQUpLV1hyVlFGWkVUMTRiYWpjQkl5clpRcVRBT0Fz?oc=5",
+      "publisher": "games.gg",
+      "published_at": "2026-11-10T00:45:24+00:00",
+      "first_seen_at": "2026-11-10T18:59:54+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "b6bc5702c2f657617f69",
+      "category": "兌換碼",
+      "game_matches": [],
+      "title": "Steal A Balut 2026年11月兌換碼 - games.gg",
+      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRHByRXNWZ2RzWmFzQzUwNDRPNkIxenFGLWdVQ1AydHRtRzR2Q2o0cm5sTUpEY1NZbkVXM0xsQTZXTGlsRVoxWVRxbkFKY3lERkN2OUpuSTVLS1FuUEhvZ3pDZEE3QTZhaENmbVM5X29yQnNObTJsdExxZFQ2YmF3Q2lsNjYwZklaVGFxR3FhbWZISDJKUHl4SE1PdVlxVm5LdDFQaU5VNmU?oc=5",
+      "publisher": "games.gg",
+      "published_at": "2026-11-10T00:29:13+00:00",
+      "first_seen_at": "2026-11-10T18:59:54+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "86ebd55e328c4f772214",
+      "category": "活動行事曆",
+      "game_matches": [],
+      "title": "《Pikmin Bloom》聯動台日全家便利商店！撈金苗收集5周年零食皮克敏 - 4Gamers",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPejFlTXYxRFFsOGVGbzZvS2YwX2t5Q1hrc1NxVkQ4VnZUNldnRnlGQjR3Smt4YmNwQnB6S2JMQndkSW51cnBSRnY4SWozZGVNZ21GSVJ2d2haWXNPdWQtUnU4a0RtVXV3YXRNZGVHeTVLZ1pKZUZUTER2a1c0UENOdXBIR3E0S0RzbjVkUGo4T0NveVNVSk9CVktBOG1HejhMazlrTGhqTUtUX180VUpsbk43TktEOWJW?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-11-09T07:32:14+00:00",
+      "first_seen_at": "2026-11-10T18:59:54+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
     {
       "id": "8770cb5d0dffafb7a934",
       "category": "兌換碼",
@@ -279,7 +327,7 @@
       "title": "偵探動作RPG《白銀之城》12/14全球公測 同步公開角色宣傳影片 - 4Gamers",
       "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUWtLOEtJclVfM2JjaVZZcHZFZlpGQy13NDJOdHZWZnR5b0ZQRUxPdlB1U1dkeTBmRENVN3dwMF9nR0RrZ3hsMzRsZktFRmR5SjZBOVVwN0tERFZTaWk1dHZwdks5bEkzRG5RTndTa2pPUGNHUGVnY0h5Rld5V1dsVXJNZUJDQ2N5clA1M0gwWUg1THF2MHQ0?oc=5",
       "publisher": "4Gamers",
-      "published_at": "2026-11-01T09:00:00+00:00",
+      "published_at": "2026-11-01T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00",
       "date_mentions": [],
       "review_required": true
@@ -589,6 +637,18 @@
       "review_required": true
     },
     {
+      "id": "d41b92ac9a47fb2f38e8",
+      "category": "兌換碼",
+      "game_matches": [],
+      "title": "【半夜別修仙】兌換碼與禮包碼序號・11月9日更新 - Ludens Media",
+      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE85bzEyMzBBazJqNVRLdzNjT1I0OVZsTDllcmlRRGZvRWZMMVlLcDNPQ0NuOUlZVWFYQ1ZuMGY4Mk1QZ2Jibk1HREtGZmdDNjJZMmVr?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-09-24T07:00:00+00:00",
+      "first_seen_at": "2026-11-10T18:59:54+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
       "id": "52a5be538fea32062c02",
       "category": "官方遊戲公告",
       "game_matches": [
@@ -711,6 +771,18 @@
       "review_required": true
     },
     {
+      "id": "1025c8e52435ed943f14",
+      "category": "兌換碼",
+      "game_matches": [],
+      "title": "【塔塔冒險隊】兌換碼與禮包碼序號・10月1日更新 - Ludens Media",
+      "source_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Bc3ZLZUItOHB0WGFxVlZKQWpxWmp1MFAxQmRwNTUxR3RGWVVldk5JSDVFWjRQellRSUp2LTE4Sm1SeVMyRFVtYmc3cXF1LVU?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-08-27T07:00:00+00:00",
+      "first_seen_at": "2026-11-10T18:59:54+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
       "id": "b57a28dd882970245670",
       "category": "官方遊戲公告",
       "game_matches": [
@@ -802,7 +874,7 @@
       "id": "acef989a0c9da2c6f6f1",
       "category": "兌換碼",
       "game_matches": [],
-      "title": "【三國群英傳：策定九州】兌換碼與禮包碼序號・11月2日更新 - Ludens Media",
+      "title": "【三國群英傳：策定九州】兌換碼與禮包碼序號・11月9日更新 - Ludens Media",
       "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9INkpJS0pqa0RMQjZIaGhtZm1yQVZRNnhldDdVS29tMnh1SzNTOFdrV29DX000UDk4R2EydWlwTGlWbjNWQUphVVktNnBtWV9i?oc=5",
       "publisher": "Ludens Media",
       "published_at": "2026-08-15T07:00:00+00:00",
@@ -888,6 +960,18 @@
       "review_required": true
     },
     {
+      "id": "907a1ef87d4fe794f6b0",
+      "category": "活動行事曆",
+      "game_matches": [],
+      "title": "《Garena 傳說對決》x《膽大黨》聯動 8 月 1 日開啟厄卡倫、寺仁造型帥氣登場《Arena of Valor》 - GNN 新聞網",
+      "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9aX2VMZUhab1R0ZklENzNORjRUbm1RanNHNW9WNHItbElVWmxJbU5yb2RjLVBweXZkTmxzQTBDbVRqVTZxVzdoNWEtU0dWSHN5QV9TWlJKNFU?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-07-31T07:00:00+00:00",
+      "first_seen_at": "2026-11-10T18:59:54+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
       "id": "e4132a73ee2d2cca9e53",
       "category": "官方遊戲公告",
       "game_matches": [],
@@ -936,6 +1020,20 @@
       "publisher": "4Gamers",
       "published_at": "2026-07-10T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "46ec9a720673d00508cd",
+      "category": "官方遊戲公告",
+      "game_matches": [
+        "鳴潮"
+      ],
+      "title": "【3.5版本】[角色/武器活動喚取・第一期] -鳴潮官方網站 - Wuthering Waves",
+      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAyMm15ZDd3LVE1amlLVFVvcmY2Nk9wQkY4M2Z5Wm1EenpsWEc5RzNtYWpJQWJUeG50ZklYdVB2QVdOSVZZQklEUWc0VGg4UDBSNGJJaEJCVXVtb2IxLVVmSFg1UTd6MlB3X21XYnlHWFhRdw?oc=5",
+      "publisher": "Wuthering Waves",
+      "published_at": "2026-07-09T07:00:00+00:00",
+      "first_seen_at": "2026-11-10T18:59:54+00:00",
       "date_mentions": [],
       "review_required": true
     },
@@ -1208,6 +1306,18 @@
       "review_required": true
     },
     {
+      "id": "ce362a6b42e59f4ceb41",
+      "category": "官方遊戲公告",
+      "game_matches": [],
+      "title": "尼可的故事工坊 - Genshin Impact",
+      "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5nWHc5dWlvVW9pZDQxaTV6OUhSQ1ZrYkYzM1VSbWl6b3ZKSzdIbnVXSnZnSUI3R1E2a3FoQlpHSkl2U3loS1lwOHRRNkZyMnhlWEZmSWZkMHMxQmRQS2xfOGlja1I?oc=5",
+      "publisher": "Genshin Impact",
+      "published_at": "2026-05-19T18:07:44+00:00",
+      "first_seen_at": "2026-11-10T18:59:54+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
       "id": "e67f915e3ee7b03f4a48",
       "category": "官方遊戲公告",
       "game_matches": [
@@ -1432,6 +1542,18 @@
       "publisher": "Yahoo新聞",
       "published_at": "2026-02-26T08:00:00+00:00",
       "first_seen_at": "2026-11-07T21:42:48+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "262801b3a5eb7346b91b",
+      "category": "新遊戲資訊",
+      "game_matches": [],
+      "title": "《異環》4 月 29 日全平台公測官宣！異能者集結活動獎勵兌換開啟 - 蘋果仁",
+      "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1XX0RMZm5fSnZNOHRpakszRWR5TEJaOVRpM05ucExFekdrTVgyb0JxVnhnRnFLY2lwNlVlNmJ3bGR1MkZmVVlMcFdEMXnSAVJBVV95cUxQU3JGbGpiY2lLN2dXTHAzQ3VMa3NHMzc1V3F5OXJVX2FySXFsRFd2TnlPVUN5Um0wU2FXTU5ycTJ6N2VobDBwUnIzNGtSbF9XM3NB?oc=5",
+      "publisher": "蘋果仁",
+      "published_at": "2026-02-26T08:00:00+00:00",
+      "first_seen_at": "2026-11-10T18:59:54+00:00",
       "date_mentions": [],
       "review_required": true
     },

@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-09T01:14:34+00:00",
+  "checked_at": "2026-11-10T19:00:34+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
-    "codes": 3,
-    "guides": 5,
+    "codes": 0,
+    "guides": 0,
     "events": 0
   },
   "total_leads": {
-    "codes": 41,
+    "codes": 45,
     "guides": 56,
-    "events": 70
+    "events": 72
   },
   "per_game": {
-    "Blush Blush - Idle Otome Game": {
+    "[777Real]スマスロ リコリス・リコイル": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Farm Heroes Saga": {
+    "Bullpen": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Paper.io 2": {
+    "Bus Fever Party!": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "PK XD: Fun, friends & games": {
+    "Cookie Jam™ - 趣味三消遊戲、益智冒險": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Pocket Rumble: 몬스터 군단 RPG": {
+    "Dark Merge Farm": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "クラッシュ・オブ・クラン (Clash of Clans)": {
+    "DIGIMON ALYSION": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "回合制策略遊戲中的英雄、咒術與魔法: Magic World": {
+    "Falcon Squad: 太空射擊": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "森林小島 : 療癒放置型動物遊戲": {
+    "Fish Klondike - Solitaire": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "迪士尼Emoji消消樂": {
+    "Gunboat God": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "魔法戰爭傳奇": {
+    "Lost Stories: Hidden Object": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "魔物獵人：旅人": {
-      "codes": 3,
-      "guides": 5,
-      "events": 0
-    },
-    "魔靈召喚: 天空之役": {
+    "Mad Ducks：瘋鴨公路防禦戰": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "魚吃魚：成長与進化！-Fish Eat Fish.io": {
+    "MANIFESTO Capitalism Roguelike": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Enchanted Inn: Merge & Mystery": {
+    "Merge Inn - 咖啡廳合併遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "萌爪配對碰": {
+    "MY HERO ULTRA RUMBLE Mobile": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Oh, Snack!": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -675,7 +675,22 @@
     "魔靈召喚天空之役": "2026-11-09T01:14:34+00:00",
     "魚吃魚成長与進化fisheatfishio": "2026-11-09T01:14:34+00:00",
     "enchantedinnmergemystery": "2026-11-09T01:14:34+00:00",
-    "萌爪配對碰": "2026-11-09T01:14:34+00:00"
+    "萌爪配對碰": "2026-11-09T01:14:34+00:00",
+    "777realスマスロリコリスリコイル": "2026-11-10T19:00:34+00:00",
+    "bullpen": "2026-11-10T19:00:34+00:00",
+    "busfeverparty": "2026-11-10T19:00:34+00:00",
+    "cookiejamtm趣味三消遊戲益智冒險": "2026-11-10T19:00:34+00:00",
+    "darkmergefarm": "2026-11-10T19:00:34+00:00",
+    "digimonalysion": "2026-11-10T19:00:34+00:00",
+    "falconsquad太空射擊": "2026-11-10T19:00:34+00:00",
+    "fishklondikesolitaire": "2026-11-10T19:00:34+00:00",
+    "gunboatgod": "2026-11-10T19:00:34+00:00",
+    "loststorieshiddenobject": "2026-11-10T19:00:34+00:00",
+    "madducks瘋鴨公路防禦戰": "2026-11-10T19:00:34+00:00",
+    "manifestocapitalismroguelike": "2026-11-10T19:00:34+00:00",
+    "mergeinn咖啡廳合併遊戲": "2026-11-10T19:00:34+00:00",
+    "myheroultrarumblemobile": "2026-11-10T19:00:34+00:00",
+    "ohsnack": "2026-11-10T19:00:34+00:00"
   },
   "errors": []
 }

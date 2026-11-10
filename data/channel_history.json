@@ -1,30 +1,709 @@
 {
-  "updated_at": "2026-11-09T01:14:05+00:00",
-  "status": "partial",
-  "fetched": 30,
-  "errors": [
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOCtiyIH-Dt00Ntv-WqPgfw",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNH35X4JoxqnZHRyWGI04Vg",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4c-wTOqEID-_vH4MhNs06w",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC-e2q_YhFnfsEggbJsTLPHg",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_XZ4O10pZq9RCigggGSB1A",
-      "error": "HTTP Error 404: Not Found"
-    }
-  ],
+  "updated_at": "2026-11-10T18:59:56+00:00",
+  "status": "ok",
+  "fetched": 105,
+  "errors": [],
   "items": [
+    {
+      "id": "436362e8edfed351f2c69402",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "【開箱】一窺《魔獸世界：永恆》典藏版收錄內容 初代獵人與熊雕像帶領玩家回歸起點",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314799",
+      "publisher": "",
+      "published_at": "2026-11-10T20:00:01+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "ab4dd37411d006fdc0dd4dfd",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "Nintendo Switch 2|1 釋出 23.5.0 系統更新 加入 Nintendo eShop「禮物」功能",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314798",
+      "publisher": "",
+      "published_at": "2026-11-10T19:53:18+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "7a7761655f0df3e8b985a33f",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "趕著外星羊群穿越危險邊疆！多人搞笑新作《星際牧羊人》今日首次公開",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314797",
+      "publisher": "",
+      "published_at": "2026-11-10T19:21:31+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "a2396e8ccfa4fe9c4fff3930",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《勇者鬥惡龍 RPG 魔界樹與受命運指引之島》公開最新宣傳影片 封閉測試參加者即日起開放招募",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314796",
+      "publisher": "",
+      "published_at": "2026-11-10T19:17:21+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "34474ee3051ab6d9bfc91042",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "智冠科技 115 年 10 月財報透露《完美世界 2 Online》將開放新賽季",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314795",
+      "publisher": "",
+      "published_at": "2026-11-10T19:13:44+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "f6d67ad86001cb9c77d435fa",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《異於天堂》公開「豪華版」詳情 「WILDSIDE 聯名連身褲」也將在遊戲裡登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314794",
+      "publisher": "",
+      "published_at": "2026-11-10T19:12:50+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "2d6cb2c0851832177c62e992",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "你能溫柔以待嗎？視覺小說遊戲《予我致死溫柔》試玩版開放兩場心理實驗",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314793",
+      "publisher": "",
+      "published_at": "2026-11-10T19:10:07+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "13bd1e4858f14a92858329b6",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "KRAFTON 公布 2026 年第三季財報 透露《絕地求生：DED.NET》展現潛力、目標 2027 年上市",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314792",
+      "publisher": "",
+      "published_at": "2026-11-10T18:59:25+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "98d032d8671f5afa615bae9b",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《我的世界：地下城 2》Switch / PS5 實體版 12 月 3 日發售",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314791",
+      "publisher": "",
+      "published_at": "2026-11-10T18:56:32+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "12585bc6e0edd16832ae6541",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "多人派對種田遊戲《種下趣》PC 版今日上市 考驗自己的園藝競技實力！",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314789",
+      "publisher": "",
+      "published_at": "2026-11-10T18:49:08+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "269622bf1424c68c291c83c1",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《AION 2》公開一週年更新計畫 新遠征副本、新超越副本、新生活型內容「小屋」將陸續登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314788",
+      "publisher": "",
+      "published_at": "2026-11-10T18:40:24+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "ae77c360fbb33636c0f87f0e",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《SD鋼彈 G世代 永恆》｜世代之塔「SOUTH TOWER 開打｜ULT 開發中",
+      "url": "https://www.youtube.com/watch?v=vwpsNHn9NJM",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-10T18:14:55+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "c0f95f7c5bd3a051247cf12e",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "「《孤獨搖滾！》動畫展」11/13 香港啟德 SOGO 開幕",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314787",
+      "publisher": "",
+      "published_at": "2026-11-10T18:04:38+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "5cb434801e8ecbd6113219ba",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《勝利女神：妮姬》四週年特展華山落幕 帶領指揮官重溫四年感動回憶",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314786",
+      "publisher": "",
+      "published_at": "2026-11-10T17:58:42+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "bc8f26ac2ff5a9b441bef4a3",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "貴志祐介《惡之教典》出道 30 周年紀念新版 11/11 在台上市",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314785",
+      "publisher": "",
+      "published_at": "2026-11-10T17:53:38+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "b6fc69b7fc1f2c63ea432cfb",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《靈異教師神眉》鵺野鳴介中文配音員陳進益專訪 暢談再度為「神眉」配音感想",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314784",
+      "publisher": "",
+      "published_at": "2026-11-10T17:36:23+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "4b85fdd7011c11f913b81c1a",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《王國 W：血盟之誓》宣布 11/17 正式公測 野外 PK、公會玩法搶先看",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314782",
+      "publisher": "",
+      "published_at": "2026-11-10T17:27:06+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "607830c85b2df8cd28f9b46b",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《逆水寒》二週年改版 11/27 上線 雙形態「滄瀾」破浪登場 周興哲化身品牌大使親創週年紀念曲",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314780",
+      "publisher": "",
+      "published_at": "2026-11-10T17:18:40+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "aec7a834b2ae281dee06c594",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "Take-Two 執行長透露《俠盜獵車手 6》預購量大幅超出原先預期 對遊戲上市充滿信心",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314776",
+      "publisher": "",
+      "published_at": "2026-11-10T17:01:49+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "71be67e19f0b1468b4b2f81f",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "第三人稱動作恐怖遊戲《夢魘執行官》釋出前導預告影片 新主視覺圖由插畫家染平 Katsu 繪製",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314775",
+      "publisher": "",
+      "published_at": "2026-11-10T17:00:01+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "82194939e99556110180fe94",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《三角洲行動》X《影之刃 零》合作帶來首款雙手近戰武器 「微光」賽季正式上線",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314774",
+      "publisher": "",
+      "published_at": "2026-11-10T16:46:50+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "059d99540ffdf24770378bba",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "【試閱】《汝應敬愛昏君》登上異世界王座，尋回活著的意義！",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314773",
+      "publisher": "",
+      "published_at": "2026-11-10T16:44:07+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "f86adac36007f90f56423b5e",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《蔚藍檔案》將推出真琴、皐月（泳裝）及活動劇情「出航！萬魔船～真琴議長的華麗避暑～」等內容",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314772",
+      "publisher": "",
+      "published_at": "2026-11-10T16:26:31+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "10c7b250da4361e5b1d715a1",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "黑暗風格釣魚遊戲《淵舟蝕影》正式展開搶先體驗 面對在海上與陸地出沒的變異生物",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314771",
+      "publisher": "",
+      "published_at": "2026-11-10T16:16:19+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "0a2e6dd1853b52cca25ca9bd",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "「萬代組裝模型特展 HOBBY EXHIBITION」11/14 起於台中登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314770",
+      "publisher": "",
+      "published_at": "2026-11-10T16:03:43+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "663773279e188c8d199ee3b9",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《卡莉亞的鍊金工房》下載版開放預購 公開阻擋前行之路的兩位鍊金術士",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314769",
+      "publisher": "",
+      "published_at": "2026-11-10T15:58:12+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "a0988abc79404478e3f009b0",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《神隱少女》25 周年重返大銀幕全新預告公開 11/27 在台上映",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314765",
+      "publisher": "",
+      "published_at": "2026-11-10T15:30:26+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "813a00c1e87468af0369b79a",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "開放世界動作 RPG《鳴潮》公開「共鳴者 莉莉 PV | 忘記恐懼」",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314760",
+      "publisher": "",
+      "published_at": "2026-11-10T14:59:30+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "7015a1250f73f56a06aa9a01",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《憤怒鳥玩電影 3：全家總動員》動畫電影發布預告宣傳影片 1/1 在台上映",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314759",
+      "publisher": "",
+      "published_at": "2026-11-10T14:57:24+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "833edbb06f8ae61246d98a5a",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "RPG 新作《戰鎚 40K：黑暗異端》明年 1 月底發售 在暗中對異端發起祕密戰爭",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314756",
+      "publisher": "",
+      "published_at": "2026-11-10T14:50:06+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "c5a52dcb635792a6eff34a14",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《俠盜獵車手 6》將於 11/21 在邁阿密舉辦上市慶祝音樂節 豪華明星陣容登台演出",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314753",
+      "publisher": "",
+      "published_at": "2026-11-10T14:32:29+08:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "72e9333b25802fede71b0c3a",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《RO仙境傳說：口袋戰記》深度體驗一週的真實心得！公會守衛戰撐到剩0.79%、PK秒殺、無課也沒什麼壓力 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=UEGvBfrAExU",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-10T13:00:10+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "959588aa036769110bb34af2",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《SD鋼彈 G世代 永恆》｜世代之塔「SOUTH TOWER 開打｜ULT 開發中",
+      "url": "https://www.youtube.com/watch?v=5KjFtVkFDXM",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-10T12:24:44+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "33a7d1ec22587431cd44633b",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》太刀防具看什麼？只看這4個技能，1級一起開傷害多15% #CD喜德",
+      "url": "https://www.youtube.com/shorts/sZhmuCQWZ7g",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-10T12:00:24+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "c2c1db520aeae65946f25292",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "開箱！《魔獸世界：永恆》典藏版  初代獵人與熊雕像超值得收藏！#wow #wowclassic",
+      "url": "https://www.youtube.com/shorts/yhrxE3A66x8",
+      "publisher": "巴哈姆特電玩瘋",
+      "published_at": "2026-11-10T12:00:23+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "90ed93dad97fb3b526055d22",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》爬上山頂才發現有兩條火龍，只好一打二硬A #CD喜德",
+      "url": "https://www.youtube.com/shorts/qDRXIH-shWY",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-10T10:00:39+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "1c0fe431598f9dc4aec1dc55",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》玩了10天的真心話！優點5個、缺點5個，從9分扣到8.5 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=J1fiKVuSXxs",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-10T10:00:32+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "52cb1c3db848be3cee8dbf20",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《SD鋼彈 G世代 永恆》【國際版 #593】【世代之塔 SOUTH TOWER】世代之塔 第15層 【15F】【四機通關】試作機打法",
+      "url": "https://www.youtube.com/watch?v=UQvdergWicg",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-10T07:35:58+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "5e913647dd05ec544b7e162b",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》今晚狂刷繪影！大世界開開開，開荒第13天繼續狩獵｜CD喜德直播 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=5vJ1rNYypmg",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-10T06:49:13+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "09d4103f1e3de10f2a42c7c0",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《絕對魔權》結合橫向動作格鬥與 Roguelite 元素的奇幻冒險遊戲",
+      "url": "https://www.youtube.com/watch?v=ApsnPbM3rLU",
+      "publisher": "怪玩客",
+      "published_at": "2026-11-10T06:00:18+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "67b76cfc53f99765980bc03d",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《SD鋼彈 G世代 永恆》【國際版 #592】【世代之塔 SOUTH TOWER】世代之塔 第14層 【14F】【四機通關】試作機打法",
+      "url": "https://www.youtube.com/watch?v=ykfRJ4OYZhE",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-10T05:38:03+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "61515b801594a5e36e8f1f47",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《SD鋼彈 G世代 永恆》【國際版 #591】【世代之塔 SOUTH TOWER】世代之塔 第12層 【12F】【三機通關】新版本",
+      "url": "https://www.youtube.com/watch?v=8bjIqTSkLG0",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-10T05:26:40+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "a633cf5bc973ca2436fddde5",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《瑪奇 Mobile》韓服等級上限已經到100？台服還在S0 #CD喜德",
+      "url": "https://www.youtube.com/shorts/fmGPogvN7A0",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-10T05:00:32+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "722e992591786bc2784a6b38",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《聖鬥士星矢EX》# 735 聽說~國際服要出 UR黑帝斯(前排戰士)？| 陸服神沙加 第一天抽卡現況 | 抽！最接近神的男人 神聖處女座·沙加 | 瀏覽~14日黃金魂活動 | 通關本周 混沌試煉",
+      "url": "https://www.youtube.com/watch?v=wYEL8vdWmD0",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-10T04:07:56+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "dd415bd988b31f02df0bf307",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》冒險等級45之後必做5件事！超凡繪影從這裡開始掉 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=rLJb9njdHkU",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-10T04:00:29+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "a770139ab40d3ed7b478b661",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "勇者們回家啦！巴哈姆特 30 週年站聚精彩回顧",
+      "url": "https://www.youtube.com/watch?v=iLfFp5tNTF8",
+      "publisher": "巴哈姆特電玩瘋",
+      "published_at": "2026-11-10T04:00:04+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "969612fb6a6915772db46912",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《放置騎士團 The Origin》11月10日 正式上線 打造英雄騎士團 開啟全新冒險 RPG | 收集不同職業的強力英雄 自由搭配技能與陣容 透過技能繼承 培養角色 召集英雄夥伴 征服未知冒險世界",
+      "url": "https://www.youtube.com/watch?v=fFZ7ihg5VDo",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-10T02:40:32+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "dfd60239bb45ea7081645c6f",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《超級月亮射手》韓系二次元 Q萌美少女 可愛幽靈大軍集結 開啟充滿魔法與奇幻色彩的冒險旅程 | 肉鴿闖關 組隊彈幕射擊 ARPG 可愛畫風與刺激挑戰兼具 打造專屬幽靈軍團 征服奇幻世界",
+      "url": "https://www.youtube.com/watch?v=_GhEH1iZZVY",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-10T01:36:01+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "60782834a96e0d1583b91b2c",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《誰是競標王》11月4日更新 刺激拍賣正式開戰 | 化身精明收藏家 深入神秘倉庫尋找稀世珍寶 運用獨特角色技能、掌握物品線索 觀察對手心理 制定完美競標策略 一步步從拍賣新手晉升頂級拍賣大亨！",
+      "url": "https://www.youtube.com/watch?v=yUch_YD9hpg",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-10T01:13:31+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "721a8b17d5edc5d92938258e",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《滅殺之路：鬼炭》鬼滅之刃 風格動漫題材 直立式放置掛機 RPG | 化身斬鬼劍士踏上滅鬼之路 招募鬼滅經典角色 炭治郎、禰豆子、我妻善逸、嘴平伊之助 掌握強大呼吸法 覺醒神秘異能 突破自身極限",
+      "url": "https://www.youtube.com/watch?v=YQoErz2_y28",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-10T00:59:32+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "218e79d9aa70f443bd302e94",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《刷寶地下城RPG - Depth Walker》11月3日更新 第一人稱戰鬥視野 黑暗地城冒險正式展開 | 點燃火把深入未知深淵 自動戰鬥橫掃哥布林、骷髏與各種恐怖怪物 探索隨機地城、挑戰深淵魔王",
+      "url": "https://www.youtube.com/watch?v=KnTmvFn8Gl8",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-10T00:45:06+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "4c0443a5fe1dd7e45682a58a",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《SD鋼彈 G世代 永恆》｜世代之塔「SOUTH TOWER 開打｜ULT 開發中",
+      "url": "https://www.youtube.com/watch?v=hzYIMaFvfAk",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-09T19:22:27+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "d9c95d9b8de43c94a6af1a74",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》明天要結婚，今晚還在被光稜龍炸飛｜直播精華 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=mXTO8XEu0DA",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-09T13:00:25+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "4500318f5c49a2d605a6bbdc",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《King’s Raid 王之逆襲》 手遊日誌 #435【King’s Raid 王之逆襲 更名 KING'S RAID RE:VERSE】新官方YT頻道",
+      "url": "https://www.youtube.com/watch?v=4h-ufLUq2q0",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-09T12:19:33+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "1cf5b0031ca132b32cb72756",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》組隊組到快吐，還連喊3次「我真的會了」 #CD喜德",
+      "url": "https://www.youtube.com/shorts/APLAUa7N--A",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-09T12:00:04+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "2db1752ea205dcdf3d62b237",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》觀眾說兩隻火龍不敢上，我直接當蜘蛛人爬上去 #CD喜德",
+      "url": "https://www.youtube.com/shorts/Hzi39OwYQEw",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-09T10:00:05+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "a6f4238f857ef3ab54151735",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》主宰挑戰一定要做的10件事！主宰武器只能做2把，挑戰令別白白浪費 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=7dzAj0iNCqI",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-09T10:00:04+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "05e5b10afdbb392a015b9a04",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "林克好害怕 森之神殿莫力布林竟然穿這個 不需要這麼注重細節 #薩爾達傳說時之笛重製版",
+      "url": "https://www.youtube.com/shorts/lRm7UD2dQW4",
+      "publisher": "巴哈姆特電玩瘋",
+      "published_at": "2026-11-09T10:00:01+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "ddbf97c9759064853f11c1e9",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《SD鋼彈 G世代 永恆》【國際版 #590】【世代之塔 SOUTH TOWER】世代之塔 第15層 【15F】【五機通關】新人類專用機打法",
+      "url": "https://www.youtube.com/watch?v=MAzb7VB8IMY",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-09T06:38:23+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "eece4c3dd9fdf03e63c650cf",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《Ragnarok Online PLUS+》經典 MMORPG仙境傳說 Online的全新作品",
+      "url": "https://www.youtube.com/watch?v=_hmGh58lG7Q",
+      "publisher": "怪玩客",
+      "published_at": "2026-11-09T06:00:38+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "93ee96f5fd2a682290236fd7",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《瑪奇 Mobile》韓服已經可以買房子了！個人小屋還能邀朋友來 #CD喜德",
+      "url": "https://www.youtube.com/shorts/WuCKPFa02Jg",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-09T05:00:33+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "1770d07df922752bf0aa2861",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《聖鬥士星矢EX》# 734 週一福利序號支援 | 下一輪黃金魂？水瓶、天秤、巨蟹 | 神聖處女座·沙加 登場 | 時空亂鬥 賽事活躍 開~時空成就箱X8 | 銀河爭霸 角色不足 練度不夠 怎麼解決？",
+      "url": "https://www.youtube.com/watch?v=h9TErCPW8_s",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-09T04:41:02+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "a4c96c27f7ed71a26a196031",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《SD鋼彈 G世代 永恆》【國際版 #590】【世代之塔 SOUTH TOWER】世代之塔 第14層 【14F】【五機通關】王牌機打法",
+      "url": "https://www.youtube.com/watch?v=_8KQJorDZn4",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-09T03:11:20+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "551ae41ffe6eb43163e7eb83",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《SD鋼彈 G世代 永恆》【國際版 #590】【世代之塔 SOUTH TOWER】世代之塔 第12層 【12F】【三機通關】",
+      "url": "https://www.youtube.com/watch?v=MVP0WegKTGg",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-09T02:42:38+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "ac24a6ed38c6c5deb785511a",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《KAESHI：劍姬靜香 劍擊放置RPG》返し 11月5日更新 日系和風妖怪題材 武士少女 掛機刷裝 RPG 手遊 | 禮包碼、兌換碼、虛寶碼 | 化身劍姬 掌握完美彈反時機 一刀處決強敵與巨大妖怪",
+      "url": "https://www.youtube.com/watch?v=6OPbmjL7abc",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-09T02:41:11+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "cab59338603fff98854eb03e",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《龍魂大陸》11月6日 正式上線 山海經上古大荒 國風部族爭霸 SLG 手遊 | 玩轉上古大荒 海量龍鳳異獸一鍵收集 超低價囤積養成資源 輕鬆築城養兵、攻城掠地 逐鹿九州、爭奪大荒至尊王座",
+      "url": "https://www.youtube.com/watch?v=6CIXvjPPrG8",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-09T01:17:04+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "4457bd27ecddb5a0c29dd733",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《星空神曲》11月6日 正式上線 指尖點化 文字裡的修仙江湖 主打 文字修仙+角色扮演 沉浸式手遊 | 化身修仙者 在浩瀚星河中探索仙途 體驗丹爐煉丹、法寶煉器、靈寵契約、仙盟社交等豐富玩法",
+      "url": "https://www.youtube.com/watch?v=PCMe2n0yD88",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-09T01:00:47+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "2a4528fd532251524880cbf9",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》免費SR光赫目前超OP！可前台可後台，技能、銘刻、配裝、隊伍一次看 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=_v1on1rQVck",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-09T01:00:31+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "66ed2340f389bb0bc2b02cf1",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《Kill Shot: Bang Bang》致命一擊：砰砰 進入刺激爆棚的 3D射擊競技場 | 操控特色英雄 靈活移動、閃避敵人攻擊 享受自動射擊的爽快戰鬥 搭配 Roguelike 隨機強化",
+      "url": "https://www.youtube.com/watch?v=-BD5HNNmlIA",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-09T00:47:34+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "7252a144b90d88d5fce07126",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《FINAL FORTUNE: Roguelike RPG》最終命運 11月5日更新 歐美奇幻像素風格 挑戰充滿未知的隨機地城 | 體驗獨特回合制戰鬥與永久死亡機制 每一次決策都可能左右隊伍命運",
+      "url": "https://www.youtube.com/watch?v=r2-TdMMd4xA",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-09T00:33:04+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
     {
       "id": "1a3c7572ea98ba7016797da0",
       "category": "巴哈姆特情報",

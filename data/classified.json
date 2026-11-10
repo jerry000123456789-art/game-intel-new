@@ -1,7 +1,19 @@
 {
-  "updated_at": "2026-11-10T18:59:54+00:00",
+  "updated_at": "2026-11-10T21:48:03+00:00",
   "note": "僅依標題比對遊戲與日期字樣；日期不代表活動起迄、上市日期；未擷取或驗證兌換碼。",
   "items": [
+    {
+      "id": "6b277942c690ff3d34b8",
+      "category": "兌換碼",
+      "game_matches": [],
+      "title": "Angry Birds Tower Defense 兌換碼（2026年11月） - games.gg",
+      "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU29lSW5TUHhMcDNkZDlhREk4V19tTzF2NlZ4TUtEN19JY3NBNVFzSVlZYndNbFJqTThMRlc5VFNZanZ6ejRETTdPQVdMa1pIYjFGdEpSMjJCM3FqX3QzdnlGYWstWklUVGxrUWVfUmVFQzNEeHhoTEdDcFJJYVNjLTZoZGc5blVDa3N3WFFuZkpaVERvcVBrclVWcjVhSU56M3VmUl83d3Z4NDhxYVo2NWZKVTJhNGFH?oc=5",
+      "publisher": "games.gg",
+      "published_at": "2026-11-10T21:09:53+00:00",
+      "first_seen_at": "2026-11-10T21:48:03+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
     {
       "id": "dd8de04097b4b6b4356e",
       "category": "新遊戲資訊",
@@ -123,6 +135,18 @@
       "publisher": "4Gamers",
       "published_at": "2026-11-06T04:41:35+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "543d59b98ba160a6f110",
+      "category": "兌換碼",
+      "game_matches": [],
+      "title": "Undertale Adventures X 2026年11月兌換碼整理 - games.gg",
+      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNd1ZyUTFqcVptMFR6bHRxMTM1ZmR5U20xZUhkZXM3TGNuSXpWWE9kb0lVeklvQ2ZmamtWNFF0RVpmWmk1WmhUUVN4Sm1PRHpOUk42bDZRUk9QNWEzNkpoQkt2LUNzU3R5aG1tUUZVeXR3U3J4dGtDNDVLMWFCN04xTGl2QlhKRFJzeWNaajYxa1FyU29rbWdqV0lIbzBDTloxRHlBRm5jZ2RKY2VRbVl6LU5xbG9kNDgzcnBSaHBDaGlsamMtWkswbXRCbVo?oc=5",
+      "publisher": "games.gg",
+      "published_at": "2026-11-05T21:45:23+00:00",
+      "first_seen_at": "2026-11-10T21:48:03+00:00",
       "date_mentions": [],
       "review_required": true
     },

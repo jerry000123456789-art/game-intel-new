@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-10T19:00:34+00:00",
+  "checked_at": "2026-11-10T21:50:49+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
@@ -9,82 +9,82 @@
     "events": 0
   },
   "total_leads": {
-    "codes": 45,
+    "codes": 47,
     "guides": 56,
     "events": 72
   },
   "per_game": {
-    "[777Real]スマスロ リコリス・リコイル": {
+    "Petal Paws": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Bullpen": {
+    "Pixel Miner：悠閒挖礦遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Bus Fever Party!": {
+    "Shop Heroes: Idle Slots": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Cookie Jam™ - 趣味三消遊戲、益智冒險": {
+    "SoEasy Mahjong 2: 合十消除": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Dark Merge Farm": {
+    "Space 3K: Galaxy Defense": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "DIGIMON ALYSION": {
+    "Storypick": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Falcon Squad: 太空射擊": {
+    "Supremacy: Warhammer 40,000": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Fish Klondike - Solitaire": {
+    "The Magus Circle": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Gunboat God": {
+    "The Walking Dead: Aftermath": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Lost Stories: Hidden Object": {
+    "UnGodly": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Mad Ducks：瘋鴨公路防禦戰": {
+    "Woodber - Classic Number Game": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "MANIFESTO Capitalism Roguelike": {
+    "喀擦對上：物品燒腦解謎": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Merge Inn - 咖啡廳合併遊戲": {
+    "崩壊：スターレイル": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "MY HERO ULTRA RUMBLE Mobile": {
+    "巨獸重返": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Oh, Snack!": {
+    "我的家居設計 - 現代城市": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -690,7 +690,22 @@
     "manifestocapitalismroguelike": "2026-11-10T19:00:34+00:00",
     "mergeinn咖啡廳合併遊戲": "2026-11-10T19:00:34+00:00",
     "myheroultrarumblemobile": "2026-11-10T19:00:34+00:00",
-    "ohsnack": "2026-11-10T19:00:34+00:00"
+    "ohsnack": "2026-11-10T19:00:34+00:00",
+    "petalpaws": "2026-11-10T21:50:49+00:00",
+    "pixelminer悠閒挖礦遊戲": "2026-11-10T21:50:49+00:00",
+    "shopheroesidleslots": "2026-11-10T21:50:49+00:00",
+    "soeasymahjong2合十消除": "2026-11-10T21:50:49+00:00",
+    "space3kgalaxydefense": "2026-11-10T21:50:49+00:00",
+    "storypick": "2026-11-10T21:50:49+00:00",
+    "supremacywarhammer40000": "2026-11-10T21:50:49+00:00",
+    "themaguscircle": "2026-11-10T21:50:49+00:00",
+    "thewalkingdeadaftermath": "2026-11-10T21:50:49+00:00",
+    "ungodly": "2026-11-10T21:50:49+00:00",
+    "woodberclassicnumbergame": "2026-11-10T21:50:49+00:00",
+    "喀擦對上物品燒腦解謎": "2026-11-10T21:50:49+00:00",
+    "崩壊スターレイル": "2026-11-10T21:50:49+00:00",
+    "巨獸重返": "2026-11-10T21:50:49+00:00",
+    "我的家居設計現代城市": "2026-11-10T21:50:49+00:00"
   },
   "errors": []
 }

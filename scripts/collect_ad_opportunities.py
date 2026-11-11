@@ -27,7 +27,7 @@ RANGE_MARKER=re.compile(r"活動時間|活动时间|活動期間|活动期间|�
 MONEY=re.compile(r"累儲|累储|累充|儲值|充值|返利|首充|特惠礼包|特惠禮包|限時禮包|限时礼包|通行证|战令|戰令",re.I)
 LIMITED=re.compile(r"限時|限时|福利|獎勵|奖励|禮包|礼包|聯動|联动|新服|开服|開服|签到|簽到|兑换码|兌換碼|活動|活动",re.I)
 GOOGLE_EVENT_TITLE=re.compile(r"累儲|累储|累充|儲值|充值|返利|首儲|首充|特惠|限時|限时|禮包|礼包|聯動|联动|週年|周年|慶典|庆典|賽季|赛季|開服活動|开服活动|開服福利|开服福利|活動|活动|簽到|签到|回饋|回馈|抽獎|抽奖",re.I)
-GOOGLE_NOISE=re.compile(r"無法登入|无法登录|登入異常|登录异常|開服壅塞|开服拥塞|伺服器異常|服务器异常|下載教學|下载教学|首抽攻略|開局攻略|开局攻略|序號拿|最強首抽|最强首抽|詐騙|诈骗",re.I)
+GOOGLE_NOISE=re.compile(r"無法登入|无法登录|登入異常|登录异常|開服壅塞|开服拥塞|伺服器異常|服务器异常|下載教學|下载教学|首抽攻略|開局攻略|开局攻略|序號拿|最強首抽|最强首抽|詐騙|诈骗|明年迎接|籌備中|筹备中|新作預告|新作预告|遊戲新作|游戏新作",re.I)
 
 class TextLines(HTMLParser):
     def __init__(self):
@@ -315,6 +315,9 @@ def collect(config=None,previous=None,getter=fetch):
         url=lead.get("source_url","")
         game=lead.get("game","")
         if not url or (game and exclude(game,config)):continue
+        if lead.get("source_type")=="Google 新聞搜尋" and (
+          not GOOGLE_EVENT_TITLE.search(lead.get("title",""))
+          or GOOGLE_NOISE.search(lead.get("title",""))):continue
         published=lead.get("published_at","")
         if published:
             try:

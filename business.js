@@ -12,7 +12,7 @@ const dateTW=value=>value?new Date(value).toLocaleDateString('zh-TW',{timeZone:'
 const nowDay=()=>new Date().toLocaleDateString('sv-SE',{timeZone:'Asia/Taipei'});
 const dayDelta=value=>value?(Date.parse(toDate(value)+'T00:00:00Z')-Date.parse(nowDay()+'T00:00:00Z'))/86400000:null;
 const gameKey=name=>String(name||'').normalize('NFKC').toLowerCase().replace(/潛水小漁夫|潜水小渔夫/gi,'').replace(/[\s\u3000:：·\-—「」『』()（）!！,，.。]/g,'');
-const data={games:[],matrix:[],curated:[],codes:[],content:[],events:[],eventTips:[],adOpps:[],announcements:[],cloudGames:[],legacyGames:[],watchAvailable:false,updated:'',channels:[],status:{}};
+const data={games:[],matrix:[],curated:[],codes:[],content:[],events:[],eventTips:[],adOpps:[],adLeads:[],announcements:[],cloudGames:[],legacyGames:[],watchAvailable:false,updated:'',channels:[],status:{}};
 const ui={page:'home',window:'recent',month:new Date(),gameRows:[],gamePage:0,codeRows:[],contentRows:[],brand:'',pending:[]};
 ui.month.setDate(1);
 try{ui.brand=localStorage.getItem('game-intel-brand')||'';ui.pending=JSON.parse(localStorage.getItem('game-intel-pending')||'[]')}catch{}
@@ -373,7 +373,10 @@ function renderAdOpportunities(){
     return true;
   }).sort((a,b)=>(Number(b.score)||0)-(Number(a.score)||0)||String(a.end_date).localeCompare(b.end_date));
   $('ad-count').textContent=rows.length+' 筆有效候選 · 已排除米哈遊旗下遊戲 · 分數為商機線索強度，不代表可以直接投放廣告';
-  $('ad-updated').textContent=(data.adUpdated?'情報更新：'+dateTW(data.adUpdated):'情報來源更新時間尚未取得')+(data.adStatus&&data.adStatus.taptap_article_links_found===0?' · 本次沒有取得新增 TapTap 文章':'');
+  const gs=data.adStatus||{};
+  $('ad-updated').textContent=(data.adUpdated?'情報更新：'+dateTW(data.adUpdated):'情報來源更新時間尚未取得')
+    +' · Google 查詢成功 '+(gs.google_queries_succeeded||0)+'/'+(gs.google_queries_attempted||0)
+    +' · Google 搜尋線索 '+(gs.google_leads_in_history||0)+' 筆';
   $('ad-list').innerHTML=rows.length?rows.slice(0,35).map(x=>{
     const mainland=String(x.market||'').toUpperCase()==='CN';
     const status=mainland?'地區待核實（中國站）':(x.status||'地區待核實');
@@ -388,6 +391,17 @@ function renderAdOpportunities(){
       (x.source_url?href(x.source_url,'查看原始情報'):'<span class="gx-muted">原始來源尚未核實</span>')+
       '<span>未確認台灣可參加／可代儲前，請勿直接投放</span></div></article>';
   }).join(''):empty(filter==='local'?'尚無已核實能在台灣／全球參與且符合條件的商機，不以中國站活動冒充台服活動。':'目前沒有符合條件的有效活動商機線索。');
+  const googleLeads=(data.adLeads||[]).filter(x=>x.source_type==='Google 新聞搜尋'
+    &&x.game&&!isExcludedAdGame(x.game)).sort((a,b)=>ts(b.published_at)-ts(a.published_at));
+  $('google-lead-count').textContent=googleLeads.length+' 筆公告線索 · 尚未核實活動起訖與地區適用性，僅供進一步查證';
+  $('google-lead-list').innerHTML=googleLeads.length?googleLeads.slice(0,30).map(x=>
+    '<article class="gx-feed-item"><div class="gx-grow"><h3>'+esc(x.game)+' · '+esc(x.title)+'</h3>'+
+    '<div class="gx-meta">'+esc(x.publisher||'Google 新聞索引')+' · 刊登：'+esc(dateTW(x.published_at))+' · 活動日期未核實</div>'+
+    '<div class="gx-row">'+href(x.source_url,'查看搜尋到的新聞')+' '+href(x.google_search_url,'Google 搜尋遊戲與活動原文')+'</div>'+
+    '</div></article>').join(''):empty(gs.google_queries_succeeded
+      ?'本次 Google 新聞搜尋已執行，但沒有符合遊戲名稱與活動關鍵字的公告線索。'
+      :'目前尚無 Google 搜尋結果，或來源暫時無法讀取。');
+
 }
 function calendarItems(){
   // Show every dated activity by default. Personal watchlists affect monitoring
@@ -587,6 +601,7 @@ async function main(){
   data.events=maps.events.items||[];
   data.eventTips=maps.event_tips.items||[];
   data.adOpps=maps.ad_opportunities.items||[];
+  data.adLeads=maps.ad_opportunities.leads||[];
   data.adUpdated=maps.ad_opportunities.updated_at||'';
   data.adStatus=maps.ad_opportunity_status||{};
   data.announcements=maps.tracked_events.items||[];

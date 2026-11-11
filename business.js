@@ -12,7 +12,7 @@ const dateTW=value=>value?new Date(value).toLocaleDateString('zh-TW',{timeZone:'
 const nowDay=()=>new Date().toLocaleDateString('sv-SE',{timeZone:'Asia/Taipei'});
 const dayDelta=value=>value?(Date.parse(toDate(value)+'T00:00:00Z')-Date.parse(nowDay()+'T00:00:00Z'))/86400000:null;
 const gameKey=name=>String(name||'').normalize('NFKC').toLowerCase().replace(/潛水小漁夫|潜水小渔夫/gi,'').replace(/[\s\u3000:：·\-—「」『』()（）!！,，.。]/g,'');
-const data={games:[],matrix:[],curated:[],codes:[],content:[],events:[],announcements:[],cloudGames:[],legacyGames:[],watchAvailable:false,updated:'',channels:[],status:{}};
+const data={games:[],matrix:[],curated:[],codes:[],content:[],events:[],eventTips:[],announcements:[],cloudGames:[],legacyGames:[],watchAvailable:false,updated:'',channels:[],status:{}};
 const ui={page:'home',window:'recent',month:new Date(),gameRows:[],gamePage:0,codeRows:[],contentRows:[],brand:'',pending:[]};
 ui.month.setDate(1);
 try{ui.brand=localStorage.getItem('game-intel-brand')||'';ui.pending=JSON.parse(localStorage.getItem('game-intel-pending')||'[]')}catch{}
@@ -356,44 +356,87 @@ function renderWatchList(){
   }));
 }
 function calendarItems(){
-  const watched=new Set(trackedNames().map(x=>gameKey(x.name)));
-  let result=[];
-  for(const x of data.events){
-    if(!watched.has(gameKey(x.game)))continue;
-    if(!x.start_at||!x.end_at)continue;
-    result.push({game:x.game,title:x.title,start:toDate(x.start_at),end:toDate(x.end_at),url:x.source_url});
-  }
-  for(const x of [...data.announcements,...(data.personalEvents||[])]){
-    if(!watched.has(gameKey(x.game))||!x.start_date||!x.end_date)continue;
-    result.push({game:x.game,title:x.title,start:x.start_date,end:x.end_date,url:x.source_url});
-  }
-  return result;
+  // Show every dated activity by default. Personal watchlists affect monitoring
+  // and the optional filter, not whether globally collected events are visible.
+  const merged=new Map();
+  const add=(x)=>{
+    const game=String(x.game||'').trim(),title=String(x.title||'').trim();
+    const start=toDate(x.start_at||x.start_date),end=toDate(x.end_at||x.end_date);
+    if(!game||!title||!/^\d{4}-\d{2}-\d{2}$/.test(start)||!/^\d{4}-\d{2}-\d{2}$/.test(end)||end<start)return;
+    const key=gameKey(game)+'|'+title.toLowerCase()+'|'+start+'|'+end;
+    if(merged.has(key))return;
+    merged.set(key,{game,title,start,end,
+      url:x.source_url||'',category:x.category||'遊戲活動',
+      startNote:x.start_note||String(x.start_at||x.start_date||'').replace('T',' ').slice(0,16),
+      endNote:x.end_note||String(x.end_at||x.end_date||'').replace('T',' ').slice(0,16),
+      detail:x.detail||x.topup_notes||'',
+      sourceType:x.source_type||x.publisher||'公開活動資料',
+      status:x.verification_status||x.date_status||x.extraction_status||'來源日期，詳情請核對原文'});
+  };
+  data.events.forEach(add);
+  data.eventTips.forEach(add);
+  [...data.announcements,...(data.personalEvents||[])].forEach(add);
+  return [...merged.values()].sort((a,b)=>a.start.localeCompare(b.start)||a.game.localeCompare(b.game,'zh-Hant')||a.title.localeCompare(b.title,'zh-Hant'));
 }
 function renderCalendar(){
   renderWatchList();
-  const list=calendarItems(),y=ui.month.getFullYear(),m=ui.month.getMonth();
+  const y=ui.month.getFullYear(),m=ui.month.getMonth(),today=nowDay();
+  const monthStart=y+'-'+String(m+1).padStart(2,'0')+'-01';
+  const days=new Date(y,m+1,0).getDate();
+  const monthEnd=y+'-'+String(m+1).padStart(2,'0')+'-'+String(days).padStart(2,'0');
   $('month-label').textContent=y+' 年 '+(m+1)+' 月';
-  const first=new Date(y,m,1),last=new Date(y,m+1,0).getDate();
-  let cells=['日','一','二','三','四','五','六'].map(x=>'<div class="gx-muted" style="text-align:center">'+x+'</div>');
-  const start=first.getDay();
-  for(let i=0;i<start;i++)cells.push('<div class="gx-day outside"></div>');
-  for(let day=1;day<=last;day++){
-    const date=y+'-'+String(m+1).padStart(2,'0')+'-'+String(day).padStart(2,'0');
-    const relevant=list.filter(x=>x.start<=date&&x.end>=date);
-    cells.push('<div class="gx-day"><span class="day-num">'+day+'</span>'+
-      relevant.slice(0,3).map(x=>'<span class="event-chip" title="'+esc(x.game+'｜'+x.title)+'">'+esc(x.game)+'</span>').join('')
-      +(relevant.length>3?'<span class="gx-muted">+'+(relevant.length-3)+'</span>':'')+'</div>');
-  }
-  $('calendar-view').innerHTML='<div class="gx-calendar-grid">'+cells.join('')+'</div>'+
-    (list.length?'<div class="gx-stack" style="margin-top:17px">'+list.filter(x=>x.start<=y+'-'+String(m+1).padStart(2,'0')+'-'+String(last).padStart(2,'0')
-      &&x.end>=y+'-'+String(m+1).padStart(2,'0')+'-01').map(x=>
-      '<div class="gx-feed-item"><div class="gx-grow"><strong>'+esc(x.game)+' · '+esc(x.title)+'</strong><div class="gx-meta">'+esc(x.start)+' 至 '+esc(x.end)+'</div>'
-      +href(x.url,'查看公告')+'</div></div>').join('')+'</div>':empty('本月沒有已核對日期的追蹤遊戲活動。'));
   const watched=new Set(trackedNames().map(x=>gameKey(x.name)));
-  const news=[...data.announcements,...(data.personalEvents||[])].filter(x=>watched.has(gameKey(x.game))&&!x.start_date).slice(0,35);
+  const trackedOnly=$('calendar-scope').value==='tracked';
+  const term=String($('calendar-search').value||'').trim().toLocaleLowerCase();
+  const inScope=x=>(!trackedOnly||watched.has(gameKey(x.game)))
+    &&(!term||(x.game+' '+x.title+' '+x.category).toLocaleLowerCase().includes(term));
+  const events=calendarItems().filter(inScope).filter(x=>x.start<=monthEnd&&x.end>=monthStart);
+  const ongoing=events.filter(x=>x.start<=today&&x.end>=today).length;
+  const upcoming=events.filter(x=>x.start>today).length;
+  $('calendar-summary').textContent='本月 '+events.length+' 筆活動 · 進行中 '+ongoing+' 筆 · 尚未開始 '+upcoming+' 筆 · 活動與獎勵領取期限分開列出';
+  if(!events.length){
+    $('calendar-view').innerHTML=empty(trackedOnly
+      ?'這個月沒有符合條件的已追蹤遊戲活動；可切換「全部已收錄遊戲」查看其他活動。'
+      :'這個月份沒有符合條件且有明確日期的活動。請切換月份或搜尋其他遊戲。');
+  }else{
+    const games=[...new Set(events.map(x=>gameKey(x.game)))].sort();
+    const colorByGame=new Map(games.map((key,i)=>[key,'hsl('+Math.round((i*137.508)%360)+' 51% 40%)']));
+    const offset=day=>Math.round((Date.parse(day+'T00:00:00Z')-Date.parse(monthStart+'T00:00:00Z'))/86400000);
+    const ticks=Array.from({length:days},(_,i)=>'<span>'+(i===0||i===days-1||(i+1)%5===0?i+1:'')+'</span>').join('');
+    const legend=games.map(key=>{
+      const event=events.find(x=>gameKey(x.game)===key);
+      return '<span><i class="gx-event-dot" style="background:'+colorByGame.get(key)+'"></i>'+esc(event.game)+'</span>';
+    }).join('');
+    const rows=events.map(x=>{
+      const left=Math.max(0,offset(x.start)),right=Math.min(days,offset(x.end)+1);
+      const color=colorByGame.get(gameKey(x.game));
+      const status=x.end<today?'已結束':x.start>today?'即將開始':'進行中';
+      return '<div class="gx-timeline-row"><div class="gx-timeline-info"><strong>'+esc(x.game)+' · '+esc(x.title)+'</strong>'+
+        '<small>'+esc(status)+'｜'+esc(x.category)+'</small></div>'+
+        '<div class="gx-timeline-track" style="--gx-days:'+days+'">'+
+        '<div class="gx-timeline-bar" style="left:'+(100*left/days)+'%;width:'+(100*(right-left)/days)+'%;background:'+color+'" title="'+esc(x.game+' · '+x.title+'｜'+x.start+' 至 '+x.end)+'"></div>'+
+        '</div></div>';
+    }).join('');
+    const details=events.map(x=>{
+      const dates=(x.startNote||x.start)+' ～ '+(x.endNote||x.end);
+      const link=x.url?href(x.url,'查看公告原文'):'<span class="gx-muted">尚無可核對的原始公告連結</span>';
+      return '<article class="gx-event-detail"><div class="gx-event-detail-title"><strong>'+esc(x.game)+' · '+esc(x.title)+'</strong>'+
+        '<span class="gx-pill">'+esc(x.category)+'</span></div>'+
+        '<p>期間：'+esc(dates)+'</p>'+
+        (x.detail?'<p>'+esc(x.detail)+'</p>':'')+
+        '<p>資料狀態：'+esc(x.status)+' · '+esc(x.sourceType)+'</p>'+
+        '<p>'+link+'</p></article>';
+    }).join('');
+    $('calendar-view').innerHTML='<div class="gx-event-legend">'+legend+'</div>'+
+      '<div class="gx-timeline-scroll"><div class="gx-timeline-grid">'+
+      '<div class="gx-timeline-head"><strong>活動名稱／類型</strong><div class="gx-timeline-days" style="--gx-days:'+days+'">'+ticks+'</div></div>'+
+      rows+'</div></div><div class="gx-stack" style="margin-top:20px">'+details+'</div>';
+  }
+  const news=[...data.announcements,...(data.personalEvents||[])]
+    .filter(x=>inScope(x)&&!x.start_date).slice(0,35);
   $('calendar-undated').innerHTML=news.length?news.map(x=>
-    '<div class="gx-feed-item"><div class="gx-feed-icon">📣</div><div><h3>'+esc(x.game+' · '+x.title)+'</h3><div class="gx-meta">'+esc(dateTW(x.published_at))+' · 日期尚未公布</div>'
-      +href(x.source_url,'查看公告')+'</div></div>').join(''):empty('目前沒有待確認的活動預告，或尚未加入追蹤遊戲。');
+    '<div class="gx-feed-item"><div class="gx-feed-icon">📣</div><div><h3>'+esc(x.game+' · '+x.title)+'</h3><div class="gx-meta">'+esc(dateTW(x.published_at))+' · 尚無明確活動期間</div>'
+      +href(x.source_url,'查看公告')+'</div></div>').join(''):empty('目前沒有符合篩選條件且尚未公布日期的活動預告。');
 }
 function teaser(x){
   return '<div class="gx-feed-item"><div class="gx-grow"><h3>'+esc(x.title||x.game||'情報')+'</h3>'
@@ -498,7 +541,7 @@ async function checkNewActivity(){
 }
 async function main(){
   const files=['game_catalog','release_matrix','featured_launches','codes','channel_history','latest','source_leads',
-    'events','tracked_events','tracked_games','coverage_status'];
+    'events','event_tips','tracked_events','tracked_games','coverage_status'];
   const values=await Promise.all(files.map(load));
   const maps=Object.fromEntries(files.map((f,i)=>[f,values[i]]));
   data.games=maps.game_catalog.items||[];
@@ -507,6 +550,7 @@ async function main(){
   data.codes=maps.codes.items||[];
   data.content=[...(maps.channel_history.items||[]),...(maps.latest.items||[]),...(maps.source_leads.items?.guides||[])];
   data.events=maps.events.items||[];
+  data.eventTips=maps.event_tips.items||[];
   data.announcements=maps.tracked_events.items||[];
   data.legacyGames=maps.tracked_games.games||[];
   data.cloudGames=[];
@@ -537,6 +581,7 @@ document.querySelectorAll('[data-gx-window]').forEach(button=>button.addEventLis
   renderGames();
 }));
 ['game-q','game-market','game-store','game-order'].forEach(id=>$(id).addEventListener('input',()=>{ui.gamePage=0;renderGames()}));
+['calendar-scope','calendar-search'].forEach(id=>$(id).addEventListener('input',renderCalendar));
 ['code-q','code-order'].forEach(id=>$(id).addEventListener('input',renderCodes));
 ['content-q','content-kind','content-order'].forEach(id=>$(id).addEventListener('input',renderContent));
 $('watch-form').addEventListener('submit',async event=>{

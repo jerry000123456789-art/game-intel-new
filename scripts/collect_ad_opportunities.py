@@ -96,9 +96,87 @@ def candidate_from_taptap(url,title,raw,verified_at,game_hint=''):
         "verified_at":verified_at,"detail":text,
         "evidence_status":"自動從公開文章擷取，未核實台服與活動資格"}
 
+def google_news_url(query,lookback=14):
+    # Read-only Google News RSS; this is NOT the complete Google Web Search API.
+    return "https://news.google.com/rss/search?" + urllib.parse.urlencode({
+        "q":query+" when:"+str(max(1,min(int(lookback),30)))+"d",
+        "hl":"zh-TW","gl":"TW","ceid":"TW:zh-Hant"
+    })
+
+def google_discover(config,getter=fetch):
+    """Discover relevant announcements across news domains, not just TapTap.
+
+    A Google News item is *only a lead*. Its publication date is never used as
+    an activity date, and Taiwan search locale does not establish TW eligibility.
+    """
+    general=config.get("google_news_queries",[])[:12]
+    games=[x for x in config.get("google_priority_games",[]) if x and not exclude(x,config)][:35]
+    hour=int(NOW.timestamp()//3600)
+    count=int(config.get("google_general_queries_per_run",3))
+    n_games=int(config.get("google_games_per_run",6))
+    queries=[]
+    if general:
+        queries.extend((None,general[(hour+i)%len(general)]) for i in range(min(count,len(general))))
+    if games:
+        queries.extend((game,'"'+game.replace('"',"")+'" (活動 OR 限時 OR 儲值 OR 累儲 OR 禮包 OR 聯動 OR 開服)')
+            for game in (games[(hour*n_games+i)%len(games)] for i in range(min(n_games,len(games)))))
+    leads=[];errors=[];successful=0;items_seen=0
+    days=int(config.get("google_news_lookback_days",14))
+    for game,query in queries:
+        url=google_news_url(query,days)
+        try:
+            root=ET.fromstring(getter(url))
+            successful+=1
+            for item in root.findall("./channel/item")[:40]:
+                items_seen+=1
+                title=(item.findtext("title") or "").strip()
+                link=(item.findtext("link") or "").strip()
+                description=(item.findtext("description") or "").strip()
+                if not title or not LIMITED.search(title+" "+re.sub(r"<[^>]+>"," ",description[:250])):continue
+                if not link.startswith("https://"):continue
+                try:
+                    link_host=urllib.parse.urlparse(link).hostname
+                    if link_host not in ("news.google.com","google.com","www.google.com") and not link_host:continue
+                except ValueError:continue
+                # For a broad query, the named game must appear in the title.
+                # For a targeted query, avoid wrong-game or generic results.
+                mentioned=next((x for x in games if normalized(x) in normalized(title)),None)
+                matched=game if game and normalized(game) in normalized(title) else mentioned
+                if not matched:
+                    quoted=game_from_title(title)
+                    if quoted and not exclude(quoted,config):matched=quoted
+                if not matched or exclude(matched,config):continue
+                try:
+                    published=email.utils.parsedate_to_datetime(item.findtext("pubDate") or "")
+                    if published.tzinfo is None:published=published.replace(tzinfo=dt.timezone.utc)
+                    if published<NOW-dt.timedelta(days=max(1,min(days,30))) or published>NOW+dt.timedelta(days=1):continue
+                except (ValueError,TypeError,OverflowError):continue
+                source=item.find("source")
+                publisher=(source.text or "").strip() if source is not None else ""
+                # Do not label an aggregator URL as official article verification.
+                search_url="https://www.google.com/search?"+urllib.parse.urlencode({
+                    "q":'"'+matched+'" "'+title[:110]+'"'
+                })
+                leads.append({
+                    "game":matched,"title":title[:240],
+                    "source_url":link,"google_search_url":search_url,
+                    "published_at":published.isoformat(),
+                    "publisher":publisher[:90],"source_type":"Google 新聞搜尋",
+                    "verification_status":"公告搜尋線索，活動日期與台灣適用性尚未核實",
+                    "status":"source_lead_only"
+                })
+        except Exception as e:
+            errors.append({"provider":"Google News RSS","query":query[:100],"error":str(e)[:150]})
+    dedup={}
+    for lead in leads:
+        key=normalized(lead["game"])+"|"+lead["source_url"]
+        previous=dedup.get(key)
+        if previous is None or lead["published_at"]>previous["published_at"]:dedup[key]=lead
+    return list(dedup.values())[:110],len(queries),successful,items_seen,errors
+
 def rss_discover(config,getter=fetch):
     sources=[];errors=[];checked=0
-    for q in config.get("taptap_discovery_queries",[])[:5]:
+    for q in (config.get("taptap_discovery_queries",[])[:5] if config.get("taptap_supplement_enabled",True) else []):
         # Bing often supplies direct article URLs; Google may supply RSS redirect
         # URLs, which are ignored rather than falsely labeled as TapTap.
         for engine,url in (
@@ -115,7 +193,7 @@ def rss_discover(config,getter=fetch):
             except Exception as e:errors.append({"provider":engine,"error":str(e)[:160]})
     # RSSHub's public documented TapTap forum route targets official posts.
     # China region restrictions may cause failures; never hide source errors.
-    for item in config.get("taptap_forum_feeds",[])[:8]:
+    for item in (config.get("taptap_forum_feeds",[])[:8] if config.get("enable_taptap_rsshub",False) else []):
         game=str(item.get("game","")).strip()
         game_id=str(item.get("id",""))
         if not game or not re.fullmatch(r"\d{2,12}",game_id):continue
@@ -183,8 +261,10 @@ def collect(config=None,previous=None,getter=fetch):
     config=config or json.loads(CFG.read_text(encoding="utf8"))
     old=previous or {"items":[]}
     rows=list(config.get("reference_events",[]))
+    google_leads,google_checked,google_ok,google_seen,google_errors=google_discover(config,getter)
     candidates,checked,errors=rss_discover(config,getter)
     fetched=0;discovered=[]
+    errors=google_errors+errors
     for lead in candidates:
         try:
             # Prefer the source's official forum RSS description, if complete,
@@ -226,15 +306,34 @@ def collect(config=None,previous=None,getter=fetch):
         if valid:
             merged[valid["id"]]=valid
     items=sorted(merged.values(),key=lambda x:(x["end_date"]<TODAY.isoformat(),-x["score"],x["end_date"],x["game"]))
+    # Preserve leads long enough for a later source verification pass. Never
+    # promote them into dated events from the RSS publication timestamp.
+    leads={}
+    for lead in [*old.get("leads",[]),*google_leads,*discovered]:
+        url=lead.get("source_url","")
+        game=lead.get("game","")
+        if not url or (game and exclude(game,config)):continue
+        published=lead.get("published_at","")
+        if published:
+            try:
+                stamp=dt.datetime.fromisoformat(published.replace("Z","+00:00"))
+                if stamp<NOW-dt.timedelta(days=21):continue
+            except (ValueError,TypeError):continue
+        leads[url+"|"+game]=lead
+    sorted_leads=sorted(leads.values(),key=lambda x:x.get("published_at",""),reverse=True)[:140]
     result={"updated_at":NOW.isoformat(timespec="seconds"),
         "items":items[:500],
-        "leads":discovered[:80],
+        "leads":sorted_leads,
         "exclusions":"米哈遊／HoYoverse 旗下遊戲不進商機推薦",
-        "note":"中國 TapTap 活動僅作商機線索；必須核實台灣服參加條件、商業服務能力與廣告規則。"}
-    status={"updated_at":result["updated_at"],"queries_attempted":checked,
-        "taptap_article_links_found":len(candidates),"taptap_dated_items_parsed":fetched,
+        "note":"主要透過 Google 新聞搜尋探索跨站公告；搜尋命中不代表活動已核實。TapTap 僅為補充來源；不得把中國站活動當作台灣可投放活動。"}
+    status={"updated_at":result["updated_at"],"queries_attempted":google_checked+checked,
+        "google_queries_attempted":google_checked,"google_queries_succeeded":google_ok,
+        "google_items_seen":google_seen,"google_leads_found_this_run":len(google_leads),
+        "google_leads_in_history":sum(x.get("source_type")=="Google 新聞搜尋" for x in sorted_leads),
+        "taptap_queries_attempted":checked,"taptap_article_links_found":len(candidates),
+        "taptap_dated_items_parsed":fetched,
         "total_opportunities":len(items),"source_errors":errors[:30],
-        "note":"RSS 可能未索引 TapTap；防爬或驗證頁阻擋不會被當作成功收集。"}
+        "note":"Google News RSS 是公開新聞搜尋結果，不等於 Google 全網搜尋；活動公告須另外核實日期、遊戲與台灣伺服器適用性。"}
     return result,status
 
 def main():
@@ -253,7 +352,9 @@ def main():
         or old_status.get("updated_at","")[:10]!=status["updated_at"][:10]
         or old_status.get("source_errors")!=status.get("source_errors")
         or old_status.get("taptap_dated_items_parsed")!=status.get("taptap_dated_items_parsed")
-        or old_status.get("taptap_article_links_found")!=status.get("taptap_article_links_found"))
+        or old_status.get("taptap_article_links_found")!=status.get("taptap_article_links_found")
+        or old_status.get("google_queries_succeeded")!=status.get("google_queries_succeeded")
+        or old_status.get("google_leads_found_this_run")!=status.get("google_leads_found_this_run"))
     if status_changed:
         STATUS.write_text(json.dumps(status,ensure_ascii=False,indent=2)+"\n",encoding="utf8")
     print("Ad opportunity radar: "+json.dumps({k:v for k,v in status.items() if k!="source_errors"},ensure_ascii=False)+" changed="+str(changed))

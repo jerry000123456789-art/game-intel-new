@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:19:55+00:00",
+  "updated_at": "2026-11-11T07:23:30+00:00",
   "status": "partial",
   "fetched": 30,
   "errors": [
@@ -25,6 +25,16 @@
     }
   ],
   "items": [
+    {
+      "id": "bf9dc47f1f2ac9cfb6dd14c5",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《遊戲王 TAG FORCE GX》首支遊玩預告片公開 一窺決鬥學院的校園生活",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314831",
+      "publisher": "",
+      "published_at": "2026-11-11T15:20:59+08:00",
+      "first_seen_at": "2026-11-11T07:23:30+00:00"
+    },
     {
       "id": "65eb520c543d2c5571c96f3d",
       "category": "巴哈姆特情報",

@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-11-11T07:22:47+00:00",
+  "checked_at": "2026-11-11T07:26:12+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
-    "codes": 1,
+    "codes": 0,
     "guides": 0,
-    "events": 2
+    "events": 0
   },
   "total_leads": {
     "codes": 52,
@@ -14,77 +14,77 @@
     "events": 93
   },
   "per_game": {
-    "Meta Horizon": {
+    "Diner Merge: 美食合併餐廳": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Pokémon TCG Pocket": {
+    "《Dispatch》": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Screw Out 3D": {
+    "Dora：探索与玩耍": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Solar Smash": {
+    "DuneCrawl": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Solitaire": {
+    "Garena 極速領域：莊園別墅": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Total Battle: War Strategy": {
+    "Goods Factory Sorting - Match": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Woodoku Blast": {
+    "Granado Espada M - Sword2": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Yarn Loop": {
+    "GT Rivals: Real Racing Sim": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "卡厄思夢境": {
-      "codes": 1,
-      "guides": 0,
-      "events": 2
-    },
-    "同盟塔防戰：並肩作戰": {
+    "Guidus One": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "噠噠特攻": {
+    "Loot Hunters: Idle RPG Quest": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "3D Magic Pop：奇趣方塊分類": {
+    "Monster Hunter Outlanders": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Absolum": {
+    "3D狙擊刺客：槍戰遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Booster Pack Heroes": {
+    "Bowmasters": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Butter PoP: ASMR解謎": {
+    "Disney Solitaire": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Epic Plane Evolution": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -170,21 +170,21 @@
     "absolum": "2026-11-11T07:22:47+00:00",
     "boosterpackheroes": "2026-11-11T07:22:47+00:00",
     "butterpopasmr解謎": "2026-11-11T07:22:47+00:00",
-    "dinermerge美食合併餐廳": "2026-11-07T15:50:44+00:00",
-    "dispatch": "2026-11-07T15:50:44+00:00",
-    "dora探索与玩耍": "2026-11-07T15:50:44+00:00",
-    "dunecrawl": "2026-11-07T15:50:44+00:00",
-    "garena極速領域莊園別墅": "2026-11-07T15:50:44+00:00",
-    "goodsfactorysortingmatch": "2026-11-07T15:50:44+00:00",
-    "granadoespadamsword2": "2026-11-07T15:50:44+00:00",
-    "gtrivalsrealracingsim": "2026-11-07T15:50:44+00:00",
-    "guidusone": "2026-11-07T15:50:44+00:00",
-    "loothuntersidlerpgquest": "2026-11-07T15:50:44+00:00",
-    "monsterhunteroutlanders": "2026-11-07T15:50:44+00:00",
-    "3d狙擊刺客槍戰遊戲": "2026-11-07T18:50:47+00:00",
-    "bowmasters": "2026-11-07T18:50:47+00:00",
-    "disneysolitaire": "2026-11-07T18:50:47+00:00",
-    "epicplaneevolution": "2026-11-07T18:50:47+00:00",
+    "dinermerge美食合併餐廳": "2026-11-11T07:26:12+00:00",
+    "dispatch": "2026-11-11T07:26:12+00:00",
+    "dora探索与玩耍": "2026-11-11T07:26:12+00:00",
+    "dunecrawl": "2026-11-11T07:26:12+00:00",
+    "garena極速領域莊園別墅": "2026-11-11T07:26:12+00:00",
+    "goodsfactorysortingmatch": "2026-11-11T07:26:12+00:00",
+    "granadoespadamsword2": "2026-11-11T07:26:12+00:00",
+    "gtrivalsrealracingsim": "2026-11-11T07:26:12+00:00",
+    "guidusone": "2026-11-11T07:26:12+00:00",
+    "loothuntersidlerpgquest": "2026-11-11T07:26:12+00:00",
+    "monsterhunteroutlanders": "2026-11-11T07:26:12+00:00",
+    "3d狙擊刺客槍戰遊戲": "2026-11-11T07:26:12+00:00",
+    "bowmasters": "2026-11-11T07:26:12+00:00",
+    "disneysolitaire": "2026-11-11T07:26:12+00:00",
+    "epicplaneevolution": "2026-11-11T07:26:12+00:00",
     "freefiremax風暴競技場": "2026-11-07T18:50:47+00:00",
     "holestars謎題挑戰": "2026-11-07T18:50:47+00:00",
     "kickthebuddy有趣的動作遊戲": "2026-11-07T18:50:47+00:00",

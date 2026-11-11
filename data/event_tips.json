@@ -1,0 +1,34 @@
+{
+  "updated_at": "2026-11-11T06:32:00+00:00",
+  "source_note": "使用者於 2026-11-11 提供《陰陽師 Onmyoji》活動截圖；原始官方貼文連結尚未取得，無法獨立核實。開始時間僅知維護後。",
+  "items": [
+    {
+      "id": "onmyoji-jinshi-quest-20261111",
+      "game": "陰陽師",
+      "title": "金石禮帖｜任務開放",
+      "category": "遊戲任務",
+      "start_date": "2026-11-11",
+      "end_date": "2026-12-01",
+      "start_note": "11/11 維護後（確切時分未提供）",
+      "end_note": "12/1 23:59",
+      "detail": "活動期間可透過「拾光永恆」等玩法完成任務，獲得獎勵。",
+      "source_type": "使用者提供活動截圖",
+      "verification_status": "截圖資訊，原始貼文網址尚未核對",
+      "source_url": ""
+    },
+    {
+      "id": "onmyoji-jinshi-claim-20261111",
+      "game": "陰陽師",
+      "title": "金石禮帖｜獎勵領取",
+      "category": "獎勵領取期限",
+      "start_date": "2026-11-11",
+      "end_date": "2026-12-08",
+      "start_note": "11/11 維護後（確切時分未提供）",
+      "end_note": "12/8 23:59",
+      "detail": "金石禮帖活動獎勵領取截止日期；與任務結束日期不同。",
+      "source_type": "使用者提供活動截圖",
+      "verification_status": "截圖資訊，原始貼文網址尚未核對",
+      "source_url": ""
+    }
+  ]
+}

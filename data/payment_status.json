@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-11T07:15:31+00:00",
+  "updated_at": "2026-11-11T07:19:17+00:00",
   "games_this_run": 8,
-  "searches_succeeded": 52,
-  "searches_failed": 1,
+  "searches_succeeded": 51,
+  "searches_failed": 2,
   "new_evidence": 0,
   "total_evidence": 17,
-  "directories_succeeded": 4,
-  "directories_failed": 1,
+  "directories_succeeded": 3,
+  "directories_failed": 2,
   "checked_games": {
     "1945airforce街機飛機射擊": "2026-11-07T14:40:48+00:00",
     "2048方塊消除數字遊戲m2blocks": "2026-11-07T14:40:48+00:00",
@@ -423,9 +423,22 @@
     "신규불멸로켓츄등장": "2026-11-11T07:15:31+00:00",
     "아쿠아랜드크레이지서바이벌": "2026-11-11T07:15:31+00:00",
     "앵그리버드드림블라스트": "2026-11-11T07:15:31+00:00",
-    "워라인스나이퍼": "2026-11-11T07:15:31+00:00"
+    "워라인스나이퍼": "2026-11-11T07:15:31+00:00",
+    "지금경험하세요": "2026-11-11T07:19:17+00:00",
+    "추억의고전게임": "2026-11-11T07:19:17+00:00",
+    "클래시로얄clashroyale": "2026-11-11T07:19:17+00:00",
+    "클래시오브클랜": "2026-11-11T07:19:17+00:00",
+    "탑과용병단": "2026-11-11T07:19:17+00:00",
+    "탕탕에이스": "2026-11-11T07:19:17+00:00",
+    "한정5성캐릭터푸리나이벤트기원오픈": "2026-11-11T07:19:17+00:00",
+    "할리우드머지": "2026-11-11T07:19:17+00:00"
   },
   "errors": [
+    {
+      "provider": "MyCard",
+      "error": "The read operation timed out",
+      "url": "https://www.mycard520.com/web/zh-tw/MicroPayment"
+    },
     {
       "provider": "GASH",
       "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)>",

@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-11T07:15:22+00:00",
+  "checked_at": "2026-11-11T07:19:09+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
-    "guides": 0,
-    "events": 0
+    "guides": 1,
+    "events": 3
   },
   "total_leads": {
     "codes": 52,
-    "guides": 57,
-    "events": 89
+    "guides": 58,
+    "events": 92
   },
   "per_game": {
-    "江湖戰亂": {
+    "RAN - Royal Academy Nations": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Jetpack Joyride - 瘋狂噴氣機": {
+    "Royal Kingdom": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Match Factory!": {
+    "Royal Match": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Monster Hunter Now": {
+    "Sand Blocks: Drop Puzzle": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Shadow Knight Premium: 生死冒險RPG": {
+    "新熱血江湖：世界": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Toon Blast": {
+    "明日方舟：終末地": {
+      "codes": 0,
+      "guides": 0,
+      "events": 2
+    },
+    "烹飪日記：餐廳遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Word Cookies! ®": {
+    "燕雲十六聲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "我的湯姆貓2": {
+    "神魔之塔": {
+      "codes": 0,
+      "guides": 1,
+      "events": 1
+    },
+    "薑餅人王國": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "戰雙帕彌什：末世科幻3D動作遊戲": {
+    "靠裝勇者：背包合成RPG": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "數獨 - 經典數獨謎題": {
+    "Animals & Coins Adventure Game": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "數獨 - 經典邏輯益智數獨遊戲，適合所有益智遊戲愛好者": {
+    "Hunting Sniper": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Baby Panda's Town: 商場": {
+    "Kingshot": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Chess Clash: 線上遊玩": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Number Match - 數字益智遊戲": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Pixel Flow!": {
+    "Madden NFL 27 Mobile Football": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -138,23 +138,23 @@
     "數獨經典邏輯益智數獨遊戲適合所有益智遊戲愛好者": "2026-11-11T07:15:22+00:00",
     "babypandastown商場": "2026-11-11T07:15:22+00:00",
     "chessclash線上遊玩": "2026-11-11T07:15:22+00:00",
-    "新熱血江湖世界": "2026-11-07T15:44:56+00:00",
-    "明日方舟終末地": "2026-11-07T15:44:56+00:00",
-    "烹飪日記餐廳遊戲": "2026-11-07T15:44:56+00:00",
-    "燕雲十六聲": "2026-11-07T15:44:56+00:00",
-    "神魔之塔": "2026-11-07T15:44:56+00:00",
-    "薑餅人王國": "2026-11-07T15:44:56+00:00",
-    "靠裝勇者背包合成rpg": "2026-11-07T15:44:56+00:00",
+    "新熱血江湖世界": "2026-11-11T07:19:09+00:00",
+    "明日方舟終末地": "2026-11-11T07:19:09+00:00",
+    "烹飪日記餐廳遊戲": "2026-11-11T07:19:09+00:00",
+    "燕雲十六聲": "2026-11-11T07:19:09+00:00",
+    "神魔之塔": "2026-11-11T07:19:09+00:00",
+    "薑餅人王國": "2026-11-11T07:19:09+00:00",
+    "靠裝勇者背包合成rpg": "2026-11-11T07:19:09+00:00",
     "numbermatch數字益智遊戲": "2026-11-11T07:15:22+00:00",
     "pixelflow": "2026-11-11T07:15:22+00:00",
-    "ranroyalacademynations": "2026-11-07T15:44:56+00:00",
-    "royalkingdom": "2026-11-07T15:44:56+00:00",
-    "royalmatch": "2026-11-07T15:44:56+00:00",
-    "sandblocksdroppuzzle": "2026-11-07T15:44:56+00:00",
-    "animalscoinsadventuregame": "2026-11-07T15:48:37+00:00",
-    "huntingsniper": "2026-11-07T15:48:37+00:00",
-    "kingshot": "2026-11-07T15:48:37+00:00",
-    "maddennfl27mobilefootball": "2026-11-07T15:48:37+00:00",
+    "ranroyalacademynations": "2026-11-11T07:19:09+00:00",
+    "royalkingdom": "2026-11-11T07:19:09+00:00",
+    "royalmatch": "2026-11-11T07:19:09+00:00",
+    "sandblocksdroppuzzle": "2026-11-11T07:19:09+00:00",
+    "animalscoinsadventuregame": "2026-11-11T07:19:09+00:00",
+    "huntingsniper": "2026-11-11T07:19:09+00:00",
+    "kingshot": "2026-11-11T07:19:09+00:00",
+    "maddennfl27mobilefootball": "2026-11-11T07:19:09+00:00",
     "metahorizon": "2026-11-07T15:48:37+00:00",
     "pokémontcgpocket": "2026-11-07T15:48:37+00:00",
     "solarsmash": "2026-11-07T15:48:37+00:00",

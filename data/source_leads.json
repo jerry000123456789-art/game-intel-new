@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-11T07:15:22.310603+00:00",
-  "note": "Historical source leads retained; not validated codes, full guides, or confirmed event dates.",
+  "updated_at": "2026-11-11T07:19:09+00:00",
+  "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
       {
@@ -434,6 +434,15 @@
       }
     ],
     "guides": [
+      {
+        "game": "神魔之塔",
+        "kind": "guides",
+        "title": "【神魔之塔】2026.61 版本更新懶人包！三大重點活動玩法全解析！ - YouTube",
+        "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9aY1dWSmZ4a21ENzNMcWc3WnNhYVVYdXBaSXZOa0tKbGZJb3pOQ0J5MjdYcUdpNnhkd0p5UENvakpIM2V5TG80UXZYcFRhNVRCc1ZPTkZpUkRmaEEw?oc=5",
+        "published_at": "2026-11-09T08:30:27+00:00",
+        "publisher": "YouTube",
+        "status": "source_lead_only"
+      },
       {
         "game": "Fortnite",
         "kind": "guides",
@@ -929,6 +938,15 @@
     ],
     "events": [
       {
+        "game": "明日方舟：終末地",
+        "kind": "events",
+        "title": "討論牆 | 《明日方舟：終末地》迎半周年「相伴慶典」 全新版本「向淵行」7月16日開啟！ - LINE TODAY",
+        "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5LOUhhM21oai1leDNkb2FhYm01RjJ4dFBJNW5odXRjdjg1R2U2T0NRUVB3clctQzRITG1VZURMUTZPbkxJc0RveE9WYUJCOXVhTkJjR1ZWRWViSjFtSk14cFFmYTE?oc=5",
+        "published_at": "2026-11-10T14:35:17+00:00",
+        "publisher": "LINE TODAY",
+        "status": "source_lead_only"
+      },
+      {
         "game": "勝利女神：妮姬",
         "kind": "events",
         "title": "《勝利女神：妮姬》四週年特展華山落幕 指揮官室實景與瑪麗安繃帶牆吸引排隊人潮 - Ludens Media",
@@ -962,6 +980,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5aVmNpMmNscXozOWJmR3NvNVpQZTFsOWRjMjRVVlpyaVdaa2FKSlUxTGE2TUo2RHNoaWZOVWI4WTFGd0I1YS15VFpXX2FUVndxX2NXaFRuMWU2cEFPM3BEd04yQ3A?oc=5",
         "published_at": "2026-11-09T17:13:13+00:00",
         "publisher": "LINE TODAY",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "神魔之塔",
+        "kind": "events",
+        "title": "【神魔之塔】2026.61 版本更新懶人包！三大重點活動玩法全解析！ - YouTube",
+        "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9aY1dWSmZ4a21ENzNMcWc3WnNhYVVYdXBaSXZOa0tKbGZJb3pOQ0J5MjdYcUdpNnhkd0p5UENvakpIM2V5TG80UXZYcFRhNVRCc1ZPTkZpUkRmaEEw?oc=5",
+        "published_at": "2026-11-09T08:30:27+00:00",
+        "publisher": "YouTube",
         "status": "source_lead_only"
       },
       {
@@ -1414,6 +1441,15 @@
         "kind": "events",
         "title": "《勝利女神：妮姬》× GiGO 舉辦聯名活動「White Autumn」 推出一系列全新繪製插畫限定景品《Goddess of Victory:NIKKE》 - GNN 新聞網",
         "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBiNjFTbWotTFU4Smd0SzUxdUNXUU41WEd4cE15OENNU1hiN2xmS1RCamN3VVZaaU1UakhMR1M4TTJCT1I0TGhmNnYtdk01UTdiMS1NYXhwNVM?oc=5",
+        "published_at": "2026-11-02T08:00:00+00:00",
+        "publisher": "GNN 新聞網",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "明日方舟：終末地",
+        "kind": "events",
+        "title": "口袋中的夏末號｜巴哈30 週年站聚｜《明日方舟：終末地》飛智聯名手把｜源石嵌晶玉3D 列印沙盒開箱- mystica的創作 - GNN 新聞網",
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE15RVNHSUdWckM2WmdzUFJRUkFTNTdfbUFxa1Z3WmFuYzdSNWMxZ0ZNSll0dGtOdUdmZXRIOGVaU2hSLWNPT3I2Q0VtWXhud3VxS3ZJMjFzQlQ?oc=5",
         "published_at": "2026-11-02T08:00:00+00:00",
         "publisher": "GNN 新聞網",
         "status": "source_lead_only"

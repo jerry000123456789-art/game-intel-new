@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-11T06:37:26.705092+00:00",
-  "note": "Historical source leads retained; not validated codes, full guides, or confirmed event dates.",
+  "updated_at": "2026-11-11T06:41:18+00:00",
+  "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
       {
@@ -929,6 +929,15 @@
     ],
     "events": [
       {
+        "game": "勝利女神：妮姬",
+        "kind": "events",
+        "title": "《勝利女神：妮姬》四週年特展華山落幕 指揮官室實景與瑪麗安繃帶牆吸引排隊人潮 - Ludens Media",
+        "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QYXZaWDI0UzFZRlNIUm5ENzhkeUxfbHlfLWc3OVhGZ0JWaklLb0RJUklwd1luRVRFenB1MVk4SHJNR1g0bWx6WDUyVXNDT0ROeVh2aWJvMnpaWWwyZ1Izd0Z6bVpOSUtCdi1VN0Vka0h0QXktOXc?oc=5",
+        "published_at": "2026-11-10T10:45:00+00:00",
+        "publisher": "Ludens Media",
+        "status": "source_lead_only"
+      },
+      {
         "game": "Sonic Rumble Party",
         "kind": "events",
         "title": "《Sonic Rumble Party》 歡慶遊戲上線1週年！期間限定「1週年紀念活動」開幕！ - NOVA資訊廣場",
@@ -947,6 +956,15 @@
         "status": "source_lead_only"
       },
       {
+        "game": "怪物彈珠",
+        "kind": "events",
+        "title": "討論牆 | 《怪物彈珠》「咒術迴戰」第三彈合作活動登場 虎杖悠仁、七海建人、五條悟真獸神化解禁 - LINE TODAY",
+        "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5aVmNpMmNscXozOWJmR3NvNVpQZTFsOWRjMjRVVlpyaVdaa2FKSlUxTGE2TUo2RHNoaWZOVWI4WTFGd0I1YS15VFpXX2FUVndxX2NXaFRuMWU2cEFPM3BEd04yQ3A?oc=5",
+        "published_at": "2026-11-09T17:13:13+00:00",
+        "publisher": "LINE TODAY",
+        "status": "source_lead_only"
+      },
+      {
         "title": "《Pikmin Bloom》聯動台日全家便利商店！撈金苗收集5周年零食皮克敏 - 4Gamers",
         "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPejFlTXYxRFFsOGVGbzZvS2YwX2t5Q1hrc1NxVkQ4VnZUNldnRnlGQjR3Smt4YmNwQnB6S2JMQndkSW51cnBSRnY4SWozZGVNZ21GSVJ2d2haWXNPdWQtUnU4a0RtVXV3YXRNZGVHeTVLZ1pKZUZUTER2a1c0UENOdXBIR3E0S0RzbjVkUGo4T0NveVNVSk9CVktBOG1HejhMazlrTGhqTUtUX180VUpsbk43TktEOWJW?oc=5",
         "publisher": "4Gamers",
@@ -961,6 +979,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aSmRzQTNIamRPRlpYc3RoYS03QTUwQ0RyOGcxRFh2UHlXZnRhWWJfeEloYmw3SUtRM3N4VFdUMEpYd0dRRWhZMk9GTUVMTnlNUGc?oc=5",
         "published_at": "2026-11-08T17:48:38+00:00",
         "publisher": "Pokemon Hubs",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "勝利女神：妮姬",
+        "kind": "events",
+        "title": "【開箱】《勝利女神：妮姬》四週年特展！深入瑪麗安的過往故事 眾多 Coser 齊聚華山 - Paradaily",
+        "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5PR1dsT0pQaVFJNGE2dkJDN2ZTa0NxaHd4NWNPVzdwVGdjcTY4WjlNVXVBQ0o4bW9TY1V5QVpiTklZMjhnczJrYkd4ZHkxZVV4Y1lzbDhmLWRzZk1kRlV5dkpPYWlFd0VnSm5Zaw?oc=5",
+        "published_at": "2026-11-08T13:03:00+00:00",
+        "publisher": "Paradaily",
         "status": "source_lead_only"
       },
       {
@@ -997,6 +1024,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5idzFDeTUtUzdzR0JJYi11YTdMcWsxZUVMbXphNmdFenNwaEE1SVpGMFlpRC1PVGF0U2F3?oc=5",
         "published_at": "2026-11-07T12:02:22+00:00",
         "publisher": "Howl.Link",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "勝利女神：妮姬",
+        "kind": "events",
+        "title": "《勝利女神：妮姬》四週年特展直擊指揮官集結 現場猜名曲、養成瑪麗安還能抽限定立牌 - 4Gamers",
+        "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQVY1ZktfZmxxWE1kcHB3N0tPdl95Ynh3SmlmZXU3cWpOYjNqeFJnMFROWC1wZ2pFSkFyNHZ6V3k4RTRKYVBwZ3U1Sm9pYi1RS25QZlVZWTZaNTVCZ3JhMGRQbmFzcjM1ZllDcWc0bzN3RXVDZ0l6M2tETE5mQmNZdVR3d3c?oc=5",
+        "published_at": "2026-11-07T02:00:00+00:00",
+        "publisher": "4Gamers",
         "status": "source_lead_only"
       },
       {
@@ -1054,6 +1090,15 @@
         "status": "source_lead_only"
       },
       {
+        "game": "勝利女神：妮姬",
+        "kind": "events",
+        "title": "《勝利女神：妮姬》四週年特展 11/7(六)、11/8(日) 華山登場！ - 蕃新聞",
+        "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1LSmd4X1kycEhmNmRmRFFzQUpEdGNwZ2otM3Qza19IcXhLUENvck42QmVRbDQ5SVExdWwzZmoyN0JyRjROS21pSEQ1bk9CZk1GaHc?oc=5",
+        "published_at": "2026-11-05T09:19:16+00:00",
+        "publisher": "蕃新聞",
+        "status": "source_lead_only"
+      },
+      {
         "game": "楓之谷：放置冒險記",
         "kind": "events",
         "title": "《楓之谷：放置冒險記》推出「1 週年慶典」大型活動同時新增「聖魂劍士」與「烈焰巫師」《MapleStory: Idle RPG》 - GNN 新聞網",
@@ -1096,6 +1141,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1pSHo4T1RIeS1JSjB6a0R0X0s3YTZuVmo4MmR0MGNNTjVFV0lwclY3d2tmUGpXNS1Od204OFAxYnhUdU16cHBMQzBLZ1bSAVJBVV95cUxNd1otMDF6WjlWMzYtQVk0SVNNSkNGcXJiNl9ldjFFNDFFYmJXeGpWTi02SExjbm11NVpzMklfUGJUaWItT0JfRU1neUlJWnoyR2xR?oc=5",
         "published_at": "2026-11-04T10:29:46+00:00",
         "publisher": "蘋果仁",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "怪物彈珠",
+        "kind": "events",
+        "title": "動畫《藍色監獄》×《怪物彈珠》首次合作活動開跑！ - NOVA資訊廣場",
+        "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB2bmc3ODdSNmxsVUJiQV9oQXNaZ2lVYW5jQV9ZOXd3ekZDOEVXekFsNnZFWmhuazh1M083OFN0YUJvaVFxTXd4bktHOFBRaFFQU1Z2dnc5UWJjUDFhdEkzTEhsM0lYTmc?oc=5",
+        "published_at": "2026-11-04T10:03:51+00:00",
+        "publisher": "NOVA資訊廣場",
         "status": "source_lead_only"
       },
       {
@@ -1267,6 +1321,15 @@
         "status": "source_lead_only"
       },
       {
+        "game": "怪物彈珠",
+        "kind": "events",
+        "title": "動畫《藍色監獄》×《怪物彈珠》首次合作活動即將開跑！「潔世一」「糸師凜」「凪誠士郎」等人氣角色登場！ - PChome Online 新聞",
+        "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNclBTUk5uTFdTWGJXdzltR0RYUzR0VHcwWmZMbnVWQWtBOGhfcUpCcjJnblhGQkc4ZjNUd3AwV2didUdLZmtNeS1EUVUyRk82WG9HRHB4VXpGYnA1VHk4c3YzVmVOUVQzTVZhYVpsdDY4cVlXUzdoVUlHMlNMY3FPODNYektvRU9sMklv?oc=5",
+        "published_at": "2026-11-03T01:46:58+00:00",
+        "publisher": "PChome Online 新聞",
+        "status": "source_lead_only"
+      },
+      {
         "game": "Pikmin Bloom",
         "kind": "events",
         "title": "《Pikmin Bloom》皮克敏預告追加全新玩法！台灣專屬活動也即將登場 - 自由電子報3C科技",
@@ -1338,6 +1401,15 @@
         "status": "source_lead_only"
       },
       {
+        "game": "勝利女神：妮姬",
+        "kind": "events",
+        "title": "《勝利女神：妮姬》× GiGO 舉辦聯名活動「White Autumn」 推出一系列全新繪製插畫限定景品《Goddess of Victory:NIKKE》 - GNN 新聞網",
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBiNjFTbWotTFU4Smd0SzUxdUNXUU41WEd4cE15OENNU1hiN2xmS1RCamN3VVZaaU1UakhMR1M4TTJCT1I0TGhmNnYtdk01UTdiMS1NYXhwNVM?oc=5",
+        "published_at": "2026-11-02T08:00:00+00:00",
+        "publisher": "GNN 新聞網",
+        "status": "source_lead_only"
+      },
+      {
         "game": "SD鋼彈 G世代 永恆",
         "kind": "events",
         "title": "《SD 鋼彈G 世代永恆》舉辦「機動戰士鋼彈EIGHT」聯動活動強敵來襲同步登場- 股市爆料同學會 - CMoney",
@@ -1353,6 +1425,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA5eVh6aXZkS0tPWXdTMU5MRTg5V0JCOTlZU1lUWWdhYjdaOEdhTnQ2cW0zdzduYXl1Z0NEYkFlWnN2c0VRSkhucnE5TUJDWmMwWWMwTXN3cVk?oc=5",
         "published_at": "2026-11-02T06:39:34+00:00",
         "publisher": "GNN 新聞網",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "勝利女神：妮姬",
+        "kind": "events",
+        "title": "《勝利女神：妮姬》× GiGO 舉辦聯名活動「White Autumn」 推出一系列全新繪製插畫限定景品- 股市爆料同學會 - CMoney",
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE82alRabXBQWDRaeVRTbnc4TTlwZnV6LXJIR3NGQlZocTRaRFk4Q2RraWluZlZyYVJNNzNCZ0cya05XVDVRMGxwX1ZYNmJMSkhPd0JyZlREdFM?oc=5",
+        "published_at": "2026-11-02T06:28:22+00:00",
+        "publisher": "CMoney",
         "status": "source_lead_only"
       },
       {

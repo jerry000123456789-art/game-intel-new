@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T06:34:38+00:00",
+  "updated_at": "2026-11-11T06:38:28+00:00",
   "status": "ok",
   "errors": [],
   "fetched": 120,
@@ -1174,6 +1174,15 @@
       "publisher": "Wuthering Waves",
       "published_at": "2026-03-19T07:00:00+00:00",
       "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "f8632213052d9f737b24",
+      "category": "新遊戲資訊",
+      "title": "Steam解謎《文字遊戲世界》今日正式上市！前作《文字遊戲》祭出6折史低 - udn遊戲角落",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56TE1VcTBJOE1lT3g4eGtKR3p0N2w1RzRaWFg5ZDBCZ1BTQXlmeW1NazgyLXdWYUtGUmhnS0JsTm9TX09QMkdHRDE0RnlvVTVlamRTZV9aRWRkd9IBX0FVX3lxTE1PNGJmMDJKcTZ2ajltbXl0d3NFdUdVTXQzQTBxaUlqaVM0UlJuWDdXSmFWMXFQRkpqcmNnY2VldjVBSk1VeHFCZ0VReVp4N2tSNldtdy05dklYMkhPWThJ?oc=5",
+      "publisher": "udn遊戲角落",
+      "published_at": "2026-03-16T07:00:00+00:00",
+      "first_seen_at": "2026-11-11T06:38:28+00:00"
     },
     {
       "id": "69449c7f8af43b6faf3f",

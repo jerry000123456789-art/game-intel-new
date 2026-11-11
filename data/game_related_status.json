@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-11T06:37:26+00:00",
+  "checked_at": "2026-11-11T06:41:18+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
     "guides": 0,
-    "events": 0
+    "events": 9
   },
   "total_leads": {
     "codes": 52,
     "guides": 57,
-    "events": 79
+    "events": 88
   },
   "per_game": {
-    "Narcos: Cartel Wars & Strategy": {
+    "Thronefall - A Little Kingdom": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "殭屍的黎明：生存 (Dawn of Zombies)": {
+    "TMNT: Shredder's Revenge": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Monument Valley 3": {
+    "Turnip Boy Commits Tax Evasion": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "NeonVortex": {
+    "Waltz of the Wizard": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Nitelore": {
+    "傳奇大亂鬥": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Penalty Area: Face2Face": {
+    "凹嗚殺:狼人在身邊": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "POOLS™": {
+    "勝利女神：妮姬": {
+      "codes": 0,
+      "guides": 0,
+      "events": 6
+    },
+    "口袋奇兵（Top War）-超休閒的策略遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Quest of Dungeons": {
+    "可口的咖啡": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Resident Evil 4": {
+    "塔與傭兵團": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "RPG Heroes": {
+    "影劍風雲傳:萬界無限輪迴穿越": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "ScourgeBringer": {
+    "怪物彈珠": {
+      "codes": 0,
+      "guides": 0,
+      "events": 3
+    },
+    "戰鎚40,000：爆矢槍 Boom": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Skul: The Hero Slayer": {
+    "捷運規劃大師": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Star Wars™: KOTOR": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "STAR WARS™: KOTOR II": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "The Pathless": {
+    "最強劍尊：吃最軟的飯，做最硬的劍": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -780,7 +780,22 @@
     "skultheheroslayer": "2026-11-11T06:37:26+00:00",
     "starwarstmkotor": "2026-11-11T06:37:26+00:00",
     "starwarstmkotorii": "2026-11-11T06:37:26+00:00",
-    "thepathless": "2026-11-11T06:37:26+00:00"
+    "thepathless": "2026-11-11T06:37:26+00:00",
+    "thronefallalittlekingdom": "2026-11-11T06:41:18+00:00",
+    "tmntshreddersrevenge": "2026-11-11T06:41:18+00:00",
+    "turnipboycommitstaxevasion": "2026-11-11T06:41:18+00:00",
+    "waltzofthewizard": "2026-11-11T06:41:18+00:00",
+    "傳奇大亂鬥": "2026-11-11T06:41:18+00:00",
+    "凹嗚殺狼人在身邊": "2026-11-11T06:41:18+00:00",
+    "勝利女神妮姬": "2026-11-11T06:41:18+00:00",
+    "口袋奇兵topwar超休閒的策略遊戲": "2026-11-11T06:41:18+00:00",
+    "可口的咖啡": "2026-11-11T06:41:18+00:00",
+    "塔與傭兵團": "2026-11-11T06:41:18+00:00",
+    "影劍風雲傳萬界無限輪迴穿越": "2026-11-11T06:41:18+00:00",
+    "怪物彈珠": "2026-11-11T06:41:18+00:00",
+    "戰鎚40000爆矢槍boom": "2026-11-11T06:41:18+00:00",
+    "捷運規劃大師": "2026-11-11T06:41:18+00:00",
+    "最強劍尊吃最軟的飯做最硬的劍": "2026-11-11T06:41:18+00:00"
   },
   "errors": []
 }

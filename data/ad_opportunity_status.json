@@ -1,26 +1,9 @@
 {
-  "updated_at": "2026-11-11T07:11:18+00:00",
+  "updated_at": "2026-11-11T07:14:14+00:00",
   "queries_attempted": 8,
   "taptap_article_links_found": 0,
   "taptap_dated_items_parsed": 0,
   "total_opportunities": 7,
-  "source_errors": [
-    {
-      "provider": "Bing",
-      "error": "syntax error: line 1, column 0"
-    },
-    {
-      "provider": "Bing",
-      "error": "syntax error: line 1, column 0"
-    },
-    {
-      "provider": "Bing",
-      "error": "syntax error: line 1, column 0"
-    },
-    {
-      "provider": "Bing",
-      "error": "syntax error: line 1, column 0"
-    }
-  ],
+  "source_errors": [],
   "note": "RSS 可能未索引 TapTap；防爬或驗證頁阻擋不會被當作成功收集。"
 }

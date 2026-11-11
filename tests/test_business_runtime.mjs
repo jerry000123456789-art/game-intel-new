@@ -53,7 +53,9 @@ assert(elements.get('gx-code-list').innerHTML.includes('gx-code'),
   'Actual code data should render');
 assert(elements.get('gx-content-list').innerHTML.includes('gx-feed-item'),
   'YouTube and news content should render');
-assert(elements.get('gx-calendar-view').innerHTML.includes('gx-calendar-grid'),
-  'Tracked calendar should render when no games are selected');
+assert(elements.get('gx-calendar-view').innerHTML.includes('gx-timeline-grid'),
+  'Public event timeline should render without requiring watchlist selections');
+assert(elements.get('gx-calendar-view').innerHTML.includes('金石禮帖'),
+  'User-supplied Onmyoji event must appear in the public calendar');
 assert(elements.get('gx-kpi-new').textContent!==''&&elements.get('gx-kpi-code').textContent!=='');
 console.log('PASS: business dashboard actually loads current data, WellDiver, code cards, content and empty watchlist calendar');

@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-11-11T00:00:00+08:00",
-  "description": "Non-miHoYo promotional opportunity discovery. Mainland-only TapTap events are never auto-approved for Taiwan advertising. Source validation and first-party seller support must be checked before ad creation.",
+  "description": "Google News RSS and game-specific Google discovery first; TapTap optional. Only verified source documents with exact event periods become dated ad opportunities. Exclude HoYoverse and do not presume CN events apply to TW.",
   "market_focus": "TW",
   "excluded_publishers": [
     "miHoYo",
@@ -113,5 +113,32 @@
       "game": "雷鸣三国",
       "id": "40036"
     }
-  ]
+  ],
+  "primary_discovery_source": "Google News RSS (TW)",
+  "google_news_queries": [
+    "手機遊戲 累儲 儲值 活動 台灣",
+    "手機遊戲 限時 禮包 優惠 台服",
+    "手遊 開服 慶典 儲值 回饋",
+    "線上遊戲 聯動 活動 限定 獎勵 台灣",
+    "遊戲 充值 返利 活動 台灣"
+  ],
+  "google_priority_games": [
+    "陰陽師",
+    "神魔之塔",
+    "傳說對決",
+    "寒霜啟示錄",
+    "勝利女神：妮姬",
+    "Last War",
+    "天堂M",
+    "楓之谷：放置冒險記",
+    "魔物獵人：旅人",
+    "RO仙境傳說：守護永恆的愛",
+    "三角洲行動",
+    "薑餅人放置大戰爭"
+  ],
+  "google_general_queries_per_run": 3,
+  "google_games_per_run": 6,
+  "google_news_lookback_days": 14,
+  "enable_taptap_rsshub": false,
+  "taptap_supplement_enabled": true
 }

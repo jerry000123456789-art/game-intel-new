@@ -109,3 +109,27 @@ body{background:#EAEAEF;color:#2D3142}
 .gx-empty,.gx-day.outside{background:#F2F3F6;color:#5D6879}
 .gx-notice{background:#E9F2ED;color:#276657}
 .gx-nav button:focus-visible,.gx-btn:focus-visible{outline:3px solid #276657;outline-offset:2px}
+
+/* Fix the legacy global .active rule, which painted every selected page navy. */
+.gx-app,.gx-stage,.gx-main{background:#EAEAEF;color:#2D3142}
+.gx-page.active{background:transparent!important;color:#2D3142!important}
+.gx-page.active .gx-panel,.gx-page.active .gx-card{color:#2D3142}
+.gx-event-legend{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 15px}
+.gx-event-legend span{font-size:12px;color:#596578;display:flex;align-items:center;gap:6px}
+.gx-event-dot{display:inline-block;width:12px;height:12px;border-radius:4px}
+.gx-timeline-scroll{overflow-x:auto;padding-bottom:9px}
+.gx-timeline-grid{min-width:760px}
+.gx-timeline-head,.gx-timeline-row{display:grid;grid-template-columns:250px minmax(0,1fr);gap:10px;align-items:center}
+.gx-timeline-head{padding:10px 0;color:#536174;font-size:12px;border-bottom:1px solid #D5D9E2}
+.gx-timeline-days{display:grid;grid-template-columns:repeat(var(--gx-days),minmax(0,1fr));align-items:center}
+.gx-timeline-days span{text-align:center;font-size:11px;overflow:hidden}
+.gx-timeline-row{padding:10px 0;border-bottom:1px solid #E4E7ED}
+.gx-timeline-info{min-width:0;line-height:1.5}
+.gx-timeline-info strong{display:block;font-size:13px;color:#2D3142}
+.gx-timeline-info small{display:block;color:#627084;font-size:11px}
+.gx-timeline-track{position:relative;height:32px;border-radius:7px;background:repeating-linear-gradient(to right,#F4F5F7 0,#F4F5F7 calc(100% / var(--gx-days) - 1px),#DDE2E9 calc(100% / var(--gx-days) - 1px),#DDE2E9 calc(100% / var(--gx-days)))}
+.gx-timeline-bar{position:absolute;top:7px;height:18px;border-radius:6px;min-width:5px;opacity:.92}
+.gx-event-detail{padding:12px 0;border-bottom:1px solid #E5E8EE}
+.gx-event-detail-title{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:4px}
+.gx-event-detail p{font-size:13px;color:#536174;margin:4px 0}
+@media(max-width:780px){.gx-timeline-head,.gx-timeline-row{grid-template-columns:170px minmax(0,1fr)}.gx-timeline-grid{min-width:690px}}

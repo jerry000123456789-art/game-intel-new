@@ -17,6 +17,9 @@ assert m.exclude("Zenless Zone Zero",cfg)
 assert not m.exclude("阴阳师",cfg)
 # Google News matches cross-site announcements, but cannot assert event dates.
 assert "news.google.com/rss/search" in m.google_news_url("神魔之塔 活動")
+assert not m.GOOGLE_EVENT_TITLE.search("《天堂M》開服壅塞、玩家無法登入")
+assert m.GOOGLE_NOISE.search("《魔物獵人：旅人》最強首抽攻略+禮包碼")
+assert m.GOOGLE_EVENT_TITLE.search("《三角洲行動》推出限時聯動活動")
 google_xml=(
  '<?xml version="1.0"?><rss><channel>'
  '<item><title>《神魔之塔》推出限時儲值活動</title><link>https://news.google.com/rss/articles/example1</link><pubDate>Wed, 11 Nov 2026 06:00:00 GMT</pubDate><source>遊戲新聞</source></item>'

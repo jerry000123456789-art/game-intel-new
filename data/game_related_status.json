@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-11-11T06:41:18+00:00",
+  "checked_at": "2026-11-11T06:44:44+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
     "guides": 0,
-    "events": 9
+    "events": 0
   },
   "total_leads": {
     "codes": 52,
@@ -14,77 +14,77 @@
     "events": 88
   },
   "per_game": {
-    "Thronefall - A Little Kingdom": {
+    "Bruno – My Talking Slime Pet": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "TMNT: Shredder's Revenge": {
+    "Domino Dreams™": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Turnip Boy Commits Tax Evasion": {
+    "My Talking Tom Friends 2": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Waltz of the Wizard": {
+    "Runner Heroes: Endless Skating": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "傳奇大亂鬥": {
+    "奇妙邏輯冒險": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "凹嗚殺:狼人在身邊": {
+    "熊貓寶寶城市": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "勝利女神：妮姬": {
-      "codes": 0,
-      "guides": 0,
-      "events": 6
-    },
-    "口袋奇兵（Top War）-超休閒的策略遊戲": {
+    "王國之歌（Top Heroes）": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "可口的咖啡": {
+    "月光嶺物語 ～Moonlight Peaks～": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "塔與傭兵團": {
+    "月兔漫遊": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "影劍風雲傳:萬界無限輪迴穿越": {
+    "王國：兩個皇冠": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "怪物彈珠": {
-      "codes": 0,
-      "guides": 0,
-      "events": 3
-    },
-    "戰鎚40,000：爆矢槍 Boom": {
+    "破壞突擊隊": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "捷運規劃大師": {
+    "租戶賭財運": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "最強劍尊：吃最軟的飯，做最硬的劍": {
+    "窗口花園 - 洛菲放置遊戲": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "萌龍進化論 (Merge Dragons!)": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "裝備仔: OVERGEARED": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -795,7 +795,22 @@
     "怪物彈珠": "2026-11-11T06:41:18+00:00",
     "戰鎚40000爆矢槍boom": "2026-11-11T06:41:18+00:00",
     "捷運規劃大師": "2026-11-11T06:41:18+00:00",
-    "最強劍尊吃最軟的飯做最硬的劍": "2026-11-11T06:41:18+00:00"
+    "最強劍尊吃最軟的飯做最硬的劍": "2026-11-11T06:41:18+00:00",
+    "brunomytalkingslimepet": "2026-11-11T06:44:44+00:00",
+    "dominodreamstm": "2026-11-11T06:44:44+00:00",
+    "mytalkingtomfriends2": "2026-11-11T06:44:44+00:00",
+    "runnerheroesendlessskating": "2026-11-11T06:44:44+00:00",
+    "奇妙邏輯冒險": "2026-11-11T06:44:44+00:00",
+    "熊貓寶寶城市": "2026-11-11T06:44:44+00:00",
+    "王國之歌topheroes": "2026-11-11T06:44:44+00:00",
+    "月光嶺物語moonlightpeaks": "2026-11-11T06:44:44+00:00",
+    "月兔漫遊": "2026-11-11T06:44:44+00:00",
+    "王國兩個皇冠": "2026-11-11T06:44:44+00:00",
+    "破壞突擊隊": "2026-11-11T06:44:44+00:00",
+    "租戶賭財運": "2026-11-11T06:44:44+00:00",
+    "窗口花園洛菲放置遊戲": "2026-11-11T06:44:44+00:00",
+    "萌龍進化論mergedragons": "2026-11-11T06:44:44+00:00",
+    "裝備仔overgeared": "2026-11-11T06:44:44+00:00"
   },
   "errors": []
 }

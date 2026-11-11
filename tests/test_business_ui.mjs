@@ -9,8 +9,8 @@ for(const id of ['gx-home','gx-games','gx-codes','gx-content','gx-calendar','gx-
 for(const label of ['最近 30 天新上市','華為 AppGallery','Threads','Dcard','巴哈姆特','Instagram']){
   assert(index.includes(label),label);
 }
-assert(index.includes('src="/business.js"'));
-assert(index.includes('href="/business.css"'));
+assert(index.includes('src="/business.js?v='));
+assert(index.includes('href="/business.css?v='));
 assert(src.includes('data/')); // at runtime via /data/
 assert(!index.includes('id="gx-ad-conversions"')); // No conversion tracking.
 const start=src.indexOf('function gameStatus(rows){');
@@ -69,6 +69,18 @@ assert(src.includes("if(ui.window!=='all'&&ui.window!==st.type)continue"),'All g
 assert(src.includes('data-gx-open-all'),'A zero-result recent view must offer the collected games');
 assert(src.includes('gameRows.slice(first,first+pageSize)'),'Full game results must use real pagination');
 assert(index.includes('<option value="all">所有</option>'),'All platforms labeled 所有');
+assert(index.includes('id="gx-calendar-scope"'),'Calendar must offer all-games and tracked-only filters');
+assert(index.includes('id="gx-calendar-search"'),'Calendar must support game search');
+assert(src.includes('gx-timeline-grid'),'Calendar must show a horizontal multi-day timeline');
+assert(src.includes('data.eventTips.forEach(add)'),'Screenshot-sourced events must be visible without a watchlist');
+const exampleEvents=JSON.parse(readFileSync(new URL('../data/event_tips.json',import.meta.url),'utf8'));
+const task=exampleEvents.items.find(x=>x.game==='陰陽師'&&x.title.includes('任務開放'));
+const claim=exampleEvents.items.find(x=>x.game==='陰陽師'&&x.title.includes('獎勵領取'));
+assert.equal(task?.start_date,'2026-11-11');
+assert.equal(task?.end_date,'2026-12-01');
+assert.equal(claim?.end_date,'2026-12-08');
+assert(task.start_note.includes('維護後')&&claim.start_note.includes('維護後'));
+assert(!task.source_url&&!claim.source_url,'Do not invent an official URL from a screenshot');
 assert(index.includes('id="gx-watch-result"'),'True cloud save status shown');
 assert(!index.includes('會開啟你自己的 GitHub Issue'),'No GitHub issue workflow in form');
 

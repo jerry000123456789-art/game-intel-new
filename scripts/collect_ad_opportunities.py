@@ -26,6 +26,8 @@ DATE_RE=re.compile(r"(20\d{2})[-/.年](1[0-2]|0?[1-9])[-/.月](3[01]|[12]\d|0?[1
 RANGE_MARKER=re.compile(r"活動時間|活动时间|活動期間|活动期间|參與時間|参与时间|event period|限時活動|限时活动",re.I)
 MONEY=re.compile(r"累儲|累储|累充|儲值|充值|返利|首充|特惠礼包|特惠禮包|限時禮包|限时礼包|通行证|战令|戰令",re.I)
 LIMITED=re.compile(r"限時|限时|福利|獎勵|奖励|禮包|礼包|聯動|联动|新服|开服|開服|签到|簽到|兑换码|兌換碼|活動|活动",re.I)
+GOOGLE_EVENT_TITLE=re.compile(r"累儲|累储|累充|儲值|充值|返利|首儲|首充|特惠|限時|限时|禮包|礼包|聯動|联动|週年|周年|慶典|庆典|賽季|赛季|開服活動|开服活动|開服福利|开服福利|活動|活动|簽到|签到|回饋|回馈|抽獎|抽奖",re.I)
+GOOGLE_NOISE=re.compile(r"無法登入|无法登录|登入異常|登录异常|開服壅塞|开服拥塞|伺服器異常|服务器异常|下載教學|下载教学|首抽攻略|開局攻略|开局攻略|序號拿|最強首抽|最强首抽|詐騙|诈骗",re.I)
 
 class TextLines(HTMLParser):
     def __init__(self):
@@ -132,7 +134,7 @@ def google_discover(config,getter=fetch):
                 title=(item.findtext("title") or "").strip()
                 link=(item.findtext("link") or "").strip()
                 description=(item.findtext("description") or "").strip()
-                if not title or not LIMITED.search(title+" "+re.sub(r"<[^>]+>"," ",description[:250])):continue
+                if not title or not GOOGLE_EVENT_TITLE.search(title) or GOOGLE_NOISE.search(title):continue
                 if not link.startswith("https://"):continue
                 try:
                     link_host=urllib.parse.urlparse(link).hostname

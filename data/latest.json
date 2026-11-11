@@ -1,10 +1,28 @@
 {
-  "updated_at": "2026-11-11T13:15:47+00:00",
+  "updated_at": "2026-11-11T15:57:09+00:00",
   "status": "ok",
   "errors": [],
   "fetched": 120,
   "note": "RSS 標題線索，尚未驗證兌換碼、上市日期或活動細節。",
   "items": [
+    {
+      "id": "4db9fdb2cc2881b6beeb",
+      "category": "新遊戲資訊",
+      "title": "《王國W：血盟之誓》11/17 正式公測！事前登錄突破 50 萬 野外 PK、血盟戰玩法公開 | 上報 - LINE TODAY",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB0ZmlmZDNrbmlpUXpvR182Vjk5SGNHaTJKXzAyRWlWVXYyTmxwclZDTDZNV1g1R3R4WDlTbjVhd1BWYmRkSFl1SzMtZkphZ1JFYUhZSGhR?oc=5",
+      "publisher": "LINE TODAY",
+      "published_at": "2026-11-11T14:48:25+00:00",
+      "first_seen_at": "2026-11-11T15:57:09+00:00"
+    },
+    {
+      "id": "e45389255e8b8cdfada9",
+      "category": "活動行事曆",
+      "title": "【面露嫌棄】《戰國†戀姬Online》夢幻聯動《一臉嫌棄》推限定活動 - www.webook.com.tw",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBIVXdzWG16U1k0djVVU2twNHNCZl8yaTg1N0Q4RVlDNUE3RlNsVlBRczVvOVZsUlgzMERUZUlyV2xJd1drTVUwS0RVaE8tbXpMOFNYb1ZTREpURm4wemxQemYwVVVVWE1mT05vNXVVcml2N1E?oc=5",
+      "publisher": "www.webook.com.tw",
+      "published_at": "2026-11-11T14:01:51+00:00",
+      "first_seen_at": "2026-11-11T15:57:09+00:00"
+    },
     {
       "id": "aa92b8c1b434be87efee",
       "category": "兌換碼",
@@ -825,6 +843,15 @@
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
+      "id": "2807cc2cc1ad1412cf57",
+      "category": "活動行事曆",
+      "title": "《明日方舟：終末地》711思樂冰聯動8/19開跑 周邊採「OPENPOINT點數加購」預購制 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQ19XdHhkVXlOa3hPX25mc1Y0TDJiSHM0WnF2WHREZzlBbm5SeXhFQWVzVUNmOEd0enJ2eDlhOTFUbkNUXzVCRlM5S2h3SXZfNHhCejlaaVBKbkpfNkNXbW9WbjVBXzhnUGkteEtyLVBvZVpVOU1KektkYXVRYnNxalphV0toRGR4VkttZHM2UUl1N1Z3SlEw?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-08-03T07:00:00+00:00",
+      "first_seen_at": "2026-11-11T15:57:09+00:00"
+    },
+    {
       "id": "907a1ef87d4fe794f6b0",
       "category": "活動行事曆",
       "title": "《Garena 傳說對決》x《膽大黨》聯動 8 月 1 日開啟厄卡倫、寺仁造型帥氣登場《Arena of Valor》 - GNN 新聞網",
@@ -1109,7 +1136,7 @@
       "title": "《異環》公測懶人包：上市時間、限定池角色、開服福利、聯名活動一次看 - Yahoo新聞",
       "url": "https://news.google.com/rss/articles/CBMi3wNBVV95cUxPRDZfQVZYMFVkRC0zQ1ByZTNobGVqTVhIWjl3MWxuQ1lYSmlGOVRoRzROT0RONzRzd2h5ZmNXa0RjdVRHOEpKYmQ0T0JUT29mT1ZGUTZGSC1VZzJGcTVfVXNScUFIckFKRzl4VVNkQ21hak5DUkFTZVIwNmdqQUVNa0REWWdhRVZXdUx5cWR3WVY1QldjN3R1X2lxSnhZdkJCRG5xZGRlS1pNMmF4VTlhQ200ZWFCbkFQZHRMeTdaYUN5RWYwQ0ZGR1d4dEJWMjBiWVMzTzY3TnFOc0twN29oMFRFbUpRXzlDeEtCcXVKeWJ2dGQ3R3Z4Y2NzU2w0em9nU19SVUllZUI2YTZ6NENxS0hFYzBjZmtodmQxTmlsbDUxMldrck9EN3lnWUt1MU5BcGs5S3lyakRYQnBzaS0ya21PcmdrSGN5OWlKa1JtTnJwMEUydVI1bHBjZEFCVkZ1Q2ZOQWpMaUdrbW10OTRDRnlMdzZLOXl3RHpfSTdwV1ZodEhQMkIzR3UwX1NIcjdsWFN4cmdWeEg1Z05vQlAyb2d3ekxFRDFRc0Jpc1RSQWZkYnNvcEIxa3R5QkZhWEs3emNNX2x6aWk5MG5zLXVEVk9CN2FJRGlJRjd4ZFJpYw?oc=5",
       "publisher": "Yahoo新聞",
-      "published_at": "2026-04-22T07:00:00+00:00",
+      "published_at": "2026-04-23T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {

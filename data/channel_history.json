@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-11-11T13:15:49+00:00",
+  "updated_at": "2026-11-11T15:57:11+00:00",
   "status": "ok",
   "fetched": 105,
   "errors": [],
   "items": [
+    {
+      "id": "68aed2bc5bacac9e2c365245",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "PS3 主機今日迎接誕生 20 週年 挾帶雄心壯志的高解析度多媒體娛樂挑戰者",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314878",
+      "publisher": "",
+      "published_at": "2026-11-11T22:21:58+08:00",
+      "first_seen_at": "2026-11-11T15:57:11+00:00"
+    },
     {
       "id": "96e9c4ef89cab15e51d0b7d6",
       "category": "巴哈姆特情報",
@@ -468,7 +478,7 @@
       "id": "6064350564ebfd6896b49815",
       "category": "影片情報",
       "origin": "YouTube",
-      "title": "《魔物獵人：旅人》日本老獵人怎麼評？有人說不像手遊，有人說太手遊玩不下去 #CD喜德",
+      "title": "【魔物獵人：旅人】日本評價徹底兩極！原產地老獵人竟然這樣說？抽卡機率、手把操作、無課SSR、720抽一次看懂 #CD喜德",
       "url": "https://www.youtube.com/watch?v=JSh4TbMKnUM",
       "publisher": "CD喜德",
       "published_at": "2026-11-11T13:00:08+00:00",
@@ -728,7 +738,7 @@
       "id": "10bed7a9d2135ce8f0425a34",
       "category": "影片情報",
       "origin": "YouTube",
-      "title": "《魔物獵人：旅人》彌多律最強配裝！招架時小次郎也會出招，繪影跟隊伍一次看 #CD喜德",
+      "title": "【魔物獵人：旅人】彌多律最強配裝徹底公開！竟然要靠一隻貓？兩套配裝、光稜龍繪影、120抽必得、隊伍推薦一次看懂 #CD喜德",
       "url": "https://www.youtube.com/watch?v=pHTQTF0_1_s",
       "publisher": "CD喜德",
       "published_at": "2026-11-11T01:00:14+00:00",

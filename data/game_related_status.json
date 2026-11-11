@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-11T13:18:11+00:00",
+  "checked_at": "2026-11-11T15:57:41+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
-    "codes": 1,
+    "codes": 0,
     "guides": 0,
-    "events": 1
+    "events": 0
   },
   "total_leads": {
     "codes": 53,
     "guides": 59,
-    "events": 94
+    "events": 96
   },
   "per_game": {
-    "哈利波特: 霍格華茲之謎": {
+    "Cut the Rope Remastered": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Words of Wonders: Search": {
+    "Escape the Baby Alarm": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Word Solitaire Now!": {
+    "Everything is Crab": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Zombie Sniper War 3 - Fire FPS": {
+    "Fishing Inc: Legendary Catch": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "像素射擊 3D (Pixel Gun 3D)": {
+    "Petit Planet": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "劍之川": {
-      "codes": 1,
-      "guides": 0,
-      "events": 1
-    },
-    "塔塔冒險隊": {
+    "Potion Craft": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "大黑幫": {
+    "Redecor - Home Design Game": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "奇蹟之詞：用於連接詞彙的填字遊戲": {
+    "Wool Escape 3D: ASMR": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "好萊塢合成：星夢逆襲": {
+    "尋找差異: 解謎": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "子彈英雄：塔防 × 戰棋策略 RPG": {
+    "親愛的農場": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "孔明與阿斗": {
+    "部落衝突 (Clash of Clans)": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "字謎遊戲 Wordle！": {
+    "食光旅行": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "每日麻將配對": {
+    "Delicious B&B: 裝飾與三消": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "箭術堡壘：城堡戰爭": {
+    "Jewel Coloring": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Jigsaw Puzzle - 經典拼圖遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -246,9 +246,9 @@
     "奇蹟之詞用於連接詞彙的填字遊戲": "2026-11-11T13:18:11+00:00",
     "好萊塢合成星夢逆襲": "2026-11-11T13:18:11+00:00",
     "字謎遊戲wordle": "2026-11-11T13:18:11+00:00",
-    "親愛的農場": "2026-11-08T05:47:47+00:00",
-    "部落衝突clashofclans": "2026-11-08T05:47:47+00:00",
-    "食光旅行": "2026-11-08T05:47:47+00:00",
+    "親愛的農場": "2026-11-11T15:57:41+00:00",
+    "部落衝突clashofclans": "2026-11-11T15:57:41+00:00",
+    "食光旅行": "2026-11-11T15:57:41+00:00",
     "the9thhauntedcorridor": "2026-11-08T05:47:47+00:00",
     "每日麻將配對": "2026-11-11T13:18:11+00:00",
     "箭術堡壘城堡戰爭": "2026-11-11T13:18:11+00:00",
@@ -256,9 +256,9 @@
     "塔塔冒險隊": "2026-11-11T13:18:11+00:00",
     "子彈英雄塔防戰棋策略rpg": "2026-11-11T13:18:11+00:00",
     "孔明與阿斗": "2026-11-11T13:18:11+00:00",
-    "deliciousbb裝飾與三消": "2026-11-08T05:49:10+00:00",
-    "jewelcoloring": "2026-11-08T05:49:10+00:00",
-    "jigsawpuzzle經典拼圖遊戲": "2026-11-08T05:49:10+00:00",
+    "deliciousbb裝飾與三消": "2026-11-11T15:57:41+00:00",
+    "jewelcoloring": "2026-11-11T15:57:41+00:00",
+    "jigsawpuzzle經典拼圖遊戲": "2026-11-11T15:57:41+00:00",
     "mahjongvoyagetilematching": "2026-11-08T05:49:10+00:00",
     "matchingtiles城市景觀": "2026-11-08T05:49:10+00:00",
     "piggyescapepigjamfarm": "2026-11-08T05:49:10+00:00",
@@ -830,7 +830,16 @@
     "恐懼戰略卡牌戰鬥": "2026-11-11T10:07:19+00:00",
     "戰艦行動版2現代戰艦世界": "2026-11-11T10:07:19+00:00",
     "蜘蛛紙牌經典遊戲": "2026-11-11T10:07:19+00:00",
-    "哈利波特霍格華茲之謎": "2026-11-11T13:18:11+00:00"
+    "哈利波特霍格華茲之謎": "2026-11-11T13:18:11+00:00",
+    "cuttheroperemastered": "2026-11-11T15:57:41+00:00",
+    "escapethebabyalarm": "2026-11-11T15:57:41+00:00",
+    "everythingiscrab": "2026-11-11T15:57:41+00:00",
+    "fishinginclegendarycatch": "2026-11-11T15:57:41+00:00",
+    "petitplanet": "2026-11-11T15:57:41+00:00",
+    "potioncraft": "2026-11-11T15:57:41+00:00",
+    "redecorhomedesigngame": "2026-11-11T15:57:41+00:00",
+    "woolescape3dasmr": "2026-11-11T15:57:41+00:00",
+    "尋找差異解謎": "2026-11-11T15:57:41+00:00"
   },
   "errors": []
 }

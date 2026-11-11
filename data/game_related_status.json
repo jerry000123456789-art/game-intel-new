@@ -1,93 +1,93 @@
 {
-  "checked_at": "2026-11-11T01:11:06+00:00",
+  "checked_at": "2026-11-11T04:00:40+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
     "guides": 0,
-    "events": 3
+    "events": 2
   },
   "total_leads": {
     "codes": 51,
     "guides": 56,
-    "events": 75
+    "events": 77
   },
   "per_game": {
-    "ArrowCube - 3DPuzzle": {
+    "BitLife - Life Simulator": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Cats Mansion: Cat Games": {
+    "Duddu – My Virtual Pet(我的虛擬寵物)": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "RollerCoaster Tycoon Touch": {
+    "Duet Cats: Cute Cat Music": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Township": {
+    "Eterspire - 輕鬆MMORPG": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Wool Connect: 毛線拼圖": {
+    "No Limit Drag Racing 2": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "プロ野球スピリッツＡ": {
+    "Robbery Bob 2: Double Trouble": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "兒童畫畫遊戲：2-6歲幼兒繪畫塗色填色益智遊戲大全": {
+    "Space Rock Breaker": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "夢幻家園 (Homescapes)": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "少女迷境": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "插花消消樂 - Blossom Sort® · 消除遊戲": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "氣墊球 挑戰": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "我的小酒店": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "新笑傲江湖M": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "星布谷地": {
-      "codes": 0,
-      "guides": 0,
-      "events": 1
-    },
-    "白銀之城": {
+    "天堂M": {
       "codes": 0,
       "guides": 0,
       "events": 2
+    },
+    "명조:워더링 웨이브": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "萬物皆可蟹": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "銀河防衛戰 Galaxy Defense": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "鑽石消消樂-寶石迷城家園版": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "鴨子兄弟傳奇：放置型RPG": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "라이징파이터: 나만의 MMA 격투 선수 키우기": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "붕괴: 스타레일": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
     }
   },
   "checked_games": {
@@ -720,7 +720,22 @@
     "我的小酒店": "2026-11-11T01:11:06+00:00",
     "新笑傲江湖m": "2026-11-11T01:11:06+00:00",
     "星布谷地": "2026-11-11T01:11:06+00:00",
-    "白銀之城": "2026-11-11T01:11:06+00:00"
+    "白銀之城": "2026-11-11T01:11:06+00:00",
+    "bitlifelifesimulator": "2026-11-11T04:00:40+00:00",
+    "duddumyvirtualpet我的虛擬寵物": "2026-11-11T04:00:40+00:00",
+    "duetcatscutecatmusic": "2026-11-11T04:00:40+00:00",
+    "eterspire輕鬆mmorpg": "2026-11-11T04:00:40+00:00",
+    "nolimitdragracing2": "2026-11-11T04:00:40+00:00",
+    "robberybob2doubletrouble": "2026-11-11T04:00:40+00:00",
+    "spacerockbreaker": "2026-11-11T04:00:40+00:00",
+    "天堂m": "2026-11-11T04:00:40+00:00",
+    "명조워더링웨이브": "2026-11-11T04:00:40+00:00",
+    "萬物皆可蟹": "2026-11-11T04:00:40+00:00",
+    "銀河防衛戰galaxydefense": "2026-11-11T04:00:40+00:00",
+    "鑽石消消樂寶石迷城家園版": "2026-11-11T04:00:40+00:00",
+    "鴨子兄弟傳奇放置型rpg": "2026-11-11T04:00:40+00:00",
+    "라이징파이터나만의mma격투선수키우기": "2026-11-11T04:00:40+00:00",
+    "붕괴스타레일": "2026-11-11T04:00:40+00:00"
   },
   "errors": []
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T01:10:33+00:00",
+  "updated_at": "2026-11-11T04:00:01+00:00",
   "status": "partial",
   "fetched": 30,
   "errors": [
@@ -13,7 +13,7 @@
     },
     {
       "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4c-wTOqEID-_vH4MhNs06w",
-      "error": "HTTP Error 500: Internal Server Error"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC-e2q_YhFnfsEggbJsTLPHg",
@@ -21,10 +21,50 @@
     },
     {
       "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_XZ4O10pZq9RCigggGSB1A",
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 500: Internal Server Error"
     }
   ],
   "items": [
+    {
+      "id": "02c2b1ea318fe110111d1ac6",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《刀劍亂舞 ONLINE》新刀劍男士「八八王國吉」於活動「江戶城潛入調查」中登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314811",
+      "publisher": "",
+      "published_at": "2026-11-11T11:42:07+08:00",
+      "first_seen_at": "2026-11-11T04:00:01+00:00"
+    },
+    {
+      "id": "ec7809112b420ed76c30b581",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "PlayStation 多人搶劫遊戲《公平遊戲＄》確定取消開發 因測試結果不如預期",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314810",
+      "publisher": "",
+      "published_at": "2026-11-11T11:38:18+08:00",
+      "first_seen_at": "2026-11-11T04:00:01+00:00"
+    },
+    {
+      "id": "05579590d79189b1599125ba",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《無職轉生～到了異世界就拿出真本事～迴響編年史》釋出「我的房間」玩法介紹影片",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314801",
+      "publisher": "",
+      "published_at": "2026-11-11T10:45:14+08:00",
+      "first_seen_at": "2026-11-11T04:00:01+00:00"
+    },
+    {
+      "id": "ef849be69773044b473d241a",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《三麗鷗明星的微笑小鎮》迎接 BLACK FRIDAY 黑色星期五 完成任務入手限定道具",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314800",
+      "publisher": "",
+      "published_at": "2026-11-11T10:30:01+08:00",
+      "first_seen_at": "2026-11-11T04:00:01+00:00"
+    },
     {
       "id": "436362e8edfed351f2c69402",
       "category": "巴哈姆特情報",

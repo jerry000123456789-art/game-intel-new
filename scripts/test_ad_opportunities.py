@@ -15,6 +15,20 @@ assert m.exclude("Genshin Impact",cfg)
 assert m.exclude("崩壞：星穹鐵道",cfg)
 assert m.exclude("Zenless Zone Zero",cfg)
 assert not m.exclude("阴阳师",cfg)
+# Google News matches cross-site announcements, but cannot assert event dates.
+assert "news.google.com/rss/search" in m.google_news_url("神魔之塔 活動")
+google_xml='<?xml version="1.0"?><rss><channel>'+
+ '<item><title>《神魔之塔》推出限時儲值活動</title><link>https://news.google.com/rss/articles/example1</link><pubDate>Wed, 11 Nov 2026 06:00:00 GMT</pubDate><source>遊戲新聞</source></item>'+
+ '<item><title>《原神》推出限時活動</title><link>https://news.google.com/rss/articles/example2</link><pubDate>Wed, 11 Nov 2026 06:00:00 GMT</pubDate><source>遊戲新聞</source></item>'+
+ '<item><title>《神魔之塔》新活動</title><link>https://news.google.com/rss/articles/example3</link><pubDate>Wed, 11 Nov 2026 06:00:00 GMT</pubDate><source>遊戲新聞</source></item>'+
+ '</channel></rss>'
+with patch.object(m,"NOW",dt.datetime(2026,11,11,8,0,tzinfo=dt.timezone.utc)):
+    leads,checked,ok,seen,errors=m.google_discover(cfg,lambda url:google_xml)
+assert checked==cfg["google_general_queries_per_run"]+cfg["google_games_per_run"],checked
+assert ok==checked and seen>0 and not errors,errors
+assert any(x["game"]=="神魔之塔" and x["source_type"]=="Google 新聞搜尋" for x in leads),leads
+assert not any(x["game"]=="原神" for x in leads),leads
+assert all("start_date" not in x and "end_date" not in x and x["status"]=="source_lead_only" for x in leads)
 assert m.safe_taptap("https://www.taptap.cn/moment/123")
 assert not m.safe_taptap("https://evil.example/moment/123")
 assert not m.safe_taptap("http://www.taptap.cn/moment/123")
@@ -35,9 +49,11 @@ def getter(target):
     return html if target==url else rss
 with patch.object(m,"TODAY",dt.date(2026,11,11)):
     result,health=m.collect(config={**cfg,"reference_events":[]},previous={"items":[]},getter=getter)
-assert health["queries_attempted"]==2*len(cfg["taptap_discovery_queries"])+len(cfg["taptap_forum_feeds"])
+assert health["google_queries_attempted"]==cfg["google_general_queries_per_run"]+cfg["google_games_per_run"]
+assert health["taptap_queries_attempted"]==2*len(cfg["taptap_discovery_queries"])
+assert health["queries_attempted"]==health["google_queries_attempted"]+health["taptap_queries_attempted"]
 assert health["taptap_dated_items_parsed"]==1,health
 assert any(x["game"]=="測試好遊戲" and x["market"]=="CN" for x in result["items"])
 assert not any(m.exclude(x["game"],cfg) for x in result["items"])
 assert all(x["status"]!="可直接投放" for x in result["items"])
-print("PASS: precise TapTap date discovery, miHoYo exclusions, China-region advertising gate and no inferred release periods")
+print("PASS: broad Google News source leads without fabricated dates, conservative TapTap evidence, miHoYo exclusion and market gates")

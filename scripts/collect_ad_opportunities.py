@@ -159,6 +159,10 @@ def evaluate(raw,config):
     elif remaining<0:score-=35
     market=row.get("market","unknown").upper()
     if market=="TW":score+=12
+    # Precise ad opportunity ratings must reflect regional applicability;
+    # a China-only or unverified market cannot outrank verified TW leads.
+    if market=="CN":score=min(score,48)
+    elif market not in ("TW","GLOBAL"):score=min(score,55)
     score=max(0,min(100,score))
     if end<TODAY:status="已結束（歷史）"
     elif market=="CN":status="地區待核實（中國站）"
@@ -201,7 +205,7 @@ def collect(config=None,previous=None,getter=fetch):
             errors.append({"provider":"TapTap page","error":str(e)[:160]})
     # Include otherwise-hidden dated events from all games, not only the owner's
     # two tracked games. A general news/event record is NOT assumed to be TW.
-    for name in ("events","event_tips"):
+    for name in ("events","event_tips","tracked_events"):
         f=ROOT/"data"/(name+".json")
         if not f.exists():continue
         try:entries=json.loads(f.read_text(encoding="utf8")).get("items",[])
@@ -211,7 +215,10 @@ def collect(config=None,previous=None,getter=fetch):
             x["start_date"]=str(x.get("start_at") or x.get("start_date") or "")[:10]
             x["end_date"]=str(x.get("end_at") or x.get("end_date") or "")[:10]
             x["market"]=x.get("market") or "unknown"
-            x["source_type"]=x.get("source_type") or ("已收錄遊戲活動" if name=="events" else "使用者提供截圖")
+            x["source_type"]=x.get("source_type") or (
+                "已收錄遊戲活動" if name=="events" else
+                "使用者提供截圖" if name=="event_tips" else
+                "公開新聞追蹤活動")
             rows.append(x)
     merged={}
     for row in [*old.get("items",[]),*rows]:

@@ -239,9 +239,23 @@ def collect(config=None,previous=None,getter=fetch):
 
 def main():
     prev=json.loads(OUT.read_text(encoding="utf8")) if OUT.exists() else {"items":[]}
+    old_status=json.loads(STATUS.read_text(encoding="utf8")) if STATUS.exists() else {}
     result,status=collect(previous=prev)
-    OUT.write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf8")
-    STATUS.write_text(json.dumps(status,ensure_ascii=False,indent=2)+"\n",encoding="utf8")
-    print("Ad opportunity radar: "+json.dumps({k:v for k,v in status.items() if k!="source_errors"},ensure_ascii=False))
+    # Avoid an hourly Cloudflare build when only the scan timestamp changed;
+    # this keeps the no-subscription cloud design within free CI/build quotas.
+    def facts(rows):
+        return [{k:v for k,v in x.items() if k!="updated_at"} for x in rows]
+    changed=(facts(result["items"])!=facts(prev.get("items",[]))
+             or result["leads"]!=prev.get("leads",[]))
+    if changed or not OUT.exists():
+        OUT.write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf8")
+    status_changed=(not STATUS.exists()
+        or old_status.get("updated_at","")[:10]!=status["updated_at"][:10]
+        or old_status.get("source_errors")!=status.get("source_errors")
+        or old_status.get("taptap_dated_items_parsed")!=status.get("taptap_dated_items_parsed")
+        or old_status.get("taptap_article_links_found")!=status.get("taptap_article_links_found"))
+    if status_changed:
+        STATUS.write_text(json.dumps(status,ensure_ascii=False,indent=2)+"\n",encoding="utf8")
+    print("Ad opportunity radar: "+json.dumps({k:v for k,v in status.items() if k!="source_errors"},ensure_ascii=False)+" changed="+str(changed))
 
 if __name__=="__main__":main()

@@ -114,7 +114,7 @@ def rss_discover(config,getter=fetch):
                         sources.append({"url":link,"title":title,"via":engine})
             except Exception as e:errors.append({"provider":engine,"error":str(e)[:160]})
     unique={x["url"]:x for x in sources}
-    return list(unique.values())[:45],checked,errors
+    return list(unique.values())[:12],checked,errors
 
 def evaluate(raw,config):
     row=dict(raw)

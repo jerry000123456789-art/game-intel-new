@@ -102,7 +102,7 @@ def rss_discover(config,getter=fetch):
         # Bing often supplies direct article URLs; Google may supply RSS redirect
         # URLs, which are ignored rather than falsely labeled as TapTap.
         for engine,url in (
-          ("Bing","https://www.bing.com/news/search?"+urllib.parse.urlencode({"q":q,"format":"rss","mkt":"zh-CN"})),
+          ("Bing Web","https://www.bing.com/search?"+urllib.parse.urlencode({"q":q,"format":"rss","setlang":"zh-hans"})),
           ("Google News","https://news.google.com/rss/search?"+urllib.parse.urlencode({"q":q+" when:14d","hl":"zh-CN","gl":"CN","ceid":"CN:zh-Hans"}))):
             checked+=1
             try:

@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-11-11T06:33:58+00:00",
+  "checked_at": "2026-11-11T06:37:26+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
-    "codes": 1,
-    "guides": 1,
-    "events": 2
+    "codes": 0,
+    "guides": 0,
+    "events": 0
   },
   "total_leads": {
     "codes": 52,
@@ -14,77 +14,77 @@
     "events": 79
   },
   "per_game": {
-    "Aethric英雄 | 經典角色扮演遊戲": {
+    "Narcos: Cartel Wars & Strategy": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Archers Online: PvP": {
+    "殭屍的黎明：生存 (Dawn of Zombies)": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Critical Ops: Multiplayer FPS": {
+    "Monument Valley 3": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Gold and Goblins - 模擬經營 挖礦遊戲": {
+    "NeonVortex": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "My Talking Angela 2": {
+    "Nitelore": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Sonic Rumble Party": {
-      "codes": 0,
-      "guides": 0,
-      "events": 2
-    },
-    "時光公主：戴珍珠耳環的少女": {
+    "Penalty Area: Face2Face": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "超人力霸王：傳奇英雄2": {
-      "codes": 1,
-      "guides": 1,
-      "events": 0
-    },
-    "DOOM": {
+    "POOLS™": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "DOOM II": {
+    "Quest of Dungeons": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Duck Detective: Ghost Glamping": {
+    "Resident Evil 4": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Enchanted Survival: 刷寶RPG": {
+    "RPG Heroes": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Fortias Saga: Idle RPG": {
+    "ScourgeBringer": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "How Many Dudes?": {
+    "Skul: The Hero Slayer": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Hyper Light Drifter": {
+    "Star Wars™: KOTOR": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "STAR WARS™: KOTOR II": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "The Pathless": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -765,7 +765,22 @@
     "enchantedsurvival刷寶rpg": "2026-11-11T06:33:58+00:00",
     "fortiassagaidlerpg": "2026-11-11T06:33:58+00:00",
     "howmanydudes": "2026-11-11T06:33:58+00:00",
-    "hyperlightdrifter": "2026-11-11T06:33:58+00:00"
+    "hyperlightdrifter": "2026-11-11T06:33:58+00:00",
+    "narcoscartelwarsstrategy": "2026-11-11T06:37:26+00:00",
+    "殭屍的黎明生存dawnofzombies": "2026-11-11T06:37:26+00:00",
+    "monumentvalley3": "2026-11-11T06:37:26+00:00",
+    "neonvortex": "2026-11-11T06:37:26+00:00",
+    "nitelore": "2026-11-11T06:37:26+00:00",
+    "penaltyareaface2face": "2026-11-11T06:37:26+00:00",
+    "poolstm": "2026-11-11T06:37:26+00:00",
+    "questofdungeons": "2026-11-11T06:37:26+00:00",
+    "residentevil4": "2026-11-11T06:37:26+00:00",
+    "rpgheroes": "2026-11-11T06:37:26+00:00",
+    "scourgebringer": "2026-11-11T06:37:26+00:00",
+    "skultheheroslayer": "2026-11-11T06:37:26+00:00",
+    "starwarstmkotor": "2026-11-11T06:37:26+00:00",
+    "starwarstmkotorii": "2026-11-11T06:37:26+00:00",
+    "thepathless": "2026-11-11T06:37:26+00:00"
   },
   "errors": []
 }

@@ -84,7 +84,7 @@ def candidate_from_taptap(url,title,raw,verified_at,game_hint=''):
     parser=TextLines();parser.feed(raw)
     lines=parser.lines()
     # Captcha or blocked pages must never generate verified event claims.
-    if len(lines)<3 or any("arg1=" in x for x in lines[:3]):return None
+    if (len(lines)<3 and len(" ".join(lines))<100) or any("arg1=" in x for x in lines[:3]):return None
     game=game_hint or game_from_title(title)
     if not game:return None
     ranges=dated_ranges(lines)
@@ -187,6 +187,9 @@ def collect(config=None,previous=None,getter=fetch):
                 content=getter(lead["url"])
                 cand=candidate_from_taptap(lead["url"],lead["title"],content,NOW.date().isoformat(),lead.get("game",""))
             if cand:
+                if lead.get("via")=="RSSHub official forum":
+                    cand["source_type"]="TapTap 官方版論壇 RSS"
+                    cand["evidence_status"]="官方版論壇文字擷取，仍需核對地區與資格"
                 rows.append(cand);fetched+=1
             else:discovered.append({"title":lead["title"],"source_url":lead["url"],"note":"頁面未取得可核實活動日期"})
         except Exception as e:

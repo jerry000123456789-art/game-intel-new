@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T04:00:01+00:00",
+  "updated_at": "2026-11-11T06:29:50+00:00",
   "status": "partial",
   "fetched": 30,
   "errors": [
@@ -21,10 +21,80 @@
     },
     {
       "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_XZ4O10pZq9RCigggGSB1A",
-      "error": "HTTP Error 500: Internal Server Error"
+      "error": "HTTP Error 404: Not Found"
     }
   ],
   "items": [
+    {
+      "id": "a7d21c4ce7185216f33a37a4",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "PlayStation 5 全球累計銷售突破 1 億台 成為 PlayStation 家族第 4 台破億主機",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314825",
+      "publisher": "",
+      "published_at": "2026-11-11T13:46:56+08:00",
+      "first_seen_at": "2026-11-11T06:29:50+00:00"
+    },
+    {
+      "id": "39ec570e3f08978357409507",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《瓦爾哈拉 生存》舉辦傳說武器召喚券活動 「黃金輪盤活動」進行至 11 月 18 日",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314824",
+      "publisher": "",
+      "published_at": "2026-11-11T12:55:00+08:00",
+      "first_seen_at": "2026-11-11T06:29:50+00:00"
+    },
+    {
+      "id": "fe0fa41d542eacf3f328d3f2",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "2026 青文學園祭 11 月 11 日起正式開跑 消費滿額送晶炫筆記本",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314823",
+      "publisher": "",
+      "published_at": "2026-11-11T12:48:42+08:00",
+      "first_seen_at": "2026-11-11T06:29:50+00:00"
+    },
+    {
+      "id": "409f481310b854fdd5733049",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《異環》1.5 版本「致電，空想迷數」開啟 全新 S 級角色「曳爾沐」登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314822",
+      "publisher": "",
+      "published_at": "2026-11-11T12:44:19+08:00",
+      "first_seen_at": "2026-11-11T06:29:50+00:00"
+    },
+    {
+      "id": "1acf3cfa4372be5ca963269c",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《龍族拼圖》Apple Arcade 專用作品《Puzzle &amp;amp; Dragons Story》將於 11/20 終止服務",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314820",
+      "publisher": "",
+      "published_at": "2026-11-11T12:19:24+08:00",
+      "first_seen_at": "2026-11-11T06:29:50+00:00"
+    },
+    {
+      "id": "be6182e5978e128f67cdd203",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "VTuber 稀羽すう11/28 東京開唱 個人演唱會接力深夜音樂派對",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314818",
+      "publisher": "",
+      "published_at": "2026-11-11T12:14:58+08:00",
+      "first_seen_at": "2026-11-11T06:29:50+00:00"
+    },
+    {
+      "id": "71d7a680a089e37f4afee72e",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《碧藍航線》預告維修後開啟限時活動「嚴厲女僕不嚴厲」　新增萊姆號、皇家詹姆斯號等建造",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314816",
+      "publisher": "",
+      "published_at": "2026-11-11T12:02:28+08:00",
+      "first_seen_at": "2026-11-11T06:29:50+00:00"
+    },
     {
       "id": "02c2b1ea318fe110111d1ac6",
       "category": "巴哈姆特情報",

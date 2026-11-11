@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-11-11T04:00:40+00:00",
+  "checked_at": "2026-11-11T06:30:26+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
     "guides": 0,
-    "events": 2
+    "events": 0
   },
   "total_leads": {
     "codes": 51,
@@ -14,77 +14,77 @@
     "events": 77
   },
   "per_game": {
-    "BitLife - Life Simulator": {
+    "82-0.com": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Duddu – My Virtual Pet(我的虛擬寵物)": {
+    "Deep Town: Idle Mining Tycoon": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Duet Cats: Cute Cat Music": {
+    "Dragon City: Mobile Adventure": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Eterspire - 輕鬆MMORPG": {
+    "ブースターパックヒーロー": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "No Limit Drag Racing 2": {
+    "응 발로 키우기": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Robbery Bob 2: Double Trouble": {
+    "쿠키런 키우기 - 쿠키런: 크럼블 아이콘 이미지": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Space Rock Breaker": {
+    "Bills Must Be Paid": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "天堂M": {
-      "codes": 0,
-      "guides": 0,
-      "events": 2
-    },
-    "명조:워더링 웨이브": {
+    "2.4版本「飲馬渡秋水": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "萬物皆可蟹": {
+    "8 Ball Pool™": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "銀河防衛戰 Galaxy Defense": {
+    "Angry Birds Dream Blast - 憤怒鳥": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "鑽石消消樂-寶石迷城家園版": {
+    "Art of Fauna：療癒動物拼圖": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "鴨子兄弟傳奇：放置型RPG": {
+    "A Tiny Sticker Tale": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "라이징파이터: 나만의 MMA 격투 선수 키우기": {
+    "Cafe Days：咖啡店經營": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "붕괴: 스타레일": {
+    "Castlevania: SotN": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Clash Royale": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -735,7 +735,22 @@
     "鑽石消消樂寶石迷城家園版": "2026-11-11T04:00:40+00:00",
     "鴨子兄弟傳奇放置型rpg": "2026-11-11T04:00:40+00:00",
     "라이징파이터나만의mma격투선수키우기": "2026-11-11T04:00:40+00:00",
-    "붕괴스타레일": "2026-11-11T04:00:40+00:00"
+    "붕괴스타레일": "2026-11-11T04:00:40+00:00",
+    "820com": "2026-11-11T06:30:26+00:00",
+    "deeptownidleminingtycoon": "2026-11-11T06:30:26+00:00",
+    "dragoncitymobileadventure": "2026-11-11T06:30:26+00:00",
+    "ブースターパックヒーロー": "2026-11-11T06:30:26+00:00",
+    "응발로키우기": "2026-11-11T06:30:26+00:00",
+    "쿠키런키우기쿠키런크럼블아이콘이미지": "2026-11-11T06:30:26+00:00",
+    "billsmustbepaid": "2026-11-11T06:30:26+00:00",
+    "24版本飲馬渡秋水": "2026-11-11T06:30:26+00:00",
+    "8ballpooltm": "2026-11-11T06:30:26+00:00",
+    "angrybirdsdreamblast憤怒鳥": "2026-11-11T06:30:26+00:00",
+    "artoffauna療癒動物拼圖": "2026-11-11T06:30:26+00:00",
+    "atinystickertale": "2026-11-11T06:30:26+00:00",
+    "cafedays咖啡店經營": "2026-11-11T06:30:26+00:00",
+    "castlevaniasotn": "2026-11-11T06:30:26+00:00",
+    "clashroyale": "2026-11-11T06:30:26+00:00"
   },
   "errors": []
 }

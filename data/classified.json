@@ -1,7 +1,31 @@
 {
-  "updated_at": "2026-11-11T03:59:58+00:00",
+  "updated_at": "2026-11-11T06:29:48+00:00",
   "note": "僅依標題比對遊戲與日期字樣；日期不代表活動起迄、上市日期；未擷取或驗證兌換碼。",
   "items": [
+    {
+      "id": "e6e015f27e2cda27aba1",
+      "category": "新遊戲資訊",
+      "game_matches": [],
+      "title": "《HUNGER》11 月 27 日開放全員公測 搶先體驗 12 月 3 日上線 願望清單破 70 萬 - Ludens Media",
+      "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOc2pqSmQ3clUzdl9CU3FaaGhVUXVFSzBoenZWV2l4RzMtdXU3eHVkWk5UNGs4eHhXQU9saHl3eGlNT0tBZVhqeUJORWtUeU1BcUtRQXRxSGdUdU9EaG9hLXVQRE5IUlNhdFk2d0NYSzF5Qm9VOGRNc1pyejFROFhuVmNPdEFUUQ?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-11-11T04:39:00+00:00",
+      "first_seen_at": "2026-11-11T06:29:48+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "3cd39e5101797c22e32e",
+      "category": "新遊戲資訊",
+      "game_matches": [],
+      "title": "《星眠》確定 2027 年 1 月 20 日正式公測！AI 動態陪伴結合乙女戀愛與夢境旅館經營 - SouNova 少女星",
+      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBoMVpDTmk2NDVXdWROLUIwNHQ4cHFGOTdFakNNTlFnS1NpMVllM3RLbTJ1Qkg1VlUyWjdYa1J2dTlhdHd6dE5DeEE4WGhJQV8tVW9BcjhqbWVoRFF4dnE5RHR1VFJ0OWxuUnJKTklkOA?oc=5",
+      "publisher": "SouNova 少女星",
+      "published_at": "2026-11-11T03:00:00+00:00",
+      "first_seen_at": "2026-11-11T06:29:48+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
     {
       "id": "27d3745ec55604ded2fe",
       "category": "新遊戲資訊",

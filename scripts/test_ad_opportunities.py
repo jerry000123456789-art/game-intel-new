@@ -22,6 +22,7 @@ html="<html><body><h1>《測試好遊戲》限時累充福利活動</h1><p>活�
 url="https://www.taptap.cn/moment/123456"
 lead=m.candidate_from_taptap(url,"《測試好遊戲》限時累充福利活動",html,"2026-11-11")
 assert lead and lead["game"]=="測試好遊戲",lead
+assert m.candidate_from_taptap(url,"限時福利活動",html,"2026-11-11","測試好遊戲")["game"]=="測試好遊戲"
 assert lead["start_date"]=="2026-11-11" and lead["end_date"]=="2026-11-25",lead
 assert m.candidate_from_taptap(url,"《測試好遊戲》活動","<html><body><p>活動時間 11月11日至11月25日</p></body></html>","2026-11-11") is None
 cn=m.evaluate(lead,cfg)
@@ -34,7 +35,7 @@ def getter(target):
     return html if target==url else rss
 with patch.object(m,"TODAY",dt.date(2026,11,11)):
     result,health=m.collect(config={**cfg,"reference_events":[]},previous={"items":[]},getter=getter)
-assert health["queries_attempted"]==2*len(cfg["taptap_discovery_queries"])
+assert health["queries_attempted"]==2*len(cfg["taptap_discovery_queries"])+len(cfg["taptap_forum_feeds"])
 assert health["taptap_dated_items_parsed"]==1,health
 assert any(x["game"]=="測試好遊戲" and x["market"]=="CN" for x in result["items"])
 assert not any(m.exclude(x["game"],cfg) for x in result["items"])

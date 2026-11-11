@@ -79,13 +79,13 @@ def dated_ranges(lines):
         result.append((first.isoformat(),last.isoformat(),line[:220]))
     return result
 
-def candidate_from_taptap(url,title,raw,verified_at):
+def candidate_from_taptap(url,title,raw,verified_at,game_hint=''):
     if not safe_taptap(url):return None
     parser=TextLines();parser.feed(raw)
     lines=parser.lines()
     # Captcha or blocked pages must never generate verified event claims.
     if len(lines)<3 or any("arg1=" in x for x in lines[:3]):return None
-    game=game_from_title(title)
+    game=game_hint or game_from_title(title)
     if not game:return None
     ranges=dated_ranges(lines)
     if not ranges:return None
@@ -113,8 +113,27 @@ def rss_discover(config,getter=fetch):
                     if safe_taptap(link) and LIMITED.search(title):
                         sources.append({"url":link,"title":title,"via":engine})
             except Exception as e:errors.append({"provider":engine,"error":str(e)[:160]})
+    # RSSHub's public documented TapTap forum route targets official posts.
+    # China region restrictions may cause failures; never hide source errors.
+    for item in config.get("taptap_forum_feeds",[])[:8]:
+        game=str(item.get("game","")).strip()
+        game_id=str(item.get("id",""))
+        if not game or not re.fullmatch(r"\d{2,12}",game_id):continue
+        checked+=1
+        url="https://rsshub.app/taptap/topic/"+game_id+"/official"
+        try:
+            root=ET.fromstring(getter(url))
+            for post in root.findall("./channel/item")[:15]:
+                link=(post.findtext("link") or "").strip()
+                title=(post.findtext("title") or "").strip()
+                description=(post.findtext("description") or "")[:12000]
+                if safe_taptap(link) and LIMITED.search(title+" "+description[:450]):
+                    sources.append({"url":link,"title":title,"description":description,
+                        "via":"RSSHub official forum","game":game})
+        except Exception as e:errors.append({"provider":"RSSHub "+game,"error":str(e)[:160]})
     unique={x["url"]:x for x in sources}
-    return list(unique.values())[:12],checked,errors
+    chosen=sorted(unique.values(),key=lambda x:(x.get("via")!="RSSHub official forum",x["url"]))
+    return chosen[:18],checked,errors
 
 def evaluate(raw,config):
     row=dict(raw)
@@ -160,8 +179,13 @@ def collect(config=None,previous=None,getter=fetch):
     fetched=0;discovered=[]
     for lead in candidates:
         try:
-            content=getter(lead["url"])
-            cand=candidate_from_taptap(lead["url"],lead["title"],content,NOW.date().isoformat())
+            # Prefer the source's official forum RSS description, if complete,
+            # before fetching a page that might be blocked by anti-crawler checks.
+            content=lead.get("description") or ""
+            cand=candidate_from_taptap(lead["url"],lead["title"],content,NOW.date().isoformat(),lead.get("game","")) if content else None
+            if not cand:
+                content=getter(lead["url"])
+                cand=candidate_from_taptap(lead["url"],lead["title"],content,NOW.date().isoformat(),lead.get("game",""))
             if cand:
                 rows.append(cand);fetched+=1
             else:discovered.append({"title":lead["title"],"source_url":lead["url"],"note":"頁面未取得可核實活動日期"})

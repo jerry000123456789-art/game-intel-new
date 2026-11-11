@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T19:02:28+00:00",
+  "updated_at": "2026-11-11T22:12:08+00:00",
   "status": "ok",
   "fetched": 105,
   "errors": [],
@@ -22,6 +22,16 @@
       "url": "https://gnn.gamer.com.tw/detail.php?sn=314877",
       "publisher": "",
       "published_at": "2026-11-11T21:05:12+08:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
+      "id": "ddaa6dd620e491d56dfe07ee",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《星之救援者 StarSavior》 ｜推主線 ｜玩老婆｜玩累的 換我給老婆玩",
+      "url": "https://www.youtube.com/watch?v=Gv3IKAcmUfU",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-11T20:24:54+00:00",
       "first_seen_at": "2026-11-11T13:15:49+00:00"
     },
     {
@@ -513,16 +523,6 @@
       "publisher": "",
       "published_at": "2026-11-11T12:44:19+08:00",
       "first_seen_at": "2026-11-11T06:29:50+00:00"
-    },
-    {
-      "id": "ddaa6dd620e491d56dfe07ee",
-      "category": "影片情報",
-      "origin": "YouTube",
-      "title": "《星之救援者 StarSavior》 ｜推主線 ｜玩老婆｜玩累的 換我給老婆玩",
-      "url": "https://www.youtube.com/watch?v=Gv3IKAcmUfU",
-      "publisher": "【索爾遊戲】",
-      "published_at": "2026-11-11T12:43:16+00:00",
-      "first_seen_at": "2026-11-11T13:15:49+00:00"
     },
     {
       "id": "c6393bf7936a2a3f3125ce71",

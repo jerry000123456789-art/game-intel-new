@@ -1,10 +1,19 @@
 {
-  "updated_at": "2026-11-11T19:02:25+00:00",
+  "updated_at": "2026-11-11T22:12:05+00:00",
   "status": "ok",
   "errors": [],
   "fetched": 120,
   "note": "RSS 標題線索，尚未驗證兌換碼、上市日期或活動細節。",
   "items": [
+    {
+      "id": "9dab466db17051eb3388",
+      "category": "兌換碼",
+      "title": "Steal a Superpower 2026年11月兌換碼整理 - games.gg",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNa2x4WGhJRWtZOHJraU9VNVVOSEJaX3ZSOVZNVWJ2amlNX3A0TGp6cEJ3a04yTDBDYUNOZTBvREpnVGhCc3BsZHRvZjUwVHBrR1BBLU9zYmMyMkJfMTJpdVlQTmlUWTZSMWlOSmg4VHhOYWh6TGpGYVNobkVpclRPRWZ6RWxrekszWGFKOVJ0LTE1YzV0OXFUdkY0ZXE5UFZ6eXNlVllRSE9YLXI1a1VfSmFCUVJIWkhhNWhNQw?oc=5",
+      "publisher": "games.gg",
+      "published_at": "2026-11-11T20:15:15+00:00",
+      "first_seen_at": "2026-11-11T22:12:05+00:00"
+    },
     {
       "id": "4db9fdb2cc2881b6beeb",
       "category": "新遊戲資訊",
@@ -546,6 +555,15 @@
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
+      "id": "80d80674fb4c8934cc6d",
+      "category": "活動行事曆",
+      "title": "《頭文字D THE ARCADE》將於10月8日舉辦《女神異聞錄5 皇家版》聯動活動 - www.haveagood-holiday.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUzZmZDFLeU1qQXNPVTBCbGZlR3d1NDRtc3o4TndqeFo5Wl9lMU4tMlZaWl9vcWI2MkllUm1hRGtqdGhMUG1uZnZJYmFJVGl3Uzg1UE9odlNPYXY3MkhLVUhzdEQ4UUZMX0tZMkM4eVVkanVpRFU1TEN4SHBwaWEzNGVqWmM5NUw3bXl3UGt5UXJRTWEtOHczallCOTVvZWJINkNhSXo2UQ?oc=5",
+      "publisher": "www.haveagood-holiday.com",
+      "published_at": "2026-10-07T07:00:00+00:00",
+      "first_seen_at": "2026-11-11T22:12:05+00:00"
+    },
+    {
       "id": "0621c8f0c87b61ebb033",
       "category": "活動行事曆",
       "title": "《鳴潮》與海底撈台灣推出限時聯動活動限定套餐、角色周邊好禮登場《Wuthering Waves》 - GNN 新聞網",
@@ -652,6 +670,15 @@
       "publisher": "Ludens Media",
       "published_at": "2026-09-18T07:00:00+00:00",
       "first_seen_at": "2026-11-07T09:46:49+00:00"
+    },
+    {
+      "id": "5f8318ef67f370bc0a70",
+      "category": "活動行事曆",
+      "title": "《實況野球冒險》與電視動畫《無職轉生～到了異世界就拿出真本事～》第三季首度聯動今日（9月17日）正式開跑 - www.haveagood-holiday.com",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQzdMRjYtN3VncHduLWF1Tm1mR0d1aUJtbDhIdzRzajMwemhEWENWYjlsRFBrQzhjcUZfRHJ4Vnc3VGZscE5WX2NRWFQ0SmgtWEs4ME55NzdEUnU2Tlh4QkdrQW1lREhabmxtWElOUHQyX2RNOU9VeUZiSHNMUGF5SGtNSW1wWEJRWURqZElsMVFuTl9uaHc?oc=5",
+      "publisher": "www.haveagood-holiday.com",
+      "published_at": "2026-09-17T07:00:00+00:00",
+      "first_seen_at": "2026-11-11T22:12:05+00:00"
     },
     {
       "id": "61cf2bfa864d836dc7db",

@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 const index=readFileSync(new URL('../index.html',import.meta.url),'utf8');
 const src=readFileSync(new URL('../business.js',import.meta.url),'utf8');
+const css=readFileSync(new URL('../business.css',import.meta.url),'utf8');
 for(const id of ['gx-home','gx-games','gx-codes','gx-content','gx-calendar','gx-studio','gx-watch-form','gx-studio-output']){
   assert(index.includes('id="'+id+'"'),id);
 }
@@ -63,6 +64,10 @@ const card=makeCard({game:{name:'測試遊戲',cover:'',platforms:many},rows:man
 assert.equal(card.match(/class="gx-pill">iOS<\/span>/g)?.length,1,'iOS tag once');
 assert.equal(card.match(/class="gx-pill">Android<\/span>/g)?.length,1,'Android tag once');
 assert(!card.includes('iOS · 美國'),'No repeated country badges');
+assert(css.includes('.gx-page.active{background:transparent!important;color:#2D3142!important}'),
+  'The selected page must override the old global dark .active background');
+assert(css.includes('background:#EAEAEF')&&css.includes('color:#2D3142'),
+  'Approved background and ink palette must remain on the dashboard');
 assert(index.includes('data-gx-window="all"'),'All games view must be selectable');
 assert(index.includes('id="gx-game-pagination"'),'All games must have page navigation');
 assert(src.includes("if(ui.window!=='all'&&ui.window!==st.type)continue"),'All games must not be restricted to launch windows');

@@ -1,9 +1,229 @@
 {
-  "updated_at": "2026-11-11T08:01:48+00:00",
+  "updated_at": "2026-11-11T10:04:39+00:00",
   "status": "ok",
   "fetched": 105,
   "errors": [],
   "items": [
+    {
+      "id": "59b3e0b727dbbeb10e0fe0ec",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "撲克牌題材遊戲《我在地獄出老千》今日發售 用藏牌、換牌等千術搭配道具翻盤！",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314856",
+      "publisher": "",
+      "published_at": "2026-11-11T17:59:50+08:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "366e2129947c99c3146b37af",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《三國觀滄海》全新超主將黃月英明日登場 「單騎破陣」活動 11/19 接力開啟",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314855",
+      "publisher": "",
+      "published_at": "2026-11-11T17:57:43+08:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "ec22532a0a8e80c1a5e42718",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《新王者之劍》迎接 11 月「豐收季」改版 新角色「巴哈」即將參戰",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314854",
+      "publisher": "",
+      "published_at": "2026-11-11T17:50:56+08:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "e0e9247cc3c14b1ac9293c99",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "曾來台演出！《Final Fantasy XIV》官方樂團 THE PRIMALS 貝斯手岩井英吉過世",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314853",
+      "publisher": "",
+      "published_at": "2026-11-11T17:49:13+08:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "8c5050adbdb4783184a446e3",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "【TiCA27】長鴻出版社邀請日本 BL 漫畫家はなさわ浪雄及夏目イサク舉辦簽名會",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314851",
+      "publisher": "",
+      "published_at": "2026-11-11T17:45:41+08:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "d53e38ef5d43b4bfe7f47440",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "Roguelike 自走棋新作《全軍出雞》今日公開 預告 11 月 17 日開放試玩版",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314850",
+      "publisher": "",
+      "published_at": "2026-11-11T17:38:41+08:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "42706839bd4250669265b1cf",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《魔御：STAR DIVE》推出 1.5 版本更新 全新 5 星角色「M.A.D.」登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314849",
+      "publisher": "",
+      "published_at": "2026-11-11T17:34:13+08:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "ef851cfa66c52b3ef2192fb4",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《天堂：經典版》Season2 新篇章「特里亞」12 月初登場 即日起開放事前預約活動",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314848",
+      "publisher": "",
+      "published_at": "2026-11-11T17:32:17+08:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "aba99988bbe0d5e43c1a4616",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《俠盜獵車手 6》開放預先下載 公開各主機版本特別支援功能",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314847",
+      "publisher": "",
+      "published_at": "2026-11-11T17:27:13+08:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "b3dd035680af7c686b50c8c8",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "2026 TCCF 文策院攜國發基金與烏杉成立「金松資本」助攻臺遊戲投資",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314846",
+      "publisher": "",
+      "published_at": "2026-11-11T17:26:15+08:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "575c48badbd3cb83492dfa93",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "二之宮知子漫畫《當鋪千金的珠寶盒》將於 2027 年推出電視動畫 前導視覺圖與前導預告公開",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314845",
+      "publisher": "",
+      "published_at": "2026-11-11T17:24:28+08:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "60108d24c0d4140568e8f31e",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《晶靈小隊》一週年更新登陸 Steam 冰系角色包登場 手機版 12 月 10 日推出",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314844",
+      "publisher": "",
+      "published_at": "2026-11-11T17:19:23+08:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "140e8a49785ffe2b946df30f",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "MONTECH 君主科技發表十週年旗艦 KING 95 3D 與 LINK FAN 磁吸風扇",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314843",
+      "publisher": "",
+      "published_at": "2026-11-11T17:17:50+08:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "3af20d19fe74d51081f87eda",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《天堂 2 M》預告推出「The breakthrough：破壞者」改版 全新職業「破壞者」即將登場 事前預約今日啟動",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314842",
+      "publisher": "",
+      "published_at": "2026-11-11T17:14:13+08:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "0289efc343d5e78e9d3b6531",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "倖存者類型新作《戰鎚倖存者》正式發售 迎戰來自《戰鎚 40k》世界觀的致命敵人",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314841",
+      "publisher": "",
+      "published_at": "2026-11-11T17:13:46+08:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "58dc01d8397ada3bc41ff28e",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "SEVENTEEN 攜手《藍色小精靈》推出悠遊卡等多款聯名商品",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314840",
+      "publisher": "",
+      "published_at": "2026-11-11T17:08:24+08:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "701cf1b921328776e0de4f65",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "台灣角川全書系活動「2026 秋日璀璨演唱會」11/18 登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314839",
+      "publisher": "",
+      "published_at": "2026-11-11T16:50:44+08:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "dcf3e49670e977bd87e79b62",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《電馭叛客 2077》登陸 Battle.net 商店 同步推全新《邊緣行者 2》主題任務與專屬裝備",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314838",
+      "publisher": "",
+      "published_at": "2026-11-11T16:45:48+08:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "da59bcf166c72e5ef7e48e86",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《來種水果吧！》x《甄嬛傳》今日正式上線 甄嬛化身「甄柿」降臨果園",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314837",
+      "publisher": "",
+      "published_at": "2026-11-11T16:45:24+08:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "3eaea436a318cb40fbb392eb",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《蔚藍檔案》國際版 5 週年慶典開跑 「慶典★3 學生選擇券」、「免費招募 200 次」限定福利與全新主線劇情同步登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314836",
+      "publisher": "",
+      "published_at": "2026-11-11T16:34:24+08:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "444b8ca9ae5dcf44510d802f",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《卡厄思夢境》釋出「銀河系災害」第 5 季第二波內容更新 開放「大龜裂」雙軌模式與新戰鬥員「布蕾茲貝爾」",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314835",
+      "publisher": "",
+      "published_at": "2026-11-11T16:28:43+08:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "cf9213898df19ee9dbc9e1e7",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《無名九使 覺醒》開發商 Reflector 解散 萬代南夢宮預計認列約 35 億日圓損失",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314834",
+      "publisher": "",
+      "published_at": "2026-11-11T16:08:59+08:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
     {
       "id": "61506a275b5b98db8b2b2d51",
       "category": "巴哈姆特情報",
@@ -153,6 +373,36 @@
       "publisher": "",
       "published_at": "2026-11-11T10:30:01+08:00",
       "first_seen_at": "2026-11-11T04:00:01+00:00"
+    },
+    {
+      "id": "85ffea2f5fc89fc85ef73033",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "【格鬥天王：拳面出擊】開服一週後必看！99%紅詞條竟然要洗掉？晶片、經理裝備、異界祭壇、信物洗練一次整理 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=eaPrvi_2UdE",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-11T10:00:21+00:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "2620b5f6f14088e307988d68",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《星之救援者 StarSavior》【國際版 #85】【一週年 事前準備】 偏愛魔女｜吉萊｜卡奈莉亞【限定老婆 蝶夢：萊希】兌換碼 TOGETHER1STANNIV ｜ ENDOFTHEJOURNEY",
+      "url": "https://www.youtube.com/watch?v=MKhTajBi7cI",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-11T09:12:27+00:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
+    },
+    {
+      "id": "72af3a35baeff298b6589e94",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《SD鋼彈 G世代 永恆》【國際版 #595】【世代之塔 SOUTH TOWER】世代之塔 第15層 【15F】【四機通關】全開發機 一擊必殺 狼王打法",
+      "url": "https://www.youtube.com/watch?v=OCv2-KkcJ_E",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-11T08:18:55+00:00",
+      "first_seen_at": "2026-11-11T10:04:39+00:00"
     },
     {
       "id": "f443da3c310146ac7d67c4a8",

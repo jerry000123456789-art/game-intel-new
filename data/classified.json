@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T08:01:46+00:00",
+  "updated_at": "2026-11-11T10:04:37+00:00",
   "note": "僅依標題比對遊戲與日期字樣；日期不代表活動起迄、上市日期；未擷取或驗證兌換碼。",
   "items": [
     {
@@ -150,7 +150,7 @@
       "id": "86ebd55e328c4f772214",
       "category": "活動行事曆",
       "game_matches": [],
-      "title": "《Pikmin Bloom》聯動台日全家便利商店！撈金苗收集5周年零食皮克敏 - 4Gamers",
+      "title": "《Pikmin Bloom》聯動台灣與日本全家便利商店 撈金苗收集5周年零食皮克敏 - 4Gamers",
       "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPejFlTXYxRFFsOGVGbzZvS2YwX2t5Q1hrc1NxVkQ4VnZUNldnRnlGQjR3Smt4YmNwQnB6S2JMQndkSW51cnBSRnY4SWozZGVNZ21GSVJ2d2haWXNPdWQtUnU4a0RtVXV3YXRNZGVHeTVLZ1pKZUZUTER2a1c0UENOdXBIR3E0S0RzbjVkUGo4T0NveVNVSk9CVktBOG1HejhMazlrTGhqTUtUX180VUpsbk43TktEOWJW?oc=5",
       "publisher": "4Gamers",
       "published_at": "2026-11-09T07:32:14+00:00",
@@ -851,6 +851,18 @@
       "publisher": "日經中文網",
       "published_at": "2026-09-16T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "8250dc12097095752758",
+      "category": "活動行事曆",
+      "game_matches": [],
+      "title": "《LINE 熊大魔奇學院》攜手「三麗鷗明星家族」聯動歡慶首波合作魔幻來襲《LINE Magic》 - GNN 新聞網",
+      "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9RX1NIb2JPQTNKMWtLTDJuSzN6U2tOZUNmQzhJcTUzUmdrdm5xSGlFU1djcE9FZ3FoT0lSaUFmQzRKNmpJckxoZW9DYzVRUTh6SFdmZWlMMm0?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-09-16T07:00:00+00:00",
+      "first_seen_at": "2026-11-11T10:04:37+00:00",
       "date_mentions": [],
       "review_required": true
     },

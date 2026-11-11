@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T08:04:28.486778+00:00",
+  "updated_at": "2026-11-11T10:07:19.017536+00:00",
   "note": "Historical source leads retained; not validated codes, full guides, or confirmed event dates.",
   "items": {
     "codes": [
@@ -1650,6 +1650,14 @@
         "publisher": "日經中文網",
         "published_at": "2026-09-16T07:00:00+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "title": "《LINE 熊大魔奇學院》攜手「三麗鷗明星家族」聯動歡慶首波合作魔幻來襲《LINE Magic》 - GNN 新聞網",
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9RX1NIb2JPQTNKMWtLTDJuSzN6U2tOZUNmQzhJcTUzUmdrdm5xSGlFU1djcE9FZ3FoT0lSaUFmQzRKNmpJckxoZW9DYzVRUTh6SFdmZWlMMm0?oc=5",
+        "publisher": "GNN 新聞網",
+        "published_at": "2026-09-16T07:00:00+00:00",
+        "first_seen_at": "2026-11-11T10:04:37+00:00",
         "status": "source_lead_only"
       },
       {

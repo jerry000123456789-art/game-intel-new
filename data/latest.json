@@ -1,10 +1,64 @@
 {
-  "updated_at": "2026-11-10T21:48:03+00:00",
+  "updated_at": "2026-11-11T01:10:30+00:00",
   "status": "ok",
   "errors": [],
   "fetched": 120,
   "note": "RSS 標題線索，尚未驗證兌換碼、上市日期或活動細節。",
   "items": [
+    {
+      "id": "27d3745ec55604ded2fe",
+      "category": "新遊戲資訊",
+      "title": "戰爭 MMO《王國 W：血盟之誓》11/17 正式公測 - https://gamelife.tw/",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQUEQ4SGgtZGRvUXU5S294Z09NWmJkbGRlUVA1X296YW5oeHNVZ0JiTlRaQlhSVktpTS1OWjBUMUhuR21fUW5VdGNXZWo5TUZzQ0h5NzNqWGc5UWkzN1V6bi1ia0FCdGhZUjBMSnRhOWMtZk04RXM2Sk1WXzQwNDMtV19QQXJHYXkyQ2sxWHMtTTdCTmFDbkk0WlN3UjVXemtlVl9vdDlfN2ppQ2NJblBvRDF3Y0RQX3Y4My02SVpnYXRQNlRESlZLWlNmOXJUSHhVSnNlVmNEQlpMbDV3R1diZVNKSkFtVHZtWkZvWWlrUXdhUjhjb2kxYXR3OVFTdDlQNjJKRmdpYW0?oc=5",
+      "publisher": "https://gamelife.tw/",
+      "published_at": "2026-11-11T00:59:50+00:00",
+      "first_seen_at": "2026-11-11T01:10:30+00:00"
+    },
+    {
+      "id": "fd04f9f7fa2ddc63734a",
+      "category": "兌換碼",
+      "title": "Project Soul’s Codes 兌換碼彙整（2026 年 11 月） - games.gg",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdTN3VnRxOThacjEwR2VMcVI3cnZWWXlhQ1ZxSFRTRExJWFViY0FzQy0tbkRJX1RyZmc3VnYyOG14UG05Zl9mcXYtb0Z0X25nUHhxVlhvbTJraEsxejNHV1B5TEVUNHZrTi1MaF9Idk9JdmoyYnlYQWM5YU9rS2JWNmFSdjZ2QUZnWkVxdGZHeDU3QlJ4YkhjZHJlcU5sR1owbTEweGtVVEZXNGxUem5fNWVKRmE2cmxXS3hJVnFqbTVMQQ?oc=5",
+      "publisher": "games.gg",
+      "published_at": "2026-11-11T00:30:20+00:00",
+      "first_seen_at": "2026-11-11T01:10:30+00:00"
+    },
+    {
+      "id": "c8d7ff9725b7a9f25c6d",
+      "category": "兌換碼",
+      "title": "2026年11月 Fortnite Lighthouse Zombies 代碼整理 - games.gg",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWW5pal9pdnpCQjEzSHA3RVpFeFAwMWxzZU1ubkJobzQwSDZlZUo2VjZ1Vkh1U3ZwbldrcGVhRE80LTFkY25COWR5RGNGSndLMWRaZ0F5bjkyTkJtSXZWUHhKUG9ybTJHbW9tcGFDczdlalRXWUk1M0E2UHRmOXJzeFFBc2hGcmJlX1FmSTdjWVV2Z1hjZm1mOA?oc=5",
+      "publisher": "games.gg",
+      "published_at": "2026-11-11T00:23:53+00:00",
+      "first_seen_at": "2026-11-11T01:10:30+00:00"
+    },
+    {
+      "id": "af748dd423d3a1ea4783",
+      "category": "兌換碼",
+      "title": "Roblox Voxel Heroes 兌換碼（2026 年 11 月） - games.gg",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYV8ydHl3RDdxaThhRmYxSXp0OWMxRTJIRWc0dzdxVE4yc1ZOWG11cGxJMTB6cVBQVXFuT2RPeTdldVhwWnVQOG5DbHUwYUVnR2doUDlsRlcxRThudTJBT3VIR1dJa2RzaWlCUkY0YU1VVWt0Qi1oRnE0anB6SVp2UDFYa1NBRU9LZG1QR01aR2tjSFkwSGFHa05PQWFLR2RJWF9HMF82akt0dw?oc=5",
+      "publisher": "games.gg",
+      "published_at": "2026-11-11T00:21:13+00:00",
+      "first_seen_at": "2026-11-11T01:10:30+00:00"
+    },
+    {
+      "id": "a07599eeaf9ea2222dfb",
+      "category": "兌換碼",
+      "title": "2026年11月 Roblox Dragon Tower Defense Codes - games.gg",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSG92ZWxBek5TSG5uNUhIVWgtZTd3Ni01MGZ5WVBiQUlqNU9kR3BxR2hQX1hOZTU4alFMZTZyT0xISkZsVGxaY1RNQzdsU2hQdjhTODJnWng5elV5VmNfOWZzVU84ZzVTWk51Z25HN2c3cUlVdElURG9HdUJLZF9jX3l1X2prOVZuZlZzTWlPWE9BN1VPdjcxYXE4MFJoLUU?oc=5",
+      "publisher": "games.gg",
+      "published_at": "2026-11-10T23:00:15+00:00",
+      "first_seen_at": "2026-11-11T01:10:30+00:00"
+    },
+    {
+      "id": "673b0bf35c603bfafdd2",
+      "category": "兌換碼",
+      "title": "2026年11月 Roblox Raise a Champion 最新兌換碼 - games.gg",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUktMcnk1SHJrSnQtYmFobXNZU3hGdmI0OWpfbWJtSW5rUjQxaHY1b3pLMDVlQzl5WlM0eFFxX3oxTjQtNHk2dEJZSGlvdHZrdlJGRzlCeXBTUERHSDFVM1kzUTdCRjVyTUVSdVNpaEFlTXJlc29vNXRBcEM1VWQ3d3hnM2s3WG5JQU13N0ktUXJ4WnhJU2hrWC1hUkFTQWpvcjB1eEpoOGhoN0FkVjE0ZmdfaS1yejRkLUpzNUlLc2RvNnNmRmJRVFg1V0lLN2c?oc=5",
+      "publisher": "games.gg",
+      "published_at": "2026-11-10T21:24:15+00:00",
+      "first_seen_at": "2026-11-11T01:10:30+00:00"
+    },
     {
       "id": "6b277942c690ff3d34b8",
       "category": "兌換碼",

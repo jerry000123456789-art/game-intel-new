@@ -1,93 +1,93 @@
 {
-  "checked_at": "2026-11-10T21:50:49+00:00",
+  "checked_at": "2026-11-11T01:11:06+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
     "guides": 0,
-    "events": 0
+    "events": 3
   },
   "total_leads": {
-    "codes": 47,
+    "codes": 51,
     "guides": 56,
-    "events": 72
+    "events": 75
   },
   "per_game": {
-    "Petal Paws": {
+    "ArrowCube - 3DPuzzle": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Pixel Miner：悠閒挖礦遊戲": {
+    "Cats Mansion: Cat Games": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Shop Heroes: Idle Slots": {
+    "RollerCoaster Tycoon Touch": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "SoEasy Mahjong 2: 合十消除": {
+    "Township": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Space 3K: Galaxy Defense": {
+    "Wool Connect: 毛線拼圖": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Storypick": {
+    "プロ野球スピリッツＡ": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Supremacy: Warhammer 40,000": {
+    "兒童畫畫遊戲：2-6歲幼兒繪畫塗色填色益智遊戲大全": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "The Magus Circle": {
+    "夢幻家園 (Homescapes)": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "The Walking Dead: Aftermath": {
+    "少女迷境": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "UnGodly": {
+    "插花消消樂 - Blossom Sort® · 消除遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Woodber - Classic Number Game": {
+    "氣墊球 挑戰": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "喀擦對上：物品燒腦解謎": {
+    "我的小酒店": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "崩壊：スターレイル": {
+    "新笑傲江湖M": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "巨獸重返": {
+    "星布谷地": {
       "codes": 0,
       "guides": 0,
-      "events": 0
+      "events": 1
     },
-    "我的家居設計 - 現代城市": {
+    "白銀之城": {
       "codes": 0,
       "guides": 0,
-      "events": 0
+      "events": 2
     }
   },
   "checked_games": {
@@ -705,7 +705,22 @@
     "喀擦對上物品燒腦解謎": "2026-11-10T21:50:49+00:00",
     "崩壊スターレイル": "2026-11-10T21:50:49+00:00",
     "巨獸重返": "2026-11-10T21:50:49+00:00",
-    "我的家居設計現代城市": "2026-11-10T21:50:49+00:00"
+    "我的家居設計現代城市": "2026-11-10T21:50:49+00:00",
+    "arrowcube3dpuzzle": "2026-11-11T01:11:06+00:00",
+    "catsmansioncatgames": "2026-11-11T01:11:06+00:00",
+    "rollercoastertycoontouch": "2026-11-11T01:11:06+00:00",
+    "township": "2026-11-11T01:11:06+00:00",
+    "woolconnect毛線拼圖": "2026-11-11T01:11:06+00:00",
+    "プロ野球スピリッツa": "2026-11-11T01:11:06+00:00",
+    "兒童畫畫遊戲26歲幼兒繪畫塗色填色益智遊戲大全": "2026-11-11T01:11:06+00:00",
+    "夢幻家園homescapes": "2026-11-11T01:11:06+00:00",
+    "少女迷境": "2026-11-11T01:11:06+00:00",
+    "插花消消樂blossomsort消除遊戲": "2026-11-11T01:11:06+00:00",
+    "氣墊球挑戰": "2026-11-11T01:11:06+00:00",
+    "我的小酒店": "2026-11-11T01:11:06+00:00",
+    "新笑傲江湖m": "2026-11-11T01:11:06+00:00",
+    "星布谷地": "2026-11-11T01:11:06+00:00",
+    "白銀之城": "2026-11-11T01:11:06+00:00"
   },
   "errors": []
 }

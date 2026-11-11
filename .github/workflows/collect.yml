@@ -8,6 +8,8 @@ on:
       - 'tests/**'
       - 'config/**'
       - 'index.html'
+      - 'business.js'
+      - 'business.css'
       - 'worker/**'
       - '.github/workflows/collect.yml'
   schedule:

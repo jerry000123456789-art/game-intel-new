@@ -63,6 +63,11 @@ const card=makeCard({game:{name:'測試遊戲',cover:'',platforms:many},rows:man
 assert.equal(card.match(/class="gx-pill">iOS<\/span>/g)?.length,1,'iOS tag once');
 assert.equal(card.match(/class="gx-pill">Android<\/span>/g)?.length,1,'Android tag once');
 assert(!card.includes('iOS · 美國'),'No repeated country badges');
+assert(index.includes('data-gx-window="all"'),'All games view must be selectable');
+assert(index.includes('id="gx-game-pagination"'),'All games must have page navigation');
+assert(src.includes("if(ui.window!=='all'&&ui.window!==st.type)continue"),'All games must not be restricted to launch windows');
+assert(src.includes('data-gx-open-all'),'A zero-result recent view must offer the collected games');
+assert(src.includes('gameRows.slice(first,first+pageSize)'),'Full game results must use real pagination');
 assert(index.includes('<option value="all">所有</option>'),'All platforms labeled 所有');
 assert(index.includes('id="gx-watch-result"'),'True cloud save status shown');
 assert(!index.includes('會開啟你自己的 GitHub Issue'),'No GitHub issue workflow in form');

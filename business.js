@@ -12,7 +12,7 @@ const dateTW=value=>value?new Date(value).toLocaleDateString('zh-TW',{timeZone:'
 const nowDay=()=>new Date().toLocaleDateString('sv-SE',{timeZone:'Asia/Taipei'});
 const dayDelta=value=>value?(Date.parse(toDate(value)+'T00:00:00Z')-Date.parse(nowDay()+'T00:00:00Z'))/86400000:null;
 const gameKey=name=>String(name||'').normalize('NFKC').toLowerCase().replace(/潛水小漁夫|潜水小渔夫/gi,'').replace(/[\s\u3000:：·\-—「」『』()（）!！,，.。]/g,'');
-const data={games:[],matrix:[],curated:[],codes:[],content:[],events:[],eventTips:[],announcements:[],cloudGames:[],legacyGames:[],watchAvailable:false,updated:'',channels:[],status:{}};
+const data={games:[],matrix:[],curated:[],codes:[],content:[],events:[],eventTips:[],adOpps:[],announcements:[],cloudGames:[],legacyGames:[],watchAvailable:false,updated:'',channels:[],status:{}};
 const ui={page:'home',window:'recent',month:new Date(),gameRows:[],gamePage:0,codeRows:[],contentRows:[],brand:'',pending:[]};
 ui.month.setDate(1);
 try{ui.brand=localStorage.getItem('game-intel-brand')||'';ui.pending=JSON.parse(localStorage.getItem('game-intel-pending')||'[]')}catch{}
@@ -355,6 +355,40 @@ function renderWatchList(){
     }catch(error){$('watch-result').textContent='停止追蹤失敗：'+(error.message||error);button.disabled=false}
   }));
 }
+const excludedAdGames=['原神','genshin impact','崩壞：星穹鐵道','崩壞 星穹鐵道','崩坏：星穹铁道',
+  'honkai star rail','崩壞3','崩坏3','honkai impact','絕區零','绝区零',
+  'zenless zone zero','未定事件簿','tears of themis'];
+const isExcludedAdGame=name=>{
+  const key=gameKey(name);
+  return excludedAdGames.some(x=>gameKey(x)===key);
+};
+function renderAdOpportunities(){
+  const filter=$('ad-filter').value,today=nowDay();
+  const all=data.adOpps.filter(x=>x.game&&!isExcludedAdGame(x.game)
+    &&/^\d{4}-\d{2}-\d{2}$/.test(x.end_date||'')&&x.end_date>=today);
+  let rows=all.filter(x=>{
+    if(filter==='money')return x.advertising_angle==='儲值／禮包時效'||/累儲|累充|儲值|充值|返利|禮包|礼包/.test(x.category||'');
+    if(filter==='local')return ['TW','GLOBAL'].includes(String(x.market||'').toUpperCase())&&!/待核實|待確認/.test(x.status||'');
+    if(filter==='review')return /待核實|待確認/.test(x.status||'');
+    return true;
+  }).sort((a,b)=>(Number(b.score)||0)-(Number(a.score)||0)||String(a.end_date).localeCompare(b.end_date));
+  $('ad-count').textContent=rows.length+' 筆有效候選 · 已排除米哈遊旗下遊戲 · 分數為商機線索強度，不代表可以直接投放廣告';
+  $('ad-updated').textContent=data.adUpdated?'情報更新：'+dateTW(data.adUpdated):'情報來源更新時間尚未取得';
+  $('ad-list').innerHTML=rows.length?rows.slice(0,35).map(x=>{
+    const mainland=String(x.market||'').toUpperCase()==='CN';
+    const status=mainland?'地區待核實（中國站）':(x.status||'地區待核實');
+    const range=String(x.start_note||x.start_date)+' ～ '+String(x.end_note||x.end_date);
+    return '<article class="gx-ad-lead"><div class="gx-ad-heading"><strong>'+esc(x.game)+' · '+esc(x.title)+'</strong>'+
+      '<span class="gx-pill '+(mainland?'amber':'green')+'">'+esc(status)+'</span></div>'+
+      '<div class="gx-ad-detail">活動：'+esc(range)+' · '+esc(x.category||'活動')+'</div>'+
+      '<div class="gx-ad-detail">商機方向：'+esc(x.advertising_angle||'資訊導流')+
+      ' · 參考分數：'+esc(Number(x.score)||0)+'/100</div>'+
+      (x.detail?'<div class="gx-ad-detail">'+esc(x.detail)+'</div>':'')+
+      '<div class="gx-ad-foot">'+
+      (x.source_url?href(x.source_url,'查看原始情報'):'<span class="gx-muted">原始來源尚未核實</span>')+
+      '<span>未確認台灣可參加／可代儲前，請勿直接投放</span></div></article>';
+  }).join(''):empty(filter==='local'?'尚無已核實能在台灣／全球參與且符合條件的商機，不以中國站活動冒充台服活動。':'目前沒有符合條件的有效活動商機線索。');
+}
 function calendarItems(){
   // Show every dated activity by default. Personal watchlists affect monitoring
   // and the optional filter, not whether globally collected events are visible.
@@ -362,7 +396,7 @@ function calendarItems(){
   const add=(x)=>{
     const game=String(x.game||'').trim(),title=String(x.title||'').trim();
     const start=toDate(x.start_at||x.start_date),end=toDate(x.end_at||x.end_date);
-    if(!game||!title||!/^\d{4}-\d{2}-\d{2}$/.test(start)||!/^\d{4}-\d{2}-\d{2}$/.test(end)||end<start)return;
+    if(isExcludedAdGame(game)||!game||!title||!/^\d{4}-\d{2}-\d{2}$/.test(start)||!/^\d{4}-\d{2}-\d{2}$/.test(end)||end<start)return;
     const key=gameKey(game)+'|'+title.toLowerCase()+'|'+start+'|'+end;
     if(merged.has(key))return;
     merged.set(key,{game,title,start,end,
@@ -379,6 +413,7 @@ function calendarItems(){
   return [...merged.values()].sort((a,b)=>a.start.localeCompare(b.start)||a.game.localeCompare(b.game,'zh-Hant')||a.title.localeCompare(b.title,'zh-Hant'));
 }
 function renderCalendar(){
+  renderAdOpportunities();
   renderWatchList();
   const y=ui.month.getFullYear(),m=ui.month.getMonth(),today=nowDay();
   const monthStart=y+'-'+String(m+1).padStart(2,'0')+'-01';
@@ -433,7 +468,7 @@ function renderCalendar(){
       rows+'</div></div><div class="gx-stack" style="margin-top:20px">'+details+'</div>';
   }
   const news=[...data.announcements,...(data.personalEvents||[])]
-    .filter(x=>inScope(x)&&!x.start_date).slice(0,35);
+    .filter(x=>!isExcludedAdGame(x.game)&&inScope(x)&&!x.start_date).slice(0,35);
   $('calendar-undated').innerHTML=news.length?news.map(x=>
     '<div class="gx-feed-item"><div class="gx-feed-icon">📣</div><div><h3>'+esc(x.game+' · '+x.title)+'</h3><div class="gx-meta">'+esc(dateTW(x.published_at))+' · 尚無明確活動期間</div>'
       +href(x.source_url,'查看公告')+'</div></div>').join(''):empty('目前沒有符合篩選條件且尚未公布日期的活動預告。');
@@ -541,7 +576,7 @@ async function checkNewActivity(){
 }
 async function main(){
   const files=['game_catalog','release_matrix','featured_launches','codes','channel_history','latest','source_leads',
-    'events','event_tips','tracked_events','tracked_games','coverage_status'];
+    'events','event_tips','ad_opportunities','tracked_events','tracked_games','coverage_status'];
   const values=await Promise.all(files.map(load));
   const maps=Object.fromEntries(files.map((f,i)=>[f,values[i]]));
   data.games=maps.game_catalog.items||[];
@@ -551,6 +586,8 @@ async function main(){
   data.content=[...(maps.channel_history.items||[]),...(maps.latest.items||[]),...(maps.source_leads.items?.guides||[])];
   data.events=maps.events.items||[];
   data.eventTips=maps.event_tips.items||[];
+  data.adOpps=maps.ad_opportunities.items||[];
+  data.adUpdated=maps.ad_opportunities.updated_at||'';
   data.announcements=maps.tracked_events.items||[];
   data.legacyGames=maps.tracked_games.games||[];
   data.cloudGames=[];
@@ -582,6 +619,7 @@ document.querySelectorAll('[data-gx-window]').forEach(button=>button.addEventLis
 }));
 ['game-q','game-market','game-store','game-order'].forEach(id=>$(id).addEventListener('input',()=>{ui.gamePage=0;renderGames()}));
 ['calendar-scope','calendar-search'].forEach(id=>$(id).addEventListener('input',renderCalendar));
+$('ad-filter').addEventListener('input',renderAdOpportunities);
 ['code-q','code-order'].forEach(id=>$(id).addEventListener('input',renderCodes));
 ['content-q','content-kind','content-order'].forEach(id=>$(id).addEventListener('input',renderContent));
 $('watch-form').addEventListener('submit',async event=>{

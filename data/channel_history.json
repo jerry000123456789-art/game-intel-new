@@ -1,9 +1,199 @@
 {
-  "updated_at": "2026-11-11T10:04:39+00:00",
+  "updated_at": "2026-11-11T13:15:49+00:00",
   "status": "ok",
   "fetched": 105,
   "errors": [],
   "items": [
+    {
+      "id": "96e9c4ef89cab15e51d0b7d6",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "電玩瘋公開《薩爾達傳說 時之笛》之《薩爾達傳說》系列全 33 支 amiibo 大實測！",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314877",
+      "publisher": "",
+      "published_at": "2026-11-11T21:05:12+08:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
+      "id": "90b8017bfa9bb63d733cc8cd",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "單人回合制戰術新作《仙境傳說計畫》RO FESTA 亮相　經典職業重現、預定 2027 年進軍 Steam",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314876",
+      "publisher": "",
+      "published_at": "2026-11-11T20:07:21+08:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
+      "id": "a1fa799a7e549d267f5e7f3d",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "巴哈商城 11 月 8 日當週預購排行榜 PlayStation 本家力作《戰神：勞菲》初次登榜",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314875",
+      "publisher": "",
+      "published_at": "2026-11-11T19:56:54+08:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
+      "id": "b7eda6acf2e5806aadaedf48",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "石油王、Tokido、DFM 等齊聚 「2026臺北城市盃國際電競大賽」本週末西門町開戰",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314874",
+      "publisher": "",
+      "published_at": "2026-11-11T19:41:20+08:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
+      "id": "015e408fd7d143b8bd3ac1cd",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "連黑洞都能拿來脫毛？惡搞模擬經營遊戲《脫毛沙龍模擬器》發售",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314873",
+      "publisher": "",
+      "published_at": "2026-11-11T19:35:10+08:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
+      "id": "6204894e664c99e9930def87",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "用「算術」清場！雙搖桿解謎動作遊戲《零和》11 月 18 日上市",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314872",
+      "publisher": "",
+      "published_at": "2026-11-11T19:29:49+08:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
+      "id": "17e2e2ff7872630a5df3f2eb",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "開放世界生存遊戲《涅槃計畫》釋出免費試玩版 從墜落的核心追查疫情",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314871",
+      "publisher": "",
+      "published_at": "2026-11-11T19:20:59+08:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
+      "id": "e80ac479dd44e3b2ce459863",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "延續前作世界觀 Roguelike 自走棋《晶靈小隊：黑瑪瑙崛起》公開 揭開原作事件之後的新篇章",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314870",
+      "publisher": "",
+      "published_at": "2026-11-11T19:15:26+08:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
+      "id": "8f881bc8b9855b961b94cb28",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "非對稱派對遊戲《我帶過的最差一屆》正式發售 加入女導師、10 種主題教室",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314869",
+      "publisher": "",
+      "published_at": "2026-11-11T19:08:48+08:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
+      "id": "77d42da532397c4084a18092",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "第三屆「Indie Game 集點遊樂園」12 月 G-EIGHT 登場 呼應聖誕節推出「INDIE XMAS」線上互動企劃",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314868",
+      "publisher": "",
+      "published_at": "2026-11-11T19:01:10+08:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
+      "id": "3c3369fd4d9442e49e6e81ae",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《RO 仙境傳說：守護永恆的愛 2》公開實機玩法影片 台港澳預定 2027 年展開測試",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314867",
+      "publisher": "",
+      "published_at": "2026-11-11T18:59:58+08:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
+      "id": "dd05cecfea59c441e5fdcf09",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "心理恐怖遊戲《叫魂》公開實機遊玩預告影片 窺見仙女鎮往事",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314866",
+      "publisher": "",
+      "published_at": "2026-11-11T18:56:45+08:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
+      "id": "29b2ea157f8cf02e5e37030a",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《魔女之泉》團隊新作《人偶之影》亮相 首支預告影片展示實機畫面與戰鬥系統",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314865",
+      "publisher": "",
+      "published_at": "2026-11-11T18:47:40+08:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
+      "id": "9c554241b2fee3c8c19f6f8b",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《封印者：CLOSERS》2026 玩家見面會現場花絮公開 以「禁書的試煉」為主題",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314864",
+      "publisher": "",
+      "published_at": "2026-11-11T18:40:12+08:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
+      "id": "01f0e9f58d794f32e8d27d95",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "開放世界生存冒險新作《西部之民》開放限時封測 駕駛客製化馬車進入 19 世紀狂野西部",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314863",
+      "publisher": "",
+      "published_at": "2026-11-11T18:36:40+08:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
+      "id": "ee7e92b9268810aa20331cc6",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "Aniplex × CYBIRD 將攜手推出黑暗奇幻冒險新作《Luna Reverse 幻月逆轉》",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314860",
+      "publisher": "",
+      "published_at": "2026-11-11T18:22:39+08:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
+      "id": "42affce8b1b42ea96221e93e",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《22 世紀富豪僱傭兵》預定 2027 年 11 月 9 日上市 新實機預告影片搶先公開",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314859",
+      "publisher": "",
+      "published_at": "2026-11-11T18:20:12+08:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
+      "id": "d1ec28bcb3ce761b797e1f74",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "迎接慶典！《Pokémon GO》與香港麥當勞的限時聯乘活動即將登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314858",
+      "publisher": "",
+      "published_at": "2026-11-11T18:10:01+08:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
+      "id": "b84c46b37042c9c567755278",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《對魔忍阿莎姬 2》Steam 繁體中文正式發售 收錄完全版新增的劇情等內容",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314857",
+      "publisher": "",
+      "published_at": "2026-11-11T18:04:55+08:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
     {
       "id": "59b3e0b727dbbeb10e0fe0ec",
       "category": "巴哈姆特情報",
@@ -275,6 +465,16 @@
       "first_seen_at": "2026-11-11T06:29:50+00:00"
     },
     {
+      "id": "6064350564ebfd6896b49815",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》日本老獵人怎麼評？有人說不像手遊，有人說太手遊玩不下去 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=JSh4TbMKnUM",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-11T13:00:08+00:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
       "id": "39ec570e3f08978357409507",
       "category": "巴哈姆特情報",
       "origin": "巴哈姆特",
@@ -303,6 +503,26 @@
       "publisher": "",
       "published_at": "2026-11-11T12:44:19+08:00",
       "first_seen_at": "2026-11-11T06:29:50+00:00"
+    },
+    {
+      "id": "ddaa6dd620e491d56dfe07ee",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《星之救援者 StarSavior》 ｜推主線 ｜玩老婆｜玩累的 換我給老婆玩",
+      "url": "https://www.youtube.com/watch?v=Gv3IKAcmUfU",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-11T12:43:16+00:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
+      "id": "c6393bf7936a2a3f3125ce71",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "實測《薩爾達》全 33 支 amiibo 在《時之笛》重製版會掉出什麼？",
+      "url": "https://www.youtube.com/watch?v=vCnDVwG5loM",
+      "publisher": "巴哈姆特電玩瘋",
+      "published_at": "2026-11-11T12:41:39+00:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
     },
     {
       "id": "1acf3cfa4372be5ca963269c",
@@ -335,6 +555,26 @@
       "first_seen_at": "2026-11-11T06:29:50+00:00"
     },
     {
+      "id": "17ee0d8fc046867ffc79dc11",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》說好再死一次就下播，結果又打27分鐘 #CD喜德",
+      "url": "https://www.youtube.com/shorts/1GXnpdPzkeQ",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-11T12:00:35+00:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
+      "id": "51b2eb799af643e57ee9b0b3",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》太刀打不痛？別先升防具！飛龍刀升一階攻擊力201變261 #CD喜德",
+      "url": "https://www.youtube.com/shorts/EJI_bpri2lw",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-11T12:00:19+00:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
       "id": "02c2b1ea318fe110111d1ac6",
       "category": "巴哈姆特情報",
       "origin": "巴哈姆特",
@@ -353,6 +593,26 @@
       "publisher": "",
       "published_at": "2026-11-11T11:38:18+08:00",
       "first_seen_at": "2026-11-11T04:00:01+00:00"
+    },
+    {
+      "id": "e31befdeb3540587b9b532eb",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "開放世界 MMORPG《RO 仙境傳說：守護永恆的愛 2》2026 RO FESTA 記者會現場",
+      "url": "https://www.youtube.com/watch?v=ToUrVow7OvY",
+      "publisher": "巴哈姆特電玩瘋",
+      "published_at": "2026-11-11T10:56:38+00:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
+    },
+    {
+      "id": "7e290b89c1647ecb54a75ad2",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "RO FESTA 2026 cosplayer@泰國曼谷 #ragnarok",
+      "url": "https://www.youtube.com/shorts/71ipU78eOjE",
+      "publisher": "巴哈姆特電玩瘋",
+      "published_at": "2026-11-11T10:50:52+00:00",
+      "first_seen_at": "2026-11-11T13:15:49+00:00"
     },
     {
       "id": "05579590d79189b1599125ba",
@@ -948,7 +1208,7 @@
       "id": "a770139ab40d3ed7b478b661",
       "category": "影片情報",
       "origin": "YouTube",
-      "title": "勇者們回家啦！巴哈姆特 30 週年站聚精彩回顧",
+      "title": "生日快樂！巴哈姆特 30 週年站聚精彩回顧",
       "url": "https://www.youtube.com/watch?v=iLfFp5tNTF8",
       "publisher": "巴哈姆特電玩瘋",
       "published_at": "2026-11-10T04:00:04+00:00",

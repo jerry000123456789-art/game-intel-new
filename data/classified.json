@@ -1,7 +1,19 @@
 {
-  "updated_at": "2026-11-11T10:04:37+00:00",
+  "updated_at": "2026-11-11T13:15:47+00:00",
   "note": "僅依標題比對遊戲與日期字樣；日期不代表活動起迄、上市日期；未擷取或驗證兌換碼。",
   "items": [
+    {
+      "id": "aa92b8c1b434be87efee",
+      "category": "兌換碼",
+      "game_matches": [],
+      "title": "【我在三國當村長】兌換碼與禮包碼序號・11月11日更新 - Ludens Media",
+      "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4yTE5DUlIzMTBJakhzb0MwaTNtbkhtTV9TOXlKbnZoVjdIYjRKTkstb0pOV01NUE50RVhBWXV6TmxfMjYxQWhUTjVTZWY3UQ?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-11-11T10:32:53+00:00",
+      "first_seen_at": "2026-11-11T13:15:47+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
     {
       "id": "e6e015f27e2cda27aba1",
       "category": "新遊戲資訊",
@@ -235,6 +247,20 @@
       "review_required": true
     },
     {
+      "id": "a41a17da558a2c150ce9",
+      "category": "活動行事曆",
+      "game_matches": [
+        "原神"
+      ],
+      "title": "7-ELEVEN跨界《原神》11/10開跑，消費滿額就送原神兌換碼 - 4Gamers",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQb0VIa0cwRFdVeHdIdWdabnQ1djlNUW1BeXNmVUJmZ0dDZmVIdDB1UTJlUDFtTnRJMTVTM0pfNm1rY2JORTQ5cXZlaXpmcE9ISUt1c2cxRS1pMmJ1UFdlNXpTRVFLMDluQzRyZ0M0dllPclR1Z2s3d1I4Q1FvejJoVTdTNWxtM3JR?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-11-06T04:41:35+00:00",
+      "first_seen_at": "2026-11-11T13:15:47+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
       "id": "543d59b98ba160a6f110",
       "category": "兌換碼",
       "game_matches": [],
@@ -435,7 +461,7 @@
       "title": "7.2版本活動祈願公告第一期 - Genshin Impact",
       "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8xZVBpdzVwNXJ6Q2NPSDFuLUpjeFdSZm56UTN1SmxOTXJ1X2VERDlIRjBzdkhIb2xLVFBidjg4MGx6MlNJalFPZFIwU3JsM3JfMWhzNEZjQ0FiOVNIWjUxTGdNRlI?oc=5",
       "publisher": "Genshin Impact",
-      "published_at": "2026-11-02T07:44:29+00:00",
+      "published_at": "2026-11-02T08:00:00+00:00",
       "first_seen_at": "2026-11-07T13:34:22+00:00",
       "date_mentions": [],
       "review_required": true

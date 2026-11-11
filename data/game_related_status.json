@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-11T10:07:19+00:00",
+  "checked_at": "2026-11-11T13:18:11+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
-    "codes": 0,
-    "guides": 1,
-    "events": 0
+    "codes": 1,
+    "guides": 0,
+    "events": 1
   },
   "total_leads": {
-    "codes": 52,
+    "codes": 53,
     "guides": 59,
     "events": 94
   },
   "per_game": {
-    "Football Head Coach 27 NFL PA": {
+    "哈利波特: 霍格華茲之謎": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "恐懼：戰略卡牌戰鬥": {
+    "Words of Wonders: Search": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "戰艦行動版2：現代戰艦世界": {
+    "Word Solitaire Now!": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "蜘蛛紙牌經典遊戲": {
+    "Zombie Sniper War 3 - Fire FPS": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Blood Strike - FPS for all": {
+    "像素射擊 3D (Pixel Gun 3D)": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Old School RuneScape": {
-      "codes": 0,
-      "guides": 1,
-      "events": 0
+    "劍之川": {
+      "codes": 1,
+      "guides": 0,
+      "events": 1
     },
-    "Pure Sniper 真正的狙擊手 - 火力全開滅敵人": {
+    "塔塔冒險隊": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Reckless Getaway 2": {
+    "大黑幫": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Royal Cooking - Cooking Game": {
+    "奇蹟之詞：用於連接詞彙的填字遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Scrabble® GO – Fun with Words!": {
+    "好萊塢合成：星夢逆襲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Sniper Battle: 3D War Shooter": {
+    "子彈英雄：塔防 × 戰棋策略 RPG": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Sonic Dash Run": {
+    "孔明與阿斗": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Wordscapes": {
+    "字謎遊戲 Wordle！": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Wordscapes Search: Word Games": {
+    "每日麻將配對": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Wordscapes Solitaire": {
+    "箭術堡壘：城堡戰爭": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -237,25 +237,25 @@
     "wordscapes": "2026-11-11T10:07:19+00:00",
     "wordscapessearchwordgames": "2026-11-11T10:07:19+00:00",
     "wordscapessolitaire": "2026-11-11T10:07:19+00:00",
-    "wordsofwonderssearch": "2026-11-08T03:57:32+00:00",
-    "wordsolitairenow": "2026-11-08T03:57:32+00:00",
-    "zombiesniperwar3firefps": "2026-11-08T03:57:32+00:00",
-    "像素射擊3dpixelgun3d": "2026-11-08T03:57:32+00:00",
-    "大黑幫": "2026-11-08T05:47:47+00:00",
+    "wordsofwonderssearch": "2026-11-11T13:18:11+00:00",
+    "wordsolitairenow": "2026-11-11T13:18:11+00:00",
+    "zombiesniperwar3firefps": "2026-11-11T13:18:11+00:00",
+    "像素射擊3dpixelgun3d": "2026-11-11T13:18:11+00:00",
+    "大黑幫": "2026-11-11T13:18:11+00:00",
     "gympup": "2026-11-08T05:47:47+00:00",
-    "奇蹟之詞用於連接詞彙的填字遊戲": "2026-11-08T05:47:47+00:00",
-    "好萊塢合成星夢逆襲": "2026-11-08T05:47:47+00:00",
-    "字謎遊戲wordle": "2026-11-08T05:47:47+00:00",
+    "奇蹟之詞用於連接詞彙的填字遊戲": "2026-11-11T13:18:11+00:00",
+    "好萊塢合成星夢逆襲": "2026-11-11T13:18:11+00:00",
+    "字謎遊戲wordle": "2026-11-11T13:18:11+00:00",
     "親愛的農場": "2026-11-08T05:47:47+00:00",
     "部落衝突clashofclans": "2026-11-08T05:47:47+00:00",
     "食光旅行": "2026-11-08T05:47:47+00:00",
     "the9thhauntedcorridor": "2026-11-08T05:47:47+00:00",
-    "每日麻將配對": "2026-11-08T05:47:47+00:00",
-    "箭術堡壘城堡戰爭": "2026-11-08T05:47:47+00:00",
-    "劍之川": "2026-11-08T05:47:47+00:00",
-    "塔塔冒險隊": "2026-11-08T05:47:47+00:00",
-    "子彈英雄塔防戰棋策略rpg": "2026-11-08T05:47:47+00:00",
-    "孔明與阿斗": "2026-11-08T05:47:47+00:00",
+    "每日麻將配對": "2026-11-11T13:18:11+00:00",
+    "箭術堡壘城堡戰爭": "2026-11-11T13:18:11+00:00",
+    "劍之川": "2026-11-11T13:18:11+00:00",
+    "塔塔冒險隊": "2026-11-11T13:18:11+00:00",
+    "子彈英雄塔防戰棋策略rpg": "2026-11-11T13:18:11+00:00",
+    "孔明與阿斗": "2026-11-11T13:18:11+00:00",
     "deliciousbb裝飾與三消": "2026-11-08T05:49:10+00:00",
     "jewelcoloring": "2026-11-08T05:49:10+00:00",
     "jigsawpuzzle經典拼圖遊戲": "2026-11-08T05:49:10+00:00",
@@ -829,7 +829,8 @@
     "footballheadcoach27nflpa": "2026-11-11T10:07:19+00:00",
     "恐懼戰略卡牌戰鬥": "2026-11-11T10:07:19+00:00",
     "戰艦行動版2現代戰艦世界": "2026-11-11T10:07:19+00:00",
-    "蜘蛛紙牌經典遊戲": "2026-11-11T10:07:19+00:00"
+    "蜘蛛紙牌經典遊戲": "2026-11-11T10:07:19+00:00",
+    "哈利波特霍格華茲之謎": "2026-11-11T13:18:11+00:00"
   },
   "errors": []
 }

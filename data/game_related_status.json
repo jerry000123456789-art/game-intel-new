@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-11-11T07:10:35+00:00",
+  "checked_at": "2026-11-11T07:14:12+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
     "guides": 0,
-    "events": 1
+    "events": 0
   },
   "total_leads": {
     "codes": 52,
@@ -14,77 +14,77 @@
     "events": 89
   },
   "per_game": {
-    "戰魂銘人": {
+    "Fish Sort Puzzle: 三消益智遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Angry Birds 2": {
+    "Free Fire: 風暴競技場": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Art Puzzle - 藝術拼圖遊戲": {
+    "Hole.io - Original Hole Game": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Balatro": {
+    "Hollywood Crush": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "BLEACH Mirrors High": {
+    "Jigsawcard Solitaire Puzzle": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Block Blast！": {
+    "LINE 熊大農場": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Block Craft 3D：Building Game": {
+    "Loop Sort": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Brewtopia: Grow Coffee Beans": {
+    "Magic Tiles 3™ - 鋼琴遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Call of Duty®: Mobile": {
+    "Mob Control": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Candy Crush Saga": {
+    "Mobile Legends: Bang Bang": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Arrows – Puzzle Escape": {
+    "Agar.io": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Block Crush!": {
+    "Botworld Adventure": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Coin Master": {
-      "codes": 0,
-      "guides": 0,
-      "events": 1
-    },
-    "Colony Flow": {
+    "Brawl Stars": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Fish Sort Puzzle": {
+    "Cube Land Puzzle Game": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Find Hidden Objects - Spot It!": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -111,21 +111,21 @@
     "coinmaster": "2026-11-11T07:10:35+00:00",
     "colonyflow": "2026-11-11T07:10:35+00:00",
     "fishsortpuzzle": "2026-11-11T07:10:35+00:00",
-    "fishsortpuzzle三消益智遊戲": "2026-11-07T14:43:58+00:00",
-    "freefire風暴競技場": "2026-11-07T14:43:58+00:00",
-    "holeiooriginalholegame": "2026-11-07T14:43:58+00:00",
-    "hollywoodcrush": "2026-11-07T14:43:58+00:00",
-    "jigsawcardsolitairepuzzle": "2026-11-07T14:43:58+00:00",
-    "line熊大農場": "2026-11-07T14:43:58+00:00",
-    "loopsort": "2026-11-07T14:43:58+00:00",
-    "magictiles3tm鋼琴遊戲": "2026-11-07T14:43:58+00:00",
-    "mobcontrol": "2026-11-07T14:43:58+00:00",
-    "mobilelegendsbangbang": "2026-11-07T14:43:58+00:00",
-    "agario": "2026-11-07T14:49:04+00:00",
-    "botworldadventure": "2026-11-07T14:49:04+00:00",
-    "brawlstars": "2026-11-07T14:49:04+00:00",
-    "cubelandpuzzlegame": "2026-11-07T14:49:04+00:00",
-    "findhiddenobjectsspotit": "2026-11-07T14:49:04+00:00",
+    "fishsortpuzzle三消益智遊戲": "2026-11-11T07:14:12+00:00",
+    "freefire風暴競技場": "2026-11-11T07:14:12+00:00",
+    "holeiooriginalholegame": "2026-11-11T07:14:12+00:00",
+    "hollywoodcrush": "2026-11-11T07:14:12+00:00",
+    "jigsawcardsolitairepuzzle": "2026-11-11T07:14:12+00:00",
+    "line熊大農場": "2026-11-11T07:14:12+00:00",
+    "loopsort": "2026-11-11T07:14:12+00:00",
+    "magictiles3tm鋼琴遊戲": "2026-11-11T07:14:12+00:00",
+    "mobcontrol": "2026-11-11T07:14:12+00:00",
+    "mobilelegendsbangbang": "2026-11-11T07:14:12+00:00",
+    "agario": "2026-11-11T07:14:12+00:00",
+    "botworldadventure": "2026-11-11T07:14:12+00:00",
+    "brawlstars": "2026-11-11T07:14:12+00:00",
+    "cubelandpuzzlegame": "2026-11-11T07:14:12+00:00",
+    "findhiddenobjectsspotit": "2026-11-11T07:14:12+00:00",
     "jetpackjoyride瘋狂噴氣機": "2026-11-07T14:49:04+00:00",
     "matchfactory": "2026-11-07T14:49:04+00:00",
     "monsterhunternow": "2026-11-07T14:49:04+00:00",

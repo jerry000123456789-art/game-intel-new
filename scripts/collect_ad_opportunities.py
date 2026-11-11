@@ -127,6 +127,10 @@ def rss_discover(config,getter=fetch):
                 link=(post.findtext("link") or "").strip()
                 title=(post.findtext("title") or "").strip()
                 description=(post.findtext("description") or "")[:12000]
+                named=game_from_title(title)
+                # An official forum post must not be attributed to a different
+                # title merely because it was found in that feed.
+                if named and normalized(named)!=normalized(game):continue
                 if safe_taptap(link) and LIMITED.search(title+" "+description[:450]):
                     sources.append({"url":link,"title":title,"description":description,
                         "via":"RSSHub official forum","game":game})

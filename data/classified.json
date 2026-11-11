@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:23:28+00:00",
+  "updated_at": "2026-11-11T07:54:28+00:00",
   "note": "僅依標題比對遊戲與日期字樣；日期不代表活動起迄、上市日期；未擷取或驗證兌換碼。",
   "items": [
     {
@@ -509,6 +509,18 @@
       "publisher": "games.gg",
       "published_at": "2026-10-29T07:00:00+00:00",
       "first_seen_at": "2026-11-08T01:10:15+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "001ca66204a23debdc4f",
+      "category": "遊戲攻略",
+      "game_matches": [],
+      "title": "魔物獵人：旅人開服懶人包｜開局拓荒避坑指南！新手上路全攻略！ - 香港01",
+      "source_url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxPV3dUdGFuWWtYLTB3dDFSY2QtT1VoLTJVM3FlSVZsd2tBUmlLaVdBYmdhZ0R3RGViNzJpRXdDdFFHWldWN0l4N1diVzMtZG0zb2VheEJHR3AtVW0ta254elA4SlZfWFhXVkNWOGstY0hNbHVSSVB5cjhXaFRvaHYzemJQc3FzcVF3ZmFwcVNiQ2tyVzNYcU1iMXNfYWs1VThrS212R2FfVE04eTZsRGJFTlRZWEpIejlGR3BsZGlINlVMcWxNZjk0RUpxTnJFU2Y3N0xPelF5VTNZYWcwdFR6UWIwd183TjZfSnJDNjRxNVZyOFNPc2M4ekQwS0NtOGUxX1VLSktjRjRWUGl5VnF5UTZOS0JsRnptRW82TkxwS09tLVlCVkZDMFpVY2R6QmI0ZHBiN3luMWJzTXJURUJRVkIxMllCNzVMV2JiRFFzbFloeURxMGRtSmhrVlVtTVZKUnN5LTBHU19RV2paLWl5ZUk0TlZkZ3h0ajRfSml4Qms0b0xvSnBJRXlnT2wtYVBGQ3BwQmVialA3Y250dHB5ZHp0VUJsMXpuYVRMNFFsOXBEUQ?oc=5",
+      "publisher": "香港01",
+      "published_at": "2026-10-29T07:00:00+00:00",
+      "first_seen_at": "2026-11-11T07:54:28+00:00",
       "date_mentions": [],
       "review_required": true
     },

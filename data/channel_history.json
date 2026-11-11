@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:23:30+00:00",
+  "updated_at": "2026-11-11T07:54:30+00:00",
   "status": "partial",
   "fetched": 30,
   "errors": [
@@ -25,6 +25,16 @@
     }
   ],
   "items": [
+    {
+      "id": "61506a275b5b98db8b2b2d51",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《薩爾達傳說 時之笛》重製版 4 天賣出 520 萬套 創任天堂 Switch 2 遊戲新紀錄",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314833",
+      "publisher": "",
+      "published_at": "2026-11-11T15:48:28+08:00",
+      "first_seen_at": "2026-11-11T07:54:30+00:00"
+    },
     {
       "id": "bf9dc47f1f2ac9cfb6dd14c5",
       "category": "巴哈姆特情報",

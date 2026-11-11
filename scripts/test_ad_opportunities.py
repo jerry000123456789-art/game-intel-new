@@ -26,9 +26,9 @@ assert m.candidate_from_taptap(url,"限時福利活動",html,"2026-11-11","測�
 assert lead["start_date"]=="2026-11-11" and lead["end_date"]=="2026-11-25",lead
 assert m.candidate_from_taptap(url,"《測試好遊戲》活動","<html><body><p>活動時間 11月11日至11月25日</p></body></html>","2026-11-11") is None
 cn=m.evaluate(lead,cfg)
-assert cn["market_label"]=="中國站" and "待核實" in cn["status"]
+assert cn["market_label"]=="中國站" and "待核實" in cn["status"] and cn["score"]<=48
 tw=m.evaluate({**lead,"market":"TW"},cfg)
-assert tw["status"].startswith("優先評估"),tw
+assert tw["status"].startswith("優先評估") and tw["score"]>cn["score"],tw
 assert m.evaluate({**lead,"game":"原神"},cfg) is None
 rss='<?xml version="1.0"?><rss><channel><item><title>《測試好遊戲》限時累充福利活動</title><link>'+url+'</link></item></channel></rss>'
 def getter(target):

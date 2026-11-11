@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-11T06:30:25.989266+00:00",
-  "note": "Historical source leads retained; not validated codes, full guides, or confirmed event dates.",
+  "updated_at": "2026-11-11T06:33:58+00:00",
+  "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
       {
@@ -174,6 +174,15 @@
         "title": "魔物獵人旅人最完美開局攻略+史上最多禮包碼+獨家隱藏版序號拿最強首抽+T0武器+最暴力輸出#魔物獵人旅人序號#魔物獵人旅人兌換碼#魔物獵人旅人禮包碼#魔物獵人旅人首抽#魔物獵人旅人巴哈#魔物獵人旅人攻略#魔物獵人旅人神裝#魔物獵人旅人練功#魔物 - Mobile01",
         "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1OamNHUjMxUERzbnlhcDZxVjNheERXazEzTEtUX1llYkl1XzlMMkFfSVRkVmxQaXJqVy03Vi12LV9CUWQ2aE94N09SLVY0QlQ1dy16NDBPRFhzY0tXV1FUZVJZaVVGNG8?oc=5",
         "published_at": "2026-11-02T12:57:33+00:00",
+        "publisher": "Mobile01",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "超人力霸王：傳奇英雄2",
+        "kind": "codes",
+        "title": "超人力霸王傳奇英雄2 版本最神T0無敵陣容+史上最多禮包最強首抽+超人力霸王+傑洛+諾亞#超人力霸王傳奇英雄2序號 #超人力霸王傳奇英雄2兌換碼#超人力霸王傳奇英雄2禮包碼#超人力霸王傳奇英雄2首抽#超人力霸王傳奇英雄2攻略 #超人力霸王傳奇英雄2巴哈# - Mobile01",
+        "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MaEVpUTJ1SGg0QzZlbVZHdU9XTS1ZYjI1ME1WQTY1MmhGSmVsRzRQWGN1RGFtaGxpNGRMdi1OX2tLRkM1TTN1VUlOODB2aW5rQll6NHFITEE2Ylh0N0tuQjl5UUwyN1k?oc=5",
+        "published_at": "2026-11-02T03:58:50+00:00",
         "publisher": "Mobile01",
         "status": "source_lead_only"
       },
@@ -569,6 +578,15 @@
         "status": "source_lead_only"
       },
       {
+        "game": "超人力霸王：傳奇英雄2",
+        "kind": "guides",
+        "title": "超人力霸王傳奇英雄2 版本最神T0無敵陣容+史上最多禮包最強首抽+超人力霸王+傑洛+諾亞#超人力霸王傳奇英雄2序號 #超人力霸王傳奇英雄2兌換碼#超人力霸王傳奇英雄2禮包碼#超人力霸王傳奇英雄2首抽#超人力霸王傳奇英雄2攻略 #超人力霸王傳奇英雄2巴哈# - Mobile01",
+        "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MaEVpUTJ1SGg0QzZlbVZHdU9XTS1ZYjI1ME1WQTY1MmhGSmVsRzRQWGN1RGFtaGxpNGRMdi1OX2tLRkM1TTN1VUlOODB2aW5rQll6NHFITEE2Ylh0N0tuQjl5UUwyN1k?oc=5",
+        "published_at": "2026-11-02T03:58:50+00:00",
+        "publisher": "Mobile01",
+        "status": "source_lead_only"
+      },
+      {
         "game": "Fortnite",
         "kind": "guides",
         "title": "Fortnite Guide: All Treasure Hunters Quests & Rewards 任務與獎勵總覽 - games.gg",
@@ -911,6 +929,15 @@
     ],
     "events": [
       {
+        "game": "Sonic Rumble Party",
+        "kind": "events",
+        "title": "《Sonic Rumble Party》 歡慶遊戲上線1週年！期間限定「1週年紀念活動」開幕！ - NOVA資訊廣場",
+        "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5hMnFWN3QzbzV4TnVyMmxJVGQ5WmFuLTRkb3B2S000cnZOR2dBYWg2elI0dllMMVo2azhWZ3pTcUQtX05lelpiQXVZaUMtS3RBQlBIUHRyV01DUVBEOUpVSXlXZTh0TzdI?oc=5",
+        "published_at": "2026-11-10T07:24:31+00:00",
+        "publisher": "NOVA資訊廣場",
+        "status": "source_lead_only"
+      },
+      {
         "game": "天堂M",
         "kind": "events",
         "title": "《天堂M》開服壅塞、玩家無法登入遊戲橘子：虛寶補償| 科技 - 三立新聞網SETN.com",
@@ -1015,6 +1042,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE50UmE3ZF81cjJwZ2pjWlZIZk83bkQ0YURCREdNWTBzS3pJOTJrXzlDSXlQdFFucWNBV3E2azJzdl9mT2VmLWI0cmdqeHoyaE80TnBxeQ?oc=5",
         "published_at": "2026-11-05T13:02:32+00:00",
         "publisher": "SuperDope.Games",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Sonic Rumble Party",
+        "kind": "events",
+        "title": "《Sonic Rumble Party》歡慶遊戲上線1週年！「1週年紀念活動」限時開幕，全新外觀登場 - QooApp",
+        "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbTc4UUpfaEZpTDNXX2piNGEyLVY2VkxtVE42VUVCZUlsS2d5SWxhaldxNGZhb3p4cUVlMF9iWXN2U0pFS1RpZ1RPU2VLWG1ndWQ2R044cUltbUpWZnFFekthV09rWVpXWm9lRXpPX1Q1MF90MUIyQnJsRV9WTWM3SQ?oc=5",
+        "published_at": "2026-11-05T11:51:00+00:00",
+        "publisher": "QooApp",
         "status": "source_lead_only"
       },
       {

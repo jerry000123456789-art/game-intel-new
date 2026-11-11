@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-11T06:30:26+00:00",
+  "checked_at": "2026-11-11T06:33:58+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
-    "codes": 0,
-    "guides": 0,
-    "events": 0
+    "codes": 1,
+    "guides": 1,
+    "events": 2
   },
   "total_leads": {
-    "codes": 51,
-    "guides": 56,
-    "events": 77
+    "codes": 52,
+    "guides": 57,
+    "events": 79
   },
   "per_game": {
-    "82-0.com": {
+    "Aethric英雄 | 經典角色扮演遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Deep Town: Idle Mining Tycoon": {
+    "Archers Online: PvP": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Dragon City: Mobile Adventure": {
+    "Critical Ops: Multiplayer FPS": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "ブースターパックヒーロー": {
+    "Gold and Goblins - 模擬經營 挖礦遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "응 발로 키우기": {
+    "My Talking Angela 2": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "쿠키런 키우기 - 쿠키런: 크럼블 아이콘 이미지": {
+    "Sonic Rumble Party": {
+      "codes": 0,
+      "guides": 0,
+      "events": 2
+    },
+    "時光公主：戴珍珠耳環的少女": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Bills Must Be Paid": {
+    "超人力霸王：傳奇英雄2": {
+      "codes": 1,
+      "guides": 1,
+      "events": 0
+    },
+    "DOOM": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "2.4版本「飲馬渡秋水": {
+    "DOOM II": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "8 Ball Pool™": {
+    "Duck Detective: Ghost Glamping": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Angry Birds Dream Blast - 憤怒鳥": {
+    "Enchanted Survival: 刷寶RPG": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Art of Fauna：療癒動物拼圖": {
+    "Fortias Saga: Idle RPG": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "A Tiny Sticker Tale": {
+    "How Many Dudes?": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Cafe Days：咖啡店經營": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Castlevania: SotN": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Clash Royale": {
+    "Hyper Light Drifter": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -750,7 +750,22 @@
     "atinystickertale": "2026-11-11T06:30:26+00:00",
     "cafedays咖啡店經營": "2026-11-11T06:30:26+00:00",
     "castlevaniasotn": "2026-11-11T06:30:26+00:00",
-    "clashroyale": "2026-11-11T06:30:26+00:00"
+    "clashroyale": "2026-11-11T06:30:26+00:00",
+    "aethric英雄經典角色扮演遊戲": "2026-11-11T06:33:58+00:00",
+    "archersonlinepvp": "2026-11-11T06:33:58+00:00",
+    "criticalopsmultiplayerfps": "2026-11-11T06:33:58+00:00",
+    "goldandgoblins模擬經營挖礦遊戲": "2026-11-11T06:33:58+00:00",
+    "mytalkingangela2": "2026-11-11T06:33:58+00:00",
+    "sonicrumbleparty": "2026-11-11T06:33:58+00:00",
+    "時光公主戴珍珠耳環的少女": "2026-11-11T06:33:58+00:00",
+    "超人力霸王傳奇英雄2": "2026-11-11T06:33:58+00:00",
+    "doom": "2026-11-11T06:33:58+00:00",
+    "doomii": "2026-11-11T06:33:58+00:00",
+    "duckdetectiveghostglamping": "2026-11-11T06:33:58+00:00",
+    "enchantedsurvival刷寶rpg": "2026-11-11T06:33:58+00:00",
+    "fortiassagaidlerpg": "2026-11-11T06:33:58+00:00",
+    "howmanydudes": "2026-11-11T06:33:58+00:00",
+    "hyperlightdrifter": "2026-11-11T06:33:58+00:00"
   },
   "errors": []
 }

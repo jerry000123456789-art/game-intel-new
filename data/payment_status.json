@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-11T07:19:17+00:00",
+  "updated_at": "2026-11-11T07:22:56+00:00",
   "games_this_run": 8,
-  "searches_succeeded": 51,
-  "searches_failed": 2,
+  "searches_succeeded": 52,
+  "searches_failed": 1,
   "new_evidence": 0,
   "total_evidence": 17,
-  "directories_succeeded": 3,
-  "directories_failed": 2,
+  "directories_succeeded": 4,
+  "directories_failed": 1,
   "checked_games": {
     "1945airforce街機飛機射擊": "2026-11-07T14:40:48+00:00",
     "2048方塊消除數字遊戲m2blocks": "2026-11-07T14:40:48+00:00",
@@ -431,14 +431,17 @@
     "탑과용병단": "2026-11-11T07:19:17+00:00",
     "탕탕에이스": "2026-11-11T07:19:17+00:00",
     "한정5성캐릭터푸리나이벤트기원오픈": "2026-11-11T07:19:17+00:00",
-    "할리우드머지": "2026-11-11T07:19:17+00:00"
+    "할리우드머지": "2026-11-11T07:19:17+00:00",
+    "햄도쿠햄스터스도쿠두뇌퍼즐": "2026-11-11T07:22:56+00:00",
+    "每日麻將配對": "2026-11-11T07:22:56+00:00",
+    "箭術堡壘城堡戰爭": "2026-11-11T07:22:56+00:00",
+    "mlb9局職棒26": "2026-11-11T07:22:56+00:00",
+    "plantsvszombiestm": "2026-11-11T07:22:56+00:00",
+    "snakeio有趣的貪吃蛇io遊戲": "2026-11-11T07:22:56+00:00",
+    "spiderfighter3actiongame": "2026-11-11T07:22:56+00:00",
+    "towerwartacticalconquest": "2026-11-11T07:22:56+00:00"
   },
   "errors": [
-    {
-      "provider": "MyCard",
-      "error": "The read operation timed out",
-      "url": "https://www.mycard520.com/web/zh-tw/MicroPayment"
-    },
     {
       "provider": "GASH",
       "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)>",

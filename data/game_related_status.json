@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-11T07:19:09+00:00",
+  "checked_at": "2026-11-11T07:22:47+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
-    "codes": 0,
-    "guides": 1,
-    "events": 3
+    "codes": 1,
+    "guides": 0,
+    "events": 2
   },
   "total_leads": {
     "codes": 52,
     "guides": 58,
-    "events": 92
+    "events": 93
   },
   "per_game": {
-    "RAN - Royal Academy Nations": {
+    "Meta Horizon": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Royal Kingdom": {
+    "Pokémon TCG Pocket": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Royal Match": {
+    "Screw Out 3D": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Sand Blocks: Drop Puzzle": {
+    "Solar Smash": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "新熱血江湖：世界": {
+    "Solitaire": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "明日方舟：終末地": {
+    "Total Battle: War Strategy": {
       "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Woodoku Blast": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "Yarn Loop": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "卡厄思夢境": {
+      "codes": 1,
       "guides": 0,
       "events": 2
     },
-    "烹飪日記：餐廳遊戲": {
+    "同盟塔防戰：並肩作戰": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "燕雲十六聲": {
+    "噠噠特攻": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "神魔之塔": {
-      "codes": 0,
-      "guides": 1,
-      "events": 1
-    },
-    "薑餅人王國": {
+    "3D Magic Pop：奇趣方塊分類": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "靠裝勇者：背包合成RPG": {
+    "Absolum": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Animals & Coins Adventure Game": {
+    "Booster Pack Heroes": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Hunting Sniper": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Kingshot": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Madden NFL 27 Mobile Football": {
+    "Butter PoP: ASMR解謎": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -155,21 +155,21 @@
     "huntingsniper": "2026-11-11T07:19:09+00:00",
     "kingshot": "2026-11-11T07:19:09+00:00",
     "maddennfl27mobilefootball": "2026-11-11T07:19:09+00:00",
-    "metahorizon": "2026-11-07T15:48:37+00:00",
-    "pokémontcgpocket": "2026-11-07T15:48:37+00:00",
-    "solarsmash": "2026-11-07T15:48:37+00:00",
-    "solitaire": "2026-11-07T15:48:37+00:00",
-    "totalbattlewarstrategy": "2026-11-07T15:48:37+00:00",
-    "screwout3d": "2026-11-07T15:48:37+00:00",
-    "woodokublast": "2026-11-07T15:48:37+00:00",
-    "yarnloop": "2026-11-07T15:48:37+00:00",
-    "卡厄思夢境": "2026-11-07T15:48:37+00:00",
-    "同盟塔防戰並肩作戰": "2026-11-07T15:48:37+00:00",
-    "噠噠特攻": "2026-11-07T15:48:37+00:00",
-    "3dmagicpop奇趣方塊分類": "2026-11-07T15:50:44+00:00",
-    "absolum": "2026-11-07T15:50:44+00:00",
-    "boosterpackheroes": "2026-11-07T15:50:44+00:00",
-    "butterpopasmr解謎": "2026-11-07T15:50:44+00:00",
+    "metahorizon": "2026-11-11T07:22:47+00:00",
+    "pokémontcgpocket": "2026-11-11T07:22:47+00:00",
+    "solarsmash": "2026-11-11T07:22:47+00:00",
+    "solitaire": "2026-11-11T07:22:47+00:00",
+    "totalbattlewarstrategy": "2026-11-11T07:22:47+00:00",
+    "screwout3d": "2026-11-11T07:22:47+00:00",
+    "woodokublast": "2026-11-11T07:22:47+00:00",
+    "yarnloop": "2026-11-11T07:22:47+00:00",
+    "卡厄思夢境": "2026-11-11T07:22:47+00:00",
+    "同盟塔防戰並肩作戰": "2026-11-11T07:22:47+00:00",
+    "噠噠特攻": "2026-11-11T07:22:47+00:00",
+    "3dmagicpop奇趣方塊分類": "2026-11-11T07:22:47+00:00",
+    "absolum": "2026-11-11T07:22:47+00:00",
+    "boosterpackheroes": "2026-11-11T07:22:47+00:00",
+    "butterpopasmr解謎": "2026-11-11T07:22:47+00:00",
     "dinermerge美食合併餐廳": "2026-11-07T15:50:44+00:00",
     "dispatch": "2026-11-07T15:50:44+00:00",
     "dora探索与玩耍": "2026-11-07T15:50:44+00:00",

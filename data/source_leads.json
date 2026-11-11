@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T07:19:09+00:00",
+  "updated_at": "2026-11-11T07:22:47+00:00",
   "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
@@ -937,6 +937,15 @@
       }
     ],
     "events": [
+      {
+        "game": "卡厄思夢境",
+        "kind": "events",
+        "title": "《卡厄思夢境》釋出「銀河系災害」第 5 季第二波內容更新！ - 蕃新聞",
+        "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZLXRfTUJ3TjJYa0xIY1ZHUVFIdTFWaGdTLXZvajg0V2JNUlpnQlhtTC1XTF9TeE5aam53cXZfUEtXUkJQay1Mdl9yZFBkcWFpYlE?oc=5",
+        "published_at": "2026-11-11T06:33:56+00:00",
+        "publisher": "蕃新聞",
+        "status": "source_lead_only"
+      },
       {
         "game": "明日方舟：終末地",
         "kind": "events",

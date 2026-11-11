@@ -22,7 +22,7 @@ OUT=ROOT/"data/ad_opportunities.json"
 STATUS=ROOT/"data/ad_opportunity_status.json"
 NOW=dt.datetime.now(dt.timezone.utc)
 TODAY=(NOW+dt.timedelta(hours=8)).date()
-DATE_RE=re.compile(r"(20\d{2})[-/.年](0?[1-9]|1[0-2])[-/.月](0?[1-9]|[12]\d|3[01])(?:日)?")
+DATE_RE=re.compile(r"(20\d{2})[-/.年](1[0-2]|0?[1-9])[-/.月](3[01]|[12]\d|0?[1-9])(?!\d)(?:日)?")
 RANGE_MARKER=re.compile(r"活動時間|活动时间|活動期間|活动期间|參與時間|参与时间|event period|限時活動|限时活动",re.I)
 MONEY=re.compile(r"累儲|累储|累充|儲值|充值|返利|首充|特惠礼包|特惠禮包|限時禮包|限时礼包|通行证|战令|戰令",re.I)
 LIMITED=re.compile(r"限時|限时|福利|獎勵|奖励|禮包|礼包|聯動|联动|新服|开服|開服|签到|簽到|兑换码|兌換碼|活動|活动",re.I)

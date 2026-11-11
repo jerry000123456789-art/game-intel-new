@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T06:42:00+00:00",
+  "updated_at": "2026-11-11T07:04:31+00:00",
   "status": "partial",
   "fetched": 30,
   "errors": [
@@ -25,6 +25,26 @@
     }
   ],
   "items": [
+    {
+      "id": "65eb520c543d2c5571c96f3d",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《密林傳奇 Tunche》Switch 實體版將於 12 月 10 日推出",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314827",
+      "publisher": "",
+      "published_at": "2026-11-11T14:56:01+08:00",
+      "first_seen_at": "2026-11-11T07:04:31+00:00"
+    },
+    {
+      "id": "13419dcbf0198d506f781a0a",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《風之國度》x《WIND BREAKER—防風少年—》聯動確認",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314826",
+      "publisher": "",
+      "published_at": "2026-11-11T14:50:10+08:00",
+      "first_seen_at": "2026-11-11T07:04:31+00:00"
+    },
     {
       "id": "a7d21c4ce7185216f33a37a4",
       "category": "巴哈姆特情報",

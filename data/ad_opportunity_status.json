@@ -1,9 +1,30 @@
 {
-  "updated_at": "2026-11-11T07:16:30+00:00",
-  "queries_attempted": 8,
+  "updated_at": "2026-11-11T07:19:02+00:00",
+  "queries_attempted": 13,
   "taptap_article_links_found": 0,
   "taptap_dated_items_parsed": 0,
   "total_opportunities": 7,
-  "source_errors": [],
+  "source_errors": [
+    {
+      "provider": "RSSHub 梦幻新诛仙：轻享",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "provider": "RSSHub 闪耀暖暖",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "provider": "RSSHub 梦幻魔法屋",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "provider": "RSSHub 飞跃虹镜",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "provider": "RSSHub 雷鸣三国",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
   "note": "RSS 可能未索引 TapTap；防爬或驗證頁阻擋不會被當作成功收集。"
 }

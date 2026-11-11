@@ -13,7 +13,7 @@ const nowDay=()=>new Date().toLocaleDateString('sv-SE',{timeZone:'Asia/Taipei'})
 const dayDelta=value=>value?(Date.parse(toDate(value)+'T00:00:00Z')-Date.parse(nowDay()+'T00:00:00Z'))/86400000:null;
 const gameKey=name=>String(name||'').normalize('NFKC').toLowerCase().replace(/潛水小漁夫|潜水小渔夫/gi,'').replace(/[\s\u3000:：·\-—「」『』()（）!！,，.。]/g,'');
 const data={games:[],matrix:[],curated:[],codes:[],content:[],events:[],announcements:[],cloudGames:[],legacyGames:[],watchAvailable:false,updated:'',channels:[],status:{}};
-const ui={page:'home',window:'recent',month:new Date(),gameRows:[],codeRows:[],contentRows:[],brand:'',pending:[]};
+const ui={page:'home',window:'recent',month:new Date(),gameRows:[],gamePage:0,codeRows:[],contentRows:[],brand:'',pending:[]};
 ui.month.setDate(1);
 try{ui.brand=localStorage.getItem('game-intel-brand')||'';ui.pending=JSON.parse(localStorage.getItem('game-intel-pending')||'[]')}catch{}
 const repo='https://github.com/jerry000123456789-art/game-intel-new';
@@ -63,7 +63,7 @@ function platformRow(r,mapping){
   const dateScope=platform==='App Store'?'Apple 產品發行日期，非各國獨立首發':evidence.release_source_type||'Google Play 商店發行紀錄';
   return {platform,country,date,dateScope,source,proof:evidence.country_launch_source||source,
     cover:r.cover_url||evidence.cover_url||'',status:r.status||'商店收錄',
-    preOrder:!!evidence.preorder_confirmed};
+    preOrder:!!evidence.preorder_confirmed,seen:r.first_seen_at||''};
 }
 function gameRecords(){
   const lookup=new Map();
@@ -89,6 +89,7 @@ function gameRecords(){
         if(!current.source&&p.source)current.source=p.source;
         if(!current.proof&&p.proof)current.proof=p.proof;
         if(p.preOrder)current.preOrder=true;
+        if(p.seen&&(!current.seen||p.seen>current.seen))current.seen=p.seen;
       }
     }
   }
@@ -100,7 +101,7 @@ function gameRecords(){
     for(const p of g.platforms||[]){
       add(g.name,{platform:p.platform,country:p.country,date:p.date||'',
         dateScope:p.date_scope||'',source:p.store_url||'',proof:p.evidence_url||p.store_url,
-        status:p.date?'已上市':'商店收錄',preOrder:false},g.cover_url||'',g.developer||'',true);
+        status:p.date?'已上市':'商店收錄',preOrder:false,seen:g.first_seen_at||''},g.cover_url||'',g.developer||'',true);
     }
   }
   return [...games.values()];
@@ -129,10 +130,10 @@ function filteredGames(){
     const rows=gameDateRows(game,market,store);
     if(!rows.length)continue;
     const st=gameStatus(rows);
-    if(ui.window!==st.type)continue;
+    if(ui.window!=='all'&&ui.window!==st.type)continue;
     out.push({game,rows,status:st});
   }
-  const byDate=x=>x.status.date||(ui.window==='upcoming'?'9999-12-31':'0000-00-00');
+  const byDate=x=>x.status.date||(ui.window==='upcoming'?'9999-12-31':ui.window==='all'?(x.rows.map(y=>toDate(y.seen)).sort().pop()||'0000-00-00'):'0000-00-00');
   const reverse=$('game-order').value==='old';
   out.sort((a,b)=>{
     const aDate=byDate(a),bDate=byDate(b);
@@ -165,10 +166,41 @@ function gameCard(rec,index){
 }
 function renderGames(){
   ui.gameRows=filteredGames();
-  $('game-count').textContent=ui.gameRows.length+' 款符合條件的遊戲 · 來源日期與首次發現時間分開；各國獨立首發日未核實時不推定。';
-  const limited=ui.gameRows.slice(0,180);
-  $('game-list').innerHTML=limited.length?limited.map(gameCard).join(''):empty($('game-market').value==='HW'||$('game-store').value==='AppGallery'
-      ?'華為 AppGallery 的官方商店清單仍無法穩定讀取，尚未取得可核實的手機遊戲。':'目前沒有符合這個日期範圍的遊戲。可切換歷史資料或修改篩選。');
+  const market=$('game-market').value,store=$('game-store').value;
+  const scopeCount=gameRecords().filter(game=>gameDateRows(game,market,store).length).length;
+  const pageSize=60,pageCount=Math.max(1,Math.ceil(ui.gameRows.length/pageSize));
+  ui.gamePage=Math.min(ui.gamePage,pageCount-1);
+  const first=ui.gamePage*pageSize;
+  const limited=ui.gameRows.slice(first,first+pageSize);
+  const additional=ui.window==='recent'&&scopeCount>ui.gameRows.length
+    ?' · 此商店另外收錄 '+(scopeCount-ui.gameRows.length)+' 款（較早上市、預約中或上市日尚未核實）':'';
+  $('game-count').textContent=ui.gameRows.length+' 款符合條件的遊戲'+additional+' · 商店收錄日期不等於首次上市日期。';
+  if(limited.length){
+    $('game-list').innerHTML=limited.map((record,i)=>gameCard(record,first+i)).join('');
+  }else if(market==='HW'||store==='AppGallery'){
+    $('game-list').innerHTML=empty('華為 AppGallery 的官方商店清單仍無法穩定讀取，尚未取得可核實的手機遊戲。');
+  }else if(scopeCount>0&&ui.window!=='all'){
+    $('game-list').innerHTML='<div class="gx-empty">這個日期分類沒有符合條件的遊戲，但此商店與地區已有 '+scopeCount+
+      ' 款收錄紀錄。未確認上市日期的遊戲不會被誤當成新上市。<div class="gx-actions" style="justify-content:center;margin-top:12px">'+
+      '<button class="gx-btn primary" type="button" data-gx-open-all>查看全部 '+scopeCount+' 款遊戲</button></div></div>';
+  }else{
+    $('game-list').innerHTML=empty('這個商店／地區目前沒有可展示的遊戲資料。請改選其他地區或商店。');
+  }
+  $('game-list').querySelectorAll('[data-gx-open-all]').forEach(button=>button.addEventListener('click',()=>{
+    ui.window='all';ui.gamePage=0;
+    document.querySelectorAll('[data-gx-window]').forEach(x=>x.classList.toggle('active',x.dataset.gxWindow==='all'));
+    renderGames();
+  }));
+  $('game-pagination').innerHTML=pageCount>1
+    ?'<button class="gx-btn small" type="button" data-gx-page-step="-1" '+(ui.gamePage===0?'disabled':'')+'>上一頁</button>'+
+      '<span class="gx-muted">第 '+(ui.gamePage+1)+' / '+pageCount+' 頁（每頁最多 '+pageSize+' 款）</span>'+
+      '<button class="gx-btn small" type="button" data-gx-page-step="1" '+(ui.gamePage===pageCount-1?'disabled':'')+'>下一頁</button>'
+    :'';
+  $('game-pagination').querySelectorAll('[data-gx-page-step]').forEach(button=>button.addEventListener('click',()=>{
+    ui.gamePage=Math.max(0,Math.min(pageCount-1,ui.gamePage+Number(button.dataset.gxPageStep)));
+    renderGames();
+    $('game-windows').scrollIntoView?.({behavior:'smooth',block:'start'});
+  }));
   $('game-list').querySelectorAll('[data-gx-game-campaign]').forEach(x=>x.addEventListener('click',()=>{
     const item=ui.gameRows[Number(x.dataset.gxGameCampaign)];
     openCampaign({game:item.game.name,title:item.game.name+' · '+item.status.label,
@@ -495,15 +527,16 @@ async function main(){
 }
 document.querySelectorAll('[data-gx-page]').forEach(button=>button.addEventListener('click',()=>show(button.dataset.gxPage)));
 document.querySelectorAll('[data-gx-jump]').forEach(button=>button.addEventListener('click',()=>{
-  if(button.dataset.gxJump==='games-upcoming'){ui.window='upcoming';document.querySelectorAll('[data-gx-window]').forEach(x=>x.classList.toggle('active',x.dataset.gxWindow==='upcoming'));show('games')}
+  if(button.dataset.gxJump==='games-upcoming'){ui.window='upcoming';ui.gamePage=0;document.querySelectorAll('[data-gx-window]').forEach(x=>x.classList.toggle('active',x.dataset.gxWindow==='upcoming'));show('games')}
   else show(button.dataset.gxJump);
 }));
 document.querySelectorAll('[data-gx-window]').forEach(button=>button.addEventListener('click',()=>{
   ui.window=button.dataset.gxWindow;
+  ui.gamePage=0;
   document.querySelectorAll('[data-gx-window]').forEach(x=>x.classList.toggle('active',x===button));
   renderGames();
 }));
-['game-q','game-market','game-store','game-order'].forEach(id=>$(id).addEventListener('input',renderGames));
+['game-q','game-market','game-store','game-order'].forEach(id=>$(id).addEventListener('input',()=>{ui.gamePage=0;renderGames()}));
 ['code-q','code-order'].forEach(id=>$(id).addEventListener('input',renderCodes));
 ['content-q','content-kind','content-order'].forEach(id=>$(id).addEventListener('input',renderContent));
 $('watch-form').addEventListener('submit',async event=>{

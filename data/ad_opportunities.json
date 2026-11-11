@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T10:26:42+00:00",
+  "updated_at": "2026-11-11T11:25:39+00:00",
   "items": [
     {
       "game": "明日方舟",
@@ -18,7 +18,7 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-11T10:26:42+00:00",
+      "updated_at": "2026-11-11T11:25:39+00:00",
       "id": "9b07b36727830ace61778bd1",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -40,7 +40,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "中國站",
-      "updated_at": "2026-11-11T10:26:42+00:00",
+      "updated_at": "2026-11-11T11:25:39+00:00",
       "id": "c660d235dfa48b5b42b4eafe",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -62,7 +62,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "儲值／禮包時效",
       "market_label": "中國站",
-      "updated_at": "2026-11-11T10:26:42+00:00",
+      "updated_at": "2026-11-11T11:25:39+00:00",
       "id": "20a444facd968b6aa97c54a4",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -84,7 +84,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "儲值／禮包時效",
       "market_label": "中國站",
-      "updated_at": "2026-11-11T10:26:42+00:00",
+      "updated_at": "2026-11-11T11:25:39+00:00",
       "id": "e529d816792d9bc8c1f6c41c",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -106,7 +106,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "中國站",
-      "updated_at": "2026-11-11T10:26:42+00:00",
+      "updated_at": "2026-11-11T11:25:39+00:00",
       "id": "aed9e750f4b2af2a106919cb",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -128,7 +128,7 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-11T10:26:42+00:00",
+      "updated_at": "2026-11-11T11:25:39+00:00",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
     {
@@ -149,11 +149,22 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-11T10:26:42+00:00",
+      "updated_at": "2026-11-11T11:25:39+00:00",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     }
   ],
   "leads": [
+    {
+      "game": "新王者之劍",
+      "title": "《新王者之劍》11 月「豐收季」改版登場！全新角色「巴哈」參戰 秋季系列活動熱鬧開跑 - Paradaily",
+      "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5hOUpCdnhjcE5vX3VzTnQxbVN6Qk9hSzdBdGFkWlhoZ1lHRUhPTkhaRzRWUHp5eVR1ZXh4cE5ucWlIWjNDejYwbFpONFlNUQ?oc=5",
+      "google_search_url": "https://www.google.com/search?q=%22%E6%96%B0%E7%8E%8B%E8%80%85%E4%B9%8B%E5%8A%8D%22+%22%E3%80%8A%E6%96%B0%E7%8E%8B%E8%80%85%E4%B9%8B%E5%8A%8D%E3%80%8B11+%E6%9C%88%E3%80%8C%E8%B1%90%E6%94%B6%E5%AD%A3%E3%80%8D%E6%94%B9%E7%89%88%E7%99%BB%E5%A0%B4%EF%BC%81%E5%85%A8%E6%96%B0%E8%A7%92%E8%89%B2%E3%80%8C%E5%B7%B4%E5%93%88%E3%80%8D%E5%8F%83%E6%88%B0+%E7%A7%8B%E5%AD%A3%E7%B3%BB%E5%88%97%E6%B4%BB%E5%8B%95%E7%86%B1%E9%AC%A7%E9%96%8B%E8%B7%91+-+Paradaily%22",
+      "published_at": "2026-11-11T07:50:26+00:00",
+      "publisher": "Paradaily",
+      "source_type": "Google 新聞搜尋",
+      "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
+      "status": "source_lead_only"
+    },
     {
       "game": "明日方舟",
       "title": "《明日方舟》與《魔物獵人》二度聯動 相隔約 3 年 預告影片公開月夜竹林不明身影 - Ludens Media",

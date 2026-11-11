@@ -17,11 +17,12 @@ assert m.exclude("Zenless Zone Zero",cfg)
 assert not m.exclude("阴阳师",cfg)
 # Google News matches cross-site announcements, but cannot assert event dates.
 assert "news.google.com/rss/search" in m.google_news_url("神魔之塔 活動")
-google_xml='<?xml version="1.0"?><rss><channel>'+
- '<item><title>《神魔之塔》推出限時儲值活動</title><link>https://news.google.com/rss/articles/example1</link><pubDate>Wed, 11 Nov 2026 06:00:00 GMT</pubDate><source>遊戲新聞</source></item>'+
- '<item><title>《原神》推出限時活動</title><link>https://news.google.com/rss/articles/example2</link><pubDate>Wed, 11 Nov 2026 06:00:00 GMT</pubDate><source>遊戲新聞</source></item>'+
- '<item><title>《神魔之塔》新活動</title><link>https://news.google.com/rss/articles/example3</link><pubDate>Wed, 11 Nov 2026 06:00:00 GMT</pubDate><source>遊戲新聞</source></item>'+
- '</channel></rss>'
+google_xml=(
+ '<?xml version="1.0"?><rss><channel>'
+ '<item><title>《神魔之塔》推出限時儲值活動</title><link>https://news.google.com/rss/articles/example1</link><pubDate>Wed, 11 Nov 2026 06:00:00 GMT</pubDate><source>遊戲新聞</source></item>'
+ '<item><title>《原神》推出限時活動</title><link>https://news.google.com/rss/articles/example2</link><pubDate>Wed, 11 Nov 2026 06:00:00 GMT</pubDate><source>遊戲新聞</source></item>'
+ '<item><title>《神魔之塔》新活動</title><link>https://news.google.com/rss/articles/example3</link><pubDate>Wed, 11 Nov 2026 06:00:00 GMT</pubDate><source>遊戲新聞</source></item>'
+ '</channel></rss>')
 with patch.object(m,"NOW",dt.datetime(2026,11,11,8,0,tzinfo=dt.timezone.utc)):
     leads,checked,ok,seen,errors=m.google_discover(cfg,lambda url:google_xml)
 assert checked==cfg["google_general_queries_per_run"]+cfg["google_games_per_run"],checked

@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-11T15:57:22+00:00",
-  "ios_ids_this_run": 2,
-  "ios_countries_checked": 12,
+  "updated_at": "2026-11-11T19:02:42+00:00",
+  "ios_ids_this_run": 240,
+  "ios_countries_checked": 1440,
   "failed_checks": 0,
-  "platform_entries": 4282,
+  "platform_entries": 4299,
   "errors": []
 }

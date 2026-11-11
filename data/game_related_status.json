@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-11T15:57:41+00:00",
+  "checked_at": "2026-11-11T19:05:18+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
@@ -14,77 +14,77 @@
     "events": 96
   },
   "per_game": {
-    "Cut the Rope Remastered": {
+    "BabyBus Kids Math Games": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Escape the Baby Alarm": {
+    "Cut the Rope": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Everything is Crab": {
+    "Frostborn: Action RPG": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Fishing Inc: Legendary Catch": {
+    "Robbery Bob - 潛行之王": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Petit Planet": {
+    "寶寶牙齒美容": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Potion Craft": {
+    "杖劍傳說：坎斯汀之約": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Redecor - Home Design Game": {
+    "海綿寶寶: 蟹堡王大挑戰": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Wool Escape 3D: ASMR": {
+    "狂野飆車8：極速凌雲-超好玩的擬真賽車遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "尋找差異: 解謎": {
+    "Mahjong Voyage: Tile Matching": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "親愛的農場": {
+    "Matching Tiles:城市景觀": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "部落衝突 (Clash of Clans)": {
+    "Piggy Escape: Pig Jam Farm": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "食光旅行": {
+    "Tiletopia：三消方塊配對": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Delicious B&B: 裝飾與三消": {
+    "尋寶遊戲：尋找隱藏物品": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Jewel Coloring": {
+    "屍控防線 - Zomline Survival": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Jigsaw Puzzle - 經典拼圖遊戲": {
+    "果燃很派": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -259,16 +259,16 @@
     "deliciousbb裝飾與三消": "2026-11-11T15:57:41+00:00",
     "jewelcoloring": "2026-11-11T15:57:41+00:00",
     "jigsawpuzzle經典拼圖遊戲": "2026-11-11T15:57:41+00:00",
-    "mahjongvoyagetilematching": "2026-11-08T05:49:10+00:00",
-    "matchingtiles城市景觀": "2026-11-08T05:49:10+00:00",
-    "piggyescapepigjamfarm": "2026-11-08T05:49:10+00:00",
-    "tiletopia三消方塊配對": "2026-11-08T05:49:10+00:00",
-    "尋寶遊戲尋找隱藏物品": "2026-11-08T05:49:10+00:00",
+    "mahjongvoyagetilematching": "2026-11-11T19:05:18+00:00",
+    "matchingtiles城市景觀": "2026-11-11T19:05:18+00:00",
+    "piggyescapepigjamfarm": "2026-11-11T19:05:18+00:00",
+    "tiletopia三消方塊配對": "2026-11-11T19:05:18+00:00",
+    "尋寶遊戲尋找隱藏物品": "2026-11-11T19:05:18+00:00",
     "深海水族館點點可培養的水族館": "2026-11-08T05:49:10+00:00",
     "物品分類連連看3消除遊戲": "2026-11-08T05:49:10+00:00",
     "腦力測試braintest謎題急轉彎": "2026-11-08T05:49:10+00:00",
-    "屍控防線zomlinesurvival": "2026-11-08T05:49:10+00:00",
-    "果燃很派": "2026-11-08T05:49:10+00:00",
+    "屍控防線zomlinesurvival": "2026-11-11T19:05:18+00:00",
+    "果燃很派": "2026-11-11T19:05:18+00:00",
     "機甲突襲titanrush": "2026-11-08T05:49:10+00:00",
     "王國紀元lordsmobile全面戰爭": "2026-11-08T05:49:10+00:00",
     "unotm": "2026-11-08T07:05:34+00:00",
@@ -839,7 +839,15 @@
     "potioncraft": "2026-11-11T15:57:41+00:00",
     "redecorhomedesigngame": "2026-11-11T15:57:41+00:00",
     "woolescape3dasmr": "2026-11-11T15:57:41+00:00",
-    "尋找差異解謎": "2026-11-11T15:57:41+00:00"
+    "尋找差異解謎": "2026-11-11T15:57:41+00:00",
+    "babybuskidsmathgames": "2026-11-11T19:05:18+00:00",
+    "cuttherope": "2026-11-11T19:05:18+00:00",
+    "frostbornactionrpg": "2026-11-11T19:05:18+00:00",
+    "robberybob潛行之王": "2026-11-11T19:05:18+00:00",
+    "寶寶牙齒美容": "2026-11-11T19:05:18+00:00",
+    "杖劍傳說坎斯汀之約": "2026-11-11T19:05:18+00:00",
+    "海綿寶寶蟹堡王大挑戰": "2026-11-11T19:05:18+00:00",
+    "狂野飆車8極速凌雲超好玩的擬真賽車遊戲": "2026-11-11T19:05:18+00:00"
   },
   "errors": []
 }

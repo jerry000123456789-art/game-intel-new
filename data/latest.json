@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T15:57:09+00:00",
+  "updated_at": "2026-11-11T19:02:25+00:00",
   "status": "ok",
   "errors": [],
   "fetched": 120,
@@ -13,6 +13,15 @@
       "publisher": "LINE TODAY",
       "published_at": "2026-11-11T14:48:25+00:00",
       "first_seen_at": "2026-11-11T15:57:09+00:00"
+    },
+    {
+      "id": "386f46fcdcee505d4ff9",
+      "category": "新遊戲資訊",
+      "title": "《王國W：血盟之誓》11/17 正式公測！事前登錄突破 50 萬 野外 PK、血盟戰玩法公開 - 上報Up Media",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4xVi10MEVJMUpRS1plQ0x3VWVpME1fSERQSDZDbDBtNmF4ZDhOUUVveEhaeHk1RGtkaEcyMVJnT1pkTUlPYUM0aUxxTmR1RnRWZ1ZPNVNYb1pEYjhTcUE?oc=5",
+      "publisher": "上報Up Media",
+      "published_at": "2026-11-11T14:40:00+00:00",
+      "first_seen_at": "2026-11-11T19:02:25+00:00"
     },
     {
       "id": "e45389255e8b8cdfada9",
@@ -182,7 +191,7 @@
       "title": "格鬥天王：拳面出擊 推出！齊收集All Star格鬥家卡牌｜附禮包碼 - 香港01",
       "url": "https://news.google.com/rss/articles/CBMijgNBVV95cUxPM0FHQncxWHZNU2ZxY0M0MWpsajJMUDl4Q2t2QWNLVzUwQjhfLTF3S3RKUHVjN0JOalhPWnRDZ19PNDRSbllKTW1aVjM1WDVXNnB0Wllxa29HR2NRQlQ5NTZ4Qm5vQlBpNEhCbmx5TzlKT1VIUFFpQU5QZkxrZmN0U2lmZ0FVdkgwZVMxMm0xY3lsZXdOc3JpRzZpcndGckNjNVpMSFJKN2FpNEV3RTZFSXpncC16TjRtckJ3cDBJNG1nV2RfVzUwbExBbHprSlpqWWM4OHNuOVE3djk0QUxBX21QWUJBQ29ockVDNS00THpGeGR3VUg1d3R4WGlGWUhCS01GaTVGcWoybkgtMnRMbGFtX1k3OWJaYjA2XzRQRzhIRjYyeXRRdGNoTGh4OUZHNGpnU1B0WVhQSFRtMlVMMEF5RnIyVFNBMDB2ZVlzT1RTSG1nRzFEVlNKNzBURmluelRrMV9VazBQY0xIM29XUEpxNmJtNVZyTDFhd0dpckVkN3Y1YXBTcjVtQzluUQ?oc=5",
       "publisher": "香港01",
-      "published_at": "2026-11-06T08:15:20+00:00",
+      "published_at": "2026-11-06T08:18:57+00:00",
       "first_seen_at": "2026-11-07T18:50:37+00:00"
     },
     {

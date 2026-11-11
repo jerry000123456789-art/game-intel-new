@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-11T07:07:13+00:00",
+  "checked_at": "2026-11-11T07:10:35+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
     "guides": 0,
-    "events": 0
+    "events": 1
   },
   "total_leads": {
     "codes": 52,
     "guides": 57,
-    "events": 88
+    "events": 89
   },
   "per_game": {
-    "LEGO® DUPLO® Peppa Pig": {
+    "戰魂銘人": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "PBS KIDS Games": {
+    "Angry Birds 2": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "寶寶飛機場": {
+    "Art Puzzle - 藝術拼圖遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "布麗 - 一起玩吧": {
+    "Balatro": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "我的湯姆貓": {
+    "BLEACH Mirrors High": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "迷你咖啡廳": {
+    "Block Blast！": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "連擊萌獸": {
+    "Block Craft 3D：Building Game": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "遺棄之地TD": {
+    "Brewtopia: Grow Coffee Beans": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "麻糬貓收藏 - 療癒的每一天 MochiCat": {
+    "Call of Duty®: Mobile": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "1945 Air Force: 街機飛機射擊": {
+    "Candy Crush Saga": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "2048方塊消除數字遊戲 - M2 Blocks": {
+    "Arrows – Puzzle Escape": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "2 Player games : the Challenge": {
+    "Block Crush!": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "3D Bubble Blast": {
+    "Coin Master": {
+      "codes": 0,
+      "guides": 0,
+      "events": 1
+    },
+    "Colony Flow": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "8 Ball Pool": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Among Us": {
+    "Fish Sort Puzzle": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -97,20 +97,20 @@
     "3dbubbleblast": "2026-11-11T07:07:13+00:00",
     "8ballpool": "2026-11-11T07:07:13+00:00",
     "amongus": "2026-11-11T07:07:13+00:00",
-    "angrybirds2": "2026-11-07T14:40:40+00:00",
-    "artpuzzle藝術拼圖遊戲": "2026-11-07T14:40:40+00:00",
-    "balatro": "2026-11-07T14:40:40+00:00",
-    "bleachmirrorshigh": "2026-11-07T14:40:40+00:00",
-    "blockblast": "2026-11-07T14:40:40+00:00",
-    "blockcraft3dbuildinggame": "2026-11-07T14:40:40+00:00",
-    "brewtopiagrowcoffeebeans": "2026-11-07T14:40:40+00:00",
-    "callofdutymobile": "2026-11-07T14:40:40+00:00",
-    "candycrushsaga": "2026-11-07T14:40:40+00:00",
-    "arrowspuzzleescape": "2026-11-07T14:43:58+00:00",
-    "blockcrush": "2026-11-07T14:43:58+00:00",
-    "coinmaster": "2026-11-07T14:43:58+00:00",
-    "colonyflow": "2026-11-07T14:43:58+00:00",
-    "fishsortpuzzle": "2026-11-07T14:43:58+00:00",
+    "angrybirds2": "2026-11-11T07:10:35+00:00",
+    "artpuzzle藝術拼圖遊戲": "2026-11-11T07:10:35+00:00",
+    "balatro": "2026-11-11T07:10:35+00:00",
+    "bleachmirrorshigh": "2026-11-11T07:10:35+00:00",
+    "blockblast": "2026-11-11T07:10:35+00:00",
+    "blockcraft3dbuildinggame": "2026-11-11T07:10:35+00:00",
+    "brewtopiagrowcoffeebeans": "2026-11-11T07:10:35+00:00",
+    "callofdutymobile": "2026-11-11T07:10:35+00:00",
+    "candycrushsaga": "2026-11-11T07:10:35+00:00",
+    "arrowspuzzleescape": "2026-11-11T07:10:35+00:00",
+    "blockcrush": "2026-11-11T07:10:35+00:00",
+    "coinmaster": "2026-11-11T07:10:35+00:00",
+    "colonyflow": "2026-11-11T07:10:35+00:00",
+    "fishsortpuzzle": "2026-11-11T07:10:35+00:00",
     "fishsortpuzzle三消益智遊戲": "2026-11-07T14:43:58+00:00",
     "freefire風暴競技場": "2026-11-07T14:43:58+00:00",
     "holeiooriginalholegame": "2026-11-07T14:43:58+00:00",
@@ -819,7 +819,8 @@
     "迷你咖啡廳": "2026-11-11T07:07:13+00:00",
     "連擊萌獸": "2026-11-11T07:07:13+00:00",
     "遺棄之地td": "2026-11-11T07:07:13+00:00",
-    "麻糬貓收藏療癒的每一天mochicat": "2026-11-11T07:07:13+00:00"
+    "麻糬貓收藏療癒的每一天mochicat": "2026-11-11T07:07:13+00:00",
+    "戰魂銘人": "2026-11-11T07:10:35+00:00"
   },
   "errors": []
 }

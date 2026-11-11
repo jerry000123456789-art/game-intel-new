@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-11T07:07:13.855306+00:00",
-  "note": "Historical source leads retained; not validated codes, full guides, or confirmed event dates.",
+  "updated_at": "2026-11-11T07:10:35+00:00",
+  "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
       {
@@ -1033,6 +1033,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQVY1ZktfZmxxWE1kcHB3N0tPdl95Ynh3SmlmZXU3cWpOYjNqeFJnMFROWC1wZ2pFSkFyNHZ6V3k4RTRKYVBwZ3U1Sm9pYi1RS25QZlVZWTZaNTVCZ3JhMGRQbmFzcjM1ZllDcWc0bzN3RXVDZ0l6M2tETE5mQmNZdVR3d3c?oc=5",
         "published_at": "2026-11-07T02:00:00+00:00",
         "publisher": "4Gamers",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Coin Master",
+        "kind": "events",
+        "title": "Coin Master Free Spins 2026年8月：每日連結與金幣獎勵 - games.gg",
+        "source_url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNTXhVV1F5ZjlndVZTU0VPbzN2Umc5aF82N251Y2xXdnZxb0tsQ21RcWVCckhYTEVGSUhPay0tYzFMY0FQeG0xTV9ndGNNbzZtS28xeldmeXdfdFBoRFM1NWtQbFBZYW1Wd0RlVDRuQ0pLUTl3LWFWMm5lSGtFOU1rQUtpVW50TUp3Y0pfMWVwd1dDQ3lSVkYtS2pULVdhVmh0c3ZIbTdJUE1EQ1FCYXhyaUJ2dkNJX1VCZEZMSks3cTUzdmpQZEVweUxBd3pGT1lFWnhKWm0wVndHNUM2RklpYy00S1B2OEIta1lMODk2LUJ6SmVCWnRwS0l2d2lJRUdyN2ZNR3ZfYlRvRms3OXlsR3lGbUVJSEN6bUcxaDVhNDBoemh2RkRFRQ?oc=5",
+        "published_at": "2026-11-06T22:38:08+00:00",
+        "publisher": "games.gg",
         "status": "source_lead_only"
       },
       {

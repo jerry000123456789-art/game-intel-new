@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-11T08:00:57+00:00",
-  "android_checked": 16,
-  "android_success": 16,
+  "updated_at": "2026-11-11T08:04:28+00:00",
+  "android_checked": 0,
+  "android_success": 0,
   "android_failures": 0,
-  "images": 1486,
-  "items": 1486,
+  "images": 1489,
+  "items": 1489,
   "status_counts": {
-    "已上市": 1344,
-    "商店收錄": 2,
+    "已上市": 1348,
+    "商店收錄": 1,
     "新上市": 81,
     "即將上市": 26,
     "預先註冊": 33

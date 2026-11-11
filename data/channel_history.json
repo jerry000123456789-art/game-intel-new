@@ -1,29 +1,8 @@
 {
-  "updated_at": "2026-11-11T07:58:13+00:00",
-  "status": "partial",
-  "fetched": 30,
-  "errors": [
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOCtiyIH-Dt00Ntv-WqPgfw",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNH35X4JoxqnZHRyWGI04Vg",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4c-wTOqEID-_vH4MhNs06w",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC-e2q_YhFnfsEggbJsTLPHg",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_XZ4O10pZq9RCigggGSB1A",
-      "error": "HTTP Error 404: Not Found"
-    }
-  ],
+  "updated_at": "2026-11-11T08:01:48+00:00",
+  "status": "ok",
+  "fetched": 105,
+  "errors": [],
   "items": [
     {
       "id": "61506a275b5b98db8b2b2d51",
@@ -174,6 +153,116 @@
       "publisher": "",
       "published_at": "2026-11-11T10:30:01+08:00",
       "first_seen_at": "2026-11-11T04:00:01+00:00"
+    },
+    {
+      "id": "f443da3c310146ac7d67c4a8",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《SD鋼彈 G世代 永恆》【國際版 #594】【ULT Z高達3號機P2型】九百萬版本改造滿技能實測【紅蛇鋼彈】永恆之路高難副本",
+      "url": "https://www.youtube.com/watch?v=tS3HuMbHL0g",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-11T06:22:11+00:00",
+      "first_seen_at": "2026-11-11T08:01:48+00:00"
+    },
+    {
+      "id": "2fb095c826091fd4b954becb",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《重返地心之下》奇幻冒險MMORPG",
+      "url": "https://www.youtube.com/watch?v=IDfdm4-dJN8",
+      "publisher": "怪玩客",
+      "published_at": "2026-11-11T06:00:10+00:00",
+      "first_seen_at": "2026-11-11T08:01:48+00:00"
+    },
+    {
+      "id": "8789ce43da6faec499666add",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《聖鬥士星矢EX》# 736 寶藏轉盤 已出第二次 | 最新版黃金魂戰紀 對戰變更單挑1V1、卡點在第20波 | 遊玩~2星 神聖處女座·沙加 試煉幻境傷害？| 分析隊伍戰力差距的主要原因",
+      "url": "https://www.youtube.com/watch?v=6doGyQFSjNU",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-11T04:37:30+00:00",
+      "first_seen_at": "2026-11-11T08:01:48+00:00"
+    },
+    {
+      "id": "33fc9f6af86735b82e5b712c",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《躺平守護王國》Defend the Kingdom from Bed 11月7日發布 放置奇幻RPG | 45位特色英雄自由招募 裝備強化、寵物收集、地下城挑戰一次滿足 輕鬆躺平也能守護王國！",
+      "url": "https://www.youtube.com/watch?v=4axcPgMEKpE",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-11T02:07:49+00:00",
+      "first_seen_at": "2026-11-11T08:01:48+00:00"
+    },
+    {
+      "id": "959588aa036769110bb34af2",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《SD鋼彈 G世代 永恆》｜世代之塔「SOUTH TOWER 開打｜ULT 開發中",
+      "url": "https://www.youtube.com/watch?v=5KjFtVkFDXM",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-11T02:04:02+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
+    },
+    {
+      "id": "1016bb138e7343cf60e4db0e",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《露娜：藍色大陸》11月10日 正式上線 經典 MMORPG Luna Online 正版IP續作 | 3D Q萌奇幻世界、三大基礎職業自由混轉 百變時裝、家族副本、農場經營、童話婚禮一次滿足",
+      "url": "https://www.youtube.com/watch?v=6h6vK7xIInE",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-11T01:03:01+00:00",
+      "first_seen_at": "2026-11-11T08:01:48+00:00"
+    },
+    {
+      "id": "10bed7a9d2135ce8f0425a34",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》彌多律最強配裝！招架時小次郎也會出招，繪影跟隊伍一次看 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=pHTQTF0_1_s",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-11T01:00:14+00:00",
+      "first_seen_at": "2026-11-11T08:01:48+00:00"
+    },
+    {
+      "id": "195a0f524b28b5ebf42eacfe",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《喵星飛行員：可愛貓咪飛行射擊遊戲》Purrfect Pilots: Cat Shooter 11月10日更新 48隻萌貓組成夢幻飛行隊 觸發華麗連鎖攻擊與超炫必殺技 120個關卡、豐富養成玩法",
+      "url": "https://www.youtube.com/watch?v=3IQKNMjgkRg",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-11T00:46:51+00:00",
+      "first_seen_at": "2026-11-11T08:01:48+00:00"
+    },
+    {
+      "id": "ac77a05205043dda1806bf33",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《噢！我的辦公室：老闆模擬經營遊戲》意外獲得時光倒流機會 這次能否逆轉公司倒閉命運？| 招募80多名特色員工 升級辦公設備、擴充公司規模 偷懶員工就用鐵鎚好好管理 體驗最搞笑又刺激的老闆經營人生！",
+      "url": "https://www.youtube.com/watch?v=1Kh-rloz-FM",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-11T00:25:58+00:00",
+      "first_seen_at": "2026-11-11T08:01:48+00:00"
+    },
+    {
+      "id": "1df2f00e51059d42152204ab",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《劍神養成：放置 RPG》Sword God Idle 11月4日更新 收集各具特色的強大劍神 體驗華麗技能特效與爽快打擊感 | 挑戰寶箱地下城、召喚地下城 探索廣闊世界地圖 迎戰伊弗利特烈焰試煉",
+      "url": "https://www.youtube.com/watch?v=AdaXJeqOKz0",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-11T00:13:05+00:00",
+      "first_seen_at": "2026-11-11T08:01:48+00:00"
+    },
+    {
+      "id": "5e913647dd05ec544b7e162b",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》今晚狂刷繪影！大世界開開開，開荒第13天繼續狩獵｜CD喜德直播 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=5vJ1rNYypmg",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-10T23:37:56+00:00",
+      "first_seen_at": "2026-11-10T18:59:56+00:00"
     },
     {
       "id": "436362e8edfed351f2c69402",
@@ -496,16 +585,6 @@
       "first_seen_at": "2026-11-10T18:59:56+00:00"
     },
     {
-      "id": "959588aa036769110bb34af2",
-      "category": "影片情報",
-      "origin": "YouTube",
-      "title": "《SD鋼彈 G世代 永恆》｜世代之塔「SOUTH TOWER 開打｜ULT 開發中",
-      "url": "https://www.youtube.com/watch?v=5KjFtVkFDXM",
-      "publisher": "【索爾遊戲】",
-      "published_at": "2026-11-10T12:24:44+00:00",
-      "first_seen_at": "2026-11-10T18:59:56+00:00"
-    },
-    {
       "id": "33a7d1ec22587431cd44633b",
       "category": "影片情報",
       "origin": "YouTube",
@@ -553,16 +632,6 @@
       "url": "https://www.youtube.com/watch?v=UQvdergWicg",
       "publisher": "【索爾遊戲】",
       "published_at": "2026-11-10T07:35:58+00:00",
-      "first_seen_at": "2026-11-10T18:59:56+00:00"
-    },
-    {
-      "id": "5e913647dd05ec544b7e162b",
-      "category": "影片情報",
-      "origin": "YouTube",
-      "title": "《魔物獵人：旅人》今晚狂刷繪影！大世界開開開，開荒第13天繼續狩獵｜CD喜德直播 #CD喜德",
-      "url": "https://www.youtube.com/watch?v=5vJ1rNYypmg",
-      "publisher": "CD喜德",
-      "published_at": "2026-11-10T06:49:13+00:00",
       "first_seen_at": "2026-11-10T18:59:56+00:00"
     },
     {

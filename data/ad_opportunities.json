@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T08:29:42+00:00",
+  "updated_at": "2026-11-11T10:26:42+00:00",
   "items": [
     {
       "game": "明日方舟",
@@ -18,7 +18,7 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-11T08:29:42+00:00",
+      "updated_at": "2026-11-11T10:26:42+00:00",
       "id": "9b07b36727830ace61778bd1",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -40,7 +40,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "中國站",
-      "updated_at": "2026-11-11T08:29:42+00:00",
+      "updated_at": "2026-11-11T10:26:42+00:00",
       "id": "c660d235dfa48b5b42b4eafe",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -62,7 +62,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "儲值／禮包時效",
       "market_label": "中國站",
-      "updated_at": "2026-11-11T08:29:42+00:00",
+      "updated_at": "2026-11-11T10:26:42+00:00",
       "id": "20a444facd968b6aa97c54a4",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -84,7 +84,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "儲值／禮包時效",
       "market_label": "中國站",
-      "updated_at": "2026-11-11T08:29:42+00:00",
+      "updated_at": "2026-11-11T10:26:42+00:00",
       "id": "e529d816792d9bc8c1f6c41c",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -106,7 +106,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "中國站",
-      "updated_at": "2026-11-11T08:29:42+00:00",
+      "updated_at": "2026-11-11T10:26:42+00:00",
       "id": "aed9e750f4b2af2a106919cb",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -128,7 +128,7 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-11T08:29:42+00:00",
+      "updated_at": "2026-11-11T10:26:42+00:00",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
     {
@@ -149,7 +149,7 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-11T08:29:42+00:00",
+      "updated_at": "2026-11-11T10:26:42+00:00",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     }
   ],
@@ -205,6 +205,17 @@
       "google_search_url": "https://www.google.com/search?q=%22%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8B%95%22+%22%E3%80%8A%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8B%95%E3%80%8BX%E3%80%8A%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6%E3%80%8B%E5%90%88%E4%BD%9C%E5%B8%B6%E4%BE%86%E9%A6%96%E6%AC%BE%E9%9B%99%E6%89%8B%E8%BF%91%E6%88%B0%E6%AD%A6%E5%99%A8%E3%80%8C%E5%BE%AE%E5%85%89%E3%80%8D%E8%B3%BD%E5%AD%A3%E6%AD%A3%E5%BC%8F%E4%B8%8A%E7%B7%9A%E3%80%8ADelta+Force%EF%BC%9AHawk+Ops%E3%80%8B+-+GNN+%E6%96%B0%E8%81%9E%E7%B6%B2%22",
       "published_at": "2026-11-10T08:46:50+00:00",
       "publisher": "GNN 新聞網",
+      "source_type": "Google 新聞搜尋",
+      "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
+      "status": "source_lead_only"
+    },
+    {
+      "game": "三角洲行動",
+      "title": "《三角洲行動》X《影之刃零》合作帶來首款雙手近戰武器「微光」賽季正式上線- 遊戲新聞 - PChome Online 新聞",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPb1lQbHNNNElEdjBqNnlER1Y5TkE2cXE0U01BUUVsLTB0TFg1RlZDdUo1R3FlN09ERnFMYkdoU0s4TVg1VzZwa0xzVDJjaW4zWDY4bk55UGZ3aUFRSjVGOXI0QVRfbmhsMlB5S05CWF9VRmM1cERDUjBLdjZoTG50VWtva2I?oc=5",
+      "google_search_url": "https://www.google.com/search?q=%22%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8B%95%22+%22%E3%80%8A%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8B%95%E3%80%8BX%E3%80%8A%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6%E3%80%8B%E5%90%88%E4%BD%9C%E5%B8%B6%E4%BE%86%E9%A6%96%E6%AC%BE%E9%9B%99%E6%89%8B%E8%BF%91%E6%88%B0%E6%AD%A6%E5%99%A8%E3%80%8C%E5%BE%AE%E5%85%89%E3%80%8D%E8%B3%BD%E5%AD%A3%E6%AD%A3%E5%BC%8F%E4%B8%8A%E7%B7%9A-+%E9%81%8A%E6%88%B2%E6%96%B0%E8%81%9E+-+PChome+Online+%E6%96%B0%E8%81%9E%22",
+      "published_at": "2026-11-10T08:46:50+00:00",
+      "publisher": "PChome Online 新聞",
       "source_type": "Google 新聞搜尋",
       "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
       "status": "source_lead_only"
@@ -287,6 +298,17 @@
       "status": "source_lead_only"
     },
     {
+      "game": "跑 Online",
+      "title": "《跑 Online》三騎士第3 彈登場新「春日野餐」賓果活動開跑- 遊戲新聞 - PChome Online 新聞",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPajQ4aDRKZ1lNQm1WREEzWGllY3ZlTjFDUWFqYzJvcmlTMldHTHRkWWVueUpKSnpSbWczenRBcFh0UHNKZDJ3NlhyZlU0ZHpwQzBnMDd6Q2E0RW9oc0NGZkhnem1VZmpHVUxJbHE3S0R6SUxiOFNYR0pIQkY4LVF2TUhiSk0?oc=5",
+      "google_search_url": "https://www.google.com/search?q=%22%E8%B7%91+Online%22+%22%E3%80%8A%E8%B7%91+Online%E3%80%8B%E4%B8%89%E9%A8%8E%E5%A3%AB%E7%AC%AC3+%E5%BD%88%E7%99%BB%E5%A0%B4%E6%96%B0%E3%80%8C%E6%98%A5%E6%97%A5%E9%87%8E%E9%A4%90%E3%80%8D%E8%B3%93%E6%9E%9C%E6%B4%BB%E5%8B%95%E9%96%8B%E8%B7%91-+%E9%81%8A%E6%88%B2%E6%96%B0%E8%81%9E+-+PChome+Online+%E6%96%B0%E8%81%9E%22",
+      "published_at": "2026-11-05T08:04:55+00:00",
+      "publisher": "PChome Online 新聞",
+      "source_type": "Google 新聞搜尋",
+      "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
+      "status": "source_lead_only"
+    },
+    {
       "game": "楓之谷：放置冒險記",
       "title": "《楓之谷：放置冒險記》推出「1 週年慶典」大型活動同時新增「聖魂劍士」與「烈焰巫師」《MapleStory: Idle RPG》 - GNN 新聞網",
       "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBILXB2cm5Xc2RiZFRlenJqM0hsYzJ4Ty1hQ3p1cGVEMTJGaWRfRWpCVkM1eTVNWDNkUzd2c29hbjNmQ1hZd0lYU3J1N0JKVGt3M1dtRDBIN2U?oc=5",
@@ -359,6 +381,28 @@
       "google_search_url": "https://www.google.com/search?q=%22%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8B%95%22+%22%E3%80%8A%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8B%95%E3%80%8B%E8%81%AF%E5%8B%95%E3%80%8A%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6%E3%80%8B11%E6%9C%8810%E6%97%A5%E6%AD%A3%E5%BC%8F%E4%B8%8A%E7%B7%9A-+%E5%8B%95%E6%BC%AB%E4%B8%96%E7%95%8C%E7%B6%B2%E7%B5%A1%E4%B8%AD%E5%9C%8B%E7%AB%99+-+awnchina.cn%22",
       "published_at": "2026-11-04T03:39:02+00:00",
       "publisher": "awnchina.cn",
+      "source_type": "Google 新聞搜尋",
+      "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
+      "status": "source_lead_only"
+    },
+    {
+      "game": "戰車世界",
+      "title": "《戰車世界》系列攜手Legendary Entertainment 推出《沙丘：第三部》獨家聯動內容- 遊戲新聞 - PChome Online新聞",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVXJ5UWZpVnVzcVlnU05MdUFwM2hiRFJvZjRCaVB2eUg5SG16YzlMWmE1S2RuOVgyN3lGUTlxUHgxd040Y0EtYlVqU0lkUXVhaUZJTktMeEctQWtKYjdfQmN1V1pKVS13YVdBS2s4dnBrc2x6OGk1V1pWd2t2M3JteEFWTExBclRN?oc=5",
+      "google_search_url": "https://www.google.com/search?q=%22%E6%88%B0%E8%BB%8A%E4%B8%96%E7%95%8C%22+%22%E3%80%8A%E6%88%B0%E8%BB%8A%E4%B8%96%E7%95%8C%E3%80%8B%E7%B3%BB%E5%88%97%E6%94%9C%E6%89%8BLegendary+Entertainment+%E6%8E%A8%E5%87%BA%E3%80%8A%E6%B2%99%E4%B8%98%EF%BC%9A%E7%AC%AC%E4%B8%89%E9%83%A8%E3%80%8B%E7%8D%A8%E5%AE%B6%E8%81%AF%E5%8B%95%E5%85%A7%E5%AE%B9-+%E9%81%8A%E6%88%B2%E6%96%B0%E8%81%9E+-+PChome+Online%E6%96%B0%E8%81%9E%22",
+      "published_at": "2026-11-03T16:25:36+00:00",
+      "publisher": "PChome Online新聞",
+      "source_type": "Google 新聞搜尋",
+      "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
+      "status": "source_lead_only"
+    },
+    {
+      "game": "明日方舟",
+      "title": "《明日方舟》與『一風堂』推出聯動活動全新主線「相變臨界」同步開啟- 遊戲新聞 - PChome Online新聞",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSEphNHdsNEhJeGxtQVpvbHQ5QkJZdUs2SkEtM1FpQkpUZVdDZmo3WVNrcDJRX2NyWEpxRHJzUnJiZHRJVEthV2hIQnV5TlRkMzNLN3BNNEhBV0V0bk53NVlhNnh2QVlHa2NkVkxCcXhBbjlucnVJWGExQjMtWW5xV2lVOWE?oc=5",
+      "google_search_url": "https://www.google.com/search?q=%22%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%22+%22%E3%80%8A%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E3%80%8B%E8%88%87%E3%80%8E%E4%B8%80%E9%A2%A8%E5%A0%82%E3%80%8F%E6%8E%A8%E5%87%BA%E8%81%AF%E5%8B%95%E6%B4%BB%E5%8B%95%E5%85%A8%E6%96%B0%E4%B8%BB%E7%B7%9A%E3%80%8C%E7%9B%B8%E8%AE%8A%E8%87%A8%E7%95%8C%E3%80%8D%E5%90%8C%E6%AD%A5%E9%96%8B%E5%95%9F-+%E9%81%8A%E6%88%B2%E6%96%B0%E8%81%9E+-+PChome+Online%E6%96%B0%E8%81%9E%22",
+      "published_at": "2026-11-02T08:52:13+00:00",
+      "publisher": "PChome Online新聞",
       "source_type": "Google 新聞搜尋",
       "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
       "status": "source_lead_only"
@@ -496,6 +540,17 @@
       "status": "source_lead_only"
     },
     {
+      "game": "傳說對決",
+      "title": "星展傳說對決聯名卡｜遊戲/外送/追劇/網購10%回饋省錢攻略! - 蕃新聞",
+      "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1LUzVNaHNra043OGE4YVdOSW95aURTamFtRVhyTVJhRV9sMGhwSWlpTXVPT0tXcjk0RzFnc1RRd1EwQ1VtMkY3MXREVG9Lb3NTSVE?oc=5",
+      "google_search_url": "https://www.google.com/search?q=%22%E5%82%B3%E8%AA%AA%E5%B0%8D%E6%B1%BA%22+%22%E6%98%9F%E5%B1%95%E5%82%B3%E8%AA%AA%E5%B0%8D%E6%B1%BA%E8%81%AF%E5%90%8D%E5%8D%A1%EF%BD%9C%E9%81%8A%E6%88%B2%2F%E5%A4%96%E9%80%81%2F%E8%BF%BD%E5%8A%87%2F%E7%B6%B2%E8%B3%BC10%25%E5%9B%9E%E9%A5%8B%E7%9C%81%E9%8C%A2%E6%94%BB%E7%95%A5%21+-+%E8%95%83%E6%96%B0%E8%81%9E%22",
+      "published_at": "2026-10-30T02:04:27+00:00",
+      "publisher": "蕃新聞",
+      "source_type": "Google 新聞搜尋",
+      "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
+      "status": "source_lead_only"
+    },
+    {
       "game": "魔物獵人：旅人",
       "title": "【魔物獵人：旅人】兌換碼與禮包碼序號・10月30日更新 - Ludens Media",
       "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE45b0FlaE52MERlMWVsSzlBSGhzclF3Q0w2TzcwaXZ6TFozcXk4X2huSEFBUGdJbW1WcFpLQ0gyYWUtbFdjMHVkbVNZMC1FZTBSMzZiQlhVYUYwMHdNcVlvTWtlR20zR01SdXYw?oc=5",
@@ -579,6 +634,28 @@
       "google_search_url": "https://www.google.com/search?q=%22%E5%8B%9D%E5%88%A9%E5%A5%B3%E7%A5%9E%EF%BC%9A%E5%A6%AE%E5%A7%AC%22+%22%E3%80%8A%E5%8B%9D%E5%88%A9%E5%A5%B3%E7%A5%9E%EF%BC%9A%E5%A6%AE%E5%A7%AC%E3%80%8B%E5%9B%9B%E9%80%B1%E5%B9%B4%E5%A4%A7%E5%9E%8B%E6%94%B9%E7%89%88%E6%AD%A3%E5%BC%8F%E4%B8%8A%E7%B7%9A%EF%BC%81%E3%80%8C%E7%91%AA%E9%BA%97%E5%AE%89%EF%BC%9A%E5%A5%B3%E7%8E%8B%E3%80%8D%E3%80%81%E3%80%8C%E7%B4%85%E8%93%AE%EF%BC%9A%E7%A5%9E%E6%AE%BA%E3%80%8D%E7%99%BB%E5%A0%B4+%E6%9C%80%E5%A4%9A%E9%80%81+259+%E6%8A%BD%E9%82%84%E8%83%BD%E5%85%8D%E8%B2%BB%E6%8B%BF+SSR+%E5%A6%AE%E5%A7%AC+-+Paradaily%22",
       "published_at": "2026-10-29T07:00:00+00:00",
       "publisher": "Paradaily",
+      "source_type": "Google 新聞搜尋",
+      "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
+      "status": "source_lead_only"
+    },
+    {
+      "game": "女神：守護之約",
+      "title": "《女神：守護之約》全新內容釋出萬聖節限定活動＋【深淵系統】新關卡強勢登場- 遊戲新聞 - PChome Online新聞",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTUxPempvU1hWMkJTbkgzV3kzaUlxZTZXLWd0ZldPNTZvbFRWb2hOaWJSejZId0dNdDdMVVE2RUMzd2UyQXVzLVNpS0FFM1dsRktHTXNXRjJDQmUtcE9WN2dtbzBEQmNRX3ZYcnZDcXJzNFpiRnVfTGQ2aXNHYmFNTldQbFZVYk9E?oc=5",
+      "google_search_url": "https://www.google.com/search?q=%22%E5%A5%B3%E7%A5%9E%EF%BC%9A%E5%AE%88%E8%AD%B7%E4%B9%8B%E7%B4%84%22+%22%E3%80%8A%E5%A5%B3%E7%A5%9E%EF%BC%9A%E5%AE%88%E8%AD%B7%E4%B9%8B%E7%B4%84%E3%80%8B%E5%85%A8%E6%96%B0%E5%85%A7%E5%AE%B9%E9%87%8B%E5%87%BA%E8%90%AC%E8%81%96%E7%AF%80%E9%99%90%E5%AE%9A%E6%B4%BB%E5%8B%95%EF%BC%8B%E3%80%90%E6%B7%B1%E6%B7%B5%E7%B3%BB%E7%B5%B1%E3%80%91%E6%96%B0%E9%97%9C%E5%8D%A1%E5%BC%B7%E5%8B%A2%E7%99%BB%E5%A0%B4-+%E9%81%8A%E6%88%B2%E6%96%B0%E8%81%9E+-+PChome+Online%E6%96%B0%E8%81%9E%22",
+      "published_at": "2026-10-29T07:00:00+00:00",
+      "publisher": "PChome Online新聞",
+      "source_type": "Google 新聞搜尋",
+      "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
+      "status": "source_lead_only"
+    },
+    {
+      "game": "完美世界2 Online",
+      "title": "《完美世界2 Online》20週年全新改版「烽火玄城」11月4日登場- 遊戲新聞 - PChome Online新聞",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTVY0X0t4RVBLSHVtMXBfMTFsaEVjejFfb19Cd2JuT1dkc0h4X182RFRoc2Zqbzh5Z2Nxa2RZYXN1YmZLbE1uUnhCcTQ4MlpqNXluSEE5c0UyVVhtdXFpLXhRUWtLV3ZETVBRMGVoNjNnTWR0WXVqdzh4VUV6dG5EUHhHTGtiV0NP?oc=5",
+      "google_search_url": "https://www.google.com/search?q=%22%E5%AE%8C%E7%BE%8E%E4%B8%96%E7%95%8C2+Online%22+%22%E3%80%8A%E5%AE%8C%E7%BE%8E%E4%B8%96%E7%95%8C2+Online%E3%80%8B20%E9%80%B1%E5%B9%B4%E5%85%A8%E6%96%B0%E6%94%B9%E7%89%88%E3%80%8C%E7%83%BD%E7%81%AB%E7%8E%84%E5%9F%8E%E3%80%8D11%E6%9C%884%E6%97%A5%E7%99%BB%E5%A0%B4-+%E9%81%8A%E6%88%B2%E6%96%B0%E8%81%9E+-+PChome+Online%E6%96%B0%E8%81%9E%22",
+      "published_at": "2026-10-29T07:00:00+00:00",
+      "publisher": "PChome Online新聞",
       "source_type": "Google 新聞搜尋",
       "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
       "status": "source_lead_only"

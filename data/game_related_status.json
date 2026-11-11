@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-11T07:14:12+00:00",
+  "checked_at": "2026-11-11T07:15:22+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
@@ -14,77 +14,77 @@
     "events": 89
   },
   "per_game": {
-    "Fish Sort Puzzle: 三消益智遊戲": {
+    "江湖戰亂": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Free Fire: 風暴競技場": {
+    "Jetpack Joyride - 瘋狂噴氣機": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Hole.io - Original Hole Game": {
+    "Match Factory!": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Hollywood Crush": {
+    "Monster Hunter Now": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Jigsawcard Solitaire Puzzle": {
+    "Shadow Knight Premium: 生死冒險RPG": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "LINE 熊大農場": {
+    "Toon Blast": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Loop Sort": {
+    "Word Cookies! ®": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Magic Tiles 3™ - 鋼琴遊戲": {
+    "我的湯姆貓2": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Mob Control": {
+    "戰雙帕彌什：末世科幻3D動作遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Mobile Legends: Bang Bang": {
+    "數獨 - 經典數獨謎題": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Agar.io": {
+    "數獨 - 經典邏輯益智數獨遊戲，適合所有益智遊戲愛好者": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Botworld Adventure": {
+    "Baby Panda's Town: 商場": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Brawl Stars": {
+    "Chess Clash: 線上遊玩": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Cube Land Puzzle Game": {
+    "Number Match - 數字益智遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Find Hidden Objects - Spot It!": {
+    "Pixel Flow!": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -126,18 +126,18 @@
     "brawlstars": "2026-11-11T07:14:12+00:00",
     "cubelandpuzzlegame": "2026-11-11T07:14:12+00:00",
     "findhiddenobjectsspotit": "2026-11-11T07:14:12+00:00",
-    "jetpackjoyride瘋狂噴氣機": "2026-11-07T14:49:04+00:00",
-    "matchfactory": "2026-11-07T14:49:04+00:00",
-    "monsterhunternow": "2026-11-07T14:49:04+00:00",
-    "shadowknightpremium生死冒險rpg": "2026-11-07T14:49:04+00:00",
-    "toonblast": "2026-11-07T14:49:04+00:00",
-    "wordcookies": "2026-11-07T14:49:04+00:00",
-    "我的湯姆貓2": "2026-11-07T14:49:04+00:00",
-    "戰雙帕彌什末世科幻3d動作遊戲": "2026-11-07T14:49:04+00:00",
-    "數獨經典數獨謎題": "2026-11-07T14:49:04+00:00",
-    "數獨經典邏輯益智數獨遊戲適合所有益智遊戲愛好者": "2026-11-07T14:49:04+00:00",
-    "babypandastown商場": "2026-11-07T15:44:56+00:00",
-    "chessclash線上遊玩": "2026-11-07T15:44:56+00:00",
+    "jetpackjoyride瘋狂噴氣機": "2026-11-11T07:15:22+00:00",
+    "matchfactory": "2026-11-11T07:15:22+00:00",
+    "monsterhunternow": "2026-11-11T07:15:22+00:00",
+    "shadowknightpremium生死冒險rpg": "2026-11-11T07:15:22+00:00",
+    "toonblast": "2026-11-11T07:15:22+00:00",
+    "wordcookies": "2026-11-11T07:15:22+00:00",
+    "我的湯姆貓2": "2026-11-11T07:15:22+00:00",
+    "戰雙帕彌什末世科幻3d動作遊戲": "2026-11-11T07:15:22+00:00",
+    "數獨經典數獨謎題": "2026-11-11T07:15:22+00:00",
+    "數獨經典邏輯益智數獨遊戲適合所有益智遊戲愛好者": "2026-11-11T07:15:22+00:00",
+    "babypandastown商場": "2026-11-11T07:15:22+00:00",
+    "chessclash線上遊玩": "2026-11-11T07:15:22+00:00",
     "新熱血江湖世界": "2026-11-07T15:44:56+00:00",
     "明日方舟終末地": "2026-11-07T15:44:56+00:00",
     "烹飪日記餐廳遊戲": "2026-11-07T15:44:56+00:00",
@@ -145,8 +145,8 @@
     "神魔之塔": "2026-11-07T15:44:56+00:00",
     "薑餅人王國": "2026-11-07T15:44:56+00:00",
     "靠裝勇者背包合成rpg": "2026-11-07T15:44:56+00:00",
-    "numbermatch數字益智遊戲": "2026-11-07T15:44:56+00:00",
-    "pixelflow": "2026-11-07T15:44:56+00:00",
+    "numbermatch數字益智遊戲": "2026-11-11T07:15:22+00:00",
+    "pixelflow": "2026-11-11T07:15:22+00:00",
     "ranroyalacademynations": "2026-11-07T15:44:56+00:00",
     "royalkingdom": "2026-11-07T15:44:56+00:00",
     "royalmatch": "2026-11-07T15:44:56+00:00",
@@ -820,7 +820,8 @@
     "連擊萌獸": "2026-11-11T07:07:13+00:00",
     "遺棄之地td": "2026-11-11T07:07:13+00:00",
     "麻糬貓收藏療癒的每一天mochicat": "2026-11-11T07:07:13+00:00",
-    "戰魂銘人": "2026-11-11T07:10:35+00:00"
+    "戰魂銘人": "2026-11-11T07:10:35+00:00",
+    "江湖戰亂": "2026-11-11T07:15:22+00:00"
   },
   "errors": []
 }

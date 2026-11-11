@@ -373,7 +373,7 @@ function renderAdOpportunities(){
     return true;
   }).sort((a,b)=>(Number(b.score)||0)-(Number(a.score)||0)||String(a.end_date).localeCompare(b.end_date));
   $('ad-count').textContent=rows.length+' 筆有效候選 · 已排除米哈遊旗下遊戲 · 分數為商機線索強度，不代表可以直接投放廣告';
-  $('ad-updated').textContent=data.adUpdated?'情報更新：'+dateTW(data.adUpdated):'情報來源更新時間尚未取得';
+  $('ad-updated').textContent=(data.adUpdated?'情報更新：'+dateTW(data.adUpdated):'情報來源更新時間尚未取得')+(data.adStatus&&data.adStatus.taptap_article_links_found===0?' · 本次沒有取得新增 TapTap 文章':'');
   $('ad-list').innerHTML=rows.length?rows.slice(0,35).map(x=>{
     const mainland=String(x.market||'').toUpperCase()==='CN';
     const status=mainland?'地區待核實（中國站）':(x.status||'地區待核實');
@@ -576,7 +576,7 @@ async function checkNewActivity(){
 }
 async function main(){
   const files=['game_catalog','release_matrix','featured_launches','codes','channel_history','latest','source_leads',
-    'events','event_tips','ad_opportunities','tracked_events','tracked_games','coverage_status'];
+    'events','event_tips','ad_opportunities','ad_opportunity_status','tracked_events','tracked_games','coverage_status'];
   const values=await Promise.all(files.map(load));
   const maps=Object.fromEntries(files.map((f,i)=>[f,values[i]]));
   data.games=maps.game_catalog.items||[];
@@ -588,6 +588,7 @@ async function main(){
   data.eventTips=maps.event_tips.items||[];
   data.adOpps=maps.ad_opportunities.items||[];
   data.adUpdated=maps.ad_opportunities.updated_at||'';
+  data.adStatus=maps.ad_opportunity_status||{};
   data.announcements=maps.tracked_events.items||[];
   data.legacyGames=maps.tracked_games.games||[];
   data.cloudGames=[];

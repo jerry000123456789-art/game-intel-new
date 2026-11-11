@@ -1,30 +1,15 @@
 {
-  "updated_at": "2026-11-11T07:22:00+00:00",
-  "queries_attempted": 13,
+  "updated_at": "2026-11-11T07:56:36+00:00",
+  "queries_attempted": 17,
+  "google_queries_attempted": 9,
+  "google_queries_succeeded": 9,
+  "google_items_seen": 51,
+  "google_leads_found_this_run": 16,
+  "google_leads_in_history": 16,
+  "taptap_queries_attempted": 8,
   "taptap_article_links_found": 0,
   "taptap_dated_items_parsed": 0,
   "total_opportunities": 7,
-  "source_errors": [
-    {
-      "provider": "RSSHub 梦幻新诛仙：轻享",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "provider": "RSSHub 闪耀暖暖",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "provider": "RSSHub 梦幻魔法屋",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "provider": "RSSHub 飞跃虹镜",
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "provider": "RSSHub 雷鸣三国",
-      "error": "HTTP Error 403: Forbidden"
-    }
-  ],
-  "note": "RSS 可能未索引 TapTap；防爬或驗證頁阻擋不會被當作成功收集。"
+  "source_errors": [],
+  "note": "Google News RSS 是公開新聞搜尋結果，不等於 Google 全網搜尋；活動公告須另外核實日期、遊戲與台灣伺服器適用性。"
 }

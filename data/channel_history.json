@@ -1,30 +1,189 @@
 {
-  "updated_at": "2026-11-12T07:26:49+00:00",
-  "status": "partial",
-  "fetched": 30,
-  "errors": [
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOCtiyIH-Dt00Ntv-WqPgfw",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNH35X4JoxqnZHRyWGI04Vg",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4c-wTOqEID-_vH4MhNs06w",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC-e2q_YhFnfsEggbJsTLPHg",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_XZ4O10pZq9RCigggGSB1A",
-      "error": "HTTP Error 404: Not Found"
-    }
-  ],
+  "updated_at": "2026-11-12T10:09:40+00:00",
+  "status": "ok",
+  "fetched": 105,
+  "errors": [],
   "items": [
+    {
+      "id": "2e67a631e8983ade61a3c75b",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《上古卷軸 5：無界天際》迎來 15 週年紀念日 慶祝活動將持續一整週",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314935",
+      "publisher": "",
+      "published_at": "2026-11-12T17:39:28+08:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "0439b11603a90d6ce1c8bb14",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《料理媽媽：新潮烹調》推出 Ver.1.45.0 更新 舉辦「冬天祭典活動」",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314934",
+      "publisher": "",
+      "published_at": "2026-11-12T17:27:25+08:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "89c868b83daa0f5bffb5f634",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《戰鬥陀螺 X 進化之戰》全平台支援繁體中文！Switch / Switch 2 版今日上市",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314933",
+      "publisher": "",
+      "published_at": "2026-11-12T17:23:44+08:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "22ba3f67a30d64799b761ad9",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《變形金剛：無盡戰爭》全球雙平台正式上線 博派與狂派破例結盟 共同抵抗「暗黑軍團」",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314932",
+      "publisher": "",
+      "published_at": "2026-11-12T17:20:31+08:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "fe3df7fa98993e5902b85545",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "動畫《用鍋子擋子彈的同時》宣布 2027 年 1 月開播 前導宣傳影片同步公開",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314931",
+      "publisher": "",
+      "published_at": "2026-11-12T17:17:23+08:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "0a92d987e24bc7ba327f1b68",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "動畫電影《樂園追放 心之共鳴》11 月 20 日在台上映",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314930",
+      "publisher": "",
+      "published_at": "2026-11-12T17:08:13+08:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "147340cb40aca4b23d656879",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "將「銀狼 LV.999」魅力化為現實！Razer 與《崩壞：星穹鐵道》聯名推出專屬語音耳機等電競周邊",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314929",
+      "publisher": "",
+      "published_at": "2026-11-12T17:03:31+08:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "9cb7ffedfff2da8f7a15ce99",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《神魔之塔》地獄王者「幻橋之衛 ‧ 海姆達爾」降臨 全新「交錯命途」活動「世界樹底的沉淪與復甦」登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314928",
+      "publisher": "",
+      "published_at": "2026-11-12T17:00:01+08:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "34e4e264f2d95493adb9ed11",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《漫威宇宙入侵》最新 DLC《杜姆城堡圍城戰》正式推出",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314926",
+      "publisher": "",
+      "published_at": "2026-11-12T16:56:48+08:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "4c48e8a005a25ba5fb9b2853",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《怪物彈珠》日版 ×《無職轉生》首次合作活動將於 11/15 開跑",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314922",
+      "publisher": "",
+      "published_at": "2026-11-12T16:48:34+08:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "dd34826cf1989f637810d4d5",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《彩地雷》x 電視動畫《我的祕密好友》跨界聯名 開啟首爾奇幻之旅",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314920",
+      "publisher": "",
+      "published_at": "2026-11-12T16:42:38+08:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "5c43698d8f7836e48d020c4d",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《深海迷航 2》獲得 2026 年金搖桿獎「最佳搶先體驗遊戲」",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314917",
+      "publisher": "",
+      "published_at": "2026-11-12T16:31:53+08:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "2d26feb421240b723b20f8b4",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《星之救援者 StarSavior》1 週年紀念更新 全新救援者「執行者：吉萊」登場、主線故事迎來最終章",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314916",
+      "publisher": "",
+      "published_at": "2026-11-12T16:09:06+08:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "5ddbdd2e115c2b98e092e236",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《俠盜獵車手 6》韓國宣傳影片邀請「黑白大廚」崔康祿、QWER 等人出演",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314915",
+      "publisher": "",
+      "published_at": "2026-11-12T16:07:11+08:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "d876d5b665058750253ce880",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《怪物列車 2》全新 DLC「受罪者」正式推出　研發團隊加碼預告年底將登陸 Switch 2 與手機平台",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314914",
+      "publisher": "",
+      "published_at": "2026-11-12T16:00:53+08:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "cd9a2b1ce442ca47d8ca1063",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "中國上海遊戲活動「WePlay 2026」迎來 10 週年里程碑 《黎明死線》開發團隊將帶來特別企劃",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314912",
+      "publisher": "",
+      "published_at": "2026-11-12T15:50:05+08:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "c9a5baa68753e42e78d506b9",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "珍艾碧絲《赤血沙漠：強化版》獲得 2026 金搖桿獎「年度 PC 遊戲」",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314911",
+      "publisher": "",
+      "published_at": "2026-11-12T15:39:10+08:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "29daefb9a2de46fdcec1fc76",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "首度集結雙重互動燈光體驗「日本樂高樂園過聖誕」11 月 20 日起登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314908",
+      "publisher": "",
+      "published_at": "2026-11-12T15:27:07+08:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
     {
       "id": "f2d8f5abd5348a24b8d5115f",
       "category": "巴哈姆特情報",
@@ -216,6 +375,26 @@
       "first_seen_at": "2026-11-12T03:59:53+00:00"
     },
     {
+      "id": "fdbb8433bb6feb1e8ed9391c",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》瞭望塔別升滿！最後一級要72隻星露蜜蟲，差了12倍 #CD喜德",
+      "url": "https://www.youtube.com/shorts/AGleM3o7xXg",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-12T10:00:34+00:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "eeac5ab77e2d1d1852f095e8",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》主角才70等也能S！主角重弩2階＋翠猿打光稜龍，沒抽彌多律也能玩 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=0UBAlMfi64I",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-12T10:00:02+00:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
       "id": "b8dd05fbbd73f5b4f8880ebd",
       "category": "巴哈姆特情報",
       "origin": "巴哈姆特",
@@ -224,6 +403,96 @@
       "publisher": "",
       "published_at": "2026-11-12T09:40:00+08:00",
       "first_seen_at": "2026-11-12T03:59:53+00:00"
+    },
+    {
+      "id": "2511c44d0ac200c5d8796971",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "【仙境傳說倖存者】RO倖存者開農！太毒了只好開台農｜CD喜德直播 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=nnFhpG0xlGw",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-12T08:23:55+00:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "4d9c2ff0d0a3b05ee970015d",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《棕色塵埃 2》【國際版 #425】【第50季】黃金競技場【82%勝率上分組合】",
+      "url": "https://www.youtube.com/watch?v=JzgxVqCtYgU",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-12T06:56:47+00:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "ae3da4641d907150b7a3b2c2",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《棕色塵埃 2》【國際版 #428】【巨大魔獸 心魔（光） 狩獵組合推薦】代碼 FHNM9UB3E7【新老婆 背叛之夜斐傑｜深紅君主】老婆開抽",
+      "url": "https://www.youtube.com/watch?v=jzEsG5Q87As",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-12T06:20:14+00:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "2ec560658ae5a4ffb234657b",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "11/11《UnGodly》是一款黑暗奇幻動作 RPG",
+      "url": "https://www.youtube.com/watch?v=Ho7etueiwcY",
+      "publisher": "怪玩客",
+      "published_at": "2026-11-12T06:00:11+00:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "eabc384091b373732dc67e5a",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《SD鋼彈 G世代 永恆》【國際版 #596】【11月17日 事前準備】新機動戰記鋼彈W外傳 G-Unit 登場【幻象鋼彈｜奧丁·巴涅特】【僅供參考】",
+      "url": "https://www.youtube.com/watch?v=9TpP_UEgZIk",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-12T04:54:43+00:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "72673995d90cb5196355a15e",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "【仙境傳說倖存者】網頁版RO竟然能組隊交易！免費無內購？職業、天賦、精煉、寵物、魔物終結塔全整理 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=7ZXKmbco2qk",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-12T04:00:40+00:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "2cab30d4523896a0a3fda4ef",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《聖鬥士星矢EX》# 737 11月12日公告:貴鬼的饋贈、自選2周被吃40張券 | 援護鬥士的戰力是怎麼計算的？ | 虛空戰場 大師組 任務完成躺平 | 80抽！冥界陣營招募",
+      "url": "https://www.youtube.com/watch?v=g9yLS6HdMm4",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-12T04:00:01+00:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "e4189e0c418864362e4495c9",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《萌雞對決》11月11日 正式上線 火影、海賊、七龍珠、鬼滅 動漫英雄全部變成萌雞 帶你展開爆笑又刺激的放置RPG冒險 | 招募100+特色英雄 組成六人最強戰隊 連線同色雞蛋觸發強力攻擊 拯救雞漫城",
+      "url": "https://www.youtube.com/watch?v=QNZ17GgZcFU",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-12T02:26:19+00:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "285a5bdac2dc5fe67ab8b215",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《指尖守衛戰》11月11日 開啟測試 三國名將化鬼歸來 這次要殺穿陰司、重奪天下 | 禮包碼、兌換碼、虛寶碼 | 暗黑魔化三國策略 RPG 魏蜀吳群神魔自由搭配 登入免費千抽 七日豪禮再送神魔武將！",
+      "url": "https://www.youtube.com/watch?v=bBdNfUg03VU",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-12T01:22:45+00:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
     },
     {
       "id": "bbe9a5003f2b0ef6ddcea0e3",

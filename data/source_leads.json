@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T07:27:21+00:00",
+  "updated_at": "2026-11-12T10:10:14+00:00",
   "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
@@ -490,6 +490,24 @@
       }
     ],
     "guides": [
+      {
+        "game": "Warhammer Survivors",
+        "kind": "guides",
+        "title": "Warhammer Survivors 新手最佳生存配置指南 - games.gg",
+        "source_url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQNzJjSFZQb19faExBMXJRU2V6QWZyZUxtU19kNkkxcWhMQjJucWl0eHlPOU9COEprLThQSElvUElVcVNXV1kyVUlYOUY5Y3A0M2VHM1NGSWFHNHBaSXJzMFJwVkNDS1BHOG9VVU5XSHNOcWhLbXQ2RlBuQnQwakdvb2dKdTk4MmNEQ0JYVHlqNW5NZkZMSVBTZzZvV3ktTUFPaC1ONG5wNmZ5eWx4bG11dDNUUm1DQTYyMVB3UkxrYWhNQ1FMVGM0Slc4S3V5bTBhS1h4ZENVRVUxa043ZmVZbGdfQVJJWjhUMGlzejRsY3pMS0E1YWc?oc=5",
+        "published_at": "2026-11-11T10:51:23+00:00",
+        "publisher": "games.gg",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Warhammer Survivors",
+        "kind": "guides",
+        "title": "《Warhammer Survivors》多平台上市 首日加入 Xbox Game Pass 陣容 - Ludens Media",
+        "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX1Q1ZUVyMHduTDliR0s3NlYwV0dPSTJ3M0NGUndROHVOa0oySUhtVThtWHFqbnZ2MC1uWlZGUVBpVnhaVFByVm9SY1FBbFJkcENzZ29fSHlMVVJVeHZ1MmxvUmdSbUNJMDVJT19pbWZ1WmljSWJZR3lIYnpOYXAyTmwzQQ?oc=5",
+        "published_at": "2026-11-11T05:47:00+00:00",
+        "publisher": "Ludens Media",
+        "status": "source_lead_only"
+      },
       {
         "game": "神魔之塔",
         "kind": "guides",

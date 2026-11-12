@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-12T07:27:21+00:00",
+  "checked_at": "2026-11-12T10:10:14+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
-    "guides": 0,
-    "events": 2
+    "guides": 2,
+    "events": 0
   },
   "total_leads": {
     "codes": 59,
-    "guides": 60,
+    "guides": 62,
     "events": 105
   },
   "per_game": {
-    "AdVenture Ages": {
+    "Bus Traffic Fever!": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Dawn of Ages: Building Games": {
+    "劍靈：革命": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Search It - Hidden Objects": {
+    "【我推的孩子】Puzzle Star": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Zen Koi 2": {
+    "無職轉生 ～到了異世界就拿出真本事～ 迴響編年史": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "地牢深處": {
+    "限定S級代理人「賽維里安」登場！": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "天堂W": {
+    "The Spotter: Dig or Die": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "砲塔防禦之王": {
+    "Traffic Flow: Idle Tycoon Game": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "黎明再現(Doomsday: Last Survivors)": {
+    "Truckful / 鄉野奇運": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Fluvsies - Cute Virtual Pets": {
+    "Warhammer Survivors": {
+      "codes": 0,
+      "guides": 2,
+      "events": 0
+    },
+    "WWE SuperCard Card Battler": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Plague Tower: Spell Defense": {
+    "Yes, Your Grace 2: Snowfall": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Pokémon UNITE": {
+    "一拳超人：最強之男—特別篇": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "SD鋼彈 G世代 永恆": {
-      "codes": 0,
-      "guides": 0,
-      "events": 2
-    },
-    "Sushi Cat Match: 貓咪壽司店": {
+    "面具之墓: Tomb of the Mask": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "The Roottrees are Dead": {
+    "Arrow Quest：閒置防禦 RPG": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "The Spike Cross - Volleyball": {
+    "Double Tile!": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -287,22 +287,22 @@
     "onepiecebountyrush": "2026-11-12T04:02:39+00:00",
     "onepiece海洋盛宴": "2026-11-12T04:02:39+00:00",
     "fluvsiescutevirtualpets": "2026-11-12T07:27:21+00:00",
-    "wwesupercardcardbattler": "2026-11-08T09:52:47+00:00",
-    "面具之墓tombofthemask": "2026-11-08T09:52:47+00:00",
+    "wwesupercardcardbattler": "2026-11-12T10:10:14+00:00",
+    "面具之墓tombofthemask": "2026-11-12T10:10:14+00:00",
     "plaguetowerspelldefense": "2026-11-12T07:27:21+00:00",
     "pokémonunite": "2026-11-12T07:27:21+00:00",
     "sd鋼彈g世代永恆": "2026-11-12T07:27:21+00:00",
     "sushicatmatch貓咪壽司店": "2026-11-12T07:27:21+00:00",
     "theroottreesaredead": "2026-11-12T07:27:21+00:00",
     "thespikecrossvolleyball": "2026-11-12T07:27:21+00:00",
-    "thespotterdigordie": "2026-11-08T09:52:47+00:00",
-    "trafficflowidletycoongame": "2026-11-08T09:52:47+00:00",
-    "truckful鄉野奇運": "2026-11-08T09:52:47+00:00",
-    "warhammersurvivors": "2026-11-08T09:52:47+00:00",
-    "yesyourgrace2snowfall": "2026-11-08T09:52:47+00:00",
-    "一拳超人最強之男特別篇": "2026-11-08T09:52:47+00:00",
-    "arrowquest閒置防禦rpg": "2026-11-08T10:00:13+00:00",
-    "doubletile": "2026-11-08T10:00:13+00:00",
+    "thespotterdigordie": "2026-11-12T10:10:14+00:00",
+    "trafficflowidletycoongame": "2026-11-12T10:10:14+00:00",
+    "truckful鄉野奇運": "2026-11-12T10:10:14+00:00",
+    "warhammersurvivors": "2026-11-12T10:10:14+00:00",
+    "yesyourgrace2snowfall": "2026-11-12T10:10:14+00:00",
+    "一拳超人最強之男特別篇": "2026-11-12T10:10:14+00:00",
+    "arrowquest閒置防禦rpg": "2026-11-12T10:10:14+00:00",
+    "doubletile": "2026-11-12T10:10:14+00:00",
     "ironmarines離線rts遊戲": "2026-11-08T10:00:13+00:00",
     "thronekingdomatwar": "2026-11-08T10:00:13+00:00",
     "七騎士rebirth": "2026-11-08T10:00:13+00:00",
@@ -881,7 +881,12 @@
     "zenkoi2": "2026-11-12T07:27:21+00:00",
     "地牢深處": "2026-11-12T07:27:21+00:00",
     "天堂w": "2026-11-12T07:27:21+00:00",
-    "砲塔防禦之王": "2026-11-12T07:27:21+00:00"
+    "砲塔防禦之王": "2026-11-12T07:27:21+00:00",
+    "bustrafficfever": "2026-11-12T10:10:14+00:00",
+    "劍靈革命": "2026-11-12T10:10:14+00:00",
+    "我推的孩子puzzlestar": "2026-11-12T10:10:14+00:00",
+    "無職轉生到了異世界就拿出真本事迴響編年史": "2026-11-12T10:10:14+00:00",
+    "限定s級代理人賽維里安登場": "2026-11-12T10:10:14+00:00"
   },
   "errors": []
 }

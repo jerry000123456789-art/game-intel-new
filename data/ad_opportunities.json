@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T04:26:49+00:00",
+  "updated_at": "2026-11-12T10:30:15+00:00",
   "items": [
     {
       "game": "明日方舟",
@@ -18,7 +18,7 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-12T04:26:49+00:00",
+      "updated_at": "2026-11-12T10:30:15+00:00",
       "id": "9b07b36727830ace61778bd1",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -40,7 +40,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "中國站",
-      "updated_at": "2026-11-12T04:26:49+00:00",
+      "updated_at": "2026-11-12T10:30:15+00:00",
       "id": "c660d235dfa48b5b42b4eafe",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -62,7 +62,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "儲值／禮包時效",
       "market_label": "中國站",
-      "updated_at": "2026-11-12T04:26:49+00:00",
+      "updated_at": "2026-11-12T10:30:15+00:00",
       "id": "20a444facd968b6aa97c54a4",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -84,7 +84,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "儲值／禮包時效",
       "market_label": "中國站",
-      "updated_at": "2026-11-12T04:26:49+00:00",
+      "updated_at": "2026-11-12T10:30:15+00:00",
       "id": "e529d816792d9bc8c1f6c41c",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -106,7 +106,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "中國站",
-      "updated_at": "2026-11-12T04:26:49+00:00",
+      "updated_at": "2026-11-12T10:30:15+00:00",
       "id": "aed9e750f4b2af2a106919cb",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -128,7 +128,7 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-12T04:26:49+00:00",
+      "updated_at": "2026-11-12T10:30:15+00:00",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
     {
@@ -149,11 +149,33 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-12T04:26:49+00:00",
+      "updated_at": "2026-11-12T10:30:15+00:00",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     }
   ],
   "leads": [
+    {
+      "game": "神魔之塔",
+      "title": "《神魔之塔》地獄王者「幻橋之衛 ‧ 海姆達爾」降臨 全新「交錯命途」活動「世界樹底的沉淪與復甦」登場 - CMoney",
+      "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9iVGp1Wm5sVGlSUzY3cWZYczcyVDIyLXpQZ25QWF9wbVJkLTgzdFVDU0xvcWw3dG9pakxya1JUUklKTU1uSEZ0eGhzbjFQMDZ2TnpOTlhOZlI?oc=5",
+      "google_search_url": "https://www.google.com/search?q=%22%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%22+%22%E3%80%8A%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E3%80%8B%E5%9C%B0%E7%8D%84%E7%8E%8B%E8%80%85%E3%80%8C%E5%B9%BB%E6%A9%8B%E4%B9%8B%E8%A1%9B+%E2%80%A7+%E6%B5%B7%E5%A7%86%E9%81%94%E7%88%BE%E3%80%8D%E9%99%8D%E8%87%A8+%E5%85%A8%E6%96%B0%E3%80%8C%E4%BA%A4%E9%8C%AF%E5%91%BD%E9%80%94%E3%80%8D%E6%B4%BB%E5%8B%95%E3%80%8C%E4%B8%96%E7%95%8C%E6%A8%B9%E5%BA%95%E7%9A%84%E6%B2%89%E6%B7%AA%E8%88%87%E5%BE%A9%E7%94%A6%E3%80%8D%E7%99%BB%E5%A0%B4+-+CMoney%22",
+      "published_at": "2026-11-12T09:16:09+00:00",
+      "publisher": "CMoney",
+      "source_type": "Google 新聞搜尋",
+      "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
+      "status": "source_lead_only"
+    },
+    {
+      "game": "神魔之塔",
+      "title": "《神魔之塔》地獄王者「幻橋之衛 ‧ 海姆達爾」降臨 全新「交錯命途」活動「世界樹底的沉淪與復甦」登場 - GNN 新聞網",
+      "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBRSWduUnBZaXhrclZ0WVNzekRPMEQwTWl2dWNjVWhHeF9iZDhSdzRwTWk4WGt3OF9iRjFVbDlQVFE0U0NibTBiRVJkR1lpXzBCRktKaFlqQ2k?oc=5",
+      "google_search_url": "https://www.google.com/search?q=%22%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%22+%22%E3%80%8A%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E3%80%8B%E5%9C%B0%E7%8D%84%E7%8E%8B%E8%80%85%E3%80%8C%E5%B9%BB%E6%A9%8B%E4%B9%8B%E8%A1%9B+%E2%80%A7+%E6%B5%B7%E5%A7%86%E9%81%94%E7%88%BE%E3%80%8D%E9%99%8D%E8%87%A8+%E5%85%A8%E6%96%B0%E3%80%8C%E4%BA%A4%E9%8C%AF%E5%91%BD%E9%80%94%E3%80%8D%E6%B4%BB%E5%8B%95%E3%80%8C%E4%B8%96%E7%95%8C%E6%A8%B9%E5%BA%95%E7%9A%84%E6%B2%89%E6%B7%AA%E8%88%87%E5%BE%A9%E7%94%A6%E3%80%8D%E7%99%BB%E5%A0%B4+-+GNN+%E6%96%B0%E8%81%9E%E7%B6%B2%22",
+      "published_at": "2026-11-12T09:00:01+00:00",
+      "publisher": "GNN 新聞網",
+      "source_type": "Google 新聞搜尋",
+      "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
+      "status": "source_lead_only"
+    },
     {
       "game": "勝利女神：妮姬",
       "title": "人類未來的戰鬥升級，《勝利女神：妮姬》四周年更新上線- 動漫世界網絡中國站 - awnchina.cn",
@@ -192,7 +214,7 @@
       "title": "《三角洲行動》「微光」賽季正式上線！聯動《影之刃零》推首款雙手近戰武器 西門町擂台開戰 | 上報 - LINE TODAY",
       "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPeGJsWHMxMnM1bzlYTWNCc3RZWU9JWjdnWHpPclN2VmZvMXVsdWVMcXV4UXZxUVNOeW00c2pOSU5UdDFiQk5IZlROSjM4Z0RwSVVycGFB?oc=5",
       "google_search_url": "https://www.google.com/search?q=%22%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8B%95%22+%22%E3%80%8A%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8B%95%E3%80%8B%E3%80%8C%E5%BE%AE%E5%85%89%E3%80%8D%E8%B3%BD%E5%AD%A3%E6%AD%A3%E5%BC%8F%E4%B8%8A%E7%B7%9A%EF%BC%81%E8%81%AF%E5%8B%95%E3%80%8A%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6%E3%80%8B%E6%8E%A8%E9%A6%96%E6%AC%BE%E9%9B%99%E6%89%8B%E8%BF%91%E6%88%B0%E6%AD%A6%E5%99%A8+%E8%A5%BF%E9%96%80%E7%94%BA%E6%93%82%E5%8F%B0%E9%96%8B%E6%88%B0+%7C+%E4%B8%8A%E5%A0%B1+-+LINE+TODAY%22",
-      "published_at": "2026-11-10T11:50:39+00:00",
+      "published_at": "2026-11-10T12:10:15+00:00",
       "publisher": "LINE TODAY",
       "source_type": "Google 新聞搜尋",
       "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
@@ -370,6 +392,17 @@
       "google_search_url": "https://www.google.com/search?q=%22%E5%82%B3%E8%AA%AA%E5%B0%8D%E6%B1%BA%22+%22Uber+Eats%E8%BF%8E10%E5%91%A8%E5%B9%B4%E8%B7%A8%E7%95%8C%E5%82%B3%E8%AA%AA%E5%B0%8D%E6%B1%BA%EF%BC%81%E6%9C%80%E4%BD%8E4%E6%8A%98%E3%80%81%E7%86%B1%E9%96%80%E7%BE%8E%E9%A3%9F%E8%B2%B71%E9%80%811%E5%84%AA%E6%83%A0%E4%B8%80%E6%AC%A1%E7%9C%8B+-+UDN%22",
       "published_at": "2026-11-05T03:26:07+00:00",
       "publisher": "UDN",
+      "source_type": "Google 新聞搜尋",
+      "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
+      "status": "source_lead_only"
+    },
+    {
+      "game": "傳說對決",
+      "title": "Uber Eats迎10周年跨界傳說對決！最低4折、熱門美食買1送1優惠一次看| 品味生活 - udnSTYLE",
+      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8ySklnTTduMGJfYzZ2eDlfOEdaQnk0T0dyNVNvSi1uTWdsbWhKRlR2R215dkJjNF90bE94U2dKaVVJTWNwemFRbHJpeDkxU0VfODRKcnoxZDJRRWt0andPUFRkSVJYZ2I4Y3lyYjRIMDliSE9fQ2xxeE1NNGZCQQ?oc=5",
+      "google_search_url": "https://www.google.com/search?q=%22%E5%82%B3%E8%AA%AA%E5%B0%8D%E6%B1%BA%22+%22Uber+Eats%E8%BF%8E10%E5%91%A8%E5%B9%B4%E8%B7%A8%E7%95%8C%E5%82%B3%E8%AA%AA%E5%B0%8D%E6%B1%BA%EF%BC%81%E6%9C%80%E4%BD%8E4%E6%8A%98%E3%80%81%E7%86%B1%E9%96%80%E7%BE%8E%E9%A3%9F%E8%B2%B71%E9%80%811%E5%84%AA%E6%83%A0%E4%B8%80%E6%AC%A1%E7%9C%8B%7C+%E5%93%81%E5%91%B3%E7%94%9F%E6%B4%BB+-+udnSTYLE%22",
+      "published_at": "2026-11-05T03:26:07+00:00",
+      "publisher": "udnSTYLE",
       "source_type": "Google 新聞搜尋",
       "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
       "status": "source_lead_only"
@@ -590,6 +623,17 @@
       "google_search_url": "https://www.google.com/search?q=%22%E5%8B%9D%E5%88%A9%E5%A5%B3%E7%A5%9E%EF%BC%9A%E5%A6%AE%E5%A7%AC%22+%22%E3%80%8A%E5%8B%9D%E5%88%A9%E5%A5%B3%E7%A5%9E%EF%BC%9A%E5%A6%AE%E5%A7%AC%E3%80%8B%E5%9B%9B%E9%80%B1%E5%B9%B4%E7%89%B9%E5%B1%95%E3%80%8CNIKKE+4th+Anniversary%EF%BD%9C%E5%B1%AC%E6%96%BC%E6%88%91%E5%80%91%E7%9A%84%E5%9B%9B%E5%B9%B4%E3%80%8D%E5%B0%87%E6%96%BC%E8%8F%AF%E5%B1%B1%E7%99%BB%E5%A0%B4+-+GNN+%E6%96%B0%E8%81%9E%E7%B6%B2%22",
       "published_at": "2026-10-30T07:00:00+00:00",
       "publisher": "GNN 新聞網",
+      "source_type": "Google 新聞搜尋",
+      "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
+      "status": "source_lead_only"
+    },
+    {
+      "game": "傳說對決",
+      "title": "《Garena 傳說對決》十週年活動接力開跑- 遊戲新聞 - PChome Online新聞",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRHo3MDZZQjBwSWFYS3RjdFZ0V013OGlnd1dJZVdBUVlORDFEbG16emF3OGhzNC10UmlSM3prYXRrNld3VVBUTTBXbDdXeVppMkRlWHVNOXVkc3BPbUtmdWFvcldWNFF3YUVDZnVvUlZlRkxKSEZWeHBmNzVFVHNSdy1Ca20wMG1D?oc=5",
+      "google_search_url": "https://www.google.com/search?q=%22%E5%82%B3%E8%AA%AA%E5%B0%8D%E6%B1%BA%22+%22%E3%80%8AGarena+%E5%82%B3%E8%AA%AA%E5%B0%8D%E6%B1%BA%E3%80%8B%E5%8D%81%E9%80%B1%E5%B9%B4%E6%B4%BB%E5%8B%95%E6%8E%A5%E5%8A%9B%E9%96%8B%E8%B7%91-+%E9%81%8A%E6%88%B2%E6%96%B0%E8%81%9E+-+PChome+Online%E6%96%B0%E8%81%9E%22",
+      "published_at": "2026-10-30T07:00:00+00:00",
+      "publisher": "PChome Online新聞",
       "source_type": "Google 新聞搜尋",
       "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
       "status": "source_lead_only"

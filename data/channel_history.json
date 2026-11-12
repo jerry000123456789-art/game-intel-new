@@ -1,9 +1,80 @@
 {
-  "updated_at": "2026-11-12T01:19:38+00:00",
-  "status": "ok",
-  "fetched": 105,
-  "errors": [],
+  "updated_at": "2026-11-12T03:59:53+00:00",
+  "status": "partial",
+  "fetched": 30,
+  "errors": [
+    {
+      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOCtiyIH-Dt00Ntv-WqPgfw",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNH35X4JoxqnZHRyWGI04Vg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4c-wTOqEID-_vH4MhNs06w",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC-e2q_YhFnfsEggbJsTLPHg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_XZ4O10pZq9RCigggGSB1A",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
   "items": [
+    {
+      "id": "1826513af505720909abfb0d",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "台灣 IP 鴨梨子首次快閃咖啡廳 12 月 19 日開跑 聯名餐點與咖啡廳首發全新商品可愛登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314883",
+      "publisher": "",
+      "published_at": "2026-11-12T11:56:23+08:00",
+      "first_seen_at": "2026-11-12T03:59:53+00:00"
+    },
+    {
+      "id": "94f8cc464882f67d197f0634",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "2026 年「金搖桿獎」出爐 《惡靈古堡 9：安魂曲》奪年度遊戲 《超級變色龍》獲四獎",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314882",
+      "publisher": "",
+      "published_at": "2026-11-12T11:54:23+08:00",
+      "first_seen_at": "2026-11-12T03:59:53+00:00"
+    },
+    {
+      "id": "99687c516d17be2ccf2538eb",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "電視動畫《虎鶇 -TSUGUMI PROJECT-》宣布 2027 年 1 月開播 主視覺圖同步曝光",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314881",
+      "publisher": "",
+      "published_at": "2026-11-12T11:12:54+08:00",
+      "first_seen_at": "2026-11-12T03:59:53+00:00"
+    },
+    {
+      "id": "fe74a60cfe77e1d21dcac79c",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《煙雨江湖》淨師父隨《俠之道》聯動回歸 全新主線「武林大會」展開",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314880",
+      "publisher": "",
+      "published_at": "2026-11-12T11:00:01+08:00",
+      "first_seen_at": "2026-11-12T03:59:53+00:00"
+    },
+    {
+      "id": "b8dd05fbbd73f5b4f8880ebd",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "獨家直擊《仙境傳說》 RO FESTA 2026 現場　Cosplayer 與眾多新作攤位吸引玩家擠爆會場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314879",
+      "publisher": "",
+      "published_at": "2026-11-12T09:40:00+08:00",
+      "first_seen_at": "2026-11-12T03:59:53+00:00"
+    },
     {
       "id": "bbe9a5003f2b0ef6ddcea0e3",
       "category": "影片情報",

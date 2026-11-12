@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-12T01:20:11+00:00",
+  "checked_at": "2026-11-12T04:02:39+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
     "guides": 0,
-    "events": 0
+    "events": 1
   },
   "total_leads": {
     "codes": 57,
-    "guides": 59,
-    "events": 100
+    "guides": 60,
+    "events": 101
   },
   "per_game": {
-    "Bomber Friends": {
+    "Gordon Ramsay: Chef Blast": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Bubble Pop Origin! 泡泡龍": {
+    "Love & Pies - Merge Mystery": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Goods Hunt：黑洞超市大吞噬": {
+    "陰屍路：倖存者": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Grill Sort™": {
+    "새로운 게임": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Merge Bistro™ 烹飪與裝飾": {
+    "ONE PIECE Bounty Rush": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "《NBA 2K27》Arcade版": {
+    "ONE PIECE 海洋盛宴": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Punch Kick Duck+": {
+    "UNO!™": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "新しいGOワイルドエリアで冒険へ": {
+    "我的安妮": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "英雄丹 (Dan the Man官方正版) 像素橫向格鬥": {
+    "第五人格": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "風味美食街：我的餐廳烹飪遊戲": {
+    "至尊決鬥火柴人(Supreme Duelist)": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "物品分類：連連看3消除遊戲": {
+    "《英雄聯盟：激鬥峽谷》": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "王國紀元 (Lords Mobile)：全面戰爭": {
+    "蛋仔派對": {
+      "codes": 0,
+      "guides": 0,
+      "events": 1
+    },
+    "醫起救世界：鼠裡逃生": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "腦力測試 (Brain Test)：謎題急轉彎": {
+    "隨機塔防": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Moonlit Town: Merge & Story": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Mortal to Immortal: Idle RPG": {
+    "隨機骰子2": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -271,21 +271,21 @@
     "果燃很派": "2026-11-11T19:05:18+00:00",
     "機甲突襲titanrush": "2026-11-11T22:12:40+00:00",
     "王國紀元lordsmobile全面戰爭": "2026-11-12T01:20:11+00:00",
-    "unotm": "2026-11-08T07:05:34+00:00",
-    "我的安妮": "2026-11-08T07:05:34+00:00",
-    "第五人格": "2026-11-08T07:05:34+00:00",
-    "至尊決鬥火柴人supremeduelist": "2026-11-08T07:05:34+00:00",
-    "英雄聯盟激鬥峽谷": "2026-11-08T07:05:34+00:00",
-    "蛋仔派對": "2026-11-08T07:05:34+00:00",
-    "醫起救世界鼠裡逃生": "2026-11-08T07:05:34+00:00",
-    "隨機塔防": "2026-11-08T07:05:34+00:00",
-    "隨機骰子2": "2026-11-08T07:05:34+00:00",
+    "unotm": "2026-11-12T04:02:39+00:00",
+    "我的安妮": "2026-11-12T04:02:39+00:00",
+    "第五人格": "2026-11-12T04:02:39+00:00",
+    "至尊決鬥火柴人supremeduelist": "2026-11-12T04:02:39+00:00",
+    "英雄聯盟激鬥峽谷": "2026-11-12T04:02:39+00:00",
+    "蛋仔派對": "2026-11-12T04:02:39+00:00",
+    "醫起救世界鼠裡逃生": "2026-11-12T04:02:39+00:00",
+    "隨機塔防": "2026-11-12T04:02:39+00:00",
+    "隨機骰子2": "2026-11-12T04:02:39+00:00",
     "黎明再現doomsdaylastsurvivors": "2026-11-08T07:05:34+00:00",
     "veltarum": "2026-11-08T07:05:34+00:00",
     "moonlittownmergestory": "2026-11-12T01:20:11+00:00",
     "mortaltoimmortalidlerpg": "2026-11-12T01:20:11+00:00",
-    "onepiecebountyrush": "2026-11-08T07:05:34+00:00",
-    "onepiece海洋盛宴": "2026-11-08T07:05:34+00:00",
+    "onepiecebountyrush": "2026-11-12T04:02:39+00:00",
+    "onepiece海洋盛宴": "2026-11-12T04:02:39+00:00",
     "fluvsiescutevirtualpets": "2026-11-08T09:52:47+00:00",
     "wwesupercardcardbattler": "2026-11-08T09:52:47+00:00",
     "面具之墓tombofthemask": "2026-11-08T09:52:47+00:00",
@@ -870,7 +870,11 @@
     "punchkickduck": "2026-11-12T01:20:11+00:00",
     "新しいgoワイルドエリアで冒険へ": "2026-11-12T01:20:11+00:00",
     "英雄丹dantheman官方正版像素橫向格鬥": "2026-11-12T01:20:11+00:00",
-    "風味美食街我的餐廳烹飪遊戲": "2026-11-12T01:20:11+00:00"
+    "風味美食街我的餐廳烹飪遊戲": "2026-11-12T01:20:11+00:00",
+    "gordonramsaychefblast": "2026-11-12T04:02:39+00:00",
+    "lovepiesmergemystery": "2026-11-12T04:02:39+00:00",
+    "陰屍路倖存者": "2026-11-12T04:02:39+00:00",
+    "새로운게임": "2026-11-12T04:02:39+00:00"
   },
   "errors": []
 }

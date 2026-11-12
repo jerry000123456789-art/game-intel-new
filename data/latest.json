@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T01:19:36+00:00",
+  "updated_at": "2026-11-12T03:59:51+00:00",
   "status": "ok",
   "errors": [],
   "fetched": 120,
@@ -150,6 +150,15 @@
       "first_seen_at": "2026-11-10T21:48:03+00:00"
     },
     {
+      "id": "5848846928afda7e31b2",
+      "category": "新遊戲資訊",
+      "title": "《魔物獵人荒野 飛升》Beta 測試版圖像現身Steam 沿用《荒野》公測程式引發關注 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPS0VBbHJXVDlZU1cwOHVLclNqTXh5SEJLM2pnTWZaWS1lYktaV05XNDVZRGhLdkZWb3YwSTRycnVxZzZJOGtxVExJYy1tSkpaLWJTWVpubkVxVmFUTVVDWGRKX0pOM1p0aVBoUkZjcUNVWm9mZkFhVnBrSnBxSFdob0tTX0ZuSG9mckRWbGtFcmV1VWNJSFppcmdn?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-11-10T10:29:23+00:00",
+      "first_seen_at": "2026-11-12T03:59:51+00:00"
+    },
+    {
       "id": "dd8de04097b4b6b4356e",
       "category": "新遊戲資訊",
       "title": "《王國 W：血盟之誓》宣布 11/17 正式公測 野外 PK、公會玩法搶先看 - GNN 新聞網",
@@ -215,9 +224,9 @@
     {
       "id": "37747faa8f59cc9a5648",
       "category": "兌換碼",
-      "title": "格鬥天王：拳面出擊 推出！齊收集All Star格鬥家卡牌｜附禮包碼 - 香港01",
+      "title": "格鬥天王：拳面出擊 推出！齊收集All Star格鬥家卡牌｜附禮包碼 - HK01",
       "url": "https://news.google.com/rss/articles/CBMijgNBVV95cUxPM0FHQncxWHZNU2ZxY0M0MWpsajJMUDl4Q2t2QWNLVzUwQjhfLTF3S3RKUHVjN0JOalhPWnRDZ19PNDRSbllKTW1aVjM1WDVXNnB0Wllxa29HR2NRQlQ5NTZ4Qm5vQlBpNEhCbmx5TzlKT1VIUFFpQU5QZkxrZmN0U2lmZ0FVdkgwZVMxMm0xY3lsZXdOc3JpRzZpcndGckNjNVpMSFJKN2FpNEV3RTZFSXpncC16TjRtckJ3cDBJNG1nV2RfVzUwbExBbHprSlpqWWM4OHNuOVE3djk0QUxBX21QWUJBQ29ockVDNS00THpGeGR3VUg1d3R4WGlGWUhCS01GaTVGcWoybkgtMnRMbGFtX1k3OWJaYjA2XzRQRzhIRjYyeXRRdGNoTGh4OUZHNGpnU1B0WVhQSFRtMlVMMEF5RnIyVFNBMDB2ZVlzT1RTSG1nRzFEVlNKNzBURmluelRrMV9VazBQY0xIM29XUEpxNmJtNVZyTDFhd0dpckVkN3Y1YXBTcjVtQzluUQ?oc=5",
-      "publisher": "香港01",
+      "publisher": "HK01",
       "published_at": "2026-11-06T08:18:57+00:00",
       "first_seen_at": "2026-11-07T18:50:37+00:00"
     },
@@ -458,9 +467,9 @@
     {
       "id": "001ca66204a23debdc4f",
       "category": "遊戲攻略",
-      "title": "魔物獵人：旅人開服懶人包｜開局拓荒避坑指南！新手上路全攻略！ - 香港01",
+      "title": "魔物獵人：旅人開服懶人包｜開局拓荒避坑指南！新手上路全攻略！ - HK01",
       "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxPV3dUdGFuWWtYLTB3dDFSY2QtT1VoLTJVM3FlSVZsd2tBUmlLaVdBYmdhZ0R3RGViNzJpRXdDdFFHWldWN0l4N1diVzMtZG0zb2VheEJHR3AtVW0ta254elA4SlZfWFhXVkNWOGstY0hNbHVSSVB5cjhXaFRvaHYzemJQc3FzcVF3ZmFwcVNiQ2tyVzNYcU1iMXNfYWs1VThrS212R2FfVE04eTZsRGJFTlRZWEpIejlGR3BsZGlINlVMcWxNZjk0RUpxTnJFU2Y3N0xPelF5VTNZYWcwdFR6UWIwd183TjZfSnJDNjRxNVZyOFNPc2M4ekQwS0NtOGUxX1VLSktjRjRWUGl5VnF5UTZOS0JsRnptRW82TkxwS09tLVlCVkZDMFpVY2R6QmI0ZHBiN3luMWJzTXJURUJRVkIxMllCNzVMV2JiRFFzbFloeURxMGRtSmhrVlVtTVZKUnN5LTBHU19RV2paLWl5ZUk0TlZkZ3h0ajRfSml4Qms0b0xvSnBJRXlnT2wtYVBGQ3BwQmVialA3Y250dHB5ZHp0VUJsMXpuYVRMNFFsOXBEUQ?oc=5",
-      "publisher": "香港01",
+      "publisher": "HK01",
       "published_at": "2026-10-29T07:00:00+00:00",
       "first_seen_at": "2026-11-11T07:54:28+00:00"
     },
@@ -933,6 +942,15 @@
       "first_seen_at": "2026-11-10T18:59:54+00:00"
     },
     {
+      "id": "1bcf43d37931f4297c49",
+      "category": "活動行事曆",
+      "title": "《搞鬼 Ｍ》宣布 8 月 12 日正式開服搶先公開聯動慶典與伺服器命名活動《Ghost M》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5neGRGcGUzRkY5bWNKTEFQQjVkSU9USGg2S0tjTC1meHNaUWhodGpZbjB2MUd2Qkh3WEhPWUV4azJNY3pRWU1ieXd6T0ctRElXb2dMOEV6SzA?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-07-31T07:00:00+00:00",
+      "first_seen_at": "2026-11-12T03:59:51+00:00"
+    },
+    {
       "id": "05f62636f09c05faae86",
       "category": "活動行事曆",
       "title": "《hololive Dreams》首個泳裝卡池「超大粒」諾艾爾等5人曝光 預告KONAMI音遊聯動 - 4Gamers",
@@ -1192,6 +1210,15 @@
       "publisher": "Wuthering Waves",
       "published_at": "2026-04-29T07:00:00+00:00",
       "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "074bdd2ab65f66cfa0fb",
+      "category": "遊戲攻略",
+      "title": "《異環》公測新手攻略總整理：首抽自選推薦、抽卡機制、都市大亨賺錢與養成教學一次看 - Yahoo新聞",
+      "url": "https://news.google.com/rss/articles/CBMiswRBVV95cUxNWC1WbnZfbHBrNlBLOWs0TUlhS2dYdHNrS1IzbVRuZ0hRSjRGa3ZaQmdZQnFTaXAxWDl3bi1KU0dmVzItaVlEc3NUbkgyU0ZKNUtFblNoaWMycVVGdzlZOUZwdjZsT0lUaGd6bjhoRmlfVUtoMUdOUTM4Z2pxT2tsaWU2MlU4RS01RlZ2R2luTWlENXc3QWRURXozWEpCWjRQa0x6ZW5zT3prbEZHQkFXbTBuZUpfd3AtWEJZOG9ZR0tFdllxcEl3cHZNWE9xbnVlZ2ROWVlnNml0YWx3WUtScGtvMF9Sb1NhUHJWNzJuY09OaFhQSEc2TFlVaFlMdzVGU1dFVzg2SzM0eFN5T0pOZ211UzZmOXFkcEdydk4wYW1YV3lmN1hxNi05SHhQanlIT09xSmRSNE1vWVd2VkphY2puYkhNd2JRMEVpWXV2bUp0XzhkSmJ5TU4xclVsYm1EMEIwUms4dVR2YVJXUENSMzIzMk9jWDI5REkyLTlKdmdBWko4eHc5MS02SUhlOVBhdG91ZE9yYXZ5c19JREJGUlQ0RmZUWlhQQUYwUnd2aEY2S21QYnBTOWxQUENzTDFTNzZ4cnlOLVhqUGo0NUxwTmp4TGFxUG43dENiZUg2WjZmN0QyYU83dUZ2S0tlcEZYXzBzTWpPVlpDcDFKR1VsTEZNU0dOSEUzR1YzYzM4aGJFMUhaRDlXZDlWNGFNVFp3LXlmOTd5bS1TMFhkSDRHZDlfVQ?oc=5",
+      "publisher": "Yahoo新聞",
+      "published_at": "2026-04-27T07:00:00+00:00",
+      "first_seen_at": "2026-11-12T03:59:51+00:00"
     },
     {
       "id": "dd604c860baa1855ac81",

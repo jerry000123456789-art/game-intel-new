@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T22:12:05+00:00",
+  "updated_at": "2026-11-12T01:19:36+00:00",
   "note": "僅依標題比對遊戲與日期字樣；日期不代表活動起迄、上市日期；未擷取或驗證兌換碼。",
   "items": [
     {
@@ -111,6 +111,18 @@
       "review_required": true
     },
     {
+      "id": "dbe1dd055987df486655",
+      "category": "兌換碼",
+      "game_matches": [],
+      "title": "Project Soul’s Codes 兌換碼彙整（2026 年 11 月） - games.gg",
+      "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNeXNNOWttSGJoWWp5RllSaElEdGgyTGJBUnJqdTU3N1dSUW9lUng4ZjUzYmNJLWN0MjZsMmRVbFR6elUwTW9aYTROcVJkUF9EVjZkNjlBV0xQb2p5Rk9VSVNiT0J6NkFCWkJJZE1kdmZUSFlhUDh4TE03Tm9zZ1FNWXJxM3lWbXgtWEdBbGhacUVtVUtON1FlbU1zdVczNi1yUDdVbDVLVnBXWXMwWDBhaTF5UUF4YWZHekI5eWZOUV9scGQ2YktfZjBTOG4?oc=5",
+      "publisher": "games.gg",
+      "published_at": "2026-11-11T00:30:20+00:00",
+      "first_seen_at": "2026-11-12T01:19:36+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
       "id": "c8d7ff9725b7a9f25c6d",
       "category": "兌換碼",
       "game_matches": [],
@@ -131,6 +143,18 @@
       "publisher": "games.gg",
       "published_at": "2026-11-11T00:21:13+00:00",
       "first_seen_at": "2026-11-11T01:10:30+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "0a7d799e90603003ea53",
+      "category": "兌換碼",
+      "game_matches": [],
+      "title": "Roblox Voxel Heroes 兌換碼（2026 年 11 月） - games.gg",
+      "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbVhVT1ZkcGcxalhSY2xlQnRuREllUTNaa0FLV3Z4WmpaUVNZck1ZazJsd015LXZXb2ZLNHVyNW5jaVFMMVJ1elZzaTU3RDNuN1J3TnlGV3RCRGNnWTZrZ0hkSFBDQXQ5QWQxMjJhLWJZR3Rab0JWdXhMV3NJZmlxWC1rNVF4WXUwTHlQa3VFcjVId0pzQ3l6enRiTmJRYzVLSHRUTXhnbWtlVDhoVDJBa0w3NjU?oc=5",
+      "publisher": "games.gg",
+      "published_at": "2026-11-11T00:21:13+00:00",
+      "first_seen_at": "2026-11-12T01:19:36+00:00",
       "date_mentions": [],
       "review_required": true
     },
@@ -965,14 +989,40 @@
       "review_required": true
     },
     {
+      "id": "8ba535c3f45dcb7de368",
+      "category": "兌換碼",
+      "game_matches": [
+        "蔚藍檔案"
+      ],
+      "title": "【蔚藍檔案】兌換碼與禮包碼序號・9月16日更新 - Ludens Media",
+      "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBKTWc4eUpUT1VQUWR2anZld2VmYnVDSG11LXFoTUpDNWkzQ1NzbkRtY0JzMlhac3g1UWVvdzZkNHV5VU1CX2pvVFRJcm03VVhqN0NlbXVUQng?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-09-16T07:00:00+00:00",
+      "first_seen_at": "2026-11-12T01:19:36+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
       "id": "a7af995a10b33abae5a7",
       "category": "兌換碼",
       "game_matches": [],
-      "title": "【三國神將錄】兌換碼與禮包碼序號・11月2日更新 - Ludens Media",
+      "title": "【三國神將錄】兌換碼與禮包碼序號・11月9日更新 - Ludens Media",
       "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5jTmxWTF9hWUpwUlVseDlpZjVNV25rS1liT19Sc1J6T21hblllMXd4X05DazQ3cFV2RW1jdlVEZkE1azVFc0JYdzNmMjlfNDhWb2ZCSQ?oc=5",
       "publisher": "Ludens Media",
       "published_at": "2026-09-14T07:00:00+00:00",
       "first_seen_at": "2026-11-08T12:25:27+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "f6ce924286698ef445b5",
+      "category": "活動行事曆",
+      "game_matches": [],
+      "title": "《Seven Knights Re:BIRTH》宣佈與《鬼滅之刃》展開聯動，今日開放事前登錄 - haveagood-holiday.com",
+      "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNU0prTHk4SzRFMU54c2loWlhabUpoeUxrWGQ5T0NxeEZhYTRWeWlZb2ZfWGZrZkJDU1hjM1ZZbHB4YmN0UlMwUG1KR1BRMV85bGo2VzA1d3pZT1E4RXUyNXJLaXRrZU1qNzJvRFBFODY5Zm5XUlpwcEN2YTdDS3U5Q0IxNU1HdWh3cGFGTFZlNG1LSmRx?oc=5",
+      "publisher": "haveagood-holiday.com",
+      "published_at": "2026-09-14T07:00:00+00:00",
+      "first_seen_at": "2026-11-12T01:19:36+00:00",
       "date_mentions": [],
       "review_required": true
     },
@@ -1224,6 +1274,18 @@
       "publisher": "GNN 新聞網",
       "published_at": "2026-07-31T07:00:00+00:00",
       "first_seen_at": "2026-11-10T18:59:54+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "05f62636f09c05faae86",
+      "category": "活動行事曆",
+      "game_matches": [],
+      "title": "《hololive Dreams》首個泳裝卡池「超大粒」諾艾爾等5人曝光 預告KONAMI音遊聯動 - 4Gamers",
+      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxON2pjVXFDa0l1bjl0dlN6ZmV1RmNLbXo1QWhkcGVBa3lEUlhPdjlHY2RqT0t4REJyc251M1ctVnBGanRCTU9tei1HWDBwOTB5NEtfN3NqWDZiOXUyeDh4S3hqQTdZellueGJpTlk3LVp3a21QLVR1T0c1UF9lSENiOThCTUZzRjY0WGU1b3A2a1ZPcy1ZUzZwb0NnZmRkWm53blluSXlqX0ZLQUhkUnZZVExESGk0M2g4Y3JUUnlTdDdwMlVN?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2026-07-27T07:00:00+00:00",
+      "first_seen_at": "2026-11-12T01:19:36+00:00",
       "date_mentions": [],
       "review_required": true
     },
@@ -2107,6 +2169,30 @@
       "review_required": true
     },
     {
+      "id": "d58f1dd99a3b2fb08f1c",
+      "category": "新遊戲資訊",
+      "game_matches": [],
+      "title": "美少女攻城遊戲《萌塔娘》正式上市 開服限定活動開跑 釋出「城主爭奪戰」玩法資訊 - GNN 新聞網",
+      "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5TcVloMXY3cTJvb0tGNU96TkROWUkwQUJHRENSQ2NKQUk3V1U1c2dnbWFUSURfTHpzeDYzQ08zN0xmYklIazNyT2o5clA0VFU2eUl4NW5nS3g?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2025-10-17T07:00:00+00:00",
+      "first_seen_at": "2026-11-12T01:19:36+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "57ccd3e17cce4c94c5b8",
+      "category": "新遊戲資訊",
+      "game_matches": [],
+      "title": "《決勝時刻：黑色行動7》多人遊戲模式Beta 公測 10 月初登場預購玩家可提前進入遊玩《Call of Duty: Black Ops 7》 - GNN 新聞網",
+      "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53bXhIbXFLSjF2cTdYN0syRkFfem81NnNTamd4M3RubnNlalk2Q3B3ZjdyaURuWm13bUMtVUQ5eTJmS3dOQ3FXT1BFYkN1S0xYQUNMZUNoMVU?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2025-09-22T07:00:00+00:00",
+      "first_seen_at": "2026-11-12T01:19:36+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
       "id": "3973bd58618fed929cc9",
       "category": "遊戲攻略",
       "game_matches": [],
@@ -2171,6 +2257,18 @@
       "publisher": "库洛游戏",
       "published_at": "2024-03-29T14:41:30+00:00",
       "first_seen_at": "2026-11-07T13:34:22+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "47f8eacfcb0c70189f21",
+      "category": "新遊戲資訊",
+      "game_matches": [],
+      "title": "《Predecessor》現已開放免費公測 - Epic Games",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWVZmVllfeHlzUi1NcnRNQVp3U1N0U0tXdHV5WDlBUndYM0FRalk2dWg5LU4xTGJSeW1PaEtZV0MwUFNXLUFKNkRzOW04QWlOSGE4TGhrRlVSU19DcUJPZkNCYlJPZWxmUDZuZWtGdXNZYWZ5b2VDRzk3cGc5ZzQ1ZWlfRDV3U3NQWGZraE5ZdzBqMDNSOW5hVVBPcl82aEF0a2c?oc=5",
+      "publisher": "Epic Games",
+      "published_at": "2024-03-28T07:00:00+00:00",
+      "first_seen_at": "2026-11-12T01:19:36+00:00",
       "date_mentions": [],
       "review_required": true
     },

@@ -1,9 +1,49 @@
 {
-  "updated_at": "2026-11-11T22:12:08+00:00",
+  "updated_at": "2026-11-12T01:19:38+00:00",
   "status": "ok",
   "fetched": 105,
   "errors": [],
   "items": [
+    {
+      "id": "bbe9a5003f2b0ef6ddcea0e3",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《彈指大亂鬥：自走棋RPG》11月10日正式上線 3分鐘決勝負！每一場都是全新的策略對決 | 禮包碼、兌換碼、虛寶碼 | 收集個性反派與強力機器人 自由搭配坦克、輸出與輔助 彈指佈局 成為競技冠軍！",
+      "url": "https://www.youtube.com/watch?v=-36QEnK2vyU",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-12T01:06:54+00:00",
+      "first_seen_at": "2026-11-12T01:19:38+00:00"
+    },
+    {
+      "id": "2282c3aea0f0f8e736c6a61f",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》一張繪影會心14%！主詞條理論值怎麼看、轉彩洗副詞條一次搞懂 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=ApfnqL_Kbqk",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-12T01:00:30+00:00",
+      "first_seen_at": "2026-11-12T01:19:38+00:00"
+    },
+    {
+      "id": "13aed7fa8797119905a1db44",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《Highland 高地：像素MMORPG·空島掛機RPG》11月11日更新 從一塊小土島開始 打造屬於自己的天空王國 | 復古2D像素冒險 自由擴建浮空島、經營農場工坊 搭乘飛空艇探索10座狩獵島",
+      "url": "https://www.youtube.com/watch?v=gY5UojWotL0",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-12T00:52:32+00:00",
+      "first_seen_at": "2026-11-12T01:19:38+00:00"
+    },
+    {
+      "id": "9a3d96fa2676bd471570e7b2",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《地城外包：卡牌RPG》11月9日更新 自己的英雄自己養 別人的英雄也能僱 全新傭兵冒險玩法 組成4人隊伍挑戰地城 | 回合制卡牌戰鬥、職業陣形、COMBO與武器強化 考驗策略布局 打造最強冒險團隊",
+      "url": "https://www.youtube.com/watch?v=0yIHAeuiZx4",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-12T00:36:10+00:00",
+      "first_seen_at": "2026-11-12T01:19:38+00:00"
+    },
     {
       "id": "68aed2bc5bacac9e2c365245",
       "category": "巴哈姆特情報",
@@ -38,7 +78,7 @@
       "id": "90b8017bfa9bb63d733cc8cd",
       "category": "巴哈姆特情報",
       "origin": "巴哈姆特",
-      "title": "單人回合制戰術新作《仙境傳說計畫》RO FESTA 亮相　經典職業重現、預定 2027 年進軍 Steam",
+      "title": "單人回合制戰術新作《仙境傳說計畫》亮相　經典職業重現、預定 2027 年進軍 Steam",
       "url": "https://gnn.gamer.com.tw/detail.php?sn=314876",
       "publisher": "",
       "published_at": "2026-11-11T20:07:21+08:00",

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-11T22:12:40+00:00",
+  "checked_at": "2026-11-12T01:20:11+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
@@ -9,82 +9,82 @@
     "events": 0
   },
   "total_leads": {
-    "codes": 54,
+    "codes": 57,
     "guides": 59,
-    "events": 98
+    "events": 100
   },
   "per_game": {
-    "Dawncaster: Deckbuilding RPG": {
+    "Bomber Friends": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Lil' Guardsman": {
+    "Bubble Pop Origin! 泡泡龍": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Sorcery School": {
+    "Goods Hunt：黑洞超市大吞噬": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Vita Solitaire for Seniors": {
+    "Grill Sort™": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Wings of Heroes: Flying Games": {
+    "Merge Bistro™ 烹飪與裝飾": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "坦克射擊": {
+    "《NBA 2K27》Arcade版": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "機動三國": {
+    "Punch Kick Duck+": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "英雄先生": {
+    "新しいGOワイルドエリアで冒険へ": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "英雄獵手": {
+    "英雄丹 (Dan the Man官方正版) 像素橫向格鬥": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "變形金剛：無盡戰爭": {
+    "風味美食街：我的餐廳烹飪遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "미르의 전설2: 레볼루션": {
+    "物品分類：連連看3消除遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "부스터 팩 히어로즈": {
+    "王國紀元 (Lords Mobile)：全面戰爭": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "삼국지: 구주제패": {
+    "腦力測試 (Brain Test)：謎題急轉彎": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "機甲突襲：Titan Rush": {
+    "Moonlit Town: Merge & Story": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "深海水族館-點點可培養的水族館": {
+    "Mortal to Immortal: Idle RPG": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -265,12 +265,12 @@
     "tiletopia三消方塊配對": "2026-11-11T19:05:18+00:00",
     "尋寶遊戲尋找隱藏物品": "2026-11-11T19:05:18+00:00",
     "深海水族館點點可培養的水族館": "2026-11-11T22:12:40+00:00",
-    "物品分類連連看3消除遊戲": "2026-11-08T05:49:10+00:00",
-    "腦力測試braintest謎題急轉彎": "2026-11-08T05:49:10+00:00",
+    "物品分類連連看3消除遊戲": "2026-11-12T01:20:11+00:00",
+    "腦力測試braintest謎題急轉彎": "2026-11-12T01:20:11+00:00",
     "屍控防線zomlinesurvival": "2026-11-11T19:05:18+00:00",
     "果燃很派": "2026-11-11T19:05:18+00:00",
     "機甲突襲titanrush": "2026-11-11T22:12:40+00:00",
-    "王國紀元lordsmobile全面戰爭": "2026-11-08T05:49:10+00:00",
+    "王國紀元lordsmobile全面戰爭": "2026-11-12T01:20:11+00:00",
     "unotm": "2026-11-08T07:05:34+00:00",
     "我的安妮": "2026-11-08T07:05:34+00:00",
     "第五人格": "2026-11-08T07:05:34+00:00",
@@ -282,8 +282,8 @@
     "隨機骰子2": "2026-11-08T07:05:34+00:00",
     "黎明再現doomsdaylastsurvivors": "2026-11-08T07:05:34+00:00",
     "veltarum": "2026-11-08T07:05:34+00:00",
-    "moonlittownmergestory": "2026-11-08T07:05:34+00:00",
-    "mortaltoimmortalidlerpg": "2026-11-08T07:05:34+00:00",
+    "moonlittownmergestory": "2026-11-12T01:20:11+00:00",
+    "mortaltoimmortalidlerpg": "2026-11-12T01:20:11+00:00",
     "onepiecebountyrush": "2026-11-08T07:05:34+00:00",
     "onepiece海洋盛宴": "2026-11-08T07:05:34+00:00",
     "fluvsiescutevirtualpets": "2026-11-08T09:52:47+00:00",
@@ -860,7 +860,17 @@
     "變形金剛無盡戰爭": "2026-11-11T22:12:40+00:00",
     "미르의전설2레볼루션": "2026-11-11T22:12:40+00:00",
     "부스터팩히어로즈": "2026-11-11T22:12:40+00:00",
-    "삼국지구주제패": "2026-11-11T22:12:40+00:00"
+    "삼국지구주제패": "2026-11-11T22:12:40+00:00",
+    "bomberfriends": "2026-11-12T01:20:11+00:00",
+    "bubblepoporigin泡泡龍": "2026-11-12T01:20:11+00:00",
+    "goodshunt黑洞超市大吞噬": "2026-11-12T01:20:11+00:00",
+    "grillsorttm": "2026-11-12T01:20:11+00:00",
+    "mergebistrotm烹飪與裝飾": "2026-11-12T01:20:11+00:00",
+    "nba2k27arcade版": "2026-11-12T01:20:11+00:00",
+    "punchkickduck": "2026-11-12T01:20:11+00:00",
+    "新しいgoワイルドエリアで冒険へ": "2026-11-12T01:20:11+00:00",
+    "英雄丹dantheman官方正版像素橫向格鬥": "2026-11-12T01:20:11+00:00",
+    "風味美食街我的餐廳烹飪遊戲": "2026-11-12T01:20:11+00:00"
   },
   "errors": []
 }

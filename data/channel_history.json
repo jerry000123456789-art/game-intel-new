@@ -1,9 +1,219 @@
 {
-  "updated_at": "2026-11-12T10:09:40+00:00",
+  "updated_at": "2026-11-12T13:19:50+00:00",
   "status": "ok",
   "fetched": 105,
   "errors": [],
   "items": [
+    {
+      "id": "10f378a34cd777d678df292d",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《暗喻幻想：ReFantazio》Switch 2 版今日發售 其他平台同步調降售價",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314956",
+      "publisher": "",
+      "published_at": "2026-11-12T21:11:45+08:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "5ebef12735c47bab4d612185",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "VTuber 星街彗星宣布亞巡「NEVER LANDING」與多人巡演「Metamorphose」2027 年登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314955",
+      "publisher": "",
+      "published_at": "2026-11-12T21:05:57+08:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "774cc9956af33817b3c5e8aa",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《電鋸甜心 RePOP》上市 2 週年 免費更新開放「派對洋裝」等內容",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314954",
+      "publisher": "",
+      "published_at": "2026-11-12T21:04:26+08:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "99782b8e61596ecf1792a758",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《虹彩六號》BLAST 國際錦標賽進入最終決戰 第 11 年第 4 季「庇護行動」即將公開",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314953",
+      "publisher": "",
+      "published_at": "2026-11-12T20:57:22+08:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "27a13663a8f2d09aa19af62d",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "騰訊測試 AI 陪玩軟體《鵝次元》　四位 AI 美少女即時看畫面陪聊《LOL》《特戰英豪》《影之刃零》等",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314952",
+      "publisher": "",
+      "published_at": "2026-11-12T20:18:27+08:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "6fa48d45acd171781a80a130",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《少女魔役》Switch 2 體驗版開始發布 公開限定版詳細資訊",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314951",
+      "publisher": "",
+      "published_at": "2026-11-12T19:38:56+08:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "f406ac14255352988f86ccb6",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "提前約二週上市！《復活邪神 3 錯綜宿命》發售日改為 2027 年 2 月 4 日",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314950",
+      "publisher": "",
+      "published_at": "2026-11-12T19:34:01+08:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "fdff182b596c257b72966d4b",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "台灣大哥大開賣《俠盜獵車手 6》PS5 Slim 雙控組",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314949",
+      "publisher": "",
+      "published_at": "2026-11-12T19:33:47+08:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "205ee9af4ffe615764b279f4",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "懸疑解謎新作《幽暗森林裡的糖果屋》將在 G-EIGHT 遊戲展開放試玩　同步與禮子甜點合作期間限定聯名活動",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314948",
+      "publisher": "",
+      "published_at": "2026-11-12T19:29:11+08:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "d54a7d58265e9fb9db8c25c6",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《Project Motor Racing》推出全新 DLC「World Endurance Pack」",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314947",
+      "publisher": "",
+      "published_at": "2026-11-12T19:27:22+08:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "2c372179b45af28c8b026f84",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《巨商》全新地圖「腐敗的池塘」登場！同步開放明王「真覺」武器、傭兵「繼承」系統等內容",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314946",
+      "publisher": "",
+      "published_at": "2026-11-12T19:05:38+08:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "90e9b56477a49b2fcf7fcfc3",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "動畫歌姬白鳥英美子獻聲！暖心冒險遊戲《姆明：瘋狂夏日》今日上市",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314945",
+      "publisher": "",
+      "published_at": "2026-11-12T19:00:59+08:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "72942b02b0f9c0cee267be65",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《足球經理 27》現已上市 發售宣傳影片同步公開",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314944",
+      "publisher": "",
+      "published_at": "2026-11-12T18:55:54+08:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "4fca5004ffe94aeee2098136",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《新熱血江湖 Online》歡慶 12 週年　蛋糕靈獸、巨大禮物箱限時登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314943",
+      "publisher": "",
+      "published_at": "2026-11-12T18:53:27+08:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "8ffa164da11f4c3c95f25473",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《浣熊推幣機：混沌全開版》登上家用主機平台",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314942",
+      "publisher": "",
+      "published_at": "2026-11-12T18:46:18+08:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "a9c4459e08d0f8b64c3e8ac7",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "考驗手速與默契的 2 分鐘激戰！即時對戰遊戲《手忙腳亂黑白棋 HachaMeccha Reversi》11/17 上市",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314941",
+      "publisher": "",
+      "published_at": "2026-11-12T18:43:45+08:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "44f01b02404389208ee83207",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "神秘轉學生聖德太子、青梅竹馬中臣鎌足任妳攻略！《奈良☆戀曲 ～古人也想談戀愛～》12 月中旬上市",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314940",
+      "publisher": "",
+      "published_at": "2026-11-12T18:28:42+08:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "33ea619f60faf4adf9e0aea0",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《貓咪大戰爭》將推出集換式卡牌遊戲 預定明年 3 月發售",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314939",
+      "publisher": "",
+      "published_at": "2026-11-12T18:20:54+08:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "e5ab8fd404d5fbae0603569e",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《SEGA 新創造球會 RTW》舉辦由挪威的超級球星作為新★5 球員登場的「FEVER STAR FES」",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314938",
+      "publisher": "",
+      "published_at": "2026-11-12T18:19:12+08:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "7e97d94b83e7de1989cba326",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《辟邪除妖 Variants Daphne》另一種風格的冒險者「清冽的新娘 拉納維爾」登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314937",
+      "publisher": "",
+      "published_at": "2026-11-12T18:12:44+08:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "69de4e00b29dc3d23b149429",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《Monster Hunter Puzzles 永恆版》現已推出 可繼承營運版遊戲資料、收錄超過 2400 道關卡",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314936",
+      "publisher": "",
+      "published_at": "2026-11-12T18:10:40+08:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
     {
       "id": "2e67a631e8983ade61a3c75b",
       "category": "巴哈姆特情報",
@@ -255,6 +465,16 @@
       "first_seen_at": "2026-11-12T07:26:49+00:00"
     },
     {
+      "id": "66d56d87b3f1f43966e8385f",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《RO仙境傳說：世界之旅》公會網聚墾丁三天兩夜！整個客廳一起打攻城戰、抽兩台Switch｜Vlog #CD喜德",
+      "url": "https://www.youtube.com/watch?v=gWLEu0DzNZo",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-12T13:00:33+00:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
       "id": "d84c4372a03370ca4dd9230f",
       "category": "巴哈姆特情報",
       "origin": "巴哈姆特",
@@ -335,6 +555,16 @@
       "first_seen_at": "2026-11-12T07:26:49+00:00"
     },
     {
+      "id": "59214fe80779dab41fec3061",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》銀幣不夠用？一天差不多50萬的算法，第3個寶箱佔一大半 #CD喜德",
+      "url": "https://www.youtube.com/shorts/Yx__riYZ0o0",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-12T12:00:22+00:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
       "id": "1826513af505720909abfb0d",
       "category": "巴哈姆特情報",
       "origin": "巴哈姆特",
@@ -355,6 +585,26 @@
       "first_seen_at": "2026-11-12T03:59:53+00:00"
     },
     {
+      "id": "18decc1dbf7533f5581f3365",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《星之救援者 StarSavior》｜8點抽支援卡｜新老婆 偏愛魔女 直接換",
+      "url": "https://www.youtube.com/watch?v=5GvgJH0bDYE",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-12T11:50:48+00:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "9a7d55d3f7afd9d4ff488407",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "RO 世界觀衍生新作《仙境傳說計畫》2027 問世宣傳影片",
+      "url": "https://www.youtube.com/watch?v=U5-hgXJRczg",
+      "publisher": "巴哈姆特電玩瘋",
+      "published_at": "2026-11-12T11:25:49+00:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
       "id": "99687c516d17be2ccf2538eb",
       "category": "巴哈姆特情報",
       "origin": "巴哈姆特",
@@ -363,6 +613,16 @@
       "publisher": "",
       "published_at": "2026-11-12T11:12:54+08:00",
       "first_seen_at": "2026-11-12T03:59:53+00:00"
+    },
+    {
+      "id": "e2f9593b3d13dbf3b5cb5b4e",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《星之救援者 StarSavior》【國際版 #86】新限定老婆 褪色之夢 偏愛魔女 抽取推薦【偏愛魔女要抽麽?】絕對人權",
+      "url": "https://www.youtube.com/watch?v=8uLliFbvtcI",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-12T11:01:51+00:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
     },
     {
       "id": "fe74a60cfe77e1d21dcac79c",
@@ -388,7 +648,7 @@
       "id": "eeac5ab77e2d1d1852f095e8",
       "category": "影片情報",
       "origin": "YouTube",
-      "title": "《魔物獵人：旅人》主角才70等也能S！主角重弩2階＋翠猿打光稜龍，沒抽彌多律也能玩 #CD喜德",
+      "title": "【魔物獵人：旅人】主角重弩徹底變天！SR翠猿竟然是核心？換控場型5步、四人配裝、隨從一次看懂 #CD喜德",
       "url": "https://www.youtube.com/watch?v=0UBAlMfi64I",
       "publisher": "CD喜德",
       "published_at": "2026-11-12T10:00:02+00:00",
@@ -413,6 +673,16 @@
       "publisher": "CD喜德",
       "published_at": "2026-11-12T08:23:55+00:00",
       "first_seen_at": "2026-11-12T10:09:40+00:00"
+    },
+    {
+      "id": "54d3c323f24470ba76683978",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《RO仙境傳說：世界之旅》這次傳奇盃更好玩了！？我再次轉回法德！德魯伊回歸實戰｜CD喜德直播 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=CH4O3hwR758",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-12T07:44:57+00:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
     },
     {
       "id": "4d9c2ff0d0a3b05ee970015d",

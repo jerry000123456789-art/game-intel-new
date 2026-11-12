@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T13:19:48+00:00",
+  "updated_at": "2026-11-12T16:08:28+00:00",
   "status": "ok",
   "errors": [],
   "fetched": 120,
@@ -344,7 +344,7 @@
       "title": "《Disney Sparklink Stars》正式推出！15 名原創角色集結，結合三消益智、舞台競演與角色養成 - SouNova 少女星",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAxQmJrYkhNREozeVJaR1FaZ2FCdVFSYkd2eFUtS0l4aVZOS1NBVENOX0FBYUhRZllVcXhuMlNsUHdFMm5CYzYzMlZ6UEVUbFBNTHRJeXowaUpVX2lsZGx6dmVrR00?oc=5",
       "publisher": "SouNova 少女星",
-      "published_at": "2026-11-04T06:00:00+00:00",
+      "published_at": "2026-11-04T08:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
@@ -1732,6 +1732,15 @@
       "publisher": "GNN 新聞網",
       "published_at": "2024-11-28T08:00:00+00:00",
       "first_seen_at": "2026-11-12T13:19:48+00:00"
+    },
+    {
+      "id": "74012c4a3a6d4efbed82",
+      "category": "新遊戲資訊",
+      "title": "《七龍珠》最新 MOBA 遊戲「DRAGON BALL PROJECT:Multi」即將開啟公測，台灣也可以測試 - 電腦王阿達",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ETGxPNUlYMlF0dFpZeWp1U1VWTFNrQ1FBWWJ4Ukc4bDFUODB1ODBRVnZsZjFUNGQ3dVhBWVdIOU1TcUw1TFlwZS1hV0pJcFkwWVE?oc=5",
+      "publisher": "電腦王阿達",
+      "published_at": "2024-08-09T07:00:00+00:00",
+      "first_seen_at": "2026-11-12T16:08:28+00:00"
     },
     {
       "id": "69a10df2e171822064ca",

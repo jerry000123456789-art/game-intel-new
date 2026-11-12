@@ -1,14 +1,54 @@
 {
-  "updated_at": "2026-11-12T13:19:50+00:00",
+  "updated_at": "2026-11-12T16:08:30+00:00",
   "status": "ok",
   "fetched": 105,
   "errors": [],
   "items": [
     {
+      "id": "4daa21ac016b8474d757bdfe",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《審判之眼》主演木村拓哉明起北流連唱兩天 超過 800 名歌迷熱情接機",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314960",
+      "publisher": "",
+      "published_at": "2026-11-12T23:58:36+08:00",
+      "first_seen_at": "2026-11-12T16:08:30+00:00"
+    },
+    {
+      "id": "6a1143fff2856616b032aa20",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《薩爾達傳說 時之笛》電玩瘋老實說影片出爐！28 年後再次感受任天堂的匠心",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314959",
+      "publisher": "",
+      "published_at": "2026-11-12T23:06:36+08:00",
+      "first_seen_at": "2026-11-12T16:08:30+00:00"
+    },
+    {
+      "id": "df4ffe4ba87f61b2f1609337",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "NVIDIA 宣布共同創辦人黃仁勳辭去總裁暨執行長職務　財務長柯蕾特·克雷斯出任臨時 CEO",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314958",
+      "publisher": "",
+      "published_at": "2026-11-12T22:48:14+08:00",
+      "first_seen_at": "2026-11-12T16:08:30+00:00"
+    },
+    {
+      "id": "32c3b9215266cb1ae484ad4c",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《俠盜獵車手 6》白色限量版 DualSense 控制器開箱 色彩會隨光線與角度產生變化！",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314957",
+      "publisher": "",
+      "published_at": "2026-11-12T22:00:01+08:00",
+      "first_seen_at": "2026-11-12T16:08:30+00:00"
+    },
+    {
       "id": "10f378a34cd777d678df292d",
       "category": "巴哈姆特情報",
       "origin": "巴哈姆特",
-      "title": "《暗喻幻想：ReFantazio》Switch 2 版今日發售 其他平台同步調降售價",
+      "title": "《暗喻幻想：ReFantazio》Switch 2 版今日發售 其他平台同步降價",
       "url": "https://gnn.gamer.com.tw/detail.php?sn=314956",
       "publisher": "",
       "published_at": "2026-11-12T21:11:45+08:00",
@@ -18,7 +58,7 @@
       "id": "5ebef12735c47bab4d612185",
       "category": "巴哈姆特情報",
       "origin": "巴哈姆特",
-      "title": "VTuber 星街彗星宣布亞巡「NEVER LANDING」與多人巡演「Metamorphose」2027 年登場",
+      "title": "VTuber 星街彗星宣布亞巡 2027 年舉行 粉絲見面會「星詠者睡衣派對」明年 3 月台北登場",
       "url": "https://gnn.gamer.com.tw/detail.php?sn=314955",
       "publisher": "",
       "published_at": "2026-11-12T21:05:57+08:00",
@@ -68,7 +108,7 @@
       "id": "f406ac14255352988f86ccb6",
       "category": "巴哈姆特情報",
       "origin": "巴哈姆特",
-      "title": "提前約二週上市！《復活邪神 3 錯綜宿命》發售日改為 2027 年 2 月 4 日",
+      "title": "提前約二週上市！《復活邪神 3 錯綜宿命》發售日變更為 2027 年 2 月 4 日",
       "url": "https://gnn.gamer.com.tw/detail.php?sn=314950",
       "publisher": "",
       "published_at": "2026-11-12T19:34:01+08:00",
@@ -425,6 +465,16 @@
       "first_seen_at": "2026-11-12T07:26:49+00:00"
     },
     {
+      "id": "7cd5da0f6aae1c8a3df714b4",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "【老實說】《薩爾達傳說 時之笛》重製版 7 個優缺點 有如教科書般的冒險體驗  Switch 2 性能完全解放！",
+      "url": "https://www.youtube.com/watch?v=gs605Twbrns",
+      "publisher": "巴哈姆特電玩瘋",
+      "published_at": "2026-11-12T14:56:30+00:00",
+      "first_seen_at": "2026-11-12T16:08:30+00:00"
+    },
+    {
       "id": "21c868a1eb56578e902a88e9",
       "category": "巴哈姆特情報",
       "origin": "巴哈姆特",
@@ -463,6 +513,16 @@
       "publisher": "",
       "published_at": "2026-11-12T14:02:32+08:00",
       "first_seen_at": "2026-11-12T07:26:49+00:00"
+    },
+    {
+      "id": "b9097d323f5c86a55e43d627",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "到貨開箱!《Grand Theft Auto VI》限量版DualSense無線控制器 #gta6",
+      "url": "https://www.youtube.com/shorts/JIql7Fy86RU",
+      "publisher": "巴哈姆特電玩瘋",
+      "published_at": "2026-11-12T14:00:13+00:00",
+      "first_seen_at": "2026-11-12T16:08:30+00:00"
     },
     {
       "id": "66d56d87b3f1f43966e8385f",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T16:28:49+00:00",
+  "updated_at": "2026-11-12T20:18:13+00:00",
   "items": [
     {
       "game": "明日方舟",
@@ -18,7 +18,7 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-12T16:28:49+00:00",
+      "updated_at": "2026-11-12T20:18:13+00:00",
       "id": "9b07b36727830ace61778bd1",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -40,7 +40,7 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-12T16:28:49+00:00",
+      "updated_at": "2026-11-12T20:18:13+00:00",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
     {
@@ -61,7 +61,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "中國站",
-      "updated_at": "2026-11-12T16:28:49+00:00",
+      "updated_at": "2026-11-12T20:18:13+00:00",
       "id": "c660d235dfa48b5b42b4eafe",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -83,7 +83,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "儲值／禮包時效",
       "market_label": "中國站",
-      "updated_at": "2026-11-12T16:28:49+00:00",
+      "updated_at": "2026-11-12T20:18:13+00:00",
       "id": "20a444facd968b6aa97c54a4",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -105,7 +105,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "儲值／禮包時效",
       "market_label": "中國站",
-      "updated_at": "2026-11-12T16:28:49+00:00",
+      "updated_at": "2026-11-12T20:18:13+00:00",
       "id": "e529d816792d9bc8c1f6c41c",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -127,7 +127,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "中國站",
-      "updated_at": "2026-11-12T16:28:49+00:00",
+      "updated_at": "2026-11-12T20:18:13+00:00",
       "id": "aed9e750f4b2af2a106919cb",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -149,7 +149,7 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-12T16:28:49+00:00",
+      "updated_at": "2026-11-12T20:18:13+00:00",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     }
   ],
@@ -315,6 +315,17 @@
       "google_search_url": "https://www.google.com/search?q=%22%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%22+%22%E3%80%90%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94%E3%80%912026.61+%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E6%87%B6%E4%BA%BA%E5%8C%85%EF%BC%81%E4%B8%89%E5%A4%A7%E9%87%8D%E9%BB%9E%E6%B4%BB%E5%8B%95%E7%8E%A9%E6%B3%95%E5%85%A8%E8%A7%A3%E6%9E%90%EF%BC%81+-+YouTube%22",
       "published_at": "2026-11-09T08:30:27+00:00",
       "publisher": "YouTube",
+      "source_type": "Google 新聞搜尋",
+      "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
+      "status": "source_lead_only"
+    },
+    {
+      "game": "傳說對決",
+      "title": "星展傳說對決聯名卡｜遊戲/外送/追劇/網購10%回饋省錢攻略 ! - 卡優新聞網",
+      "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHRjU0ZTE2NktKSkkzajhXZm1BeTFiQXc1emNxLUxsN2FxTW1Ca0w3U0hlX2M4YkthcEh3NDF4SlZUdmQ4aG1uaUc5ZTdUN3BEMVdPZkRCTXliZmU3WWc?oc=5",
+      "google_search_url": "https://www.google.com/search?q=%22%E5%82%B3%E8%AA%AA%E5%B0%8D%E6%B1%BA%22+%22%E6%98%9F%E5%B1%95%E5%82%B3%E8%AA%AA%E5%B0%8D%E6%B1%BA%E8%81%AF%E5%90%8D%E5%8D%A1%EF%BD%9C%E9%81%8A%E6%88%B2%2F%E5%A4%96%E9%80%81%2F%E8%BF%BD%E5%8A%87%2F%E7%B6%B2%E8%B3%BC10%25%E5%9B%9E%E9%A5%8B%E7%9C%81%E9%8C%A2%E6%94%BB%E7%95%A5+%21+-+%E5%8D%A1%E5%84%AA%E6%96%B0%E8%81%9E%E7%B6%B2%22",
+      "published_at": "2026-11-09T08:00:00+00:00",
+      "publisher": "卡優新聞網",
       "source_type": "Google 新聞搜尋",
       "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
       "status": "source_lead_only"
@@ -508,11 +519,11 @@
     },
     {
       "game": "勝利女神：妮姬",
-      "title": "《勝利女神：妮姬》× GiGO 舉辦聯名活動「White Autumn」 推出一系列全新繪製插畫限定景品- 遊戲新聞 - PChome Online 新聞",
+      "title": "《勝利女神：妮姬》× GiGO 舉辦聯名活動「White Autumn」 推出一系列全新繪製插畫限定景品- 遊戲新聞 - PChome Online新聞",
       "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNHVJNDY1R01zN0pmeGJhYjNIYVZweUk0a3c2ZHYxalg5ZXpJbzVqUVdscTRYM2lER002MWM5ZjlGRGt1WUlLYU82X1NMWnlfQmRXNy1Pa2xBMDRKb0tGdGt1SjdkSUJlSVVfaDhyN1M4S2dIZm51YlpqYUNzUGEyaEhJMXo?oc=5",
-      "google_search_url": "https://www.google.com/search?q=%22%E5%8B%9D%E5%88%A9%E5%A5%B3%E7%A5%9E%EF%BC%9A%E5%A6%AE%E5%A7%AC%22+%22%E3%80%8A%E5%8B%9D%E5%88%A9%E5%A5%B3%E7%A5%9E%EF%BC%9A%E5%A6%AE%E5%A7%AC%E3%80%8B%C3%97+GiGO+%E8%88%89%E8%BE%A6%E8%81%AF%E5%90%8D%E6%B4%BB%E5%8B%95%E3%80%8CWhite+Autumn%E3%80%8D+%E6%8E%A8%E5%87%BA%E4%B8%80%E7%B3%BB%E5%88%97%E5%85%A8%E6%96%B0%E7%B9%AA%E8%A3%BD%E6%8F%92%E7%95%AB%E9%99%90%E5%AE%9A%E6%99%AF%E5%93%81-+%E9%81%8A%E6%88%B2%E6%96%B0%E8%81%9E+-+PChome+Online+%E6%96%B0%E8%81%9E%22",
+      "google_search_url": "https://www.google.com/search?q=%22%E5%8B%9D%E5%88%A9%E5%A5%B3%E7%A5%9E%EF%BC%9A%E5%A6%AE%E5%A7%AC%22+%22%E3%80%8A%E5%8B%9D%E5%88%A9%E5%A5%B3%E7%A5%9E%EF%BC%9A%E5%A6%AE%E5%A7%AC%E3%80%8B%C3%97+GiGO+%E8%88%89%E8%BE%A6%E8%81%AF%E5%90%8D%E6%B4%BB%E5%8B%95%E3%80%8CWhite+Autumn%E3%80%8D+%E6%8E%A8%E5%87%BA%E4%B8%80%E7%B3%BB%E5%88%97%E5%85%A8%E6%96%B0%E7%B9%AA%E8%A3%BD%E6%8F%92%E7%95%AB%E9%99%90%E5%AE%9A%E6%99%AF%E5%93%81-+%E9%81%8A%E6%88%B2%E6%96%B0%E8%81%9E+-+PChome+Online%E6%96%B0%E8%81%9E%22",
       "published_at": "2026-11-02T06:11:04+00:00",
-      "publisher": "PChome Online 新聞",
+      "publisher": "PChome Online新聞",
       "source_type": "Google 新聞搜尋",
       "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
       "status": "source_lead_only"

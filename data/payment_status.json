@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-12T16:11:33+00:00",
+  "updated_at": "2026-11-12T19:01:44+00:00",
   "games_this_run": 8,
-  "searches_succeeded": 51,
-  "searches_failed": 2,
+  "searches_succeeded": 52,
+  "searches_failed": 1,
   "new_evidence": 0,
   "total_evidence": 17,
   "directories_succeeded": 4,
@@ -559,18 +559,21 @@
     "totalbattlewarstrategy": "2026-11-12T16:11:33+00:00",
     "烹飪日記餐廳遊戲": "2026-11-12T16:11:33+00:00",
     "燕雲十六聲": "2026-11-12T16:11:33+00:00",
-    "靠裝勇者背包合成rpg": "2026-11-12T16:11:33+00:00"
+    "靠裝勇者背包合成rpg": "2026-11-12T16:11:33+00:00",
+    "dungeonslasher像素動作rpg": "2026-11-12T19:01:44+00:00",
+    "修真江湖2可以玩的修仙小說": "2026-11-12T19:01:44+00:00",
+    "升起保護氣球": "2026-11-12T19:01:44+00:00",
+    "西部世界牛仔遊戲": "2026-11-12T19:01:44+00:00",
+    "點點大作戰": "2026-11-12T19:01:44+00:00",
+    "loopsort": "2026-11-12T19:01:44+00:00",
+    "mobilelegendsbangbang": "2026-11-12T19:01:44+00:00",
+    "numbermatch數字益智遊戲": "2026-11-12T19:01:44+00:00"
   },
   "errors": [
     {
       "provider": "GASH",
       "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)>",
       "url": "https://tw.gashpoint.com/games/list/game"
-    },
-    {
-      "game": "蔚藍檔案",
-      "provider": "Razer Gold",
-      "error": "<urlopen error _ssl.c:994: The handshake operation timed out>"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T16:08:28+00:00",
+  "updated_at": "2026-11-12T19:00:27+00:00",
   "status": "ok",
   "errors": [],
   "fetched": 120,
@@ -321,15 +321,6 @@
       "first_seen_at": "2026-11-07T18:50:37+00:00"
     },
     {
-      "id": "26d26ccb2f77d2ca0dd2",
-      "category": "兌換碼",
-      "title": "【卡厄思夢境】兌換碼與禮包碼序號・11月4日更新 - Ludens Media",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1xWklNZWdYclQ3aF9XVzFYZVBqQk94dU5yT1lyRDJIbDc0MUNqS3k1cllaS3hkZHFpaXB5TFdlMkJpNVFBRVB2a0w1V1AzM296d3ZzZ0VseWdhcHZ0eG5YTERR?oc=5",
-      "publisher": "Ludens Media",
-      "published_at": "2026-11-04T10:30:52+00:00",
-      "first_seen_at": "2026-11-09T01:14:03+00:00"
-    },
-    {
       "id": "99da03a821252440b871",
       "category": "活動行事曆",
       "title": "《亡途轉生》與動畫《迷宮飯》首次聯動合作開啟 萊歐斯、瑪露希爾、法琳、米斯倫以點陣動畫在遊戲中登場 - GNN 新聞網",
@@ -337,6 +328,15 @@
       "publisher": "GNN 新聞網",
       "published_at": "2026-11-04T09:13:44+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "26d26ccb2f77d2ca0dd2",
+      "category": "兌換碼",
+      "title": "【卡厄思夢境】兌換碼與禮包碼序號・11月4日更新 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1xWklNZWdYclQ3aF9XVzFYZVBqQk94dU5yT1lyRDJIbDc0MUNqS3k1cllaS3hkZHFpaXB5TFdlMkJpNVFBRVB2a0w1V1AzM296d3ZzZ0VseWdhcHZ0eG5YTERR?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-11-04T08:00:00+00:00",
+      "first_seen_at": "2026-11-09T01:14:03+00:00"
     },
     {
       "id": "d4cf9a2d0cf30c40c61a",
@@ -933,6 +933,15 @@
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
+      "id": "8e7fb36c9a88e31f2041",
+      "category": "兌換碼",
+      "title": "【猛鬼三國】兌換碼與禮包碼序號・11月9日更新 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB4R09mUC1CRy1TSnRLZEFqa3k0N3oxdkZ2RUZwOWFMZ2lJU0FZYW13eFdHOS1hOUNsRDFyWTJnVlM2eERmMy1yOFhCbUJUVUU4b1NDMTNB?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-08-11T07:00:00+00:00",
+      "first_seen_at": "2026-11-12T19:00:27+00:00"
+    },
+    {
       "id": "f088d42966ded279e1aa",
       "category": "官方遊戲公告",
       "title": "7.0版本活動祈願公告第一期 - Genshin Impact",
@@ -1320,6 +1329,15 @@
       "first_seen_at": "2026-11-07T13:34:22+00:00"
     },
     {
+      "id": "b2558146dd42c3382ce4",
+      "category": "兌換碼",
+      "title": "【新熱血江湖：世界】兌換碼與禮包碼序號・11月9日更新 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPemlVUG5QLWZCYmtERmNEWEdQUXN3THJzYW9EN1lrU0JpSDZiM25BXzJWS3IxSkFINHE3TGdxZ2doSHplNHdBLWFJMUxDTXhISGlhUjNvWmFNTEhsNGZhZTN2cTFjQlM3YnYtVnR0Qk1TeHpaR2xyWHh2dDNuYjVrVUlVbGJ1QU04cWR3MG9RTUFXbFVseGFmZjBSdDY5NkpaeUpPRklCdXFja3V3UEdTdEdsSHY1V2VNdlF2VllTVFdfX3dxN21qcDlCemIwUzQ2WE5oT0RLSmJHUHE3WGEyS0MwYzVndk1GYmJUdWFvaUNrMU5PUWdMeWczVE5WallPZ2pjUXZfMVF6Tmpzc0VaN1Q5Y2VUNWRxY204NFNRS2J5X1FQRy0zUk5XczAzclhFSTdPMmFCemEtQU5lQkNzQg?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-04-17T07:00:00+00:00",
+      "first_seen_at": "2026-11-12T19:00:27+00:00"
+    },
+    {
       "id": "ff4dc9aebbdbef72e36b",
       "category": "活動行事曆",
       "title": "《明日方舟：終末地》×「吉豚屋」聯動開跑期間限定套餐與主題活動即日登場《Arknights: Endfield》 - GNN 新聞網",
@@ -1408,6 +1426,15 @@
       "publisher": "GNN 新聞網",
       "published_at": "2026-04-01T07:00:00+00:00",
       "first_seen_at": "2026-11-12T13:19:48+00:00"
+    },
+    {
+      "id": "f05fc6797cf3241ee381",
+      "category": "兌換碼",
+      "title": "【百鬼異聞錄】兌換碼與禮包碼序號・3月31日更新 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxObmI1XzJrWWdlTmNwYkdNU1dJQ3I4QUl6aDBxVnNZN2JPS1BEZjB0Q0xJb0IxRFNSYjc2VnhXSVJiT3BEWFo5Q0lKMXlaZURRSzRZdEZ3RmJTX2cxRlE4aU10MXlHZEFkM2E1RzYweVBMb3NNTzFuSVEwandsVndqQ2c2S01NcjBZa3pqMUV3X3ZUTFlwNlp3NGRpZ1NIVld1VHpfUHJ2RERVbnhHV0dLZ0Jhd203RER3QVdBM2t2YW9PemJDVGxLaFp3VHpoX1hSMTNlSUc2N0ZrUVEyVTZYWVpzRFJ2VjhCNlVZa0M3S181ZEtQUDItUERiWnNYd3RBSUZZOFFxa0FhVXRFa0s4Wl9Vc2R2Z2F1cHNzZGc0RDJDMlhLcWxwclhyRmY4UEttaHFoeld5Y1NhR0xSOUxQeg?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-03-31T07:00:00+00:00",
+      "first_seen_at": "2026-11-12T19:00:27+00:00"
     },
     {
       "id": "d29440db1ae4ba7041ef",

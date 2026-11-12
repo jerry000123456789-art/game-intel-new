@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-12T16:11:20+00:00",
+  "checked_at": "2026-11-12T19:01:28+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
@@ -9,82 +9,82 @@
     "events": 0
   },
   "total_leads": {
-    "codes": 61,
+    "codes": 64,
     "guides": 64,
     "events": 118
   },
   "per_game": {
-    "Monster Hunter Puzzles Furever": {
+    "Dungeon Slasher：像素動作RPG": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Tacticool: 射擊遊戲 5v5 線上多人連線對戰": {
+    "修真江湖2 - 可以玩的修仙小說！": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "The Bazaar": {
+    "升起！保護氣球": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "6·25 한국전쟁": {
+    "西部世界：牛仔遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "and Roger": {
+    "點點大作戰": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Art of Fauna: Cozy Puzzles+": {
+    "Clash of Clans": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "A Slight Chance of Sawblades+": {
+    "Color Puzzle Jam - Bus Fever": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "A Space for the Unbound": {
+    "Cutie Sort - かわいい色分けゲーム": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Beholder": {
+    "Block Puzzle - 益智遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Beholder: Conductor": {
+    "Evoland 2": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Block Out! - Color Sort Puzzle": {
+    "Jewel Loop - Coloring Sort": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Bloomtown: A Different Story": {
+    "Jolly Days：時間管理農場模擬遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Bloons TD 6": {
+    "Mafioso: Mafia PvP online": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Bus Fever Party: バスゲーム渋滞脱出パズル": {
+    "Mushroom Wars 2: 多人游戏 战略 & 塔防": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Chess.com - Play and Learn": {
+    "Nonogram.com - 邏輯數字遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -328,15 +328,15 @@
     "bloonstd6": "2026-11-12T16:11:20+00:00",
     "busfeverpartyバスゲーム渋滞脱出パズル": "2026-11-12T16:11:20+00:00",
     "chesscomplayandlearn": "2026-11-12T16:11:20+00:00",
-    "clashofclans": "2026-11-08T10:26:36+00:00",
-    "colorpuzzlejambusfever": "2026-11-08T10:26:36+00:00",
-    "cutiesortかわいい色分けゲーム": "2026-11-08T10:26:36+00:00",
-    "blockpuzzle益智遊戲": "2026-11-08T10:37:51+00:00",
-    "jewelloopcoloringsort": "2026-11-08T10:37:51+00:00",
-    "jollydays時間管理農場模擬遊戲": "2026-11-08T10:37:51+00:00",
-    "mafiosomafiapvponline": "2026-11-08T10:37:51+00:00",
-    "mushroomwars2多人游戏战略塔防": "2026-11-08T10:37:51+00:00",
-    "nonogramcom邏輯數字遊戲": "2026-11-08T10:37:51+00:00",
+    "clashofclans": "2026-11-12T19:01:28+00:00",
+    "colorpuzzlejambusfever": "2026-11-12T19:01:28+00:00",
+    "cutiesortかわいい色分けゲーム": "2026-11-12T19:01:28+00:00",
+    "blockpuzzle益智遊戲": "2026-11-12T19:01:28+00:00",
+    "jewelloopcoloringsort": "2026-11-12T19:01:28+00:00",
+    "jollydays時間管理農場模擬遊戲": "2026-11-12T19:01:28+00:00",
+    "mafiosomafiapvponline": "2026-11-12T19:01:28+00:00",
+    "mushroomwars2多人游戏战略塔防": "2026-11-12T19:01:28+00:00",
+    "nonogramcom邏輯數字遊戲": "2026-11-12T19:01:28+00:00",
     "offlinegamesnowifigames": "2026-11-08T10:37:51+00:00",
     "seventeen配配樂": "2026-11-08T10:37:51+00:00",
     "stuntcarextreme": "2026-11-08T10:37:51+00:00",
@@ -345,7 +345,7 @@
     "漫遊小鎮合併故事": "2026-11-08T10:37:51+00:00",
     "火辣餐廳合併烹飪": "2026-11-08T10:37:51+00:00",
     "策略單機塔防遊戲": "2026-11-08T10:37:51+00:00",
-    "evoland2": "2026-11-08T10:37:51+00:00",
+    "evoland2": "2026-11-12T19:01:28+00:00",
     "bleachmirrorshigh아이콘이미지": "2026-11-08T12:29:46+00:00",
     "boomcrush3d대포슈팅게임아이콘이미지": "2026-11-08T12:29:46+00:00",
     "pokémonchampions아이콘이미지": "2026-11-08T12:29:46+00:00",
@@ -891,7 +891,12 @@
     "獵手大逃殺刺激pvp戰鬥": "2026-11-12T13:22:41+00:00",
     "monsterhunterpuzzlesfurever": "2026-11-12T16:11:20+00:00",
     "tacticool射擊遊戲5v5線上多人連線對戰": "2026-11-12T16:11:20+00:00",
-    "thebazaar": "2026-11-12T16:11:20+00:00"
+    "thebazaar": "2026-11-12T16:11:20+00:00",
+    "dungeonslasher像素動作rpg": "2026-11-12T19:01:28+00:00",
+    "修真江湖2可以玩的修仙小說": "2026-11-12T19:01:28+00:00",
+    "升起保護氣球": "2026-11-12T19:01:28+00:00",
+    "西部世界牛仔遊戲": "2026-11-12T19:01:28+00:00",
+    "點點大作戰": "2026-11-12T19:01:28+00:00"
   },
   "errors": []
 }

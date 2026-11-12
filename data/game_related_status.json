@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-12T19:01:28+00:00",
+  "checked_at": "2026-11-12T21:53:54+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
-    "guides": 0,
-    "events": 0
+    "guides": 1,
+    "events": 6
   },
   "total_leads": {
     "codes": 64,
-    "guides": 64,
-    "events": 118
+    "guides": 65,
+    "events": 122
   },
   "per_game": {
-    "Dungeon Slasher：像素動作RPG": {
+    "brown (game)": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "修真江湖2 - 可以玩的修仙小說！": {
+    "Cottage Haven: Merge & Restore": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "升起！保護氣球": {
+    "Cursed Game Dev Simulator": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "西部世界：牛仔遊戲": {
+    "Hill Climb Racing 2 - 登山賽車2": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "點點大作戰": {
+    "King of Thieves": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Clash of Clans": {
+    "Rocket Rally - Pocket Racing": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Color Puzzle Jam - Bus Fever": {
+    "Silver Palace": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Cutie Sort - かわいい色分けゲーム": {
+    "西洋棋 - 離線棋盤遊戲": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Block Puzzle - 益智遊戲": {
+    "다락: 수상한 중고 복원": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Evoland 2": {
+    "Offline Games - No Wifi Games": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Jewel Loop - Coloring Sort": {
+    "SEVENTEEN配配樂": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Jolly Days：時間管理農場模擬遊戲": {
+    "Stunt Car Extreme": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Mafioso: Mafia PvP online": {
+    "View": {
+      "codes": 0,
+      "guides": 1,
+      "events": 6
+    },
+    "彈射器任務": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Mushroom Wars 2: 多人游戏 战略 & 塔防": {
-      "codes": 0,
-      "guides": 0,
-      "events": 0
-    },
-    "Nonogram.com - 邏輯數字遊戲": {
+    "漫遊小鎮®：合併&故事": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -337,12 +337,12 @@
     "mafiosomafiapvponline": "2026-11-12T19:01:28+00:00",
     "mushroomwars2多人游戏战略塔防": "2026-11-12T19:01:28+00:00",
     "nonogramcom邏輯數字遊戲": "2026-11-12T19:01:28+00:00",
-    "offlinegamesnowifigames": "2026-11-08T10:37:51+00:00",
-    "seventeen配配樂": "2026-11-08T10:37:51+00:00",
-    "stuntcarextreme": "2026-11-08T10:37:51+00:00",
-    "view": "2026-11-08T10:37:51+00:00",
-    "彈射器任務": "2026-11-08T10:37:51+00:00",
-    "漫遊小鎮合併故事": "2026-11-08T10:37:51+00:00",
+    "offlinegamesnowifigames": "2026-11-12T21:53:54+00:00",
+    "seventeen配配樂": "2026-11-12T21:53:54+00:00",
+    "stuntcarextreme": "2026-11-12T21:53:54+00:00",
+    "view": "2026-11-12T21:53:54+00:00",
+    "彈射器任務": "2026-11-12T21:53:54+00:00",
+    "漫遊小鎮合併故事": "2026-11-12T21:53:54+00:00",
     "火辣餐廳合併烹飪": "2026-11-08T10:37:51+00:00",
     "策略單機塔防遊戲": "2026-11-08T10:37:51+00:00",
     "evoland2": "2026-11-12T19:01:28+00:00",
@@ -896,7 +896,16 @@
     "修真江湖2可以玩的修仙小說": "2026-11-12T19:01:28+00:00",
     "升起保護氣球": "2026-11-12T19:01:28+00:00",
     "西部世界牛仔遊戲": "2026-11-12T19:01:28+00:00",
-    "點點大作戰": "2026-11-12T19:01:28+00:00"
+    "點點大作戰": "2026-11-12T19:01:28+00:00",
+    "browngame": "2026-11-12T21:53:54+00:00",
+    "cottagehavenmergerestore": "2026-11-12T21:53:54+00:00",
+    "cursedgamedevsimulator": "2026-11-12T21:53:54+00:00",
+    "hillclimbracing2登山賽車2": "2026-11-12T21:53:54+00:00",
+    "kingofthieves": "2026-11-12T21:53:54+00:00",
+    "rocketrallypocketracing": "2026-11-12T21:53:54+00:00",
+    "silverpalace": "2026-11-12T21:53:54+00:00",
+    "西洋棋離線棋盤遊戲": "2026-11-12T21:53:54+00:00",
+    "다락수상한중고복원": "2026-11-12T21:53:54+00:00"
   },
   "errors": []
 }

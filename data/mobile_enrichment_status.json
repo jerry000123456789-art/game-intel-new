@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-12T19:01:27+00:00",
-  "android_checked": 16,
-  "android_success": 16,
+  "updated_at": "2026-11-12T21:53:53+00:00",
+  "android_checked": 6,
+  "android_success": 6,
   "android_failures": 0,
-  "images": 1560,
-  "items": 1560,
+  "images": 1563,
+  "items": 1563,
   "status_counts": {
-    "已上市": 1415,
+    "已上市": 1413,
     "商店收錄": 3,
-    "預先註冊": 32,
-    "新上市": 79,
-    "即將上市": 31
+    "新上市": 80,
+    "即將上市": 35,
+    "預先註冊": 32
   },
   "errors": [],
   "note": "首發日期僅使用來源明確欄位，不把版本更新及本站收錄日當作上架日。"

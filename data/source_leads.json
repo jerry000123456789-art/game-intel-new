@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-12T19:01:28.483237+00:00",
-  "note": "Historical source leads retained; not validated codes, full guides, or confirmed event dates.",
+  "updated_at": "2026-11-12T21:53:54+00:00",
+  "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
       {
@@ -1061,6 +1061,14 @@
         "status": "source_lead_only"
       },
       {
+        "title": "《崩壞：星穹鐵道》毀滅物理「白厄」養成攻略，光錐、遺器、組隊應用推薦 - 4Gamers",
+        "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMVFrNU03YWpOVk9VQjAycDM3YWlXNl9PcDFWYmNxdmpFczIwcWt5LTdSNXFSX2VxTXhvMkhQb3VLb090LVNIRUlJY1FkLTZwRTFBeDd4UHNTSWpJUWJucTVRc1J2ZTBfeXVSTmhhLWpLV0wzVTQ4ek9QcjdWNk56Tg?oc=5",
+        "publisher": "4Gamers",
+        "published_at": "2025-07-02T07:00:00+00:00",
+        "first_seen_at": "2026-11-12T21:53:21+00:00",
+        "status": "source_lead_only"
+      },
+      {
         "title": "【鳴潮】維里奈🌼角色培養全攻略▸開服必練『威力奶』！主流隊伍實戰手法拆解！聲骸搭配、隊友選擇、武器推薦、共鳴鏈效果▹璐洛洛 - 電腦王阿達",
         "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5rdmd1c3ktMFdSaUhDUGpucE5veUItZi1kM1lOZGZGTnNCN2lBYVh2akc3UWdHOHdrakluaVJkZDlkMGJlbVRsemJiTVVNanc1VkE?oc=5",
         "publisher": "電腦王阿達",
@@ -1086,6 +1094,15 @@
       }
     ],
     "events": [
+      {
+        "game": "View",
+        "kind": "events",
+        "title": "Nebius第三季度資本開支達73億美元 經營活動現金淨流出2.73億美元 - TradingView",
+        "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBTMDNvUXl1WUd3SmlVOGZTS05YdG43aFd2Z0RYcGFEbTYtcDlxaGp2Z1ozbVBJZFhtOG9zbE9EaTdnc2dCeGpCeGJ5d2MxVzlpLVVlYXdBVjlWbGQ4SnZxZjBHcEdINW1jS2c?oc=5",
+        "published_at": "2026-11-12T12:17:48+00:00",
+        "publisher": "TradingView",
+        "status": "source_lead_only"
+      },
       {
         "game": "七騎士 Re:BIRTH",
         "kind": "events",
@@ -1194,6 +1211,15 @@
         "status": "source_lead_only"
       },
       {
+        "game": "View",
+        "kind": "events",
+        "title": "北陸藥業(300016.SZ)：研發活動不屬於《科技倫理審查辦法（試行）》強制審查範圍 - TradingView",
+        "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ld195aXVwbWp3Y29PSVc3Y25qU0lULTRtR2xuVzV3R2swLVdMZnZwbUtZNTdadVZFSDRsN0FfbXB5VTJNYkF4bERZVjBCc3I0blZYaXA3Vl90blZFb0d5YmhGeUROV21OOFE?oc=5",
+        "published_at": "2026-11-10T06:33:00+00:00",
+        "publisher": "TradingView",
+        "status": "source_lead_only"
+      },
+      {
         "game": "天堂M",
         "kind": "events",
         "title": "《天堂M》開服壅塞、玩家無法登入遊戲橘子：虛寶補償| 科技 - 三立新聞網SETN.com",
@@ -1209,6 +1235,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5aVmNpMmNscXozOWJmR3NvNVpQZTFsOWRjMjRVVlpyaVdaa2FKSlUxTGE2TUo2RHNoaWZOVWI4WTFGd0I1YS15VFpXX2FUVndxX2NXaFRuMWU2cEFPM3BEd04yQ3A?oc=5",
         "published_at": "2026-11-09T17:13:13+00:00",
         "publisher": "LINE TODAY",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "View",
+        "kind": "events",
+        "title": "大東方(600327.SH)：目前生產經營活動正常，市場環境、行業政策沒有發生重大調整 - TradingView",
+        "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jS25QU2ZoWFc4TGpkRzlSR05hZDNnMFpVVGlPa2pLdjlqNkdDX2w1TlowNE5QdEd0QU5uV001d1dLLWFOUDFfVXU2R1dhOWY3TV9vVDNmcE40S1V3MXY0ZlE5dnRYYmU1VGc?oc=5",
+        "published_at": "2026-11-09T09:48:02+00:00",
+        "publisher": "TradingView",
         "status": "source_lead_only"
       },
       {
@@ -1361,6 +1396,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbTc4UUpfaEZpTDNXX2piNGEyLVY2VkxtVE42VUVCZUlsS2d5SWxhaldxNGZhb3p4cUVlMF9iWXN2U0pFS1RpZ1RPU2VLWG1ndWQ2R044cUltbUpWZnFFekthV09rWVpXWm9lRXpPX1Q1MF90MUIyQnJsRV9WTWM3SQ?oc=5",
         "published_at": "2026-11-05T11:51:00+00:00",
         "publisher": "QooApp",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "View",
+        "kind": "events",
+        "title": "華陽國際(002949.SZ)：目前生產經營活動正常，基本面未發生重大變化 - TradingView",
+        "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9tZEo0clVRSDhoMWhxaGpreXlVTmdCVkhnY3VSbXZXYW9lUE40eEkwdzZpMDZCSUlZSGhzRHlCaXJ5NHRFaEw5aG10VXBremdNZXNPWElqM1FHUE9ydDN4SXRTREVuOWVBMUE?oc=5",
+        "published_at": "2026-11-05T10:07:08+00:00",
+        "publisher": "TradingView",
         "status": "source_lead_only"
       },
       {

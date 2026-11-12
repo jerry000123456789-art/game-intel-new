@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T19:00:27+00:00",
+  "updated_at": "2026-11-12T21:53:21+00:00",
   "status": "ok",
   "errors": [],
   "fetched": 120,
@@ -1750,6 +1750,15 @@
       "publisher": "4Gamers",
       "published_at": "2025-07-03T07:00:00+00:00",
       "first_seen_at": "2026-11-07T13:34:22+00:00"
+    },
+    {
+      "id": "1b5fdb1967a11c9abd82",
+      "category": "遊戲攻略",
+      "title": "《崩壞：星穹鐵道》毀滅物理「白厄」養成攻略，光錐、遺器、組隊應用推薦 - 4Gamers",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMVFrNU03YWpOVk9VQjAycDM3YWlXNl9PcDFWYmNxdmpFczIwcWt5LTdSNXFSX2VxTXhvMkhQb3VLb090LVNIRUlJY1FkLTZwRTFBeDd4UHNTSWpJUWJucTVRc1J2ZTBfeXVSTmhhLWpLV0wzVTQ4ek9QcjdWNk56Tg?oc=5",
+      "publisher": "4Gamers",
+      "published_at": "2025-07-02T07:00:00+00:00",
+      "first_seen_at": "2026-11-12T21:53:21+00:00"
     },
     {
       "id": "fb09cf59e2413579af0d",

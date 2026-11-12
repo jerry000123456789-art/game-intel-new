@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-12T04:02:39.274812+00:00",
-  "note": "Historical source leads retained; not validated codes, full guides, or confirmed event dates.",
+  "updated_at": "2026-11-12T07:27:21+00:00",
+  "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
       {
@@ -321,6 +321,14 @@
         "status": "source_lead_only"
       },
       {
+        "title": "【幻想三國：武姬集結】兌換碼與禮包碼序號・10月2日更新 - Ludens Media",
+        "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1iWjI4TzNIRmEwTGVjLTJNWXpOcGp5U2otUDJPR1pqTlZaR0paRjZyTUd6eTFLMEM5WXRNRkRvaUg4d05xdUgyczd6ckFMRFJUZm1wZlpB?oc=5",
+        "publisher": "Ludens Media",
+        "published_at": "2026-10-02T07:00:00+00:00",
+        "first_seen_at": "2026-11-12T07:26:47+00:00",
+        "status": "source_lead_only"
+      },
+      {
         "title": "【嘎嘎特攻】兌換碼與禮包碼序號・10月26日更新 - Ludens Media",
         "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11MXdya1gzZzl4SkdNUkxmWllGN01raDdoZ2FmT1ZDWjRhQ1BhTkFDZGRZTUNjNFhlWm9xLUpteE9PSnJ3ZGkzSkRYRzhkOWJwNTFjR0FB?oc=5",
         "publisher": "Ludens Media",
@@ -334,6 +342,14 @@
         "publisher": "Ludens Media",
         "published_at": "2026-09-26T07:00:00+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "title": "【亡靈別太狂：部落大作戰】兌換碼與禮包碼序號・10月10日更新 - Ludens Media",
+        "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBWU2hOa3dweTZlYjFGMzBNckVqZHA0SVNQejREbFQ1YWl5SlpOMEd0S1I0WktiUEZWRl96Q0hIdGtjbElsbjhpc2NFaGFjMTBSYmhB?oc=5",
+        "publisher": "Ludens Media",
+        "published_at": "2026-09-26T07:00:00+00:00",
+        "first_seen_at": "2026-11-12T07:26:47+00:00",
         "status": "source_lead_only"
       },
       {
@@ -1073,6 +1089,15 @@
         "status": "source_lead_only"
       },
       {
+        "game": "SD鋼彈 G世代 永恆",
+        "kind": "events",
+        "title": "特企／《SD鋼彈G世代永恆》登頂送3000鑽　EIGHT聯動同步登場 - NOWnews今日新聞",
+        "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFA1djdUdXBYNjEwYzNUdzJqTmdwTkNXZ0x6aHRKZDF1dlhOSFhyMC16elo1cGtwRWtINWZZNTJ0TWx3TDBlRkxsdE5ucEzSAVJBVV95cUxPNVN4bmhPYkpUVk1FZnVOY3h3YnFsaWt3V2p1c3IzQUFrWndTTXpyUEFwZXpDcEFVSEpOOWMzc3dscGRwc0NscXFqRlgyRlBHeEFR?oc=5",
+        "published_at": "2026-11-09T02:58:02+00:00",
+        "publisher": "NOWnews今日新聞",
+        "status": "source_lead_only"
+      },
+      {
         "game": "Pokémon GO",
         "kind": "events",
         "title": "Pokémon GO 2026本週活動整理（11/9～11/15）：GO 曠野地帶、極巨帝牙盧卡、帕路奇亞 - Pokemon Hubs",
@@ -1530,19 +1555,19 @@
       {
         "game": "SD鋼彈 G世代 永恆",
         "kind": "events",
-        "title": "《SD 鋼彈G 世代永恆》舉辦「機動戰士鋼彈EIGHT」聯動活動強敵來襲同步登場- 股市爆料同學會 - CMoney",
-        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5IckRGck5aVWlVN1BOanN4N0tvOUdieWlGa1RiVFZ0ZDdoZ2ZTQ2JHVjZhckNxRk1ETHdxWVBSRURhazZmaFhjWGFXUDdXZ09zM3U4V0w3WlE?oc=5",
-        "published_at": "2026-11-02T07:07:37+00:00",
-        "publisher": "CMoney",
+        "title": "《SD 鋼彈G 世代永恆》舉辦「機動戰士鋼彈EIGHT」聯動活動強敵來襲同步登場《SDガンダムジージェネレーションエターナル》 - GNN 新聞網",
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA5eVh6aXZkS0tPWXdTMU5MRTg5V0JCOTlZU1lUWWdhYjdaOEdhTnQ2cW0zdzduYXl1Z0NEYkFlWnN2c0VRSkhucnE5TUJDWmMwWWMwTXN3cVk?oc=5",
+        "published_at": "2026-11-02T08:00:00+00:00",
+        "publisher": "GNN 新聞網",
         "status": "source_lead_only"
       },
       {
         "game": "SD鋼彈 G世代 永恆",
         "kind": "events",
-        "title": "《SD 鋼彈G 世代永恆》舉辦「機動戰士鋼彈EIGHT」聯動活動強敵來襲同步登場《SDガンダムジージェネレーションエターナル》 - GNN 新聞網",
-        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA5eVh6aXZkS0tPWXdTMU5MRTg5V0JCOTlZU1lUWWdhYjdaOEdhTnQ2cW0zdzduYXl1Z0NEYkFlWnN2c0VRSkhucnE5TUJDWmMwWWMwTXN3cVk?oc=5",
-        "published_at": "2026-11-02T06:39:34+00:00",
-        "publisher": "GNN 新聞網",
+        "title": "《SD 鋼彈G 世代永恆》舉辦「機動戰士鋼彈EIGHT」聯動活動強敵來襲同步登場- 股市爆料同學會 - CMoney",
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5IckRGck5aVWlVN1BOanN4N0tvOUdieWlGa1RiVFZ0ZDdoZ2ZTQ2JHVjZhckNxRk1ETHdxWVBSRURhazZmaFhjWGFXUDdXZ09zM3U4V0w3WlE?oc=5",
+        "published_at": "2026-11-02T07:07:37+00:00",
+        "publisher": "CMoney",
         "status": "source_lead_only"
       },
       {
@@ -1741,6 +1766,14 @@
         "status": "source_lead_only"
       },
       {
+        "title": "《碧藍航線》七週年攜手燒肉 Smile、萌番 More Fun 推出主題餐點 台北地下街玩家見面會同步登場 - GNN 新聞網",
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1FZFpreGhJaHhlTXV5VVBNTFZ0SnhWdE0yMnlwWnkyTW5tWEpGOXhobnBiZEZNeVUycUhReFQzR3dYTFk2VnhqOVlPbXpxR2RCUTE2TTNHai0?oc=5",
+        "publisher": "GNN 新聞網",
+        "published_at": "2026-09-09T07:00:00+00:00",
+        "first_seen_at": "2026-11-12T07:26:47+00:00",
+        "status": "source_lead_only"
+      },
+      {
         "title": "《棕色塵埃2》釋出《魔都精兵的奴隸2》聯動合作PV 活動將於9/10 開跑《Brown Dust2》 - GNN 新聞網",
         "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5zN3VqYlJrYU1DTXFyYnVITnRCdEZKS01wZW43UEN3b0o4OGpNRWt3UmNvTG40aE1nMjNZRXdrVGY4UXA0RVFXM1pnWmwyNTlvWHgtWGZUMXI?oc=5",
         "publisher": "GNN 新聞網",
@@ -1754,6 +1787,14 @@
         "publisher": "4Gamers",
         "published_at": "2026-09-04T07:00:00+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "title": "《Sugar Conflict》×《Detariki Z：特防機密日常生活》聯動合作第二彈 8 月 20 日正式開跑 - haveagood-holiday.com",
+        "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWXlYWS0yWHZuRXBuT214NFF6YzhSRERIZHhwN0FNckZpQmg0ek1nVjRrNjFraDNVdWFKUmlGR2NDc0ZST3Z0Z2t3am1qYS1wSDFDdE1nM3gxVHEyR1ZBendNYk5SUlE3bGpvandBWTBNMVMwcWVCYWxNYTFseGVhV2pfMk1KUU5VTUxwaWs5cXNJUQ?oc=5",
+        "publisher": "haveagood-holiday.com",
+        "published_at": "2026-08-20T07:00:00+00:00",
+        "first_seen_at": "2026-11-12T07:26:47+00:00",
         "status": "source_lead_only"
       },
       {
@@ -1834,6 +1875,14 @@
         "publisher": "4Gamers",
         "published_at": "2026-07-07T07:00:00+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "title": "《Poker Chase》x《魔法少女魔女裁判》限時聯動活動將於 6 月 24 日至 7 月 15 日舉辦 - haveagood-holiday.com",
+        "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcjExWkw4QXhXaU1BWlBBZ0VWdmxRVWxqNUJvdGQ4RzlWS0NoQU1YUmZEYkVKMU84Vmd0SFVta0NDMWpwMzBBYmRZODB0cHVMLUJ6YWs5eE5uMmNmWkplekpoUU1JYmJsWHBFOFQxcldHSGs5RWhmTFdpc1U0T0JQR1lJbjRiN05rdUlCbjVVcnhIUFBSeGtCVw?oc=5",
+        "publisher": "haveagood-holiday.com",
+        "published_at": "2026-06-20T07:00:00+00:00",
+        "first_seen_at": "2026-11-12T07:26:47+00:00",
         "status": "source_lead_only"
       },
       {

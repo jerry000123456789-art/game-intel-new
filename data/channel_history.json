@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T03:59:53+00:00",
+  "updated_at": "2026-11-12T07:26:49+00:00",
   "status": "partial",
   "fetched": 30,
   "errors": [
@@ -25,6 +25,156 @@
     }
   ],
   "items": [
+    {
+      "id": "f2d8f5abd5348a24b8d5115f",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "玩越久鬍子越濃密！？《戰犬行動 WARDOGS》第三賽季今晚登場　響應 Movember 公益推 DLC",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314907",
+      "publisher": "",
+      "published_at": "2026-11-12T15:26:37+08:00",
+      "first_seen_at": "2026-11-12T07:26:49+00:00"
+    },
+    {
+      "id": "dd7c7ae6a4db136caea92c38",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《遺忘之劍》新增 ★5 角色「卡伊拉」 同步新增全新活動副本「英雄傳奇，身歷其境」",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314904",
+      "publisher": "",
+      "published_at": "2026-11-12T15:12:06+08:00",
+      "first_seen_at": "2026-11-12T07:26:49+00:00"
+    },
+    {
+      "id": "27493f9e4661abfc81364ae7",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《七騎士 Re:BIRTH》歡慶 1.5 周年紀念 推出全新英雄「夏娃」與特別獎勵",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314903",
+      "publisher": "",
+      "published_at": "2026-11-12T15:09:06+08:00",
+      "first_seen_at": "2026-11-12T07:26:49+00:00"
+    },
+    {
+      "id": "21c868a1eb56578e902a88e9",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "智冠科技公告前三季合併營收 53.02 億元　獲利 10.72 億元",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314900",
+      "publisher": "",
+      "published_at": "2026-11-12T14:54:17+08:00",
+      "first_seen_at": "2026-11-12T07:26:49+00:00"
+    },
+    {
+      "id": "d35b2231859f1031cacd492f",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "電影《復仇者聯盟：終局之戰》加碼重映版本 11/13 Disney+ 獨家上線",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314899",
+      "publisher": "",
+      "published_at": "2026-11-12T14:44:44+08:00",
+      "first_seen_at": "2026-11-12T07:26:49+00:00"
+    },
+    {
+      "id": "01aafcdf65f6ca4d54f45b15",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《少女前線 2：追放》x《DJMAX》聯動確認 釋出《SSSS.GRIDMAN》聯動角色 寶多六花、新條茜",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314898",
+      "publisher": "",
+      "published_at": "2026-11-12T14:41:54+08:00",
+      "first_seen_at": "2026-11-12T07:26:49+00:00"
+    },
+    {
+      "id": "7d16a4260e589c2f74f8eea2",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "NCSOFT 第三季營收年增 91% 《天堂：經典版》《AION 2》等作品持續挹注營收",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314893",
+      "publisher": "",
+      "published_at": "2026-11-12T14:02:32+08:00",
+      "first_seen_at": "2026-11-12T07:26:49+00:00"
+    },
+    {
+      "id": "d84c4372a03370ca4dd9230f",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《英雄聯盟》戰隊中信飛牡蠣前進北科大揭密電競產業　Doggo、Kino 開講剖析職業選手追夢路",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314892",
+      "publisher": "",
+      "published_at": "2026-11-12T12:52:16+08:00",
+      "first_seen_at": "2026-11-12T07:26:49+00:00"
+    },
+    {
+      "id": "937e1ddc6fea982a72b89fc8",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "放置模擬經營 RPG《POP 紀元：文明爆走中》事前預約進行中",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314891",
+      "publisher": "",
+      "published_at": "2026-11-12T12:52:05+08:00",
+      "first_seen_at": "2026-11-12T07:26:49+00:00"
+    },
+    {
+      "id": "6ab83edd11938086575011d4",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《疾風之刃》首屆 1V1 公開賽「決戰疾風之巔 S1」啟動報名",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314890",
+      "publisher": "",
+      "published_at": "2026-11-12T12:46:20+08:00",
+      "first_seen_at": "2026-11-12T07:26:49+00:00"
+    },
+    {
+      "id": "031ed06c6fbe30538c9024df",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《跑跑卡丁車 RUSH+》新賽季 S42「秘密花園」更新 夢幻車「天空魔光騎士」與「焰夜黑騎士」登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314889",
+      "publisher": "",
+      "published_at": "2026-11-12T12:45:16+08:00",
+      "first_seen_at": "2026-11-12T07:26:49+00:00"
+    },
+    {
+      "id": "6b49f4fd8e82c41a528e38c1",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《楓之谷 M》x《天翼之鍊》限時聯名合作 限定角色波里斯與劇情地城登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314888",
+      "publisher": "",
+      "published_at": "2026-11-12T12:40:40+08:00",
+      "first_seen_at": "2026-11-12T07:26:49+00:00"
+    },
+    {
+      "id": "48d68279367a0bbdaaaf14d6",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《大航海時代：起源》Ｘ《創世紀戰》聯名提督「西拉諾・伯恩斯坦」、「薩拉丁」登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314887",
+      "publisher": "",
+      "published_at": "2026-11-12T12:34:53+08:00",
+      "first_seen_at": "2026-11-12T07:26:49+00:00"
+    },
+    {
+      "id": "8d19ab8652e5630b7f93a420",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "支援繁體中文！NEXON 新作《無冕之燼》12/4 展開全球測試　開放 4 大職業",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314886",
+      "publisher": "",
+      "published_at": "2026-11-12T12:31:35+08:00",
+      "first_seen_at": "2026-11-12T07:26:49+00:00"
+    },
+    {
+      "id": "8d54e4247b007f255269656a",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《阿索拉：星之祈願》公開 AGF 2026 攤位鳥瞰圖 打造全場規模最大 150 個攤位展區",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314884",
+      "publisher": "",
+      "published_at": "2026-11-12T12:16:40+08:00",
+      "first_seen_at": "2026-11-12T07:26:49+00:00"
+    },
     {
       "id": "1826513af505720909abfb0d",
       "category": "巴哈姆特情報",

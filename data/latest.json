@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T03:59:51+00:00",
+  "updated_at": "2026-11-12T07:26:47+00:00",
   "status": "ok",
   "errors": [],
   "fetched": 120,
@@ -224,9 +224,9 @@
     {
       "id": "37747faa8f59cc9a5648",
       "category": "兌換碼",
-      "title": "格鬥天王：拳面出擊 推出！齊收集All Star格鬥家卡牌｜附禮包碼 - HK01",
+      "title": "格鬥天王：拳面出擊 推出！齊收集All Star格鬥家卡牌｜附禮包碼 - 香港01",
       "url": "https://news.google.com/rss/articles/CBMijgNBVV95cUxPM0FHQncxWHZNU2ZxY0M0MWpsajJMUDl4Q2t2QWNLVzUwQjhfLTF3S3RKUHVjN0JOalhPWnRDZ19PNDRSbllKTW1aVjM1WDVXNnB0Wllxa29HR2NRQlQ5NTZ4Qm5vQlBpNEhCbmx5TzlKT1VIUFFpQU5QZkxrZmN0U2lmZ0FVdkgwZVMxMm0xY3lsZXdOc3JpRzZpcndGckNjNVpMSFJKN2FpNEV3RTZFSXpncC16TjRtckJ3cDBJNG1nV2RfVzUwbExBbHprSlpqWWM4OHNuOVE3djk0QUxBX21QWUJBQ29ockVDNS00THpGeGR3VUg1d3R4WGlGWUhCS01GaTVGcWoybkgtMnRMbGFtX1k3OWJaYjA2XzRQRzhIRjYyeXRRdGNoTGh4OUZHNGpnU1B0WVhQSFRtMlVMMEF5RnIyVFNBMDB2ZVlzT1RTSG1nRzFEVlNKNzBURmluelRrMV9VazBQY0xIM29XUEpxNmJtNVZyTDFhd0dpckVkN3Y1YXBTcjVtQzluUQ?oc=5",
-      "publisher": "HK01",
+      "publisher": "香港01",
       "published_at": "2026-11-06T08:18:57+00:00",
       "first_seen_at": "2026-11-07T18:50:37+00:00"
     },
@@ -467,9 +467,9 @@
     {
       "id": "001ca66204a23debdc4f",
       "category": "遊戲攻略",
-      "title": "魔物獵人：旅人開服懶人包｜開局拓荒避坑指南！新手上路全攻略！ - HK01",
+      "title": "魔物獵人：旅人開服懶人包｜開局拓荒避坑指南！新手上路全攻略！ - 香港01",
       "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxPV3dUdGFuWWtYLTB3dDFSY2QtT1VoLTJVM3FlSVZsd2tBUmlLaVdBYmdhZ0R3RGViNzJpRXdDdFFHWldWN0l4N1diVzMtZG0zb2VheEJHR3AtVW0ta254elA4SlZfWFhXVkNWOGstY0hNbHVSSVB5cjhXaFRvaHYzemJQc3FzcVF3ZmFwcVNiQ2tyVzNYcU1iMXNfYWs1VThrS212R2FfVE04eTZsRGJFTlRZWEpIejlGR3BsZGlINlVMcWxNZjk0RUpxTnJFU2Y3N0xPelF5VTNZYWcwdFR6UWIwd183TjZfSnJDNjRxNVZyOFNPc2M4ekQwS0NtOGUxX1VLSktjRjRWUGl5VnF5UTZOS0JsRnptRW82TkxwS09tLVlCVkZDMFpVY2R6QmI0ZHBiN3luMWJzTXJURUJRVkIxMllCNzVMV2JiRFFzbFloeURxMGRtSmhrVlVtTVZKUnN5LTBHU19RV2paLWl5ZUk0TlZkZ3h0ajRfSml4Qms0b0xvSnBJRXlnT2wtYVBGQ3BwQmVialA3Y250dHB5ZHp0VUJsMXpuYVRMNFFsOXBEUQ?oc=5",
-      "publisher": "HK01",
+      "publisher": "香港01",
       "published_at": "2026-10-29T07:00:00+00:00",
       "first_seen_at": "2026-11-11T07:54:28+00:00"
     },
@@ -600,6 +600,15 @@
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
+      "id": "5bee3e772bf34312f35b",
+      "category": "兌換碼",
+      "title": "【幻想三國：武姬集結】兌換碼與禮包碼序號・10月2日更新 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1iWjI4TzNIRmEwTGVjLTJNWXpOcGp5U2otUDJPR1pqTlZaR0paRjZyTUd6eTFLMEM5WXRNRkRvaUg4d05xdUgyczd6ckFMRFJUZm1wZlpB?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-10-02T07:00:00+00:00",
+      "first_seen_at": "2026-11-12T07:26:47+00:00"
+    },
+    {
       "id": "8293ec32ba6e5122d60e",
       "category": "遊戲攻略",
       "title": "《鳴潮》但願長圓如此夜「心」全方位養成攻略：組隊、手法與抽取推薦 - 4Gamers",
@@ -652,6 +661,15 @@
       "publisher": "Ludens Media",
       "published_at": "2026-09-26T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00"
+    },
+    {
+      "id": "0778a300837e163bc42a",
+      "category": "兌換碼",
+      "title": "【亡靈別太狂：部落大作戰】兌換碼與禮包碼序號・10月10日更新 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBWU2hOa3dweTZlYjFGMzBNckVqZHA0SVNQejREbFQ1YWl5SlpOMEd0S1I0WktiUEZWRl96Q0hIdGtjbElsbjhpc2NFaGFjMTBSYmhB?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-09-26T07:00:00+00:00",
+      "first_seen_at": "2026-11-12T07:26:47+00:00"
     },
     {
       "id": "d41b92ac9a47fb2f38e8",
@@ -762,6 +780,15 @@
       "first_seen_at": "2026-11-12T01:19:36+00:00"
     },
     {
+      "id": "7d46663f21a3ad8ca9d7",
+      "category": "活動行事曆",
+      "title": "《碧藍航線》七週年攜手燒肉 Smile、萌番 More Fun 推出主題餐點 台北地下街玩家見面會同步登場 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1FZFpreGhJaHhlTXV5VVBNTFZ0SnhWdE0yMnlwWnkyTW5tWEpGOXhobnBiZEZNeVUycUhReFQzR3dYTFk2VnhqOVlPbXpxR2RCUTE2TTNHai0?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-09-09T07:00:00+00:00",
+      "first_seen_at": "2026-11-12T07:26:47+00:00"
+    },
+    {
       "id": "7c67c2fda46013f0f990",
       "category": "活動行事曆",
       "title": "《棕色塵埃2》釋出《魔都精兵的奴隸2》聯動合作PV 活動將於9/10 開跑《Brown Dust2》 - GNN 新聞網",
@@ -832,6 +859,15 @@
       "publisher": "Call of Duty® | Best-Selling Video Game Franchise",
       "published_at": "2026-08-20T07:00:00+00:00",
       "first_seen_at": "2026-11-08T05:49:01+00:00"
+    },
+    {
+      "id": "aebe14d864fcd22c7c00",
+      "category": "活動行事曆",
+      "title": "《Sugar Conflict》×《Detariki Z：特防機密日常生活》聯動合作第二彈 8 月 20 日正式開跑 - haveagood-holiday.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWXlYWS0yWHZuRXBuT214NFF6YzhSRERIZHhwN0FNckZpQmg0ek1nVjRrNjFraDNVdWFKUmlGR2NDc0ZST3Z0Z2t3am1qYS1wSDFDdE1nM3gxVHEyR1ZBendNYk5SUlE3bGpvandBWTBNMVMwcWVCYWxNYTFseGVhV2pfMk1KUU5VTUxwaWs5cXNJUQ?oc=5",
+      "publisher": "haveagood-holiday.com",
+      "published_at": "2026-08-20T07:00:00+00:00",
+      "first_seen_at": "2026-11-12T07:26:47+00:00"
     },
     {
       "id": "3680552cd4edd8e4c5d9",
@@ -1077,6 +1113,15 @@
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
+      "id": "270b4fec461610160ed8",
+      "category": "活動行事曆",
+      "title": "《Poker Chase》x《魔法少女魔女裁判》限時聯動活動將於 6 月 24 日至 7 月 15 日舉辦 - haveagood-holiday.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcjExWkw4QXhXaU1BWlBBZ0VWdmxRVWxqNUJvdGQ4RzlWS0NoQU1YUmZEYkVKMU84Vmd0SFVta0NDMWpwMzBBYmRZODB0cHVMLUJ6YWs5eE5uMmNmWkplekpoUU1JYmJsWHBFOFQxcldHSGs5RWhmTFdpc1U0T0JQR1lJbjRiN05rdUlCbjVVcnhIUFBSeGtCVw?oc=5",
+      "publisher": "haveagood-holiday.com",
+      "published_at": "2026-06-20T07:00:00+00:00",
+      "first_seen_at": "2026-11-12T07:26:47+00:00"
+    },
+    {
       "id": "add31c23024ea7eaee14",
       "category": "新遊戲資訊",
       "title": "黑暗動作撤離遊戲《霧影獵人》啟動全球公測公開新職業「凋零騎士」與新BOSS《Mistfall Hunter》 - GNN 新聞網",
@@ -1217,7 +1262,7 @@
       "title": "《異環》公測新手攻略總整理：首抽自選推薦、抽卡機制、都市大亨賺錢與養成教學一次看 - Yahoo新聞",
       "url": "https://news.google.com/rss/articles/CBMiswRBVV95cUxNWC1WbnZfbHBrNlBLOWs0TUlhS2dYdHNrS1IzbVRuZ0hRSjRGa3ZaQmdZQnFTaXAxWDl3bi1KU0dmVzItaVlEc3NUbkgyU0ZKNUtFblNoaWMycVVGdzlZOUZwdjZsT0lUaGd6bjhoRmlfVUtoMUdOUTM4Z2pxT2tsaWU2MlU4RS01RlZ2R2luTWlENXc3QWRURXozWEpCWjRQa0x6ZW5zT3prbEZHQkFXbTBuZUpfd3AtWEJZOG9ZR0tFdllxcEl3cHZNWE9xbnVlZ2ROWVlnNml0YWx3WUtScGtvMF9Sb1NhUHJWNzJuY09OaFhQSEc2TFlVaFlMdzVGU1dFVzg2SzM0eFN5T0pOZ211UzZmOXFkcEdydk4wYW1YV3lmN1hxNi05SHhQanlIT09xSmRSNE1vWVd2VkphY2puYkhNd2JRMEVpWXV2bUp0XzhkSmJ5TU4xclVsYm1EMEIwUms4dVR2YVJXUENSMzIzMk9jWDI5REkyLTlKdmdBWko4eHc5MS02SUhlOVBhdG91ZE9yYXZ5c19JREJGUlQ0RmZUWlhQQUYwUnd2aEY2S21QYnBTOWxQUENzTDFTNzZ4cnlOLVhqUGo0NUxwTmp4TGFxUG43dENiZUg2WjZmN0QyYU83dUZ2S0tlcEZYXzBzTWpPVlpDcDFKR1VsTEZNU0dOSEUzR1YzYzM4aGJFMUhaRDlXZDlWNGFNVFp3LXlmOTd5bS1TMFhkSDRHZDlfVQ?oc=5",
       "publisher": "Yahoo新聞",
-      "published_at": "2026-04-27T07:00:00+00:00",
+      "published_at": "2026-04-26T07:00:00+00:00",
       "first_seen_at": "2026-11-12T03:59:51+00:00"
     },
     {

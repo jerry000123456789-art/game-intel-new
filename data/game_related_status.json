@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-13T10:06:41+00:00",
+  "checked_at": "2026-11-13T13:17:27+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
-    "codes": 2,
-    "guides": 4,
-    "events": 1
+    "codes": 0,
+    "guides": 1,
+    "events": 0
   },
   "total_leads": {
     "codes": 68,
-    "guides": 68,
+    "guides": 69,
     "events": 127
   },
   "per_game": {
-    "Skullgirls: Fighting RPG": {
+    "Cat Sudoku: Lumeri Puzzle": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "배고파용 키우기 : 방치형 RPG": {
+    "Hillthorn": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "에버나이트: 리버스 아이콘 이미지": {
+    "PUBG MOBILE FLASH": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "열혈강호: 넥스트 아이콘 이미지": {
+    "Yumtopia：美食合併物語": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "워라인: 스나이퍼 아이콘 이미지": {
+    "Zombie Assault: Resurgence": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "원피스 그랜드 레스토랑 아이콘 이미지": {
+    "放置騎士團 The Origin": {
+      "codes": 0,
+      "guides": 1,
+      "events": 0
+    },
+    "火柴人時代：進化": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Fortnite": {
-      "codes": 2,
-      "guides": 4,
-      "events": 1
-    },
-    "FPS Strike Ops : Modern Arena": {
+    "秘境寶石神廟 (Jewel Temple)": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Geometry Dash": {
+    "臉孔碧姬": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Heads Up!": {
+    "臉孔路易吉": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Hollywood Merge": {
+    "靈魂食堂：可愛妖怪合併": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Humbug 2": {
+    "Minecraft: クラフト、建築、サバイバル": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "KaruQ": {
+    "Minecraft 온라인으로 친구들과 함께 플레이하세요": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "lumen.": {
+    "Minishoot' Adventures": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Meowdoku!": {
+    "Mutazione": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -387,10 +387,10 @@
     "karuq": "2026-11-13T10:06:41+00:00",
     "lumen": "2026-11-13T10:06:41+00:00",
     "meowdoku": "2026-11-13T10:06:41+00:00",
-    "minecraftクラフト建築サバイバル": "2026-11-08T12:40:07+00:00",
-    "minecraft온라인으로친구들과함께플레이하세요": "2026-11-08T12:40:07+00:00",
-    "minishootadventures": "2026-11-08T12:40:07+00:00",
-    "mutazione": "2026-11-08T12:40:07+00:00",
+    "minecraftクラフト建築サバイバル": "2026-11-13T13:17:27+00:00",
+    "minecraft온라인으로친구들과함께플레이하세요": "2026-11-13T13:17:27+00:00",
+    "minishootadventures": "2026-11-13T13:17:27+00:00",
+    "mutazione": "2026-11-13T13:17:27+00:00",
     "riotmobile": "2026-11-08T12:57:23+00:00",
     "solitaireclassiccardgame": "2026-11-08T12:57:23+00:00",
     "thronefall": "2026-11-08T12:57:23+00:00",
@@ -924,7 +924,18 @@
     "임진왜란조선의반격아이콘이미지": "2026-11-13T07:23:59+00:00",
     "제우스오만의신아이콘이미지": "2026-11-13T07:23:59+00:00",
     "skullgirlsfightingrpg": "2026-11-13T10:06:41+00:00",
-    "배고파용키우기방치형rpg": "2026-11-13T10:06:41+00:00"
+    "배고파용키우기방치형rpg": "2026-11-13T10:06:41+00:00",
+    "catsudokulumeripuzzle": "2026-11-13T13:17:27+00:00",
+    "hillthorn": "2026-11-13T13:17:27+00:00",
+    "pubgmobileflash": "2026-11-13T13:17:27+00:00",
+    "yumtopia美食合併物語": "2026-11-13T13:17:27+00:00",
+    "zombieassaultresurgence": "2026-11-13T13:17:27+00:00",
+    "放置騎士團theorigin": "2026-11-13T13:17:27+00:00",
+    "火柴人時代進化": "2026-11-13T13:17:27+00:00",
+    "秘境寶石神廟jeweltemple": "2026-11-13T13:17:27+00:00",
+    "臉孔碧姬": "2026-11-13T13:17:27+00:00",
+    "臉孔路易吉": "2026-11-13T13:17:27+00:00",
+    "靈魂食堂可愛妖怪合併": "2026-11-13T13:17:27+00:00"
   },
   "errors": []
 }

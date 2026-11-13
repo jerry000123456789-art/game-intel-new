@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T10:06:41+00:00",
+  "updated_at": "2026-11-13T13:17:27+00:00",
   "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
@@ -590,6 +590,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQelI2YjF5SUsyZDl5TFMtMkEtSFpjSUJLRnNWN0ZsRkFuUHpWeWhscDNxU21BNXNlX0hqUW0xLXpmaU52NU9tbzNNR0lORzk4eW9VVnVBYnl2eWY4RHR6SHNCNGZ3N1NTSXQtaGY2c2F2dllTdVB3eVNXMzNsNUJpOEhGeXotTlo4SFQzTmJBdnI1X0dBR0xnMG80QXl6UQ?oc=5",
         "published_at": "2026-11-10T06:17:48+00:00",
         "publisher": "HN 玩新聞",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "放置騎士團 The Origin",
+        "kind": "guides",
+        "title": "《放置騎士團The Origin》11月10日正式上線打造英雄騎士團開啟全新冒險RPG | 收集不同職業的強力英雄自由搭配技能與陣容透過技能繼承培養角色召集英雄夥伴征服未知冒險世界 - Mobile01",
+        "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aYWJFdHduT2JRRkRQd3ZDTENrSFo4MkRBM0syVmk4Z2V6Q2s2aHFIUWhla0hKQ3JJTUhHblRlUmhTNFpPQUdZRzVYVFd6dXA0Nm93U0RLb3BKeGVvR2gyQ1ZYS0lLeW5odld6Sg?oc=5",
+        "published_at": "2026-11-10T02:41:37+00:00",
+        "publisher": "Mobile01",
         "status": "source_lead_only"
       },
       {

@@ -1,10 +1,19 @@
 {
-  "updated_at": "2026-11-13T10:06:07+00:00",
+  "updated_at": "2026-11-13T13:14:35+00:00",
   "status": "ok",
   "errors": [],
   "fetched": 120,
   "note": "RSS 標題線索，尚未驗證兌換碼、上市日期或活動細節。",
   "items": [
+    {
+      "id": "e7780b6c22f2560483ea",
+      "category": "新遊戲資訊",
+      "title": "《藍色星原：旅謠》11 月 26 日公測 上市預告影片公開 《碧藍航線》開發商 Manjuu 新作 - Ludens Media",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE05VzN1VFRKTzZ1UnQ1Zy1hdmZJQWsza0loeXBuM0xDNVZFWnJBcEc4Y0tMQUJxc0hVR2p0Mlh1bDZYNm5pY2hiQjhjSWxLX0RzejI4YUZ3a0VKUHY5QVBWQjNEa05DUQ?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-11-13T10:43:00+00:00",
+      "first_seen_at": "2026-11-13T13:14:35+00:00"
+    },
     {
       "id": "8431f27531b0f6fd0a98",
       "category": "新遊戲資訊",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T15:14:11+00:00",
+  "updated_at": "2026-11-13T17:22:26+00:00",
   "items": [
     {
       "game": "明日方舟",
@@ -18,7 +18,7 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-13T15:14:11+00:00",
+      "updated_at": "2026-11-13T17:22:26+00:00",
       "id": "9b07b36727830ace61778bd1",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -40,7 +40,7 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-13T15:14:11+00:00",
+      "updated_at": "2026-11-13T17:22:26+00:00",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
     {
@@ -61,7 +61,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "中國站",
-      "updated_at": "2026-11-13T15:14:11+00:00",
+      "updated_at": "2026-11-13T17:22:26+00:00",
       "id": "c660d235dfa48b5b42b4eafe",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -83,7 +83,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "儲值／禮包時效",
       "market_label": "中國站",
-      "updated_at": "2026-11-13T15:14:11+00:00",
+      "updated_at": "2026-11-13T17:22:26+00:00",
       "id": "20a444facd968b6aa97c54a4",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -105,7 +105,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "儲值／禮包時效",
       "market_label": "中國站",
-      "updated_at": "2026-11-13T15:14:11+00:00",
+      "updated_at": "2026-11-13T17:22:26+00:00",
       "id": "e529d816792d9bc8c1f6c41c",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -127,7 +127,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "中國站",
-      "updated_at": "2026-11-13T15:14:11+00:00",
+      "updated_at": "2026-11-13T17:22:26+00:00",
       "id": "aed9e750f4b2af2a106919cb",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -149,7 +149,7 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-13T15:14:11+00:00",
+      "updated_at": "2026-11-13T17:22:26+00:00",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     }
   ],
@@ -485,23 +485,23 @@
       "status": "source_lead_only"
     },
     {
+      "game": "天堂Ｍ",
+      "title": "【普天同慶】《天堂Ｍ》攜手母公司歡慶二十五週年登入免費領寶物 - https://www.webook.com.tw/",
+      "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE95dW91RlNYRVQ3TjB2OGtfcXh1Tm9zQVFkY0M1NXJFUGVpMEVGQm1ZeGk3aHFERlUtWGRnaUthN29oNFZwa25POUNNZ0F5THVQdUhmR1lXVHh0N1F2cUFsYlB6c2JVMjdtTGo5ZWJROHVjMXM?oc=5",
+      "google_search_url": "https://www.google.com/search?q=%22%E5%A4%A9%E5%A0%82%EF%BC%AD%22+%22%E3%80%90%E6%99%AE%E5%A4%A9%E5%90%8C%E6%85%B6%E3%80%91%E3%80%8A%E5%A4%A9%E5%A0%82%EF%BC%AD%E3%80%8B%E6%94%9C%E6%89%8B%E6%AF%8D%E5%85%AC%E5%8F%B8%E6%AD%A1%E6%85%B6%E4%BA%8C%E5%8D%81%E4%BA%94%E9%80%B1%E5%B9%B4%E7%99%BB%E5%85%A5%E5%85%8D%E8%B2%BB%E9%A0%98%E5%AF%B6%E7%89%A9+-+https%3A%2F%2Fwww.webook.com.tw%2F%22",
+      "published_at": "2026-11-04T08:00:00+00:00",
+      "publisher": "https://www.webook.com.tw/",
+      "source_type": "Google 新聞搜尋",
+      "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
+      "status": "source_lead_only"
+    },
+    {
       "game": "楓之谷：放置冒險記",
       "title": "《楓之谷：放置冒險記》推出「1 週年慶典」大型活動 同時新增「聖魂劍士」與「烈焰巫師」 - CMoney",
       "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8wQ2xHYXhxU2lTajc2dU51X0JPdldqdVA0ZUEwVW1WRG0zSHQ1RWJ4d2daTzR0UnNWc2ZON3VoaHMzTFhmTkdyUUNOTEM1U0hRY3NjSGh4d3Q?oc=5",
       "google_search_url": "https://www.google.com/search?q=%22%E6%A5%93%E4%B9%8B%E8%B0%B7%EF%BC%9A%E6%94%BE%E7%BD%AE%E5%86%92%E9%9A%AA%E8%A8%98%22+%22%E3%80%8A%E6%A5%93%E4%B9%8B%E8%B0%B7%EF%BC%9A%E6%94%BE%E7%BD%AE%E5%86%92%E9%9A%AA%E8%A8%98%E3%80%8B%E6%8E%A8%E5%87%BA%E3%80%8C1+%E9%80%B1%E5%B9%B4%E6%85%B6%E5%85%B8%E3%80%8D%E5%A4%A7%E5%9E%8B%E6%B4%BB%E5%8B%95+%E5%90%8C%E6%99%82%E6%96%B0%E5%A2%9E%E3%80%8C%E8%81%96%E9%AD%82%E5%8A%8D%E5%A3%AB%E3%80%8D%E8%88%87%E3%80%8C%E7%83%88%E7%84%B0%E5%B7%AB%E5%B8%AB%E3%80%8D+-+CMoney%22",
       "published_at": "2026-11-04T07:42:07+00:00",
       "publisher": "CMoney",
-      "source_type": "Google 新聞搜尋",
-      "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
-      "status": "source_lead_only"
-    },
-    {
-      "game": "天堂Ｍ",
-      "title": "【普天同慶】《天堂Ｍ》攜手母公司歡慶二十五週年登入免費領寶物 - https://www.webook.com.tw/",
-      "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE95dW91RlNYRVQ3TjB2OGtfcXh1Tm9zQVFkY0M1NXJFUGVpMEVGQm1ZeGk3aHFERlUtWGRnaUthN29oNFZwa25POUNNZ0F5THVQdUhmR1lXVHh0N1F2cUFsYlB6c2JVMjdtTGo5ZWJROHVjMXM?oc=5",
-      "google_search_url": "https://www.google.com/search?q=%22%E5%A4%A9%E5%A0%82%EF%BC%AD%22+%22%E3%80%90%E6%99%AE%E5%A4%A9%E5%90%8C%E6%85%B6%E3%80%91%E3%80%8A%E5%A4%A9%E5%A0%82%EF%BC%AD%E3%80%8B%E6%94%9C%E6%89%8B%E6%AF%8D%E5%85%AC%E5%8F%B8%E6%AD%A1%E6%85%B6%E4%BA%8C%E5%8D%81%E4%BA%94%E9%80%B1%E5%B9%B4%E7%99%BB%E5%85%A5%E5%85%8D%E8%B2%BB%E9%A0%98%E5%AF%B6%E7%89%A9+-+https%3A%2F%2Fwww.webook.com.tw%2F%22",
-      "published_at": "2026-11-04T06:22:52+00:00",
-      "publisher": "https://www.webook.com.tw/",
       "source_type": "Google 新聞搜尋",
       "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
       "status": "source_lead_only"

@@ -1,8 +1,13 @@
 {
-  "updated_at": "2026-11-12T21:54:15+00:00",
+  "updated_at": "2026-11-13T01:17:00+00:00",
   "sources_attempted": 24,
-  "sources_succeeded": 23,
-  "errors": [],
+  "sources_succeeded": 22,
+  "errors": [
+    {
+      "url": "https://www.icy-veins.com/honkai-star-rail/redemption-codes",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
   "codes": {
     "new": 0,
     "total": 15

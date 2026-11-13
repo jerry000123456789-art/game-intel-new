@@ -1,8 +1,29 @@
 {
-  "updated_at": "2026-11-12T21:53:23+00:00",
-  "status": "ok",
-  "fetched": 105,
-  "errors": [],
+  "updated_at": "2026-11-13T01:16:01+00:00",
+  "status": "partial",
+  "fetched": 30,
+  "errors": [
+    {
+      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOCtiyIH-Dt00Ntv-WqPgfw",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNH35X4JoxqnZHRyWGI04Vg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4c-wTOqEID-_vH4MhNs06w",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC-e2q_YhFnfsEggbJsTLPHg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_XZ4O10pZq9RCigggGSB1A",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
   "items": [
     {
       "id": "4daa21ac016b8474d757bdfe",

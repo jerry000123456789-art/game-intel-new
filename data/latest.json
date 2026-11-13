@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T21:53:21+00:00",
+  "updated_at": "2026-11-13T01:15:59+00:00",
   "status": "ok",
   "errors": [],
   "fetched": 120,
@@ -546,6 +546,15 @@
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
+      "id": "ecf6a89f53821ec768ce",
+      "category": "活動行事曆",
+      "title": "【麻雀一番街】最用心聯動的日麻遊戲！《約會大作戰》入侵麻將館？狂三、十香陪妳打日麻！「隱藏互動」造型也太香了吧！✨▹璐洛洛 - 電腦王阿達",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1YOWhsRHBNN2llLUwtY0pFNUVsN244dnpPTnl0cEVBVXNwZ25feTNSbmdnWmxnT2lEaGtQUHd2Y1l0VEhtSm1JemZ5ejRJR2k3c3c?oc=5",
+      "publisher": "電腦王阿達",
+      "published_at": "2026-10-21T07:00:00+00:00",
+      "first_seen_at": "2026-11-13T01:15:59+00:00"
+    },
+    {
       "id": "be9715f29e27cbf818be",
       "category": "活動行事曆",
       "title": "《戀與深空》×《銀翼殺手 2049》聯動活動今日上線 聯動特別獎勵還原電影經典畫面 - GNN 新聞網",
@@ -607,6 +616,15 @@
       "publisher": "Ludens Media",
       "published_at": "2026-10-02T07:00:00+00:00",
       "first_seen_at": "2026-11-12T07:26:47+00:00"
+    },
+    {
+      "id": "dec2a1e38a8953e7432c",
+      "category": "新遊戲資訊",
+      "title": "4 人合作解謎撤離遊戲《逃離遊戲時間》限時公測即將登場以Smiling Critters 視角踏入工廠《Escape From Playtime》 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xM3RwbFRtTnBUYVdqLTNickE5UWRNU2tYd094eUJDblRZOXB4aE9BZU9HNzZJbmdwT3hHZGVqVzlwcjhheXg5RWw4Uldhei1WR2ZxVnhTNGQ?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-10-01T07:00:00+00:00",
+      "first_seen_at": "2026-11-13T01:15:59+00:00"
     },
     {
       "id": "8293ec32ba6e5122d60e",
@@ -1833,6 +1851,15 @@
       "first_seen_at": "2026-11-07T07:20:13+00:00"
     },
     {
+      "id": "f1cd69c845bb72fc68c1",
+      "category": "新遊戲資訊",
+      "title": "《黑色契約 CABAL Online》宣布 10 月 5 日展開公測 遊戲主程式即日起開放下載 - GNN 新聞網",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TaFhtVHBqSkhXZ3VmMlY1MjV2Ni13c2trRE5mb0Nqa2lkbGxSUS05bjhIVWk3Z2tKSzBNRzhfcTgyekkwb0IxUlViZ292dFlrZnZ3S1BGTFE?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2023-09-28T07:00:00+00:00",
+      "first_seen_at": "2026-11-13T01:15:59+00:00"
+    },
+    {
       "id": "98efd5aec15e67caa79f",
       "category": "官方遊戲公告",
       "title": "首頁 | 《崩壞：星穹鐵道》官方網站——願此行，終抵群星 - Honkai: Star Rail",
@@ -1844,7 +1871,7 @@
     {
       "id": "e2d96f6edf0a4c86d78a",
       "category": "官方遊戲公告",
-      "title": "角色展示-「瓦列里：執序之理」｜原神 - Genshin Impact",
+      "title": "《原神》 - 前往未知的冒險旅程 - Genshin Impact",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBwZWJvVGdjSzdhSEIxaWd6MEpsSDZGY0YyOUlyZjBqS2J2M0Y4UFJLd1VEVzVRMnFDSmpqX2k3T1h4VE9mTV9sYjBGNDRRUHVpMlVxRU1Gdw?oc=5",
       "publisher": "Genshin Impact",
       "published_at": "2023-01-11T10:31:32+00:00",

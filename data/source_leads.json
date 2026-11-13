@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T21:53:54+00:00",
+  "updated_at": "2026-11-13T01:16:37+00:00",
   "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
@@ -1148,11 +1148,38 @@
         "status": "source_lead_only"
       },
       {
+        "game": "風之國度",
+        "kind": "events",
+        "title": "《風之國度》x《WIND BREAKER—防風少年—》聯動確認- 股市爆料同學會 - CMoney",
+        "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1lcTNUcW1ZMzNyeGgybmoxNVN3ZlZOR1dkSWFwbjV4NEtPdjktXzVuQ3Y0ejJGbjAtN0x6QXJHOEl5M3RJRTNDc0g1NGlIdGtDWlE3Q2pmREw?oc=5",
+        "published_at": "2026-11-11T07:21:02+00:00",
+        "publisher": "CMoney",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "風之國度",
+        "kind": "events",
+        "title": "《風之國度》x《WIND BREAKER—防風少年—》聯動確認- 遊戲新聞 - PChome Online 新聞",
+        "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMERfT2txQXppU2Q2Mm4xYUh6MXlIOEozX3RXSXBCcHhjQ2pYU2t0QTRHTlNiM0FsMk01ZFoyUmI1aXBmeFRXeXlsLTFuZEhvR195MTk1RFpjVDlUWEhoN1FkMGpHNDhDTm53enBTV1g4NVNVMXA5Sy0xa2dVbHJMaDZXcVU?oc=5",
+        "published_at": "2026-11-11T06:50:10+00:00",
+        "publisher": "PChome Online 新聞",
+        "status": "source_lead_only"
+      },
+      {
         "game": "卡厄思夢境",
         "kind": "events",
         "title": "《卡厄思夢境》釋出「銀河系災害」第 5 季第二波內容更新！ - 蕃新聞",
         "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZLXRfTUJ3TjJYa0xIY1ZHUVFIdTFWaGdTLXZvajg0V2JNUlpnQlhtTC1XTF9TeE5aam53cXZfUEtXUkJQay1Mdl9yZFBkcWFpYlE?oc=5",
         "published_at": "2026-11-11T06:33:56+00:00",
+        "publisher": "蕃新聞",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "風之國度",
+        "kind": "events",
+        "title": "《風之國度》x《WIND BREAKER—防風少年—》聯動確認 - 蕃新聞",
+        "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBCT2FFel83bnRlQ3RFeVNzbDJ6VUY0YzBNOGhOUUxjeEtMQ1NhTER4YTJhYVUtZmQzcFJxZ01TajdwdWJsRDhuZmtJd1k2SWxXbFE?oc=5",
+        "published_at": "2026-11-11T04:04:44+00:00",
         "publisher": "蕃新聞",
         "status": "source_lead_only"
       },
@@ -1892,6 +1919,14 @@
         "publisher": "GNN 新聞網",
         "published_at": "2026-10-22T07:00:00+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "title": "【麻雀一番街】最用心聯動的日麻遊戲！《約會大作戰》入侵麻將館？狂三、十香陪妳打日麻！「隱藏互動」造型也太香了吧！✨▹璐洛洛 - 電腦王阿達",
+        "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1YOWhsRHBNN2llLUwtY0pFNUVsN244dnpPTnl0cEVBVXNwZ25feTNSbmdnWmxnT2lEaGtQUHd2Y1l0VEhtSm1JemZ5ejRJR2k3c3c?oc=5",
+        "publisher": "電腦王阿達",
+        "published_at": "2026-10-21T07:00:00+00:00",
+        "first_seen_at": "2026-11-13T01:15:59+00:00",
         "status": "source_lead_only"
       },
       {

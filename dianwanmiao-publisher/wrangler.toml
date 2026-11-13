@@ -1,0 +1,17 @@
+name = "dianwanmiao-publisher"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+
+[vars]
+X_PUBLISH_ENABLED = "false"
+
+[triggers]
+crons = ["*/5 * * * *"]
+
+[[durable_objects.bindings]]
+name = "PUBLISHER"
+class_name = "PublisherQueue"
+
+[[migrations]]
+tag = "dwm-publisher-sqlite-v1"
+new_sqlite_classes = ["PublisherQueue"]

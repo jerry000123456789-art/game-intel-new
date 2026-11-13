@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T10:26:11+00:00",
+  "updated_at": "2026-11-13T11:24:22+00:00",
   "items": [
     {
       "game": "明日方舟",
@@ -18,7 +18,7 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-13T10:26:11+00:00",
+      "updated_at": "2026-11-13T11:24:22+00:00",
       "id": "9b07b36727830ace61778bd1",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -40,7 +40,7 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-13T10:26:11+00:00",
+      "updated_at": "2026-11-13T11:24:22+00:00",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
     {
@@ -61,7 +61,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "中國站",
-      "updated_at": "2026-11-13T10:26:11+00:00",
+      "updated_at": "2026-11-13T11:24:22+00:00",
       "id": "c660d235dfa48b5b42b4eafe",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -83,7 +83,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "儲值／禮包時效",
       "market_label": "中國站",
-      "updated_at": "2026-11-13T10:26:11+00:00",
+      "updated_at": "2026-11-13T11:24:22+00:00",
       "id": "20a444facd968b6aa97c54a4",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -105,7 +105,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "儲值／禮包時效",
       "market_label": "中國站",
-      "updated_at": "2026-11-13T10:26:11+00:00",
+      "updated_at": "2026-11-13T11:24:22+00:00",
       "id": "e529d816792d9bc8c1f6c41c",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -127,7 +127,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "中國站",
-      "updated_at": "2026-11-13T10:26:11+00:00",
+      "updated_at": "2026-11-13T11:24:22+00:00",
       "id": "aed9e750f4b2af2a106919cb",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -149,7 +149,7 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-13T10:26:11+00:00",
+      "updated_at": "2026-11-13T11:24:22+00:00",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     }
   ],
@@ -480,6 +480,17 @@
       "google_search_url": "https://www.google.com/search?q=%22%E5%A4%A9%E5%A0%82%EF%BC%AD%22+%22%E3%80%90%E6%99%AE%E5%A4%A9%E5%90%8C%E6%85%B6%E3%80%91%E3%80%8A%E5%A4%A9%E5%A0%82%EF%BC%AD%E3%80%8B%E6%94%9C%E6%89%8B%E6%AF%8D%E5%85%AC%E5%8F%B8%E6%AD%A1%E6%85%B6%E4%BA%8C%E5%8D%81%E4%BA%94%E9%80%B1%E5%B9%B4%E7%99%BB%E5%85%A5%E5%85%8D%E8%B2%BB%E9%A0%98%E5%AF%B6%E7%89%A9+-+https%3A%2F%2Fwww.webook.com.tw%2F%22",
       "published_at": "2026-11-04T08:00:00+00:00",
       "publisher": "https://www.webook.com.tw/",
+      "source_type": "Google 新聞搜尋",
+      "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
+      "status": "source_lead_only"
+    },
+    {
+      "game": "Arcaea",
+      "title": "《Arcaea》聯動《明日方舟》11 月 17 日上線 收錄 8 首曲目與系列首個動態搭檔阿米婭 - Ludens Media",
+      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9DWDFkakxGb0RHRjM2d0lVbFlJdWxmNkp2WU1LbjFpODNBVlpfYk9MUHJNT09vUlZpdzVpaUlmNkZkaWl4djhVX3JhaTR3WWNTNmJ5cnA1T0ZCTERvdjBVcGZrQ3NQSFRDWVVKRUZXRWV3Zw?oc=5",
+      "google_search_url": "https://www.google.com/search?q=%22Arcaea%22+%22%E3%80%8AArcaea%E3%80%8B%E8%81%AF%E5%8B%95%E3%80%8A%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E3%80%8B11+%E6%9C%88+17+%E6%97%A5%E4%B8%8A%E7%B7%9A+%E6%94%B6%E9%8C%84+8+%E9%A6%96%E6%9B%B2%E7%9B%AE%E8%88%87%E7%B3%BB%E5%88%97%E9%A6%96%E5%80%8B%E5%8B%95%E6%85%8B%E6%90%AD%E6%AA%94%E9%98%BF%E7%B1%B3%E5%A9%AD+-+Ludens+Media%22",
+      "published_at": "2026-11-04T08:00:00+00:00",
+      "publisher": "Ludens Media",
       "source_type": "Google 新聞搜尋",
       "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
       "status": "source_lead_only"

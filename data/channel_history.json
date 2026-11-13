@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T01:16:01+00:00",
+  "updated_at": "2026-11-13T03:58:37+00:00",
   "status": "partial",
   "fetched": 30,
   "errors": [
@@ -25,6 +25,46 @@
     }
   ],
   "items": [
+    {
+      "id": "a69e68555eea3b08f90d3d3e",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《三國志・戰略版》年度劇本「漢焰長明」攜武將 SP 曹操與多項全新玩法同步登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314965",
+      "publisher": "",
+      "published_at": "2026-11-13T11:56:40+08:00",
+      "first_seen_at": "2026-11-13T03:58:37+00:00"
+    },
+    {
+      "id": "5035c0893c8bf9b839e2f5e1",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《怪物彈珠》×《無職轉生 ～到了異世界就拿出真本事～》合作即將登場 活動詳情今日公開",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314963",
+      "publisher": "",
+      "published_at": "2026-11-13T11:42:29+08:00",
+      "first_seen_at": "2026-11-13T03:58:37+00:00"
+    },
+    {
+      "id": "7d2c4e8f8599e1fc99785582",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《緋染天空 Heaven Burns Red》舉辦故事活動「Twinkle, twinkle, Crystal Ball」",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314962",
+      "publisher": "",
+      "published_at": "2026-11-13T11:42:01+08:00",
+      "first_seen_at": "2026-11-13T03:58:37+00:00"
+    },
+    {
+      "id": "fb8a5410c5fa860cfe163c0e",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "原創長篇動畫電影《OROCHI -Seventh Echoes-》釋出前導試映短片",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314961",
+      "publisher": "",
+      "published_at": "2026-11-13T11:15:20+08:00",
+      "first_seen_at": "2026-11-13T03:58:37+00:00"
+    },
     {
       "id": "4daa21ac016b8474d757bdfe",
       "category": "巴哈姆特情報",

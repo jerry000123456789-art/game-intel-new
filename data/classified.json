@@ -1,7 +1,31 @@
 {
-  "updated_at": "2026-11-13T01:15:59+00:00",
+  "updated_at": "2026-11-13T03:58:35+00:00",
   "note": "僅依標題比對遊戲與日期字樣；日期不代表活動起迄、上市日期；未擷取或驗證兌換碼。",
   "items": [
+    {
+      "id": "7f77a04d0bcc36c22966",
+      "category": "新遊戲資訊",
+      "game_matches": [],
+      "title": "《GTA 6》狂熱持續升溫！11月19日正式上市，預購收入已高達10億美元 | 李靖棠 | 新聞 - 風傳媒",
+      "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5jbHU2LS05TGxmNTY2cFRIRC15WFppN3g4U2UxN2NjZm96a3JDdndVWS1GYmZTYUY4TEFzbGx2Z2g4SXBvTmNUMTM0WnF3QQ?oc=5",
+      "publisher": "風傳媒",
+      "published_at": "2026-11-13T01:55:00+00:00",
+      "first_seen_at": "2026-11-13T03:58:35+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "0884beaaf72c0958271a",
+      "category": "兌換碼",
+      "game_matches": [],
+      "title": "《寶可夢傳說 Z-A》與《Pokémon Pokopia》神秘禮物兌換碼！免費領色違傳說寶可夢、家具 - Pokemon Hubs",
+      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1qdDNxOGU5OC01WTRNY1hSWkM1T1BxWHNfanNTTl80Vk5vUUNERkQteWJOdGM4anU4b2J4ZkJzQ2dzSXd6eXVDeGFkUEZZY1plOWdyOUVYRThSTXhPZnNwTDBCRUI5b2JmSGxYbVhQVXNqcG9kZkE?oc=5",
+      "publisher": "Pokemon Hubs",
+      "published_at": "2026-11-12T15:58:14+00:00",
+      "first_seen_at": "2026-11-13T03:58:35+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
     {
       "id": "9dab466db17051eb3388",
       "category": "兌換碼",

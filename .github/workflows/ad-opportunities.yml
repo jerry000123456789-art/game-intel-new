@@ -1,55 +1,11 @@
-name: Discover non-miHoYo game advertising opportunities
+name: Archived advertising opportunity collector (manual only)
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'scripts/collect_ad_opportunities.py'
-      - 'scripts/test_ad_opportunities.py'
-      - 'config/ad_opportunity_sources.json'
-      - '.github/workflows/ad-opportunities.yml'
-  schedule:
-    - cron: '29 * * * *'
 permissions:
-  contents: write
-concurrency:
-  group: ad-opportunity-radar
-  cancel-in-progress: false
+  contents: read
 jobs:
-  radar:
+  archived:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 1
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-          fetch-depth: 0
-          persist-credentials: true
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - name: Check conservative ranking and source parsing
-        run: python scripts/test_ad_opportunities.py
-      - name: Collect current sources and preserve evidence
-        run: python scripts/collect_ad_opportunities.py
-      - name: Commit snapshots without overwriting parallel collector
-        run: |
-          git add data/ad_opportunities.json data/ad_opportunity_status.json
-          if ! git diff --cached --quiet; then
-            git config user.name 'github-actions[bot]'
-            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git commit -m 'Refresh game ad opportunity candidates from public sources'
-            for attempt in 1 2 3; do
-              git fetch origin main
-              if ! git rebase origin/main; then
-                git rebase --abort || true
-                echo "Conflict when rebasing; leaving published data untouched."
-                exit 1
-              fi
-              if git push origin HEAD:main; then
-                exit 0
-              fi
-              sleep 2
-            done
-            exit 1
-          fi
+      - run: echo 'Inactive. The site now focuses exclusively on Google Play and App Store new-game discovery.'

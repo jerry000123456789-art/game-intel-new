@@ -1,0 +1,130 @@
+{
+  "version": 2,
+  "updated_at": "2026-11-14",
+  "countries": [
+    "TW",
+    "US",
+    "JP",
+    "KR",
+    "HK",
+    "SG"
+  ],
+  "primary_markets": [
+    "TW",
+    "US"
+  ],
+  "google_searches_per_run": 12,
+  "google_queries": [
+    "新上市遊戲",
+    "預先註冊遊戲",
+    "新遊戲",
+    "即將上市 RPG",
+    "塔防 新遊戲",
+    "放置 遊戲",
+    "新手遊",
+    "pre register game",
+    "new mobile games",
+    "upcoming games",
+    "new rpg",
+    "idle rpg",
+    "tower defense",
+    "strategy game",
+    "卡牌新遊戲",
+    "三國遊戲",
+    "new action rpg",
+    "online game"
+  ],
+  "google_categories": [
+    "https://play.google.com/store/games?hl=zh_TW&gl=TW",
+    "https://play.google.com/store/games?hl=zh_TW&gl=US",
+    "https://play.google.com/store/apps/collection/promotion_3000000d51_pre_registration_games?hl=zh_TW&gl=TW",
+    "https://play.google.com/store/apps/collection/promotion_3000000d51_pre_registration_games?hl=zh_TW&gl=US"
+  ],
+  "apple_feed_kinds": [
+    "newapplications",
+    "newfreeapplications",
+    "newpaidapplications",
+    "topfreeapplications"
+  ],
+  "apple_feed_countries": [
+    "TW",
+    "US",
+    "JP",
+    "KR",
+    "HK",
+    "SG"
+  ],
+  "direct_google_ids": [
+    {
+      "id": "com.azragames.ungodly",
+      "label": "UnGodly"
+    },
+    {
+      "id": "com.looperse.td3kingdom",
+      "label": "三國組合塔防2"
+    },
+    {
+      "id": "com.jiys.mfqb",
+      "label": "寰宇卡尊Online"
+    },
+    {
+      "id": "com.curiousdotlab.level99",
+      "label": "等級99億"
+    }
+  ],
+  "direct_apple_ids": [
+    {
+      "id": "6740617332",
+      "label": "UnGodly"
+    }
+  ],
+  "manual_identity_links": [
+    {
+      "id": "ungodly",
+      "android": [
+        "com.azragames.ungodly"
+      ],
+      "ios": [
+        "6740617332"
+      ],
+      "aliases": [
+        "UnGodly"
+      ]
+    },
+    {
+      "id": "three-kingdoms-combo-defense-2",
+      "android": [
+        "com.looperse.td3kingdom"
+      ],
+      "ios": [],
+      "aliases": [
+        "三國組合塔防2",
+        "Three Kingdoms Combo Defense 2",
+        "Three Kingdoms: Combo Defense 2"
+      ]
+    },
+    {
+      "id": "huanyu-card-online",
+      "android": [
+        "com.jiys.mfqb"
+      ],
+      "ios": [],
+      "aliases": [
+        "寰宇卡尊Online",
+        "寰宇卡尊 Online"
+      ]
+    },
+    {
+      "id": "lv99b",
+      "android": [
+        "com.curiousdotlab.level99"
+      ],
+      "ios": [],
+      "aliases": [
+        "等級99億",
+        "LV 9.9B"
+      ]
+    }
+  ],
+  "note": "Seeds are verification targets, not the whole search. Google Play public search is partial and may be blocked. Apple official public RSS is ranked/limited. Never claim complete global inventory."
+}

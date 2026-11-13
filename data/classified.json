@@ -1,7 +1,19 @@
 {
-  "updated_at": "2026-11-13T07:23:23+00:00",
+  "updated_at": "2026-11-13T10:06:07+00:00",
   "note": "僅依標題比對遊戲與日期字樣；日期不代表活動起迄、上市日期；未擷取或驗證兌換碼。",
   "items": [
+    {
+      "id": "8431f27531b0f6fd0a98",
+      "category": "新遊戲資訊",
+      "game_matches": [],
+      "title": "Roguelike 自走棋遊戲《九王》正式上市正式版追加自訂規則「小丑模式」與逾30 項全新法令《9 Kings》 - GNN 新聞網",
+      "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBrSnVQVG91bEh6cnNPUGQtRVhjYXBGVkxoX0RSWE0zYmMtSklsODk2VXJUTFBxc1NLVzJHOFRLY1RPa1pRZENSUTRxeG8yQV9aVVpZdFVmdjE?oc=5",
+      "publisher": "GNN 新聞網",
+      "published_at": "2026-11-13T09:23:06+00:00",
+      "first_seen_at": "2026-11-13T10:06:07+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
     {
       "id": "7f77a04d0bcc36c22966",
       "category": "新遊戲資訊",
@@ -241,6 +253,18 @@
       "publisher": "4Gamers",
       "published_at": "2026-11-10T10:29:23+00:00",
       "first_seen_at": "2026-11-12T03:59:51+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "563299cbfe5835024549",
+      "category": "新遊戲資訊",
+      "game_matches": [],
+      "title": "《王國W：血盟之誓》11/17正式公測！事前登錄突破50萬 野外PK、公會玩法搶先看！ - PChome Online 新聞",
+      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaTZDWkJwa1Z6UERDb3JjcWFlSWtLa1laMkdoVDJpZXhjejBlV2plSVFLZFRQaGh6TnR1ZWhpWTFtMDFiZmg2UzlnRGlYd2xRU1NUTHU3RDY1S3lkZGNCbndvQ1NpeDJaWkFRUFZGTGstTlFyUGdNOVl4U1JfSXZ4M2Y0N0F1VTNM?oc=5",
+      "publisher": "PChome Online 新聞",
+      "published_at": "2026-11-10T10:07:11+00:00",
+      "first_seen_at": "2026-11-13T10:06:07+00:00",
       "date_mentions": [],
       "review_required": true
     },
@@ -1828,6 +1852,18 @@
       "publisher": "Wuthering Waves",
       "published_at": "2026-04-29T07:00:00+00:00",
       "first_seen_at": "2026-11-07T13:34:22+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "b3d8515164222d8094f0",
+      "category": "活動行事曆",
+      "game_matches": [],
+      "title": "《荒野亂鬥》×《我的英雄學院》聯動開跑！首度攜手日系動畫IP 推出限定內容，五款造型等你收藏！ - SouNova 少女星",
+      "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5VX2NUQzRVMmxUa2l4SF9TNUk2cUtMTTJsQlhpcldKT3RfUlQyV2ZFRHliclZ0MmZfekNldFpKSkVHUUxWS2RqNkpNYzhHV1NkRWdxU0Q3eUNEalI2ckpRdXQ5Y2N6UEZ0bVlEQ3NJaXdwdFU?oc=5",
+      "publisher": "SouNova 少女星",
+      "published_at": "2026-04-29T07:00:00+00:00",
+      "first_seen_at": "2026-11-13T10:06:07+00:00",
       "date_mentions": [],
       "review_required": true
     },

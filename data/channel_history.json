@@ -1,30 +1,259 @@
 {
-  "updated_at": "2026-11-13T07:23:25+00:00",
-  "status": "partial",
-  "fetched": 30,
-  "errors": [
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOCtiyIH-Dt00Ntv-WqPgfw",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNH35X4JoxqnZHRyWGI04Vg",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC4c-wTOqEID-_vH4MhNs06w",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC-e2q_YhFnfsEggbJsTLPHg",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_XZ4O10pZq9RCigggGSB1A",
-      "error": "HTTP Error 404: Not Found"
-    }
-  ],
+  "updated_at": "2026-11-13T10:06:09+00:00",
+  "status": "ok",
+  "fetched": 105,
+  "errors": [],
   "items": [
+    {
+      "id": "b80312a1a91b57b42f1daaab",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《可愛冒險物語》登陸 Switch 2 平台 與好奇小野豬一同展開溫馨旅程",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=315012",
+      "publisher": "",
+      "published_at": "2026-11-13T17:46:20+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "873b7c8a5bf074fa79a0a897",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "臺灣漫畫基地響應白晝之夜首度開放玩至深夜 常設展「臺漫現此時」即日起更新展品",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=315011",
+      "publisher": "",
+      "published_at": "2026-11-13T17:37:13+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "ec33e7cf8e6a65fb140f6b76",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "跨越 32 年時光終於參戰！《餓狼傳說 CotW》DLC 角色「拉奧」11/19 上線",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=315010",
+      "publisher": "",
+      "published_at": "2026-11-13T17:31:07+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "ad7ac929c1242bf31cfe7c63",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《劇場版 來自深淵：覺醒的神秘》11 月 20 日全台上映 首周特典、特別場活動情報一次公開",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=315009",
+      "publisher": "",
+      "published_at": "2026-11-13T17:30:04+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "b4a47712ba9a54171f17b8d9",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "Roguelike 自走棋遊戲《九王》正式上市 正式版追加自訂規則「小丑模式」與逾 30 項全新法令",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=315008",
+      "publisher": "",
+      "published_at": "2026-11-13T17:23:06+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "0c390b250c86db2652ccef31",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "卡娜赫拉的小動物「新北歡樂耶誕城」快閃店 今日起正式登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=315007",
+      "publisher": "",
+      "published_at": "2026-11-13T17:09:17+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "1333dc65402f932d13f5c58d",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《寶可夢傳說 Z-A》《Pokemon Pokopia》推出神秘禮物活動 發放異色傳說寶可夢與家具套組",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=315006",
+      "publisher": "",
+      "published_at": "2026-11-13T17:06:51+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "fb049570d4901ff7aeac7f4d",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "UN:Me《非我：擇誰》 公開動作捕捉幕後花絮影片　遊戲展現寄宿於少女體內 4 個靈魂各自個性",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=315004",
+      "publisher": "",
+      "published_at": "2026-11-13T16:54:05+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "208c49cb81be576ae1bfe199",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "語言解讀解謎冒險遊戲《皮古奇旅》宣布將由松竹遊戲擔任全球發行商",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=315003",
+      "publisher": "",
+      "published_at": "2026-11-13T16:53:56+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "8c5374c97bf967aa091851f5",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "農場 Roguelike 遊戲《瘋碰農場》今日公開試玩版",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=315002",
+      "publisher": "",
+      "published_at": "2026-11-13T16:48:58+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "3ac1ba57dc26412545f690d1",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《神鬼寓言》公開 Xbox 25 週年全新任務實機影片 深入魔法異變森林與受詛咒生物交戰",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=315001",
+      "publisher": "",
+      "published_at": "2026-11-13T16:47:00+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "de23797d3ef01776c462bce1",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "HTML 5 仙俠 MMORPG《一劍山河》今日推出",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=315000",
+      "publisher": "",
+      "published_at": "2026-11-13T16:46:26+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "a10fc8ecbb1f019b7a5bd303",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《燕雲十六聲》今日將推出全新區域「不見山・滹沱」　預告雙槍武學將於 11/26 上線",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314999",
+      "publisher": "",
+      "published_at": "2026-11-13T16:46:20+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "e9766d25a999615d49ee22c8",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "旅日動畫師小白與獲獎小說家西卡攜手打造《走走小日》11/24 釋出試玩版　尋找神秘小日獸喚醒沉睡室友",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314997",
+      "publisher": "",
+      "published_at": "2026-11-13T16:36:51+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "ec30ffe65687c5652e5aa52e",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "黑暗童話解謎冒險遊戲《黑暗童話：灰姑娘》Demo 版已於 Steam 登場 正式版明年第一季發售",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314996",
+      "publisher": "",
+      "published_at": "2026-11-13T16:35:22+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "8901691fdf8665ff3fae7e3a",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《黎明死線》將於 WePlay 上海發表全新直播模式與血腥內容自定義選項",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314993",
+      "publisher": "",
+      "published_at": "2026-11-13T16:25:55+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "4c9750c1b39e3ed496f26d05",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "珍艾碧絲透露《多可比 DokeV》開發速度正顯著提升　力拚 2028 年下半年正式問世",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314992",
+      "publisher": "",
+      "published_at": "2026-11-13T16:21:13+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "98f32265c66c765fb4547619",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《德軍總部 3》確認製作中 由《印第安納瓊斯：古老之圈》開發商回歸操刀",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314991",
+      "publisher": "",
+      "published_at": "2026-11-13T16:19:40+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "f39a49ea70fc3292bbe23202",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "holo Indie 桌面陪伴遊戲《HoloCozy》今日正式發售 藉由 hololive 成員陪你度過桌面日常",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314990",
+      "publisher": "",
+      "published_at": "2026-11-13T16:10:40+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "28160fbbd30f3f61adcf3fdc",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "克蘇魯卡牌生存遊戲《陰暗航線》Steam 免費試玩版開放下載",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314988",
+      "publisher": "",
+      "published_at": "2026-11-13T16:06:05+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "425caf05e5be31324b5543e5",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "NC 新作《餘燼重生之都》即日起開放台灣等地玩家申請 Alpha 測試　新公開測試預覽影片",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314986",
+      "publisher": "",
+      "published_at": "2026-11-13T15:59:22+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "e0627c5df798a8ac2c2055f5",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "奇幻冒險RPG《降魔戰記》繁體中文版今日正式開啟 Steam 商店頁",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314985",
+      "publisher": "",
+      "published_at": "2026-11-13T15:58:32+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "a71a88a45f5065f23d2c43e5",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《模擬公車 27 》免費更新加入兩款比亞迪授權電動巴士",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314982",
+      "publisher": "",
+      "published_at": "2026-11-13T15:52:28+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "0a9a32e89b9814e07618bddc",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "MSI MGA 攜手 Red Bull 成為國際電競賽事指定合作夥伴",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314981",
+      "publisher": "",
+      "published_at": "2026-11-13T15:46:22+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "3f6db2fcd06d64ef795f7653",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "Nihon Falcom 業績巨幅成長創歷史新高 確定明年推出《界之軌跡》完結篇",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314980",
+      "publisher": "",
+      "published_at": "2026-11-13T15:42:28+08:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
     {
       "id": "985642b0da4e24b95e879e1d",
       "category": "巴哈姆特情報",
@@ -136,6 +365,166 @@
       "first_seen_at": "2026-11-13T03:58:37+00:00"
     },
     {
+      "id": "331f1e2a7b7a935e1b30a6cc",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》幫兄弟工商，工商到一半當場倒地…然後發現自己沒錢 #CD喜德",
+      "url": "https://www.youtube.com/shorts/3X_fA7XeYOI",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-13T10:00:28+00:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "73069a7bb4c3b0a7d1477afe",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》繪影不用想！角色只分4種，核心、套裝、主詞條照公式配 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=A5hvNh733tQ",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-13T10:00:23+00:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "8f55284c89752ee0d365f7ef",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《星之救援者 StarSavior》【國際版 #89】主線關卡  36-36 頭目打法",
+      "url": "https://www.youtube.com/watch?v=7LYi6qTi2QA",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-13T08:36:08+00:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "557f7f8747a2d51978c0bd35",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《星之救援者 StarSavior》【國際版 #88】新老婆 偏愛魔女 亞瑟菈 【新老婆實測】裝備 支援卡 隊伍 推薦",
+      "url": "https://www.youtube.com/watch?v=pLfKWTR01FA",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-13T06:55:27+00:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "fb60a2aac52332d7b70fcd8f",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《星之救援者 StarSavior》【國際版 #87】新老婆 執行者 吉萊 【新老婆實測】裝備 支援卡 隊伍 推薦",
+      "url": "https://www.youtube.com/watch?v=b37f1ZBuV3w",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-13T06:01:08+00:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "571d50b61b96e21b584947a0",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《露娜：藍色大陸》是一款以經典《LUNA Online》IP打造的 3D Q萌奇幻 MMORPG",
+      "url": "https://www.youtube.com/watch?v=yok2cZBWLH4",
+      "publisher": "怪玩客",
+      "published_at": "2026-11-13T06:00:39+00:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "54d3c323f24470ba76683978",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《RO仙境傳說：世界之旅》這次傳奇盃更好玩了！？我再次轉回法德！德魯伊回歸實戰｜CD喜德直播 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=CH4O3hwR758",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-13T05:04:00+00:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "291fab7125ccade17b10c095",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《聖鬥士星矢EX》# 738 銀河爭霸 快樂青銅組、巔峰對決 開打 | 貴鬼掃蕩加倍 提升鬥士平均等級至250級 | 好友切磋X5 | 遊玩一場 搶分大作戰 規則玩法解說",
+      "url": "https://www.youtube.com/watch?v=4YU5chrxnrM",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-13T04:02:34+00:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "eec064f2dba799cac5addb0e",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《RO仙境傳說：世界之旅》傳奇盃101萬不設上限！女武神試煉不比課金比操作 #CD喜德",
+      "url": "https://www.youtube.com/shorts/w5afF86hPYk",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-13T04:00:14+00:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "46b0877359b10a22e42e2763",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "【仙境傳說倖存者】法師最強流派！冰箭術打滿，火箭雷擊全變冰箭 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=6pibIplqNwg",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-13T04:00:11+00:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "0772a2ea868d250657e8425f",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《等級99億》11月10日更新 消除符文就能讓勇者瘋狂升級 | 集結34名勇者、收集140種神話裝備 挑戰10座地下城、100層關卡與強大首領 喜歡放置RPG、三消益智與無限養成的玩家千萬別錯過",
+      "url": "https://www.youtube.com/watch?v=iknlWnBcfsM",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-13T02:36:45+00:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "42ef0868152db966b4fc8f29",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《寰宇卡尊 Online》11月6日更新 Q版二次元奇幻放置卡牌 RPG | 免費領 10萬張高級招募券 | 角色連攜、陣型配置與出牌時機 打出爆發連擊、逆轉劣勢 實時線上競技對決 考驗策略布局與腦力",
+      "url": "https://www.youtube.com/watch?v=sIRZXUMUjqg",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-13T01:36:52+00:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "18decc1dbf7533f5581f3365",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《星之救援者 StarSavior》｜8點抽支援卡｜新老婆 偏愛魔女 直接換",
+      "url": "https://www.youtube.com/watch?v=5GvgJH0bDYE",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-13T01:15:50+00:00",
+      "first_seen_at": "2026-11-12T13:19:50+00:00"
+    },
+    {
+      "id": "431d2b4f04d44f7a29c1ef27",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《三國組合塔防2》11月11日更新 Three Kingdoms Combo Defense 2 可愛三國武將登場 召喚、收集、合成 打造夢想中的最強陣容 搭配武將羈絆與寶物 組合專屬戰術",
+      "url": "https://www.youtube.com/watch?v=M4vFjhjxNPk",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-13T01:15:24+00:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "72c2d34877d40ad692ecd1ea",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《無限城決：破曉》鬼滅之刃 動漫IP風格 3D放置卡牌 RPG | 招募鬼滅經典角色 炭治郎、禰豆子、我妻善逸、嘴平伊之助、嘴平伊之助 組建鬼殺小隊 搭配呼吸法共鳴疊加戰力 深入無限城 迎戰暗夜危機",
+      "url": "https://www.youtube.com/watch?v=hgWucCIj8Ko",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-13T00:54:27+00:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
+      "id": "8df2336a8a19dbfaccdebf54",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《變形金剛：無盡戰爭》About Transformers: Eternal War 11月12日 全球雙平台正式上線 博狂聯手 決戰暗黑金剛 | 1000抽免費召喚 次日登入即送狂派角色「音波」",
+      "url": "https://www.youtube.com/watch?v=4Tcamxmb8H0",
+      "publisher": "最終の哈姆",
+      "published_at": "2026-11-13T00:26:39+00:00",
+      "first_seen_at": "2026-11-13T10:06:09+00:00"
+    },
+    {
       "id": "4daa21ac016b8474d757bdfe",
       "category": "巴哈姆特情報",
       "origin": "巴哈姆特",
@@ -144,6 +533,16 @@
       "publisher": "",
       "published_at": "2026-11-12T23:58:36+08:00",
       "first_seen_at": "2026-11-12T16:08:30+00:00"
+    },
+    {
+      "id": "2511c44d0ac200c5d8796971",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "【仙境傳說倖存者】RO倖存者開農！太毒了只好開台農｜CD喜德直播 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=nnFhpG0xlGw",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-12T23:39:00+00:00",
+      "first_seen_at": "2026-11-12T10:09:40+00:00"
     },
     {
       "id": "6a1143fff2856616b032aa20",
@@ -776,16 +1175,6 @@
       "first_seen_at": "2026-11-12T03:59:53+00:00"
     },
     {
-      "id": "18decc1dbf7533f5581f3365",
-      "category": "影片情報",
-      "origin": "YouTube",
-      "title": "《星之救援者 StarSavior》｜8點抽支援卡｜新老婆 偏愛魔女 直接換",
-      "url": "https://www.youtube.com/watch?v=5GvgJH0bDYE",
-      "publisher": "【索爾遊戲】",
-      "published_at": "2026-11-12T11:50:48+00:00",
-      "first_seen_at": "2026-11-12T13:19:50+00:00"
-    },
-    {
       "id": "9a7d55d3f7afd9d4ff488407",
       "category": "影片情報",
       "origin": "YouTube",
@@ -854,26 +1243,6 @@
       "publisher": "",
       "published_at": "2026-11-12T09:40:00+08:00",
       "first_seen_at": "2026-11-12T03:59:53+00:00"
-    },
-    {
-      "id": "2511c44d0ac200c5d8796971",
-      "category": "影片情報",
-      "origin": "YouTube",
-      "title": "【仙境傳說倖存者】RO倖存者開農！太毒了只好開台農｜CD喜德直播 #CD喜德",
-      "url": "https://www.youtube.com/watch?v=nnFhpG0xlGw",
-      "publisher": "CD喜德",
-      "published_at": "2026-11-12T08:23:55+00:00",
-      "first_seen_at": "2026-11-12T10:09:40+00:00"
-    },
-    {
-      "id": "54d3c323f24470ba76683978",
-      "category": "影片情報",
-      "origin": "YouTube",
-      "title": "《RO仙境傳說：世界之旅》這次傳奇盃更好玩了！？我再次轉回法德！德魯伊回歸實戰｜CD喜德直播 #CD喜德",
-      "url": "https://www.youtube.com/watch?v=CH4O3hwR758",
-      "publisher": "CD喜德",
-      "published_at": "2026-11-12T07:44:57+00:00",
-      "first_seen_at": "2026-11-12T13:19:50+00:00"
     },
     {
       "id": "4d9c2ff0d0a3b05ee970015d",

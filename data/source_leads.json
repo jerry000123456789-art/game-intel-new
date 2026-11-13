@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-13T07:23:59.150093+00:00",
-  "note": "Historical source leads retained; not validated codes, full guides, or confirmed event dates.",
+  "updated_at": "2026-11-13T10:06:41+00:00",
+  "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
       {
@@ -81,6 +81,24 @@
         "publisher": "games.gg",
         "published_at": "2026-11-10T21:09:53+00:00",
         "first_seen_at": "2026-11-10T21:48:03+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Fortnite",
+        "kind": "codes",
+        "title": "Fortnite MEGA RED VS BLUE 2026年11月兌換碼整理 - games.gg",
+        "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQVgyTkVvSl9MVEg1ajd1MVdXcVc0Q0RUT2R0bUZhc2NCY1hSNzBRMlFoZ1E1TjlXbHlPcTBlbEtXZk5aZERWY1RDOGplV2ctNk1nY2ctZjBHbVpXcER5MzZmX2htcUwxUndVNzFMS1Q3ekhPZ3NQd2F1Z1Q5T1FwVkxJeHF6cFg2SEg1NUhuQXgtcHdxUW8tVzZZcUZfNnV5Vl9DbTI4N1FLR1BiSkFqSjNtRWJzTEZtc3lmNWlwX19EbEpHUzZWV1YyOXp2cm9felhn?oc=5",
+        "published_at": "2026-11-10T20:27:07+00:00",
+        "publisher": "games.gg",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Fortnite",
+        "kind": "codes",
+        "title": "Fortnite 序號兌換指南：操作步驟與問題排解 - games.gg",
+        "source_url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPSXpzSWN3VFBZRUVUalVyNEQ5QV9DNzNCMTZuWU9zb2NYeG9ad0g1MndNZDk0MmFWcEM3cUNtWk9ub3VGTEI4RmJ0UVJUQ3pzRXBBWmpmSEFaemhPdVlsdE1MUFlOVWU2MEVlamVMSFB4b29oMG5zSjBKcHBLSHhGQnJLZ1dycHJhZVE3b3d5WkxKMTBZZ0pPZGtrYWZUbnpqano2ekFpSE40REhNUFMyVjUxdk9IbUl5ejh1bDhuSXhoLXRKcnZGUXBUb19pVVowLVlTdHg5MDdxNDVERHlkakZ5R3JHbmYzU2V4a2ZjTFVSVUhtdzV2OGZCZjZaSElhQ1VjQ3Z5cUFoaHVpYWxJbWk0Nzc?oc=5",
+        "published_at": "2026-11-10T09:43:14+00:00",
+        "publisher": "games.gg",
         "status": "source_lead_only"
       },
       {
@@ -575,6 +593,24 @@
         "status": "source_lead_only"
       },
       {
+        "game": "Fortnite",
+        "kind": "guides",
+        "title": "Fortnite Treasure Hunters 指南：Gold Lil’ Uzi Vert Skin 獲取攻略 - games.gg",
+        "source_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMEM3VnJNQ2R2b3VIbWQ2M2ozaFp2cHVyNUF0VUtibmcxc0NEUk9UR0ZodEJINS0wdHE3clJFNDk3V1cwMHhpTnExYVZldUt0X0RENUVqY0s3QV8xajJPSnRjV0F2Q0QxWW1hWlZRWExhc3N1S1Zfcmk3MVFaWm50a1M1MFdleTYxX2ZSZlFvaV9GbHVKVXFIUE14R2JIa29vdWV2NkMydUZNR2E1Y0ZITVYtY2E0eU5sT08yampPY0o2akQ5MV95MUpiMFBvU3d1SXFXQ2ZXUEktcHJ0SEE?oc=5",
+        "published_at": "2026-11-09T22:51:14+00:00",
+        "publisher": "games.gg",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Fortnite",
+        "kind": "guides",
+        "title": "如何遊玩 Fortnite 分割畫面：設定與需求教學 - games.gg",
+        "source_url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQUF9oNi1weUEtTHR1QkxXdFFnbXFmOG1HMjdJMEhNN3FETUZfS1VpUFdlNlhWZE5QYlEwTVFzZE9WSTBsNWxVc2ctMkJpU2Z1SjJoVjdPRzh2eU04WFVBeV9RYVNsRFhiN1cxNEZRVEwyUkN5WjRNSk56QjVwZVZkdlAxMlFLYWNsWURTdG1HX1kwajJoUE1McllDci1aU2gtYW5YZjJQWVk5RUxEakpMcURvQjBLZmV2WTM4Y1BHdGhRSFZkUVJoQW5OeVI2WHpiRG5zZHNPdHI0R2E5MzgwZF9kVFpNcmc3STY1b04yUkhWaEtpM29fYWRKbGJtZnBLOGVBekhPeWFGT3RrR3E4X2VDSmdEUQ?oc=5",
+        "published_at": "2026-11-09T20:26:32+00:00",
+        "publisher": "games.gg",
+        "status": "source_lead_only"
+      },
+      {
         "game": "神魔之塔",
         "kind": "guides",
         "title": "【神魔之塔】2026.61 版本更新懶人包！三大重點活動玩法全解析！ - YouTube",
@@ -626,6 +662,15 @@
         "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZW9pdF8wd2daWlRLWU0xaFlrLVJWR00wNEFjUExvV3pneEh3MGVVYllXc1VSZnV2TTBNamJYdmJJUV91OW5VYldXV3ZRLTBGYlVUbFBTSXZ3QmZKbXVyT3poTFRSV09NZE4yVjUtLVFnNEJMWVQ0VDM4WGFFaGMtMWlyVGZtbEtkQUdnbU0waHVHcEIxYTZjODRiYw?oc=5",
         "published_at": "2026-11-06T05:16:58+00:00",
         "publisher": "TradingView",
+        "status": "source_lead_only"
+      },
+      {
+        "game": "Fortnite",
+        "kind": "guides",
+        "title": "Fortnite Treasure Hunters Guide：全 Wanted Poster 位置總覽 - games.gg",
+        "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRkE4Zjc0dFJUVE1aUzNzelZHb3pIWkt6bnU5bEhyekZUVG9XWXZiVm9YUGFUbkY1XzNLU0tFcGlfUV9BcXF2ZlVjcXRuMEw5dTljMVQ2S0Z2R1lyRjh4dDg2TWlWMVI0ZDJUNm9TVjNrNnhCSnlVa0pKSWVMbEw4TXBVanF6WXFGTVJ0MmN5MlhTSlNpa3JzUlNiT2F6SzJEQUpxTDcxZVgzZElobHRuemtSNW5PUHlNVHpiQWpqTjFXX1huQW1wc1E0dkI4dw?oc=5",
+        "published_at": "2026-11-05T22:20:11+00:00",
+        "publisher": "games.gg",
         "status": "source_lead_only"
       },
       {
@@ -1526,7 +1571,7 @@
         "kind": "events",
         "title": "Epic Games 於 Tokyo 推出真實世界《Fortnite》x《ONE PIECE》尋寶活動 - Hypebeast",
         "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQenhtNkZYT2V6MHdROUd5UmNzZjFlV0lUSlJjTFotNUJ0MlFjRzJVYXZpNlRxVzlpckxMZHhjdFJWSUx0V2tHMVo4VTJkUDhGLVBvODZWUHpEMml6Mm9IWVkzb0pRZy1XZWRKMXBWOWpVZFFCazVMVzJfR01aMVBubnVVOVU2RzI2TDJZejgwTl9uOC02a2UzdnF1c0JDQjZmOHB6bA?oc=5",
-        "published_at": "2026-11-04T08:33:31+00:00",
+        "published_at": "2026-11-04T08:00:00+00:00",
         "publisher": "Hypebeast",
         "status": "source_lead_only"
       },
@@ -2135,6 +2180,14 @@
         "publisher": "4Gamers",
         "published_at": "2026-06-10T07:00:00+00:00",
         "first_seen_at": "2026-11-07T08:17:59+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "title": "《荒野亂鬥》×《我的英雄學院》聯動開跑！首度攜手日系動畫IP 推出限定內容，五款造型等你收藏！ - SouNova 少女星",
+        "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5VX2NUQzRVMmxUa2l4SF9TNUk2cUtMTTJsQlhpcldKT3RfUlQyV2ZFRHliclZ0MmZfekNldFpKSkVHUUxWS2RqNkpNYzhHV1NkRWdxU0Q3eUNEalI2ckpRdXQ5Y2N6UEZ0bVlEQ3NJaXdwdFU?oc=5",
+        "publisher": "SouNova 少女星",
+        "published_at": "2026-04-29T07:00:00+00:00",
+        "first_seen_at": "2026-11-13T10:06:07+00:00",
         "status": "source_lead_only"
       },
       {

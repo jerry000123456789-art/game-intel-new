@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T03:58:35+00:00",
+  "updated_at": "2026-11-13T07:23:23+00:00",
   "note": "僅依標題比對遊戲與日期字樣；日期不代表活動起迄、上市日期；未擷取或驗證兌換碼。",
   "items": [
     {
@@ -83,6 +83,20 @@
       "publisher": "Ludens Media",
       "published_at": "2026-11-11T10:32:53+00:00",
       "first_seen_at": "2026-11-11T13:15:47+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "304bc89a03caf9e66274",
+      "category": "官方遊戲公告",
+      "game_matches": [
+        "崩壞：星穹鐵道"
+      ],
+      "title": "4.7版本「此刻，將群星付之一笑」版本更新說明| 《崩壞：星穹鐵道》官方網站——願此行，終抵群星 - Honkai: Star Rail",
+      "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBoMktKSXR0aFhXSzFINmlfMDEwaThJak9ITHhkdzVjSWt1RnpydnEtY2NRVG85MlNwNmd0SjJxdWFrX2EwZFdRN0p4S2l3dVFydW9rNXpB?oc=5",
+      "publisher": "Honkai: Star Rail",
+      "published_at": "2026-11-11T08:00:00+00:00",
+      "first_seen_at": "2026-11-13T07:23:23+00:00",
       "date_mentions": [],
       "review_required": true
     },
@@ -817,6 +831,18 @@
       "publisher": "Ludens Media",
       "published_at": "2026-10-15T07:00:00+00:00",
       "first_seen_at": "2026-11-07T07:20:13+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
+      "id": "389c1b64100a576014bd",
+      "category": "兌換碼",
+      "game_matches": [],
+      "title": "【熱血三國M】兌換碼與禮包碼序號・10月12日更新 - Ludens Media",
+      "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5kWWU5TlJwYTkzWGxTSGE4ZXU1VlRpNGlPSk5JcGV0UWdHbkc0ZEVDbmlyVGtKSlpoNXlLTkFqaXpiUkRBQ0tWWXBDdjJRdw?oc=5",
+      "publisher": "Ludens Media",
+      "published_at": "2026-10-12T07:00:00+00:00",
+      "first_seen_at": "2026-11-13T07:23:23+00:00",
       "date_mentions": [],
       "review_required": true
     },

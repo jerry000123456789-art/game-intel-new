@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T03:58:37+00:00",
+  "updated_at": "2026-11-13T07:23:25+00:00",
   "status": "partial",
   "fetched": 30,
   "errors": [
@@ -25,6 +25,76 @@
     }
   ],
   "items": [
+    {
+      "id": "985642b0da4e24b95e879e1d",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《三國：謀定天下》全新問鼎賽季「陳倉之圍」11 月 21 日開啟 年度武將「神略冠世・周瑜」與首期「冠軍服」重磅來襲",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314978",
+      "publisher": "",
+      "published_at": "2026-11-13T15:15:02+08:00",
+      "first_seen_at": "2026-11-13T07:23:25+00:00"
+    },
+    {
+      "id": "1b982ff27fc9bc5a9a4c4448",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "CHARGESPOT 攜手《Pokemon GO》展開合作 3 萬個行動電源借電站化身補給站及道館",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314975",
+      "publisher": "",
+      "published_at": "2026-11-13T14:45:56+08:00",
+      "first_seen_at": "2026-11-13T07:23:25+00:00"
+    },
+    {
+      "id": "f4d2e91b2f3b03bff7b1ac59",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《瑪奇英雄傳：反抗命運》確認登上 PS5 平台　最新劇情前導預告影片曝光",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314974",
+      "publisher": "",
+      "published_at": "2026-11-13T14:44:56+08:00",
+      "first_seen_at": "2026-11-13T07:23:25+00:00"
+    },
+    {
+      "id": "1e0e66c6625a0307ab34a1df",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《超時空輝耀姬！》聯名咖啡廳下周起於台北展開「特殊浴衣」限定造型首度登場",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314972",
+      "publisher": "",
+      "published_at": "2026-11-13T14:32:54+08:00",
+      "first_seen_at": "2026-11-13T07:23:25+00:00"
+    },
+    {
+      "id": "abdbf7cf1d9585439cd1e1e1",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "鼓勵前往罪惡城市出差！《幻獸帕魯》團隊 Pocketpair 宣布給予員工特別假迎接《俠盜獵車手 6》上市",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314969",
+      "publisher": "",
+      "published_at": "2026-11-13T14:02:07+08:00",
+      "first_seen_at": "2026-11-13T07:23:25+00:00"
+    },
+    {
+      "id": "7510811f196cae37a46ca4a6",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "皮克斯動畫電影《貓的急轉彎》公開最新預告影片 隨著黑貓穿梭於威尼斯街頭展開冒險",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314968",
+      "publisher": "",
+      "published_at": "2026-11-13T12:58:00+08:00",
+      "first_seen_at": "2026-11-13T07:23:25+00:00"
+    },
+    {
+      "id": "3d95fdc991b68b2437b6cf93",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《三國群英傳：策定九州》全新逐鹿賽季「群英並起」詳情釋出 回歸混戰地圖與新武將前瞻",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=314967",
+      "publisher": "",
+      "published_at": "2026-11-13T12:31:46+08:00",
+      "first_seen_at": "2026-11-13T07:23:25+00:00"
+    },
     {
       "id": "a69e68555eea3b08f90d3d3e",
       "category": "巴哈姆特情報",

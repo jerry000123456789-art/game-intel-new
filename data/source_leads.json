@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T03:59:09.665259+00:00",
+  "updated_at": "2026-11-13T07:23:59.150093+00:00",
   "note": "Historical source leads retained; not validated codes, full guides, or confirmed event dates.",
   "items": {
     "codes": [
@@ -335,6 +335,14 @@
         "publisher": "Ludens Media",
         "published_at": "2026-10-15T07:00:00+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "title": "【熱血三國M】兌換碼與禮包碼序號・10月12日更新 - Ludens Media",
+        "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5kWWU5TlJwYTkzWGxTSGE4ZXU1VlRpNGlPSk5JcGV0UWdHbkc0ZEVDbmlyVGtKSlpoNXlLTkFqaXpiUkRBQ0tWWXBDdjJRdw?oc=5",
+        "publisher": "Ludens Media",
+        "published_at": "2026-10-12T07:00:00+00:00",
+        "first_seen_at": "2026-11-13T07:23:23+00:00",
         "status": "source_lead_only"
       },
       {

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T03:15:41+00:00",
+  "updated_at": "2026-11-13T10:26:11+00:00",
   "items": [
     {
       "game": "明日方舟",
@@ -18,7 +18,7 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-13T03:15:41+00:00",
+      "updated_at": "2026-11-13T10:26:11+00:00",
       "id": "9b07b36727830ace61778bd1",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -40,7 +40,7 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-13T03:15:41+00:00",
+      "updated_at": "2026-11-13T10:26:11+00:00",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
     {
@@ -61,7 +61,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "中國站",
-      "updated_at": "2026-11-13T03:15:41+00:00",
+      "updated_at": "2026-11-13T10:26:11+00:00",
       "id": "c660d235dfa48b5b42b4eafe",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -83,7 +83,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "儲值／禮包時效",
       "market_label": "中國站",
-      "updated_at": "2026-11-13T03:15:41+00:00",
+      "updated_at": "2026-11-13T10:26:11+00:00",
       "id": "20a444facd968b6aa97c54a4",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -105,7 +105,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "儲值／禮包時效",
       "market_label": "中國站",
-      "updated_at": "2026-11-13T03:15:41+00:00",
+      "updated_at": "2026-11-13T10:26:11+00:00",
       "id": "e529d816792d9bc8c1f6c41c",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -127,7 +127,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "中國站",
-      "updated_at": "2026-11-13T03:15:41+00:00",
+      "updated_at": "2026-11-13T10:26:11+00:00",
       "id": "aed9e750f4b2af2a106919cb",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -149,11 +149,22 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-13T03:15:41+00:00",
+      "updated_at": "2026-11-13T10:26:11+00:00",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     }
   ],
   "leads": [
+    {
+      "game": "妮姬",
+      "title": "後悔沒有去！《妮姬》周年展互動羨煞網友 與婚紗瑪麗安敲響禮鐘 - udn遊戲角落",
+      "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBVd2Exenp2aE5Yd1ZoaTcxRFNVV1dteEZXR3F6TFl3WGl4bXpyM1d1X1BrMXZqemV5aDBhTlY1RWtyYXFLZnZOSkFqT1d6YWRxVExfSDBWSVR2ODJDOThMN0lSY3FnUHZjaXJELVVPVnpVZldXcHJyMWJJMHXSAV9BVV95cUxQdjNIZmdDWXc1SExNWUVFdjVtUlpJeVVISEFHcGNPbmdSSTUxMG9yTHllRWpUZjdIMms2Z09xY24zMWdIQzFZZmNFZFZaa3VDWWdycjJreVF0S2Nla19nTQ?oc=5",
+      "google_search_url": "https://www.google.com/search?q=%22%E5%A6%AE%E5%A7%AC%22+%22%E5%BE%8C%E6%82%94%E6%B2%92%E6%9C%89%E5%8E%BB%EF%BC%81%E3%80%8A%E5%A6%AE%E5%A7%AC%E3%80%8B%E5%91%A8%E5%B9%B4%E5%B1%95%E4%BA%92%E5%8B%95%E7%BE%A8%E7%85%9E%E7%B6%B2%E5%8F%8B+%E8%88%87%E5%A9%9A%E7%B4%97%E7%91%AA%E9%BA%97%E5%AE%89%E6%95%B2%E9%9F%BF%E7%A6%AE%E9%90%98+-+udn%E9%81%8A%E6%88%B2%E8%A7%92%E8%90%BD%22",
+      "published_at": "2026-11-13T09:31:51+00:00",
+      "publisher": "udn遊戲角落",
+      "source_type": "Google 新聞搜尋",
+      "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
+      "status": "source_lead_only"
+    },
     {
       "game": "新熱血江湖 Online",
       "title": "《新熱血江湖 Online》歡慶 12 週年！蛋糕靈獸、巨大禮物箱限時登場 多重好禮陪玩家熱鬧過週年！ - Paradaily",

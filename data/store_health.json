@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T15:55:51+00:00",
+  "updated_at": "2026-11-13T18:59:01+00:00",
   "sources": {
     "Google Play 台灣": {
       "state": "success",
@@ -32,49 +32,49 @@
     },
     "Google Play TW": {
       "state": "success",
-      "last_checked_at": "2026-11-13T15:55:51+00:00",
-      "last_success_at": "2026-11-13T15:55:51+00:00",
-      "items_this_run": 76,
+      "last_checked_at": "2026-11-13T18:59:01+00:00",
+      "last_success_at": "2026-11-13T18:59:01+00:00",
+      "items_this_run": 69,
       "source_url": "https://play.google.com/store/games?hl=zh_TW&gl=TW"
     },
     "Google Play US": {
       "state": "success",
-      "last_checked_at": "2026-11-13T15:55:51+00:00",
-      "last_success_at": "2026-11-13T15:55:51+00:00",
-      "items_this_run": 106,
+      "last_checked_at": "2026-11-13T18:59:01+00:00",
+      "last_success_at": "2026-11-13T18:59:01+00:00",
+      "items_this_run": 109,
       "source_url": "https://play.google.com/store/games?hl=zh_TW&gl=US"
     },
     "App Store TW": {
       "state": "success",
-      "last_checked_at": "2026-11-13T15:55:51+00:00",
-      "last_success_at": "2026-11-13T15:55:51+00:00",
-      "items_this_run": 105,
+      "last_checked_at": "2026-11-13T18:59:01+00:00",
+      "last_success_at": "2026-11-13T18:59:01+00:00",
+      "items_this_run": 104,
       "source_url": "https://apps.apple.com/tw/iphone/games"
     },
     "App Store US": {
       "state": "success",
-      "last_checked_at": "2026-11-13T15:55:51+00:00",
-      "last_success_at": "2026-11-13T15:55:51+00:00",
+      "last_checked_at": "2026-11-13T18:59:01+00:00",
+      "last_success_at": "2026-11-13T18:59:01+00:00",
       "items_this_run": 198,
       "source_url": "https://apps.apple.com/us/iphone/games"
     },
     "App Store JP": {
       "state": "success",
-      "last_checked_at": "2026-11-13T15:55:51+00:00",
-      "last_success_at": "2026-11-13T15:55:51+00:00",
+      "last_checked_at": "2026-11-13T18:59:01+00:00",
+      "last_success_at": "2026-11-13T18:59:01+00:00",
       "items_this_run": 214,
       "source_url": "https://apps.apple.com/jp/iphone/games"
     },
     "App Store KR": {
       "state": "success",
-      "last_checked_at": "2026-11-13T15:55:51+00:00",
-      "last_success_at": "2026-11-13T15:55:51+00:00",
-      "items_this_run": 157,
+      "last_checked_at": "2026-11-13T18:59:01+00:00",
+      "last_success_at": "2026-11-13T18:59:01+00:00",
+      "items_this_run": 158,
       "source_url": "https://apps.apple.com/kr/iphone/games"
     },
     "Huawei AppGallery US": {
       "state": "error",
-      "last_checked_at": "2026-11-13T15:55:51+00:00",
+      "last_checked_at": "2026-11-13T18:59:01+00:00",
       "last_success_at": "",
       "items_this_run": 0,
       "error": "官網需 JavaScript 動態載入，目前無可核對清單（3012 bytes）",
@@ -82,29 +82,29 @@
     },
     "Google Play JP": {
       "state": "success",
-      "last_checked_at": "2026-11-13T15:55:51+00:00",
-      "last_success_at": "2026-11-13T15:55:51+00:00",
-      "items_this_run": 79,
+      "last_checked_at": "2026-11-13T18:59:01+00:00",
+      "last_success_at": "2026-11-13T18:59:01+00:00",
+      "items_this_run": 83,
       "source_url": "https://play.google.com/store/games?hl=ja&gl=JP"
     },
     "Google Play KR": {
       "state": "success",
-      "last_checked_at": "2026-11-13T15:55:51+00:00",
-      "last_success_at": "2026-11-13T15:55:51+00:00",
-      "items_this_run": 81,
+      "last_checked_at": "2026-11-13T18:59:01+00:00",
+      "last_success_at": "2026-11-13T18:59:01+00:00",
+      "items_this_run": 74,
       "source_url": "https://play.google.com/store/games?hl=ko&gl=KR"
     },
     "Google Play 預先註冊 TW": {
       "state": "success",
-      "last_checked_at": "2026-11-13T15:55:51+00:00",
-      "last_success_at": "2026-11-13T15:55:51+00:00",
+      "last_checked_at": "2026-11-13T18:59:01+00:00",
+      "last_success_at": "2026-11-13T18:59:01+00:00",
       "items_this_run": 20,
       "source_url": "https://play.google.com/store/apps/collection/promotion_3000000d51_pre_registration_games?hl=zh_TW&gl=TW"
     },
     "Google Play 預先註冊 US": {
       "state": "success",
-      "last_checked_at": "2026-11-13T15:55:51+00:00",
-      "last_success_at": "2026-11-13T15:55:51+00:00",
+      "last_checked_at": "2026-11-13T18:59:01+00:00",
+      "last_success_at": "2026-11-13T18:59:01+00:00",
       "items_this_run": 20,
       "source_url": "https://play.google.com/store/apps/collection/promotion_3000000d51_pre_registration_games?hl=zh_TW&gl=US"
     }

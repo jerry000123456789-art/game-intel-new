@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T15:55:22+00:00",
+  "updated_at": "2026-11-13T18:58:50+00:00",
   "note": "僅依標題比對遊戲與日期字樣；日期不代表活動起迄、上市日期；未擷取或驗證兌換碼。",
   "items": [
     {
@@ -1446,6 +1446,18 @@
       "review_required": true
     },
     {
+      "id": "4bfc466a41104a9e02b7",
+      "category": "活動行事曆",
+      "game_matches": [],
+      "title": "《LINE Rangers》聯動《怪獸8號》！登入就送鳴海弦、貼圖免費拿 - NOWnews今日新聞",
+      "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0ycjA0Y3RrcnpDbEdMNzl6MExyTmY5bVJjSnowR2xXWjZjT09pb1BXbGd0ZURpY3RDZHZUTjBDQk0yaHBwd2RYTG1qRlbSAVJBVV95cUxOZ3dPcWxsaU1JOW5jZF9yamFCcjNRODJrTWtYYkNEd0sza3VWN25ZY1lXSTYyb2V3czVmQ1RreHdqTVR4VUU0cUozQnhVSEM3NmZ3?oc=5",
+      "publisher": "NOWnews今日新聞",
+      "published_at": "2026-08-04T07:00:00+00:00",
+      "first_seen_at": "2026-11-13T18:58:50+00:00",
+      "date_mentions": [],
+      "review_required": true
+    },
+    {
       "id": "2807cc2cc1ad1412cf57",
       "category": "活動行事曆",
       "game_matches": [
@@ -2696,7 +2708,7 @@
       "game_matches": [
         "原神"
       ],
-      "title": "《原神》 - 前往未知的冒險旅程 - Genshin Impact",
+      "title": "角色展示-「瓦列里：執序之理」｜原神 - Genshin Impact",
       "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBwZWJvVGdjSzdhSEIxaWd6MEpsSDZGY0YyOUlyZjBqS2J2M0Y4UFJLd1VEVzVRMnFDSmpqX2k3T1h4VE9mTV9sYjBGNDRRUHVpMlVxRU1Gdw?oc=5",
       "publisher": "Genshin Impact",
       "published_at": "2023-01-11T10:31:32+00:00",

@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-13T15:56:18+00:00",
+  "checked_at": "2026-11-13T18:59:29+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
     "guides": 0,
-    "events": 1
+    "events": 0
   },
   "total_leads": {
     "codes": 68,
     "guides": 69,
-    "events": 128
+    "events": 129
   },
   "per_game": {
-    "Backpack Brawl — 英雄戰術": {
+    "Bowling Crew — 3D bowling game": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Black Deck - Card Battle CCG": {
+    "Single City: Social Life Sim": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Draft Showdown": {
+    "타인의 폰 - 방탈출 추리 게임, 범인 찾기": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Tomb Miner - Idle Gold Clicker": {
+    "Thronefall": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "幻想少女公會": {
+    "Unsolved: 隱藏物品": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "拜託了！指揮官": {
+    "Word Search - Word Puzzle Game": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "쿵푸 할매: 서바이버 아이콘 이미지": {
+    "Zen Word® - Relax Puzzle Game": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "후더덕 서바이벌-777뽑기 증정 아이콘 이미지": {
+    "二戰硝煙": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "NEW GAME": {
-      "codes": 0,
-      "guides": 0,
-      "events": 1
-    },
-    "NEW UPDATE": {
+    "明日之後": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Outhold": {
+    "經典紙牌接龍遊戲 - Solitaire": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Papers, Please": {
+    "點消 Wood (Click Wood)": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Phoenix 2": {
+    "My Talking Tom Friends": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Riot Mobile": {
+    "Plague Inc.": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Solitaire - Classic Card Game": {
+    "Planet of Lana": {
+      "codes": 0,
+      "guides": 0,
+      "events": 0
+    },
+    "POINPY": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -393,24 +393,24 @@
     "mutazione": "2026-11-13T13:17:27+00:00",
     "riotmobile": "2026-11-13T15:56:18+00:00",
     "solitaireclassiccardgame": "2026-11-13T15:56:18+00:00",
-    "thronefall": "2026-11-08T12:57:23+00:00",
-    "unsolved隱藏物品": "2026-11-08T12:57:23+00:00",
-    "wordsearchwordpuzzlegame": "2026-11-08T12:57:23+00:00",
-    "zenwordrelaxpuzzlegame": "2026-11-08T12:57:23+00:00",
-    "二戰硝煙": "2026-11-08T12:57:23+00:00",
-    "明日之後": "2026-11-08T12:57:23+00:00",
-    "經典紙牌接龍遊戲solitaire": "2026-11-08T12:57:23+00:00",
-    "點消woodclickwood": "2026-11-08T12:57:23+00:00",
+    "thronefall": "2026-11-13T18:59:29+00:00",
+    "unsolved隱藏物品": "2026-11-13T18:59:29+00:00",
+    "wordsearchwordpuzzlegame": "2026-11-13T18:59:29+00:00",
+    "zenwordrelaxpuzzlegame": "2026-11-13T18:59:29+00:00",
+    "二戰硝煙": "2026-11-13T18:59:29+00:00",
+    "明日之後": "2026-11-13T18:59:29+00:00",
+    "經典紙牌接龍遊戲solitaire": "2026-11-13T18:59:29+00:00",
+    "點消woodclickwood": "2026-11-13T18:59:29+00:00",
     "newgame": "2026-11-13T15:56:18+00:00",
     "newupdate": "2026-11-13T15:56:18+00:00",
     "outhold": "2026-11-13T15:56:18+00:00",
     "papersplease": "2026-11-13T15:56:18+00:00",
     "phoenix2": "2026-11-13T15:56:18+00:00",
-    "mytalkingtomfriends": "2026-11-08T13:31:35+00:00",
+    "mytalkingtomfriends": "2026-11-13T18:59:29+00:00",
     "離線遊戲無網單機好玩的桌遊offlinefunon": "2026-11-08T13:31:35+00:00",
-    "plagueinc": "2026-11-08T13:31:35+00:00",
-    "planetoflana": "2026-11-08T13:31:35+00:00",
-    "poinpy": "2026-11-08T13:31:35+00:00",
+    "plagueinc": "2026-11-13T18:59:29+00:00",
+    "planetoflana": "2026-11-13T18:59:29+00:00",
+    "poinpy": "2026-11-13T18:59:29+00:00",
     "scritchyscratchy": "2026-11-08T13:31:35+00:00",
     "seaofstars": "2026-11-08T13:31:35+00:00",
     "slenderthreads": "2026-11-08T13:31:35+00:00",
@@ -941,7 +941,10 @@
     "draftshowdown": "2026-11-13T15:56:18+00:00",
     "tombmineridlegoldclicker": "2026-11-13T15:56:18+00:00",
     "幻想少女公會": "2026-11-13T15:56:18+00:00",
-    "拜託了指揮官": "2026-11-13T15:56:18+00:00"
+    "拜託了指揮官": "2026-11-13T15:56:18+00:00",
+    "bowlingcrew3dbowlinggame": "2026-11-13T18:59:29+00:00",
+    "singlecitysociallifesim": "2026-11-13T18:59:29+00:00",
+    "타인의폰방탈출추리게임범인찾기": "2026-11-13T18:59:29+00:00"
   },
   "errors": []
 }

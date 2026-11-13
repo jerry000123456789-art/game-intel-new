@@ -1,9 +1,19 @@
 {
-  "updated_at": "2026-11-13T15:55:25+00:00",
+  "updated_at": "2026-11-13T18:58:54+00:00",
   "status": "ok",
   "fetched": 105,
   "errors": [],
   "items": [
+    {
+      "id": "46e62e6e86a2c3dbb2635b57",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《活俠傳》武俠音樂會首演熱血登場　指揮王子豪帶領全場高喊唐門口號、作曲家幽火獻出指揮處女秀",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=315018",
+      "publisher": "",
+      "published_at": "2026-11-14T02:01:52+08:00",
+      "first_seen_at": "2026-11-13T18:58:54+00:00"
+    },
     {
       "id": "aca9f5f2f31a1c2d43367c96",
       "category": "巴哈姆特情報",
@@ -32,6 +42,16 @@
       "url": "https://gnn.gamer.com.tw/detail.php?sn=315015",
       "publisher": "",
       "published_at": "2026-11-13T19:06:06+08:00",
+      "first_seen_at": "2026-11-13T13:14:37+00:00"
+    },
+    {
+      "id": "cab2cacfab05f6a904c01d84",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《星之救援者 StarSavior》 ｜推主線 ｜玩老婆｜玩累的 換我給老婆玩",
+      "url": "https://www.youtube.com/watch?v=9XoEnYrR_X0",
+      "publisher": "【索爾遊戲】",
+      "published_at": "2026-11-13T18:44:31+00:00",
       "first_seen_at": "2026-11-13T13:14:37+00:00"
     },
     {
@@ -383,16 +403,6 @@
       "publisher": "",
       "published_at": "2026-11-13T12:58:00+08:00",
       "first_seen_at": "2026-11-13T07:23:25+00:00"
-    },
-    {
-      "id": "cab2cacfab05f6a904c01d84",
-      "category": "影片情報",
-      "origin": "YouTube",
-      "title": "《星之救援者 StarSavior》 ｜推主線 ｜玩老婆｜玩累的 換我給老婆玩",
-      "url": "https://www.youtube.com/watch?v=9XoEnYrR_X0",
-      "publisher": "【索爾遊戲】",
-      "published_at": "2026-11-13T12:35:45+00:00",
-      "first_seen_at": "2026-11-13T13:14:37+00:00"
     },
     {
       "id": "3d95fdc991b68b2437b6cf93",

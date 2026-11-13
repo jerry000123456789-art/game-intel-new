@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-13T15:56:18+00:00",
-  "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
+  "updated_at": "2026-11-13T18:59:29.241643+00:00",
+  "note": "Historical source leads retained; not validated codes, full guides, or confirmed event dates.",
   "items": {
     "codes": [
       {
@@ -2134,6 +2134,14 @@
         "publisher": "GNN 新聞網",
         "published_at": "2026-08-04T07:00:00+00:00",
         "first_seen_at": "2026-11-07T07:20:13+00:00",
+        "status": "source_lead_only"
+      },
+      {
+        "title": "《LINE Rangers》聯動《怪獸8號》！登入就送鳴海弦、貼圖免費拿 - NOWnews今日新聞",
+        "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0ycjA0Y3RrcnpDbEdMNzl6MExyTmY5bVJjSnowR2xXWjZjT09pb1BXbGd0ZURpY3RDZHZUTjBDQk0yaHBwd2RYTG1qRlbSAVJBVV95cUxOZ3dPcWxsaU1JOW5jZF9yamFCcjNRODJrTWtYYkNEd0sza3VWN25ZY1lXSTYyb2V3czVmQ1RreHdqTVR4VUU0cUozQnhVSEM3NmZ3?oc=5",
+        "publisher": "NOWnews今日新聞",
+        "published_at": "2026-08-04T07:00:00+00:00",
+        "first_seen_at": "2026-11-13T18:58:50+00:00",
         "status": "source_lead_only"
       },
       {

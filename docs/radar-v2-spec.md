@@ -3,9 +3,34 @@
 ## Product scope
 One fast, mobile-first website: **今日商機／新遊戲雷達**, with top-level store views **所有 / Google Play / App Store**. Remove navigation and active UI/workflows for redemption codes, creator guides, event calendar, marketing workspace, ad-copy studio, and non-mobile platforms. Archive previous data, do not erase original history. Poll discovery/verification every **three hours**. Keep no-paid-API baseline with explicit coverage/error diagnostics.
 
-## A–L UI (owner's handwritten diagram)
-A 新上市; B 即將上市; C 預約／預先註冊; D Android 台灣 status; E Android 國際 status; F iOS 台灣 status; G iOS 國際 status; H Android 台灣發佈時間; I Android 國際發佈時間; J iOS 台灣發佈時間; K iOS 國際發佈時間; L 遊戲詳細資訊 via modal/drawer.
-One game per row, compact PC table and readable mobile cards. Show only confirmed applicable platform/country cells. If only iOS Taiwan exists, show only that cell. Primary country Taiwan; international summary next; specific US, JP, KR, HK, SG etc in L detail. Platform country states must be independent (installable, preorder/pre-registration, upcoming with official date, unavailable/unobserved). Never globally mark the entire game as released solely from one country/OS.
+## UI wording and visual ordering (owner's A–L sketch is internal-only)
+**Never show the letters A–L or English field identifiers in user-facing text.** They were only the owner's annotations for communicating relative positions.
+
+**Top category tabs MUST use full Traditional Chinese:** `新上市` / `即將上市` / `預約／預先註冊`. A game can occupy one list item even when Android is released in one country and iOS is pre-registered in another. Do not duplicate the game merely to place it under two categories.
+
+The visible sequence of every game card/row:
+1. Chinese game name and English game name (both when validated as aliases), game cover.
+2. `Android：台灣、國際` or `iOS：台灣` etc. **Show ONLY the platform/country combinations for which an actual store result was found and independently verified**; order `台灣` first, then `國際`. Android and iOS are separate concise lines. No empty slots for absent platforms/markets.
+3. **DIRECTLY UNDER the relevant platform/market line** show only documented `上架日期：` or `預約上架時間：` (including per-market date if different). If the preorder/start date was not announced, omit the date instead of inventing one. Platform/country line can mention `預先註冊` when necessary to distinguish current state. Do not conflate `預約開放日` with `預計上架日`.
+4. `詳細資訊` opens a drawer/modal with full verified countries (including Japan/Korea), developer, original store links, country/platform observations, precise evidence labels, provenance and history.
+
+**Avoid redundancy:** Do NOT show `已確認可下載`, `可下載`, technical status codes, A–L, or empty/unknown date placeholders in the main list. Availability has already been established through verified platform+region listings; underlying eligibility and detailed provenance belong in the details.
+
+Suggested copy-only illustration, **fictional dates/markets; not real game facts**:
+
+```text
+新上市     即將上市     預約／預先註冊
+
+《遊戲甲》 / Game A
+Android：台灣、國際
+上架日期：台灣 11/11｜國際 11/12
+iOS：國際（預先註冊）
+預約上架時間：12/05
+
+[詳細資訊]
+```
+
+One game per row, compact PC table and readable mobile cards. For a true iOS-only Taiwan title, show only `iOS：台灣` with its relevant date line; don't render Android or international blanks. Country statuses are independent; never infer another platform's status from one market.
 
 ## Identity and naming
 Identity by store-specific **Google Play package ID** and **Apple App ID**; never dedupe merely because a name matches, nor split known same-game cross-store records because translations differ. Cross-platform identity can merge only using corroborated developer, canonical website, official cross-link, or manually verified alias mapping. Preserve both Chinese and English canonical names and search aliases. Support direct search by Google Play package ID or Apple App ID. Preserve one grouped game card with country/platform variants and source links. Keep per-country observation history and re-check conflicting cases.
@@ -24,7 +49,7 @@ App Store: official public **newapplications/newfreeapplications/newpaidapplicat
 These public feeds are **not** a guarantee of 100% global store inventory. Do not imply full exhaustiveness; display the factual scan coverage in status panel.
 
 ## Layout
-Colors: background #EAEAEF; text #2D3142; deep blue #253F68; deep green #276657; line height 1.5; eye-friendly long sessions. Main header 今日商機｜新遊戲雷達. Tabs 所有 / Google Play / App Store. Sections A 新上市 (recent 30 days only when evidenced), B 即將上市, C 預先註冊/預購; filters 台灣 / 國際, search all aliases and IDs, sorting newest/earliest, 60-rows pages; don't infinite scroll. One lightweight row with icon, CN/EN names, D–G statuses, H–K evidence-based dates. L modal shows every country/platform, last verified, exact source, developer, history, original store links and any conflicts. Do not display unsupported facts or invented publication times. Provide data-quality/scan-health panel separate from normal results.
+Colors: background #EAEAEF; text #2D3142; deep blue #253F68; deep green #276657; line height 1.5; eye-friendly long sessions. Main header 今日商機｜新遊戲雷達. Tabs 所有 / Google Play / App Store. Visible Chinese tabs 新上市 (recent 30 days only when evidenced), 即將上市, 預約／預先註冊; filters 台灣 / 國際, search all aliases and IDs, sorting newest/earliest, 60-rows pages; don't infinite scroll. Each lightweight row shows validated Chinese/English names, the available Android/iOS Taiwan/international markets and then the relevant 上架日期 or 預約上架時間 immediately beneath the platform/market. No A–L letters, no 已確認可下載 labels, no absent platform placeholders. 詳細資訊 modal contains additional specific countries, source evidence, developer, history and links. Do not display unsupported facts or invented publication times. Provide data-quality/scan-health panel separate from normal results.
 
 ## Mandatory regression test set
 - UnGodly (Android package com.azragames.ungodly): independent Android and iOS, TW and international status, prereg-to-release transition.

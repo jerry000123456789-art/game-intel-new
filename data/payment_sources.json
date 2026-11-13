@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-11-07T14:49:14+00:00",
+  "updated_at": "2026-11-13T20:42:16+00:00",
   "items": [
+    {
+      "game": "絕區零",
+      "provider": "MyCard",
+      "source_url": "https://app.mycard520.com.tw/%e3%80%8a%e7%b5%95%e5%8d%80%e9%9b%b6%e3%80%8b%e5%84%b2%e5%80%bc%e6%95%99%e5%ad%b8%e5%84%aa%e6%83%a0%e6%87%b6%e4%ba%ba%e5%8c%85/",
+      "title": "《絕區零》儲值教學優惠懶人包 - MyCard娛樂中心",
+      "evidence": "合作／相關報導",
+      "verification_status": "公開頁面線索，未經實際付款測試",
+      "first_seen_at": "2026-11-13T20:42:16+00:00"
+    },
     {
       "game": "原神",
       "provider": "Codashop",

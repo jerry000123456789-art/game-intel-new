@@ -1,9 +1,29 @@
 {
-  "updated_at": "2026-11-13T13:14:37+00:00",
+  "updated_at": "2026-11-13T15:55:25+00:00",
   "status": "ok",
   "fetched": 105,
   "errors": [],
   "items": [
+    {
+      "id": "aca9f5f2f31a1c2d43367c96",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "《俠盜獵車手 6》PS5 實體版搶先開箱！ 隨附遊戲下載代碼與雙面海報",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=315017",
+      "publisher": "",
+      "published_at": "2026-11-13T23:04:36+08:00",
+      "first_seen_at": "2026-11-13T15:55:25+00:00"
+    },
+    {
+      "id": "a9d47f9e5b3625695d58148c",
+      "category": "巴哈姆特情報",
+      "origin": "巴哈姆特",
+      "title": "【電玩瘋】831 集 PS5 主機銷售量破億、《俠盜獵車手 6》發售前新聞整理等遊戲資訊",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=315016",
+      "publisher": "",
+      "published_at": "2026-11-13T21:30:01+08:00",
+      "first_seen_at": "2026-11-13T15:55:25+00:00"
+    },
     {
       "id": "4e0a86382a82c6c896069aab",
       "category": "巴哈姆特情報",
@@ -433,6 +453,16 @@
       "publisher": "",
       "published_at": "2026-11-13T11:15:20+08:00",
       "first_seen_at": "2026-11-13T03:58:37+00:00"
+    },
+    {
+      "id": "4f0bb87b5bf8fb335f51416b",
+      "category": "影片情報",
+      "origin": "YouTube",
+      "title": "《魔物獵人：旅人》鋼龍來了！「鋼翼垂落之影」開放，今晚直接拓荒｜CD喜德直播 #CD喜德",
+      "url": "https://www.youtube.com/watch?v=FnrEYwujzPg",
+      "publisher": "CD喜德",
+      "published_at": "2026-11-13T10:41:11+00:00",
+      "first_seen_at": "2026-11-13T15:55:25+00:00"
     },
     {
       "id": "747f06595ae2636d62815049",

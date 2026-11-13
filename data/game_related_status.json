@@ -1,90 +1,90 @@
 {
-  "checked_at": "2026-11-13T13:17:27+00:00",
+  "checked_at": "2026-11-13T15:56:18+00:00",
   "games_this_run": 15,
   "searches_succeeded": 45,
   "searches_failed": 0,
   "found_this_run": {
     "codes": 0,
-    "guides": 1,
-    "events": 0
+    "guides": 0,
+    "events": 1
   },
   "total_leads": {
     "codes": 68,
     "guides": 69,
-    "events": 127
+    "events": 128
   },
   "per_game": {
-    "Cat Sudoku: Lumeri Puzzle": {
+    "Backpack Brawl — 英雄戰術": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Hillthorn": {
+    "Black Deck - Card Battle CCG": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "PUBG MOBILE FLASH": {
+    "Draft Showdown": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Yumtopia：美食合併物語": {
+    "Tomb Miner - Idle Gold Clicker": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Zombie Assault: Resurgence": {
+    "幻想少女公會": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "放置騎士團 The Origin": {
-      "codes": 0,
-      "guides": 1,
-      "events": 0
-    },
-    "火柴人時代：進化": {
+    "拜託了！指揮官": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "秘境寶石神廟 (Jewel Temple)": {
+    "쿵푸 할매: 서바이버 아이콘 이미지": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "臉孔碧姬": {
+    "후더덕 서바이벌-777뽑기 증정 아이콘 이미지": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "臉孔路易吉": {
+    "NEW GAME": {
+      "codes": 0,
+      "guides": 0,
+      "events": 1
+    },
+    "NEW UPDATE": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "靈魂食堂：可愛妖怪合併": {
+    "Outhold": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Minecraft: クラフト、建築、サバイバル": {
+    "Papers, Please": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Minecraft 온라인으로 친구들과 함께 플레이하세요": {
+    "Phoenix 2": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Minishoot' Adventures": {
+    "Riot Mobile": {
       "codes": 0,
       "guides": 0,
       "events": 0
     },
-    "Mutazione": {
+    "Solitaire - Classic Card Game": {
       "codes": 0,
       "guides": 0,
       "events": 0
@@ -376,8 +376,8 @@
     "열혈강호넥스트아이콘이미지": "2026-11-13T10:06:41+00:00",
     "워라인스나이퍼아이콘이미지": "2026-11-13T10:06:41+00:00",
     "원피스그랜드레스토랑아이콘이미지": "2026-11-13T10:06:41+00:00",
-    "쿵푸할매서바이버아이콘이미지": "2026-11-08T12:40:07+00:00",
-    "후더덕서바이벌777뽑기증정아이콘이미지": "2026-11-08T12:40:07+00:00",
+    "쿵푸할매서바이버아이콘이미지": "2026-11-13T15:56:18+00:00",
+    "후더덕서바이벌777뽑기증정아이콘이미지": "2026-11-13T15:56:18+00:00",
     "fortnite": "2026-11-13T10:06:41+00:00",
     "fpsstrikeopsmodernarena": "2026-11-13T10:06:41+00:00",
     "geometrydash": "2026-11-13T10:06:41+00:00",
@@ -391,8 +391,8 @@
     "minecraft온라인으로친구들과함께플레이하세요": "2026-11-13T13:17:27+00:00",
     "minishootadventures": "2026-11-13T13:17:27+00:00",
     "mutazione": "2026-11-13T13:17:27+00:00",
-    "riotmobile": "2026-11-08T12:57:23+00:00",
-    "solitaireclassiccardgame": "2026-11-08T12:57:23+00:00",
+    "riotmobile": "2026-11-13T15:56:18+00:00",
+    "solitaireclassiccardgame": "2026-11-13T15:56:18+00:00",
     "thronefall": "2026-11-08T12:57:23+00:00",
     "unsolved隱藏物品": "2026-11-08T12:57:23+00:00",
     "wordsearchwordpuzzlegame": "2026-11-08T12:57:23+00:00",
@@ -401,11 +401,11 @@
     "明日之後": "2026-11-08T12:57:23+00:00",
     "經典紙牌接龍遊戲solitaire": "2026-11-08T12:57:23+00:00",
     "點消woodclickwood": "2026-11-08T12:57:23+00:00",
-    "newgame": "2026-11-08T12:57:23+00:00",
-    "newupdate": "2026-11-08T12:57:23+00:00",
-    "outhold": "2026-11-08T12:57:23+00:00",
-    "papersplease": "2026-11-08T12:57:23+00:00",
-    "phoenix2": "2026-11-08T12:57:23+00:00",
+    "newgame": "2026-11-13T15:56:18+00:00",
+    "newupdate": "2026-11-13T15:56:18+00:00",
+    "outhold": "2026-11-13T15:56:18+00:00",
+    "papersplease": "2026-11-13T15:56:18+00:00",
+    "phoenix2": "2026-11-13T15:56:18+00:00",
     "mytalkingtomfriends": "2026-11-08T13:31:35+00:00",
     "離線遊戲無網單機好玩的桌遊offlinefunon": "2026-11-08T13:31:35+00:00",
     "plagueinc": "2026-11-08T13:31:35+00:00",
@@ -935,7 +935,13 @@
     "秘境寶石神廟jeweltemple": "2026-11-13T13:17:27+00:00",
     "臉孔碧姬": "2026-11-13T13:17:27+00:00",
     "臉孔路易吉": "2026-11-13T13:17:27+00:00",
-    "靈魂食堂可愛妖怪合併": "2026-11-13T13:17:27+00:00"
+    "靈魂食堂可愛妖怪合併": "2026-11-13T13:17:27+00:00",
+    "backpackbrawl英雄戰術": "2026-11-13T15:56:18+00:00",
+    "blackdeckcardbattleccg": "2026-11-13T15:56:18+00:00",
+    "draftshowdown": "2026-11-13T15:56:18+00:00",
+    "tombmineridlegoldclicker": "2026-11-13T15:56:18+00:00",
+    "幻想少女公會": "2026-11-13T15:56:18+00:00",
+    "拜託了指揮官": "2026-11-13T15:56:18+00:00"
   },
   "errors": []
 }

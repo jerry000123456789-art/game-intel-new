@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T13:17:27+00:00",
+  "updated_at": "2026-11-13T15:56:18+00:00",
   "note": "依商店遊戲名稱自動搜尋；原文線索不代表代碼可使用、攻略全文或活動日期已核實。",
   "items": {
     "codes": [
@@ -1164,6 +1164,15 @@
       }
     ],
     "events": [
+      {
+        "game": "NEW GAME",
+        "kind": "events",
+        "title": "《假面騎士EX-AID》10週年確定推出全新作品！ 「NEW GAME START」預告新作啟動 - 玩具人 TOY PEOPLE",
+        "source_url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBIYmVNWlYwNlJQMXNyRVd6M1FMNDB0dlRJM1FuNTBuc1FxSlo2SEk1blZJWFRSdlBBcFpReWg4SHhac3MwZVo1QzBteFg?oc=5",
+        "published_at": "2026-11-12T14:47:09+00:00",
+        "publisher": "玩具人 TOY PEOPLE",
+        "status": "source_lead_only"
+      },
       {
         "game": "View",
         "kind": "events",

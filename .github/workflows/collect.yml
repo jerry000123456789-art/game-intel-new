@@ -4,108 +4,73 @@ on:
   push:
     branches: [main]
     paths:
-      - 'scripts/**'
-      - 'tests/**'
-      - 'config/**'
+      - 'scripts/collect_radar.py'
+      - 'scripts/build_radar.py'
+      - 'scripts/test_radar.py'
+      - 'tests/test_radar.mjs'
+      - 'config/radar_sources.json'
       - 'index.html'
-      - 'business.js'
-      - 'business.css'
-      - 'worker/**'
+      - 'radar.js'
+      - 'radar.css'
+      - 'scripts/build_private.py'
+      - 'scripts/validate_site.py'
       - '.github/workflows/collect.yml'
   schedule:
     - cron: '17 */3 * * *'
 permissions:
   contents: write
 concurrency:
-  group: game-intelligence-update
+  group: focused-game-radar-collector
   cancel-in-progress: false
 jobs:
-  collect:
+  radar:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 27
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout latest radar
+        uses: actions/checkout@v4
         with:
           ref: main
-          persist-credentials: true
           fetch-depth: 0
+          persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Test extraction, history and dedup locally
+      - name: Validate source parser, identity, and UI
         run: |
-          python scripts/test_channel_pipeline.py
-          python scripts/test_live_pipeline.py
-          python scripts/test_release_matrix.py
-          python scripts/test_mobile_store.py
-          python scripts/test_tracked_events.py
-          python scripts/test_discovery_pipeline.py
-          python scripts/test_frontend_js.py
-          node scripts/test_live_lookup.mjs
-          node tests/test_code_list.mjs
-          node tests/test_release_ui.mjs
-          node tests/test_business_ui.mjs
-          node tests/test_business_runtime.mjs
-          node tests/test_watchlist_api.mjs
-          node --check business.js
-          python -m py_compile scripts/collect_game_related.py scripts/collect_payment_methods.py scripts/discover_sources.py scripts/collect_release_matrix.py scripts/enrich_mobile_store.py scripts/collect_tracked_events.py scripts/add_tracked_from_issue.py scripts/enrich_featured_launches.py
-      - name: Fetch public news, YouTube, Bahamut and store pages
+          python -m py_compile scripts/collect_radar.py scripts/build_radar.py
+          python scripts/test_radar.py
+          node --check radar.js
+          node tests/test_radar.mjs
+      - name: Discover Google Play and Apple games
+        run: python scripts/collect_radar.py
+      - name: Merge verified game identities, market status and dates
+        run: python scripts/build_radar.py
+      - name: Validate focused site assets and public data
         run: |
-          python scripts/collect.py
-          python scripts/collect_channels.py
-          python scripts/game_catalog.py
-          python scripts/collect_store_pages.py
-          python scripts/collect_release_matrix.py
-          python scripts/enrich_mobile_store.py
-          python scripts/enrich_featured_launches.py
-      - name: Classify, extract codes/events, and merge history
-        run: |
-          python scripts/classify.py
-          python scripts/launch_leads.py
-          python scripts/discover_sources.py
-          python scripts/collect_game_related.py
-          python scripts/collect_payment_methods.py
-          python scripts/extract_facts.py
-          python scripts/ingest_verified.py
-          python scripts/merge_history.py
-          python scripts/collect_tracked_events.py
-      - name: Check live source outcomes
-        id: live
-        continue-on-error: true
-        run: python scripts/verify_live_sources.py
-      - name: Validate output and site build
-        run: |
-          python scripts/validate_data.py
           python scripts/validate_site.py
-          python scripts/audit_coverage.py
           python scripts/build_private.py
-      - name: Save data and status to GitHub
+      - name: Commit radar data without overwriting simultaneous changes
         run: |
-          git add data/*.json
-          if ! git diff --cached --quiet; then
-            git config user.name 'github-actions[bot]'
-            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git commit -m 'Auto-refresh game intelligence and source status'
-            for attempt in 1 2 3; do
-              git fetch origin main
-              if ! git rebase origin/main; then
-                git rebase --abort || true
-                echo 'Data conflict while rebasing; refusing to overwrite remote data.'
-                exit 1
-              fi
-              if git push origin HEAD:main; then
-                echo 'Game data written to latest main.'
-                exit 0
-              fi
-              sleep 3
-            done
-            echo 'Failed to write data after safe rebase retries.'
-            exit 1
-          else
-            echo 'No changed records; no redeploy required.'
+          git add data/radar_discoveries.json data/radar_catalog.json data/radar_summary.json data/radar_health.json
+          if git diff --cached --quiet; then
+            echo "No new game intelligence changes."
+            exit 0
           fi
-      - name: Fail workflow if no source responded this run
-        if: steps.live.outcome == 'failure'
-        run: |
-          echo 'No live source succeeded; see committed runtime_status.json for details.'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update focused game radar data and source health'
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "Data changed simultaneously; avoid overwriting source evidence."
+              exit 1
+            fi
+            if git push origin HEAD:main; then
+              echo "Radar data updated on latest main."
+              exit 0
+            fi
+            sleep 4
+          done
           exit 1

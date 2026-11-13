@@ -15,6 +15,8 @@ import time
 from urllib.parse import urlencode, quote, urlparse, parse_qs, unquote
 from urllib.request import Request, urlopen
 import sys
+from html.parser import HTMLParser
+import html as html_lib
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/"scripts"))
@@ -102,8 +104,15 @@ def merge(table,raw):
             combined["date_scope"]=row.get("date_scope","")
     # The current official check overrides historic pre-registration state.
     if row.get("source_kind") in ("Play 官方商品頁","Apple Lookup"):
-        combined["preorder"]=row["preorder"]
-        combined["installable"]=row["installable"]
+        # A page without readable availability controls is inconclusive:
+        # never wipe a known preregistration state just because its check
+        # returned no recognizable button.
+        if row["preorder"]:
+            combined["preorder"]=True
+            combined["installable"]=False
+        elif row["installable"]:
+            combined["preorder"]=False
+            combined["installable"]=True
         combined["last_checked_at"]=NOW
         combined["source_kind"]=row["source_kind"]
     else:
@@ -156,21 +165,38 @@ def apple_lookup(ident,country):
             "verified_store_listing":True}
     return None
 
+class PlayTitleParser(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.meta=[];self.title=[];self.heading=[];self.capture=""
+    def handle_starttag(self,tag,attrs):
+        a=dict(attrs)
+        if tag=="meta" and (a.get("property","").lower() in ("og:title","twitter:title") or
+                            a.get("name","").lower() in ("og:title","twitter:title","application-name")):
+            if a.get("content"):self.meta.append(a["content"].strip())
+        if tag in ("title","h1"):self.capture=tag
+    def handle_data(self,data):
+        if self.capture=="title":self.title.append(data)
+        elif self.capture=="h1":self.heading.append(data)
+    def handle_endtag(self,tag):
+        if tag==self.capture:self.capture=""
 def google_details(ident,country):
     url=official_url("Google Play",ident,country)
     body=fetch(url)
     data=metadata_from_html(body)
-    # Use official page title, not a Google result headline, which may be SEO text.
+    parser=PlayTitleParser()
+    parser.feed(body[:1500000])
     title=""
-    candidates=re.findall(r'<meta[^>]+(?:property|name)="(?:og:title|twitter:title)"[^>]+content="([^"]+)"',body[:350000],re.I)
-    if candidates:
-        import html
-        title=html.unescape(candidates[0]).split(" - Google Play")[0].split(" – Apps on Google Play")[0].strip()
+    for candidate in [*parser.meta,*parser.heading,*parser.title]:
+        value=html_lib.unescape(str(candidate)).strip()
+        # Only accept an actual game title, never the Play search/consent page.
+        value=re.split(r"\s+[-–]\s+(?:Google Play|Apps on Google Play|Google Play 應用程式)",value,flags=re.I)[0].strip()
+        if 2<=len(value)<=140 and not re.search(r"Google Play|Sign in|登入 Google|Redirecting",value,re.I):
+            title=value;break
     if not title:
-        import html
-        match=re.search(r"<title[^>]*>(.*?)</title>",body[:350000],re.I|re.S)
-        title=html.unescape(match.group(1).split(" - ")[0].strip()) if match else ""
-    if not title:return None
+        # Inspect actual accessible HTML for error diagnostics; do not
+        # invent a title based solely on the requested package ID.
+        return None
     return {"store":"Google Play","app_id":ident,"country":country,"name":title[:110],
         "developer":"","cover_url":data.get("cover_url",""),
         "source_url":url,"release_date":date_only(data.get("store_release_date")),
@@ -183,7 +209,7 @@ def google_search_query(query,country):
     # Official Google Play search, not only its editorial home. It does not
     # promise a complete catalog and it may return recommendations/non-games.
     url="https://play.google.com/store/search?"+urlencode({
-      "q":query,"c":"games","hl":"zh_TW" if country=="TW" else "en_US","gl":country})
+      "q":query,"c":"apps","hl":"zh_TW" if country=="TW" else "en_US","gl":country})
     rows=stores.parse_store(fetch(url),"Google Play","台灣" if country=="TW" else "國際",country)
     for x in rows:
         x["country"]=country
@@ -234,7 +260,10 @@ def run(fetch_only=False):
                  "台灣" if country=="TW" else "國際",country)
             if not rows:raise RuntimeError("empty/unparseable category")
             for x in rows:
-                x["country"]=country;x["source_kind"]="Play 搜尋分類"
+                x["country"]=country
+                is_prereg="promotion_3000000d51_pre_registration_games" in url
+                x["source_kind"]="Play 預先註冊合輯" if is_prereg else "Play 搜尋分類"
+                if is_prereg:x["preorder"]=True
                 merge(table,x)
                 ident=appid(x.get("source_url"),"Google Play")
                 if ident:discovered.add((ident,country))
@@ -244,7 +273,7 @@ def run(fetch_only=False):
     for i in range(qcount):
         q=queries[(hour*qcount+i)%len(queries)]
         country="TW" if i%2==0 else "US"
-        url="https://play.google.com/store/search?"+urlencode({"q":q,"c":"games","hl":"zh_TW" if country=="TW" else "en_US","gl":country})
+        url="https://play.google.com/store/search?"+urlencode({"q":q,"c":"apps","hl":"zh_TW" if country=="TW" else "en_US","gl":country})
         try:
             rows=google_search_query(q,country)
             if not rows:raise RuntimeError("no official game links found")

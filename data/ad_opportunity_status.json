@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-13T19:25:04+00:00",
+  "updated_at": "2026-11-13T20:21:37+00:00",
   "queries_attempted": 17,
   "google_queries_attempted": 9,
   "google_queries_succeeded": 9,
-  "google_items_seen": 49,
-  "google_leads_found_this_run": 9,
+  "google_items_seen": 53,
+  "google_leads_found_this_run": 22,
   "google_leads_in_history": 60,
   "taptap_queries_attempted": 8,
   "taptap_article_links_found": 0,

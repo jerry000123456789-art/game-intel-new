@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T17:22:26+00:00",
+  "updated_at": "2026-11-13T20:21:37+00:00",
   "items": [
     {
       "game": "明日方舟",
@@ -18,7 +18,7 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-13T17:22:26+00:00",
+      "updated_at": "2026-11-13T20:21:37+00:00",
       "id": "9b07b36727830ace61778bd1",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -40,7 +40,7 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-13T17:22:26+00:00",
+      "updated_at": "2026-11-13T20:21:37+00:00",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
     {
@@ -61,7 +61,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "中國站",
-      "updated_at": "2026-11-13T17:22:26+00:00",
+      "updated_at": "2026-11-13T20:21:37+00:00",
       "id": "c660d235dfa48b5b42b4eafe",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -83,7 +83,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "儲值／禮包時效",
       "market_label": "中國站",
-      "updated_at": "2026-11-13T17:22:26+00:00",
+      "updated_at": "2026-11-13T20:21:37+00:00",
       "id": "20a444facd968b6aa97c54a4",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -105,7 +105,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "儲值／禮包時效",
       "market_label": "中國站",
-      "updated_at": "2026-11-13T17:22:26+00:00",
+      "updated_at": "2026-11-13T20:21:37+00:00",
       "id": "e529d816792d9bc8c1f6c41c",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -127,7 +127,7 @@
       "status": "地區待核實（中國站）",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "中國站",
-      "updated_at": "2026-11-13T17:22:26+00:00",
+      "updated_at": "2026-11-13T20:21:37+00:00",
       "id": "aed9e750f4b2af2a106919cb",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     },
@@ -149,7 +149,7 @@
       "status": "地區與伺服器待核實",
       "advertising_angle": "活動資訊／玩家導流",
       "market_label": "未知地區",
-      "updated_at": "2026-11-13T17:22:26+00:00",
+      "updated_at": "2026-11-13T20:21:37+00:00",
       "recommendation_note": "候選情報，不代表已核實投放權利、官方合作或代儲服務可用。"
     }
   ],
@@ -232,6 +232,17 @@
       "status": "source_lead_only"
     },
     {
+      "game": "傳說對決",
+      "title": "悟空換上新戰袍！Red Bull X傳說對決10週年聯名再出招　再抽演唱會套票 - 三立新聞網SETN.com",
+      "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9XMXpzbGdwR2RXQThwRDVxWFNCek5DbG1aRDdKSDczQkFzTjhPR1J4Wnc1ZkFwR3BiZDFqblNPZVR3RnVfX21hcdIBTEFVX3lxTE93NkhPeTl4ektCSTQ1YW5SMndOV2Rnb1JyOVBsSm00U3ZTLUY5di1ZWWNHS0lnWHptUlROeXg5OWdNUEQ3eFlwTWZkcWs?oc=5",
+      "google_search_url": "https://www.google.com/search?q=%22%E5%82%B3%E8%AA%AA%E5%B0%8D%E6%B1%BA%22+%22%E6%82%9F%E7%A9%BA%E6%8F%9B%E4%B8%8A%E6%96%B0%E6%88%B0%E8%A2%8D%EF%BC%81Red+Bull+X%E5%82%B3%E8%AA%AA%E5%B0%8D%E6%B1%BA10%E9%80%B1%E5%B9%B4%E8%81%AF%E5%90%8D%E5%86%8D%E5%87%BA%E6%8B%9B%E3%80%80%E5%86%8D%E6%8A%BD%E6%BC%94%E5%94%B1%E6%9C%83%E5%A5%97%E7%A5%A8+-+%E4%B8%89%E7%AB%8B%E6%96%B0%E8%81%9E%E7%B6%B2SETN.com%22",
+      "published_at": "2026-11-10T21:46:43+00:00",
+      "publisher": "三立新聞網SETN.com",
+      "source_type": "Google 新聞搜尋",
+      "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
+      "status": "source_lead_only"
+    },
+    {
       "game": "明日方舟",
       "title": "《明日方舟》與《魔物獵人》二度聯動 相隔約 3 年 預告影片公開月夜竹林不明身影 - Ludens Media",
       "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRUDNtOWNaLTVGck1vaGlIdE00WE4yN29QME1IRVllNXBWdlZTSUU3Y2RocW5uczk3ZTdLd09yQTNOdE0zWjM0a2xKMENxV1dxY3kwalZtTVZpUFQ5ZTRsdmluY0R2TXc2akE?oc=5",
@@ -293,17 +304,6 @@
       "google_search_url": "https://www.google.com/search?q=%22%E5%8B%9D%E5%88%A9%E5%A5%B3%E7%A5%9E%EF%BC%9A%E5%A6%AE%E5%A7%AC%22+%22%E3%80%8A%E5%8B%9D%E5%88%A9%E5%A5%B3%E7%A5%9E%EF%BC%9A%E5%A6%AE%E5%A7%AC%E3%80%8B%E5%9B%9B%E9%80%B1%E5%B9%B4%E7%89%B9%E5%B1%95%E8%8F%AF%E5%B1%B1%E8%90%BD%E5%B9%95%E5%B8%B6%E9%A0%98%E6%8C%87%E6%8F%AE%E5%AE%98%E9%87%8D%E6%BA%AB%E5%9B%9B%E5%B9%B4%E6%84%9F%E5%8B%95%E5%9B%9E%E6%86%B6-+%E9%81%8A%E6%88%B2%E6%96%B0%E8%81%9E+-+PChome+Online+%E6%96%B0%E8%81%9E%22",
       "published_at": "2026-11-10T09:58:42+00:00",
       "publisher": "PChome Online 新聞",
-      "source_type": "Google 新聞搜尋",
-      "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
-      "status": "source_lead_only"
-    },
-    {
-      "game": "傳說對決",
-      "title": "悟空換上新戰袍！Red Bull X傳說對決10週年聯名再出招　再抽演唱會套票 - 三立新聞網SETN.com",
-      "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9XMXpzbGdwR2RXQThwRDVxWFNCek5DbG1aRDdKSDczQkFzTjhPR1J4Wnc1ZkFwR3BiZDFqblNPZVR3RnVfX21hcdIBTEFVX3lxTE93NkhPeTl4ektCSTQ1YW5SMndOV2Rnb1JyOVBsSm00U3ZTLUY5di1ZWWNHS0lnWHptUlROeXg5OWdNUEQ3eFlwTWZkcWs?oc=5",
-      "google_search_url": "https://www.google.com/search?q=%22%E5%82%B3%E8%AA%AA%E5%B0%8D%E6%B1%BA%22+%22%E6%82%9F%E7%A9%BA%E6%8F%9B%E4%B8%8A%E6%96%B0%E6%88%B0%E8%A2%8D%EF%BC%81Red+Bull+X%E5%82%B3%E8%AA%AA%E5%B0%8D%E6%B1%BA10%E9%80%B1%E5%B9%B4%E8%81%AF%E5%90%8D%E5%86%8D%E5%87%BA%E6%8B%9B%E3%80%80%E5%86%8D%E6%8A%BD%E6%BC%94%E5%94%B1%E6%9C%83%E5%A5%97%E7%A5%A8+-+%E4%B8%89%E7%AB%8B%E6%96%B0%E8%81%9E%E7%B6%B2SETN.com%22",
-      "published_at": "2026-11-10T09:46:02+00:00",
-      "publisher": "三立新聞網SETN.com",
       "source_type": "Google 新聞搜尋",
       "verification_status": "公告搜尋線索，活動日期與台灣適用性尚未核實",
       "status": "source_lead_only"

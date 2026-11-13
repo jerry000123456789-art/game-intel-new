@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
-"""Publish only intended site files, never scripts/config/secrets to static assets."""
+"""Publish only the focused mobile game radar and its public data."""
 from pathlib import Path
 import shutil
 ROOT=Path(__file__).resolve().parents[1]
 out=ROOT/'public'
-if out.exists(): shutil.rmtree(out)
+if out.exists():shutil.rmtree(out)
 (out/'data').mkdir(parents=True)
-shutil.copy2(ROOT/'index.html',out/'index.html')
-for name in ('business.js','business.css'):
+for name in ('index.html','radar.js','radar.css'):
     shutil.copy2(ROOT/name,out/name)
-for src in (ROOT/'data').glob('*.json'):
+for name in ('radar_catalog','radar_summary','radar_health'):
+    src=ROOT/'data'/(name+'.json')
+    if not src.exists():raise SystemExit('Missing required public radar snapshot: '+str(src))
     shutil.copy2(src,out/'data'/src.name)
-(out/'robots.txt').write_text('User-agent: *\nDisallow: /\n',encoding='utf-8')
-print('Built public site assets:',len(list(out.rglob('*'))),'files')
+(out/'robots.txt').write_text('User-agent: *\nDisallow: /\n',encoding='utf8')
+print('Focused radar build:',len(list(out.rglob('*'))),'assets')

@@ -1,847 +1,1191 @@
 {
-  "updated_at": "2026-11-13T20:47:01+00:00",
+  "updated_at": "2026-11-13T20:48:48+00:00",
   "sources": [
     {
       "kind": "Apple newapplications",
       "url": "https://itunes.apple.com/tw/rss/newapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 110
     },
     {
       "kind": "Apple newfreeapplications",
       "url": "https://itunes.apple.com/tw/rss/newfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 110
     },
     {
       "kind": "Apple newpaidapplications",
       "url": "https://itunes.apple.com/tw/rss/newpaidapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 110
     },
     {
       "kind": "Apple topfreeapplications",
       "url": "https://itunes.apple.com/tw/rss/topfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 100
     },
     {
       "kind": "Apple newapplications",
       "url": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 105
     },
     {
       "kind": "Apple newfreeapplications",
       "url": "https://itunes.apple.com/us/rss/newfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 106
     },
     {
       "kind": "Apple newpaidapplications",
       "url": "https://itunes.apple.com/us/rss/newpaidapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 109
     },
     {
       "kind": "Apple topfreeapplications",
       "url": "https://itunes.apple.com/us/rss/topfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 100
     },
     {
       "kind": "Apple newapplications",
       "url": "https://itunes.apple.com/jp/rss/newapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 102
     },
     {
       "kind": "Apple newfreeapplications",
       "url": "https://itunes.apple.com/jp/rss/newfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 102
     },
     {
       "kind": "Apple newpaidapplications",
       "url": "https://itunes.apple.com/jp/rss/newpaidapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 108
     },
     {
       "kind": "Apple topfreeapplications",
       "url": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 100
     },
     {
       "kind": "Apple newapplications",
       "url": "https://itunes.apple.com/kr/rss/newapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 108
     },
     {
       "kind": "Apple newfreeapplications",
       "url": "https://itunes.apple.com/kr/rss/newfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 109
     },
     {
       "kind": "Apple newpaidapplications",
       "url": "https://itunes.apple.com/kr/rss/newpaidapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 106
     },
     {
       "kind": "Apple topfreeapplications",
       "url": "https://itunes.apple.com/kr/rss/topfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 100
     },
     {
       "kind": "Apple newapplications",
       "url": "https://itunes.apple.com/hk/rss/newapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 109
     },
     {
       "kind": "Apple newfreeapplications",
       "url": "https://itunes.apple.com/hk/rss/newfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 110
     },
     {
       "kind": "Apple newpaidapplications",
       "url": "https://itunes.apple.com/hk/rss/newpaidapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 106
     },
     {
       "kind": "Apple topfreeapplications",
       "url": "https://itunes.apple.com/hk/rss/topfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 100
     },
     {
       "kind": "Apple newapplications",
       "url": "https://itunes.apple.com/sg/rss/newapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 104
     },
     {
       "kind": "Apple newfreeapplications",
       "url": "https://itunes.apple.com/sg/rss/newfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 104
     },
     {
       "kind": "Apple newpaidapplications",
       "url": "https://itunes.apple.com/sg/rss/newpaidapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 109
     },
     {
       "kind": "Apple topfreeapplications",
       "url": "https://itunes.apple.com/sg/rss/topfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 100
     },
     {
       "kind": "Google Play 分類",
       "url": "https://play.google.com/store/games?hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
-      "count": 55
+      "count": 69
     },
     {
       "kind": "Google Play 分類",
       "url": "https://play.google.com/store/games?hl=zh_TW&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 109
     },
     {
       "kind": "Google Play 分類",
       "url": "https://play.google.com/store/apps/collection/promotion_3000000d51_pre_registration_games?hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 20
     },
     {
       "kind": "Google Play 分類",
       "url": "https://play.google.com/store/apps/collection/promotion_3000000d51_pre_registration_games?hl=zh_TW&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 20
     },
     {
       "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=%E6%96%B0%E6%89%8B%E9%81%8A&c=games&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
+      "url": "https://play.google.com/store/search?q=%E6%96%B0%E6%89%8B%E9%81%8A&c=apps&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 30
     },
     {
       "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=pre+register+game&c=games&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
+      "url": "https://play.google.com/store/search?q=pre+register+game&c=apps&hl=en_US&gl=US",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 30
     },
     {
       "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=new+mobile+games&c=games&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
+      "url": "https://play.google.com/store/search?q=new+mobile+games&c=apps&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 30
     },
     {
       "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=upcoming+games&c=games&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
+      "url": "https://play.google.com/store/search?q=upcoming+games&c=apps&hl=en_US&gl=US",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 30
     },
     {
       "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=new+rpg&c=games&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
+      "url": "https://play.google.com/store/search?q=new+rpg&c=apps&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 11
     },
     {
       "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=idle+rpg&c=games&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
+      "url": "https://play.google.com/store/search?q=idle+rpg&c=apps&hl=en_US&gl=US",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 21
     },
     {
       "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=tower+defense&c=games&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
+      "url": "https://play.google.com/store/search?q=tower+defense&c=apps&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 30
     },
     {
       "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=strategy+game&c=games&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
+      "url": "https://play.google.com/store/search?q=strategy+game&c=apps&hl=en_US&gl=US",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 30
     },
     {
       "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=%E5%8D%A1%E7%89%8C%E6%96%B0%E9%81%8A%E6%88%B2&c=games&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
+      "url": "https://play.google.com/store/search?q=%E5%8D%A1%E7%89%8C%E6%96%B0%E9%81%8A%E6%88%B2&c=apps&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 11
     },
     {
       "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=%E4%B8%89%E5%9C%8B%E9%81%8A%E6%88%B2&c=games&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
+      "url": "https://play.google.com/store/search?q=%E4%B8%89%E5%9C%8B%E9%81%8A%E6%88%B2&c=apps&hl=en_US&gl=US",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 30
     },
     {
       "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=new+action+rpg&c=games&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
+      "url": "https://play.google.com/store/search?q=new+action+rpg&c=apps&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 21
     },
     {
       "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=online+game&c=games&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
+      "url": "https://play.google.com/store/search?q=online+game&c=apps&hl=en_US&gl=US",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 30
     },
     {
       "kind": "Google 公開搜尋",
       "url": "https://www.google.com/search?q=idle%20rpg",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google 公開搜尋",
       "url": "https://www.google.com/search?q=online%20game",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.looperse.td3kingdom&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
       "url": "https://play.google.com/store/apps/details?id=com.azragames.ungodly&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.azragames.ungodly&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.looperse.td3kingdom&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.curiousdotlab.level99&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
       "url": "https://play.google.com/store/apps/details?id=com.jiys.mfqb&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Google Play 商品核實",
+      "url": "https://play.google.com/store/apps/details?id=com.azragames.ungodly&hl=en_US&gl=US",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Google Play 商品核實",
+      "url": "https://play.google.com/store/apps/details?id=com.looperse.td3kingdom&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Google Play 商品核實",
+      "url": "https://play.google.com/store/apps/details?id=com.curiousdotlab.level99&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
       "url": "https://play.google.com/store/apps/details?id=com.jiys.mfqb&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=Y.pointerId&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://play.google.com/store/apps/details?id=U.pointerId&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "HTTP Error 404: Not Found"
     },
     {
       "kind": "Google Play 商品核實",
+      "url": "https://play.google.com/store/apps/details?id=com.looperse.td3kingdom&hl=en_US&gl=US",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Google Play 商品核實",
+      "url": "https://play.google.com/store/apps/details?id=com.rojourney.and&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Google Play 商品核實",
       "url": "https://play.google.com/store/apps/details?id=com.curiousdotlab.level99&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.bethsoft.DOOMII&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.x.aniimos&hl=en_US&gl=US",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.funtaptic.spacerockbreaker&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.blizzard.diablo.immortal&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.youmusic.magictiles&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.ea.gp.fifamobile&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=jp.co.mixi.monsterstrikeTW&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.ProjectMoon.LimbusCompany&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.tripledot.blockbash&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.tgc.sky.android&hl=en_US&gl=US",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.movile.playkids.pkxd&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftDOHM&hl=en_US&gl=US",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=easy.sudoku.puzzle.solver.free&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.yun.igp&hl=en_US&gl=US",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.zynga.words3&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=jp.konami.pesam&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.topwar.gp&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.lilithgame.hgame.gp.tw&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.oakever.jigsawcard&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.proximabeta.aoemobile&hl=en_US&gl=US",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.rotatelab.cubeblast&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.lilithgame.roc.gp&hl=en_US&gl=US",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.nianticlabs.pikmin&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.rovio.baba&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.cloudcade.shopheroesidle&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.quzizi.juicyjourney.google&hl=en_US&gl=US",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.bytro.warhammer40ksupremacy&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.SecretModeLimited.EverythingisCrab&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.nebula.mahjongtile&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.bethsoft.DOOM&hl=en_US&gl=US",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.dontdie.survival.battler&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.bywitchlight.themaguscircle&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.adhoc.dispatch&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.unicostudio.braintest&hl=en_US&gl=US",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=ata.kraken.singlecity&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=tw.txwy.and.grandchase&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.garena.game.fctw&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.cle.galaxydefense&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.JindoBlu.TwoPlayerGamesChallenge&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.bandainamcoent.bleach_mh_ww&hl=en_US&gl=US",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=air.com.RustyLake.WhiteDoor&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.fun.lastwar.gp&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.studio27.MelonPlayground&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.igg.android.doomsdaylastsurvivors&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.tocaboca.tocalifeworld&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.gryphline.endfield.gp&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.supercell.clashroyale&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.digitalextremes.warframemobile&hl=en_US&gl=US",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.fungames.blockcraft&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.edkongames.mobs&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.brazle.mylittlehotel&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.idle.mmorpg&hl=en_US&gl=US",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.pid.preserve&hl=en_US&gl=US",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.cookapps.roaddefense&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.mobibrain.championforge&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=tw.com.iwplay.nte&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
+      "url": "https://play.google.com/store/apps/details?id=com.cookapps.afkdungeon&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/us/app/id6740617332",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/jp/app/id940320341",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/kr/app/id947742764",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple Lookup",
       "url": "https://apps.apple.com/kr/app/id6740617332",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6788310048",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/jp/app/id6740617332",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6812787190",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple Lookup",
       "url": "https://apps.apple.com/tw/app/id6740617332",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6818995219",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/jp/app/id6740617332",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6819375975",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/hk/app/id893677096",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6818126281",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/kr/app/id870442795",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6827285045",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6806377757",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/jp/app/id724594093",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6826657782",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6825990677",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6740617332",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6820031774",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6832095577",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6805286984",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6832273015",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/sg/app/id698255242",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6770127602",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6831838969",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6830021575",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6821784874",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6825119917",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
       "url": "https://apps.apple.com/tw/app/id6834144002",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6822800788",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6795243822",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6833613901",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6810977112",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6833663967",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6817503803",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6833613428",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6819451969",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6833877369",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6805050265",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/kr/app/id698255242",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833843075",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6830765889",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6833522542",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833445165",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833481908",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833489547",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833426761",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833384522",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833205014",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833373514",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833246057",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833179146",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833103142",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833083520",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833090768",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833044565",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833070485",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833008075",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6832775499",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833008073",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6832732747",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6832615245",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6832986430",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6832603139",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832545137",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6832497324",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6832563193",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832487291",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832456073",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832440111",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6832501781",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832432075",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832421208",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6832420201",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832416167",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832393388",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832371282",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832363000",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832359497",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832357442",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6832356397",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832350940",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832357032",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832332852",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832317415",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832327033",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832342470",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832293325",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832312471",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832294724",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6832316436",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832293056",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832275719",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832264590",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6832263405",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832258507",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832261345",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6832241710",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832232648",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6832188503",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832225543",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832183443",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832253130",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832169700",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832209102",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
@@ -849,15 +1193,432 @@
     {
       "kind": "Apple Lookup",
       "url": "https://apps.apple.com/tw/app/id6832127587",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6828720209",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832134134",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6832110570",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832120173",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6832098065",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832110536",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832088075",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/sg/app/id6814367003",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832059753",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/sg/app/id6814306125",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6832095577",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/sg/app/id6814359474",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6814297185",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6814256331",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6814287943",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6814282484",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/sg/app/id6814264801",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6814284610",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6814222957",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6814191176",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6814128826",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6814173066",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/sg/app/id6814194661",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/sg/app/id6814167006",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6814103261",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6813993713",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6814010917",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6814008650",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6813988854",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6814067303",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/sg/app/id6813890512",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/sg/app/id6813885259",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6813861450",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6813829695",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/sg/app/id6813983403",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6813849902",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/sg/app/id6813820351",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6813865708",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6813842210",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6813818976",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6813739466",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6813660771",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/jp/app/id6813670292",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/sg/app/id6813643741",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    }
+  ],
+  "errors": [
+    {
+      "kind": "Google Play 商品核實",
+      "url": "https://play.google.com/store/apps/details?id=U.pointerId&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6834144002",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833663967",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833613428",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833877369",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833843075",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833445165",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833481908",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833489547",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833426761",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/tw/app/id6833205014",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
@@ -865,47 +1626,31 @@
     {
       "kind": "Apple Lookup",
       "url": "https://apps.apple.com/tw/app/id6833373514",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6804376491",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6833246057",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6826803201",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6833179146",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6832501781",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6832058904",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6828233623",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6833103142",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
@@ -913,55 +1658,31 @@
     {
       "kind": "Apple Lookup",
       "url": "https://apps.apple.com/tw/app/id6833083520",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6826416026",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6833090768",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6822378109",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6833044565",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6820683622",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6822119808",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6822120344",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6828984744",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6833070485",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
@@ -969,47 +1690,47 @@
     {
       "kind": "Apple Lookup",
       "url": "https://apps.apple.com/tw/app/id6833008075",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6829276158",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6832775499",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6804835784",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6833008073",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6829339040",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6832732747",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6818135492",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6832615245",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6825796237",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6832986430",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
@@ -1017,99 +1738,15 @@
     {
       "kind": "Apple Lookup",
       "url": "https://apps.apple.com/tw/app/id6832603139",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6796603693",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6817014658",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6758573493",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6830172228",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6832018046",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6816496661",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6831088282",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6830884802",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6833195386",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6830779796",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6827126487",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6801209704",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832545137",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
@@ -1117,982 +1754,279 @@
     {
       "kind": "Apple Lookup",
       "url": "https://apps.apple.com/tw/app/id6832497324",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6824886292",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6832563193",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6832988580",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6751053779",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832487291",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6761171592",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832456073",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6820989041",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832440111",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6833434799",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6822262966",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6832083997",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6819063712",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6826449805",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6822101993",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6832501781",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6817605464",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832432075",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6823944039",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832421208",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6827934680",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6825911731",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6832420201",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6830227039",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832416167",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6823124774",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832393388",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6824882366",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832371282",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6829673579",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832363000",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6824313069",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832357442",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id1443446174",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6808935678",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6832356397",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6822070920",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832350940",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6757681008",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832357032",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6826542696",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id1458863319",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id1160056295",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id1094930513",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id6746743297",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id6742809194",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id6752672568",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id1222857607",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id993090598",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id6769314786",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id1630315603",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id1462911602",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id1562817072",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id506627515",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id638689075",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id1619254071",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id553834731",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id6752886832",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id6741567125",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id6757791740",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id6499209744",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id6753862216",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id6443575749",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id6806929534",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id6758326278",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id6471045672",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id6756482832",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id1105855019",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id1351168404",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id6783815362",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id6796547048",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id1094591345",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id1465688043",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id1623318294",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/sg/app/id6746328263",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "success",
-      "count": 1
-    }
-  ],
-  "errors": [
-    {
-      "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=%E6%96%B0%E6%89%8B%E9%81%8A&c=games&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=pre+register+game&c=games&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=new+mobile+games&c=games&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=upcoming+games&c=games&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=new+rpg&c=games&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=idle+rpg&c=games&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=tower+defense&c=games&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=strategy+game&c=games&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=%E5%8D%A1%E7%89%8C%E6%96%B0%E9%81%8A%E6%88%B2&c=games&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=%E4%B8%89%E5%9C%8B%E9%81%8A%E6%88%B2&c=games&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=new+action+rpg&c=games&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=online+game&c=games&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.looperse.td3kingdom&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.azragames.ungodly&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.azragames.ungodly&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.looperse.td3kingdom&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.curiousdotlab.level99&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.jiys.mfqb&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.jiys.mfqb&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=Y.pointerId&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.curiousdotlab.level99&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.bethsoft.DOOMII&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.funtaptic.spacerockbreaker&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.youmusic.magictiles&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=jp.co.mixi.monsterstrikeTW&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.tripledot.blockbash&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.movile.playkids.pkxd&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=easy.sudoku.puzzle.solver.free&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.zynga.words3&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.topwar.gp&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.oakever.jigsawcard&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.rotatelab.cubeblast&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.nianticlabs.pikmin&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.cloudcade.shopheroesidle&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.bytro.warhammer40ksupremacy&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.nebula.mahjongtile&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.dontdie.survival.battler&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.adhoc.dispatch&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=ata.kraken.singlecity&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.garena.game.fctw&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.JindoBlu.TwoPlayerGamesChallenge&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=air.com.RustyLake.WhiteDoor&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.studio27.MelonPlayground&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.tocaboca.tocalifeworld&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.supercell.clashroyale&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.fungames.blockcraft&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.brazle.mylittlehotel&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.haegin.playtogether&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.cookapps.roaddefense&hl=en_US&gl=US",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=tw.com.iwplay.nte&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "商品頁無可驗證名稱"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6788310048",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832332852",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6827285045",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832317415",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6826657782",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832327033",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6820031774",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832342470",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6832095577",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832293325",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6805286984",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832312471",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6770127602",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832294724",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6831838969",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6832316436",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6821784874",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832293056",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6825119917",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832275719",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6834144002",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832258507",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6822800788",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832261345",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6810977112",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6832241710",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6817503803",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6832188503",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6819451969",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832225543",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6805050265",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832183443",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6830765889",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832169700",
+      "checked_at": "2026-11-13T20:48:48+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no game result; country availability inconclusive"
+    },
+    {
+      "kind": "Apple Lookup",
+      "url": "https://apps.apple.com/us/app/id6832209102",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
@@ -2100,383 +2034,287 @@
     {
       "kind": "Apple Lookup",
       "url": "https://apps.apple.com/tw/app/id6832127587",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6828720209",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832134134",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6833373514",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6832110570",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6804376491",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832120173",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6826803201",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6832098065",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6832501781",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832110536",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6832058904",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832088075",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6828233623",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/sg/app/id6814367003",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6833083520",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/us/app/id6832059753",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6826416026",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/sg/app/id6814306125",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6822378109",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6832095577",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6820683622",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/jp/app/id6814297185",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6822119808",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/jp/app/id6814256331",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6822120344",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/jp/app/id6814287943",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6828984744",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/jp/app/id6814222957",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6833008075",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/tw/app/id6814191176",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6829276158",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/jp/app/id6814128826",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6804835784",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/sg/app/id6814194661",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6829339040",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/sg/app/id6814167006",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6818135492",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/jp/app/id6814010917",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6825796237",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/jp/app/id6814008650",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6832603139",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/jp/app/id6813988854",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6796603693",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/jp/app/id6814067303",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6817014658",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/sg/app/id6813890512",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6832018046",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/sg/app/id6813885259",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6831088282",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/jp/app/id6813829695",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6830884802",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/sg/app/id6813983403",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6830779796",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/jp/app/id6813849902",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6827126487",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/sg/app/id6813820351",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6801209704",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/jp/app/id6813865708",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6832497324",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/jp/app/id6813818976",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6824886292",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/jp/app/id6813739466",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6751053779",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/jp/app/id6813660771",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6761171592",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/jp/app/id6813670292",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     },
     {
       "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6820989041",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6822101993",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6817605464",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6823944039",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6825911731",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6830227039",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6823124774",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6824882366",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6829673579",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6824313069",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6808935678",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6822070920",
-      "checked_at": "2026-11-13T20:47:01+00:00",
-      "state": "error",
-      "count": 0,
-      "error": "Apple API no game result; country availability inconclusive"
-    },
-    {
-      "kind": "Apple Lookup",
-      "url": "https://apps.apple.com/tw/app/id6757681008",
-      "checked_at": "2026-11-13T20:47:01+00:00",
+      "url": "https://apps.apple.com/sg/app/id6813643741",
+      "checked_at": "2026-11-13T20:48:48+00:00",
       "state": "error",
       "count": 0,
       "error": "Apple API no game result; country availability inconclusive"
     }
   ],
-  "new_records": 2101,
+  "new_records": 258,
   "attempts": 205,
   "scope": "公開商店與搜尋資料；不保證各市場全部新上架遊戲",
   "note": "Google 搜尋／App Store RSS 屬部分清單，未取得日期不以更新日替代首發。",
-  "collected_variants": 2101
+  "collected_variants": 2359
 }

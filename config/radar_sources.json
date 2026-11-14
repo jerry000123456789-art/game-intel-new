@@ -126,5 +126,17 @@
       ]
     }
   ],
-  "note": "Seeds are verification targets, not the whole search. Google Play public search is partial and may be blocked. Apple official public RSS is ranked/limited. Never claim complete global inventory."
+  "note": "Seeds are verification targets, not the whole search. Google Play public search is partial and may be blocked. Apple official public RSS is ranked/limited. Never claim complete global inventory.",
+  "google_markets": [
+    "TW",
+    "US"
+  ],
+  "google_priority_market": "TW",
+  "google_search_allocation": {
+    "TW": 8,
+    "US": 4
+  },
+  "google_international_store_label": "國際",
+  "google_international_store_url": "https://play.google.com/store/games?hl=zh_TW&gl=US",
+  "google_source_note": "Google Play 主搜尋僅 TW（台灣）及 US（依使用者指定稱為國際），以台灣 8/12 搜尋權重優先。US 是美國商店，不代表所有國家。預先註冊與首頁兩地各查，商店名稱中文顯示。Apple Store 各國明細另行保留。"
 }

@@ -49,7 +49,7 @@ def appid(url,store):
 
 def official_url(store,ident,country):
     if store=="Google Play":
-        return "https://play.google.com/store/apps/details?"+urlencode({"id":ident,"hl":"zh_TW" if country=="TW" else "en_US","gl":country})
+        return "https://play.google.com/store/apps/details?"+urlencode({"id":ident,"hl":"zh_TW","gl":country})
     return f"https://apps.apple.com/{country.lower()}/app/id{ident}"
 
 def date_only(s):
@@ -209,7 +209,7 @@ def google_search_query(query,country):
     # Official Google Play search, not only its editorial home. It does not
     # promise a complete catalog and it may return recommendations/non-games.
     url="https://play.google.com/store/search?"+urlencode({
-      "q":query,"c":"apps","hl":"zh_TW" if country=="TW" else "en_US","gl":country})
+      "q":query,"c":"apps","hl":"zh_TW","gl":country})
     rows=stores.parse_store(fetch(url),"Google Play","台灣" if country=="TW" else "國際",country)
     for x in rows:
         x["country"]=country
@@ -249,12 +249,19 @@ def run(fetch_only=False):
                 except Exception as e:log("Apple "+kind,url,error=e)
     fetch_apple_feeds()
     queries=config["google_queries"]
+    google_markets=config.get("google_markets",["TW","US"])
+    if google_markets!=["TW","US"]:
+        raise ValueError("Google Play must use TW and the owner-selected US international storefront only")
+    allocation=config.get("google_search_allocation",{"TW":8,"US":4})
     hour=int(dt.datetime.now(dt.timezone.utc).timestamp()//(3*3600))
-    wanted=[(x["id"],c) for x in config["direct_google_ids"] for c in ("TW","US")]
+    wanted=[(x["id"],c) for x in config["direct_google_ids"] for c in google_markets]
     # Four sample games are always rechecked. Then cycle new discovery terms.
     discovered=set(wanted)
     for url in config.get("google_categories",[]):
         country=parse_qs(urlparse(url).query).get("gl",["TW"])[0].upper()
+        if country not in google_markets:
+            # Never collect other-country Google Play categories into the main radar.
+            continue
         try:
             rows=stores.parse_store(fetch(url),"Google Play",
                  "台灣" if country=="TW" else "國際",country)
@@ -272,8 +279,13 @@ def run(fetch_only=False):
     qcount=min(int(config.get("google_searches_per_run",12)),len(queries))
     for i in range(qcount):
         q=queries[(hour*qcount+i)%len(queries)]
-        country="TW" if i%2==0 else "US"
-        url="https://play.google.com/store/search?"+urlencode({"q":q,"c":"apps","hl":"zh_TW" if country=="TW" else "en_US","gl":country})
+        # TW dominates the coverage; US is the owner's designated "國際" store.
+        # Distribute checks across the entire interval instead of all TW then US.
+        tw_quota=max(0,min(qcount,int(allocation.get("TW",8))*qcount//12))
+        country="TW" if (i*tw_quota)//qcount != ((i-1)*tw_quota)//qcount else "US"
+        # Correct the first term and handle extreme quotas deterministically.
+        if i==0:country="TW" if tw_quota else "US"
+        url="https://play.google.com/store/search?"+urlencode({"q":q,"c":"apps","hl":"zh_TW","gl":country})
         try:
             rows=google_search_query(q,country)
             if not rows:raise RuntimeError("no official game links found")

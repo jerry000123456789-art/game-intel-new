@@ -17,6 +17,14 @@ builder=module("build_radar")
 cfg=json.loads((ROOT/"config/radar_sources.json").read_text(encoding="utf8"))
 seed_ids={x["id"] for x in cfg["direct_google_ids"]}
 assert {"com.azragames.ungodly","com.looperse.td3kingdom","com.jiys.mfqb","com.curiousdotlab.level99"}<=seed_ids
+assert cfg["google_markets"]==["TW","US"],"Google Play must use Taiwan and the supplied US storefront only"
+assert cfg["google_priority_market"]=="TW"
+assert cfg["google_search_allocation"]["TW"]>cfg["google_search_allocation"]["US"]
+assert all("gl=TW" in x or "gl=US" in x for x in cfg["google_categories"])
+assert "hl=zh_TW&gl=US" in collector.official_url("Google Play","com.looperse.td3kingdom","US")
+assert builder.to_variant({"store":"Google Play","country":"JP","app_id":"com.test.other","name":"Other","source_url":"https://play.google.com/store/apps/details?id=com.test.other"}) is None
+assert builder.to_variant({"store":"App Store","country":"JP","app_id":"112233445","name":"Other","source_url":"https://apps.apple.com/jp/app/id112233445"}) is not None
+
 assert collector.appid("https://play.google.com/store/apps/details?id=com.looperse.td3kingdom&hl=zh_TW","Google Play")=="com.looperse.td3kingdom"
 assert collector.appid("https://apps.apple.com/us/app/ungodly/id6740617332","App Store")=="6740617332"
 assert collector.date_only("2026-11-11")=="2026-11-11"

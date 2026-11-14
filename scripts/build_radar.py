@@ -47,6 +47,9 @@ def to_variant(raw,matrix=None):
     if store not in ("App Store","Google Play"):return None
     country=str(r.get("country") or ("TW" if r.get("region")=="台灣" else "US")).upper()
     if country not in COUNTRIES:return None
+    # Google Play uses only TW and the owner-designated US international market;
+    # preserve broader Apple markets in the detailed iOS view.
+    if store=="Google Play" and country not in ("TW","US"):return None
     key=r.get("app_id") or appid(r.get("source_url") or (r.get("store_links") or [{}])[0].get("url",""),store)
     if not key or not r.get("name"):return None
     matrix=matrix or {}

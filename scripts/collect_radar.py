@@ -146,9 +146,11 @@ def apple_rss_is_game(entry):
 def apple_lookup_is_game(item):
     """Apple's genre IDs, not a misleading game-related title, control inclusion."""
     ids={str(i) for i in item.get("genreIds",[]) or []}
-    return (str(item.get("primaryGenreId",""))==APPLE_GAME_GENRE
-            or APPLE_GAME_GENRE in ids
-            or item.get("primaryGenreName")=="Games")
+    primary=str(item.get("primaryGenreId",""))
+    if primary:return primary==APPLE_GAME_GENRE
+    primary_name=str(item.get("primaryGenreName","")).strip().casefold()
+    if primary_name:return primary_name in ("games","遊戲","游戏","ゲーム","게임")
+    return APPLE_GAME_GENRE in ids
 
 def apple_feed(data,country,feedkind):
     feed=data.get("feed",{})

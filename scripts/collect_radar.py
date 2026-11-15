@@ -29,6 +29,7 @@ NOW=dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
 COUNTRY_NAMES={"TW":"台灣","US":"美國","JP":"日本","KR":"韓國","HK":"香港","SG":"新加坡"}
 UA={"User-Agent":"Mozilla/5.0 (compatible; GameIntelRadar/2.0; public product metadata)","Accept":"text/html,application/json,application/xml"}
 MAX_BYTES=3_500_000
+APPLE_GAME_GENRE="6014"  # Apple App Store > 遊戲 / Games
 
 def fetch(url,limit=MAX_BYTES):
     req=Request(url,headers=UA)
@@ -64,6 +65,10 @@ def normalize(row):
     s=dict(row)
     store=s.get("store") or (s.get("platforms") or [""])[0]
     if store not in ("Google Play","App Store"):return None
+    # Old unclassified Apple entries are never allowed into the public radar.
+    # A Games RSS entry or an official Lookup result must verify genre 6014.
+    if store=="App Store" and not (s.get("apple_game_verified") is True
+                                   and str(s.get("apple_genre_id"))==APPLE_GAME_GENRE):return None
     country=str(s.get("country") or ("TW" if s.get("region")=="台灣" else "US")).upper()
     if country not in COUNTRY_NAMES:return None
     ident=s.get("app_id") or appid(s.get("source_url") or (s.get("store_links") or [{}])[0].get("url"),store)
@@ -81,7 +86,9 @@ def normalize(row):
       "last_checked_at":s.get("last_checked_at") or s.get("checked_at") or "",
       "source_kind":s.get("source_kind") or "商店公開資料",
       "detail_note":s.get("detail_note") or "",
-      "verified_store_listing":bool(s.get("verified_store_listing",True))}
+      "verified_store_listing":bool(s.get("verified_store_listing",True)),
+      "apple_game_verified":bool(s.get("apple_game_verified")) if store=="App Store" else False,
+      "apple_genre_id":str(s.get("apple_genre_id","")) if store=="App Store" else ""}
 
 def merge(table,raw):
     row=normalize(raw)
@@ -119,7 +126,29 @@ def merge(table,raw):
         combined["preorder"]=bool(previous.get("preorder") or row.get("preorder"))
         combined["installable"]=bool(previous.get("installable") or row.get("installable"))
     combined["verified_store_listing"]=previous.get("verified_store_listing") or row.get("verified_store_listing")
+    if row["store"]=="App Store":
+        combined["apple_game_verified"]=True
+        combined["apple_genre_id"]=APPLE_GAME_GENRE
     table[key]=combined
+
+def apple_rss_is_game(entry):
+    """Do not trust genre=6014 in the RSS URL alone: check EACH item."""
+    cats=entry.get("category") or []
+    if isinstance(cats,dict):cats=[cats]
+    for category in cats:
+        attrs=category.get("attributes",{}) if isinstance(category,dict) else {}
+        # The game subgenres (7001–7019) sit beneath the Games category.
+        category_id=str(attrs.get("im:id",""))
+        if category_id==APPLE_GAME_GENRE or category_id.isdigit() and 7001<=int(category_id)<=7019:
+            return True
+    return False
+
+def apple_lookup_is_game(item):
+    """Apple's genre IDs, not a misleading game-related title, control inclusion."""
+    ids={str(i) for i in item.get("genreIds",[]) or []}
+    return (str(item.get("primaryGenreId",""))==APPLE_GAME_GENRE
+            or APPLE_GAME_GENRE in ids
+            or item.get("primaryGenreName")=="Games")
 
 def apple_feed(data,country,feedkind):
     feed=data.get("feed",{})
@@ -128,6 +157,7 @@ def apple_feed(data,country,feedkind):
     out=[]
     for e in records:
         try:
+            if not apple_rss_is_game(e):continue
             title=e["im:name"]["label"].strip()
             link=e.get("link",{});link=link[0] if isinstance(link,list) else link
             url=link.get("attributes",{}).get("href","") if isinstance(link,dict) else ""
@@ -141,7 +171,8 @@ def apple_feed(data,country,feedkind):
                 "name":title,"developer":developer,"cover_url":art,"source_url":official_url("App Store",ident,country),
                 "release_date":date_only(rd),"date_scope":"Apple 商品發行日期，非國家首發保證",
                 "source_kind":"Apple 新上架 RSS" if feedkind.startswith("new") else "Apple 遊戲排行榜",
-                "first_seen_at":NOW,"verified_store_listing":True})
+                "first_seen_at":NOW,"verified_store_listing":True,
+                "apple_game_verified":True,"apple_genre_id":APPLE_GAME_GENRE})
         except (KeyError,AttributeError,IndexError,TypeError):continue
     return out
 
@@ -150,8 +181,7 @@ def apple_lookup(ident,country):
     j=json.loads(fetch(url,600000))
     for a in j.get("results",[]):
         if str(a.get("trackId"))!=ident or a.get("kind")!="software":continue
-        isgame=a.get("primaryGenreName")=="Games" or "6014" in [str(i) for i in a.get("genreIds",[])]
-        if not isgame:return None
+        if not apple_lookup_is_game(a):return None
         d=date_only(a.get("releaseDate"))
         return {"store":"App Store","app_id":ident,"country":country,
             "name":a.get("trackName","").strip(),"developer":a.get("artistName",""),
@@ -162,7 +192,8 @@ def apple_lookup(ident,country):
             "installable":bool(d and d<=dt.datetime.now(dt.timezone.utc).date().isoformat()
                                and not (a.get("isPreOrder") or a.get("isPreorder"))),
             "source_kind":"Apple Lookup","last_checked_at":NOW,"first_seen_at":NOW,
-            "verified_store_listing":True}
+            "verified_store_listing":True,
+            "apple_game_verified":True,"apple_genre_id":APPLE_GAME_GENRE}
     return None
 
 class PlayTitleParser(HTMLParser):
@@ -231,7 +262,7 @@ def run(fetch_only=False):
     for x in old.get("items",[]):merge(table,x)
     health={"updated_at":NOW,"sources":[],"errors":[],"new_records":0,"attempts":0,
        "scope":"公開商店與搜尋資料；不保證各市場全部新上架遊戲",
-       "note":"Google 搜尋／App Store RSS 屬部分清單，未取得日期不以更新日替代首發。"}
+       "note":"Google 搜尋／App Store RSS 屬部分清單；Apple 僅收錄官方遊戲分類 6014（含遊戲子類別），不以更新日替代首發。"}
     def log(kind,url,records=None,error=""):
         entry={"kind":kind,"url":url,"checked_at":NOW,"state":"error" if error else "success",
           "count":len(records) if records is not None else 0}
@@ -242,10 +273,16 @@ def run(fetch_only=False):
             for kind in config["apple_feed_kinds"]:
                 url=f"https://itunes.apple.com/{country.lower()}/rss/{kind}/limit=100/genre=6014/json"
                 try:
-                    batch=apple_feed(json.loads(fetch(url)),country,kind)
-                    if not batch:raise RuntimeError("empty/unparseable feed")
+                    feed_json=json.loads(fetch(url))
+                    entries=feed_json.get("feed",{}).get("entry") or []
+                    if isinstance(entries,dict):entries=[entries]
+                    batch=apple_feed(feed_json,country,kind)
+                    if not batch:raise RuntimeError("Games category 6014 empty/unparseable in feed")
+                    # Count filtered items as a source-quality diagnostic.
+                    filtered_out=len(entries)-len(batch)
                     for x in batch:merge(table,x)
-                    log("Apple "+kind,url,batch)
+                    log("Apple 遊戲分類 "+kind,url,batch)
+                    health["sources"][-1]["excluded_non_games"]=max(0,filtered_out)
                 except Exception as e:log("Apple "+kind,url,error=e)
     fetch_apple_feeds()
     queries=config["google_queries"]
@@ -323,17 +360,42 @@ def run(fetch_only=False):
                 log("Google Play 商品核實",official_url("Google Play",ident,country),error=e)
     direct=[(x["id"],c) for x in config["direct_apple_ids"] for c in ("TW","US","JP","KR")]
     ids=[(x[1],x[2]) for x in table if x[0]=="App Store"]
+    # Recheck historical iOS products through Apple Lookup so legitimate games
+    # outside the current ranked feeds can return, but only after 6014 proof.
+    legacy=[]
+    for row in old.get("items",[]):
+        if row.get("store")=="App Store" and row.get("app_id") and row.get("country") in COUNTRY_NAMES:
+            legacy.append((str(row["app_id"]),row["country"]))
+    history_file=ROOT/"data/game_catalog.json"
+    if history_file.exists():
+        try:
+            history=json.loads(history_file.read_text(encoding="utf-8"))
+            for row in history.get("items",[]):
+                if "App Store" not in row.get("platforms",[]):continue
+                app=appid(row.get("source_url",""),"App Store")
+                country=row.get("country") or ("TW" if row.get("region")=="台灣" else "US")
+                if app and country in COUNTRY_NAMES:legacy.append((app,country))
+        except (OSError,ValueError):pass
+    legacy=list(dict.fromkeys(legacy))
+    history_seen={(str(x.get("app_id")),x.get("country")):x.get("first_seen_at","")
+                  for x in old.get("items",[]) if x.get("store")=="App Store"}
     missing=[x for x in ids if x not in direct and not table[("App Store",x[0],x[1])].get("last_checked_at")]
     # Bounded Apple Lookup, rotate across all discovered iOS entries.
-    selected=list(dict.fromkeys(direct+missing[:85]+ids[(hour*90)%max(1,len(ids)):(hour*90)%max(1,len(ids))+35]))[:125]
+    legacy_batch=[x for x in legacy if x not in ids and x not in direct]
+    legacy_start=(hour*35)%max(1,len(legacy_batch))
+    legacy_checks=(legacy_batch[legacy_start:legacy_start+35]+legacy_batch[:max(0,legacy_start+35-len(legacy_batch))])[:35]
+    selected=list(dict.fromkeys(direct+missing[:65]+legacy_checks+
+             ids[(hour*90)%max(1,len(ids)):(hour*90)%max(1,len(ids))+35]))[:125]
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         futures={pool.submit(apple_lookup,ident,country):(ident,country) for ident,country in selected}
         for result in concurrent.futures.as_completed(futures):
             ident,country=futures[result];url=official_url("App Store",ident,country)
             try:
                 item=result.result()
-                if item:merge(table,item);log("Apple Lookup",url,[item])
-                else:log("Apple Lookup",url,error="Apple API no game result; country availability inconclusive")
+                if item:
+                    if history_seen.get((ident,country)):item["first_seen_at"]=history_seen[(ident,country)]
+                    merge(table,item);log("Apple 遊戲分類 Lookup",url,[item])
+                else:log("Apple 遊戲分類 Lookup",url,error="Apple API no Games 6014 result; country/category inconclusive")
             except Exception as e:log("Apple Lookup",url,error=e)
     rows=sorted(table.values(),key=lambda x:(x.get("first_seen_at",""),x["store"],x["app_id"],x["country"]),reverse=True)
     health["new_records"]=len(rows)-len(old.get("items",[]))

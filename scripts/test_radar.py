@@ -23,19 +23,39 @@ assert cfg["google_search_allocation"]["TW"]>cfg["google_search_allocation"]["US
 assert all("gl=TW" in x or "gl=US" in x for x in cfg["google_categories"])
 assert "hl=zh_TW&gl=US" in collector.official_url("Google Play","com.looperse.td3kingdom","US")
 assert builder.to_variant({"store":"Google Play","country":"JP","app_id":"com.test.other","name":"Other","source_url":"https://play.google.com/store/apps/details?id=com.test.other"}) is None
-assert builder.to_variant({"store":"App Store","country":"JP","app_id":"112233445","name":"Other","source_url":"https://apps.apple.com/jp/app/id112233445"}) is not None
+assert builder.to_variant({"store":"App Store","country":"JP","app_id":"112233445","name":"Other","source_url":"https://apps.apple.com/jp/app/id112233445"}) is None
+assert builder.to_variant({"store":"App Store","country":"JP","app_id":"112233445","name":"Other","source_url":"https://apps.apple.com/jp/app/id112233445","apple_game_verified":True,"apple_genre_id":"6014"}) is not None
+assert builder.to_variant({"store":"App Store","country":"TW","app_id":"112233445","name":"Utility","apple_game_verified":False,"apple_genre_id":"6002"}) is None
+assert collector.normalize({"store":"App Store","app_id":"112233445","country":"TW","name":"Utility","apple_game_verified":False,"apple_genre_id":"6002"}) is None
+assert collector.normalize({"store":"App Store","app_id":"112233445","country":"TW","name":"遊戲","apple_game_verified":True,"apple_genre_id":"6014"}) is not None
 
 assert collector.appid("https://play.google.com/store/apps/details?id=com.looperse.td3kingdom&hl=zh_TW","Google Play")=="com.looperse.td3kingdom"
 assert collector.appid("https://apps.apple.com/us/app/ungodly/id6740617332","App Store")=="6740617332"
 assert collector.date_only("2026-11-11")=="2026-11-11"
 assert collector.date_only("Nov 11, 2026")=="" # never infer an unstructured timestamp
-f={"feed":{"entry":[{"im:name":{"label":"測試新遊戲"},
+f={"feed":{"entry":[{"category":{"attributes":{"im:id":"6014","term":"Games"}},"im:name":{"label":"測試新遊戲"},
     "link":{"attributes":{"href":"https://apps.apple.com/tw/app/something/id112233445"}},
     "im:artist":{"label":"Studio Test"},
     "im:releaseDate":{"label":"2026-11-11T00:00:00Z"}}]}}
 rows=collector.apple_feed(f,"TW","newapplications")
 assert len(rows)==1 and rows[0]["app_id"]=="112233445"
 assert rows[0]["date_scope"]=="Apple 商品發行日期，非國家首發保證"
+assert rows[0]["apple_game_verified"] is True and rows[0]["apple_genre_id"]=="6014"
+assert collector.apple_rss_is_game({"category":{"attributes":{"im:id":"6014"}}})
+assert collector.apple_rss_is_game({"category":{"attributes":{"im:id":"7012"}}}),"Game subgenre must count"
+assert not collector.apple_rss_is_game({"category":{"attributes":{"im:id":"6002","term":"Utilities"}}})
+nongame={"feed":{"entry":[
+  {"category":{"attributes":{"im:id":"6002","term":"Utilities"}},"im:name":{"label":"遊戲工具"},
+   "link":{"attributes":{"href":"https://apps.apple.com/tw/app/id998877665"}}},
+  {"category":{"attributes":{"im:id":"6014","term":"Games"}},"im:name":{"label":"真正遊戲"},
+   "link":{"attributes":{"href":"https://apps.apple.com/tw/app/id998877666"}}}
+]}}
+accepted=collector.apple_feed(nongame,"TW","newapplications")
+assert [x["app_id"] for x in accepted]==["998877666"],accepted
+assert not collector.apple_lookup_is_game({"kind":"software","primaryGenreName":"Utilities","genreIds":["6002"]})
+assert collector.apple_lookup_is_game({"kind":"software","primaryGenreName":"Games","genreIds":["6014"]})
+assert collector.apple_lookup_is_game({"kind":"software","primaryGenreId":6014,"genreIds":[]})
+
 def gp(name,pid,country,rd="",status="已上市",dev="Example"):
  return {"name":name,"platforms":["Google Play"],"country":country,"region":"台灣" if country=="TW" else "國際",
     "developer":dev,"status":status,"source_url":f"https://play.google.com/store/apps/details?id={pid}&gl={country}",
@@ -44,6 +64,7 @@ def ios(name,app,country,rd="",dev="Example",pre=False):
  return {"name":name,"platforms":["App Store"],"country":country,"developer":dev,
     "source_url":f"https://apps.apple.com/{country.lower()}/app/game/id{app}",
     "release_date":rd,"preorder":pre,"source_kind":"Apple Lookup",
+    "apple_game_verified":True,"apple_genre_id":"6014",
     "first_seen_at":"2026-11-12T08:00:00+00:00"}
 catalog={"items":[
  gp("UnGodly","com.azragames.ungodly","TW","2026-11-11",dev="Azra Games"),
@@ -71,4 +92,4 @@ assert "等級99億" in lv["aliases"]
 same_name=[x for x in games if x["name"]=="同名遊戲"]
 assert len(same_name)==2,"Never merge equal titles with different developers"
 assert all(v.get("date_scope") for v in ungodly["variants"] if v["date"])
-print("PASS: four benchmark app IDs, TW/US & iOS status, language aliases, update-date safeguards, false-merge avoidance")
+print("PASS: games-only App Store RSS/Lookup filters, unverified legacy exclusion, four benchmark games, aliases and dates")

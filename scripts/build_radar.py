@@ -45,6 +45,11 @@ def to_variant(raw,matrix=None):
     r=dict(raw)
     store=r.get("store") or (r.get("platforms") or [""])[0]
     if store not in ("App Store","Google Play"):return None
+    # The App Store pane corresponds to the user's 「遊戲」 category only.
+    # Historic Apple product rows lacking official 6014 evidence are not shown
+    # until the Apple Games RSS or Lookup verification confirms them.
+    if store=="App Store" and not (r.get("apple_game_verified") is True
+                                   and str(r.get("apple_genre_id"))=="6014"):return None
     country=str(r.get("country") or ("TW" if r.get("region")=="台灣" else "US")).upper()
     if country not in COUNTRIES:return None
     # Google Play uses only TW and the owner-designated US international market;

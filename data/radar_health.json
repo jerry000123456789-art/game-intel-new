@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-16T16:46:39+00:00",
+  "updated_at": "2026-11-16T19:00:46+00:00",
   "sources": [
     {
       "kind": "Apple 遊戲分類 newapplications",
       "url": "https://itunes.apple.com/tw/rss/newapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 24,
       "excluded_non_games": 85
@@ -12,7 +12,7 @@
     {
       "kind": "Apple 遊戲分類 newfreeapplications",
       "url": "https://itunes.apple.com/tw/rss/newfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 20,
       "excluded_non_games": 89
@@ -20,7 +20,7 @@
     {
       "kind": "Apple 遊戲分類 newpaidapplications",
       "url": "https://itunes.apple.com/tw/rss/newpaidapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 29,
       "excluded_non_games": 81
@@ -28,7 +28,7 @@
     {
       "kind": "Apple 遊戲分類 topfreeapplications",
       "url": "https://itunes.apple.com/tw/rss/topfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 100,
       "excluded_non_games": 0
@@ -36,7 +36,7 @@
     {
       "kind": "Apple 遊戲分類 newapplications",
       "url": "https://itunes.apple.com/us/rss/newapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 21,
       "excluded_non_games": 86
@@ -44,7 +44,7 @@
     {
       "kind": "Apple 遊戲分類 newfreeapplications",
       "url": "https://itunes.apple.com/us/rss/newfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 22,
       "excluded_non_games": 85
@@ -52,7 +52,7 @@
     {
       "kind": "Apple 遊戲分類 newpaidapplications",
       "url": "https://itunes.apple.com/us/rss/newpaidapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 22,
       "excluded_non_games": 88
@@ -60,7 +60,7 @@
     {
       "kind": "Apple 遊戲分類 topfreeapplications",
       "url": "https://itunes.apple.com/us/rss/topfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 100,
       "excluded_non_games": 0
@@ -68,7 +68,7 @@
     {
       "kind": "Apple 遊戲分類 newapplications",
       "url": "https://itunes.apple.com/jp/rss/newapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 20,
       "excluded_non_games": 90
@@ -76,7 +76,7 @@
     {
       "kind": "Apple 遊戲分類 newfreeapplications",
       "url": "https://itunes.apple.com/jp/rss/newfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 16,
       "excluded_non_games": 94
@@ -84,7 +84,7 @@
     {
       "kind": "Apple 遊戲分類 newpaidapplications",
       "url": "https://itunes.apple.com/jp/rss/newpaidapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 29,
       "excluded_non_games": 81
@@ -92,7 +92,7 @@
     {
       "kind": "Apple 遊戲分類 topfreeapplications",
       "url": "https://itunes.apple.com/jp/rss/topfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 100,
       "excluded_non_games": 0
@@ -100,7 +100,7 @@
     {
       "kind": "Apple 遊戲分類 newapplications",
       "url": "https://itunes.apple.com/kr/rss/newapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 23,
       "excluded_non_games": 85
@@ -108,7 +108,7 @@
     {
       "kind": "Apple 遊戲分類 newfreeapplications",
       "url": "https://itunes.apple.com/kr/rss/newfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 24,
       "excluded_non_games": 84
@@ -116,7 +116,7 @@
     {
       "kind": "Apple 遊戲分類 newpaidapplications",
       "url": "https://itunes.apple.com/kr/rss/newpaidapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 32,
       "excluded_non_games": 74
@@ -124,7 +124,7 @@
     {
       "kind": "Apple 遊戲分類 topfreeapplications",
       "url": "https://itunes.apple.com/kr/rss/topfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 100,
       "excluded_non_games": 0
@@ -132,7 +132,7 @@
     {
       "kind": "Apple 遊戲分類 newapplications",
       "url": "https://itunes.apple.com/hk/rss/newapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 25,
       "excluded_non_games": 84
@@ -140,7 +140,7 @@
     {
       "kind": "Apple 遊戲分類 newfreeapplications",
       "url": "https://itunes.apple.com/hk/rss/newfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 25,
       "excluded_non_games": 85
@@ -148,7 +148,7 @@
     {
       "kind": "Apple 遊戲分類 newpaidapplications",
       "url": "https://itunes.apple.com/hk/rss/newpaidapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 35,
       "excluded_non_games": 71
@@ -156,7 +156,7 @@
     {
       "kind": "Apple 遊戲分類 topfreeapplications",
       "url": "https://itunes.apple.com/hk/rss/topfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 100,
       "excluded_non_games": 0
@@ -164,7 +164,7 @@
     {
       "kind": "Apple 遊戲分類 newapplications",
       "url": "https://itunes.apple.com/sg/rss/newapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 15,
       "excluded_non_games": 89
@@ -172,7 +172,7 @@
     {
       "kind": "Apple 遊戲分類 newfreeapplications",
       "url": "https://itunes.apple.com/sg/rss/newfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 14,
       "excluded_non_games": 90
@@ -180,7 +180,7 @@
     {
       "kind": "Apple 遊戲分類 newpaidapplications",
       "url": "https://itunes.apple.com/sg/rss/newpaidapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 10,
       "excluded_non_games": 99
@@ -188,7 +188,7 @@
     {
       "kind": "Apple 遊戲分類 topfreeapplications",
       "url": "https://itunes.apple.com/sg/rss/topfreeapplications/limit=100/genre=6014/json",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 100,
       "excluded_non_games": 0
@@ -196,995 +196,969 @@
     {
       "kind": "Google Play 分類",
       "url": "https://play.google.com/store/games?hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
-      "count": 77
+      "count": 60
     },
     {
       "kind": "Google Play 分類",
       "url": "https://play.google.com/store/games?hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
-      "count": 86
+      "count": 85
     },
     {
       "kind": "Google Play 分類",
       "url": "https://play.google.com/store/apps/collection/promotion_3000000d51_pre_registration_games?hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 20
     },
     {
       "kind": "Google Play 分類",
       "url": "https://play.google.com/store/apps/collection/promotion_3000000d51_pre_registration_games?hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 20
     },
     {
       "kind": "Google Play 搜尋",
+      "url": "https://play.google.com/store/search?q=%E6%96%B0%E6%89%8B%E9%81%8A&c=apps&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
+      "state": "success",
+      "count": 30
+    },
+    {
+      "kind": "Google Play 搜尋",
+      "url": "https://play.google.com/store/search?q=pre+register+game&c=apps&hl=zh_TW&gl=US",
+      "checked_at": "2026-11-16T19:00:46+00:00",
+      "state": "success",
+      "count": 30
+    },
+    {
+      "kind": "Google Play 搜尋",
+      "url": "https://play.google.com/store/search?q=new+mobile+games&c=apps&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
+      "state": "success",
+      "count": 30
+    },
+    {
+      "kind": "Google Play 搜尋",
+      "url": "https://play.google.com/store/search?q=upcoming+games&c=apps&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
+      "state": "success",
+      "count": 30
+    },
+    {
+      "kind": "Google Play 搜尋",
+      "url": "https://play.google.com/store/search?q=new+rpg&c=apps&hl=zh_TW&gl=US",
+      "checked_at": "2026-11-16T19:00:46+00:00",
+      "state": "success",
+      "count": 23
+    },
+    {
+      "kind": "Google Play 搜尋",
+      "url": "https://play.google.com/store/search?q=idle+rpg&c=apps&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
+      "state": "success",
+      "count": 30
+    },
+    {
+      "kind": "Google Play 搜尋",
       "url": "https://play.google.com/store/search?q=tower+defense&c=apps&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 29
     },
     {
       "kind": "Google Play 搜尋",
       "url": "https://play.google.com/store/search?q=strategy+game&c=apps&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 30
     },
     {
       "kind": "Google Play 搜尋",
       "url": "https://play.google.com/store/search?q=%E5%8D%A1%E7%89%8C%E6%96%B0%E9%81%8A%E6%88%B2&c=apps&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
-      "count": 9
+      "count": 11
     },
     {
       "kind": "Google Play 搜尋",
       "url": "https://play.google.com/store/search?q=%E4%B8%89%E5%9C%8B%E9%81%8A%E6%88%B2&c=apps&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 30
     },
     {
       "kind": "Google Play 搜尋",
       "url": "https://play.google.com/store/search?q=new+action+rpg&c=apps&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
-      "count": 11
+      "count": 13
     },
     {
       "kind": "Google Play 搜尋",
       "url": "https://play.google.com/store/search?q=online+game&c=apps&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
-      "state": "success",
-      "count": 30
-    },
-    {
-      "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=%E6%96%B0%E4%B8%8A%E5%B8%82%E9%81%8A%E6%88%B2&c=apps&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
-      "state": "success",
-      "count": 30
-    },
-    {
-      "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=%E9%A0%90%E5%85%88%E8%A8%BB%E5%86%8A%E9%81%8A%E6%88%B2&c=apps&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
-      "state": "success",
-      "count": 30
-    },
-    {
-      "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=%E6%96%B0%E9%81%8A%E6%88%B2&c=apps&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
-      "state": "success",
-      "count": 30
-    },
-    {
-      "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=%E5%8D%B3%E5%B0%87%E4%B8%8A%E5%B8%82+RPG&c=apps&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
-      "state": "success",
-      "count": 29
-    },
-    {
-      "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=%E5%A1%94%E9%98%B2+%E6%96%B0%E9%81%8A%E6%88%B2&c=apps&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
-      "state": "success",
-      "count": 8
-    },
-    {
-      "kind": "Google Play 搜尋",
-      "url": "https://play.google.com/store/search?q=%E6%94%BE%E7%BD%AE+%E9%81%8A%E6%88%B2&c=apps&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 30
     },
     {
       "kind": "Google 公開搜尋",
-      "url": "https://www.google.com/search?q=new%20action%20rpg",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://www.google.com/search?q=online%20game",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google 公開搜尋",
-      "url": "https://www.google.com/search?q=%E5%A1%94%E9%98%B2%20%E6%96%B0%E9%81%8A%E6%88%B2",
-      "checked_at": "2026-11-16T16:46:39+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.curiousdotlab.level99&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.looperse.td3kingdom&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.looperse.td3kingdom&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.jiys.mfqb&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.azragames.ungodly&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://www.google.com/search?q=%E6%94%BE%E7%BD%AE%20%E9%81%8A%E6%88%B2",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
       "url": "https://play.google.com/store/apps/details?id=com.azragames.ungodly&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
       "url": "https://play.google.com/store/apps/details?id=com.jiys.mfqb&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=v.pointerId&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.curiousdotlab.level99&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Google Play 商品核實",
+      "url": "https://play.google.com/store/apps/details?id=com.jiys.mfqb&hl=zh_TW&gl=US",
+      "checked_at": "2026-11-16T19:00:46+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Google Play 商品核實",
+      "url": "https://play.google.com/store/apps/details?id=com.looperse.td3kingdom&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Google Play 商品核實",
+      "url": "https://play.google.com/store/apps/details?id=com.looperse.td3kingdom&hl=zh_TW&gl=US",
+      "checked_at": "2026-11-16T19:00:46+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Google Play 商品核實",
+      "url": "https://play.google.com/store/apps/details?id=com.azragames.ungodly&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Google Play 商品核實",
+      "url": "https://play.google.com/store/apps/details?id=P.pointerId&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "error",
       "count": 0,
       "error": "HTTP Error 404: Not Found"
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.esgame.app.spotfind&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Google Play 商品核實",
       "url": "https://play.google.com/store/apps/details?id=com.curiousdotlab.level99&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.brandedbrothers.memogame&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.lhy.ssjj&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.cedargames.mysterytown&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.FireblastStudios.GameofIdle&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.hedgehogacademy.notliketheotherslite&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.blueoceanheart.cf3&hl=zh_TW&gl=US",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=jp.co.koeitecmo.Mighttc&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.m2en.and&hl=zh_TW&gl=US",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.tw.king&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.aisuccess.ai_game_master&hl=zh_TW&gl=US",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.disruptorbeam.StarTrekTimelines&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.ndreamgames.wod&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.puzzlegame.match.jewels.adventure&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.farlightgames.xgame.gp.tw&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.nianticlabs.monsterhunter&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.mover.twmlbb&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.gryphline.endfield.gp&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.matteljv.uno&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=kemco.execreate.isekaipremium&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.sxkj.lmfb&hl=zh_TW&gl=US",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.hedgehogacademy.memoryattentionlite&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.lcfjjoy.gfsg&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.hunters.legacy&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.miramerge&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.MojikenStudio.WhenPastWasAround&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.neptune.dawnsedge&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.superpixel.undyinghero&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.luma.IdleFarm&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.ewgame.app.spotdiffer3&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.userjoy.szm&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.MonsterPlanet.CatIdleRpg&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.com2us.chronicles.android.google.us.normal&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.sofish.tilecalm.gp&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=air.com.PixelFederation.Emporea&hl=zh_TW&gl=US",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.HolydayStudios.Firestone&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=tower.defense.survival.arena&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.sanopy.ra&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=net.hexage.ritual&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=kidultlovin.word.zen&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.nekki.shadowfightarena&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=kemco.hitpoint.tokeitou&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.snowprintstudios.tacticus&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.chillyroom.happy&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.socialquantum.acityint&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.pujiagames.IslandTime&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.whoyaho.tanghulu&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.madhead.tos.zh&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.earlymorningstudio.vampiresfall2&hl=zh_TW&gl=US",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=kemco.execreate.franedragonsodyssey&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.sanguosp.twgp&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=us.leephillips.lights&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=ludo.checkers.online.board.game&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.eurekastudio.hidemytest&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.ndemiccreations.rebelinc&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=in.playsimple.wordsearch&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.bandainamcoent.dblegends_ww&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=com.playstrom.dop2&hl=zh_TW&gl=US",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=com.ChillyRoom.DungeonShooter&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Google Play 商品核實",
+      "url": "https://play.google.com/store/apps/details?id=com.artifexmundi.balefire&hl=zh_TW&gl=US",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/jp/app/id6759586196",
-      "checked_at": "2026-11-16T16:46:39+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/tw/app/id6740617332",
-      "checked_at": "2026-11-16T16:46:39+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/sg/app/id6834298648",
-      "checked_at": "2026-11-16T16:46:39+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id6740617332",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/tw/app/id6754059516",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
       "url": "https://apps.apple.com/jp/app/id6740617332",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/kr/app/id6737022506",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/tw/app/id1441199787",
+      "checked_at": "2026-11-16T19:00:46+00:00",
+      "state": "success",
+      "count": 1
+    },
+    {
+      "kind": "Apple 遊戲分類 Lookup",
+      "url": "https://apps.apple.com/us/app/id6740617332",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
       "url": "https://apps.apple.com/kr/app/id6740617332",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/hk/app/id1229016807",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/kr/app/id6468921495",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/jp/app/id1229016807",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/hk/app/id6756185760",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id1193508329",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/sg/app/id6612014908",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/kr/app/id1229016807",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/tw/app/id6740617332",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/tw/app/id6747710694",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/kr/app/id6754059516",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/sg/app/id1193508329",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/us/app/id6446466397",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/sg/app/id1222857607",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/hk/app/id6758712618",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/kr/app/id1193508329",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/us/app/id6754894237",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/tw/app/id6762192063",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/us/app/id6473898665",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id6740966864",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/us/app/id6753945058",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id6746749685",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/us/app/id6738115970",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id991153141",
-      "checked_at": "2026-11-16T16:46:39+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id1053012308",
-      "checked_at": "2026-11-16T16:46:39+00:00",
-      "state": "success",
-      "count": 1
+      "url": "https://apps.apple.com/us/app/id6761439153",
+      "checked_at": "2026-11-16T19:00:46+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no Games 6014 result; country/category inconclusive"
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id6759098797",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/us/app/id6768982299",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id6751270546",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id938506958",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id1300146617",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id6744205088",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id6741567125",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id1322310031",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id6443755785",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id1439417234",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id1482155847",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id6739130049",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id479516143",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id1032346221",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id1229016807",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id1098342019",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id6449094229",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id1478978570",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id1606356401",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id6756780731",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id1371565796",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id742625884",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id6826606004",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id6815742588",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id1496227521",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id6746784702",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id466965151",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id962969578",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id6670792878",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id924373886",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id6790322035",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id6480396367",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id1098342019",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id1659992476",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id6819164973",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id1451427298",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id1589914368",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id6739131192",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id6759608688",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id6752607219",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id526641427",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id6823766101",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id1458709427",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id6819187251",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id893677096",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id6818649301",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id1534460779",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id6818071964",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id6826587140",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id6772127766",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id456355158",
-      "checked_at": "2026-11-16T16:46:39+00:00",
-      "state": "success",
-      "count": 1
-    },
-    {
-      "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id555936735",
-      "checked_at": "2026-11-16T16:46:39+00:00",
-      "state": "success",
-      "count": 1
+      "url": "https://apps.apple.com/jp/app/id6815521125",
+      "checked_at": "2026-11-16T19:00:46+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no Games 6014 result; country/category inconclusive"
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id516378985",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id6826219961",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/sg/app/id6796547048",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/us/app/id6471045672",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id6796547048",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id1621328561",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id1024506959",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/sg/app/id6472396866",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/tw/app/id6796547048",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/kr/app/id6471045672",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id403858572",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/tw/app/id6471045672",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/jp/app/id6796547048",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id6809402268",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/kr/app/id6796547048",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/us/app/id6468921495",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id6793924927",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/hk/app/id6469495213",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/kr/app/id6795797684",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/sg/app/id6471045672",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/tw/app/id6795531178",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/sg/app/id6468921495",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/hk/app/id6795829020",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id6471045672",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/tw/app/id6793924927",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id6468921495",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/kr/app/id6793924927",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/hk/app/id6467041463",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/jp/app/id6793924927",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/tw/app/id6468921495",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/hk/app/id6793924927",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/hk/app/id6451399876",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/sg/app/id6793924927",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/hk/app/id6448392144",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/sg/app/id6793014208",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/tw/app/id6448104157",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/jp/app/id6791394610",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/sg/app/id6448104157",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/tw/app/id6791082427",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/us/app/id6446197181",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/sg/app/id6791890657",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/tw/app/id6448721818",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/hk/app/id6791394610",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/us/app/id6443575749",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/kr/app/id6792678112",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/kr/app/id6446265751",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/tw/app/id6790720778",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id6444520814",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/kr/app/id6791394610",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/hk/app/id6444551035",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id6790067839",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/hk/app/id6443755785",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/hk/app/id6790637624",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/kr/app/id6444274471",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/kr/app/id6789467258",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/tw/app/id6443575749",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/tw/app/id6789467258",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/kr/app/id6443575749",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/hk/app/id6789467258",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id6443575749",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/kr/app/id6790010650",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/tw/app/id638689075",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/tw/app/id6790637624",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/hk/app/id6443575749",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/tw/app/id6786589102",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/us/app/id638689075",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/sg/app/id6789141946",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/sg/app/id638689075",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id6787414784",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/sg/app/id6443575749",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/jp/app/id6789467258",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/kr/app/id638689075",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/jp/app/id6786589102",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/hk/app/id638689075",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     },
     {
       "kind": "Apple 遊戲分類 Lookup",
-      "url": "https://apps.apple.com/us/app/id6786206777",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://apps.apple.com/jp/app/id638689075",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "success",
       "count": 1
     }
@@ -1192,16 +1166,32 @@
   "errors": [
     {
       "kind": "Google Play 商品核實",
-      "url": "https://play.google.com/store/apps/details?id=v.pointerId&hl=zh_TW&gl=TW",
-      "checked_at": "2026-11-16T16:46:39+00:00",
+      "url": "https://play.google.com/store/apps/details?id=P.pointerId&hl=zh_TW&gl=TW",
+      "checked_at": "2026-11-16T19:00:46+00:00",
       "state": "error",
       "count": 0,
       "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "Apple 遊戲分類 Lookup",
+      "url": "https://apps.apple.com/us/app/id6761439153",
+      "checked_at": "2026-11-16T19:00:46+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no Games 6014 result; country/category inconclusive"
+    },
+    {
+      "kind": "Apple 遊戲分類 Lookup",
+      "url": "https://apps.apple.com/jp/app/id6815521125",
+      "checked_at": "2026-11-16T19:00:46+00:00",
+      "state": "error",
+      "count": 0,
+      "error": "Apple API no Games 6014 result; country/category inconclusive"
     }
   ],
-  "new_records": 46,
-  "attempts": 166,
+  "new_records": 73,
+  "attempts": 162,
   "scope": "公開商店與搜尋資料；不保證各市場全部新上架遊戲",
   "note": "Google 搜尋／App Store RSS 屬部分清單；Apple 僅收錄官方遊戲分類 6014（含遊戲子類別），不以更新日替代首發。",
-  "collected_variants": 2816
+  "collected_variants": 2889
 }

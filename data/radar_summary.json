@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-19T07:26:31+00:00",
-  "total_games": 2622,
-  "total_store_variants": 3601,
+  "updated_at": "2026-11-19T10:16:13+00:00",
+  "total_games": 2633,
+  "total_store_variants": 3616,
   "recent_30days": 314,
   "upcoming": 30,
-  "preregistration": 25,
+  "preregistration": 27,
   "scope": "遊戲身份去重後統計，非各商店全球全部遊戲數"
 }
